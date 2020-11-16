@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Client.IServiceClient
+  commentId: T:Mcma.Client.IServiceClient
+  id: IServiceClient
+  parent: Mcma.Client
+  children:
+  - Mcma.Client.IServiceClient.GetResourceEndpointClient``1
+  - Mcma.Client.IServiceClient.HasResourceEndpointClient``1
+  langs:
+  - csharp
+  - vb
+  name: IServiceClient
+  nameWithType: IServiceClient
+  fullName: Mcma.Client.IServiceClient
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/IServiceClient.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IServiceClient
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/IServiceClient.cs
+    startLine: 2
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: public interface IServiceClient
+    content.vb: Public Interface IServiceClient
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Client.IServiceClient.HasResourceEndpointClient``1
+  commentId: M:Mcma.Client.IServiceClient.HasResourceEndpointClient``1
+  id: HasResourceEndpointClient``1
+  parent: Mcma.Client.IServiceClient
+  langs:
+  - csharp
+  - vb
+  name: HasResourceEndpointClient<T>()
+  nameWithType: IServiceClient.HasResourceEndpointClient<T>()
+  fullName: Mcma.Client.IServiceClient.HasResourceEndpointClient<T>()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/IServiceClient.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: HasResourceEndpointClient
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/IServiceClient.cs
+    startLine: 4
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: bool HasResourceEndpointClient<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Function HasResourceEndpointClient(Of T) As Boolean
+  overload: Mcma.Client.IServiceClient.HasResourceEndpointClient*
+  nameWithType.vb: IServiceClient.HasResourceEndpointClient(Of T)()
+  fullName.vb: Mcma.Client.IServiceClient.HasResourceEndpointClient(Of T)()
+  name.vb: HasResourceEndpointClient(Of T)()
+- uid: Mcma.Client.IServiceClient.GetResourceEndpointClient``1
+  commentId: M:Mcma.Client.IServiceClient.GetResourceEndpointClient``1
+  id: GetResourceEndpointClient``1
+  parent: Mcma.Client.IServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetResourceEndpointClient<T>()
+  nameWithType: IServiceClient.GetResourceEndpointClient<T>()
+  fullName: Mcma.Client.IServiceClient.GetResourceEndpointClient<T>()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/IServiceClient.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetResourceEndpointClient
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/IServiceClient.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: IResourceEndpointClient GetResourceEndpointClient<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: Mcma.Client.IResourceEndpointClient
+    content.vb: Function GetResourceEndpointClient(Of T) As IResourceEndpointClient
+  overload: Mcma.Client.IServiceClient.GetResourceEndpointClient*
+  nameWithType.vb: IServiceClient.GetResourceEndpointClient(Of T)()
+  fullName.vb: Mcma.Client.IServiceClient.GetResourceEndpointClient(Of T)()
+  name.vb: GetResourceEndpointClient(Of T)()
+references:
+- uid: Mcma.Client
+  commentId: N:Mcma.Client
+  name: Mcma.Client
+  nameWithType: Mcma.Client
+  fullName: Mcma.Client
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Client.IServiceClient.HasResourceEndpointClient*
+  commentId: Overload:Mcma.Client.IServiceClient.HasResourceEndpointClient
+  name: HasResourceEndpointClient
+  nameWithType: IServiceClient.HasResourceEndpointClient
+  fullName: Mcma.Client.IServiceClient.HasResourceEndpointClient
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Client.IServiceClient.GetResourceEndpointClient*
+  commentId: Overload:Mcma.Client.IServiceClient.GetResourceEndpointClient
+  name: GetResourceEndpointClient
+  nameWithType: IServiceClient.GetResourceEndpointClient
+  fullName: Mcma.Client.IServiceClient.GetResourceEndpointClient
+- uid: Mcma.Client.IResourceEndpointClient
+  commentId: T:Mcma.Client.IResourceEndpointClient
+  parent: Mcma.Client
+  name: IResourceEndpointClient
+  nameWithType: IResourceEndpointClient
+  fullName: Mcma.Client.IResourceEndpointClient

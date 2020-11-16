@@ -1,0 +1,106 @@
+### YamlMime:UniversalReference
+items:
+  - uid: worker.WorkerRequest
+    name: WorkerRequest
+    fullName: WorkerRequest
+    children:
+      - worker.WorkerRequest.input
+      - worker.WorkerRequest.logger
+      - worker.WorkerRequest.operationName
+      - worker.WorkerRequest.tracker
+      - worker.WorkerRequest.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: worker
+  - uid: worker.WorkerRequest.input
+    name: input
+    fullName: input
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'input?: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: worker
+  - uid: worker.WorkerRequest.logger
+    name: logger
+    fullName: logger
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'logger?: Logger'
+      return:
+        type:
+          - Logger
+        description: ''
+    package: worker
+  - uid: worker.WorkerRequest.operationName
+    name: operationName
+    fullName: operationName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'operationName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: worker
+  - uid: worker.WorkerRequest.tracker
+    name: tracker
+    fullName: tracker
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'tracker?: McmaTrackerProperties'
+      return:
+        type:
+          - McmaTrackerProperties
+        description: ''
+    package: worker
+  - uid: worker.WorkerRequest.constructor
+    name: 'WorkerRequest(WorkerRequestProperties, Logger)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new WorkerRequest(request: WorkerRequestProperties, logger?: Logger)'
+      parameters:
+        - id: request
+          type:
+            - worker.WorkerRequestProperties
+          description: ''
+        - id: logger
+          type:
+            - Logger
+          description: ''
+          optional: true
+    package: worker
+references:
+  - uid: worker.WorkerRequestProperties
+    name: WorkerRequestProperties
+    spec.typeScript:
+      - name: WorkerRequestProperties
+        fullName: WorkerRequestProperties
+        uid: worker.WorkerRequestProperties

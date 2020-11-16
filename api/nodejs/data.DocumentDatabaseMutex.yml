@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: data.DocumentDatabaseMutex
+    name: DocumentDatabaseMutex
+    fullName: DocumentDatabaseMutex
+    children:
+      - data.DocumentDatabaseMutex.lock
+      - data.DocumentDatabaseMutex.mutexName
+      - data.DocumentDatabaseMutex.unlock
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: data
+  - uid: data.DocumentDatabaseMutex.lock
+    name: lock()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function lock()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: data
+  - uid: data.DocumentDatabaseMutex.mutexName
+    name: mutexName
+    fullName: mutexName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public mutexName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: data
+  - uid: data.DocumentDatabaseMutex.unlock
+    name: unlock()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unlock()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: data

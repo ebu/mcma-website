@@ -1,0 +1,77 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-blob-storage.BlobStorageLocator
+    name: BlobStorageLocator
+    fullName: BlobStorageLocator
+    children:
+      - azure-blob-storage.BlobStorageLocator.@type
+      - azure-blob-storage.BlobStorageLocator.container
+      - azure-blob-storage.BlobStorageLocator.storageAccountName
+      - azure-blob-storage.BlobStorageLocator.url
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: Locator
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageLocator.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageLocator.container
+    name: container
+    fullName: container
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'container: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageLocator.storageAccountName
+    name: storageAccountName
+    fullName: storageAccountName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'storageAccountName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageLocator.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string url
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-blob-storage

@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-lambda-worker-invoker.LambdaWorkerInvoker
+    name: LambdaWorkerInvoker
+    fullName: LambdaWorkerInvoker
+    children:
+      - aws-lambda-worker-invoker.LambdaWorkerInvoker.invoke
+      - aws-lambda-worker-invoker.LambdaWorkerInvoker.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: WorkerInvoker
+    package: aws-lambda-worker-invoker
+  - uid: aws-lambda-worker-invoker.LambdaWorkerInvoker.invoke
+    name: 'invoke(string, WorkerRequestProperties)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function invoke(workerFunctionId: string, workerRequest:
+        WorkerRequestProperties)
+      parameters:
+        - id: workerFunctionId
+          type:
+            - string
+          description: ''
+        - id: workerRequest
+          type:
+            - WorkerRequestProperties
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: aws-lambda-worker-invoker
+  - uid: aws-lambda-worker-invoker.LambdaWorkerInvoker.constructor
+    name: LambdaWorkerInvoker()
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new LambdaWorkerInvoker()
+      parameters: []
+    package: aws-lambda-worker-invoker

@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.McmaResourceConstructor
+    name: McmaResourceConstructor
+    fullName: McmaResourceConstructor<T>
+    children:
+      - core.McmaResourceConstructor.constructor
+      - core.McmaResourceConstructor.name
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: core
+  - uid: core.McmaResourceConstructor.constructor
+    name: 'McmaResourceConstructor(any[])'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new McmaResourceConstructor(args: any[])'
+      parameters:
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.McmaResourceConstructor.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core

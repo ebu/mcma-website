@@ -1,0 +1,92 @@
+### YamlMime:UniversalReference
+items:
+  - uid: data.FilterCriteria
+    name: FilterCriteria
+    fullName: FilterCriteria<T>
+    children:
+      - data.FilterCriteria.constructor
+      - data.FilterCriteria.operator
+      - data.FilterCriteria.propertyName
+      - data.FilterCriteria.propertyValue
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: data
+  - uid: data.FilterCriteria.constructor
+    name: 'FilterCriteria(K, BinaryOperator, Object)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new FilterCriteria(propertyName: K, operator: BinaryOperator,
+        propertyValue: Object)
+      parameters:
+        - id: propertyName
+          type:
+            - K
+          description: ''
+        - id: operator
+          type:
+            - data.BinaryOperator
+          description: ''
+        - id: propertyValue
+          type:
+            - Object
+          description: ''
+    package: data
+  - uid: data.FilterCriteria.operator
+    name: operator
+    fullName: operator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'operator: BinaryOperator'
+      return:
+        type:
+          - data.BinaryOperator
+        description: ''
+    package: data
+  - uid: data.FilterCriteria.propertyName
+    name: propertyName
+    fullName: propertyName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'propertyName: K'
+      return:
+        type:
+          - K
+        description: ''
+    package: data
+  - uid: data.FilterCriteria.propertyValue
+    name: propertyValue
+    fullName: propertyValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'propertyValue: Object'
+      return:
+        type:
+          - Object
+        description: ''
+    package: data
+references:
+  - uid: data.BinaryOperator
+    name: BinaryOperator
+    spec.typeScript:
+      - name: BinaryOperator
+        fullName: BinaryOperator
+        uid: data.BinaryOperator

@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-functions-worker.createWorkerRequest
+    name: createWorkerRequest(Context)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createWorkerRequest(context: Context)'
+      parameters:
+        - id: context
+          type:
+            - Context
+          description: ''
+      return:
+        type:
+          - WorkerRequest
+        description: ''
+    package: azure-functions-worker

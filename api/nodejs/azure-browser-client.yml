@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-browser-client
+    name: "@mcma/azure-browser-client"
+    summary: ""
+    children:
+      - azure-browser-client.AzureAdAuthContext
+      - azure-browser-client.azureAdPublicClientAuth
+      - azure-browser-client.AzureAdPublicClientAccessTokenProvider
+      - azure-browser-client.ConfigurationWithTenant
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: azure-browser-client.AzureAdAuthContext
+    name: AzureAdAuthContext
+  - uid: azure-browser-client.azureAdPublicClientAuth
+    name: azureAdPublicClientAuth(ConfigurationWithTenant, AccountInfo)
+  - uid: azure-browser-client.AzureAdPublicClientAccessTokenProvider
+    name: AzureAdPublicClientAccessTokenProvider
+  - uid: azure-browser-client.ConfigurationWithTenant
+    name: ConfigurationWithTenant

@@ -1,0 +1,321 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor`1
+  id: IDefaultRouteQueryExecutor`1
+  parent: Mcma.Api.Routing.Defaults.Routes
+  children:
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor`1.ExecuteQueryAsync(Mcma.Api.McmaApiRequestContext,Mcma.Data.IDocumentDatabaseTable)
+  langs:
+  - csharp
+  - vb
+  name: IDefaultRouteQueryExecutor<TResource>
+  nameWithType: IDefaultRouteQueryExecutor<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor<TResource>
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.Api/Routing/Defaults/Query/IDefaultRouteQueryExecutor.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IDefaultRouteQueryExecutor
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Routing/Defaults/Query/IDefaultRouteQueryExecutor.cs
+    startLine: 5
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api.Routing.Defaults.Routes
+  syntax:
+    content: public interface IDefaultRouteQueryExecutor<TResource>
+    typeParameters:
+    - id: TResource
+    content.vb: Public Interface IDefaultRouteQueryExecutor(Of TResource)
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  nameWithType.vb: IDefaultRouteQueryExecutor(Of TResource)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor(Of TResource)
+  name.vb: IDefaultRouteQueryExecutor(Of TResource)
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor`1.ExecuteQueryAsync(Mcma.Api.McmaApiRequestContext,Mcma.Data.IDocumentDatabaseTable)
+  commentId: M:Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor`1.ExecuteQueryAsync(Mcma.Api.McmaApiRequestContext,Mcma.Data.IDocumentDatabaseTable)
+  id: ExecuteQueryAsync(Mcma.Api.McmaApiRequestContext,Mcma.Data.IDocumentDatabaseTable)
+  parent: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor`1
+  langs:
+  - csharp
+  - vb
+  name: ExecuteQueryAsync(McmaApiRequestContext, IDocumentDatabaseTable)
+  nameWithType: IDefaultRouteQueryExecutor<TResource>.ExecuteQueryAsync(McmaApiRequestContext, IDocumentDatabaseTable)
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor<TResource>.ExecuteQueryAsync(Mcma.Api.McmaApiRequestContext, Mcma.Data.IDocumentDatabaseTable)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Api/Routing/Defaults/Query/IDefaultRouteQueryExecutor.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ExecuteQueryAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Routing/Defaults/Query/IDefaultRouteQueryExecutor.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api.Routing.Defaults.Routes
+  syntax:
+    content: Task<QueryResults<TResource>> ExecuteQueryAsync(McmaApiRequestContext requestContext, IDocumentDatabaseTable table)
+    parameters:
+    - id: requestContext
+      type: Mcma.Api.McmaApiRequestContext
+    - id: table
+      type: Mcma.Data.IDocumentDatabaseTable
+    return:
+      type: System.Threading.Tasks.Task{Mcma.QueryResults{{TResource}}}
+    content.vb: Function ExecuteQueryAsync(requestContext As McmaApiRequestContext, table As IDocumentDatabaseTable) As Task(Of QueryResults(Of TResource))
+  overload: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor`1.ExecuteQueryAsync*
+  nameWithType.vb: IDefaultRouteQueryExecutor(Of TResource).ExecuteQueryAsync(McmaApiRequestContext, IDocumentDatabaseTable)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor(Of TResource).ExecuteQueryAsync(Mcma.Api.McmaApiRequestContext, Mcma.Data.IDocumentDatabaseTable)
+references:
+- uid: Mcma.Api.Routing.Defaults.Routes
+  commentId: N:Mcma.Api.Routing.Defaults.Routes
+  name: Mcma.Api.Routing.Defaults.Routes
+  nameWithType: Mcma.Api.Routing.Defaults.Routes
+  fullName: Mcma.Api.Routing.Defaults.Routes
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor`1.ExecuteQueryAsync*
+  commentId: Overload:Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor`1.ExecuteQueryAsync
+  name: ExecuteQueryAsync
+  nameWithType: IDefaultRouteQueryExecutor<TResource>.ExecuteQueryAsync
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor<TResource>.ExecuteQueryAsync
+  nameWithType.vb: IDefaultRouteQueryExecutor(Of TResource).ExecuteQueryAsync
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor(Of TResource).ExecuteQueryAsync
+- uid: Mcma.Api.McmaApiRequestContext
+  commentId: T:Mcma.Api.McmaApiRequestContext
+  parent: Mcma.Api
+  name: McmaApiRequestContext
+  nameWithType: McmaApiRequestContext
+  fullName: Mcma.Api.McmaApiRequestContext
+- uid: Mcma.Data.IDocumentDatabaseTable
+  commentId: T:Mcma.Data.IDocumentDatabaseTable
+  parent: Mcma.Data
+  name: IDocumentDatabaseTable
+  nameWithType: IDocumentDatabaseTable
+  fullName: Mcma.Data.IDocumentDatabaseTable
+- uid: System.Threading.Tasks.Task{Mcma.QueryResults{{TResource}}}
+  commentId: T:System.Threading.Tasks.Task{Mcma.QueryResults{``0}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<QueryResults<TResource>>
+  nameWithType: Task<QueryResults<TResource>>
+  fullName: System.Threading.Tasks.Task<Mcma.QueryResults<TResource>>
+  nameWithType.vb: Task(Of QueryResults(Of TResource))
+  fullName.vb: System.Threading.Tasks.Task(Of Mcma.QueryResults(Of TResource))
+  name.vb: Task(Of QueryResults(Of TResource))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.QueryResults`1
+    name: QueryResults
+    nameWithType: QueryResults
+    fullName: Mcma.QueryResults
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.QueryResults`1
+    name: QueryResults
+    nameWithType: QueryResults
+    fullName: Mcma.QueryResults
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api
+  commentId: N:Mcma.Api
+  name: Mcma.Api
+  nameWithType: Mcma.Api
+  fullName: Mcma.Api
+- uid: Mcma.Data
+  commentId: N:Mcma.Data
+  name: Mcma.Data
+  nameWithType: Mcma.Data
+  fullName: Mcma.Data
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

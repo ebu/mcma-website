@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Storage
+  commentId: N:Mcma.GoogleCloud.Storage
+  id: Mcma.GoogleCloud.Storage
+  children:
+  - Mcma.GoogleCloud.Storage.CloudStorageFileLocator
+  - Mcma.GoogleCloud.Storage.CloudStorageFolderLocator
+  - Mcma.GoogleCloud.Storage.CloudStorageLocator
+  - Mcma.GoogleCloud.Storage.CloudStorageLocatorHelper
+  langs:
+  - csharp
+  - vb
+  name: Mcma.GoogleCloud.Storage
+  nameWithType: Mcma.GoogleCloud.Storage
+  fullName: Mcma.GoogleCloud.Storage
+  type: Namespace
+  assemblies:
+  - Mcma.GoogleCloud.Storage
+references:
+- uid: Mcma.GoogleCloud.Storage.CloudStorageFileLocator
+  commentId: T:Mcma.GoogleCloud.Storage.CloudStorageFileLocator
+  parent: Mcma.GoogleCloud.Storage
+  name: CloudStorageFileLocator
+  nameWithType: CloudStorageFileLocator
+  fullName: Mcma.GoogleCloud.Storage.CloudStorageFileLocator
+- uid: Mcma.GoogleCloud.Storage.CloudStorageFolderLocator
+  commentId: T:Mcma.GoogleCloud.Storage.CloudStorageFolderLocator
+  parent: Mcma.GoogleCloud.Storage
+  name: CloudStorageFolderLocator
+  nameWithType: CloudStorageFolderLocator
+  fullName: Mcma.GoogleCloud.Storage.CloudStorageFolderLocator
+- uid: Mcma.GoogleCloud.Storage.CloudStorageLocator
+  commentId: T:Mcma.GoogleCloud.Storage.CloudStorageLocator
+  parent: Mcma.GoogleCloud.Storage
+  name: CloudStorageLocator
+  nameWithType: CloudStorageLocator
+  fullName: Mcma.GoogleCloud.Storage.CloudStorageLocator
+- uid: Mcma.GoogleCloud.Storage.CloudStorageLocatorHelper
+  commentId: T:Mcma.GoogleCloud.Storage.CloudStorageLocatorHelper
+  parent: Mcma.GoogleCloud.Storage
+  name: CloudStorageLocatorHelper
+  nameWithType: CloudStorageLocatorHelper
+  fullName: Mcma.GoogleCloud.Storage.CloudStorageLocatorHelper
+- uid: Mcma.GoogleCloud.Storage
+  commentId: N:Mcma.GoogleCloud.Storage
+  name: Mcma.GoogleCloud.Storage
+  nameWithType: Mcma.GoogleCloud.Storage
+  fullName: Mcma.GoogleCloud.Storage

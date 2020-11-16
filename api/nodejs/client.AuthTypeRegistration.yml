@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: client.AuthTypeRegistration
+    name: AuthTypeRegistration
+    fullName: AuthTypeRegistration<T>
+    children:
+      - client.AuthTypeRegistration.authenticatorFactory
+      - client.AuthTypeRegistration.authType
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: client
+  - uid: client.AuthTypeRegistration.authenticatorFactory
+    name: authenticatorFactory
+    fullName: authenticatorFactory
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'authenticatorFactory: AuthenticatorFactory<T>'
+      return:
+        type:
+          - client.AuthenticatorFactory<T>
+        description: ''
+    package: client
+  - uid: client.AuthTypeRegistration.authType
+    name: authType
+    fullName: authType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'authType: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: client
+references:
+  - uid: client.AuthenticatorFactory<T>
+    name: AuthenticatorFactory<T>
+    spec.typeScript:
+      - name: AuthenticatorFactory
+        fullName: AuthenticatorFactory
+        uid: client.AuthenticatorFactory
+      - name: <T>
+        fullName: <T>

@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: api.URITemplate
+    name: URITemplate
+    fullName: URITemplate
+    children:
+      - api.URITemplate.fromUri
+      - api.URITemplate.test
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: api
+  - uid: api.URITemplate.fromUri
+    name: 'fromUri(string, [key: string]: any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fromUri(url: string, opts?: [key: string]: any)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+        - id: opts
+          type:
+            - '[key: string]: any'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '[key: string]: string'
+        description: ''
+    package: api
+  - uid: api.URITemplate.test
+    name: 'test(string, [key: string]: any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function test(url: string, opts?: [key: string]: any)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+        - id: opts
+          type:
+            - '[key: string]: any'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: api

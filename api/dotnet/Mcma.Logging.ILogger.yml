@@ -1,0 +1,915 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Logging.ILogger
+  commentId: T:Mcma.Logging.ILogger
+  id: ILogger
+  parent: Mcma.Logging
+  children:
+  - Mcma.Logging.ILogger.Debug(System.Object[])
+  - Mcma.Logging.ILogger.Debug(System.String,System.Object[])
+  - Mcma.Logging.ILogger.Error(System.Object[])
+  - Mcma.Logging.ILogger.Error(System.String,System.Object[])
+  - Mcma.Logging.ILogger.Fatal(System.Object[])
+  - Mcma.Logging.ILogger.Fatal(System.String,System.Object[])
+  - Mcma.Logging.ILogger.FunctionEnd(System.String,System.Object[])
+  - Mcma.Logging.ILogger.FunctionStart(System.String,System.Object[])
+  - Mcma.Logging.ILogger.Info(System.Object[])
+  - Mcma.Logging.ILogger.Info(System.String,System.Object[])
+  - Mcma.Logging.ILogger.JobEnd(System.Object[])
+  - Mcma.Logging.ILogger.JobEnd(System.String,System.Object[])
+  - Mcma.Logging.ILogger.JobStart(System.Object[])
+  - Mcma.Logging.ILogger.JobStart(System.String,System.Object[])
+  - Mcma.Logging.ILogger.JobUpdate(System.Object[])
+  - Mcma.Logging.ILogger.JobUpdate(System.String,System.Object[])
+  - Mcma.Logging.ILogger.Warn(System.Object[])
+  - Mcma.Logging.ILogger.Warn(System.String,System.Object[])
+  langs:
+  - csharp
+  - vb
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Mcma.Logging.ILogger
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ILogger
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 5
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nInterface for logging messages in MCMA\n"
+  example: []
+  syntax:
+    content: public interface ILogger
+    content.vb: Public Interface ILogger
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Logging.ILogger.Debug(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Debug(System.String,System.Object[])
+  id: Debug(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Debug(String, Object[])
+  nameWithType: ILogger.Debug(String, Object[])
+  fullName: Mcma.Logging.ILogger.Debug(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Debug
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs a debug message (level = 500)\n"
+  example: []
+  syntax:
+    content: void Debug(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message to be written
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub Debug(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.Debug*
+  nameWithType.vb: ILogger.Debug(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.Debug(System.String, System.Object())
+  name.vb: Debug(String, Object())
+- uid: Mcma.Logging.ILogger.Debug(System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Debug(System.Object[])
+  id: Debug(System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Debug(Object[])
+  nameWithType: ILogger.Debug(Object[])
+  fullName: Mcma.Logging.ILogger.Debug(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Debug
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 18
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs a debug message (level = 500)\n"
+  example: []
+  syntax:
+    content: void Debug(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub Debug(ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.Debug*
+  nameWithType.vb: ILogger.Debug(Object())
+  fullName.vb: Mcma.Logging.ILogger.Debug(System.Object())
+  name.vb: Debug(Object())
+- uid: Mcma.Logging.ILogger.Info(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Info(System.String,System.Object[])
+  id: Info(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Info(String, Object[])
+  nameWithType: ILogger.Info(String, Object[])
+  fullName: Mcma.Logging.ILogger.Info(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Info
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 25
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs an info message (level = 400)\n"
+  example: []
+  syntax:
+    content: void Info(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message to be written
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub Info(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.Info*
+  nameWithType.vb: ILogger.Info(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.Info(System.String, System.Object())
+  name.vb: Info(String, Object())
+- uid: Mcma.Logging.ILogger.Info(System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Info(System.Object[])
+  id: Info(System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Info(Object[])
+  nameWithType: ILogger.Info(Object[])
+  fullName: Mcma.Logging.ILogger.Info(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Info
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 31
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs an info message (level = 400)\n"
+  example: []
+  syntax:
+    content: void Info(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub Info(ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.Info*
+  nameWithType.vb: ILogger.Info(Object())
+  fullName.vb: Mcma.Logging.ILogger.Info(System.Object())
+  name.vb: Info(Object())
+- uid: Mcma.Logging.ILogger.Warn(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Warn(System.String,System.Object[])
+  id: Warn(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Warn(String, Object[])
+  nameWithType: ILogger.Warn(String, Object[])
+  fullName: Mcma.Logging.ILogger.Warn(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Warn
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 38
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs an warning message (level = 300)\n"
+  example: []
+  syntax:
+    content: void Warn(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message to be written
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub Warn(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.Warn*
+  nameWithType.vb: ILogger.Warn(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.Warn(System.String, System.Object())
+  name.vb: Warn(String, Object())
+- uid: Mcma.Logging.ILogger.Warn(System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Warn(System.Object[])
+  id: Warn(System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Warn(Object[])
+  nameWithType: ILogger.Warn(Object[])
+  fullName: Mcma.Logging.ILogger.Warn(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Warn
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 44
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs an warning message (level = 300)\n"
+  example: []
+  syntax:
+    content: void Warn(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub Warn(ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.Warn*
+  nameWithType.vb: ILogger.Warn(Object())
+  fullName.vb: Mcma.Logging.ILogger.Warn(System.Object())
+  name.vb: Warn(Object())
+- uid: Mcma.Logging.ILogger.Error(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Error(System.String,System.Object[])
+  id: Error(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Error(String, Object[])
+  nameWithType: ILogger.Error(String, Object[])
+  fullName: Mcma.Logging.ILogger.Error(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Error
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 51
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs an error message (level = 200)\n"
+  example: []
+  syntax:
+    content: void Error(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message to be written
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub Error(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.Error*
+  nameWithType.vb: ILogger.Error(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.Error(System.String, System.Object())
+  name.vb: Error(String, Object())
+- uid: Mcma.Logging.ILogger.Error(System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Error(System.Object[])
+  id: Error(System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Error(Object[])
+  nameWithType: ILogger.Error(Object[])
+  fullName: Mcma.Logging.ILogger.Error(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Error
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 57
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs an error message (level = 200)\n"
+  example: []
+  syntax:
+    content: void Error(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub Error(ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.Error*
+  nameWithType.vb: ILogger.Error(Object())
+  fullName.vb: Mcma.Logging.ILogger.Error(System.Object())
+  name.vb: Error(Object())
+- uid: Mcma.Logging.ILogger.Fatal(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Fatal(System.String,System.Object[])
+  id: Fatal(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Fatal(String, Object[])
+  nameWithType: ILogger.Fatal(String, Object[])
+  fullName: Mcma.Logging.ILogger.Fatal(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Fatal
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 64
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs a fatal message (level = 100)\n"
+  example: []
+  syntax:
+    content: void Fatal(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message to be written
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub Fatal(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.Fatal*
+  nameWithType.vb: ILogger.Fatal(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.Fatal(System.String, System.Object())
+  name.vb: Fatal(String, Object())
+- uid: Mcma.Logging.ILogger.Fatal(System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Fatal(System.Object[])
+  id: Fatal(System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Fatal(Object[])
+  nameWithType: ILogger.Fatal(Object[])
+  fullName: Mcma.Logging.ILogger.Fatal(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Fatal
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 70
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs a fatal message (level = 100)\n"
+  example: []
+  syntax:
+    content: void Fatal(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub Fatal(ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.Fatal*
+  nameWithType.vb: ILogger.Fatal(Object())
+  fullName.vb: Mcma.Logging.ILogger.Fatal(System.Object())
+  name.vb: Fatal(Object())
+- uid: Mcma.Logging.ILogger.FunctionStart(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.FunctionStart(System.String,System.Object[])
+  id: FunctionStart(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: FunctionStart(String, Object[])
+  nameWithType: ILogger.FunctionStart(String, Object[])
+  fullName: Mcma.Logging.ILogger.FunctionStart(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: FunctionStart
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 77
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs the start of an MCMA function (level = 450)\n"
+  example: []
+  syntax:
+    content: void FunctionStart(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message to be written
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub FunctionStart(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.FunctionStart*
+  nameWithType.vb: ILogger.FunctionStart(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.FunctionStart(System.String, System.Object())
+  name.vb: FunctionStart(String, Object())
+- uid: Mcma.Logging.ILogger.FunctionEnd(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.FunctionEnd(System.String,System.Object[])
+  id: FunctionEnd(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: FunctionEnd(String, Object[])
+  nameWithType: ILogger.FunctionEnd(String, Object[])
+  fullName: Mcma.Logging.ILogger.FunctionEnd(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: FunctionEnd
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 84
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs the end of an MCMA function (level = 450)\n"
+  example: []
+  syntax:
+    content: void FunctionEnd(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message to be written
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub FunctionEnd(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.FunctionEnd*
+  nameWithType.vb: ILogger.FunctionEnd(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.FunctionEnd(System.String, System.Object())
+  name.vb: FunctionEnd(String, Object())
+- uid: Mcma.Logging.ILogger.JobStart(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.JobStart(System.String,System.Object[])
+  id: JobStart(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: JobStart(String, Object[])
+  nameWithType: ILogger.JobStart(String, Object[])
+  fullName: Mcma.Logging.ILogger.JobStart(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: JobStart
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 91
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs the start of an MCMA job (level = 400)\n"
+  example: []
+  syntax:
+    content: void JobStart(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message to be written
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub JobStart(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.JobStart*
+  nameWithType.vb: ILogger.JobStart(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.JobStart(System.String, System.Object())
+  name.vb: JobStart(String, Object())
+- uid: Mcma.Logging.ILogger.JobStart(System.Object[])
+  commentId: M:Mcma.Logging.ILogger.JobStart(System.Object[])
+  id: JobStart(System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: JobStart(Object[])
+  nameWithType: ILogger.JobStart(Object[])
+  fullName: Mcma.Logging.ILogger.JobStart(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: JobStart
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 97
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs the start of an MCMA job (level = 400)\n"
+  example: []
+  syntax:
+    content: void JobStart(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub JobStart(ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.JobStart*
+  nameWithType.vb: ILogger.JobStart(Object())
+  fullName.vb: Mcma.Logging.ILogger.JobStart(System.Object())
+  name.vb: JobStart(Object())
+- uid: Mcma.Logging.ILogger.JobUpdate(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.JobUpdate(System.String,System.Object[])
+  id: JobUpdate(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: JobUpdate(String, Object[])
+  nameWithType: ILogger.JobUpdate(String, Object[])
+  fullName: Mcma.Logging.ILogger.JobUpdate(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: JobUpdate
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 104
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs an update to an MCMA job (level = 400)\n"
+  example: []
+  syntax:
+    content: void JobUpdate(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message to be written
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub JobUpdate(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.JobUpdate*
+  nameWithType.vb: ILogger.JobUpdate(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.JobUpdate(System.String, System.Object())
+  name.vb: JobUpdate(String, Object())
+- uid: Mcma.Logging.ILogger.JobUpdate(System.Object[])
+  commentId: M:Mcma.Logging.ILogger.JobUpdate(System.Object[])
+  id: JobUpdate(System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: JobUpdate(Object[])
+  nameWithType: ILogger.JobUpdate(Object[])
+  fullName: Mcma.Logging.ILogger.JobUpdate(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: JobUpdate
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 110
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs an update to an MCMA job (level = 400)\n"
+  example: []
+  syntax:
+    content: void JobUpdate(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub JobUpdate(ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.JobUpdate*
+  nameWithType.vb: ILogger.JobUpdate(Object())
+  fullName.vb: Mcma.Logging.ILogger.JobUpdate(System.Object())
+  name.vb: JobUpdate(Object())
+- uid: Mcma.Logging.ILogger.JobEnd(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.JobEnd(System.String,System.Object[])
+  id: JobEnd(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: JobEnd(String, Object[])
+  nameWithType: ILogger.JobEnd(String, Object[])
+  fullName: Mcma.Logging.ILogger.JobEnd(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: JobEnd
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 117
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs the end of an MCMA job (level = 400)\n"
+  example: []
+  syntax:
+    content: void JobEnd(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message to be written
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub JobEnd(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.JobEnd*
+  nameWithType.vb: ILogger.JobEnd(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.JobEnd(System.String, System.Object())
+  name.vb: JobEnd(String, Object())
+- uid: Mcma.Logging.ILogger.JobEnd(System.Object[])
+  commentId: M:Mcma.Logging.ILogger.JobEnd(System.Object[])
+  id: JobEnd(System.Object[])
+  parent: Mcma.Logging.ILogger
+  langs:
+  - csharp
+  - vb
+  name: JobEnd(Object[])
+  nameWithType: ILogger.JobEnd(Object[])
+  fullName: Mcma.Logging.ILogger.JobEnd(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILogger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: JobEnd
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILogger.cs
+    startLine: 123
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nLogs the end of an MCMA job (level = 400)\n"
+  example: []
+  syntax:
+    content: void JobEnd(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+      description: A collection of arguments associated with the message
+    content.vb: Sub JobEnd(ParamArray args As Object())
+  overload: Mcma.Logging.ILogger.JobEnd*
+  nameWithType.vb: ILogger.JobEnd(Object())
+  fullName.vb: Mcma.Logging.ILogger.JobEnd(System.Object())
+  name.vb: JobEnd(Object())
+references:
+- uid: Mcma.Logging
+  commentId: N:Mcma.Logging
+  name: Mcma.Logging
+  nameWithType: Mcma.Logging
+  fullName: Mcma.Logging
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Logging.ILogger.Debug*
+  commentId: Overload:Mcma.Logging.ILogger.Debug
+  name: Debug
+  nameWithType: ILogger.Debug
+  fullName: Mcma.Logging.ILogger.Debug
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Logging.ILogger.Info*
+  commentId: Overload:Mcma.Logging.ILogger.Info
+  name: Info
+  nameWithType: ILogger.Info
+  fullName: Mcma.Logging.ILogger.Info
+- uid: Mcma.Logging.ILogger.Warn*
+  commentId: Overload:Mcma.Logging.ILogger.Warn
+  name: Warn
+  nameWithType: ILogger.Warn
+  fullName: Mcma.Logging.ILogger.Warn
+- uid: Mcma.Logging.ILogger.Error*
+  commentId: Overload:Mcma.Logging.ILogger.Error
+  name: Error
+  nameWithType: ILogger.Error
+  fullName: Mcma.Logging.ILogger.Error
+- uid: Mcma.Logging.ILogger.Fatal*
+  commentId: Overload:Mcma.Logging.ILogger.Fatal
+  name: Fatal
+  nameWithType: ILogger.Fatal
+  fullName: Mcma.Logging.ILogger.Fatal
+- uid: Mcma.Logging.ILogger.FunctionStart*
+  commentId: Overload:Mcma.Logging.ILogger.FunctionStart
+  name: FunctionStart
+  nameWithType: ILogger.FunctionStart
+  fullName: Mcma.Logging.ILogger.FunctionStart
+- uid: Mcma.Logging.ILogger.FunctionEnd*
+  commentId: Overload:Mcma.Logging.ILogger.FunctionEnd
+  name: FunctionEnd
+  nameWithType: ILogger.FunctionEnd
+  fullName: Mcma.Logging.ILogger.FunctionEnd
+- uid: Mcma.Logging.ILogger.JobStart*
+  commentId: Overload:Mcma.Logging.ILogger.JobStart
+  name: JobStart
+  nameWithType: ILogger.JobStart
+  fullName: Mcma.Logging.ILogger.JobStart
+- uid: Mcma.Logging.ILogger.JobUpdate*
+  commentId: Overload:Mcma.Logging.ILogger.JobUpdate
+  name: JobUpdate
+  nameWithType: ILogger.JobUpdate
+  fullName: Mcma.Logging.ILogger.JobUpdate
+- uid: Mcma.Logging.ILogger.JobEnd*
+  commentId: Overload:Mcma.Logging.ILogger.JobEnd
+  name: JobEnd
+  nameWithType: ILogger.JobEnd
+  fullName: Mcma.Logging.ILogger.JobEnd

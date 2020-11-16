@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.WorkerInvoker
+  commentId: N:Mcma.Aws.WorkerInvoker
+  id: Mcma.Aws.WorkerInvoker
+  children:
+  - Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker
+  - Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions
+  - Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerServiceCollectionExtensions
+  - Mcma.Aws.WorkerInvoker.McmaLambdaWorkerInvokerEnvironmentVariables
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Aws.WorkerInvoker
+  nameWithType: Mcma.Aws.WorkerInvoker
+  fullName: Mcma.Aws.WorkerInvoker
+  type: Namespace
+  assemblies:
+  - Mcma.Aws.LambdaWorkerInvoker
+references:
+- uid: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker
+  commentId: T:Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker
+  name: LambdaWorkerInvoker
+  nameWithType: LambdaWorkerInvoker
+  fullName: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker
+- uid: Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions
+  commentId: T:Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions
+  name: LambdaWorkerInvokerOptions
+  nameWithType: LambdaWorkerInvokerOptions
+  fullName: Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions
+- uid: Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerServiceCollectionExtensions
+  commentId: T:Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerServiceCollectionExtensions
+  name: LambdaWorkerInvokerServiceCollectionExtensions
+  nameWithType: LambdaWorkerInvokerServiceCollectionExtensions
+  fullName: Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerServiceCollectionExtensions
+- uid: Mcma.Aws.WorkerInvoker.McmaLambdaWorkerInvokerEnvironmentVariables
+  commentId: T:Mcma.Aws.WorkerInvoker.McmaLambdaWorkerInvokerEnvironmentVariables
+  name: McmaLambdaWorkerInvokerEnvironmentVariables
+  nameWithType: McmaLambdaWorkerInvokerEnvironmentVariables
+  fullName: Mcma.Aws.WorkerInvoker.McmaLambdaWorkerInvokerEnvironmentVariables

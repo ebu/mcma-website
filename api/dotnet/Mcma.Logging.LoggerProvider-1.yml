@@ -1,0 +1,971 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Logging.LoggerProvider`1
+  commentId: T:Mcma.Logging.LoggerProvider`1
+  id: LoggerProvider`1
+  parent: Mcma.Logging
+  children:
+  - Mcma.Logging.LoggerProvider`1.#ctor(Microsoft.Extensions.Options.IOptions{Mcma.Logging.LoggerProviderOptions})
+  - Mcma.Logging.LoggerProvider`1.FlushAsync
+  - Mcma.Logging.LoggerProvider`1.Get(System.String,Mcma.McmaTracker)
+  - Mcma.Logging.LoggerProvider`1.Get(System.String,System.String,Mcma.McmaTracker)
+  - Mcma.Logging.LoggerProvider`1.Source
+  langs:
+  - csharp
+  - vb
+  name: LoggerProvider<T>
+  nameWithType: LoggerProvider<T>
+  fullName: Mcma.Logging.LoggerProvider<T>
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LoggerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: LoggerProvider
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LoggerProvider.cs
+    startLine: 9
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nBase class for creating <xref href=\"Mcma.Logging.ILogger\" data-throw-if-not-resolved=\"false\"></xref>s\n"
+  example: []
+  syntax:
+    content: 'public abstract class LoggerProvider<T> : ILoggerProvider where T : ILogger'
+    typeParameters:
+    - id: T
+      description: The type of logger this provides
+    content.vb: >-
+      Public MustInherit Class LoggerProvider(Of T As ILogger)
+
+          Implements ILoggerProvider
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Mcma.Aws.CloudWatch.CloudWatchLoggerProvider
+  - Mcma.Azure.Logger.AppInsightsLoggerProvider
+  - Mcma.GoogleCloud.Logger.CloudLoggingLoggerProvider
+  - Mcma.Logging.ConsoleLoggerProvider
+  implements:
+  - Mcma.Logging.ILoggerProvider
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  nameWithType.vb: LoggerProvider(Of T)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: Mcma.Logging.LoggerProvider(Of T)
+  name.vb: LoggerProvider(Of T)
+- uid: Mcma.Logging.LoggerProvider`1.#ctor(Microsoft.Extensions.Options.IOptions{Mcma.Logging.LoggerProviderOptions})
+  commentId: M:Mcma.Logging.LoggerProvider`1.#ctor(Microsoft.Extensions.Options.IOptions{Mcma.Logging.LoggerProviderOptions})
+  id: '#ctor(Microsoft.Extensions.Options.IOptions{Mcma.Logging.LoggerProviderOptions})'
+  parent: Mcma.Logging.LoggerProvider`1
+  langs:
+  - csharp
+  - vb
+  name: LoggerProvider(IOptions<LoggerProviderOptions>)
+  nameWithType: LoggerProvider<T>.LoggerProvider(IOptions<LoggerProviderOptions>)
+  fullName: Mcma.Logging.LoggerProvider<T>.LoggerProvider(Microsoft.Extensions.Options.IOptions<Mcma.Logging.LoggerProviderOptions>)
+  type: Constructor
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LoggerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LoggerProvider.cs
+    startLine: 15
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nInstantiates a <xref href=\"Mcma.Logging.LoggerProvider%601\" data-throw-if-not-resolved=\"false\"></xref> with options that specify the logger&apos;s source\n"
+  example: []
+  syntax:
+    content: protected LoggerProvider(IOptions<LoggerProviderOptions> options)
+    parameters:
+    - id: options
+      type: Microsoft.Extensions.Options.IOptions{Mcma.Logging.LoggerProviderOptions}
+      description: Options that specify the logger&apos;s source
+    content.vb: Protected Sub New(options As IOptions(Of LoggerProviderOptions))
+  overload: Mcma.Logging.LoggerProvider`1.#ctor*
+  nameWithType.vb: LoggerProvider(Of T).LoggerProvider(IOptions(Of LoggerProviderOptions))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Mcma.Logging.LoggerProvider(Of T).LoggerProvider(Microsoft.Extensions.Options.IOptions(Of Mcma.Logging.LoggerProviderOptions))
+  name.vb: LoggerProvider(IOptions(Of LoggerProviderOptions))
+- uid: Mcma.Logging.LoggerProvider`1.Source
+  commentId: P:Mcma.Logging.LoggerProvider`1.Source
+  id: Source
+  parent: Mcma.Logging.LoggerProvider`1
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: LoggerProvider<T>.Source
+  fullName: Mcma.Logging.LoggerProvider<T>.Source
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LoggerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Source
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LoggerProvider.cs
+    startLine: 23
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nGets the source for logs that this generates\n"
+  example: []
+  syntax:
+    content: protected string Source { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected ReadOnly Property Source As String
+  overload: Mcma.Logging.LoggerProvider`1.Source*
+  nameWithType.vb: LoggerProvider(Of T).Source
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+  fullName.vb: Mcma.Logging.LoggerProvider(Of T).Source
+- uid: Mcma.Logging.LoggerProvider`1.Get(System.String,Mcma.McmaTracker)
+  commentId: M:Mcma.Logging.LoggerProvider`1.Get(System.String,Mcma.McmaTracker)
+  id: Get(System.String,Mcma.McmaTracker)
+  parent: Mcma.Logging.LoggerProvider`1
+  langs:
+  - csharp
+  - vb
+  name: Get(String, McmaTracker)
+  nameWithType: LoggerProvider<T>.Get(String, McmaTracker)
+  fullName: Mcma.Logging.LoggerProvider<T>.Get(System.String, Mcma.McmaTracker)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LoggerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Get
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LoggerProvider.cs
+    startLine: 26
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public ILogger Get(string requestId = null, McmaTracker tracker = null)
+    parameters:
+    - id: requestId
+      type: System.String
+    - id: tracker
+      type: Mcma.McmaTracker
+    return:
+      type: Mcma.Logging.ILogger
+    content.vb: Public Function Get(requestId As String = Nothing, tracker As McmaTracker = Nothing) As ILogger
+  overload: Mcma.Logging.LoggerProvider`1.Get*
+  implements:
+  - Mcma.Logging.ILoggerProvider.Get(System.String,Mcma.McmaTracker)
+  nameWithType.vb: LoggerProvider(Of T).Get(String, McmaTracker)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.LoggerProvider(Of T).Get(System.String, Mcma.McmaTracker)
+- uid: Mcma.Logging.LoggerProvider`1.Get(System.String,System.String,Mcma.McmaTracker)
+  commentId: M:Mcma.Logging.LoggerProvider`1.Get(System.String,System.String,Mcma.McmaTracker)
+  id: Get(System.String,System.String,Mcma.McmaTracker)
+  parent: Mcma.Logging.LoggerProvider`1
+  langs:
+  - csharp
+  - vb
+  name: Get(String, String, McmaTracker)
+  nameWithType: LoggerProvider<T>.Get(String, String, McmaTracker)
+  fullName: Mcma.Logging.LoggerProvider<T>.Get(System.String, System.String, Mcma.McmaTracker)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LoggerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Get
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LoggerProvider.cs
+    startLine: 35
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nCreates a <see cref=\"!:T\"></see> logger with the provided source, request ID, and tracker\n"
+  example: []
+  syntax:
+    content: protected abstract T Get(string source, string requestId, McmaTracker tracker)
+    parameters:
+    - id: source
+      type: System.String
+      description: The source to put on the generated log event
+    - id: requestId
+      type: System.String
+      description: The ID of the current request, if any. This is generally a unique ID provided by the platform on which the code is running.
+    - id: tracker
+      type: Mcma.McmaTracker
+      description: The tracker for the current MCMA operation, if any
+    return:
+      type: '{T}'
+      description: A logger of type <see cref="!:T"></see>
+    content.vb: Protected MustOverride Function Get(source As String, requestId As String, tracker As McmaTracker) As T
+  overload: Mcma.Logging.LoggerProvider`1.Get*
+  nameWithType.vb: LoggerProvider(Of T).Get(String, String, McmaTracker)
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  fullName.vb: Mcma.Logging.LoggerProvider(Of T).Get(System.String, System.String, Mcma.McmaTracker)
+- uid: Mcma.Logging.LoggerProvider`1.FlushAsync
+  commentId: M:Mcma.Logging.LoggerProvider`1.FlushAsync
+  id: FlushAsync
+  parent: Mcma.Logging.LoggerProvider`1
+  langs:
+  - csharp
+  - vb
+  name: FlushAsync()
+  nameWithType: LoggerProvider<T>.FlushAsync()
+  fullName: Mcma.Logging.LoggerProvider<T>.FlushAsync()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LoggerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: FlushAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LoggerProvider.cs
+    startLine: 41
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nAllow derived classes to specify how to flush the logs, if supported; if not overridden, this just returns <xref href=\"System.Threading.Tasks.Task.CompletedTask\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public virtual Task FlushAsync()
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Overridable Function FlushAsync As Task
+  overload: Mcma.Logging.LoggerProvider`1.FlushAsync*
+  implements:
+  - Mcma.Logging.ILoggerProvider.FlushAsync
+  nameWithType.vb: LoggerProvider(Of T).FlushAsync()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Mcma.Logging.LoggerProvider(Of T).FlushAsync()
+references:
+- uid: Mcma.Logging.ILogger
+  commentId: T:Mcma.Logging.ILogger
+  parent: Mcma.Logging
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Mcma.Logging.ILogger
+- uid: Mcma.Logging
+  commentId: N:Mcma.Logging
+  name: Mcma.Logging
+  nameWithType: Mcma.Logging
+  fullName: Mcma.Logging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Logging.ILoggerProvider
+  commentId: T:Mcma.Logging.ILoggerProvider
+  parent: Mcma.Logging
+  name: ILoggerProvider
+  nameWithType: ILoggerProvider
+  fullName: Mcma.Logging.ILoggerProvider
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Logging.LoggerProvider`1
+  commentId: T:Mcma.Logging.LoggerProvider`1
+  name: LoggerProvider<T>
+  nameWithType: LoggerProvider<T>
+  fullName: Mcma.Logging.LoggerProvider<T>
+  nameWithType.vb: LoggerProvider(Of T)
+  fullName.vb: Mcma.Logging.LoggerProvider(Of T)
+  name.vb: LoggerProvider(Of T)
+  spec.csharp:
+  - uid: Mcma.Logging.LoggerProvider`1
+    name: LoggerProvider
+    nameWithType: LoggerProvider
+    fullName: Mcma.Logging.LoggerProvider
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Logging.LoggerProvider`1
+    name: LoggerProvider
+    nameWithType: LoggerProvider
+    fullName: Mcma.Logging.LoggerProvider
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.LoggerProvider`1.#ctor*
+  commentId: Overload:Mcma.Logging.LoggerProvider`1.#ctor
+  name: LoggerProvider
+  nameWithType: LoggerProvider<T>.LoggerProvider
+  fullName: Mcma.Logging.LoggerProvider<T>.LoggerProvider
+  nameWithType.vb: LoggerProvider(Of T).LoggerProvider
+  fullName.vb: Mcma.Logging.LoggerProvider(Of T).LoggerProvider
+- uid: Microsoft.Extensions.Options.IOptions{Mcma.Logging.LoggerProviderOptions}
+  commentId: T:Microsoft.Extensions.Options.IOptions{Mcma.Logging.LoggerProviderOptions}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IOptions`1
+  name: IOptions<LoggerProviderOptions>
+  nameWithType: IOptions<LoggerProviderOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<Mcma.Logging.LoggerProviderOptions>
+  nameWithType.vb: IOptions(Of LoggerProviderOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of Mcma.Logging.LoggerProviderOptions)
+  name.vb: IOptions(Of LoggerProviderOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Logging.LoggerProviderOptions
+    name: LoggerProviderOptions
+    nameWithType: LoggerProviderOptions
+    fullName: Mcma.Logging.LoggerProviderOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Logging.LoggerProviderOptions
+    name: LoggerProviderOptions
+    nameWithType: LoggerProviderOptions
+    fullName: Mcma.Logging.LoggerProviderOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options.IOptions`1
+  commentId: T:Microsoft.Extensions.Options.IOptions`1
+  isExternal: true
+  name: IOptions<TOptions>
+  nameWithType: IOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<TOptions>
+  nameWithType.vb: IOptions(Of TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of TOptions)
+  name.vb: IOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: true
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+- uid: Mcma.Logging.LoggerProvider`1.Source*
+  commentId: Overload:Mcma.Logging.LoggerProvider`1.Source
+  name: Source
+  nameWithType: LoggerProvider<T>.Source
+  fullName: Mcma.Logging.LoggerProvider<T>.Source
+  nameWithType.vb: LoggerProvider(Of T).Source
+  fullName.vb: Mcma.Logging.LoggerProvider(Of T).Source
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.Logging.LoggerProvider`1.Get*
+  commentId: Overload:Mcma.Logging.LoggerProvider`1.Get
+  name: Get
+  nameWithType: LoggerProvider<T>.Get
+  fullName: Mcma.Logging.LoggerProvider<T>.Get
+  nameWithType.vb: LoggerProvider(Of T).Get
+  fullName.vb: Mcma.Logging.LoggerProvider(Of T).Get
+- uid: Mcma.Logging.ILoggerProvider.Get(System.String,Mcma.McmaTracker)
+  commentId: M:Mcma.Logging.ILoggerProvider.Get(System.String,Mcma.McmaTracker)
+  parent: Mcma.Logging.ILoggerProvider
+  isExternal: true
+  name: Get(String, McmaTracker)
+  nameWithType: ILoggerProvider.Get(String, McmaTracker)
+  fullName: Mcma.Logging.ILoggerProvider.Get(System.String, Mcma.McmaTracker)
+  spec.csharp:
+  - uid: Mcma.Logging.ILoggerProvider.Get(System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: ILoggerProvider.Get
+    fullName: Mcma.Logging.ILoggerProvider.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILoggerProvider.Get(System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: ILoggerProvider.Get
+    fullName: Mcma.Logging.ILoggerProvider.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaTracker
+  commentId: T:Mcma.McmaTracker
+  parent: Mcma
+  name: McmaTracker
+  nameWithType: McmaTracker
+  fullName: Mcma.McmaTracker
+- uid: Mcma
+  commentId: N:Mcma
+  name: Mcma
+  nameWithType: Mcma
+  fullName: Mcma
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Threading.Tasks.Task.CompletedTask
+  commentId: P:System.Threading.Tasks.Task.CompletedTask
+  isExternal: true
+- uid: Mcma.Logging.LoggerProvider`1.FlushAsync*
+  commentId: Overload:Mcma.Logging.LoggerProvider`1.FlushAsync
+  name: FlushAsync
+  nameWithType: LoggerProvider<T>.FlushAsync
+  fullName: Mcma.Logging.LoggerProvider<T>.FlushAsync
+  nameWithType.vb: LoggerProvider(Of T).FlushAsync
+  fullName.vb: Mcma.Logging.LoggerProvider(Of T).FlushAsync
+- uid: Mcma.Logging.ILoggerProvider.FlushAsync
+  commentId: M:Mcma.Logging.ILoggerProvider.FlushAsync
+  parent: Mcma.Logging.ILoggerProvider
+  name: FlushAsync()
+  nameWithType: ILoggerProvider.FlushAsync()
+  fullName: Mcma.Logging.ILoggerProvider.FlushAsync()
+  spec.csharp:
+  - uid: Mcma.Logging.ILoggerProvider.FlushAsync
+    name: FlushAsync
+    nameWithType: ILoggerProvider.FlushAsync
+    fullName: Mcma.Logging.ILoggerProvider.FlushAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILoggerProvider.FlushAsync
+    name: FlushAsync
+    nameWithType: ILoggerProvider.FlushAsync
+    fullName: Mcma.Logging.ILoggerProvider.FlushAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

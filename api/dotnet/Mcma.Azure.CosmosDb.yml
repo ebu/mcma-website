@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.CosmosDb
+  commentId: N:Mcma.Azure.CosmosDb
+  id: Mcma.Azure.CosmosDb
+  children:
+  - Mcma.Azure.CosmosDb.ContainerPropertiesExtensions
+  - Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry
+  - Mcma.Azure.CosmosDb.CosmosDbItem`1
+  - Mcma.Azure.CosmosDb.CosmosDbMutex
+  - Mcma.Azure.CosmosDb.CosmosDbServiceCollectionExtensions
+  - Mcma.Azure.CosmosDb.CosmosDbTable
+  - Mcma.Azure.CosmosDb.CosmosDbTableBuilder
+  - Mcma.Azure.CosmosDb.CosmosDbTableOptions
+  - Mcma.Azure.CosmosDb.ICosmosDbContainerProvider
+  - Mcma.Azure.CosmosDb.IQueryDefinitionBuilder
+  - Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables
+  - Mcma.Azure.CosmosDb.QueryDefinitionBuilder
+  - Mcma.Azure.CosmosDb.ResponseMessageExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Azure.CosmosDb
+  nameWithType: Mcma.Azure.CosmosDb
+  fullName: Mcma.Azure.CosmosDb
+  type: Namespace
+  assemblies:
+  - Mcma.Azure.CosmosDb
+references:
+- uid: Mcma.Azure.CosmosDb.ContainerPropertiesExtensions
+  commentId: T:Mcma.Azure.CosmosDb.ContainerPropertiesExtensions
+  name: ContainerPropertiesExtensions
+  nameWithType: ContainerPropertiesExtensions
+  fullName: Mcma.Azure.CosmosDb.ContainerPropertiesExtensions
+- uid: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry
+  commentId: T:Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry
+  name: CosmosDbCustomQueryBuilderRegistry
+  nameWithType: CosmosDbCustomQueryBuilderRegistry
+  fullName: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry
+- uid: Mcma.Azure.CosmosDb.CosmosDbItem`1
+  commentId: T:Mcma.Azure.CosmosDb.CosmosDbItem`1
+  name: CosmosDbItem<T>
+  nameWithType: CosmosDbItem<T>
+  fullName: Mcma.Azure.CosmosDb.CosmosDbItem<T>
+  nameWithType.vb: CosmosDbItem(Of T)
+  fullName.vb: Mcma.Azure.CosmosDb.CosmosDbItem(Of T)
+  name.vb: CosmosDbItem(Of T)
+  spec.csharp:
+  - uid: Mcma.Azure.CosmosDb.CosmosDbItem`1
+    name: CosmosDbItem
+    nameWithType: CosmosDbItem
+    fullName: Mcma.Azure.CosmosDb.CosmosDbItem
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Azure.CosmosDb.CosmosDbItem`1
+    name: CosmosDbItem
+    nameWithType: CosmosDbItem
+    fullName: Mcma.Azure.CosmosDb.CosmosDbItem
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Azure.CosmosDb.CosmosDbMutex
+  commentId: T:Mcma.Azure.CosmosDb.CosmosDbMutex
+  name: CosmosDbMutex
+  nameWithType: CosmosDbMutex
+  fullName: Mcma.Azure.CosmosDb.CosmosDbMutex
+- uid: Mcma.Azure.CosmosDb.CosmosDbServiceCollectionExtensions
+  commentId: T:Mcma.Azure.CosmosDb.CosmosDbServiceCollectionExtensions
+  name: CosmosDbServiceCollectionExtensions
+  nameWithType: CosmosDbServiceCollectionExtensions
+  fullName: Mcma.Azure.CosmosDb.CosmosDbServiceCollectionExtensions
+- uid: Mcma.Azure.CosmosDb.CosmosDbTable
+  commentId: T:Mcma.Azure.CosmosDb.CosmosDbTable
+  name: CosmosDbTable
+  nameWithType: CosmosDbTable
+  fullName: Mcma.Azure.CosmosDb.CosmosDbTable
+- uid: Mcma.Azure.CosmosDb.CosmosDbTableBuilder
+  commentId: T:Mcma.Azure.CosmosDb.CosmosDbTableBuilder
+  parent: Mcma.Azure.CosmosDb
+  name: CosmosDbTableBuilder
+  nameWithType: CosmosDbTableBuilder
+  fullName: Mcma.Azure.CosmosDb.CosmosDbTableBuilder
+- uid: Mcma.Azure.CosmosDb.CosmosDbTableOptions
+  commentId: T:Mcma.Azure.CosmosDb.CosmosDbTableOptions
+  name: CosmosDbTableOptions
+  nameWithType: CosmosDbTableOptions
+  fullName: Mcma.Azure.CosmosDb.CosmosDbTableOptions
+- uid: Mcma.Azure.CosmosDb.ICosmosDbContainerProvider
+  commentId: T:Mcma.Azure.CosmosDb.ICosmosDbContainerProvider
+  parent: Mcma.Azure.CosmosDb
+  name: ICosmosDbContainerProvider
+  nameWithType: ICosmosDbContainerProvider
+  fullName: Mcma.Azure.CosmosDb.ICosmosDbContainerProvider
+- uid: Mcma.Azure.CosmosDb.IQueryDefinitionBuilder
+  commentId: T:Mcma.Azure.CosmosDb.IQueryDefinitionBuilder
+  parent: Mcma.Azure.CosmosDb
+  name: IQueryDefinitionBuilder
+  nameWithType: IQueryDefinitionBuilder
+  fullName: Mcma.Azure.CosmosDb.IQueryDefinitionBuilder
+- uid: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables
+  commentId: T:Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables
+  name: McmaCosmosDbEnvironmentVariables
+  nameWithType: McmaCosmosDbEnvironmentVariables
+  fullName: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables
+- uid: Mcma.Azure.CosmosDb.QueryDefinitionBuilder
+  commentId: T:Mcma.Azure.CosmosDb.QueryDefinitionBuilder
+  name: QueryDefinitionBuilder
+  nameWithType: QueryDefinitionBuilder
+  fullName: Mcma.Azure.CosmosDb.QueryDefinitionBuilder
+- uid: Mcma.Azure.CosmosDb.ResponseMessageExtensions
+  commentId: T:Mcma.Azure.CosmosDb.ResponseMessageExtensions
+  name: ResponseMessageExtensions
+  nameWithType: ResponseMessageExtensions
+  fullName: Mcma.Azure.CosmosDb.ResponseMessageExtensions
+- uid: Mcma.Azure.CosmosDb
+  commentId: N:Mcma.Azure.CosmosDb
+  name: Mcma.Azure.CosmosDb
+  nameWithType: Mcma.Azure.CosmosDb
+  fullName: Mcma.Azure.CosmosDb

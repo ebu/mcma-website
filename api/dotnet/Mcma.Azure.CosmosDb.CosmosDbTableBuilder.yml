@@ -1,0 +1,553 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.CosmosDb.CosmosDbTableBuilder
+  commentId: T:Mcma.Azure.CosmosDb.CosmosDbTableBuilder
+  id: CosmosDbTableBuilder
+  parent: Mcma.Azure.CosmosDb
+  children:
+  - Mcma.Azure.CosmosDb.CosmosDbTableBuilder.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - Mcma.Azure.CosmosDb.CosmosDbTableBuilder.AddCustomQueryBuilder``2
+  langs:
+  - csharp
+  - vb
+  name: CosmosDbTableBuilder
+  nameWithType: CosmosDbTableBuilder
+  fullName: Mcma.Azure.CosmosDb.CosmosDbTableBuilder
+  type: Class
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/CosmosDbTableBuilder.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: CosmosDbTableBuilder
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/CosmosDbTableBuilder.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: public class CosmosDbTableBuilder
+    content.vb: Public Class CosmosDbTableBuilder
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Azure.CosmosDb.CosmosDbTableBuilder.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:Mcma.Azure.CosmosDb.CosmosDbTableBuilder.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: '#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)'
+  parent: Mcma.Azure.CosmosDb.CosmosDbTableBuilder
+  langs:
+  - csharp
+  - vb
+  name: CosmosDbTableBuilder(IServiceCollection)
+  nameWithType: CosmosDbTableBuilder.CosmosDbTableBuilder(IServiceCollection)
+  fullName: Mcma.Azure.CosmosDb.CosmosDbTableBuilder.CosmosDbTableBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Constructor
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/CosmosDbTableBuilder.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/CosmosDbTableBuilder.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: public CosmosDbTableBuilder(IServiceCollection services)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Sub New(services As IServiceCollection)
+  overload: Mcma.Azure.CosmosDb.CosmosDbTableBuilder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Azure.CosmosDb.CosmosDbTableBuilder.AddCustomQueryBuilder``2
+  commentId: M:Mcma.Azure.CosmosDb.CosmosDbTableBuilder.AddCustomQueryBuilder``2
+  id: AddCustomQueryBuilder``2
+  parent: Mcma.Azure.CosmosDb.CosmosDbTableBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddCustomQueryBuilder<TParameters, TCustomQueryBuilder>()
+  nameWithType: CosmosDbTableBuilder.AddCustomQueryBuilder<TParameters, TCustomQueryBuilder>()
+  fullName: Mcma.Azure.CosmosDb.CosmosDbTableBuilder.AddCustomQueryBuilder<TParameters, TCustomQueryBuilder>()
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/CosmosDbTableBuilder.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AddCustomQueryBuilder
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/CosmosDbTableBuilder.cs
+    startLine: 15
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: >-
+      public CosmosDbTableBuilder AddCustomQueryBuilder<TParameters, TCustomQueryBuilder>()
+
+          where TCustomQueryBuilder : class, ICustomQueryBuilder<TParameters, (QueryDefinition, QueryRequestOptions)>
+    typeParameters:
+    - id: TParameters
+    - id: TCustomQueryBuilder
+    return:
+      type: Mcma.Azure.CosmosDb.CosmosDbTableBuilder
+    content.vb: Public Function AddCustomQueryBuilder(Of TParameters, TCustomQueryBuilder As {Class, ICustomQueryBuilder(Of TParameters, (QueryDefinition, QueryRequestOptions))}) As CosmosDbTableBuilder
+  overload: Mcma.Azure.CosmosDb.CosmosDbTableBuilder.AddCustomQueryBuilder*
+  nameWithType.vb: CosmosDbTableBuilder.AddCustomQueryBuilder(Of TParameters, TCustomQueryBuilder)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Azure.CosmosDb.CosmosDbTableBuilder.AddCustomQueryBuilder(Of TParameters, TCustomQueryBuilder)()
+  name.vb: AddCustomQueryBuilder(Of TParameters, TCustomQueryBuilder)()
+references:
+- uid: Mcma.Azure.CosmosDb
+  commentId: N:Mcma.Azure.CosmosDb
+  name: Mcma.Azure.CosmosDb
+  nameWithType: Mcma.Azure.CosmosDb
+  fullName: Mcma.Azure.CosmosDb
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Azure.CosmosDb.CosmosDbTableBuilder.#ctor*
+  commentId: Overload:Mcma.Azure.CosmosDb.CosmosDbTableBuilder.#ctor
+  name: CosmosDbTableBuilder
+  nameWithType: CosmosDbTableBuilder.CosmosDbTableBuilder
+  fullName: Mcma.Azure.CosmosDb.CosmosDbTableBuilder.CosmosDbTableBuilder
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: Mcma.Azure.CosmosDb.CosmosDbTableBuilder.AddCustomQueryBuilder*
+  commentId: Overload:Mcma.Azure.CosmosDb.CosmosDbTableBuilder.AddCustomQueryBuilder
+  name: AddCustomQueryBuilder
+  nameWithType: CosmosDbTableBuilder.AddCustomQueryBuilder
+  fullName: Mcma.Azure.CosmosDb.CosmosDbTableBuilder.AddCustomQueryBuilder
+- uid: Mcma.Azure.CosmosDb.CosmosDbTableBuilder
+  commentId: T:Mcma.Azure.CosmosDb.CosmosDbTableBuilder
+  parent: Mcma.Azure.CosmosDb
+  name: CosmosDbTableBuilder
+  nameWithType: CosmosDbTableBuilder
+  fullName: Mcma.Azure.CosmosDb.CosmosDbTableBuilder

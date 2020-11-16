@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-client.AzureAdAuthContext
+    name: AzureAdAuthContext
+    fullName: AzureAdAuthContext
+    children:
+      - azure-client.AzureAdAuthContext.scope
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: azure-client
+  - uid: azure-client.AzureAdAuthContext.scope
+    name: scope
+    fullName: scope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'scope: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-client

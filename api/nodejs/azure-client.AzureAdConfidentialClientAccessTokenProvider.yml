@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-client.AzureAdConfidentialClientAccessTokenProvider
+    name: AzureAdConfidentialClientAccessTokenProvider
+    fullName: AzureAdConfidentialClientAccessTokenProvider
+    children:
+      - azure-client.AzureAdConfidentialClientAccessTokenProvider.constructor
+      - azure-client.AzureAdConfidentialClientAccessTokenProvider.getAccessToken
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-client
+  - uid: azure-client.AzureAdConfidentialClientAccessTokenProvider.constructor
+    name: AzureAdConfidentialClientAccessTokenProvider(ConfigurationWithTenant)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new AzureAdConfidentialClientAccessTokenProvider(config:
+        ConfigurationWithTenant)
+      parameters:
+        - id: config
+          type:
+            - azure-client.ConfigurationWithTenant
+          description: ''
+    package: azure-client
+  - uid: azure-client.AzureAdConfidentialClientAccessTokenProvider.getAccessToken
+    name: getAccessToken(AzureAdAuthContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getAccessToken(authContext: AzureAdAuthContext)'
+      parameters:
+        - id: authContext
+          type:
+            - azure-client.AzureAdAuthContext
+          description: ''
+      return:
+        type:
+          - Promise<AccessToken>
+        description: ''
+    package: azure-client
+references:
+  - uid: azure-client.ConfigurationWithTenant
+    name: ConfigurationWithTenant
+    spec.typeScript:
+      - name: ConfigurationWithTenant
+        fullName: ConfigurationWithTenant
+        uid: azure-client.ConfigurationWithTenant
+  - uid: azure-client.AzureAdAuthContext
+    name: AzureAdAuthContext
+    spec.typeScript:
+      - name: AzureAdAuthContext
+        fullName: AzureAdAuthContext
+        uid: azure-client.AzureAdAuthContext

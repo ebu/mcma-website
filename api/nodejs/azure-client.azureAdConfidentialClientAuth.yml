@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-client.azureAdConfidentialClientAuth
+    name: azureAdConfidentialClientAuth(ConfigurationWithTenant)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function azureAdConfidentialClientAuth(options: ConfigurationWithTenant)'
+      parameters:
+        - id: options
+          type:
+            - azure-client.ConfigurationWithTenant
+          description: ''
+      return:
+        type:
+          - AuthTypeRegistration<azure-client.AzureAdAuthContext>
+        description: ''
+    package: azure-client
+references:
+  - uid: azure-client.ConfigurationWithTenant
+    name: ConfigurationWithTenant
+    spec.typeScript:
+      - name: ConfigurationWithTenant
+        fullName: ConfigurationWithTenant
+        uid: azure-client.ConfigurationWithTenant
+  - uid: AuthTypeRegistration<azure-client.AzureAdAuthContext>
+    name: AzureAdAuthContext>
+    spec.typeScript:
+      - name: AuthTypeRegistration<
+        fullName: AuthTypeRegistration<
+      - name: AzureAdAuthContext
+        fullName: AzureAdAuthContext
+        uid: azure-client.AzureAdAuthContext
+      - name: '>'
+        fullName: '>'

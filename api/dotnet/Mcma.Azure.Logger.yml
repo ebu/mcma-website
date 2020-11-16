@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.Logger
+  commentId: N:Mcma.Azure.Logger
+  id: Mcma.Azure.Logger
+  children:
+  - Mcma.Azure.Logger.AppInsightsLogger
+  - Mcma.Azure.Logger.AppInsightsLoggerProvider
+  - Mcma.Azure.Logger.AppInsightsLoggerProviderOptions
+  - Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Azure.Logger
+  nameWithType: Mcma.Azure.Logger
+  fullName: Mcma.Azure.Logger
+  type: Namespace
+  assemblies:
+  - Mcma.Azure.Logger
+references:
+- uid: Mcma.Azure.Logger.AppInsightsLogger
+  commentId: T:Mcma.Azure.Logger.AppInsightsLogger
+  parent: Mcma.Azure.Logger
+  name: AppInsightsLogger
+  nameWithType: AppInsightsLogger
+  fullName: Mcma.Azure.Logger.AppInsightsLogger
+- uid: Mcma.Azure.Logger.AppInsightsLoggerProvider
+  commentId: T:Mcma.Azure.Logger.AppInsightsLoggerProvider
+  name: AppInsightsLoggerProvider
+  nameWithType: AppInsightsLoggerProvider
+  fullName: Mcma.Azure.Logger.AppInsightsLoggerProvider
+- uid: Mcma.Azure.Logger.AppInsightsLoggerProviderOptions
+  commentId: T:Mcma.Azure.Logger.AppInsightsLoggerProviderOptions
+  name: AppInsightsLoggerProviderOptions
+  nameWithType: AppInsightsLoggerProviderOptions
+  fullName: Mcma.Azure.Logger.AppInsightsLoggerProviderOptions
+- uid: Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions
+  commentId: T:Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions
+  name: AppInsightsLoggerProviderServiceCollectionExtensions
+  nameWithType: AppInsightsLoggerProviderServiceCollectionExtensions
+  fullName: Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions
+- uid: Mcma.Azure.Logger
+  commentId: N:Mcma.Azure.Logger
+  name: Mcma.Azure.Logger
+  nameWithType: Mcma.Azure.Logger
+  fullName: Mcma.Azure.Logger

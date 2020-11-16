@@ -1,0 +1,608 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions
+  commentId: T:Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions
+  id: QueueWorkerInvokerOptions
+  parent: Mcma.Azure.WorkerInvoker
+  children:
+  - Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.#ctor
+  - Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.ConnectionString
+  - Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.QueueClientOptions
+  langs:
+  - csharp
+  - vb
+  name: QueueWorkerInvokerOptions
+  nameWithType: QueueWorkerInvokerOptions
+  fullName: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions
+  type: Class
+  source:
+    remote:
+      path: Azure/Mcma.Azure.QueueWorkerInvoker/QueueWorkerInvokerOptions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: QueueWorkerInvokerOptions
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.QueueWorkerInvoker/QueueWorkerInvokerOptions.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Azure.QueueWorkerInvoker
+  namespace: Mcma.Azure.WorkerInvoker
+  syntax:
+    content: 'public class QueueWorkerInvokerOptions : WorkerInvokerOptions'
+    content.vb: >-
+      Public Class QueueWorkerInvokerOptions
+
+          Inherits WorkerInvokerOptions
+  inheritance:
+  - System.Object
+  - Mcma.WorkerInvoker.WorkerInvokerOptions
+  inheritedMembers:
+  - Mcma.WorkerInvoker.WorkerInvokerOptions.WorkerFunctionId
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.#ctor
+  commentId: M:Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.#ctor
+  id: '#ctor'
+  parent: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions
+  langs:
+  - csharp
+  - vb
+  name: QueueWorkerInvokerOptions()
+  nameWithType: QueueWorkerInvokerOptions.QueueWorkerInvokerOptions()
+  fullName: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.QueueWorkerInvokerOptions()
+  type: Constructor
+  source:
+    remote:
+      path: Azure/Mcma.Azure.QueueWorkerInvoker/QueueWorkerInvokerOptions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.QueueWorkerInvoker/QueueWorkerInvokerOptions.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Azure.QueueWorkerInvoker
+  namespace: Mcma.Azure.WorkerInvoker
+  syntax:
+    content: public QueueWorkerInvokerOptions()
+    content.vb: Public Sub New
+  overload: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.ConnectionString
+  commentId: P:Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.ConnectionString
+  id: ConnectionString
+  parent: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions
+  langs:
+  - csharp
+  - vb
+  name: ConnectionString
+  nameWithType: QueueWorkerInvokerOptions.ConnectionString
+  fullName: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.ConnectionString
+  type: Property
+  source:
+    remote:
+      path: Azure/Mcma.Azure.QueueWorkerInvoker/QueueWorkerInvokerOptions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ConnectionString
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.QueueWorkerInvoker/QueueWorkerInvokerOptions.cs
+    startLine: 13
+  assemblies:
+  - Mcma.Azure.QueueWorkerInvoker
+  namespace: Mcma.Azure.WorkerInvoker
+  syntax:
+    content: public string ConnectionString { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConnectionString As String
+  overload: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.ConnectionString*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.QueueClientOptions
+  commentId: P:Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.QueueClientOptions
+  id: QueueClientOptions
+  parent: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions
+  langs:
+  - csharp
+  - vb
+  name: QueueClientOptions
+  nameWithType: QueueWorkerInvokerOptions.QueueClientOptions
+  fullName: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.QueueClientOptions
+  type: Property
+  source:
+    remote:
+      path: Azure/Mcma.Azure.QueueWorkerInvoker/QueueWorkerInvokerOptions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: QueueClientOptions
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.QueueWorkerInvoker/QueueWorkerInvokerOptions.cs
+    startLine: 15
+  assemblies:
+  - Mcma.Azure.QueueWorkerInvoker
+  namespace: Mcma.Azure.WorkerInvoker
+  syntax:
+    content: public QueueClientOptions QueueClientOptions { get; set; }
+    parameters: []
+    return:
+      type: Azure.Storage.Queues.QueueClientOptions
+    content.vb: Public Property QueueClientOptions As QueueClientOptions
+  overload: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.QueueClientOptions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Azure.WorkerInvoker
+  commentId: N:Mcma.Azure.WorkerInvoker
+  name: Mcma.Azure.WorkerInvoker
+  nameWithType: Mcma.Azure.WorkerInvoker
+  fullName: Mcma.Azure.WorkerInvoker
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.WorkerInvoker.WorkerInvokerOptions
+  commentId: T:Mcma.WorkerInvoker.WorkerInvokerOptions
+  parent: Mcma.WorkerInvoker
+  name: WorkerInvokerOptions
+  nameWithType: WorkerInvokerOptions
+  fullName: Mcma.WorkerInvoker.WorkerInvokerOptions
+- uid: Mcma.WorkerInvoker.WorkerInvokerOptions.WorkerFunctionId
+  commentId: P:Mcma.WorkerInvoker.WorkerInvokerOptions.WorkerFunctionId
+  parent: Mcma.WorkerInvoker.WorkerInvokerOptions
+  name: WorkerFunctionId
+  nameWithType: WorkerInvokerOptions.WorkerFunctionId
+  fullName: Mcma.WorkerInvoker.WorkerInvokerOptions.WorkerFunctionId
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.WorkerInvoker
+  commentId: N:Mcma.WorkerInvoker
+  name: Mcma.WorkerInvoker
+  nameWithType: Mcma.WorkerInvoker
+  fullName: Mcma.WorkerInvoker
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.#ctor*
+  commentId: Overload:Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.#ctor
+  name: QueueWorkerInvokerOptions
+  nameWithType: QueueWorkerInvokerOptions.QueueWorkerInvokerOptions
+  fullName: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.QueueWorkerInvokerOptions
+- uid: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.ConnectionString*
+  commentId: Overload:Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.ConnectionString
+  name: ConnectionString
+  nameWithType: QueueWorkerInvokerOptions.ConnectionString
+  fullName: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.ConnectionString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.QueueClientOptions*
+  commentId: Overload:Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.QueueClientOptions
+  name: QueueClientOptions
+  nameWithType: QueueWorkerInvokerOptions.QueueClientOptions
+  fullName: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions.QueueClientOptions
+- uid: Azure.Storage.Queues.QueueClientOptions
+  commentId: T:Azure.Storage.Queues.QueueClientOptions
+  parent: Azure.Storage.Queues
+  isExternal: true
+  name: QueueClientOptions
+  nameWithType: QueueClientOptions
+  fullName: Azure.Storage.Queues.QueueClientOptions
+- uid: Azure.Storage.Queues
+  commentId: N:Azure.Storage.Queues
+  isExternal: true
+  name: Azure.Storage.Queues
+  nameWithType: Azure.Storage.Queues
+  fullName: Azure.Storage.Queues

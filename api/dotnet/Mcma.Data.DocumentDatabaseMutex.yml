@@ -1,0 +1,1229 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Data.DocumentDatabaseMutex
+  commentId: T:Mcma.Data.DocumentDatabaseMutex
+  id: DocumentDatabaseMutex
+  parent: Mcma.Data
+  children:
+  - Mcma.Data.DocumentDatabaseMutex.#ctor(System.String,System.String,System.Nullable{System.TimeSpan},Mcma.Logging.ILogger)
+  - Mcma.Data.DocumentDatabaseMutex.DeleteLockDataAsync(System.String)
+  - Mcma.Data.DocumentDatabaseMutex.GetLockDataAsync
+  - Mcma.Data.DocumentDatabaseMutex.HasLock
+  - Mcma.Data.DocumentDatabaseMutex.LockAsync
+  - Mcma.Data.DocumentDatabaseMutex.LockTimeout
+  - Mcma.Data.DocumentDatabaseMutex.Logger
+  - Mcma.Data.DocumentDatabaseMutex.MutexHolder
+  - Mcma.Data.DocumentDatabaseMutex.MutexName
+  - Mcma.Data.DocumentDatabaseMutex.PutLockDataAsync
+  - Mcma.Data.DocumentDatabaseMutex.UnlockAsync
+  - Mcma.Data.DocumentDatabaseMutex.VersionId
+  langs:
+  - csharp
+  - vb
+  name: DocumentDatabaseMutex
+  nameWithType: DocumentDatabaseMutex
+  fullName: Mcma.Data.DocumentDatabaseMutex
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: DocumentDatabaseMutex
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data
+  syntax:
+    content: 'public abstract class DocumentDatabaseMutex : IDocumentDatabaseMutex'
+    content.vb: >-
+      Public MustInherit Class DocumentDatabaseMutex
+
+          Implements IDocumentDatabaseMutex
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Mcma.Aws.DynamoDb.DynamoDbMutex
+  - Mcma.Azure.CosmosDb.CosmosDbMutex
+  - Mcma.GoogleCloud.Firestore.FirestoreMutex
+  implements:
+  - Mcma.Data.IDocumentDatabaseMutex
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Mcma.Data.DocumentDatabaseMutex.#ctor(System.String,System.String,System.Nullable{System.TimeSpan},Mcma.Logging.ILogger)
+  commentId: M:Mcma.Data.DocumentDatabaseMutex.#ctor(System.String,System.String,System.Nullable{System.TimeSpan},Mcma.Logging.ILogger)
+  id: '#ctor(System.String,System.String,System.Nullable{System.TimeSpan},Mcma.Logging.ILogger)'
+  parent: Mcma.Data.DocumentDatabaseMutex
+  langs:
+  - csharp
+  - vb
+  name: DocumentDatabaseMutex(String, String, Nullable<TimeSpan>, ILogger)
+  nameWithType: DocumentDatabaseMutex.DocumentDatabaseMutex(String, String, Nullable<TimeSpan>, ILogger)
+  fullName: Mcma.Data.DocumentDatabaseMutex.DocumentDatabaseMutex(System.String, System.String, System.Nullable<System.TimeSpan>, Mcma.Logging.ILogger)
+  type: Constructor
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+    startLine: 9
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data
+  syntax:
+    content: protected DocumentDatabaseMutex(string mutexName, string mutexHolder, TimeSpan? lockTimeout, ILogger logger = null)
+    parameters:
+    - id: mutexName
+      type: System.String
+    - id: mutexHolder
+      type: System.String
+    - id: lockTimeout
+      type: System.Nullable{System.TimeSpan}
+    - id: logger
+      type: Mcma.Logging.ILogger
+    content.vb: Protected Sub New(mutexName As String, mutexHolder As String, lockTimeout As TimeSpan?, logger As ILogger = Nothing)
+  overload: Mcma.Data.DocumentDatabaseMutex.#ctor*
+  nameWithType.vb: DocumentDatabaseMutex.DocumentDatabaseMutex(String, String, Nullable(Of TimeSpan), ILogger)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Mcma.Data.DocumentDatabaseMutex.DocumentDatabaseMutex(System.String, System.String, System.Nullable(Of System.TimeSpan), Mcma.Logging.ILogger)
+  name.vb: DocumentDatabaseMutex(String, String, Nullable(Of TimeSpan), ILogger)
+- uid: Mcma.Data.DocumentDatabaseMutex.MutexName
+  commentId: P:Mcma.Data.DocumentDatabaseMutex.MutexName
+  id: MutexName
+  parent: Mcma.Data.DocumentDatabaseMutex
+  langs:
+  - csharp
+  - vb
+  name: MutexName
+  nameWithType: DocumentDatabaseMutex.MutexName
+  fullName: Mcma.Data.DocumentDatabaseMutex.MutexName
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: MutexName
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+    startLine: 17
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data
+  syntax:
+    content: protected string MutexName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected ReadOnly Property MutexName As String
+  overload: Mcma.Data.DocumentDatabaseMutex.MutexName*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Mcma.Data.DocumentDatabaseMutex.MutexHolder
+  commentId: P:Mcma.Data.DocumentDatabaseMutex.MutexHolder
+  id: MutexHolder
+  parent: Mcma.Data.DocumentDatabaseMutex
+  langs:
+  - csharp
+  - vb
+  name: MutexHolder
+  nameWithType: DocumentDatabaseMutex.MutexHolder
+  fullName: Mcma.Data.DocumentDatabaseMutex.MutexHolder
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: MutexHolder
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+    startLine: 19
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data
+  syntax:
+    content: protected string MutexHolder { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected ReadOnly Property MutexHolder As String
+  overload: Mcma.Data.DocumentDatabaseMutex.MutexHolder*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Mcma.Data.DocumentDatabaseMutex.LockTimeout
+  commentId: P:Mcma.Data.DocumentDatabaseMutex.LockTimeout
+  id: LockTimeout
+  parent: Mcma.Data.DocumentDatabaseMutex
+  langs:
+  - csharp
+  - vb
+  name: LockTimeout
+  nameWithType: DocumentDatabaseMutex.LockTimeout
+  fullName: Mcma.Data.DocumentDatabaseMutex.LockTimeout
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: LockTimeout
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+    startLine: 21
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data
+  syntax:
+    content: protected TimeSpan LockTimeout { get; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Protected ReadOnly Property LockTimeout As TimeSpan
+  overload: Mcma.Data.DocumentDatabaseMutex.LockTimeout*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Mcma.Data.DocumentDatabaseMutex.Logger
+  commentId: P:Mcma.Data.DocumentDatabaseMutex.Logger
+  id: Logger
+  parent: Mcma.Data.DocumentDatabaseMutex
+  langs:
+  - csharp
+  - vb
+  name: Logger
+  nameWithType: DocumentDatabaseMutex.Logger
+  fullName: Mcma.Data.DocumentDatabaseMutex.Logger
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Logger
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+    startLine: 23
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data
+  syntax:
+    content: protected ILogger Logger { get; }
+    parameters: []
+    return:
+      type: Mcma.Logging.ILogger
+    content.vb: Protected ReadOnly Property Logger As ILogger
+  overload: Mcma.Data.DocumentDatabaseMutex.Logger*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Mcma.Data.DocumentDatabaseMutex.HasLock
+  commentId: P:Mcma.Data.DocumentDatabaseMutex.HasLock
+  id: HasLock
+  parent: Mcma.Data.DocumentDatabaseMutex
+  langs:
+  - csharp
+  - vb
+  name: HasLock
+  nameWithType: DocumentDatabaseMutex.HasLock
+  fullName: Mcma.Data.DocumentDatabaseMutex.HasLock
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: HasLock
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+    startLine: 25
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data
+  syntax:
+    content: protected bool HasLock { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected Property HasLock As Boolean
+  overload: Mcma.Data.DocumentDatabaseMutex.HasLock*
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
+- uid: Mcma.Data.DocumentDatabaseMutex.VersionId
+  commentId: P:Mcma.Data.DocumentDatabaseMutex.VersionId
+  id: VersionId
+  parent: Mcma.Data.DocumentDatabaseMutex
+  langs:
+  - csharp
+  - vb
+  name: VersionId
+  nameWithType: DocumentDatabaseMutex.VersionId
+  fullName: Mcma.Data.DocumentDatabaseMutex.VersionId
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: VersionId
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+    startLine: 27
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data
+  syntax:
+    content: protected abstract string VersionId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected MustOverride ReadOnly Property VersionId As String
+  overload: Mcma.Data.DocumentDatabaseMutex.VersionId*
+  modifiers.csharp:
+  - protected
+  - abstract
+  - get
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  - ReadOnly
+- uid: Mcma.Data.DocumentDatabaseMutex.LockAsync
+  commentId: M:Mcma.Data.DocumentDatabaseMutex.LockAsync
+  id: LockAsync
+  parent: Mcma.Data.DocumentDatabaseMutex
+  langs:
+  - csharp
+  - vb
+  name: LockAsync()
+  nameWithType: DocumentDatabaseMutex.LockAsync()
+  fullName: Mcma.Data.DocumentDatabaseMutex.LockAsync()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: LockAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+    startLine: 29
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data
+  syntax:
+    content: public Task LockAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function LockAsync As Task
+  overload: Mcma.Data.DocumentDatabaseMutex.LockAsync*
+  implements:
+  - Mcma.Data.IDocumentDatabaseMutex.LockAsync
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Data.DocumentDatabaseMutex.UnlockAsync
+  commentId: M:Mcma.Data.DocumentDatabaseMutex.UnlockAsync
+  id: UnlockAsync
+  parent: Mcma.Data.DocumentDatabaseMutex
+  langs:
+  - csharp
+  - vb
+  name: UnlockAsync()
+  nameWithType: DocumentDatabaseMutex.UnlockAsync()
+  fullName: Mcma.Data.DocumentDatabaseMutex.UnlockAsync()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: UnlockAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+    startLine: 69
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data
+  syntax:
+    content: public Task UnlockAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function UnlockAsync As Task
+  overload: Mcma.Data.DocumentDatabaseMutex.UnlockAsync*
+  implements:
+  - Mcma.Data.IDocumentDatabaseMutex.UnlockAsync
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Data.DocumentDatabaseMutex.PutLockDataAsync
+  commentId: M:Mcma.Data.DocumentDatabaseMutex.PutLockDataAsync
+  id: PutLockDataAsync
+  parent: Mcma.Data.DocumentDatabaseMutex
+  langs:
+  - csharp
+  - vb
+  name: PutLockDataAsync()
+  nameWithType: DocumentDatabaseMutex.PutLockDataAsync()
+  fullName: Mcma.Data.DocumentDatabaseMutex.PutLockDataAsync()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: PutLockDataAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+    startLine: 80
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data
+  syntax:
+    content: protected abstract Task PutLockDataAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected MustOverride Function PutLockDataAsync As Task
+  overload: Mcma.Data.DocumentDatabaseMutex.PutLockDataAsync*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: Mcma.Data.DocumentDatabaseMutex.GetLockDataAsync
+  commentId: M:Mcma.Data.DocumentDatabaseMutex.GetLockDataAsync
+  id: GetLockDataAsync
+  parent: Mcma.Data.DocumentDatabaseMutex
+  langs:
+  - csharp
+  - vb
+  name: GetLockDataAsync()
+  nameWithType: DocumentDatabaseMutex.GetLockDataAsync()
+  fullName: Mcma.Data.DocumentDatabaseMutex.GetLockDataAsync()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetLockDataAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+    startLine: 82
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data
+  syntax:
+    content: protected abstract Task<LockData> GetLockDataAsync()
+    return:
+      type: System.Threading.Tasks.Task{Mcma.Data.LockData}
+    content.vb: Protected MustOverride Function GetLockDataAsync As Task(Of LockData)
+  overload: Mcma.Data.DocumentDatabaseMutex.GetLockDataAsync*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: Mcma.Data.DocumentDatabaseMutex.DeleteLockDataAsync(System.String)
+  commentId: M:Mcma.Data.DocumentDatabaseMutex.DeleteLockDataAsync(System.String)
+  id: DeleteLockDataAsync(System.String)
+  parent: Mcma.Data.DocumentDatabaseMutex
+  langs:
+  - csharp
+  - vb
+  name: DeleteLockDataAsync(String)
+  nameWithType: DocumentDatabaseMutex.DeleteLockDataAsync(String)
+  fullName: Mcma.Data.DocumentDatabaseMutex.DeleteLockDataAsync(System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: DeleteLockDataAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/DocumentDatabaseMutex.cs
+    startLine: 84
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data
+  syntax:
+    content: protected abstract Task DeleteLockDataAsync(string versionId)
+    parameters:
+    - id: versionId
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected MustOverride Function DeleteLockDataAsync(versionId As String) As Task
+  overload: Mcma.Data.DocumentDatabaseMutex.DeleteLockDataAsync*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+references:
+- uid: Mcma.Data
+  commentId: N:Mcma.Data
+  name: Mcma.Data
+  nameWithType: Mcma.Data
+  fullName: Mcma.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Data.IDocumentDatabaseMutex
+  commentId: T:Mcma.Data.IDocumentDatabaseMutex
+  parent: Mcma.Data
+  name: IDocumentDatabaseMutex
+  nameWithType: IDocumentDatabaseMutex
+  fullName: Mcma.Data.IDocumentDatabaseMutex
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Data.DocumentDatabaseMutex.#ctor*
+  commentId: Overload:Mcma.Data.DocumentDatabaseMutex.#ctor
+  name: DocumentDatabaseMutex
+  nameWithType: DocumentDatabaseMutex.DocumentDatabaseMutex
+  fullName: Mcma.Data.DocumentDatabaseMutex.DocumentDatabaseMutex
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Nullable{System.TimeSpan}
+  commentId: T:System.Nullable{System.TimeSpan}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<TimeSpan>
+  nameWithType: Nullable<TimeSpan>
+  fullName: System.Nullable<System.TimeSpan>
+  nameWithType.vb: Nullable(Of TimeSpan)
+  fullName.vb: System.Nullable(Of System.TimeSpan)
+  name.vb: Nullable(Of TimeSpan)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.ILogger
+  commentId: T:Mcma.Logging.ILogger
+  parent: Mcma.Logging
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Mcma.Logging.ILogger
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging
+  commentId: N:Mcma.Logging
+  name: Mcma.Logging
+  nameWithType: Mcma.Logging
+  fullName: Mcma.Logging
+- uid: Mcma.Data.DocumentDatabaseMutex.MutexName*
+  commentId: Overload:Mcma.Data.DocumentDatabaseMutex.MutexName
+  name: MutexName
+  nameWithType: DocumentDatabaseMutex.MutexName
+  fullName: Mcma.Data.DocumentDatabaseMutex.MutexName
+- uid: Mcma.Data.DocumentDatabaseMutex.MutexHolder*
+  commentId: Overload:Mcma.Data.DocumentDatabaseMutex.MutexHolder
+  name: MutexHolder
+  nameWithType: DocumentDatabaseMutex.MutexHolder
+  fullName: Mcma.Data.DocumentDatabaseMutex.MutexHolder
+- uid: Mcma.Data.DocumentDatabaseMutex.LockTimeout*
+  commentId: Overload:Mcma.Data.DocumentDatabaseMutex.LockTimeout
+  name: LockTimeout
+  nameWithType: DocumentDatabaseMutex.LockTimeout
+  fullName: Mcma.Data.DocumentDatabaseMutex.LockTimeout
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: Mcma.Data.DocumentDatabaseMutex.Logger*
+  commentId: Overload:Mcma.Data.DocumentDatabaseMutex.Logger
+  name: Logger
+  nameWithType: DocumentDatabaseMutex.Logger
+  fullName: Mcma.Data.DocumentDatabaseMutex.Logger
+- uid: Mcma.Data.DocumentDatabaseMutex.HasLock*
+  commentId: Overload:Mcma.Data.DocumentDatabaseMutex.HasLock
+  name: HasLock
+  nameWithType: DocumentDatabaseMutex.HasLock
+  fullName: Mcma.Data.DocumentDatabaseMutex.HasLock
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Mcma.Data.DocumentDatabaseMutex.VersionId*
+  commentId: Overload:Mcma.Data.DocumentDatabaseMutex.VersionId
+  name: VersionId
+  nameWithType: DocumentDatabaseMutex.VersionId
+  fullName: Mcma.Data.DocumentDatabaseMutex.VersionId
+- uid: Mcma.Data.DocumentDatabaseMutex.LockAsync*
+  commentId: Overload:Mcma.Data.DocumentDatabaseMutex.LockAsync
+  name: LockAsync
+  nameWithType: DocumentDatabaseMutex.LockAsync
+  fullName: Mcma.Data.DocumentDatabaseMutex.LockAsync
+- uid: Mcma.Data.IDocumentDatabaseMutex.LockAsync
+  commentId: M:Mcma.Data.IDocumentDatabaseMutex.LockAsync
+  parent: Mcma.Data.IDocumentDatabaseMutex
+  name: LockAsync()
+  nameWithType: IDocumentDatabaseMutex.LockAsync()
+  fullName: Mcma.Data.IDocumentDatabaseMutex.LockAsync()
+  spec.csharp:
+  - uid: Mcma.Data.IDocumentDatabaseMutex.LockAsync
+    name: LockAsync
+    nameWithType: IDocumentDatabaseMutex.LockAsync
+    fullName: Mcma.Data.IDocumentDatabaseMutex.LockAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.IDocumentDatabaseMutex.LockAsync
+    name: LockAsync
+    nameWithType: IDocumentDatabaseMutex.LockAsync
+    fullName: Mcma.Data.IDocumentDatabaseMutex.LockAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Mcma.Data.DocumentDatabaseMutex.UnlockAsync*
+  commentId: Overload:Mcma.Data.DocumentDatabaseMutex.UnlockAsync
+  name: UnlockAsync
+  nameWithType: DocumentDatabaseMutex.UnlockAsync
+  fullName: Mcma.Data.DocumentDatabaseMutex.UnlockAsync
+- uid: Mcma.Data.IDocumentDatabaseMutex.UnlockAsync
+  commentId: M:Mcma.Data.IDocumentDatabaseMutex.UnlockAsync
+  parent: Mcma.Data.IDocumentDatabaseMutex
+  name: UnlockAsync()
+  nameWithType: IDocumentDatabaseMutex.UnlockAsync()
+  fullName: Mcma.Data.IDocumentDatabaseMutex.UnlockAsync()
+  spec.csharp:
+  - uid: Mcma.Data.IDocumentDatabaseMutex.UnlockAsync
+    name: UnlockAsync
+    nameWithType: IDocumentDatabaseMutex.UnlockAsync
+    fullName: Mcma.Data.IDocumentDatabaseMutex.UnlockAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.IDocumentDatabaseMutex.UnlockAsync
+    name: UnlockAsync
+    nameWithType: IDocumentDatabaseMutex.UnlockAsync
+    fullName: Mcma.Data.IDocumentDatabaseMutex.UnlockAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabaseMutex.PutLockDataAsync*
+  commentId: Overload:Mcma.Data.DocumentDatabaseMutex.PutLockDataAsync
+  name: PutLockDataAsync
+  nameWithType: DocumentDatabaseMutex.PutLockDataAsync
+  fullName: Mcma.Data.DocumentDatabaseMutex.PutLockDataAsync
+- uid: Mcma.Data.DocumentDatabaseMutex.GetLockDataAsync*
+  commentId: Overload:Mcma.Data.DocumentDatabaseMutex.GetLockDataAsync
+  name: GetLockDataAsync
+  nameWithType: DocumentDatabaseMutex.GetLockDataAsync
+  fullName: Mcma.Data.DocumentDatabaseMutex.GetLockDataAsync
+- uid: System.Threading.Tasks.Task{Mcma.Data.LockData}
+  commentId: T:System.Threading.Tasks.Task{Mcma.Data.LockData}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<LockData>
+  nameWithType: Task<LockData>
+  fullName: System.Threading.Tasks.Task<Mcma.Data.LockData>
+  nameWithType.vb: Task(Of LockData)
+  fullName.vb: System.Threading.Tasks.Task(Of Mcma.Data.LockData)
+  name.vb: Task(Of LockData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Data.LockData
+    name: LockData
+    nameWithType: LockData
+    fullName: Mcma.Data.LockData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Data.LockData
+    name: LockData
+    nameWithType: LockData
+    fullName: Mcma.Data.LockData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabaseMutex.DeleteLockDataAsync*
+  commentId: Overload:Mcma.Data.DocumentDatabaseMutex.DeleteLockDataAsync
+  name: DeleteLockDataAsync
+  nameWithType: DocumentDatabaseMutex.DeleteLockDataAsync
+  fullName: Mcma.Data.DocumentDatabaseMutex.DeleteLockDataAsync

@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-client.googleAuth
+    name: googleAuth(GoogleAuthOptions)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function googleAuth(options?: GoogleAuthOptions)'
+      parameters:
+        - id: options
+          type:
+            - GoogleAuthOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - AuthTypeRegistration<GoogleAuthOptions>
+        description: ''
+    package: google-cloud-client

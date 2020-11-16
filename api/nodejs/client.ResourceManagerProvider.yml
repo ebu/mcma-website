@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+items:
+  - uid: client.ResourceManagerProvider
+    name: ResourceManagerProvider
+    fullName: ResourceManagerProvider
+    children:
+      - client.ResourceManagerProvider.get
+      - client.ResourceManagerProvider.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: client
+  - uid: client.ResourceManagerProvider.get
+    name: get(ResourceManagerConfig | ConfigVariables)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get(config?: ResourceManagerConfig | ConfigVariables)'
+      parameters:
+        - id: config
+          type:
+            - client.ResourceManagerConfig | ConfigVariables
+          description: ''
+          optional: true
+      return:
+        type:
+          - client.ResourceManager
+        description: ''
+    package: client
+  - uid: client.ResourceManagerProvider.constructor
+    name: 'ResourceManagerProvider(AuthProvider, ResourceManagerConfig)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ResourceManagerProvider(authProvider: AuthProvider, defaultConfig?:
+        ResourceManagerConfig)
+      parameters:
+        - id: authProvider
+          type:
+            - client.AuthProvider
+          description: ''
+        - id: defaultConfig
+          type:
+            - client.ResourceManagerConfig
+          description: ''
+          optional: true
+    package: client
+references:
+  - uid: client.AuthProvider
+    name: AuthProvider
+    spec.typeScript:
+      - name: AuthProvider
+        fullName: AuthProvider
+        uid: client.AuthProvider
+  - uid: client.ResourceManagerConfig
+    name: ResourceManagerConfig
+    spec.typeScript:
+      - name: ResourceManagerConfig
+        fullName: ResourceManagerConfig
+        uid: client.ResourceManagerConfig
+  - uid: client.ResourceManagerConfig | ConfigVariables
+    name: ResourceManagerConfig | ConfigVariables
+    spec.typeScript:
+      - name: ResourceManagerConfig
+        fullName: ResourceManagerConfig
+        uid: client.ResourceManagerConfig
+      - name: ' | ConfigVariables'
+        fullName: ' | ConfigVariables'
+  - uid: client.ResourceManager
+    name: ResourceManager
+    spec.typeScript:
+      - name: ResourceManager
+        fullName: ResourceManager
+        uid: client.ResourceManager

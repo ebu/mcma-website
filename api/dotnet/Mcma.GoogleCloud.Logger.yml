@@ -1,0 +1,41 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Logger
+  commentId: N:Mcma.GoogleCloud.Logger
+  id: Mcma.GoogleCloud.Logger
+  children:
+  - Mcma.GoogleCloud.Logger.CloudLoggingLogger
+  - Mcma.GoogleCloud.Logger.CloudLoggingLoggerProvider
+  - Mcma.GoogleCloud.Logger.CloudLoggingServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mcma.GoogleCloud.Logger
+  nameWithType: Mcma.GoogleCloud.Logger
+  fullName: Mcma.GoogleCloud.Logger
+  type: Namespace
+  assemblies:
+  - Mcma.GoogleCloud.Logger
+references:
+- uid: Mcma.GoogleCloud.Logger.CloudLoggingLogger
+  commentId: T:Mcma.GoogleCloud.Logger.CloudLoggingLogger
+  parent: Mcma.GoogleCloud.Logger
+  name: CloudLoggingLogger
+  nameWithType: CloudLoggingLogger
+  fullName: Mcma.GoogleCloud.Logger.CloudLoggingLogger
+- uid: Mcma.GoogleCloud.Logger.CloudLoggingLoggerProvider
+  commentId: T:Mcma.GoogleCloud.Logger.CloudLoggingLoggerProvider
+  parent: Mcma.GoogleCloud.Logger
+  name: CloudLoggingLoggerProvider
+  nameWithType: CloudLoggingLoggerProvider
+  fullName: Mcma.GoogleCloud.Logger.CloudLoggingLoggerProvider
+- uid: Mcma.GoogleCloud.Logger.CloudLoggingServiceCollectionExtensions
+  commentId: T:Mcma.GoogleCloud.Logger.CloudLoggingServiceCollectionExtensions
+  name: CloudLoggingServiceCollectionExtensions
+  nameWithType: CloudLoggingServiceCollectionExtensions
+  fullName: Mcma.GoogleCloud.Logger.CloudLoggingServiceCollectionExtensions
+- uid: Mcma.GoogleCloud.Logger
+  commentId: N:Mcma.GoogleCloud.Logger
+  name: Mcma.GoogleCloud.Logger
+  nameWithType: Mcma.GoogleCloud.Logger
+  fullName: Mcma.GoogleCloud.Logger

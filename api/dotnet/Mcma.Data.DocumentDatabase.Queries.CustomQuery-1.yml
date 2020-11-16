@@ -1,0 +1,606 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+  id: CustomQuery`1
+  parent: Mcma.Data.DocumentDatabase.Queries
+  children:
+  - Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.Name
+  - Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.PageStartToken
+  - Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.Parameters
+  langs:
+  - csharp
+  - vb
+  name: CustomQuery<TParameters>
+  nameWithType: CustomQuery<TParameters>
+  fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery<TParameters>
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/Custom/CustomQuery.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: CustomQuery
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/Custom/CustomQuery.cs
+    startLine: 2
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public class CustomQuery<TParameters>
+    typeParameters:
+    - id: TParameters
+    content.vb: Public Class CustomQuery(Of TParameters)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  nameWithType.vb: CustomQuery(Of TParameters)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.CustomQuery(Of TParameters)
+  name.vb: CustomQuery(Of TParameters)
+- uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.Name
+  commentId: P:Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.Name
+  id: Name
+  parent: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CustomQuery<TParameters>.Name
+  fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery<TParameters>.Name
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/Custom/CustomQuery.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Name
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/Custom/CustomQuery.cs
+    startLine: 4
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.Name*
+  nameWithType.vb: CustomQuery(Of TParameters).Name
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.CustomQuery(Of TParameters).Name
+- uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.Parameters
+  commentId: P:Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.Parameters
+  id: Parameters
+  parent: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: CustomQuery<TParameters>.Parameters
+  fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery<TParameters>.Parameters
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/Custom/CustomQuery.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Parameters
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/Custom/CustomQuery.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public TParameters Parameters { get; set; }
+    parameters: []
+    return:
+      type: '{TParameters}'
+    content.vb: Public Property Parameters As TParameters
+  overload: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.Parameters*
+  nameWithType.vb: CustomQuery(Of TParameters).Parameters
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.CustomQuery(Of TParameters).Parameters
+- uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.PageStartToken
+  commentId: P:Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.PageStartToken
+  id: PageStartToken
+  parent: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+  langs:
+  - csharp
+  - vb
+  name: PageStartToken
+  nameWithType: CustomQuery<TParameters>.PageStartToken
+  fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery<TParameters>.PageStartToken
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/Custom/CustomQuery.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: PageStartToken
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/Custom/CustomQuery.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public string PageStartToken { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PageStartToken As String
+  overload: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.PageStartToken*
+  nameWithType.vb: CustomQuery(Of TParameters).PageStartToken
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.CustomQuery(Of TParameters).PageStartToken
+references:
+- uid: Mcma.Data.DocumentDatabase.Queries
+  commentId: N:Mcma.Data.DocumentDatabase.Queries
+  name: Mcma.Data.DocumentDatabase.Queries
+  nameWithType: Mcma.Data.DocumentDatabase.Queries
+  fullName: Mcma.Data.DocumentDatabase.Queries
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.Name*
+  commentId: Overload:Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.Name
+  name: Name
+  nameWithType: CustomQuery<TParameters>.Name
+  fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery<TParameters>.Name
+  nameWithType.vb: CustomQuery(Of TParameters).Name
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.CustomQuery(Of TParameters).Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.Parameters*
+  commentId: Overload:Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.Parameters
+  name: Parameters
+  nameWithType: CustomQuery<TParameters>.Parameters
+  fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery<TParameters>.Parameters
+  nameWithType.vb: CustomQuery(Of TParameters).Parameters
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.CustomQuery(Of TParameters).Parameters
+- uid: '{TParameters}'
+  commentId: '!:TParameters'
+  definition: TParameters
+  name: TParameters
+  nameWithType: TParameters
+  fullName: TParameters
+- uid: TParameters
+  commentId: '!:TParameters'
+  name: TParameters
+  nameWithType: TParameters
+  fullName: TParameters
+- uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.PageStartToken*
+  commentId: Overload:Mcma.Data.DocumentDatabase.Queries.CustomQuery`1.PageStartToken
+  name: PageStartToken
+  nameWithType: CustomQuery<TParameters>.PageStartToken
+  fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery<TParameters>.PageStartToken
+  nameWithType.vb: CustomQuery(Of TParameters).PageStartToken
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.CustomQuery(Of TParameters).PageStartToken

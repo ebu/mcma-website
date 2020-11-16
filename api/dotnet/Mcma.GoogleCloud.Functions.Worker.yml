@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Functions.Worker
+  commentId: N:Mcma.GoogleCloud.Functions.Worker
+  id: Mcma.GoogleCloud.Functions.Worker
+  children:
+  - Mcma.GoogleCloud.Functions.Worker.McmaGoogleCloudFunctionWorkerCollectionExtensions
+  - Mcma.GoogleCloud.Functions.Worker.McmaJobAssignmentWorkerStartup`1
+  - Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup
+  langs:
+  - csharp
+  - vb
+  name: Mcma.GoogleCloud.Functions.Worker
+  nameWithType: Mcma.GoogleCloud.Functions.Worker
+  fullName: Mcma.GoogleCloud.Functions.Worker
+  type: Namespace
+  assemblies:
+  - Mcma.GoogleCloud.Functions.Worker
+references:
+- uid: Mcma.GoogleCloud.Functions.Worker.McmaGoogleCloudFunctionWorkerCollectionExtensions
+  commentId: T:Mcma.GoogleCloud.Functions.Worker.McmaGoogleCloudFunctionWorkerCollectionExtensions
+  name: McmaGoogleCloudFunctionWorkerCollectionExtensions
+  nameWithType: McmaGoogleCloudFunctionWorkerCollectionExtensions
+  fullName: Mcma.GoogleCloud.Functions.Worker.McmaGoogleCloudFunctionWorkerCollectionExtensions
+- uid: Mcma.GoogleCloud.Functions.Worker.McmaJobAssignmentWorkerStartup`1
+  commentId: T:Mcma.GoogleCloud.Functions.Worker.McmaJobAssignmentWorkerStartup`1
+  name: McmaJobAssignmentWorkerStartup<T>
+  nameWithType: McmaJobAssignmentWorkerStartup<T>
+  fullName: Mcma.GoogleCloud.Functions.Worker.McmaJobAssignmentWorkerStartup<T>
+  nameWithType.vb: McmaJobAssignmentWorkerStartup(Of T)
+  fullName.vb: Mcma.GoogleCloud.Functions.Worker.McmaJobAssignmentWorkerStartup(Of T)
+  name.vb: McmaJobAssignmentWorkerStartup(Of T)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Functions.Worker.McmaJobAssignmentWorkerStartup`1
+    name: McmaJobAssignmentWorkerStartup
+    nameWithType: McmaJobAssignmentWorkerStartup
+    fullName: Mcma.GoogleCloud.Functions.Worker.McmaJobAssignmentWorkerStartup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Functions.Worker.McmaJobAssignmentWorkerStartup`1
+    name: McmaJobAssignmentWorkerStartup
+    nameWithType: McmaJobAssignmentWorkerStartup
+    fullName: Mcma.GoogleCloud.Functions.Worker.McmaJobAssignmentWorkerStartup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup
+  commentId: T:Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup
+  name: McmaWorkerStartup
+  nameWithType: McmaWorkerStartup
+  fullName: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Storage.Proxies
+  commentId: N:Mcma.GoogleCloud.Storage.Proxies
+  id: Mcma.GoogleCloud.Storage.Proxies
+  children:
+  - Mcma.GoogleCloud.Storage.Proxies.CloudStorageClientExtensions
+  - Mcma.GoogleCloud.Storage.Proxies.CloudStorageServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mcma.GoogleCloud.Storage.Proxies
+  nameWithType: Mcma.GoogleCloud.Storage.Proxies
+  fullName: Mcma.GoogleCloud.Storage.Proxies
+  type: Namespace
+  assemblies:
+  - Mcma.GoogleCloud.Storage
+references:
+- uid: Mcma.GoogleCloud.Storage.Proxies.CloudStorageClientExtensions
+  commentId: T:Mcma.GoogleCloud.Storage.Proxies.CloudStorageClientExtensions
+  name: CloudStorageClientExtensions
+  nameWithType: CloudStorageClientExtensions
+  fullName: Mcma.GoogleCloud.Storage.Proxies.CloudStorageClientExtensions
+- uid: Mcma.GoogleCloud.Storage.Proxies.CloudStorageServiceCollectionExtensions
+  commentId: T:Mcma.GoogleCloud.Storage.Proxies.CloudStorageServiceCollectionExtensions
+  name: CloudStorageServiceCollectionExtensions
+  nameWithType: CloudStorageServiceCollectionExtensions
+  fullName: Mcma.GoogleCloud.Storage.Proxies.CloudStorageServiceCollectionExtensions

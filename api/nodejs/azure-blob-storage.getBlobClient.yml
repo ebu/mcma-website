@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-blob-storage.getBlobClient
+    name: getBlobClient(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getBlobClient(connectionString: string)'
+      parameters:
+        - id: connectionString
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - BlobServiceClient
+        description: ''
+    package: azure-blob-storage

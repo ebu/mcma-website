@@ -1,0 +1,374 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.AmeJob
+    name: AmeJob
+    fullName: AmeJob
+    children:
+      - core.AmeJob.@type
+      - core.AmeJob.constructor
+      - core.AmeJob.custom
+      - core.AmeJob.dateCreated
+      - core.AmeJob.dateModified
+      - core.AmeJob.deadline
+      - core.AmeJob.error
+      - core.AmeJob.id
+      - core.AmeJob.jobInput
+      - core.AmeJob.jobOutput
+      - core.AmeJob.jobProfileId
+      - core.AmeJob.notificationEndpoint
+      - core.AmeJob.onCreate
+      - core.AmeJob.onUpsert
+      - core.AmeJob.parentId
+      - core.AmeJob.progress
+      - core.AmeJob.status
+      - core.AmeJob.timeout
+      - core.AmeJob.tracker
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: core.Job
+    package: core
+  - uid: core.AmeJob.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.AmeJob.constructor
+    name: AmeJob(JobProperties)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new AmeJob(properties: JobProperties)'
+      parameters:
+        - id: properties
+          type:
+            - core.JobProperties
+          description: ''
+    package: core
+  - uid: core.AmeJob.custom
+    name: custom
+    fullName: custom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'custom?: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: core
+  - uid: core.AmeJob.dateCreated
+    name: dateCreated
+    fullName: dateCreated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateCreated?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.AmeJob.dateModified
+    name: dateModified
+    fullName: dateModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateModified?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.AmeJob.deadline
+    name: deadline
+    fullName: deadline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'deadline?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.AmeJob.error
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'error?: ProblemDetail'
+      return:
+        type:
+          - core.ProblemDetail
+        description: ''
+    package: core
+  - uid: core.AmeJob.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.AmeJob.jobInput
+    name: jobInput
+    fullName: jobInput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'jobInput?: JobParameterBag'
+      return:
+        type:
+          - core.JobParameterBag
+        description: ''
+    package: core
+  - uid: core.AmeJob.jobOutput
+    name: jobOutput
+    fullName: jobOutput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'jobOutput?: JobParameterBag'
+      return:
+        type:
+          - core.JobParameterBag
+        description: ''
+    package: core
+  - uid: core.AmeJob.jobProfileId
+    name: jobProfileId
+    fullName: jobProfileId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'jobProfileId: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.AmeJob.notificationEndpoint
+    name: notificationEndpoint
+    fullName: notificationEndpoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'notificationEndpoint?: NotificationEndpointProperties'
+      return:
+        type:
+          - core.NotificationEndpointProperties
+        description: ''
+    package: core
+  - uid: core.AmeJob.onCreate
+    name: onCreate(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onCreate(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+    package: core
+  - uid: core.AmeJob.onUpsert
+    name: onUpsert(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onUpsert(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+    package: core
+  - uid: core.AmeJob.parentId
+    name: parentId
+    fullName: parentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'parentId?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.AmeJob.progress
+    name: progress
+    fullName: progress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'progress?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: core
+  - uid: core.AmeJob.status
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'status?: JobStatus'
+      return:
+        type:
+          - core.JobStatus
+        description: ''
+    package: core
+  - uid: core.AmeJob.timeout
+    name: timeout
+    fullName: timeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'timeout?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: core
+  - uid: core.AmeJob.tracker
+    name: tracker
+    fullName: tracker
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'tracker?: McmaTrackerProperties'
+      return:
+        type:
+          - core.McmaTrackerProperties
+        description: ''
+    package: core
+references:
+  - uid: core.Job
+    name: Job
+    spec.typeScript:
+      - name: Job
+        fullName: Job
+        uid: core.Job
+  - uid: core.JobProperties
+    name: JobProperties
+    spec.typeScript:
+      - name: JobProperties
+        fullName: JobProperties
+        uid: core.JobProperties
+  - uid: core.ProblemDetail
+    name: ProblemDetail
+    spec.typeScript:
+      - name: ProblemDetail
+        fullName: ProblemDetail
+        uid: core.ProblemDetail
+  - uid: core.JobParameterBag
+    name: JobParameterBag
+    spec.typeScript:
+      - name: JobParameterBag
+        fullName: JobParameterBag
+        uid: core.JobParameterBag
+  - uid: core.NotificationEndpointProperties
+    name: NotificationEndpointProperties
+    spec.typeScript:
+      - name: NotificationEndpointProperties
+        fullName: NotificationEndpointProperties
+        uid: core.NotificationEndpointProperties
+  - uid: core.JobStatus
+    name: JobStatus
+    spec.typeScript:
+      - name: JobStatus
+        fullName: JobStatus
+        uid: core.JobStatus
+  - uid: core.McmaTrackerProperties
+    name: McmaTrackerProperties
+    spec.typeScript:
+      - name: McmaTrackerProperties
+        fullName: McmaTrackerProperties
+        uid: core.McmaTrackerProperties

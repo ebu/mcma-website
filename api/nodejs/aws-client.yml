@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-client
+    name: "@mcma/aws-client"
+    summary: ""
+    children:
+      - aws-client.Aws
+      - aws-client.isAwsInstance
+      - aws-client.AwsAuthContext1
+      - aws-client.AwsAuthContext2
+      - aws-client.AwsAuthContext
+      - aws-client.isAwsAuthContext1Instance
+      - aws-client.isAwsAuthContext2Instance
+      - aws-client.AwsConfig
+      - aws-client.AwsCredentials
+      - aws-client.isAwsConfigInstance
+      - aws-client.AwsV4Authenticator
+      - aws-client.AwsV4PresignedUrlGenerator
+      - aws-client.awsV4Auth
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: aws-client.Aws
+    name: Aws
+  - uid: aws-client.isAwsInstance
+    name: isAwsInstance(any)
+  - uid: aws-client.AwsAuthContext1
+    name: AwsAuthContext1
+  - uid: aws-client.AwsAuthContext2
+    name: AwsAuthContext2
+  - uid: aws-client.AwsAuthContext
+    name: AwsAuthContext
+  - uid: aws-client.isAwsAuthContext1Instance
+    name: isAwsAuthContext1Instance(any)
+  - uid: aws-client.isAwsAuthContext2Instance
+    name: isAwsAuthContext2Instance(any)
+  - uid: aws-client.AwsConfig
+    name: AwsConfig
+  - uid: aws-client.AwsCredentials
+    name: AwsCredentials
+  - uid: aws-client.isAwsConfigInstance
+    name: isAwsConfigInstance(any)
+  - uid: aws-client.AwsV4Authenticator
+    name: AwsV4Authenticator
+  - uid: aws-client.AwsV4PresignedUrlGenerator
+    name: AwsV4PresignedUrlGenerator
+  - uid: aws-client.awsV4Auth
+    name: awsV4Auth(Aws | AwsConfig | AwsAuthContext)

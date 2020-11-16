@@ -1,0 +1,152 @@
+### YamlMime:UniversalReference
+items:
+  - uid: api.McmaApiRequest
+    name: McmaApiRequest
+    fullName: McmaApiRequest
+    children:
+      - api.McmaApiRequest.body
+      - api.McmaApiRequest.headers
+      - api.McmaApiRequest.httpMethod
+      - api.McmaApiRequest.id
+      - api.McmaApiRequest.constructor
+      - api.McmaApiRequest.path
+      - api.McmaApiRequest.pathVariables
+      - api.McmaApiRequest.queryStringParameters
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: api.McmaApiRequestConfig
+    package: api
+  - uid: api.McmaApiRequest.body
+    name: body
+    fullName: body
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'body?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: api
+  - uid: api.McmaApiRequest.headers
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'headers?: [key: string]: string'
+      return:
+        type:
+          - '[key: string]: string'
+        description: ''
+    package: api
+  - uid: api.McmaApiRequest.httpMethod
+    name: httpMethod
+    fullName: httpMethod
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'httpMethod: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: api
+  - uid: api.McmaApiRequest.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: api
+  - uid: api.McmaApiRequest.constructor
+    name: McmaApiRequest(McmaApiRequestConfig)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new McmaApiRequest(config: McmaApiRequestConfig)'
+      parameters:
+        - id: config
+          type:
+            - api.McmaApiRequestConfig
+          description: ''
+    package: api
+  - uid: api.McmaApiRequest.path
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'path: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: api
+  - uid: api.McmaApiRequest.pathVariables
+    name: pathVariables
+    fullName: pathVariables
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'pathVariables?: [key: string]: string'
+      return:
+        type:
+          - '[key: string]: string'
+        description: ''
+    package: api
+  - uid: api.McmaApiRequest.queryStringParameters
+    name: queryStringParameters
+    fullName: queryStringParameters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'queryStringParameters?: [key: string]: string'
+      return:
+        type:
+          - '[key: string]: string'
+        description: ''
+    package: api
+references:
+  - uid: api.McmaApiRequestConfig
+    name: McmaApiRequestConfig
+    spec.typeScript:
+      - name: McmaApiRequestConfig
+        fullName: McmaApiRequestConfig
+        uid: api.McmaApiRequestConfig

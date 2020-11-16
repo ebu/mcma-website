@@ -1,0 +1,78 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-s3.AwsS3Locator
+    name: AwsS3Locator
+    fullName: AwsS3Locator
+    children:
+      - aws-s3.AwsS3Locator.@type
+      - aws-s3.AwsS3Locator.bucket
+      - aws-s3.AwsS3Locator.path
+      - aws-s3.AwsS3Locator.url
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: Locator
+    package: aws-s3
+  - uid: aws-s3.AwsS3Locator.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-s3
+  - uid: aws-s3.AwsS3Locator.bucket
+    name: bucket
+    fullName: bucket
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public bucket: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-s3
+  - uid: aws-s3.AwsS3Locator.path
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public path: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-s3
+  - uid: aws-s3.AwsS3Locator.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'public url?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-s3

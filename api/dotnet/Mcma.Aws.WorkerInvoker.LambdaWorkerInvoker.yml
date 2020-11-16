@@ -1,0 +1,778 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker
+  commentId: T:Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker
+  id: LambdaWorkerInvoker
+  parent: Mcma.Aws.WorkerInvoker
+  children:
+  - Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker.#ctor(Microsoft.Extensions.Options.IOptions{Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions})
+  - Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  langs:
+  - csharp
+  - vb
+  name: LambdaWorkerInvoker
+  nameWithType: LambdaWorkerInvoker
+  fullName: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker
+  type: Class
+  source:
+    remote:
+      path: AWS/Mcma.Aws.LambdaWorkerInvoker/LambdaWorkerInvoker.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: LambdaWorkerInvoker
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.LambdaWorkerInvoker/LambdaWorkerInvoker.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Aws.LambdaWorkerInvoker
+  namespace: Mcma.Aws.WorkerInvoker
+  syntax:
+    content: 'public class LambdaWorkerInvoker : WorkerInvoker, IWorkerInvoker'
+    content.vb: >-
+      Public Class LambdaWorkerInvoker
+
+          Inherits WorkerInvoker
+
+          Implements IWorkerInvoker
+  inheritance:
+  - System.Object
+  - Mcma.WorkerInvoker.WorkerInvoker
+  implements:
+  - Mcma.WorkerInvoker.IWorkerInvoker
+  inheritedMembers:
+  - Mcma.WorkerInvoker.WorkerInvoker.Options
+  - Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(System.String,System.Object,Mcma.McmaTracker)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker.#ctor(Microsoft.Extensions.Options.IOptions{Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions})
+  commentId: M:Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker.#ctor(Microsoft.Extensions.Options.IOptions{Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions})
+  id: '#ctor(Microsoft.Extensions.Options.IOptions{Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions})'
+  parent: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker
+  langs:
+  - csharp
+  - vb
+  name: LambdaWorkerInvoker(IOptions<LambdaWorkerInvokerOptions>)
+  nameWithType: LambdaWorkerInvoker.LambdaWorkerInvoker(IOptions<LambdaWorkerInvokerOptions>)
+  fullName: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker.LambdaWorkerInvoker(Microsoft.Extensions.Options.IOptions<Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions>)
+  type: Constructor
+  source:
+    remote:
+      path: AWS/Mcma.Aws.LambdaWorkerInvoker/LambdaWorkerInvoker.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.LambdaWorkerInvoker/LambdaWorkerInvoker.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Aws.LambdaWorkerInvoker
+  namespace: Mcma.Aws.WorkerInvoker
+  syntax:
+    content: public LambdaWorkerInvoker(IOptions<LambdaWorkerInvokerOptions> options)
+    parameters:
+    - id: options
+      type: Microsoft.Extensions.Options.IOptions{Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions}
+    content.vb: Public Sub New(options As IOptions(Of LambdaWorkerInvokerOptions))
+  overload: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker.#ctor*
+  nameWithType.vb: LambdaWorkerInvoker.LambdaWorkerInvoker(IOptions(Of LambdaWorkerInvokerOptions))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker.LambdaWorkerInvoker(Microsoft.Extensions.Options.IOptions(Of Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions))
+  name.vb: LambdaWorkerInvoker(IOptions(Of LambdaWorkerInvokerOptions))
+- uid: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  commentId: M:Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  id: InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  parent: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker
+  langs:
+  - csharp
+  - vb
+  name: InvokeAsync(WorkerRequest)
+  nameWithType: LambdaWorkerInvoker.InvokeAsync(WorkerRequest)
+  fullName: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.LambdaWorkerInvoker/LambdaWorkerInvoker.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: InvokeAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.LambdaWorkerInvoker/LambdaWorkerInvoker.cs
+    startLine: 20
+  assemblies:
+  - Mcma.Aws.LambdaWorkerInvoker
+  namespace: Mcma.Aws.WorkerInvoker
+  syntax:
+    content: protected override Task InvokeAsync(WorkerRequest request)
+    parameters:
+    - id: request
+      type: Mcma.WorkerInvoker.WorkerRequest
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function InvokeAsync(request As WorkerRequest) As Task
+  overridden: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  overload: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker.InvokeAsync*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Mcma.Aws.WorkerInvoker
+  commentId: N:Mcma.Aws.WorkerInvoker
+  name: Mcma.Aws.WorkerInvoker
+  nameWithType: Mcma.Aws.WorkerInvoker
+  fullName: Mcma.Aws.WorkerInvoker
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.WorkerInvoker.WorkerInvoker
+  commentId: T:Mcma.WorkerInvoker.WorkerInvoker
+  parent: Mcma.WorkerInvoker
+  name: WorkerInvoker
+  nameWithType: WorkerInvoker
+  fullName: Mcma.WorkerInvoker.WorkerInvoker
+- uid: Mcma.WorkerInvoker.IWorkerInvoker
+  commentId: T:Mcma.WorkerInvoker.IWorkerInvoker
+  parent: Mcma.WorkerInvoker
+  name: IWorkerInvoker
+  nameWithType: IWorkerInvoker
+  fullName: Mcma.WorkerInvoker.IWorkerInvoker
+- uid: Mcma.WorkerInvoker.WorkerInvoker.Options
+  commentId: P:Mcma.WorkerInvoker.WorkerInvoker.Options
+  parent: Mcma.WorkerInvoker.WorkerInvoker
+  name: Options
+  nameWithType: WorkerInvoker.Options
+  fullName: Mcma.WorkerInvoker.WorkerInvoker.Options
+- uid: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(System.String,System.Object,Mcma.McmaTracker)
+  commentId: M:Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(System.String,System.Object,Mcma.McmaTracker)
+  parent: Mcma.WorkerInvoker.WorkerInvoker
+  isExternal: true
+  name: InvokeAsync(String, Object, McmaTracker)
+  nameWithType: WorkerInvoker.InvokeAsync(String, Object, McmaTracker)
+  fullName: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(System.String, System.Object, Mcma.McmaTracker)
+  spec.csharp:
+  - uid: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(System.String,System.Object,Mcma.McmaTracker)
+    name: InvokeAsync
+    nameWithType: WorkerInvoker.InvokeAsync
+    fullName: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(System.String,System.Object,Mcma.McmaTracker)
+    name: InvokeAsync
+    nameWithType: WorkerInvoker.InvokeAsync
+    fullName: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.WorkerInvoker
+  commentId: N:Mcma.WorkerInvoker
+  name: Mcma.WorkerInvoker
+  nameWithType: Mcma.WorkerInvoker
+  fullName: Mcma.WorkerInvoker
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker.#ctor*
+  commentId: Overload:Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker.#ctor
+  name: LambdaWorkerInvoker
+  nameWithType: LambdaWorkerInvoker.LambdaWorkerInvoker
+  fullName: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker.LambdaWorkerInvoker
+- uid: Microsoft.Extensions.Options.IOptions{Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions}
+  commentId: T:Microsoft.Extensions.Options.IOptions{Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IOptions`1
+  name: IOptions<LambdaWorkerInvokerOptions>
+  nameWithType: IOptions<LambdaWorkerInvokerOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions>
+  nameWithType.vb: IOptions(Of LambdaWorkerInvokerOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions)
+  name.vb: IOptions(Of LambdaWorkerInvokerOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions
+    name: LambdaWorkerInvokerOptions
+    nameWithType: LambdaWorkerInvokerOptions
+    fullName: Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions
+    name: LambdaWorkerInvokerOptions
+    nameWithType: LambdaWorkerInvokerOptions
+    fullName: Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options.IOptions`1
+  commentId: T:Microsoft.Extensions.Options.IOptions`1
+  isExternal: true
+  name: IOptions<TOptions>
+  nameWithType: IOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<TOptions>
+  nameWithType.vb: IOptions(Of TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of TOptions)
+  name.vb: IOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: true
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+- uid: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  commentId: M:Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  parent: Mcma.WorkerInvoker.WorkerInvoker
+  name: InvokeAsync(WorkerRequest)
+  nameWithType: WorkerInvoker.InvokeAsync(WorkerRequest)
+  fullName: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  spec.csharp:
+  - uid: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+    name: InvokeAsync
+    nameWithType: WorkerInvoker.InvokeAsync
+    fullName: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.WorkerInvoker.WorkerRequest
+    name: WorkerRequest
+    nameWithType: WorkerRequest
+    fullName: Mcma.WorkerInvoker.WorkerRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+    name: InvokeAsync
+    nameWithType: WorkerInvoker.InvokeAsync
+    fullName: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.WorkerInvoker.WorkerRequest
+    name: WorkerRequest
+    nameWithType: WorkerRequest
+    fullName: Mcma.WorkerInvoker.WorkerRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker.InvokeAsync*
+  commentId: Overload:Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker.InvokeAsync
+  name: InvokeAsync
+  nameWithType: LambdaWorkerInvoker.InvokeAsync
+  fullName: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker.InvokeAsync
+- uid: Mcma.WorkerInvoker.WorkerRequest
+  commentId: T:Mcma.WorkerInvoker.WorkerRequest
+  parent: Mcma.WorkerInvoker
+  name: WorkerRequest
+  nameWithType: WorkerRequest
+  fullName: Mcma.WorkerInvoker.WorkerRequest
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

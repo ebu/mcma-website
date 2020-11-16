@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-functions-worker
+    name: "@mcma/azure-functions-worker"
+    summary: ""
+    children:
+      - azure-functions-worker.WorkerQueueContext
+      - azure-functions-worker.createWorkerRequest
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: azure-functions-worker.WorkerQueueContext
+    name: WorkerQueueContext
+  - uid: azure-functions-worker.createWorkerRequest
+    name: createWorkerRequest(Context)

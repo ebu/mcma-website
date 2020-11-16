@@ -1,0 +1,70 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-storage.CloudStorageFolderLocatorProperties
+    name: CloudStorageFolderLocatorProperties
+    fullName: CloudStorageFolderLocatorProperties
+    children:
+      - google-cloud-storage.CloudStorageFolderLocatorProperties.@type
+      - google-cloud-storage.CloudStorageFolderLocatorProperties.bucket
+      - google-cloud-storage.CloudStorageFolderLocatorProperties.folderPath
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: google-cloud-storage.CloudStorageLocatorProperties
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFolderLocatorProperties.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: '@type?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFolderLocatorProperties.bucket
+    name: bucket
+    fullName: bucket
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bucket: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFolderLocatorProperties.folderPath
+    name: folderPath
+    fullName: folderPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'folderPath?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: google-cloud-storage
+references:
+  - uid: google-cloud-storage.CloudStorageLocatorProperties
+    name: CloudStorageLocatorProperties
+    spec.typeScript:
+      - name: CloudStorageLocatorProperties
+        fullName: CloudStorageLocatorProperties
+        uid: google-cloud-storage.CloudStorageLocatorProperties

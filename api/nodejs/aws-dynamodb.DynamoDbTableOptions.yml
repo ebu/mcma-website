@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-dynamodb.DynamoDbTableOptions
+    name: DynamoDbTableOptions
+    fullName: DynamoDbTableOptions
+    children:
+      - aws-dynamodb.DynamoDbTableOptions.consistentGet
+      - aws-dynamodb.DynamoDbTableOptions.consistentQuery
+      - aws-dynamodb.DynamoDbTableOptions.customQueryRegistry
+      - aws-dynamodb.DynamoDbTableOptions.topLevelAttributeMappings
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.DynamoDbTableOptions.consistentGet
+    name: consistentGet
+    fullName: consistentGet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'consistentGet?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.DynamoDbTableOptions.consistentQuery
+    name: consistentQuery
+    fullName: consistentQuery
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'consistentQuery?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.DynamoDbTableOptions.customQueryRegistry
+    name: customQueryRegistry
+    fullName: customQueryRegistry
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'customQueryRegistry?: CustomQueryRegistry'
+      return:
+        type:
+          - aws-dynamodb.CustomQueryRegistry
+        description: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.DynamoDbTableOptions.topLevelAttributeMappings
+    name: topLevelAttributeMappings
+    fullName: topLevelAttributeMappings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'topLevelAttributeMappings?: [key: string]: AttributeValueRetriever'
+      return:
+        type:
+          - '[key: string]: AttributeValueRetriever'
+        description: ''
+    package: aws-dynamodb
+references:
+  - uid: aws-dynamodb.CustomQueryRegistry
+    name: CustomQueryRegistry
+    spec.typeScript:
+      - name: CustomQueryRegistry
+        fullName: CustomQueryRegistry
+        uid: aws-dynamodb.CustomQueryRegistry

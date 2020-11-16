@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.Client
+  commentId: N:Mcma.Azure.Client
+  id: Mcma.Azure.Client
+  children:
+  - Mcma.Azure.Client.AzureConstants
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Azure.Client
+  nameWithType: Mcma.Azure.Client
+  fullName: Mcma.Azure.Client
+  type: Namespace
+  assemblies:
+  - Mcma.Azure.Client
+references:
+- uid: Mcma.Azure.Client.AzureConstants
+  commentId: T:Mcma.Azure.Client.AzureConstants
+  name: AzureConstants
+  nameWithType: AzureConstants
+  fullName: Mcma.Azure.Client.AzureConstants

@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: worker.OperationHandler
+    name: OperationHandler
+    fullName: OperationHandler
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type OperationHandler = (providers: ProviderCollection, request:
+        WorkerRequest, ctx?: any) => Promise<void>
+    package: worker

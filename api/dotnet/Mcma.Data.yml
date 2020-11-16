@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Data
+  commentId: N:Mcma.Data
+  id: Mcma.Data
+  children:
+  - Mcma.Data.DocumentDatabaseMutex
+  - Mcma.Data.DocumentDatabaseTableOptions
+  - Mcma.Data.IDocumentDatabaseMutex
+  - Mcma.Data.IDocumentDatabaseTable
+  - Mcma.Data.LockData
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Data
+  nameWithType: Mcma.Data
+  fullName: Mcma.Data
+  type: Namespace
+  assemblies:
+  - Mcma.Data
+references:
+- uid: Mcma.Data.DocumentDatabaseMutex
+  commentId: T:Mcma.Data.DocumentDatabaseMutex
+  parent: Mcma.Data
+  name: DocumentDatabaseMutex
+  nameWithType: DocumentDatabaseMutex
+  fullName: Mcma.Data.DocumentDatabaseMutex
+- uid: Mcma.Data.DocumentDatabaseTableOptions
+  commentId: T:Mcma.Data.DocumentDatabaseTableOptions
+  parent: Mcma.Data
+  name: DocumentDatabaseTableOptions
+  nameWithType: DocumentDatabaseTableOptions
+  fullName: Mcma.Data.DocumentDatabaseTableOptions
+- uid: Mcma.Data.IDocumentDatabaseMutex
+  commentId: T:Mcma.Data.IDocumentDatabaseMutex
+  parent: Mcma.Data
+  name: IDocumentDatabaseMutex
+  nameWithType: IDocumentDatabaseMutex
+  fullName: Mcma.Data.IDocumentDatabaseMutex
+- uid: Mcma.Data.IDocumentDatabaseTable
+  commentId: T:Mcma.Data.IDocumentDatabaseTable
+  parent: Mcma.Data
+  name: IDocumentDatabaseTable
+  nameWithType: IDocumentDatabaseTable
+  fullName: Mcma.Data.IDocumentDatabaseTable
+- uid: Mcma.Data.LockData
+  commentId: T:Mcma.Data.LockData
+  name: LockData
+  nameWithType: LockData
+  fullName: Mcma.Data.LockData
+- uid: Mcma.Data
+  commentId: N:Mcma.Data
+  name: Mcma.Data
+  nameWithType: Mcma.Data
+  fullName: Mcma.Data

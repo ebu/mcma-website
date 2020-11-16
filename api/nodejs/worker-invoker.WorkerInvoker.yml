@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: worker-invoker.WorkerInvoker
+    name: WorkerInvoker
+    fullName: WorkerInvoker
+    children:
+      - worker-invoker.WorkerInvoker.invoke
+      - worker-invoker.WorkerInvoker.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: worker-invoker
+  - uid: worker-invoker.WorkerInvoker.invoke
+    name: 'invoke(string, WorkerRequestProperties)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function invoke(workerFunctionId: string, workerRequest:
+        WorkerRequestProperties)
+      parameters:
+        - id: workerFunctionId
+          type:
+            - string
+          description: ''
+        - id: workerRequest
+          type:
+            - worker-invoker.WorkerRequestProperties
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: worker-invoker
+  - uid: worker-invoker.WorkerInvoker.constructor
+    name: WorkerInvoker(InvokeWorker)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new WorkerInvoker(invokeWorker: InvokeWorker)'
+      parameters:
+        - id: invokeWorker
+          type:
+            - worker-invoker.InvokeWorker
+          description: ''
+    package: worker-invoker
+references:
+  - uid: worker-invoker.InvokeWorker
+    name: InvokeWorker
+    spec.typeScript:
+      - name: InvokeWorker
+        fullName: InvokeWorker
+        uid: worker-invoker.InvokeWorker
+  - uid: worker-invoker.WorkerRequestProperties
+    name: WorkerRequestProperties
+    spec.typeScript:
+      - name: WorkerRequestProperties
+        fullName: WorkerRequestProperties
+        uid: worker-invoker.WorkerRequestProperties

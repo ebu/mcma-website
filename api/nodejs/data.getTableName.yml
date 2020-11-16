@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: data.getTableName
+    name: getTableName(ConfigVariables)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getTableName(configVariables: ConfigVariables)'
+      parameters:
+        - id: configVariables
+          type:
+            - ConfigVariables
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: data

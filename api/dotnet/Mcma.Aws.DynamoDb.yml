@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.DynamoDb
+  commentId: N:Mcma.Aws.DynamoDb
+  id: Mcma.Aws.DynamoDb
+  children:
+  - Mcma.Aws.DynamoDb.AttributeMapper
+  - Mcma.Aws.DynamoDb.AttributeMapping`1
+  - Mcma.Aws.DynamoDb.DynamoDbCustomQueryBuilderRegistry
+  - Mcma.Aws.DynamoDb.DynamoDbMutex
+  - Mcma.Aws.DynamoDb.DynamoDbServiceCollectionExtensions
+  - Mcma.Aws.DynamoDb.DynamoDbTable
+  - Mcma.Aws.DynamoDb.DynamoDbTableBuilder
+  - Mcma.Aws.DynamoDb.DynamoDbTableDescription
+  - Mcma.Aws.DynamoDb.DynamoDbTableOptions
+  - Mcma.Aws.DynamoDb.FilterExpressionBuilder
+  - Mcma.Aws.DynamoDb.GlobalSecondaryIndexDescription
+  - Mcma.Aws.DynamoDb.IAttributeMapper
+  - Mcma.Aws.DynamoDb.IAttributeMapping
+  - Mcma.Aws.DynamoDb.IFilterExpressionBuilder
+  - Mcma.Aws.DynamoDb.ITableDescriptionProvider
+  - Mcma.Aws.DynamoDb.JTokenExtensions
+  - Mcma.Aws.DynamoDb.KeyNames
+  - Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription
+  - Mcma.Aws.DynamoDb.TableDescriptionProvider
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Aws.DynamoDb
+  nameWithType: Mcma.Aws.DynamoDb
+  fullName: Mcma.Aws.DynamoDb
+  type: Namespace
+  assemblies:
+  - Mcma.Aws.DynamoDb
+references:
+- uid: Mcma.Aws.DynamoDb.AttributeMapper
+  commentId: T:Mcma.Aws.DynamoDb.AttributeMapper
+  name: AttributeMapper
+  nameWithType: AttributeMapper
+  fullName: Mcma.Aws.DynamoDb.AttributeMapper
+- uid: Mcma.Aws.DynamoDb.AttributeMapping`1
+  commentId: T:Mcma.Aws.DynamoDb.AttributeMapping`1
+  name: AttributeMapping<TResource>
+  nameWithType: AttributeMapping<TResource>
+  fullName: Mcma.Aws.DynamoDb.AttributeMapping<TResource>
+  nameWithType.vb: AttributeMapping(Of TResource)
+  fullName.vb: Mcma.Aws.DynamoDb.AttributeMapping(Of TResource)
+  name.vb: AttributeMapping(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Aws.DynamoDb.AttributeMapping`1
+    name: AttributeMapping
+    nameWithType: AttributeMapping
+    fullName: Mcma.Aws.DynamoDb.AttributeMapping
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Aws.DynamoDb.AttributeMapping`1
+    name: AttributeMapping
+    nameWithType: AttributeMapping
+    fullName: Mcma.Aws.DynamoDb.AttributeMapping
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.DynamoDb.IAttributeMapper
+  commentId: T:Mcma.Aws.DynamoDb.IAttributeMapper
+  parent: Mcma.Aws.DynamoDb
+  name: IAttributeMapper
+  nameWithType: IAttributeMapper
+  fullName: Mcma.Aws.DynamoDb.IAttributeMapper
+- uid: Mcma.Aws.DynamoDb.IAttributeMapping
+  commentId: T:Mcma.Aws.DynamoDb.IAttributeMapping
+  parent: Mcma.Aws.DynamoDb
+  name: IAttributeMapping
+  nameWithType: IAttributeMapping
+  fullName: Mcma.Aws.DynamoDb.IAttributeMapping
+- uid: Mcma.Aws.DynamoDb.DynamoDbCustomQueryBuilderRegistry
+  commentId: T:Mcma.Aws.DynamoDb.DynamoDbCustomQueryBuilderRegistry
+  name: DynamoDbCustomQueryBuilderRegistry
+  nameWithType: DynamoDbCustomQueryBuilderRegistry
+  fullName: Mcma.Aws.DynamoDb.DynamoDbCustomQueryBuilderRegistry
+- uid: Mcma.Aws.DynamoDb.DynamoDbMutex
+  commentId: T:Mcma.Aws.DynamoDb.DynamoDbMutex
+  name: DynamoDbMutex
+  nameWithType: DynamoDbMutex
+  fullName: Mcma.Aws.DynamoDb.DynamoDbMutex
+- uid: Mcma.Aws.DynamoDb.DynamoDbServiceCollectionExtensions
+  commentId: T:Mcma.Aws.DynamoDb.DynamoDbServiceCollectionExtensions
+  name: DynamoDbServiceCollectionExtensions
+  nameWithType: DynamoDbServiceCollectionExtensions
+  fullName: Mcma.Aws.DynamoDb.DynamoDbServiceCollectionExtensions
+- uid: Mcma.Aws.DynamoDb.DynamoDbTable
+  commentId: T:Mcma.Aws.DynamoDb.DynamoDbTable
+  name: DynamoDbTable
+  nameWithType: DynamoDbTable
+  fullName: Mcma.Aws.DynamoDb.DynamoDbTable
+- uid: Mcma.Aws.DynamoDb.DynamoDbTableBuilder
+  commentId: T:Mcma.Aws.DynamoDb.DynamoDbTableBuilder
+  parent: Mcma.Aws.DynamoDb
+  name: DynamoDbTableBuilder
+  nameWithType: DynamoDbTableBuilder
+  fullName: Mcma.Aws.DynamoDb.DynamoDbTableBuilder
+- uid: Mcma.Aws.DynamoDb.DynamoDbTableOptions
+  commentId: T:Mcma.Aws.DynamoDb.DynamoDbTableOptions
+  name: DynamoDbTableOptions
+  nameWithType: DynamoDbTableOptions
+  fullName: Mcma.Aws.DynamoDb.DynamoDbTableOptions
+- uid: Mcma.Aws.DynamoDb.FilterExpressionBuilder
+  commentId: T:Mcma.Aws.DynamoDb.FilterExpressionBuilder
+  name: FilterExpressionBuilder
+  nameWithType: FilterExpressionBuilder
+  fullName: Mcma.Aws.DynamoDb.FilterExpressionBuilder
+- uid: Mcma.Aws.DynamoDb.IFilterExpressionBuilder
+  commentId: T:Mcma.Aws.DynamoDb.IFilterExpressionBuilder
+  parent: Mcma.Aws.DynamoDb
+  name: IFilterExpressionBuilder
+  nameWithType: IFilterExpressionBuilder
+  fullName: Mcma.Aws.DynamoDb.IFilterExpressionBuilder
+- uid: Mcma.Aws.DynamoDb.JTokenExtensions
+  commentId: T:Mcma.Aws.DynamoDb.JTokenExtensions
+  name: JTokenExtensions
+  nameWithType: JTokenExtensions
+  fullName: Mcma.Aws.DynamoDb.JTokenExtensions
+- uid: Mcma.Aws.DynamoDb.KeyNames
+  commentId: T:Mcma.Aws.DynamoDb.KeyNames
+  parent: Mcma.Aws.DynamoDb
+  name: KeyNames
+  nameWithType: KeyNames
+  fullName: Mcma.Aws.DynamoDb.KeyNames
+- uid: Mcma.Aws.DynamoDb.DynamoDbTableDescription
+  commentId: T:Mcma.Aws.DynamoDb.DynamoDbTableDescription
+  parent: Mcma.Aws.DynamoDb
+  name: DynamoDbTableDescription
+  nameWithType: DynamoDbTableDescription
+  fullName: Mcma.Aws.DynamoDb.DynamoDbTableDescription
+- uid: Mcma.Aws.DynamoDb.GlobalSecondaryIndexDescription
+  commentId: T:Mcma.Aws.DynamoDb.GlobalSecondaryIndexDescription
+  name: GlobalSecondaryIndexDescription
+  nameWithType: GlobalSecondaryIndexDescription
+  fullName: Mcma.Aws.DynamoDb.GlobalSecondaryIndexDescription
+- uid: Mcma.Aws.DynamoDb.ITableDescriptionProvider
+  commentId: T:Mcma.Aws.DynamoDb.ITableDescriptionProvider
+  parent: Mcma.Aws.DynamoDb
+  name: ITableDescriptionProvider
+  nameWithType: ITableDescriptionProvider
+  fullName: Mcma.Aws.DynamoDb.ITableDescriptionProvider
+- uid: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription
+  commentId: T:Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription
+  name: LocalSecondaryIndexDescription
+  nameWithType: LocalSecondaryIndexDescription
+  fullName: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription
+- uid: Mcma.Aws.DynamoDb.TableDescriptionProvider
+  commentId: T:Mcma.Aws.DynamoDb.TableDescriptionProvider
+  name: TableDescriptionProvider
+  nameWithType: TableDescriptionProvider
+  fullName: Mcma.Aws.DynamoDb.TableDescriptionProvider
+- uid: Mcma.Aws.DynamoDb
+  commentId: N:Mcma.Aws.DynamoDb
+  name: Mcma.Aws.DynamoDb
+  nameWithType: Mcma.Aws.DynamoDb
+  fullName: Mcma.Aws.DynamoDb

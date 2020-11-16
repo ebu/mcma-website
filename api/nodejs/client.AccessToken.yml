@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: client.AccessToken
+    name: AccessToken
+    fullName: AccessToken
+    children:
+      - client.AccessToken.accessToken
+      - client.AccessToken.expiresOn
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: client
+  - uid: client.AccessToken.accessToken
+    name: accessToken
+    fullName: accessToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'accessToken: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: client
+  - uid: client.AccessToken.expiresOn
+    name: expiresOn
+    fullName: expiresOn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'expiresOn: Date | number'
+      return:
+        type:
+          - Date | number
+        description: ''
+    package: client

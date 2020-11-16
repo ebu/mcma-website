@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-blob-storage.getFileLocator
+    name: 'getFileLocator(BlobStorageFolderLocator, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getFileLocator(folderLocator: BlobStorageFolderLocator,
+        fileName: string)
+      parameters:
+        - id: folderLocator
+          type:
+            - azure-blob-storage.BlobStorageFolderLocator
+          description: ''
+        - id: fileName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - azure-blob-storage.BlobStorageFileLocator
+        description: ''
+    package: azure-blob-storage
+references:
+  - uid: azure-blob-storage.BlobStorageFolderLocator
+    name: BlobStorageFolderLocator
+    spec.typeScript:
+      - name: BlobStorageFolderLocator
+        fullName: BlobStorageFolderLocator
+        uid: azure-blob-storage.BlobStorageFolderLocator
+  - uid: azure-blob-storage.BlobStorageFileLocator
+    name: BlobStorageFileLocator
+    spec.typeScript:
+      - name: BlobStorageFileLocator
+        fullName: BlobStorageFileLocator
+        uid: azure-blob-storage.BlobStorageFileLocator

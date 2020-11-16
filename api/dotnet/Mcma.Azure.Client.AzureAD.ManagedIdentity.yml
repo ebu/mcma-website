@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  commentId: N:Mcma.Azure.Client.AzureAD.ManagedIdentity
+  id: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  children:
+  - Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions
+  - Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider
+  - Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  nameWithType: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  type: Namespace
+  assemblies:
+  - Mcma.Azure.Client
+references:
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions
+  commentId: T:Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions
+  parent: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  name: AzureADManagedIdentityAuthRegistryExtensions
+  nameWithType: AzureADManagedIdentityAuthRegistryExtensions
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider
+  commentId: T:Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider
+  name: AzureManagedIdentityBearerTokenProvider
+  nameWithType: AzureManagedIdentityBearerTokenProvider
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+  commentId: T:Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+  name: AzureManagedIdentityBearerTokenProviderOptions
+  nameWithType: AzureManagedIdentityBearerTokenProviderOptions
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  commentId: N:Mcma.Azure.Client.AzureAD.ManagedIdentity
+  name: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  nameWithType: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity

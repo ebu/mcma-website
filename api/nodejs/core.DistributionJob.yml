@@ -1,0 +1,374 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.DistributionJob
+    name: DistributionJob
+    fullName: DistributionJob
+    children:
+      - core.DistributionJob.@type
+      - core.DistributionJob.custom
+      - core.DistributionJob.dateCreated
+      - core.DistributionJob.dateModified
+      - core.DistributionJob.deadline
+      - core.DistributionJob.constructor
+      - core.DistributionJob.error
+      - core.DistributionJob.id
+      - core.DistributionJob.jobInput
+      - core.DistributionJob.jobOutput
+      - core.DistributionJob.jobProfileId
+      - core.DistributionJob.notificationEndpoint
+      - core.DistributionJob.onCreate
+      - core.DistributionJob.onUpsert
+      - core.DistributionJob.parentId
+      - core.DistributionJob.progress
+      - core.DistributionJob.status
+      - core.DistributionJob.timeout
+      - core.DistributionJob.tracker
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: core.Job
+    package: core
+  - uid: core.DistributionJob.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.DistributionJob.custom
+    name: custom
+    fullName: custom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'custom?: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: core
+  - uid: core.DistributionJob.dateCreated
+    name: dateCreated
+    fullName: dateCreated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateCreated?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.DistributionJob.dateModified
+    name: dateModified
+    fullName: dateModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateModified?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.DistributionJob.deadline
+    name: deadline
+    fullName: deadline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'deadline?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.DistributionJob.constructor
+    name: DistributionJob(JobProperties)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DistributionJob(properties: JobProperties)'
+      parameters:
+        - id: properties
+          type:
+            - core.JobProperties
+          description: ''
+    package: core
+  - uid: core.DistributionJob.error
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'error?: ProblemDetail'
+      return:
+        type:
+          - core.ProblemDetail
+        description: ''
+    package: core
+  - uid: core.DistributionJob.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.DistributionJob.jobInput
+    name: jobInput
+    fullName: jobInput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'jobInput?: JobParameterBag'
+      return:
+        type:
+          - core.JobParameterBag
+        description: ''
+    package: core
+  - uid: core.DistributionJob.jobOutput
+    name: jobOutput
+    fullName: jobOutput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'jobOutput?: JobParameterBag'
+      return:
+        type:
+          - core.JobParameterBag
+        description: ''
+    package: core
+  - uid: core.DistributionJob.jobProfileId
+    name: jobProfileId
+    fullName: jobProfileId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'jobProfileId: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.DistributionJob.notificationEndpoint
+    name: notificationEndpoint
+    fullName: notificationEndpoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'notificationEndpoint?: NotificationEndpointProperties'
+      return:
+        type:
+          - core.NotificationEndpointProperties
+        description: ''
+    package: core
+  - uid: core.DistributionJob.onCreate
+    name: onCreate(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onCreate(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+    package: core
+  - uid: core.DistributionJob.onUpsert
+    name: onUpsert(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onUpsert(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+    package: core
+  - uid: core.DistributionJob.parentId
+    name: parentId
+    fullName: parentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'parentId?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.DistributionJob.progress
+    name: progress
+    fullName: progress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'progress?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: core
+  - uid: core.DistributionJob.status
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'status?: JobStatus'
+      return:
+        type:
+          - core.JobStatus
+        description: ''
+    package: core
+  - uid: core.DistributionJob.timeout
+    name: timeout
+    fullName: timeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'timeout?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: core
+  - uid: core.DistributionJob.tracker
+    name: tracker
+    fullName: tracker
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'tracker?: McmaTrackerProperties'
+      return:
+        type:
+          - core.McmaTrackerProperties
+        description: ''
+    package: core
+references:
+  - uid: core.Job
+    name: Job
+    spec.typeScript:
+      - name: Job
+        fullName: Job
+        uid: core.Job
+  - uid: core.JobProperties
+    name: JobProperties
+    spec.typeScript:
+      - name: JobProperties
+        fullName: JobProperties
+        uid: core.JobProperties
+  - uid: core.ProblemDetail
+    name: ProblemDetail
+    spec.typeScript:
+      - name: ProblemDetail
+        fullName: ProblemDetail
+        uid: core.ProblemDetail
+  - uid: core.JobParameterBag
+    name: JobParameterBag
+    spec.typeScript:
+      - name: JobParameterBag
+        fullName: JobParameterBag
+        uid: core.JobParameterBag
+  - uid: core.NotificationEndpointProperties
+    name: NotificationEndpointProperties
+    spec.typeScript:
+      - name: NotificationEndpointProperties
+        fullName: NotificationEndpointProperties
+        uid: core.NotificationEndpointProperties
+  - uid: core.JobStatus
+    name: JobStatus
+    spec.typeScript:
+      - name: JobStatus
+        fullName: JobStatus
+        uid: core.JobStatus
+  - uid: core.McmaTrackerProperties
+    name: McmaTrackerProperties
+    spec.typeScript:
+      - name: McmaTrackerProperties
+        fullName: McmaTrackerProperties
+        uid: core.McmaTrackerProperties

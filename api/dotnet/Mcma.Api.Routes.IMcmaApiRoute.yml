@@ -1,0 +1,438 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Api.Routes.IMcmaApiRoute
+  commentId: T:Mcma.Api.Routes.IMcmaApiRoute
+  id: IMcmaApiRoute
+  parent: Mcma.Api.Routes
+  children:
+  - Mcma.Api.Routes.IMcmaApiRoute.HandleAsync(Mcma.Api.McmaApiRequestContext)
+  - Mcma.Api.Routes.IMcmaApiRoute.HttpMethod
+  - Mcma.Api.Routes.IMcmaApiRoute.IsMatch(System.String,System.Collections.Generic.IDictionary{System.String,System.Object}@)
+  langs:
+  - csharp
+  - vb
+  name: IMcmaApiRoute
+  nameWithType: IMcmaApiRoute
+  fullName: Mcma.Api.Routes.IMcmaApiRoute
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.Api/Routing/IMcmaApiRoute.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IMcmaApiRoute
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Routing/IMcmaApiRoute.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api.Routes
+  syntax:
+    content: public interface IMcmaApiRoute
+    content.vb: Public Interface IMcmaApiRoute
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Api.Routes.IMcmaApiRoute.HttpMethod
+  commentId: P:Mcma.Api.Routes.IMcmaApiRoute.HttpMethod
+  id: HttpMethod
+  parent: Mcma.Api.Routes.IMcmaApiRoute
+  langs:
+  - csharp
+  - vb
+  name: HttpMethod
+  nameWithType: IMcmaApiRoute.HttpMethod
+  fullName: Mcma.Api.Routes.IMcmaApiRoute.HttpMethod
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Api/Routing/IMcmaApiRoute.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: HttpMethod
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Routing/IMcmaApiRoute.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api.Routes
+  syntax:
+    content: HttpMethod HttpMethod { get; }
+    parameters: []
+    return:
+      type: System.Net.Http.HttpMethod
+    content.vb: ReadOnly Property HttpMethod As HttpMethod
+  overload: Mcma.Api.Routes.IMcmaApiRoute.HttpMethod*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Mcma.Api.Routes.IMcmaApiRoute.IsMatch(System.String,System.Collections.Generic.IDictionary{System.String,System.Object}@)
+  commentId: M:Mcma.Api.Routes.IMcmaApiRoute.IsMatch(System.String,System.Collections.Generic.IDictionary{System.String,System.Object}@)
+  id: IsMatch(System.String,System.Collections.Generic.IDictionary{System.String,System.Object}@)
+  parent: Mcma.Api.Routes.IMcmaApiRoute
+  langs:
+  - csharp
+  - vb
+  name: IsMatch(String, out IDictionary<String, Object>)
+  nameWithType: IMcmaApiRoute.IsMatch(String, out IDictionary<String, Object>)
+  fullName: Mcma.Api.Routes.IMcmaApiRoute.IsMatch(System.String, out System.Collections.Generic.IDictionary<System.String, System.Object>)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Api/Routing/IMcmaApiRoute.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IsMatch
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Routing/IMcmaApiRoute.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api.Routes
+  syntax:
+    content: bool IsMatch(string path, out IDictionary<string, object> pathVariables)
+    parameters:
+    - id: path
+      type: System.String
+    - id: pathVariables
+      type: System.Collections.Generic.IDictionary{System.String,System.Object}
+    return:
+      type: System.Boolean
+    content.vb: Function IsMatch(path As String, ByRef pathVariables As IDictionary(Of String, Object)) As Boolean
+  overload: Mcma.Api.Routes.IMcmaApiRoute.IsMatch*
+  nameWithType.vb: IMcmaApiRoute.IsMatch(String, ByRef IDictionary(Of String, Object))
+  fullName.vb: Mcma.Api.Routes.IMcmaApiRoute.IsMatch(System.String, ByRef System.Collections.Generic.IDictionary(Of System.String, System.Object))
+  name.vb: IsMatch(String, ByRef IDictionary(Of String, Object))
+- uid: Mcma.Api.Routes.IMcmaApiRoute.HandleAsync(Mcma.Api.McmaApiRequestContext)
+  commentId: M:Mcma.Api.Routes.IMcmaApiRoute.HandleAsync(Mcma.Api.McmaApiRequestContext)
+  id: HandleAsync(Mcma.Api.McmaApiRequestContext)
+  parent: Mcma.Api.Routes.IMcmaApiRoute
+  langs:
+  - csharp
+  - vb
+  name: HandleAsync(McmaApiRequestContext)
+  nameWithType: IMcmaApiRoute.HandleAsync(McmaApiRequestContext)
+  fullName: Mcma.Api.Routes.IMcmaApiRoute.HandleAsync(Mcma.Api.McmaApiRequestContext)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Api/Routing/IMcmaApiRoute.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: HandleAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Routing/IMcmaApiRoute.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api.Routes
+  syntax:
+    content: Task HandleAsync(McmaApiRequestContext requestContext)
+    parameters:
+    - id: requestContext
+      type: Mcma.Api.McmaApiRequestContext
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function HandleAsync(requestContext As McmaApiRequestContext) As Task
+  overload: Mcma.Api.Routes.IMcmaApiRoute.HandleAsync*
+references:
+- uid: Mcma.Api.Routes
+  commentId: N:Mcma.Api.Routes
+  name: Mcma.Api.Routes
+  nameWithType: Mcma.Api.Routes
+  fullName: Mcma.Api.Routes
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Api.Routes.IMcmaApiRoute.HttpMethod*
+  commentId: Overload:Mcma.Api.Routes.IMcmaApiRoute.HttpMethod
+  name: HttpMethod
+  nameWithType: IMcmaApiRoute.HttpMethod
+  fullName: Mcma.Api.Routes.IMcmaApiRoute.HttpMethod
+- uid: System.Net.Http.HttpMethod
+  commentId: T:System.Net.Http.HttpMethod
+  parent: System.Net.Http
+  isExternal: true
+  name: HttpMethod
+  nameWithType: HttpMethod
+  fullName: System.Net.Http.HttpMethod
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+- uid: Mcma.Api.Routes.IMcmaApiRoute.IsMatch*
+  commentId: Overload:Mcma.Api.Routes.IMcmaApiRoute.IsMatch
+  name: IsMatch
+  nameWithType: IMcmaApiRoute.IsMatch
+  fullName: Mcma.Api.Routes.IMcmaApiRoute.IsMatch
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.IDictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<String, Object>
+  nameWithType: IDictionary<String, Object>
+  fullName: System.Collections.Generic.IDictionary<System.String, System.Object>
+  nameWithType.vb: IDictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.IDictionary(Of System.String, System.Object)
+  name.vb: IDictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Mcma.Api.Routes.IMcmaApiRoute.HandleAsync*
+  commentId: Overload:Mcma.Api.Routes.IMcmaApiRoute.HandleAsync
+  name: HandleAsync
+  nameWithType: IMcmaApiRoute.HandleAsync
+  fullName: Mcma.Api.Routes.IMcmaApiRoute.HandleAsync
+- uid: Mcma.Api.McmaApiRequestContext
+  commentId: T:Mcma.Api.McmaApiRequestContext
+  parent: Mcma.Api
+  name: McmaApiRequestContext
+  nameWithType: McmaApiRequestContext
+  fullName: Mcma.Api.McmaApiRequestContext
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Mcma.Api
+  commentId: N:Mcma.Api
+  name: Mcma.Api
+  nameWithType: Mcma.Api
+  fullName: Mcma.Api
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

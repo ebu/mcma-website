@@ -1,0 +1,269 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Worker
+  commentId: N:Mcma.Worker
+  id: Mcma.Worker
+  children:
+  - Mcma.Worker.IJobProfile`1
+  - Mcma.Worker.IMcmaWorker
+  - Mcma.Worker.IMcmaWorkerOperation
+  - Mcma.Worker.McmaWorker
+  - Mcma.Worker.McmaWorkerBuilder
+  - Mcma.Worker.McmaWorkerOperation`1
+  - Mcma.Worker.McmaWorkerRequest
+  - Mcma.Worker.McmaWorkerRequestContext
+  - Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions
+  - Mcma.Worker.ProcessJobAssignmentHelper`1
+  - Mcma.Worker.ProcessJobAssignmentOperation`1
+  - Mcma.Worker.ProcessJobAssignmentOperationBuilder`1
+  - Mcma.Worker.ProcessJobAssignmentRequest
+  - Mcma.Worker.WorkerServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Worker
+  nameWithType: Mcma.Worker
+  fullName: Mcma.Worker
+  type: Namespace
+  assemblies:
+  - Mcma.Worker
+references:
+- uid: Mcma.Worker.IMcmaWorker
+  commentId: T:Mcma.Worker.IMcmaWorker
+  parent: Mcma.Worker
+  name: IMcmaWorker
+  nameWithType: IMcmaWorker
+  fullName: Mcma.Worker.IMcmaWorker
+- uid: Mcma.Worker.IMcmaWorkerOperation
+  commentId: T:Mcma.Worker.IMcmaWorkerOperation
+  parent: Mcma.Worker
+  name: IMcmaWorkerOperation
+  nameWithType: IMcmaWorkerOperation
+  fullName: Mcma.Worker.IMcmaWorkerOperation
+- uid: Mcma.Worker.IJobProfile`1
+  commentId: T:Mcma.Worker.IJobProfile`1
+  name: IJobProfile<TJob>
+  nameWithType: IJobProfile<TJob>
+  fullName: Mcma.Worker.IJobProfile<TJob>
+  nameWithType.vb: IJobProfile(Of TJob)
+  fullName.vb: Mcma.Worker.IJobProfile(Of TJob)
+  name.vb: IJobProfile(Of TJob)
+  spec.csharp:
+  - uid: Mcma.Worker.IJobProfile`1
+    name: IJobProfile
+    nameWithType: IJobProfile
+    fullName: Mcma.Worker.IJobProfile
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TJob
+    nameWithType: TJob
+    fullName: TJob
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Worker.IJobProfile`1
+    name: IJobProfile
+    nameWithType: IJobProfile
+    fullName: Mcma.Worker.IJobProfile
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TJob
+    nameWithType: TJob
+    fullName: TJob
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions
+  commentId: T:Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions
+  parent: Mcma.Worker
+  name: ProcessJobAssigmentOperationServiceCollectionExtensions
+  nameWithType: ProcessJobAssigmentOperationServiceCollectionExtensions
+  fullName: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions
+- uid: Mcma.Worker.ProcessJobAssignmentHelper`1
+  commentId: T:Mcma.Worker.ProcessJobAssignmentHelper`1
+  name: ProcessJobAssignmentHelper<T>
+  nameWithType: ProcessJobAssignmentHelper<T>
+  fullName: Mcma.Worker.ProcessJobAssignmentHelper<T>
+  nameWithType.vb: ProcessJobAssignmentHelper(Of T)
+  fullName.vb: Mcma.Worker.ProcessJobAssignmentHelper(Of T)
+  name.vb: ProcessJobAssignmentHelper(Of T)
+  spec.csharp:
+  - uid: Mcma.Worker.ProcessJobAssignmentHelper`1
+    name: ProcessJobAssignmentHelper
+    nameWithType: ProcessJobAssignmentHelper
+    fullName: Mcma.Worker.ProcessJobAssignmentHelper
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Worker.ProcessJobAssignmentHelper`1
+    name: ProcessJobAssignmentHelper
+    nameWithType: ProcessJobAssignmentHelper
+    fullName: Mcma.Worker.ProcessJobAssignmentHelper
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Worker.ProcessJobAssignmentOperation`1
+  commentId: T:Mcma.Worker.ProcessJobAssignmentOperation`1
+  parent: Mcma.Worker
+  name: ProcessJobAssignmentOperation<TJob>
+  nameWithType: ProcessJobAssignmentOperation<TJob>
+  fullName: Mcma.Worker.ProcessJobAssignmentOperation<TJob>
+  nameWithType.vb: ProcessJobAssignmentOperation(Of TJob)
+  fullName.vb: Mcma.Worker.ProcessJobAssignmentOperation(Of TJob)
+  name.vb: ProcessJobAssignmentOperation(Of TJob)
+  spec.csharp:
+  - uid: Mcma.Worker.ProcessJobAssignmentOperation`1
+    name: ProcessJobAssignmentOperation
+    nameWithType: ProcessJobAssignmentOperation
+    fullName: Mcma.Worker.ProcessJobAssignmentOperation
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TJob
+    nameWithType: TJob
+    fullName: TJob
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Worker.ProcessJobAssignmentOperation`1
+    name: ProcessJobAssignmentOperation
+    nameWithType: ProcessJobAssignmentOperation
+    fullName: Mcma.Worker.ProcessJobAssignmentOperation
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TJob
+    nameWithType: TJob
+    fullName: TJob
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Worker.ProcessJobAssignmentOperationBuilder`1
+  commentId: T:Mcma.Worker.ProcessJobAssignmentOperationBuilder`1
+  parent: Mcma.Worker
+  name: ProcessJobAssignmentOperationBuilder<TJob>
+  nameWithType: ProcessJobAssignmentOperationBuilder<TJob>
+  fullName: Mcma.Worker.ProcessJobAssignmentOperationBuilder<TJob>
+  nameWithType.vb: ProcessJobAssignmentOperationBuilder(Of TJob)
+  fullName.vb: Mcma.Worker.ProcessJobAssignmentOperationBuilder(Of TJob)
+  name.vb: ProcessJobAssignmentOperationBuilder(Of TJob)
+  spec.csharp:
+  - uid: Mcma.Worker.ProcessJobAssignmentOperationBuilder`1
+    name: ProcessJobAssignmentOperationBuilder
+    nameWithType: ProcessJobAssignmentOperationBuilder
+    fullName: Mcma.Worker.ProcessJobAssignmentOperationBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TJob
+    nameWithType: TJob
+    fullName: TJob
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Worker.ProcessJobAssignmentOperationBuilder`1
+    name: ProcessJobAssignmentOperationBuilder
+    nameWithType: ProcessJobAssignmentOperationBuilder
+    fullName: Mcma.Worker.ProcessJobAssignmentOperationBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TJob
+    nameWithType: TJob
+    fullName: TJob
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Worker.ProcessJobAssignmentRequest
+  commentId: T:Mcma.Worker.ProcessJobAssignmentRequest
+  parent: Mcma.Worker
+  name: ProcessJobAssignmentRequest
+  nameWithType: ProcessJobAssignmentRequest
+  fullName: Mcma.Worker.ProcessJobAssignmentRequest
+- uid: Mcma.Worker.McmaWorker
+  commentId: T:Mcma.Worker.McmaWorker
+  name: McmaWorker
+  nameWithType: McmaWorker
+  fullName: Mcma.Worker.McmaWorker
+- uid: Mcma.Worker.McmaWorkerBuilder
+  commentId: T:Mcma.Worker.McmaWorkerBuilder
+  parent: Mcma.Worker
+  name: McmaWorkerBuilder
+  nameWithType: McmaWorkerBuilder
+  fullName: Mcma.Worker.McmaWorkerBuilder
+- uid: Mcma.Worker.McmaWorkerOperation`1
+  commentId: T:Mcma.Worker.McmaWorkerOperation`1
+  name: McmaWorkerOperation<T>
+  nameWithType: McmaWorkerOperation<T>
+  fullName: Mcma.Worker.McmaWorkerOperation<T>
+  nameWithType.vb: McmaWorkerOperation(Of T)
+  fullName.vb: Mcma.Worker.McmaWorkerOperation(Of T)
+  name.vb: McmaWorkerOperation(Of T)
+  spec.csharp:
+  - uid: Mcma.Worker.McmaWorkerOperation`1
+    name: McmaWorkerOperation
+    nameWithType: McmaWorkerOperation
+    fullName: Mcma.Worker.McmaWorkerOperation
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Worker.McmaWorkerOperation`1
+    name: McmaWorkerOperation
+    nameWithType: McmaWorkerOperation
+    fullName: Mcma.Worker.McmaWorkerOperation
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Worker.McmaWorkerRequest
+  commentId: T:Mcma.Worker.McmaWorkerRequest
+  parent: Mcma.Worker
+  name: McmaWorkerRequest
+  nameWithType: McmaWorkerRequest
+  fullName: Mcma.Worker.McmaWorkerRequest
+- uid: Mcma.Worker.McmaWorkerRequestContext
+  commentId: T:Mcma.Worker.McmaWorkerRequestContext
+  parent: Mcma.Worker
+  name: McmaWorkerRequestContext
+  nameWithType: McmaWorkerRequestContext
+  fullName: Mcma.Worker.McmaWorkerRequestContext
+- uid: Mcma.Worker.WorkerServiceCollectionExtensions
+  commentId: T:Mcma.Worker.WorkerServiceCollectionExtensions
+  name: WorkerServiceCollectionExtensions
+  nameWithType: WorkerServiceCollectionExtensions
+  fullName: Mcma.Worker.WorkerServiceCollectionExtensions
+- uid: Mcma.Worker
+  commentId: N:Mcma.Worker
+  name: Mcma.Worker
+  nameWithType: Mcma.Worker
+  fullName: Mcma.Worker

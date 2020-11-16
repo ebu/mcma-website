@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+items:
+  - uid: data.hasFilterCriteria
+    name: hasFilterCriteria(FilterExpression<T>)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function hasFilterCriteria<T>(filterExpression: FilterExpression<T>)'
+      parameters:
+        - id: filterExpression
+          type:
+            - data.FilterExpression<T>
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: data
+references:
+  - uid: data.FilterExpression<T>
+    name: FilterExpression<T>
+    spec.typeScript:
+      - name: FilterExpression
+        fullName: FilterExpression
+        uid: data.FilterExpression
+      - name: <T>
+        fullName: <T>

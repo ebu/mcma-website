@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: worker.ProcessJobProfile
+    name: ProcessJobProfile
+    fullName: ProcessJobProfile<T>
+    children:
+      - worker.ProcessJobProfile.execute
+      - worker.ProcessJobProfile.name
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: worker
+  - uid: worker.ProcessJobProfile.execute
+    name: execute
+    fullName: execute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'execute: JobProfileHandler<T>'
+      return:
+        type:
+          - worker.JobProfileHandler<T>
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobProfile.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: worker
+references:
+  - uid: worker.JobProfileHandler<T>
+    name: JobProfileHandler<T>
+    spec.typeScript:
+      - name: JobProfileHandler
+        fullName: JobProfileHandler
+        uid: worker.JobProfileHandler
+      - name: <T>
+        fullName: <T>

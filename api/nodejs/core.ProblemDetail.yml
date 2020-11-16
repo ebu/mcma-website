@@ -1,0 +1,125 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.ProblemDetail
+    name: ProblemDetail
+    fullName: ProblemDetail
+    children:
+      - core.ProblemDetail.@type
+      - core.ProblemDetail.detail
+      - core.ProblemDetail.instance
+      - core.ProblemDetail.constructor
+      - core.ProblemDetail.title
+      - core.ProblemDetail.type
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: core.McmaObject
+    package: core
+  - uid: core.ProblemDetail.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.ProblemDetail.detail
+    name: detail
+    fullName: detail
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'detail?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.ProblemDetail.instance
+    name: instance
+    fullName: instance
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'instance?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.ProblemDetail.constructor
+    name: ProblemDetail(ProblemDetailProperties)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ProblemDetail(properties?: ProblemDetailProperties)'
+      parameters:
+        - id: properties
+          type:
+            - core.ProblemDetailProperties
+          description: ''
+          optional: true
+    package: core
+  - uid: core.ProblemDetail.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'title: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.ProblemDetail.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+references:
+  - uid: core.McmaObject
+    name: McmaObject
+    spec.typeScript:
+      - name: McmaObject
+        fullName: McmaObject
+        uid: core.McmaObject
+  - uid: core.ProblemDetailProperties
+    name: ProblemDetailProperties
+    spec.typeScript:
+      - name: ProblemDetailProperties
+        fullName: ProblemDetailProperties
+        uid: core.ProblemDetailProperties

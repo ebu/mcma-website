@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-logger.CloudLoggingLoggerProvider
+    name: CloudLoggingLoggerProvider
+    fullName: CloudLoggingLoggerProvider
+    children:
+      - google-cloud-logger.CloudLoggingLoggerProvider.constructor
+      - google-cloud-logger.CloudLoggingLoggerProvider.get
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: google-cloud-logger
+  - uid: google-cloud-logger.CloudLoggingLoggerProvider.constructor
+    name: 'CloudLoggingLoggerProvider(string, Logging)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CloudLoggingLoggerProvider(source: string, logging: Logging)'
+      parameters:
+        - id: source
+          type:
+            - string
+          description: ''
+        - id: logging
+          type:
+            - Logging
+          description: ''
+    package: google-cloud-logger
+  - uid: google-cloud-logger.CloudLoggingLoggerProvider.get
+    name: 'get(string, McmaTrackerProperties)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get(requestId?: string, tracker?: McmaTrackerProperties)'
+      parameters:
+        - id: requestId
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: tracker
+          type:
+            - McmaTrackerProperties
+          description: ''
+          optional: true
+      return:
+        type:
+          - Logger
+        description: ''
+    package: google-cloud-logger

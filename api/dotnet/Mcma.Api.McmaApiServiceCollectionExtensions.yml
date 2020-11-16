@@ -1,0 +1,489 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Api.McmaApiServiceCollectionExtensions
+  commentId: T:Mcma.Api.McmaApiServiceCollectionExtensions
+  id: McmaApiServiceCollectionExtensions
+  parent: Mcma.Api
+  children:
+  - Mcma.Api.McmaApiServiceCollectionExtensions.AddMcmaApi(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Mcma.Api.McmaApiBuilder})
+  langs:
+  - csharp
+  - vb
+  name: McmaApiServiceCollectionExtensions
+  nameWithType: McmaApiServiceCollectionExtensions
+  fullName: Mcma.Api.McmaApiServiceCollectionExtensions
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiServiceCollectionExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaApiServiceCollectionExtensions
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiServiceCollectionExtensions.cs
+    startLine: 5
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public static class McmaApiServiceCollectionExtensions
+    content.vb: Public Module McmaApiServiceCollectionExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.Api.McmaApiServiceCollectionExtensions.AddMcmaApi(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Mcma.Api.McmaApiBuilder})
+  commentId: M:Mcma.Api.McmaApiServiceCollectionExtensions.AddMcmaApi(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Mcma.Api.McmaApiBuilder})
+  id: AddMcmaApi(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Mcma.Api.McmaApiBuilder})
+  isExtensionMethod: true
+  parent: Mcma.Api.McmaApiServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddMcmaApi(IServiceCollection, Action<McmaApiBuilder>)
+  nameWithType: McmaApiServiceCollectionExtensions.AddMcmaApi(IServiceCollection, Action<McmaApiBuilder>)
+  fullName: Mcma.Api.McmaApiServiceCollectionExtensions.AddMcmaApi(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Mcma.Api.McmaApiBuilder>)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiServiceCollectionExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AddMcmaApi
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiServiceCollectionExtensions.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public static IServiceCollection AddMcmaApi(this IServiceCollection services, Action<McmaApiBuilder> build)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: build
+      type: System.Action{Mcma.Api.McmaApiBuilder}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddMcmaApi(services As IServiceCollection, build As Action(Of McmaApiBuilder)) As IServiceCollection
+  overload: Mcma.Api.McmaApiServiceCollectionExtensions.AddMcmaApi*
+  nameWithType.vb: McmaApiServiceCollectionExtensions.AddMcmaApi(IServiceCollection, Action(Of McmaApiBuilder))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Api.McmaApiServiceCollectionExtensions.AddMcmaApi(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of Mcma.Api.McmaApiBuilder))
+  name.vb: AddMcmaApi(IServiceCollection, Action(Of McmaApiBuilder))
+references:
+- uid: Mcma.Api
+  commentId: N:Mcma.Api
+  name: Mcma.Api
+  nameWithType: Mcma.Api
+  fullName: Mcma.Api
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Api.McmaApiServiceCollectionExtensions.AddMcmaApi*
+  commentId: Overload:Mcma.Api.McmaApiServiceCollectionExtensions.AddMcmaApi
+  name: AddMcmaApi
+  nameWithType: McmaApiServiceCollectionExtensions.AddMcmaApi
+  fullName: Mcma.Api.McmaApiServiceCollectionExtensions.AddMcmaApi
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: System.Action{Mcma.Api.McmaApiBuilder}
+  commentId: T:System.Action{Mcma.Api.McmaApiBuilder}
+  parent: System
+  definition: System.Action`1
+  name: Action<McmaApiBuilder>
+  nameWithType: Action<McmaApiBuilder>
+  fullName: System.Action<Mcma.Api.McmaApiBuilder>
+  nameWithType.vb: Action(Of McmaApiBuilder)
+  fullName.vb: System.Action(Of Mcma.Api.McmaApiBuilder)
+  name.vb: Action(Of McmaApiBuilder)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Api.McmaApiBuilder
+    name: McmaApiBuilder
+    nameWithType: McmaApiBuilder
+    fullName: Mcma.Api.McmaApiBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Api.McmaApiBuilder
+    name: McmaApiBuilder
+    nameWithType: McmaApiBuilder
+    fullName: Mcma.Api.McmaApiBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

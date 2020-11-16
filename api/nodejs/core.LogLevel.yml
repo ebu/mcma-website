@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.LogLevel
+    name: LogLevel
+    fullName: LogLevel
+    children:
+      - core.LogLevel.Fatal
+      - core.LogLevel.Error
+      - core.LogLevel.Warn
+      - core.LogLevel.Info
+      - core.LogLevel.Debug
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: core
+  - uid: core.LogLevel.Fatal
+    name: Fatal
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 100
+    package: core
+  - uid: core.LogLevel.Error
+    name: Error
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 200
+    package: core
+  - uid: core.LogLevel.Warn
+    name: Warn
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 300
+    package: core
+  - uid: core.LogLevel.Info
+    name: Info
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 400
+    package: core
+  - uid: core.LogLevel.Debug
+    name: Debug
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 500
+    package: core

@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Api.IMcmaApiController
+  commentId: T:Mcma.Api.IMcmaApiController
+  id: IMcmaApiController
+  parent: Mcma.Api
+  children:
+  - Mcma.Api.IMcmaApiController.HandleRequestAsync(Mcma.Api.McmaApiRequestContext)
+  langs:
+  - csharp
+  - vb
+  name: IMcmaApiController
+  nameWithType: IMcmaApiController
+  fullName: Mcma.Api.IMcmaApiController
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/IMcmaApiController.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IMcmaApiController
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/IMcmaApiController.cs
+    startLine: 5
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public interface IMcmaApiController
+    content.vb: Public Interface IMcmaApiController
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Api.IMcmaApiController.HandleRequestAsync(Mcma.Api.McmaApiRequestContext)
+  commentId: M:Mcma.Api.IMcmaApiController.HandleRequestAsync(Mcma.Api.McmaApiRequestContext)
+  id: HandleRequestAsync(Mcma.Api.McmaApiRequestContext)
+  parent: Mcma.Api.IMcmaApiController
+  langs:
+  - csharp
+  - vb
+  name: HandleRequestAsync(McmaApiRequestContext)
+  nameWithType: IMcmaApiController.HandleRequestAsync(McmaApiRequestContext)
+  fullName: Mcma.Api.IMcmaApiController.HandleRequestAsync(Mcma.Api.McmaApiRequestContext)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/IMcmaApiController.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: HandleRequestAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/IMcmaApiController.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: Task HandleRequestAsync(McmaApiRequestContext requestContext)
+    parameters:
+    - id: requestContext
+      type: Mcma.Api.McmaApiRequestContext
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function HandleRequestAsync(requestContext As McmaApiRequestContext) As Task
+  overload: Mcma.Api.IMcmaApiController.HandleRequestAsync*
+references:
+- uid: Mcma.Api
+  commentId: N:Mcma.Api
+  name: Mcma.Api
+  nameWithType: Mcma.Api
+  fullName: Mcma.Api
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Api.IMcmaApiController.HandleRequestAsync*
+  commentId: Overload:Mcma.Api.IMcmaApiController.HandleRequestAsync
+  name: HandleRequestAsync
+  nameWithType: IMcmaApiController.HandleRequestAsync
+  fullName: Mcma.Api.IMcmaApiController.HandleRequestAsync
+- uid: Mcma.Api.McmaApiRequestContext
+  commentId: T:Mcma.Api.McmaApiRequestContext
+  parent: Mcma.Api
+  name: McmaApiRequestContext
+  nameWithType: McmaApiRequestContext
+  fullName: Mcma.Api.McmaApiRequestContext
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

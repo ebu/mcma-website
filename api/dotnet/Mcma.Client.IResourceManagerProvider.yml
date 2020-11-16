@@ -1,0 +1,398 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Client.IResourceManagerProvider
+  commentId: T:Mcma.Client.IResourceManagerProvider
+  id: IResourceManagerProvider
+  parent: Mcma.Client
+  children:
+  - Mcma.Client.IResourceManagerProvider.Get(Mcma.McmaTracker,Mcma.Client.ResourceManagerOptions)
+  langs:
+  - csharp
+  - vb
+  name: IResourceManagerProvider
+  nameWithType: IResourceManagerProvider
+  fullName: Mcma.Client.IResourceManagerProvider
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/IResourceManagerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IResourceManagerProvider
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/IResourceManagerProvider.cs
+    startLine: 3
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: public interface IResourceManagerProvider
+    content.vb: Public Interface IResourceManagerProvider
+  extensionMethods:
+  - Mcma.Client.IResourceManagerProvider.Mcma.Client.ResourceManagerProviderExtensions.Get(System.String,System.String,System.String,Mcma.McmaTracker)
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Client.IResourceManagerProvider.Get(Mcma.McmaTracker,Mcma.Client.ResourceManagerOptions)
+  commentId: M:Mcma.Client.IResourceManagerProvider.Get(Mcma.McmaTracker,Mcma.Client.ResourceManagerOptions)
+  id: Get(Mcma.McmaTracker,Mcma.Client.ResourceManagerOptions)
+  parent: Mcma.Client.IResourceManagerProvider
+  langs:
+  - csharp
+  - vb
+  name: Get(McmaTracker, ResourceManagerOptions)
+  nameWithType: IResourceManagerProvider.Get(McmaTracker, ResourceManagerOptions)
+  fullName: Mcma.Client.IResourceManagerProvider.Get(Mcma.McmaTracker, Mcma.Client.ResourceManagerOptions)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/IResourceManagerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Get
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/IResourceManagerProvider.cs
+    startLine: 5
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: IResourceManager Get(McmaTracker tracker = null, ResourceManagerOptions options = null)
+    parameters:
+    - id: tracker
+      type: Mcma.McmaTracker
+    - id: options
+      type: Mcma.Client.ResourceManagerOptions
+    return:
+      type: Mcma.Client.IResourceManager
+    content.vb: Function Get(tracker As McmaTracker = Nothing, options As ResourceManagerOptions = Nothing) As IResourceManager
+  overload: Mcma.Client.IResourceManagerProvider.Get*
+references:
+- uid: Mcma.Client
+  commentId: N:Mcma.Client
+  name: Mcma.Client
+  nameWithType: Mcma.Client
+  fullName: Mcma.Client
+- uid: Mcma.Client.IResourceManagerProvider.Mcma.Client.ResourceManagerProviderExtensions.Get(System.String,System.String,System.String,Mcma.McmaTracker)
+  commentId: M:Mcma.Client.ResourceManagerProviderExtensions.Get(Mcma.Client.IResourceManagerProvider,System.String,System.String,System.String,Mcma.McmaTracker)
+  parent: Mcma.Client.ResourceManagerProviderExtensions
+  definition: Mcma.Client.ResourceManagerProviderExtensions.Get(Mcma.Client.IResourceManagerProvider,System.String,System.String,System.String,Mcma.McmaTracker)
+  name: Get(String, String, String, McmaTracker)
+  nameWithType: ResourceManagerProviderExtensions.Get(String, String, String, McmaTracker)
+  fullName: Mcma.Client.ResourceManagerProviderExtensions.Get(System.String, System.String, System.String, Mcma.McmaTracker)
+  spec.csharp:
+  - uid: Mcma.Client.ResourceManagerProviderExtensions.Get(System.String,System.String,System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: ResourceManagerProviderExtensions.Get
+    fullName: Mcma.Client.ResourceManagerProviderExtensions.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.ResourceManagerProviderExtensions.Get(System.String,System.String,System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: ResourceManagerProviderExtensions.Get
+    fullName: Mcma.Client.ResourceManagerProviderExtensions.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.ResourceManagerProviderExtensions.Get(Mcma.Client.IResourceManagerProvider,System.String,System.String,System.String,Mcma.McmaTracker)
+  commentId: M:Mcma.Client.ResourceManagerProviderExtensions.Get(Mcma.Client.IResourceManagerProvider,System.String,System.String,System.String,Mcma.McmaTracker)
+  isExternal: true
+  name: Get(IResourceManagerProvider, String, String, String, McmaTracker)
+  nameWithType: ResourceManagerProviderExtensions.Get(IResourceManagerProvider, String, String, String, McmaTracker)
+  fullName: Mcma.Client.ResourceManagerProviderExtensions.Get(Mcma.Client.IResourceManagerProvider, System.String, System.String, System.String, Mcma.McmaTracker)
+  spec.csharp:
+  - uid: Mcma.Client.ResourceManagerProviderExtensions.Get(Mcma.Client.IResourceManagerProvider,System.String,System.String,System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: ResourceManagerProviderExtensions.Get
+    fullName: Mcma.Client.ResourceManagerProviderExtensions.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.IResourceManagerProvider
+    name: IResourceManagerProvider
+    nameWithType: IResourceManagerProvider
+    fullName: Mcma.Client.IResourceManagerProvider
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.ResourceManagerProviderExtensions.Get(Mcma.Client.IResourceManagerProvider,System.String,System.String,System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: ResourceManagerProviderExtensions.Get
+    fullName: Mcma.Client.ResourceManagerProviderExtensions.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.IResourceManagerProvider
+    name: IResourceManagerProvider
+    nameWithType: IResourceManagerProvider
+    fullName: Mcma.Client.IResourceManagerProvider
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.ResourceManagerProviderExtensions
+  commentId: T:Mcma.Client.ResourceManagerProviderExtensions
+  parent: Mcma.Client
+  name: ResourceManagerProviderExtensions
+  nameWithType: ResourceManagerProviderExtensions
+  fullName: Mcma.Client.ResourceManagerProviderExtensions
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Client.IResourceManagerProvider.Get*
+  commentId: Overload:Mcma.Client.IResourceManagerProvider.Get
+  name: Get
+  nameWithType: IResourceManagerProvider.Get
+  fullName: Mcma.Client.IResourceManagerProvider.Get
+- uid: Mcma.McmaTracker
+  commentId: T:Mcma.McmaTracker
+  parent: Mcma
+  name: McmaTracker
+  nameWithType: McmaTracker
+  fullName: Mcma.McmaTracker
+- uid: Mcma.Client.ResourceManagerOptions
+  commentId: T:Mcma.Client.ResourceManagerOptions
+  parent: Mcma.Client
+  name: ResourceManagerOptions
+  nameWithType: ResourceManagerOptions
+  fullName: Mcma.Client.ResourceManagerOptions
+- uid: Mcma.Client.IResourceManager
+  commentId: T:Mcma.Client.IResourceManager
+  parent: Mcma.Client
+  name: IResourceManager
+  nameWithType: IResourceManager
+  fullName: Mcma.Client.IResourceManager
+- uid: Mcma
+  commentId: N:Mcma
+  name: Mcma
+  nameWithType: Mcma
+  fullName: Mcma

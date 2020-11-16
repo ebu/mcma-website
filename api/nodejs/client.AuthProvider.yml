@@ -1,0 +1,101 @@
+### YamlMime:UniversalReference
+items:
+  - uid: client.AuthProvider
+    name: AuthProvider
+    fullName: AuthProvider
+    children:
+      - client.AuthProvider.add
+      - client.AuthProvider.get
+      - client.AuthProvider.registeredAuthTypes
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: client
+  - uid: client.AuthProvider.add
+    name: add(AuthTypeRegistration<T>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function add<T>(authTypeRegistration: AuthTypeRegistration<T>)'
+      parameters:
+        - id: authTypeRegistration
+          type:
+            - client.AuthTypeRegistration<T>
+          description: ''
+      return:
+        type:
+          - client.AuthProvider
+        description: ''
+    package: client
+  - uid: client.AuthProvider.get
+    name: 'get(string, T | string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get<T>(authType: string, authContext?: T | string)'
+      parameters:
+        - id: authType
+          type:
+            - string
+          description: ''
+        - id: authContext
+          type:
+            - T | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - client.Authenticator
+        description: ''
+    package: client
+  - uid: client.AuthProvider.registeredAuthTypes
+    name: registeredAuthTypes
+    fullName: registeredAuthTypes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'registeredAuthTypes: [key: string]: AuthenticatorFactory'
+      return:
+        type:
+          - '[key: string]: client.AuthenticatorFactory'
+        description: ''
+    package: client
+references:
+  - uid: '[key: string]: client.AuthenticatorFactory'
+    name: AuthenticatorFactory
+    spec.typeScript:
+      - name: '[key: string]: '
+        fullName: '[key: string]: '
+      - name: AuthenticatorFactory
+        fullName: AuthenticatorFactory
+        uid: client.AuthenticatorFactory
+  - uid: client.AuthTypeRegistration<T>
+    name: AuthTypeRegistration<T>
+    spec.typeScript:
+      - name: AuthTypeRegistration
+        fullName: AuthTypeRegistration
+        uid: client.AuthTypeRegistration
+      - name: <T>
+        fullName: <T>
+  - uid: client.AuthProvider
+    name: AuthProvider
+    spec.typeScript:
+      - name: AuthProvider
+        fullName: AuthProvider
+        uid: client.AuthProvider
+  - uid: client.Authenticator
+    name: Authenticator
+    spec.typeScript:
+      - name: Authenticator
+        fullName: Authenticator
+        uid: client.Authenticator

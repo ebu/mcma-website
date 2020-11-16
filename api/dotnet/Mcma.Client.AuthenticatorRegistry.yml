@@ -1,0 +1,2329 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Client.AuthenticatorRegistry
+  commentId: T:Mcma.Client.AuthenticatorRegistry
+  id: AuthenticatorRegistry
+  parent: Mcma.Client
+  children:
+  - Mcma.Client.AuthenticatorRegistry.Add``2(System.String)
+  - Mcma.Client.AuthenticatorRegistry.Services
+  - Mcma.Client.AuthenticatorRegistry.TryAdd``2(System.String)
+  langs:
+  - csharp
+  - vb
+  name: AuthenticatorRegistry
+  nameWithType: AuthenticatorRegistry
+  fullName: Mcma.Client.AuthenticatorRegistry
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Client/Auth/AuthenticatorRegistry.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AuthenticatorRegistry
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Auth/AuthenticatorRegistry.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: public class AuthenticatorRegistry
+    content.vb: Public Class AuthenticatorRegistry
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Mcma.Client.AuthenticatorRegistry.Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens``2(System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  - Mcma.Client.AuthenticatorRegistry.Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens``2(System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  - Mcma.Client.AuthenticatorRegistry.Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+  - Mcma.Client.AuthenticatorRegistry.Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+  - Mcma.Client.AuthenticatorRegistry.Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  - Mcma.Client.AuthenticatorRegistry.Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  - Mcma.Client.AuthenticatorRegistry.Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+  - Mcma.Client.AuthenticatorRegistry.Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+  - Mcma.Client.AuthenticatorRegistry.Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+  - Mcma.Client.AuthenticatorRegistry.Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+  - Mcma.Client.AuthenticatorRegistry.Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  - Mcma.Client.AuthenticatorRegistry.Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Client.AuthenticatorRegistry.Services
+  commentId: P:Mcma.Client.AuthenticatorRegistry.Services
+  id: Services
+  parent: Mcma.Client.AuthenticatorRegistry
+  langs:
+  - csharp
+  - vb
+  name: Services
+  nameWithType: AuthenticatorRegistry.Services
+  fullName: Mcma.Client.AuthenticatorRegistry.Services
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Client/Auth/AuthenticatorRegistry.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Services
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Auth/AuthenticatorRegistry.cs
+    startLine: 13
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: public IServiceCollection Services { get; }
+    parameters: []
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public ReadOnly Property Services As IServiceCollection
+  overload: Mcma.Client.AuthenticatorRegistry.Services*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Mcma.Client.AuthenticatorRegistry.Add``2(System.String)
+  commentId: M:Mcma.Client.AuthenticatorRegistry.Add``2(System.String)
+  id: Add``2(System.String)
+  parent: Mcma.Client.AuthenticatorRegistry
+  langs:
+  - csharp
+  - vb
+  name: Add<TAuthContext, TAuthHandlerFactory>(String)
+  nameWithType: AuthenticatorRegistry.Add<TAuthContext, TAuthHandlerFactory>(String)
+  fullName: Mcma.Client.AuthenticatorRegistry.Add<TAuthContext, TAuthHandlerFactory>(System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Auth/AuthenticatorRegistry.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Add
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Auth/AuthenticatorRegistry.cs
+    startLine: 26
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: >-
+      public AuthenticatorRegistry Add<TAuthContext, TAuthHandlerFactory>(string authType)
+
+          where TAuthHandlerFactory : AuthenticatorFactory<TAuthContext>
+    parameters:
+    - id: authType
+      type: System.String
+    typeParameters:
+    - id: TAuthContext
+    - id: TAuthHandlerFactory
+    return:
+      type: Mcma.Client.AuthenticatorRegistry
+    content.vb: Public Function Add(Of TAuthContext, TAuthHandlerFactory As AuthenticatorFactory(Of TAuthContext))(authType As String) As AuthenticatorRegistry
+  overload: Mcma.Client.AuthenticatorRegistry.Add*
+  nameWithType.vb: AuthenticatorRegistry.Add(Of TAuthContext, TAuthHandlerFactory)(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Client.AuthenticatorRegistry.Add(Of TAuthContext, TAuthHandlerFactory)(System.String)
+  name.vb: Add(Of TAuthContext, TAuthHandlerFactory)(String)
+- uid: Mcma.Client.AuthenticatorRegistry.TryAdd``2(System.String)
+  commentId: M:Mcma.Client.AuthenticatorRegistry.TryAdd``2(System.String)
+  id: TryAdd``2(System.String)
+  parent: Mcma.Client.AuthenticatorRegistry
+  langs:
+  - csharp
+  - vb
+  name: TryAdd<TAuthContext, TAuthHandlerFactory>(String)
+  nameWithType: AuthenticatorRegistry.TryAdd<TAuthContext, TAuthHandlerFactory>(String)
+  fullName: Mcma.Client.AuthenticatorRegistry.TryAdd<TAuthContext, TAuthHandlerFactory>(System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Auth/AuthenticatorRegistry.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: TryAdd
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Auth/AuthenticatorRegistry.cs
+    startLine: 37
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: >-
+      public AuthenticatorRegistry TryAdd<TAuthContext, TAuthHandlerFactory>(string authType)
+
+          where TAuthHandlerFactory : AuthenticatorFactory<TAuthContext>
+    parameters:
+    - id: authType
+      type: System.String
+    typeParameters:
+    - id: TAuthContext
+    - id: TAuthHandlerFactory
+    return:
+      type: Mcma.Client.AuthenticatorRegistry
+    content.vb: Public Function TryAdd(Of TAuthContext, TAuthHandlerFactory As AuthenticatorFactory(Of TAuthContext))(authType As String) As AuthenticatorRegistry
+  overload: Mcma.Client.AuthenticatorRegistry.TryAdd*
+  nameWithType.vb: AuthenticatorRegistry.TryAdd(Of TAuthContext, TAuthHandlerFactory)(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Client.AuthenticatorRegistry.TryAdd(Of TAuthContext, TAuthHandlerFactory)(System.String)
+  name.vb: TryAdd(Of TAuthContext, TAuthHandlerFactory)(String)
+references:
+- uid: Mcma.Client
+  commentId: N:Mcma.Client
+  name: Mcma.Client
+  nameWithType: Mcma.Client
+  fullName: Mcma.Client
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorRegistry.Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens``2(System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  commentId: M:Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens``2(Mcma.Client.AuthenticatorRegistry,System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  parent: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions
+  definition: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens``2(Mcma.Client.AuthenticatorRegistry,System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  name: AddBearerTokens<TAuthContext, TBearerTokenProvider>(String, ServiceLifetime)
+  nameWithType: BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens<TAuthContext, TBearerTokenProvider>(String, ServiceLifetime)
+  fullName: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens<TAuthContext, TBearerTokenProvider>(System.String, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  nameWithType.vb: BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens(Of TAuthContext, TBearerTokenProvider)(String, ServiceLifetime)
+  fullName.vb: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens(Of TAuthContext, TBearerTokenProvider)(System.String, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  name.vb: AddBearerTokens(Of TAuthContext, TBearerTokenProvider)(String, ServiceLifetime)
+  spec.csharp:
+  - uid: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens``2(System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+    name: AddBearerTokens<TAuthContext, TBearerTokenProvider>
+    nameWithType: BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens<TAuthContext, TBearerTokenProvider>
+    fullName: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens<TAuthContext, TBearerTokenProvider>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.DependencyInjection.ServiceLifetime
+    name: ServiceLifetime
+    nameWithType: ServiceLifetime
+    fullName: Microsoft.Extensions.DependencyInjection.ServiceLifetime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens``2(System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+    name: AddBearerTokens(Of TAuthContext, TBearerTokenProvider)
+    nameWithType: BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens(Of TAuthContext, TBearerTokenProvider)
+    fullName: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens(Of TAuthContext, TBearerTokenProvider)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.DependencyInjection.ServiceLifetime
+    name: ServiceLifetime
+    nameWithType: ServiceLifetime
+    fullName: Microsoft.Extensions.DependencyInjection.ServiceLifetime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorRegistry.Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens``2(System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  commentId: M:Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens``2(Mcma.Client.AuthenticatorRegistry,System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  parent: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions
+  definition: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens``2(Mcma.Client.AuthenticatorRegistry,System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  name: TryAddBearerTokens<TAuthContext, TBearerTokenProvider>(String, ServiceLifetime)
+  nameWithType: BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens<TAuthContext, TBearerTokenProvider>(String, ServiceLifetime)
+  fullName: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens<TAuthContext, TBearerTokenProvider>(System.String, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  nameWithType.vb: BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens(Of TAuthContext, TBearerTokenProvider)(String, ServiceLifetime)
+  fullName.vb: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens(Of TAuthContext, TBearerTokenProvider)(System.String, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  name.vb: TryAddBearerTokens(Of TAuthContext, TBearerTokenProvider)(String, ServiceLifetime)
+  spec.csharp:
+  - uid: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens``2(System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+    name: TryAddBearerTokens<TAuthContext, TBearerTokenProvider>
+    nameWithType: BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens<TAuthContext, TBearerTokenProvider>
+    fullName: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens<TAuthContext, TBearerTokenProvider>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.DependencyInjection.ServiceLifetime
+    name: ServiceLifetime
+    nameWithType: ServiceLifetime
+    fullName: Microsoft.Extensions.DependencyInjection.ServiceLifetime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens``2(System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+    name: TryAddBearerTokens(Of TAuthContext, TBearerTokenProvider)
+    nameWithType: BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens(Of TAuthContext, TBearerTokenProvider)
+    fullName: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens(Of TAuthContext, TBearerTokenProvider)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.DependencyInjection.ServiceLifetime
+    name: ServiceLifetime
+    nameWithType: ServiceLifetime
+    fullName: Microsoft.Extensions.DependencyInjection.ServiceLifetime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorRegistry.Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+  commentId: M:Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+  parent: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions
+  definition: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+  name: AddGoogleAuth(Action<GoogleAuthenticatorOptions>)
+  nameWithType: GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(Action<GoogleAuthenticatorOptions>)
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(System.Action<Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions>)
+  nameWithType.vb: GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(Action(Of GoogleAuthenticatorOptions))
+  fullName.vb: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(System.Action(Of Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions))
+  name.vb: AddGoogleAuth(Action(Of GoogleAuthenticatorOptions))
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+    name: AddGoogleAuth
+    nameWithType: GoogleAuthenticatorRegistryExtensions.AddGoogleAuth
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+    name: GoogleAuthenticatorOptions
+    nameWithType: GoogleAuthenticatorOptions
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+    name: AddGoogleAuth
+    nameWithType: GoogleAuthenticatorRegistryExtensions.AddGoogleAuth
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+    name: GoogleAuthenticatorOptions
+    nameWithType: GoogleAuthenticatorOptions
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorRegistry.Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+  commentId: M:Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+  parent: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions
+  definition: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+  name: TryAddGoogleAuth(Action<GoogleAuthenticatorOptions>)
+  nameWithType: GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(Action<GoogleAuthenticatorOptions>)
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(System.Action<Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions>)
+  nameWithType.vb: GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(Action(Of GoogleAuthenticatorOptions))
+  fullName.vb: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(System.Action(Of Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions))
+  name.vb: TryAddGoogleAuth(Action(Of GoogleAuthenticatorOptions))
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+    name: TryAddGoogleAuth
+    nameWithType: GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+    name: GoogleAuthenticatorOptions
+    nameWithType: GoogleAuthenticatorOptions
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+    name: TryAddGoogleAuth
+    nameWithType: GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+    name: GoogleAuthenticatorOptions
+    nameWithType: GoogleAuthenticatorOptions
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorRegistry.Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  commentId: M:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  parent: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions
+  definition: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  name: AddAzureFunctionKeyAuth(Action<AzureFunctionKeyAuthenticatorOptions>)
+  nameWithType: AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(Action<AzureFunctionKeyAuthenticatorOptions>)
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(System.Action<Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions>)
+  nameWithType.vb: AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(Action(Of AzureFunctionKeyAuthenticatorOptions))
+  fullName.vb: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(System.Action(Of Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions))
+  name.vb: AddAzureFunctionKeyAuth(Action(Of AzureFunctionKeyAuthenticatorOptions))
+  spec.csharp:
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+    name: AddAzureFunctionKeyAuth
+    nameWithType: AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+    name: AzureFunctionKeyAuthenticatorOptions
+    nameWithType: AzureFunctionKeyAuthenticatorOptions
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+    name: AddAzureFunctionKeyAuth
+    nameWithType: AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+    name: AzureFunctionKeyAuthenticatorOptions
+    nameWithType: AzureFunctionKeyAuthenticatorOptions
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorRegistry.Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  commentId: M:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  parent: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions
+  definition: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  name: TryAddAzureFunctionKeyAuth(Action<AzureFunctionKeyAuthenticatorOptions>)
+  nameWithType: AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(Action<AzureFunctionKeyAuthenticatorOptions>)
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(System.Action<Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions>)
+  nameWithType.vb: AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(Action(Of AzureFunctionKeyAuthenticatorOptions))
+  fullName.vb: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(System.Action(Of Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions))
+  name.vb: TryAddAzureFunctionKeyAuth(Action(Of AzureFunctionKeyAuthenticatorOptions))
+  spec.csharp:
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+    name: TryAddAzureFunctionKeyAuth
+    nameWithType: AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+    name: AzureFunctionKeyAuthenticatorOptions
+    nameWithType: AzureFunctionKeyAuthenticatorOptions
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+    name: TryAddAzureFunctionKeyAuth
+    nameWithType: AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+    name: AzureFunctionKeyAuthenticatorOptions
+    nameWithType: AzureFunctionKeyAuthenticatorOptions
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorRegistry.Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+  commentId: M:Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+  parent: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions
+  definition: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+  name: AddAzureADConfidentialClientAuth(Action<ConfidentialClientApplicationOptions>)
+  nameWithType: AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(Action<ConfidentialClientApplicationOptions>)
+  fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(System.Action<Microsoft.Identity.Client.ConfidentialClientApplicationOptions>)
+  nameWithType.vb: AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(Action(Of ConfidentialClientApplicationOptions))
+  fullName.vb: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(System.Action(Of Microsoft.Identity.Client.ConfidentialClientApplicationOptions))
+  name.vb: AddAzureADConfidentialClientAuth(Action(Of ConfidentialClientApplicationOptions))
+  spec.csharp:
+  - uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+    name: AddAzureADConfidentialClientAuth
+    nameWithType: AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth
+    fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    name: ConfidentialClientApplicationOptions
+    nameWithType: ConfidentialClientApplicationOptions
+    fullName: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+    name: AddAzureADConfidentialClientAuth
+    nameWithType: AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth
+    fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    name: ConfidentialClientApplicationOptions
+    nameWithType: ConfidentialClientApplicationOptions
+    fullName: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorRegistry.Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+  commentId: M:Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+  parent: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions
+  definition: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+  name: TryAddAzureADConfidentialClientAuth(Action<ConfidentialClientApplicationOptions>)
+  nameWithType: AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(Action<ConfidentialClientApplicationOptions>)
+  fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(System.Action<Microsoft.Identity.Client.ConfidentialClientApplicationOptions>)
+  nameWithType.vb: AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(Action(Of ConfidentialClientApplicationOptions))
+  fullName.vb: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(System.Action(Of Microsoft.Identity.Client.ConfidentialClientApplicationOptions))
+  name.vb: TryAddAzureADConfidentialClientAuth(Action(Of ConfidentialClientApplicationOptions))
+  spec.csharp:
+  - uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+    name: TryAddAzureADConfidentialClientAuth
+    nameWithType: AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth
+    fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    name: ConfidentialClientApplicationOptions
+    nameWithType: ConfidentialClientApplicationOptions
+    fullName: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+    name: TryAddAzureADConfidentialClientAuth
+    nameWithType: AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth
+    fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    name: ConfidentialClientApplicationOptions
+    nameWithType: ConfidentialClientApplicationOptions
+    fullName: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorRegistry.Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+  commentId: M:Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+  parent: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions
+  definition: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+  name: AddAzureADManagedIdentityAuth(Action<AzureManagedIdentityBearerTokenProviderOptions>)
+  nameWithType: AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(Action<AzureManagedIdentityBearerTokenProviderOptions>)
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(System.Action<Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions>)
+  nameWithType.vb: AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(Action(Of AzureManagedIdentityBearerTokenProviderOptions))
+  fullName.vb: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(System.Action(Of Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions))
+  name.vb: AddAzureADManagedIdentityAuth(Action(Of AzureManagedIdentityBearerTokenProviderOptions))
+  spec.csharp:
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+    name: AddAzureADManagedIdentityAuth
+    nameWithType: AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+    name: AzureManagedIdentityBearerTokenProviderOptions
+    nameWithType: AzureManagedIdentityBearerTokenProviderOptions
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+    name: AddAzureADManagedIdentityAuth
+    nameWithType: AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+    name: AzureManagedIdentityBearerTokenProviderOptions
+    nameWithType: AzureManagedIdentityBearerTokenProviderOptions
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorRegistry.Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+  commentId: M:Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+  parent: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions
+  definition: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+  name: TryAddAzureADManagedIdentityAuth(Action<AzureManagedIdentityBearerTokenProviderOptions>)
+  nameWithType: AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(Action<AzureManagedIdentityBearerTokenProviderOptions>)
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(System.Action<Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions>)
+  nameWithType.vb: AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(Action(Of AzureManagedIdentityBearerTokenProviderOptions))
+  fullName.vb: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(System.Action(Of Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions))
+  name.vb: TryAddAzureADManagedIdentityAuth(Action(Of AzureManagedIdentityBearerTokenProviderOptions))
+  spec.csharp:
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+    name: TryAddAzureADManagedIdentityAuth
+    nameWithType: AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+    name: AzureManagedIdentityBearerTokenProviderOptions
+    nameWithType: AzureManagedIdentityBearerTokenProviderOptions
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+    name: TryAddAzureADManagedIdentityAuth
+    nameWithType: AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+    name: AzureManagedIdentityBearerTokenProviderOptions
+    nameWithType: AzureManagedIdentityBearerTokenProviderOptions
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorRegistry.Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  commentId: M:Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  parent: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions
+  definition: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  name: AddAws4Auth(Action<Aws4AuthenticatorFactoryOptions>)
+  nameWithType: AwsAuthenticatorRegistryExtensions.AddAws4Auth(Action<Aws4AuthenticatorFactoryOptions>)
+  fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(System.Action<Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions>)
+  nameWithType.vb: AwsAuthenticatorRegistryExtensions.AddAws4Auth(Action(Of Aws4AuthenticatorFactoryOptions))
+  fullName.vb: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(System.Action(Of Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions))
+  name.vb: AddAws4Auth(Action(Of Aws4AuthenticatorFactoryOptions))
+  spec.csharp:
+  - uid: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+    name: AddAws4Auth
+    nameWithType: AwsAuthenticatorRegistryExtensions.AddAws4Auth
+    fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+    name: Aws4AuthenticatorFactoryOptions
+    nameWithType: Aws4AuthenticatorFactoryOptions
+    fullName: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+    name: AddAws4Auth
+    nameWithType: AwsAuthenticatorRegistryExtensions.AddAws4Auth
+    fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+    name: Aws4AuthenticatorFactoryOptions
+    nameWithType: Aws4AuthenticatorFactoryOptions
+    fullName: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorRegistry.Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  commentId: M:Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  parent: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions
+  definition: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  name: TryAddAws4Auth(Action<Aws4AuthenticatorFactoryOptions>)
+  nameWithType: AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(Action<Aws4AuthenticatorFactoryOptions>)
+  fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(System.Action<Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions>)
+  nameWithType.vb: AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(Action(Of Aws4AuthenticatorFactoryOptions))
+  fullName.vb: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(System.Action(Of Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions))
+  name.vb: TryAddAws4Auth(Action(Of Aws4AuthenticatorFactoryOptions))
+  spec.csharp:
+  - uid: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+    name: TryAddAws4Auth
+    nameWithType: AwsAuthenticatorRegistryExtensions.TryAddAws4Auth
+    fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+    name: Aws4AuthenticatorFactoryOptions
+    nameWithType: Aws4AuthenticatorFactoryOptions
+    fullName: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+    name: TryAddAws4Auth
+    nameWithType: AwsAuthenticatorRegistryExtensions.TryAddAws4Auth
+    fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+    name: Aws4AuthenticatorFactoryOptions
+    nameWithType: Aws4AuthenticatorFactoryOptions
+    fullName: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens``2(Mcma.Client.AuthenticatorRegistry,System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  commentId: M:Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens``2(Mcma.Client.AuthenticatorRegistry,System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  isExternal: true
+  name: AddBearerTokens<TAuthContext, TBearerTokenProvider>(AuthenticatorRegistry, String, ServiceLifetime)
+  nameWithType: BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens<TAuthContext, TBearerTokenProvider>(AuthenticatorRegistry, String, ServiceLifetime)
+  fullName: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens<TAuthContext, TBearerTokenProvider>(Mcma.Client.AuthenticatorRegistry, System.String, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  nameWithType.vb: BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens(Of TAuthContext, TBearerTokenProvider)(AuthenticatorRegistry, String, ServiceLifetime)
+  fullName.vb: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens(Of TAuthContext, TBearerTokenProvider)(Mcma.Client.AuthenticatorRegistry, System.String, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  name.vb: AddBearerTokens(Of TAuthContext, TBearerTokenProvider)(AuthenticatorRegistry, String, ServiceLifetime)
+  spec.csharp:
+  - uid: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens``2(Mcma.Client.AuthenticatorRegistry,System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+    name: AddBearerTokens<TAuthContext, TBearerTokenProvider>
+    nameWithType: BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens<TAuthContext, TBearerTokenProvider>
+    fullName: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens<TAuthContext, TBearerTokenProvider>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.DependencyInjection.ServiceLifetime
+    name: ServiceLifetime
+    nameWithType: ServiceLifetime
+    fullName: Microsoft.Extensions.DependencyInjection.ServiceLifetime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens``2(Mcma.Client.AuthenticatorRegistry,System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+    name: AddBearerTokens(Of TAuthContext, TBearerTokenProvider)
+    nameWithType: BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens(Of TAuthContext, TBearerTokenProvider)
+    fullName: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.AddBearerTokens(Of TAuthContext, TBearerTokenProvider)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.DependencyInjection.ServiceLifetime
+    name: ServiceLifetime
+    nameWithType: ServiceLifetime
+    fullName: Microsoft.Extensions.DependencyInjection.ServiceLifetime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions
+  commentId: T:Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions
+  parent: Mcma.Client.AccessTokens
+  name: BearerTokenAuthenticatorRegistryExtensions
+  nameWithType: BearerTokenAuthenticatorRegistryExtensions
+  fullName: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions
+- uid: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens``2(Mcma.Client.AuthenticatorRegistry,System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  commentId: M:Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens``2(Mcma.Client.AuthenticatorRegistry,System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  isExternal: true
+  name: TryAddBearerTokens<TAuthContext, TBearerTokenProvider>(AuthenticatorRegistry, String, ServiceLifetime)
+  nameWithType: BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens<TAuthContext, TBearerTokenProvider>(AuthenticatorRegistry, String, ServiceLifetime)
+  fullName: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens<TAuthContext, TBearerTokenProvider>(Mcma.Client.AuthenticatorRegistry, System.String, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  nameWithType.vb: BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens(Of TAuthContext, TBearerTokenProvider)(AuthenticatorRegistry, String, ServiceLifetime)
+  fullName.vb: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens(Of TAuthContext, TBearerTokenProvider)(Mcma.Client.AuthenticatorRegistry, System.String, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  name.vb: TryAddBearerTokens(Of TAuthContext, TBearerTokenProvider)(AuthenticatorRegistry, String, ServiceLifetime)
+  spec.csharp:
+  - uid: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens``2(Mcma.Client.AuthenticatorRegistry,System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+    name: TryAddBearerTokens<TAuthContext, TBearerTokenProvider>
+    nameWithType: BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens<TAuthContext, TBearerTokenProvider>
+    fullName: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens<TAuthContext, TBearerTokenProvider>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.DependencyInjection.ServiceLifetime
+    name: ServiceLifetime
+    nameWithType: ServiceLifetime
+    fullName: Microsoft.Extensions.DependencyInjection.ServiceLifetime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens``2(Mcma.Client.AuthenticatorRegistry,System.String,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+    name: TryAddBearerTokens(Of TAuthContext, TBearerTokenProvider)
+    nameWithType: BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens(Of TAuthContext, TBearerTokenProvider)
+    fullName: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions.TryAddBearerTokens(Of TAuthContext, TBearerTokenProvider)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.DependencyInjection.ServiceLifetime
+    name: ServiceLifetime
+    nameWithType: ServiceLifetime
+    fullName: Microsoft.Extensions.DependencyInjection.ServiceLifetime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+  commentId: M:Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+  isExternal: true
+  name: AddGoogleAuth(AuthenticatorRegistry, Action<GoogleAuthenticatorOptions>)
+  nameWithType: GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(AuthenticatorRegistry, Action<GoogleAuthenticatorOptions>)
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(Mcma.Client.AuthenticatorRegistry, System.Action<Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions>)
+  nameWithType.vb: GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(AuthenticatorRegistry, Action(Of GoogleAuthenticatorOptions))
+  fullName.vb: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(Mcma.Client.AuthenticatorRegistry, System.Action(Of Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions))
+  name.vb: AddGoogleAuth(AuthenticatorRegistry, Action(Of GoogleAuthenticatorOptions))
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+    name: AddGoogleAuth
+    nameWithType: GoogleAuthenticatorRegistryExtensions.AddGoogleAuth
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+    name: GoogleAuthenticatorOptions
+    nameWithType: GoogleAuthenticatorOptions
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+    name: AddGoogleAuth
+    nameWithType: GoogleAuthenticatorRegistryExtensions.AddGoogleAuth
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.AddGoogleAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+    name: GoogleAuthenticatorOptions
+    nameWithType: GoogleAuthenticatorOptions
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions
+  commentId: T:Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions
+  parent: Mcma.GoogleCloud.Client
+  name: GoogleAuthenticatorRegistryExtensions
+  nameWithType: GoogleAuthenticatorRegistryExtensions
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+  commentId: M:Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+  isExternal: true
+  name: TryAddGoogleAuth(AuthenticatorRegistry, Action<GoogleAuthenticatorOptions>)
+  nameWithType: GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(AuthenticatorRegistry, Action<GoogleAuthenticatorOptions>)
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(Mcma.Client.AuthenticatorRegistry, System.Action<Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions>)
+  nameWithType.vb: GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(AuthenticatorRegistry, Action(Of GoogleAuthenticatorOptions))
+  fullName.vb: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(Mcma.Client.AuthenticatorRegistry, System.Action(Of Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions))
+  name.vb: TryAddGoogleAuth(AuthenticatorRegistry, Action(Of GoogleAuthenticatorOptions))
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+    name: TryAddGoogleAuth
+    nameWithType: GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+    name: GoogleAuthenticatorOptions
+    nameWithType: GoogleAuthenticatorOptions
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+    name: TryAddGoogleAuth
+    nameWithType: GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions.TryAddGoogleAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+    name: GoogleAuthenticatorOptions
+    nameWithType: GoogleAuthenticatorOptions
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  commentId: M:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  isExternal: true
+  name: AddAzureFunctionKeyAuth(AuthenticatorRegistry, Action<AzureFunctionKeyAuthenticatorOptions>)
+  nameWithType: AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(AuthenticatorRegistry, Action<AzureFunctionKeyAuthenticatorOptions>)
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry, System.Action<Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions>)
+  nameWithType.vb: AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(AuthenticatorRegistry, Action(Of AzureFunctionKeyAuthenticatorOptions))
+  fullName.vb: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry, System.Action(Of Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions))
+  name.vb: AddAzureFunctionKeyAuth(AuthenticatorRegistry, Action(Of AzureFunctionKeyAuthenticatorOptions))
+  spec.csharp:
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+    name: AddAzureFunctionKeyAuth
+    nameWithType: AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+    name: AzureFunctionKeyAuthenticatorOptions
+    nameWithType: AzureFunctionKeyAuthenticatorOptions
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+    name: AddAzureFunctionKeyAuth
+    nameWithType: AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+    name: AzureFunctionKeyAuthenticatorOptions
+    nameWithType: AzureFunctionKeyAuthenticatorOptions
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions
+  commentId: T:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions
+  parent: Mcma.Azure.Client.FunctionKeys
+  name: AzureFunctionKeyAuthRegistryExtensions
+  nameWithType: AzureFunctionKeyAuthRegistryExtensions
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  commentId: M:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  isExternal: true
+  name: TryAddAzureFunctionKeyAuth(AuthenticatorRegistry, Action<AzureFunctionKeyAuthenticatorOptions>)
+  nameWithType: AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(AuthenticatorRegistry, Action<AzureFunctionKeyAuthenticatorOptions>)
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry, System.Action<Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions>)
+  nameWithType.vb: AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(AuthenticatorRegistry, Action(Of AzureFunctionKeyAuthenticatorOptions))
+  fullName.vb: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry, System.Action(Of Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions))
+  name.vb: TryAddAzureFunctionKeyAuth(AuthenticatorRegistry, Action(Of AzureFunctionKeyAuthenticatorOptions))
+  spec.csharp:
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+    name: TryAddAzureFunctionKeyAuth
+    nameWithType: AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+    name: AzureFunctionKeyAuthenticatorOptions
+    nameWithType: AzureFunctionKeyAuthenticatorOptions
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+    name: TryAddAzureFunctionKeyAuth
+    nameWithType: AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+    name: AzureFunctionKeyAuthenticatorOptions
+    nameWithType: AzureFunctionKeyAuthenticatorOptions
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+  commentId: M:Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+  isExternal: true
+  name: AddAzureADConfidentialClientAuth(AuthenticatorRegistry, Action<ConfidentialClientApplicationOptions>)
+  nameWithType: AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(AuthenticatorRegistry, Action<ConfidentialClientApplicationOptions>)
+  fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(Mcma.Client.AuthenticatorRegistry, System.Action<Microsoft.Identity.Client.ConfidentialClientApplicationOptions>)
+  nameWithType.vb: AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(AuthenticatorRegistry, Action(Of ConfidentialClientApplicationOptions))
+  fullName.vb: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(Mcma.Client.AuthenticatorRegistry, System.Action(Of Microsoft.Identity.Client.ConfidentialClientApplicationOptions))
+  name.vb: AddAzureADConfidentialClientAuth(AuthenticatorRegistry, Action(Of ConfidentialClientApplicationOptions))
+  spec.csharp:
+  - uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+    name: AddAzureADConfidentialClientAuth
+    nameWithType: AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth
+    fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    name: ConfidentialClientApplicationOptions
+    nameWithType: ConfidentialClientApplicationOptions
+    fullName: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+    name: AddAzureADConfidentialClientAuth
+    nameWithType: AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth
+    fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.AddAzureADConfidentialClientAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    name: ConfidentialClientApplicationOptions
+    nameWithType: ConfidentialClientApplicationOptions
+    fullName: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions
+  commentId: T:Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions
+  parent: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  name: AzureADConfidentialClientAuthRegistryExtensions
+  nameWithType: AzureADConfidentialClientAuthRegistryExtensions
+  fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions
+- uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+  commentId: M:Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+  isExternal: true
+  name: TryAddAzureADConfidentialClientAuth(AuthenticatorRegistry, Action<ConfidentialClientApplicationOptions>)
+  nameWithType: AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(AuthenticatorRegistry, Action<ConfidentialClientApplicationOptions>)
+  fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(Mcma.Client.AuthenticatorRegistry, System.Action<Microsoft.Identity.Client.ConfidentialClientApplicationOptions>)
+  nameWithType.vb: AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(AuthenticatorRegistry, Action(Of ConfidentialClientApplicationOptions))
+  fullName.vb: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(Mcma.Client.AuthenticatorRegistry, System.Action(Of Microsoft.Identity.Client.ConfidentialClientApplicationOptions))
+  name.vb: TryAddAzureADConfidentialClientAuth(AuthenticatorRegistry, Action(Of ConfidentialClientApplicationOptions))
+  spec.csharp:
+  - uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+    name: TryAddAzureADConfidentialClientAuth
+    nameWithType: AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth
+    fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    name: ConfidentialClientApplicationOptions
+    nameWithType: ConfidentialClientApplicationOptions
+    fullName: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+    name: TryAddAzureADConfidentialClientAuth
+    nameWithType: AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth
+    fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions.TryAddAzureADConfidentialClientAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    name: ConfidentialClientApplicationOptions
+    nameWithType: ConfidentialClientApplicationOptions
+    fullName: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+  commentId: M:Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+  isExternal: true
+  name: AddAzureADManagedIdentityAuth(AuthenticatorRegistry, Action<AzureManagedIdentityBearerTokenProviderOptions>)
+  nameWithType: AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(AuthenticatorRegistry, Action<AzureManagedIdentityBearerTokenProviderOptions>)
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(Mcma.Client.AuthenticatorRegistry, System.Action<Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions>)
+  nameWithType.vb: AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(AuthenticatorRegistry, Action(Of AzureManagedIdentityBearerTokenProviderOptions))
+  fullName.vb: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(Mcma.Client.AuthenticatorRegistry, System.Action(Of Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions))
+  name.vb: AddAzureADManagedIdentityAuth(AuthenticatorRegistry, Action(Of AzureManagedIdentityBearerTokenProviderOptions))
+  spec.csharp:
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+    name: AddAzureADManagedIdentityAuth
+    nameWithType: AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+    name: AzureManagedIdentityBearerTokenProviderOptions
+    nameWithType: AzureManagedIdentityBearerTokenProviderOptions
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+    name: AddAzureADManagedIdentityAuth
+    nameWithType: AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.AddAzureADManagedIdentityAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+    name: AzureManagedIdentityBearerTokenProviderOptions
+    nameWithType: AzureManagedIdentityBearerTokenProviderOptions
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions
+  commentId: T:Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions
+  parent: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  name: AzureADManagedIdentityAuthRegistryExtensions
+  nameWithType: AzureADManagedIdentityAuthRegistryExtensions
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+  commentId: M:Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+  isExternal: true
+  name: TryAddAzureADManagedIdentityAuth(AuthenticatorRegistry, Action<AzureManagedIdentityBearerTokenProviderOptions>)
+  nameWithType: AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(AuthenticatorRegistry, Action<AzureManagedIdentityBearerTokenProviderOptions>)
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(Mcma.Client.AuthenticatorRegistry, System.Action<Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions>)
+  nameWithType.vb: AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(AuthenticatorRegistry, Action(Of AzureManagedIdentityBearerTokenProviderOptions))
+  fullName.vb: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(Mcma.Client.AuthenticatorRegistry, System.Action(Of Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions))
+  name.vb: TryAddAzureADManagedIdentityAuth(AuthenticatorRegistry, Action(Of AzureManagedIdentityBearerTokenProviderOptions))
+  spec.csharp:
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+    name: TryAddAzureADManagedIdentityAuth
+    nameWithType: AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+    name: AzureManagedIdentityBearerTokenProviderOptions
+    nameWithType: AzureManagedIdentityBearerTokenProviderOptions
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+    name: TryAddAzureADManagedIdentityAuth
+    nameWithType: AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions.TryAddAzureADManagedIdentityAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+    name: AzureManagedIdentityBearerTokenProviderOptions
+    nameWithType: AzureManagedIdentityBearerTokenProviderOptions
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  commentId: M:Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  isExternal: true
+  name: AddAws4Auth(AuthenticatorRegistry, Action<Aws4AuthenticatorFactoryOptions>)
+  nameWithType: AwsAuthenticatorRegistryExtensions.AddAws4Auth(AuthenticatorRegistry, Action<Aws4AuthenticatorFactoryOptions>)
+  fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(Mcma.Client.AuthenticatorRegistry, System.Action<Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions>)
+  nameWithType.vb: AwsAuthenticatorRegistryExtensions.AddAws4Auth(AuthenticatorRegistry, Action(Of Aws4AuthenticatorFactoryOptions))
+  fullName.vb: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(Mcma.Client.AuthenticatorRegistry, System.Action(Of Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions))
+  name.vb: AddAws4Auth(AuthenticatorRegistry, Action(Of Aws4AuthenticatorFactoryOptions))
+  spec.csharp:
+  - uid: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+    name: AddAws4Auth
+    nameWithType: AwsAuthenticatorRegistryExtensions.AddAws4Auth
+    fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+    name: Aws4AuthenticatorFactoryOptions
+    nameWithType: Aws4AuthenticatorFactoryOptions
+    fullName: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+    name: AddAws4Auth
+    nameWithType: AwsAuthenticatorRegistryExtensions.AddAws4Auth
+    fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+    name: Aws4AuthenticatorFactoryOptions
+    nameWithType: Aws4AuthenticatorFactoryOptions
+    fullName: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions
+  commentId: T:Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions
+  parent: Mcma.Aws.Client
+  name: AwsAuthenticatorRegistryExtensions
+  nameWithType: AwsAuthenticatorRegistryExtensions
+  fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions
+- uid: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  commentId: M:Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  isExternal: true
+  name: TryAddAws4Auth(AuthenticatorRegistry, Action<Aws4AuthenticatorFactoryOptions>)
+  nameWithType: AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(AuthenticatorRegistry, Action<Aws4AuthenticatorFactoryOptions>)
+  fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(Mcma.Client.AuthenticatorRegistry, System.Action<Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions>)
+  nameWithType.vb: AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(AuthenticatorRegistry, Action(Of Aws4AuthenticatorFactoryOptions))
+  fullName.vb: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(Mcma.Client.AuthenticatorRegistry, System.Action(Of Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions))
+  name.vb: TryAddAws4Auth(AuthenticatorRegistry, Action(Of Aws4AuthenticatorFactoryOptions))
+  spec.csharp:
+  - uid: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+    name: TryAddAws4Auth
+    nameWithType: AwsAuthenticatorRegistryExtensions.TryAddAws4Auth
+    fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+    name: Aws4AuthenticatorFactoryOptions
+    nameWithType: Aws4AuthenticatorFactoryOptions
+    fullName: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+    name: TryAddAws4Auth
+    nameWithType: AwsAuthenticatorRegistryExtensions.TryAddAws4Auth
+    fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+    nameWithType: AuthenticatorRegistry
+    fullName: Mcma.Client.AuthenticatorRegistry
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+    name: Aws4AuthenticatorFactoryOptions
+    nameWithType: Aws4AuthenticatorFactoryOptions
+    fullName: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Client.AccessTokens
+  commentId: N:Mcma.Client.AccessTokens
+  name: Mcma.Client.AccessTokens
+  nameWithType: Mcma.Client.AccessTokens
+  fullName: Mcma.Client.AccessTokens
+- uid: Mcma.GoogleCloud.Client
+  commentId: N:Mcma.GoogleCloud.Client
+  name: Mcma.GoogleCloud.Client
+  nameWithType: Mcma.GoogleCloud.Client
+  fullName: Mcma.GoogleCloud.Client
+- uid: Mcma.Azure.Client.FunctionKeys
+  commentId: N:Mcma.Azure.Client.FunctionKeys
+  name: Mcma.Azure.Client.FunctionKeys
+  nameWithType: Mcma.Azure.Client.FunctionKeys
+  fullName: Mcma.Azure.Client.FunctionKeys
+- uid: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  commentId: N:Mcma.Azure.Client.AzureAD.ConfidentialClient
+  name: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  nameWithType: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  commentId: N:Mcma.Azure.Client.AzureAD.ManagedIdentity
+  name: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  nameWithType: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity
+- uid: Mcma.Aws.Client
+  commentId: N:Mcma.Aws.Client
+  name: Mcma.Aws.Client
+  nameWithType: Mcma.Aws.Client
+  fullName: Mcma.Aws.Client
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Client.AuthenticatorRegistry.Services*
+  commentId: Overload:Mcma.Client.AuthenticatorRegistry.Services
+  name: Services
+  nameWithType: AuthenticatorRegistry.Services
+  fullName: Mcma.Client.AuthenticatorRegistry.Services
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: Mcma.Client.AuthenticatorRegistry.Add*
+  commentId: Overload:Mcma.Client.AuthenticatorRegistry.Add
+  name: Add
+  nameWithType: AuthenticatorRegistry.Add
+  fullName: Mcma.Client.AuthenticatorRegistry.Add
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.Client.AuthenticatorRegistry
+  commentId: T:Mcma.Client.AuthenticatorRegistry
+  parent: Mcma.Client
+  name: AuthenticatorRegistry
+  nameWithType: AuthenticatorRegistry
+  fullName: Mcma.Client.AuthenticatorRegistry
+- uid: Mcma.Client.AuthenticatorRegistry.TryAdd*
+  commentId: Overload:Mcma.Client.AuthenticatorRegistry.TryAdd
+  name: TryAdd
+  nameWithType: AuthenticatorRegistry.TryAdd
+  fullName: Mcma.Client.AuthenticatorRegistry.TryAdd

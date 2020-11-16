@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.LogType
+    name: LogType
+    fullName: LogType
+    children:
+      - core.LogType.Debug
+      - core.LogType.Error
+      - core.LogType.Fatal
+      - core.LogType.Info
+      - core.LogType.Warn
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: core
+  - uid: core.LogType.Debug
+    name: Debug
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: core
+  - uid: core.LogType.Error
+    name: Error
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: core
+  - uid: core.LogType.Fatal
+    name: Fatal
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: core
+  - uid: core.LogType.Info
+    name: Info
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: core
+  - uid: core.LogType.Warn
+    name: Warn
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: core

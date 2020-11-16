@@ -1,0 +1,167 @@
+### YamlMime:UniversalReference
+items:
+  - uid: worker.ProcessJobAssignmentOperation
+    name: ProcessJobAssignmentOperation
+    fullName: ProcessJobAssignmentOperation<T>
+    children:
+      - worker.ProcessJobAssignmentOperation.accepts
+      - worker.ProcessJobAssignmentOperation.addProfile_1
+      - worker.ProcessJobAssignmentOperation.addProfile
+      - worker.ProcessJobAssignmentOperation.execute
+      - worker.ProcessJobAssignmentOperation.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentOperation.accepts
+    name: 'accepts(ProviderCollection, WorkerRequest)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function accepts(providers: ProviderCollection, workerRequest:
+        WorkerRequest)
+      parameters:
+        - id: providers
+          type:
+            - worker.ProviderCollection
+          description: ''
+        - id: workerRequest
+          type:
+            - worker.WorkerRequest
+          description: ''
+      return:
+        type:
+          - Promise<boolean>
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentOperation.addProfile_1
+    name: addProfile(ProcessJobProfile<T>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addProfile(profile: ProcessJobProfile<T>)'
+      parameters:
+        - id: profile
+          type:
+            - worker.ProcessJobProfile<T>
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentOperation.addProfile
+    name: 'addProfile(string, JobProfileHandler<T>)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addProfile(profileName: string, handler: JobProfileHandler<T>)'
+      parameters:
+        - id: profileName
+          type:
+            - string
+          description: ''
+        - id: handler
+          type:
+            - worker.JobProfileHandler<T>
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentOperation.execute
+    name: 'execute(ProviderCollection, WorkerRequest, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function execute(providers: ProviderCollection, workerRequest:
+        WorkerRequest, ctx?: any)
+      parameters:
+        - id: providers
+          type:
+            - worker.ProviderCollection
+          description: ''
+        - id: workerRequest
+          type:
+            - worker.WorkerRequest
+          description: ''
+        - id: ctx
+          type:
+            - any
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentOperation.constructor
+    name: 'ProcessJobAssignmentOperation(McmaResourceType<T>, JobStatus, any)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ProcessJobAssignmentOperation(jobType: McmaResourceType<T>,
+        initialJobStatus: JobStatus, configVariables: any)
+      parameters:
+        - id: jobType
+          type:
+            - McmaResourceType<T>
+          description: ''
+        - id: initialJobStatus
+          type:
+            - JobStatus
+          description: ''
+        - id: configVariables
+          type:
+            - any
+          description: ''
+    package: worker
+references:
+  - uid: worker.ProviderCollection
+    name: ProviderCollection
+    spec.typeScript:
+      - name: ProviderCollection
+        fullName: ProviderCollection
+        uid: worker.ProviderCollection
+  - uid: worker.WorkerRequest
+    name: WorkerRequest
+    spec.typeScript:
+      - name: WorkerRequest
+        fullName: WorkerRequest
+        uid: worker.WorkerRequest
+  - uid: worker.JobProfileHandler<T>
+    name: JobProfileHandler<T>
+    spec.typeScript:
+      - name: JobProfileHandler
+        fullName: JobProfileHandler
+        uid: worker.JobProfileHandler
+      - name: <T>
+        fullName: <T>
+  - uid: worker.ProcessJobProfile<T>
+    name: ProcessJobProfile<T>
+    spec.typeScript:
+      - name: ProcessJobProfile
+        fullName: ProcessJobProfile
+        uid: worker.ProcessJobProfile
+      - name: <T>
+        fullName: <T>

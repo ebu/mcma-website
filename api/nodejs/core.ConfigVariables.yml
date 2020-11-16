@@ -1,0 +1,112 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.ConfigVariables
+    name: ConfigVariables
+    fullName: ConfigVariables
+    children:
+      - core.ConfigVariables.constructor
+      - core.ConfigVariables.get
+      - core.ConfigVariables.getInstance
+      - core.ConfigVariables.getOptional
+      - core.ConfigVariables.keys
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: core
+  - uid: core.ConfigVariables.constructor
+    name: 'ConfigVariables([key: string]: function)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ConfigVariables(variables?: [key: string]: function)'
+      parameters:
+        - id: variables
+          type:
+            - '[key: string]: function'
+          description: ''
+          optional: true
+    package: core
+  - uid: core.ConfigVariables.get
+    name: get(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.ConfigVariables.getInstance
+    name: getInstance()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function getInstance()
+      parameters: []
+      return:
+        type:
+          - core.ConfigVariables
+        description: ''
+    package: core
+  - uid: core.ConfigVariables.getOptional
+    name: 'getOptional(string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getOptional(name: string, defaultValue?: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: defaultValue
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: core
+  - uid: core.ConfigVariables.keys
+    name: keys()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function keys()
+      parameters: []
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: core
+references:
+  - uid: core.ConfigVariables
+    name: ConfigVariables
+    spec.typeScript:
+      - name: ConfigVariables
+        fullName: ConfigVariables
+        uid: core.ConfigVariables

@@ -1,0 +1,266 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.Service
+    name: Service
+    fullName: Service
+    children:
+      - core.Service.@type
+      - core.Service.authContext
+      - core.Service.authType
+      - core.Service.custom
+      - core.Service.dateCreated
+      - core.Service.dateModified
+      - core.Service.id
+      - core.Service.jobProfileIds
+      - core.Service.jobType
+      - core.Service.name
+      - core.Service.onCreate
+      - core.Service.onUpsert
+      - core.Service.resources
+      - core.Service.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: core.McmaResource
+    package: core
+  - uid: core.Service.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.Service.authContext
+    name: authContext
+    fullName: authContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'authContext?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: core
+  - uid: core.Service.authType
+    name: authType
+    fullName: authType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'authType?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.Service.custom
+    name: custom
+    fullName: custom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'custom?: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: core
+  - uid: core.Service.dateCreated
+    name: dateCreated
+    fullName: dateCreated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateCreated?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.Service.dateModified
+    name: dateModified
+    fullName: dateModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateModified?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.Service.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.Service.jobProfileIds
+    name: jobProfileIds
+    fullName: jobProfileIds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'jobProfileIds?: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: core
+  - uid: core.Service.jobType
+    name: jobType
+    fullName: jobType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'jobType?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.Service.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.Service.onCreate
+    name: onCreate(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onCreate(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+    package: core
+  - uid: core.Service.onUpsert
+    name: onUpsert(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onUpsert(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+    package: core
+  - uid: core.Service.resources
+    name: resources
+    fullName: resources
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'resources: ResourceEndpointProperties[]'
+      return:
+        type:
+          - 'core.ResourceEndpointProperties[]'
+        description: ''
+    package: core
+  - uid: core.Service.constructor
+    name: Service(ServiceProperties)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Service(properties: ServiceProperties)'
+      parameters:
+        - id: properties
+          type:
+            - core.ServiceProperties
+          description: ''
+    package: core
+references:
+  - uid: core.McmaResource
+    name: McmaResource
+    spec.typeScript:
+      - name: McmaResource
+        fullName: McmaResource
+        uid: core.McmaResource
+  - uid: core.ServiceProperties
+    name: ServiceProperties
+    spec.typeScript:
+      - name: ServiceProperties
+        fullName: ServiceProperties
+        uid: core.ServiceProperties
+  - uid: 'core.ResourceEndpointProperties[]'
+    name: 'ResourceEndpointProperties[]'
+    spec.typeScript:
+      - name: ResourceEndpointProperties
+        fullName: ResourceEndpointProperties
+        uid: core.ResourceEndpointProperties
+      - name: '[]'
+        fullName: '[]'

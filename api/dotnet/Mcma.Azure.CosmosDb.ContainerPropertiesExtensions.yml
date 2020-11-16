@@ -1,0 +1,410 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.CosmosDb.ContainerPropertiesExtensions
+  commentId: T:Mcma.Azure.CosmosDb.ContainerPropertiesExtensions
+  id: ContainerPropertiesExtensions
+  parent: Mcma.Azure.CosmosDb
+  children:
+  - Mcma.Azure.CosmosDb.ContainerPropertiesExtensions.PartitionKeyName(Microsoft.Azure.Cosmos.ContainerProperties)
+  langs:
+  - csharp
+  - vb
+  name: ContainerPropertiesExtensions
+  nameWithType: ContainerPropertiesExtensions
+  fullName: Mcma.Azure.CosmosDb.ContainerPropertiesExtensions
+  type: Class
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/ContainerPropertiesExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ContainerPropertiesExtensions
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/ContainerPropertiesExtensions.cs
+    startLine: 5
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: public static class ContainerPropertiesExtensions
+    content.vb: Public Module ContainerPropertiesExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.Azure.CosmosDb.ContainerPropertiesExtensions.PartitionKeyName(Microsoft.Azure.Cosmos.ContainerProperties)
+  commentId: M:Mcma.Azure.CosmosDb.ContainerPropertiesExtensions.PartitionKeyName(Microsoft.Azure.Cosmos.ContainerProperties)
+  id: PartitionKeyName(Microsoft.Azure.Cosmos.ContainerProperties)
+  isExtensionMethod: true
+  parent: Mcma.Azure.CosmosDb.ContainerPropertiesExtensions
+  langs:
+  - csharp
+  - vb
+  name: PartitionKeyName(ContainerProperties)
+  nameWithType: ContainerPropertiesExtensions.PartitionKeyName(ContainerProperties)
+  fullName: Mcma.Azure.CosmosDb.ContainerPropertiesExtensions.PartitionKeyName(Microsoft.Azure.Cosmos.ContainerProperties)
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/ContainerPropertiesExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: PartitionKeyName
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/ContainerPropertiesExtensions.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: public static string PartitionKeyName(this ContainerProperties containerProperties)
+    parameters:
+    - id: containerProperties
+      type: Microsoft.Azure.Cosmos.ContainerProperties
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PartitionKeyName(containerProperties As ContainerProperties) As String
+  overload: Mcma.Azure.CosmosDb.ContainerPropertiesExtensions.PartitionKeyName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Mcma.Azure.CosmosDb
+  commentId: N:Mcma.Azure.CosmosDb
+  name: Mcma.Azure.CosmosDb
+  nameWithType: Mcma.Azure.CosmosDb
+  fullName: Mcma.Azure.CosmosDb
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Azure.CosmosDb.ContainerPropertiesExtensions.PartitionKeyName*
+  commentId: Overload:Mcma.Azure.CosmosDb.ContainerPropertiesExtensions.PartitionKeyName
+  name: PartitionKeyName
+  nameWithType: ContainerPropertiesExtensions.PartitionKeyName
+  fullName: Mcma.Azure.CosmosDb.ContainerPropertiesExtensions.PartitionKeyName
+- uid: Microsoft.Azure.Cosmos.ContainerProperties
+  commentId: T:Microsoft.Azure.Cosmos.ContainerProperties
+  parent: Microsoft.Azure.Cosmos
+  isExternal: true
+  name: ContainerProperties
+  nameWithType: ContainerProperties
+  fullName: Microsoft.Azure.Cosmos.ContainerProperties
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.Azure.Cosmos
+  commentId: N:Microsoft.Azure.Cosmos
+  isExternal: true
+  name: Microsoft.Azure.Cosmos
+  nameWithType: Microsoft.Azure.Cosmos
+  fullName: Microsoft.Azure.Cosmos

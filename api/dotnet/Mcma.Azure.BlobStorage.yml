@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.BlobStorage
+  commentId: N:Mcma.Azure.BlobStorage
+  id: Mcma.Azure.BlobStorage
+  children:
+  - Mcma.Azure.BlobStorage.BlobStorageFileLocator
+  - Mcma.Azure.BlobStorage.BlobStorageFolderLocator
+  - Mcma.Azure.BlobStorage.BlobStorageLocator
+  - Mcma.Azure.BlobStorage.BlobStorageLocatorHelper
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Azure.BlobStorage
+  nameWithType: Mcma.Azure.BlobStorage
+  fullName: Mcma.Azure.BlobStorage
+  type: Namespace
+  assemblies:
+  - Mcma.Azure.BlobStorage
+references:
+- uid: Mcma.Azure.BlobStorage.BlobStorageFileLocator
+  commentId: T:Mcma.Azure.BlobStorage.BlobStorageFileLocator
+  parent: Mcma.Azure.BlobStorage
+  name: BlobStorageFileLocator
+  nameWithType: BlobStorageFileLocator
+  fullName: Mcma.Azure.BlobStorage.BlobStorageFileLocator
+- uid: Mcma.Azure.BlobStorage.BlobStorageFolderLocator
+  commentId: T:Mcma.Azure.BlobStorage.BlobStorageFolderLocator
+  parent: Mcma.Azure.BlobStorage
+  name: BlobStorageFolderLocator
+  nameWithType: BlobStorageFolderLocator
+  fullName: Mcma.Azure.BlobStorage.BlobStorageFolderLocator
+- uid: Mcma.Azure.BlobStorage.BlobStorageLocator
+  commentId: T:Mcma.Azure.BlobStorage.BlobStorageLocator
+  parent: Mcma.Azure.BlobStorage
+  name: BlobStorageLocator
+  nameWithType: BlobStorageLocator
+  fullName: Mcma.Azure.BlobStorage.BlobStorageLocator
+- uid: Mcma.Azure.BlobStorage.BlobStorageLocatorHelper
+  commentId: T:Mcma.Azure.BlobStorage.BlobStorageLocatorHelper
+  parent: Mcma.Azure.BlobStorage
+  name: BlobStorageLocatorHelper
+  nameWithType: BlobStorageLocatorHelper
+  fullName: Mcma.Azure.BlobStorage.BlobStorageLocatorHelper
+- uid: Mcma.Azure.BlobStorage
+  commentId: N:Mcma.Azure.BlobStorage
+  name: Mcma.Azure.BlobStorage
+  nameWithType: Mcma.Azure.BlobStorage
+  fullName: Mcma.Azure.BlobStorage

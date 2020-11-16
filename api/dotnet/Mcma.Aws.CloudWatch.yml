@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.CloudWatch
+  commentId: N:Mcma.Aws.CloudWatch
+  id: Mcma.Aws.CloudWatch
+  children:
+  - Mcma.Aws.CloudWatch.CloudWatchLogger
+  - Mcma.Aws.CloudWatch.CloudWatchLoggerProvider
+  - Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions
+  - Mcma.Aws.CloudWatch.CloudWatchLoggingServiceCollectionExtensions
+  - Mcma.Aws.CloudWatch.McmaCloudWatchEnvironmentVariables
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Aws.CloudWatch
+  nameWithType: Mcma.Aws.CloudWatch
+  fullName: Mcma.Aws.CloudWatch
+  type: Namespace
+  assemblies:
+  - Mcma.Aws.Logger
+references:
+- uid: Mcma.Aws.CloudWatch.CloudWatchLogger
+  commentId: T:Mcma.Aws.CloudWatch.CloudWatchLogger
+  parent: Mcma.Aws.CloudWatch
+  name: CloudWatchLogger
+  nameWithType: CloudWatchLogger
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLogger
+- uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider
+  commentId: T:Mcma.Aws.CloudWatch.CloudWatchLoggerProvider
+  name: CloudWatchLoggerProvider
+  nameWithType: CloudWatchLoggerProvider
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider
+- uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions
+  commentId: T:Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions
+  name: CloudWatchLoggerProviderOptions
+  nameWithType: CloudWatchLoggerProviderOptions
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions
+- uid: Mcma.Aws.CloudWatch.CloudWatchLoggingServiceCollectionExtensions
+  commentId: T:Mcma.Aws.CloudWatch.CloudWatchLoggingServiceCollectionExtensions
+  name: CloudWatchLoggingServiceCollectionExtensions
+  nameWithType: CloudWatchLoggingServiceCollectionExtensions
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLoggingServiceCollectionExtensions
+- uid: Mcma.Aws.CloudWatch.McmaCloudWatchEnvironmentVariables
+  commentId: T:Mcma.Aws.CloudWatch.McmaCloudWatchEnvironmentVariables
+  name: McmaCloudWatchEnvironmentVariables
+  nameWithType: McmaCloudWatchEnvironmentVariables
+  fullName: Mcma.Aws.CloudWatch.McmaCloudWatchEnvironmentVariables
+- uid: Mcma.Aws.CloudWatch
+  commentId: N:Mcma.Aws.CloudWatch
+  name: Mcma.Aws.CloudWatch
+  nameWithType: Mcma.Aws.CloudWatch
+  fullName: Mcma.Aws.CloudWatch

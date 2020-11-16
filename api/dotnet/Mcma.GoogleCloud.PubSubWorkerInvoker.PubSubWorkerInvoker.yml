@@ -1,0 +1,778 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker
+  commentId: T:Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker
+  id: PubSubWorkerInvoker
+  parent: Mcma.GoogleCloud.PubSubWorkerInvoker
+  children:
+  - Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker.#ctor(Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions})
+  - Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  langs:
+  - csharp
+  - vb
+  name: PubSubWorkerInvoker
+  nameWithType: PubSubWorkerInvoker
+  fullName: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker
+  type: Class
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.PubSubWorkerInvoker/PubSubWorkerInvoker.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: PubSubWorkerInvoker
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.PubSubWorkerInvoker/PubSubWorkerInvoker.cs
+    startLine: 10
+  assemblies:
+  - Mcma.GoogleCloud.PubSubWorkerInvoker
+  namespace: Mcma.GoogleCloud.PubSubWorkerInvoker
+  syntax:
+    content: 'public class PubSubWorkerInvoker : WorkerInvoker, IWorkerInvoker'
+    content.vb: >-
+      Public Class PubSubWorkerInvoker
+
+          Inherits WorkerInvoker
+
+          Implements IWorkerInvoker
+  inheritance:
+  - System.Object
+  - Mcma.WorkerInvoker.WorkerInvoker
+  implements:
+  - Mcma.WorkerInvoker.IWorkerInvoker
+  inheritedMembers:
+  - Mcma.WorkerInvoker.WorkerInvoker.Options
+  - Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(System.String,System.Object,Mcma.McmaTracker)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker.#ctor(Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions})
+  commentId: M:Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker.#ctor(Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions})
+  id: '#ctor(Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions})'
+  parent: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker
+  langs:
+  - csharp
+  - vb
+  name: PubSubWorkerInvoker(IOptions<PubSubWorkerInvokerOptions>)
+  nameWithType: PubSubWorkerInvoker.PubSubWorkerInvoker(IOptions<PubSubWorkerInvokerOptions>)
+  fullName: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker.PubSubWorkerInvoker(Microsoft.Extensions.Options.IOptions<Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions>)
+  type: Constructor
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.PubSubWorkerInvoker/PubSubWorkerInvoker.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.PubSubWorkerInvoker/PubSubWorkerInvoker.cs
+    startLine: 12
+  assemblies:
+  - Mcma.GoogleCloud.PubSubWorkerInvoker
+  namespace: Mcma.GoogleCloud.PubSubWorkerInvoker
+  syntax:
+    content: public PubSubWorkerInvoker(IOptions<PubSubWorkerInvokerOptions> options)
+    parameters:
+    - id: options
+      type: Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions}
+    content.vb: Public Sub New(options As IOptions(Of PubSubWorkerInvokerOptions))
+  overload: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker.#ctor*
+  nameWithType.vb: PubSubWorkerInvoker.PubSubWorkerInvoker(IOptions(Of PubSubWorkerInvokerOptions))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker.PubSubWorkerInvoker(Microsoft.Extensions.Options.IOptions(Of Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions))
+  name.vb: PubSubWorkerInvoker(IOptions(Of PubSubWorkerInvokerOptions))
+- uid: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  commentId: M:Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  id: InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  parent: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker
+  langs:
+  - csharp
+  - vb
+  name: InvokeAsync(WorkerRequest)
+  nameWithType: PubSubWorkerInvoker.InvokeAsync(WorkerRequest)
+  fullName: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.PubSubWorkerInvoker/PubSubWorkerInvoker.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: InvokeAsync
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.PubSubWorkerInvoker/PubSubWorkerInvoker.cs
+    startLine: 25
+  assemblies:
+  - Mcma.GoogleCloud.PubSubWorkerInvoker
+  namespace: Mcma.GoogleCloud.PubSubWorkerInvoker
+  syntax:
+    content: protected override Task InvokeAsync(WorkerRequest workerRequest)
+    parameters:
+    - id: workerRequest
+      type: Mcma.WorkerInvoker.WorkerRequest
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function InvokeAsync(workerRequest As WorkerRequest) As Task
+  overridden: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  overload: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker.InvokeAsync*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Mcma.GoogleCloud.PubSubWorkerInvoker
+  commentId: N:Mcma.GoogleCloud.PubSubWorkerInvoker
+  name: Mcma.GoogleCloud.PubSubWorkerInvoker
+  nameWithType: Mcma.GoogleCloud.PubSubWorkerInvoker
+  fullName: Mcma.GoogleCloud.PubSubWorkerInvoker
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.WorkerInvoker.WorkerInvoker
+  commentId: T:Mcma.WorkerInvoker.WorkerInvoker
+  parent: Mcma.WorkerInvoker
+  name: WorkerInvoker
+  nameWithType: WorkerInvoker
+  fullName: Mcma.WorkerInvoker.WorkerInvoker
+- uid: Mcma.WorkerInvoker.IWorkerInvoker
+  commentId: T:Mcma.WorkerInvoker.IWorkerInvoker
+  parent: Mcma.WorkerInvoker
+  name: IWorkerInvoker
+  nameWithType: IWorkerInvoker
+  fullName: Mcma.WorkerInvoker.IWorkerInvoker
+- uid: Mcma.WorkerInvoker.WorkerInvoker.Options
+  commentId: P:Mcma.WorkerInvoker.WorkerInvoker.Options
+  parent: Mcma.WorkerInvoker.WorkerInvoker
+  name: Options
+  nameWithType: WorkerInvoker.Options
+  fullName: Mcma.WorkerInvoker.WorkerInvoker.Options
+- uid: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(System.String,System.Object,Mcma.McmaTracker)
+  commentId: M:Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(System.String,System.Object,Mcma.McmaTracker)
+  parent: Mcma.WorkerInvoker.WorkerInvoker
+  isExternal: true
+  name: InvokeAsync(String, Object, McmaTracker)
+  nameWithType: WorkerInvoker.InvokeAsync(String, Object, McmaTracker)
+  fullName: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(System.String, System.Object, Mcma.McmaTracker)
+  spec.csharp:
+  - uid: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(System.String,System.Object,Mcma.McmaTracker)
+    name: InvokeAsync
+    nameWithType: WorkerInvoker.InvokeAsync
+    fullName: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(System.String,System.Object,Mcma.McmaTracker)
+    name: InvokeAsync
+    nameWithType: WorkerInvoker.InvokeAsync
+    fullName: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.WorkerInvoker
+  commentId: N:Mcma.WorkerInvoker
+  name: Mcma.WorkerInvoker
+  nameWithType: Mcma.WorkerInvoker
+  fullName: Mcma.WorkerInvoker
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker.#ctor*
+  commentId: Overload:Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker.#ctor
+  name: PubSubWorkerInvoker
+  nameWithType: PubSubWorkerInvoker.PubSubWorkerInvoker
+  fullName: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker.PubSubWorkerInvoker
+- uid: Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions}
+  commentId: T:Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IOptions`1
+  name: IOptions<PubSubWorkerInvokerOptions>
+  nameWithType: IOptions<PubSubWorkerInvokerOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions>
+  nameWithType.vb: IOptions(Of PubSubWorkerInvokerOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions)
+  name.vb: IOptions(Of PubSubWorkerInvokerOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions
+    name: PubSubWorkerInvokerOptions
+    nameWithType: PubSubWorkerInvokerOptions
+    fullName: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions
+    name: PubSubWorkerInvokerOptions
+    nameWithType: PubSubWorkerInvokerOptions
+    fullName: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options.IOptions`1
+  commentId: T:Microsoft.Extensions.Options.IOptions`1
+  isExternal: true
+  name: IOptions<TOptions>
+  nameWithType: IOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<TOptions>
+  nameWithType.vb: IOptions(Of TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of TOptions)
+  name.vb: IOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: true
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+- uid: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  commentId: M:Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  parent: Mcma.WorkerInvoker.WorkerInvoker
+  name: InvokeAsync(WorkerRequest)
+  nameWithType: WorkerInvoker.InvokeAsync(WorkerRequest)
+  fullName: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+  spec.csharp:
+  - uid: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+    name: InvokeAsync
+    nameWithType: WorkerInvoker.InvokeAsync
+    fullName: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.WorkerInvoker.WorkerRequest
+    name: WorkerRequest
+    nameWithType: WorkerRequest
+    fullName: Mcma.WorkerInvoker.WorkerRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync(Mcma.WorkerInvoker.WorkerRequest)
+    name: InvokeAsync
+    nameWithType: WorkerInvoker.InvokeAsync
+    fullName: Mcma.WorkerInvoker.WorkerInvoker.InvokeAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.WorkerInvoker.WorkerRequest
+    name: WorkerRequest
+    nameWithType: WorkerRequest
+    fullName: Mcma.WorkerInvoker.WorkerRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker.InvokeAsync*
+  commentId: Overload:Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker.InvokeAsync
+  name: InvokeAsync
+  nameWithType: PubSubWorkerInvoker.InvokeAsync
+  fullName: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker.InvokeAsync
+- uid: Mcma.WorkerInvoker.WorkerRequest
+  commentId: T:Mcma.WorkerInvoker.WorkerRequest
+  parent: Mcma.WorkerInvoker
+  name: WorkerRequest
+  nameWithType: WorkerRequest
+  fullName: Mcma.WorkerInvoker.WorkerRequest
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

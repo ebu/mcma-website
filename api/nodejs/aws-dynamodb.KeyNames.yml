@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-dynamodb.KeyNames
+    name: KeyNames
+    fullName: KeyNames
+    children:
+      - aws-dynamodb.KeyNames.partition
+      - aws-dynamodb.KeyNames.sort
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.KeyNames.partition
+    name: partition
+    fullName: partition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'partition: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.KeyNames.sort
+    name: sort
+    fullName: sort
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'sort?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-dynamodb

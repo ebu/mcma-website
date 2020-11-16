@@ -1,0 +1,101 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.JobStatus
+    name: JobStatus
+    fullName: JobStatus
+    children:
+      - core.JobStatus.Assigned
+      - core.JobStatus.Canceled
+      - core.JobStatus.Completed
+      - core.JobStatus.Failed
+      - core.JobStatus.New
+      - core.JobStatus.Pending
+      - core.JobStatus.Queued
+      - core.JobStatus.Running
+      - core.JobStatus.Scheduled
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: core
+  - uid: core.JobStatus.Assigned
+    name: Assigned
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: core
+  - uid: core.JobStatus.Canceled
+    name: Canceled
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: core
+  - uid: core.JobStatus.Completed
+    name: Completed
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: core
+  - uid: core.JobStatus.Failed
+    name: Failed
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: core
+  - uid: core.JobStatus.New
+    name: New
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: core
+  - uid: core.JobStatus.Pending
+    name: Pending
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: core
+  - uid: core.JobStatus.Queued
+    name: Queued
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: core
+  - uid: core.JobStatus.Running
+    name: Running
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: core
+  - uid: core.JobStatus.Scheduled
+    name: Scheduled
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: core

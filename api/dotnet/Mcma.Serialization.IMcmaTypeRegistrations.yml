@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Serialization.IMcmaTypeRegistrations
+  commentId: T:Mcma.Serialization.IMcmaTypeRegistrations
+  id: IMcmaTypeRegistrations
+  parent: Mcma.Serialization
+  children:
+  - Mcma.Serialization.IMcmaTypeRegistrations.Add(System.Type)
+  - Mcma.Serialization.IMcmaTypeRegistrations.Add``1
+  langs:
+  - csharp
+  - vb
+  name: IMcmaTypeRegistrations
+  nameWithType: IMcmaTypeRegistrations
+  fullName: Mcma.Serialization.IMcmaTypeRegistrations
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/IMcmaTypeRegistrations.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IMcmaTypeRegistrations
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/IMcmaTypeRegistrations.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public interface IMcmaTypeRegistrations
+    content.vb: Public Interface IMcmaTypeRegistrations
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Serialization.IMcmaTypeRegistrations.Add``1
+  commentId: M:Mcma.Serialization.IMcmaTypeRegistrations.Add``1
+  id: Add``1
+  parent: Mcma.Serialization.IMcmaTypeRegistrations
+  langs:
+  - csharp
+  - vb
+  name: Add<T>()
+  nameWithType: IMcmaTypeRegistrations.Add<T>()
+  fullName: Mcma.Serialization.IMcmaTypeRegistrations.Add<T>()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/IMcmaTypeRegistrations.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Add
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/IMcmaTypeRegistrations.cs
+    startLine: 9
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  syntax:
+    content: IMcmaTypeRegistrations Add<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: Mcma.Serialization.IMcmaTypeRegistrations
+    content.vb: Function Add(Of T) As IMcmaTypeRegistrations
+  overload: Mcma.Serialization.IMcmaTypeRegistrations.Add*
+  nameWithType.vb: IMcmaTypeRegistrations.Add(Of T)()
+  fullName.vb: Mcma.Serialization.IMcmaTypeRegistrations.Add(Of T)()
+  name.vb: Add(Of T)()
+- uid: Mcma.Serialization.IMcmaTypeRegistrations.Add(System.Type)
+  commentId: M:Mcma.Serialization.IMcmaTypeRegistrations.Add(System.Type)
+  id: Add(System.Type)
+  parent: Mcma.Serialization.IMcmaTypeRegistrations
+  langs:
+  - csharp
+  - vb
+  name: Add(Type)
+  nameWithType: IMcmaTypeRegistrations.Add(Type)
+  fullName: Mcma.Serialization.IMcmaTypeRegistrations.Add(System.Type)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/IMcmaTypeRegistrations.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Add
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/IMcmaTypeRegistrations.cs
+    startLine: 11
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  syntax:
+    content: IMcmaTypeRegistrations Add(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: Mcma.Serialization.IMcmaTypeRegistrations
+    content.vb: Function Add(type As Type) As IMcmaTypeRegistrations
+  overload: Mcma.Serialization.IMcmaTypeRegistrations.Add*
+references:
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization.IMcmaTypeRegistrations.Add*
+  commentId: Overload:Mcma.Serialization.IMcmaTypeRegistrations.Add
+  name: Add
+  nameWithType: IMcmaTypeRegistrations.Add
+  fullName: Mcma.Serialization.IMcmaTypeRegistrations.Add
+- uid: Mcma.Serialization.IMcmaTypeRegistrations
+  commentId: T:Mcma.Serialization.IMcmaTypeRegistrations
+  parent: Mcma.Serialization
+  name: IMcmaTypeRegistrations
+  nameWithType: IMcmaTypeRegistrations
+  fullName: Mcma.Serialization.IMcmaTypeRegistrations
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,353 @@
+### YamlMime:UniversalReference
+items:
+  - uid: api.DefaultJobRouteCollection
+    name: DefaultJobRouteCollection
+    fullName: DefaultJobRouteCollection
+    children:
+      - api.DefaultJobRouteCollection.addRoute
+      - api.DefaultJobRouteCollection.addRoutes
+      - api.DefaultJobRouteCollection.create
+      - api.DefaultJobRouteCollection.constructor
+      - api.DefaultJobRouteCollection.delete
+      - api.DefaultJobRouteCollection.get
+      - api.DefaultJobRouteCollection.onJobAssignmentCreationCompleted
+      - api.DefaultJobRouteCollection.onJobAssignmentCreationStarted
+      - api.DefaultJobRouteCollection.query
+      - api.DefaultJobRouteCollection.remove
+      - api.DefaultJobRouteCollection.update
+      - 'api.DefaultJobRouteCollection.[Symbol.iterator]'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: api.DefaultRouteCollection<JobAssignment>
+    package: api
+  - uid: api.DefaultJobRouteCollection.addRoute
+    name: 'addRoute(string | McmaApiRoute, string, McmaApiRouteHandler)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addRoute(methodOrRoute: string | McmaApiRoute, path?: string,
+        handler?: McmaApiRouteHandler)
+      parameters:
+        - id: methodOrRoute
+          type:
+            - string | api.McmaApiRoute
+          description: ''
+        - id: path
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: handler
+          type:
+            - api.McmaApiRouteHandler
+          description: ''
+          optional: true
+      return:
+        type:
+          - api.McmaApiRouteCollection
+        description: ''
+    package: api
+  - uid: api.DefaultJobRouteCollection.addRoutes
+    name: 'addRoutes(McmaApiRouteCollection | McmaApiRoute[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addRoutes(routes: McmaApiRouteCollection | McmaApiRoute[])'
+      parameters:
+        - id: routes
+          type:
+            - 'api.McmaApiRouteCollection | api.McmaApiRoute[]'
+          description: ''
+      return:
+        type:
+          - api.McmaApiRouteCollection
+        description: ''
+    package: api
+  - uid: api.DefaultJobRouteCollection.create
+    name: create
+    fullName: create
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public create: DefaultCreateRoute<JobAssignment>'
+      return:
+        type:
+          - api.DefaultCreateRoute<JobAssignment>
+        description: ''
+    package: api
+  - uid: api.DefaultJobRouteCollection.constructor
+    name: >-
+      DefaultJobRouteCollection(DocumentDatabaseTableProvider, InvokeWorker,
+      string)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new DefaultJobRouteCollection(dbTableProvider:
+        DocumentDatabaseTableProvider, invokeWorker: InvokeWorker, root?:
+        string)
+      parameters:
+        - id: dbTableProvider
+          type:
+            - DocumentDatabaseTableProvider
+          description: ''
+        - id: invokeWorker
+          type:
+            - InvokeWorker
+          description: ''
+        - id: root
+          type:
+            - string
+          description: ''
+          optional: true
+    package: api
+  - uid: api.DefaultJobRouteCollection.delete
+    name: delete
+    fullName: delete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public delete: DefaultDeleteRoute<JobAssignment>'
+      return:
+        type:
+          - api.DefaultDeleteRoute<JobAssignment>
+        description: ''
+    package: api
+  - uid: api.DefaultJobRouteCollection.get
+    name: get
+    fullName: get
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public get: DefaultGetRoute<JobAssignment>'
+      return:
+        type:
+          - api.DefaultGetRoute<JobAssignment>
+        description: ''
+    package: api
+  - uid: api.DefaultJobRouteCollection.onJobAssignmentCreationCompleted
+    name: 'onJobAssignmentCreationCompleted(McmaApiRequestContext, JobAssignment)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function onJobAssignmentCreationCompleted(requestContext:
+        McmaApiRequestContext, jobAssignment: JobAssignment)
+      parameters:
+        - id: requestContext
+          type:
+            - api.McmaApiRequestContext
+          description: ''
+        - id: jobAssignment
+          type:
+            - JobAssignment
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: api
+  - uid: api.DefaultJobRouteCollection.onJobAssignmentCreationStarted
+    name: onJobAssignmentCreationStarted(McmaApiRequestContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function onJobAssignmentCreationStarted(requestContext:
+        McmaApiRequestContext)
+      parameters:
+        - id: requestContext
+          type:
+            - api.McmaApiRequestContext
+          description: ''
+      return:
+        type:
+          - Promise<boolean>
+        description: ''
+    package: api
+  - uid: api.DefaultJobRouteCollection.query
+    name: query
+    fullName: query
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public query: DefaultQueryRoute<JobAssignment>'
+      return:
+        type:
+          - api.DefaultQueryRoute<JobAssignment>
+        description: ''
+    package: api
+  - uid: api.DefaultJobRouteCollection.remove
+    name: remove("query" | "create" | "get" | "update" | "delete")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function remove(key: "query" | "create" | "get" | "update" | "delete")'
+      parameters:
+        - id: key
+          type:
+            - '"query" | "create" | "get" | "update" | "delete"'
+          description: ''
+    package: api
+  - uid: api.DefaultJobRouteCollection.update
+    name: update
+    fullName: update
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public update: DefaultUpdateRoute<JobAssignment>'
+      return:
+        type:
+          - api.DefaultUpdateRoute<JobAssignment>
+        description: ''
+    package: api
+  - uid: 'api.DefaultJobRouteCollection.[Symbol.iterator]'
+    name: '[Symbol.iterator]()'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function [Symbol.iterator]()'
+      parameters: []
+      return:
+        type:
+          - IterableIterator<api.McmaApiRoute>
+        description: ''
+    package: api
+references:
+  - uid: api.DefaultRouteCollection<JobAssignment>
+    name: DefaultRouteCollection<JobAssignment>
+    spec.typeScript:
+      - name: DefaultRouteCollection
+        fullName: DefaultRouteCollection
+        uid: api.DefaultRouteCollection
+      - name: <JobAssignment>
+        fullName: <JobAssignment>
+  - uid: api.DefaultCreateRoute<JobAssignment>
+    name: DefaultCreateRoute<JobAssignment>
+    spec.typeScript:
+      - name: DefaultCreateRoute
+        fullName: DefaultCreateRoute
+        uid: api.DefaultCreateRoute
+      - name: <JobAssignment>
+        fullName: <JobAssignment>
+  - uid: api.DefaultDeleteRoute<JobAssignment>
+    name: DefaultDeleteRoute<JobAssignment>
+    spec.typeScript:
+      - name: DefaultDeleteRoute
+        fullName: DefaultDeleteRoute
+        uid: api.DefaultDeleteRoute
+      - name: <JobAssignment>
+        fullName: <JobAssignment>
+  - uid: api.DefaultGetRoute<JobAssignment>
+    name: DefaultGetRoute<JobAssignment>
+    spec.typeScript:
+      - name: DefaultGetRoute
+        fullName: DefaultGetRoute
+        uid: api.DefaultGetRoute
+      - name: <JobAssignment>
+        fullName: <JobAssignment>
+  - uid: api.DefaultQueryRoute<JobAssignment>
+    name: DefaultQueryRoute<JobAssignment>
+    spec.typeScript:
+      - name: DefaultQueryRoute
+        fullName: DefaultQueryRoute
+        uid: api.DefaultQueryRoute
+      - name: <JobAssignment>
+        fullName: <JobAssignment>
+  - uid: api.DefaultUpdateRoute<JobAssignment>
+    name: DefaultUpdateRoute<JobAssignment>
+    spec.typeScript:
+      - name: DefaultUpdateRoute
+        fullName: DefaultUpdateRoute
+        uid: api.DefaultUpdateRoute
+      - name: <JobAssignment>
+        fullName: <JobAssignment>
+  - uid: IterableIterator<api.McmaApiRoute>
+    name: McmaApiRoute>
+    spec.typeScript:
+      - name: IterableIterator<
+        fullName: IterableIterator<
+      - name: McmaApiRoute
+        fullName: McmaApiRoute
+        uid: api.McmaApiRoute
+      - name: '>'
+        fullName: '>'
+  - uid: string | api.McmaApiRoute
+    name: McmaApiRoute
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: McmaApiRoute
+        fullName: McmaApiRoute
+        uid: api.McmaApiRoute
+  - uid: api.McmaApiRouteHandler
+    name: McmaApiRouteHandler
+    spec.typeScript:
+      - name: McmaApiRouteHandler
+        fullName: McmaApiRouteHandler
+        uid: api.McmaApiRouteHandler
+  - uid: api.McmaApiRouteCollection
+    name: McmaApiRouteCollection
+    spec.typeScript:
+      - name: McmaApiRouteCollection
+        fullName: McmaApiRouteCollection
+        uid: api.McmaApiRouteCollection
+  - uid: 'api.McmaApiRouteCollection | api.McmaApiRoute[]'
+    name: 'McmaApiRoute[]'
+    spec.typeScript:
+      - name: McmaApiRouteCollection
+        fullName: McmaApiRouteCollection
+        uid: api.McmaApiRouteCollection
+      - name: ' | '
+        fullName: ' | '
+      - name: McmaApiRoute
+        fullName: McmaApiRoute
+        uid: api.McmaApiRoute
+      - name: '[]'
+        fullName: '[]'
+  - uid: api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    spec.typeScript:
+      - name: McmaApiRequestContext
+        fullName: McmaApiRequestContext
+        uid: api.McmaApiRequestContext

@@ -1,0 +1,680 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Utility.EncryptionHelper
+  commentId: T:Mcma.Utility.EncryptionHelper
+  id: EncryptionHelper
+  parent: Mcma.Utility
+  children:
+  - Mcma.Utility.EncryptionHelper.Decrypt(System.String,System.String)
+  - Mcma.Utility.EncryptionHelper.Encrypt(System.String,System.String)
+  - Mcma.Utility.EncryptionHelper.ExportJson(System.Security.Cryptography.RSA,System.Boolean)
+  - Mcma.Utility.EncryptionHelper.GenerateNewKeys
+  - Mcma.Utility.EncryptionHelper.ImportJson(System.Security.Cryptography.RSA,System.String)
+  langs:
+  - csharp
+  - vb
+  name: EncryptionHelper
+  nameWithType: EncryptionHelper
+  fullName: Mcma.Utility.EncryptionHelper
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/EncryptionHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: EncryptionHelper
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/EncryptionHelper.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nSimple support for basic RSA encryption\n"
+  example: []
+  syntax:
+    content: public static class EncryptionHelper
+    content.vb: Public Module EncryptionHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.Utility.EncryptionHelper.ExportJson(System.Security.Cryptography.RSA,System.Boolean)
+  commentId: M:Mcma.Utility.EncryptionHelper.ExportJson(System.Security.Cryptography.RSA,System.Boolean)
+  id: ExportJson(System.Security.Cryptography.RSA,System.Boolean)
+  isExtensionMethod: true
+  parent: Mcma.Utility.EncryptionHelper
+  langs:
+  - csharp
+  - vb
+  name: ExportJson(RSA, Boolean)
+  nameWithType: EncryptionHelper.ExportJson(RSA, Boolean)
+  fullName: Mcma.Utility.EncryptionHelper.ExportJson(System.Security.Cryptography.RSA, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/EncryptionHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ExportJson
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/EncryptionHelper.cs
+    startLine: 20
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nExports RSA parameters as base64-encoded json\n"
+  example: []
+  syntax:
+    content: public static string ExportJson(this RSA rsa, bool includePrivate)
+    parameters:
+    - id: rsa
+      type: System.Security.Cryptography.RSA
+      description: The RSA algorithm
+    - id: includePrivate
+      type: System.Boolean
+      description: Flag indicating whether the export should include private parameters
+    return:
+      type: System.String
+      description: The RSA parameters as base64-encoded json
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ExportJson(rsa As RSA, includePrivate As Boolean) As String
+  overload: Mcma.Utility.EncryptionHelper.ExportJson*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.EncryptionHelper.ImportJson(System.Security.Cryptography.RSA,System.String)
+  commentId: M:Mcma.Utility.EncryptionHelper.ImportJson(System.Security.Cryptography.RSA,System.String)
+  id: ImportJson(System.Security.Cryptography.RSA,System.String)
+  isExtensionMethod: true
+  parent: Mcma.Utility.EncryptionHelper
+  langs:
+  - csharp
+  - vb
+  name: ImportJson(RSA, String)
+  nameWithType: EncryptionHelper.ImportJson(RSA, String)
+  fullName: Mcma.Utility.EncryptionHelper.ImportJson(System.Security.Cryptography.RSA, System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/EncryptionHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ImportJson
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/EncryptionHelper.cs
+    startLine: 28
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nImports RSA parameters from base64-encoded json\n"
+  example: []
+  syntax:
+    content: public static void ImportJson(this RSA rsa, string json)
+    parameters:
+    - id: rsa
+      type: System.Security.Cryptography.RSA
+      description: The RSA algorithm
+    - id: json
+      type: System.String
+      description: Base64-encoded json containing the RSA parameters to import
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ImportJson(rsa As RSA, json As String)
+  overload: Mcma.Utility.EncryptionHelper.ImportJson*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.EncryptionHelper.GenerateNewKeys
+  commentId: M:Mcma.Utility.EncryptionHelper.GenerateNewKeys
+  id: GenerateNewKeys
+  parent: Mcma.Utility.EncryptionHelper
+  langs:
+  - csharp
+  - vb
+  name: GenerateNewKeys()
+  nameWithType: EncryptionHelper.GenerateNewKeys()
+  fullName: Mcma.Utility.EncryptionHelper.GenerateNewKeys()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/EncryptionHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GenerateNewKeys
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/EncryptionHelper.cs
+    startLine: 35
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nGenerates new public and private RSA keys and exports them as base64-encoded json\n"
+  example: []
+  syntax:
+    content: public static (string, string) GenerateNewKeys()
+    return:
+      type: System.ValueTuple{System.String,System.String}
+      description: ''
+    content.vb: Public Shared Function GenerateNewKeys As(String, String)
+  overload: Mcma.Utility.EncryptionHelper.GenerateNewKeys*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.EncryptionHelper.Encrypt(System.String,System.String)
+  commentId: M:Mcma.Utility.EncryptionHelper.Encrypt(System.String,System.String)
+  id: Encrypt(System.String,System.String)
+  parent: Mcma.Utility.EncryptionHelper
+  langs:
+  - csharp
+  - vb
+  name: Encrypt(String, String)
+  nameWithType: EncryptionHelper.Encrypt(String, String)
+  fullName: Mcma.Utility.EncryptionHelper.Encrypt(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/EncryptionHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Encrypt
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/EncryptionHelper.cs
+    startLine: 47
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nEncrypts a string using RSA\n"
+  example: []
+  syntax:
+    content: public static string Encrypt(string toEncrypt, string publicKeyJson)
+    parameters:
+    - id: toEncrypt
+      type: System.String
+      description: The string to encrypt
+    - id: publicKeyJson
+      type: System.String
+      description: The public RSA key as base64-encoded json
+    return:
+      type: System.String
+      description: The encrypted string
+    content.vb: Public Shared Function Encrypt(toEncrypt As String, publicKeyJson As String) As String
+  overload: Mcma.Utility.EncryptionHelper.Encrypt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.EncryptionHelper.Decrypt(System.String,System.String)
+  commentId: M:Mcma.Utility.EncryptionHelper.Decrypt(System.String,System.String)
+  id: Decrypt(System.String,System.String)
+  parent: Mcma.Utility.EncryptionHelper
+  langs:
+  - csharp
+  - vb
+  name: Decrypt(String, String)
+  nameWithType: EncryptionHelper.Decrypt(String, String)
+  fullName: Mcma.Utility.EncryptionHelper.Decrypt(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/EncryptionHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Decrypt
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/EncryptionHelper.cs
+    startLine: 64
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nDecrypts a string using RSA\n"
+  example: []
+  syntax:
+    content: public static string Decrypt(string toDecrypt, string privateKeyJson)
+    parameters:
+    - id: toDecrypt
+      type: System.String
+      description: The string to decrypt
+    - id: privateKeyJson
+      type: System.String
+      description: The private RSA key as base64-encoded json
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function Decrypt(toDecrypt As String, privateKeyJson As String) As String
+  overload: Mcma.Utility.EncryptionHelper.Decrypt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Mcma.Utility
+  commentId: N:Mcma.Utility
+  name: Mcma.Utility
+  nameWithType: Mcma.Utility
+  fullName: Mcma.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Utility.EncryptionHelper.ExportJson*
+  commentId: Overload:Mcma.Utility.EncryptionHelper.ExportJson
+  name: ExportJson
+  nameWithType: EncryptionHelper.ExportJson
+  fullName: Mcma.Utility.EncryptionHelper.ExportJson
+- uid: System.Security.Cryptography.RSA
+  commentId: T:System.Security.Cryptography.RSA
+  parent: System.Security.Cryptography
+  isExternal: true
+  name: RSA
+  nameWithType: RSA
+  fullName: System.Security.Cryptography.RSA
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Security.Cryptography
+  commentId: N:System.Security.Cryptography
+  isExternal: true
+  name: System.Security.Cryptography
+  nameWithType: System.Security.Cryptography
+  fullName: System.Security.Cryptography
+- uid: Mcma.Utility.EncryptionHelper.ImportJson*
+  commentId: Overload:Mcma.Utility.EncryptionHelper.ImportJson
+  name: ImportJson
+  nameWithType: EncryptionHelper.ImportJson
+  fullName: Mcma.Utility.EncryptionHelper.ImportJson
+- uid: Mcma.Utility.EncryptionHelper.GenerateNewKeys*
+  commentId: Overload:Mcma.Utility.EncryptionHelper.GenerateNewKeys
+  name: GenerateNewKeys
+  nameWithType: EncryptionHelper.GenerateNewKeys
+  fullName: Mcma.Utility.EncryptionHelper.GenerateNewKeys
+- uid: System.ValueTuple{System.String,System.String}
+  commentId: T:System.ValueTuple{System.String,System.String}
+  parent: System
+  isExternal: true
+  name: ValueTuple<String, String>
+  nameWithType: ValueTuple<String, String>
+  fullName: System.ValueTuple<System.String, System.String>
+  nameWithType.vb: ValueTuple(Of String, String)
+  fullName.vb: System.ValueTuple(Of System.String, System.String)
+  name.vb: ValueTuple(Of String, String)
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Utility.EncryptionHelper.Encrypt*
+  commentId: Overload:Mcma.Utility.EncryptionHelper.Encrypt
+  name: Encrypt
+  nameWithType: EncryptionHelper.Encrypt
+  fullName: Mcma.Utility.EncryptionHelper.Encrypt
+- uid: Mcma.Utility.EncryptionHelper.Decrypt*
+  commentId: Overload:Mcma.Utility.EncryptionHelper.Decrypt
+  name: Decrypt
+  nameWithType: EncryptionHelper.Decrypt
+  fullName: Mcma.Utility.EncryptionHelper.Decrypt

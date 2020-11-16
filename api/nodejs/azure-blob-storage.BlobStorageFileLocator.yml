@@ -1,0 +1,122 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-blob-storage.BlobStorageFileLocator
+    name: BlobStorageFileLocator
+    fullName: BlobStorageFileLocator
+    children:
+      - azure-blob-storage.BlobStorageFileLocator.@type
+      - azure-blob-storage.BlobStorageFileLocator.constructor
+      - azure-blob-storage.BlobStorageFileLocator.container
+      - azure-blob-storage.BlobStorageFileLocator.filePath
+      - azure-blob-storage.BlobStorageFileLocator.storageAccountName
+      - azure-blob-storage.BlobStorageFileLocator.url
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: azure-blob-storage.BlobStorageLocator
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageFileLocator.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageFileLocator.constructor
+    name: BlobStorageFileLocator(BlobStorageFileLocatorProperties)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BlobStorageFileLocator(properties: BlobStorageFileLocatorProperties)'
+      parameters:
+        - id: properties
+          type:
+            - azure-blob-storage.BlobStorageFileLocatorProperties
+          description: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageFileLocator.container
+    name: container
+    fullName: container
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'container: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageFileLocator.filePath
+    name: filePath
+    fullName: filePath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'filePath: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageFileLocator.storageAccountName
+    name: storageAccountName
+    fullName: storageAccountName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'storageAccountName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageFileLocator.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string url
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-blob-storage
+references:
+  - uid: azure-blob-storage.BlobStorageLocator
+    name: BlobStorageLocator
+    spec.typeScript:
+      - name: BlobStorageLocator
+        fullName: BlobStorageLocator
+        uid: azure-blob-storage.BlobStorageLocator
+  - uid: azure-blob-storage.BlobStorageFileLocatorProperties
+    name: BlobStorageFileLocatorProperties
+    spec.typeScript:
+      - name: BlobStorageFileLocatorProperties
+        fullName: BlobStorageFileLocatorProperties
+        uid: azure-blob-storage.BlobStorageFileLocatorProperties

@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-dynamodb.buildFilterExpression
+    name: buildFilterExpression(FilterExpression)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function buildFilterExpression(filterExpression: FilterExpression)'
+      parameters:
+        - id: filterExpression
+          type:
+            - FilterExpression
+          description: ''
+      return:
+        type:
+          - DynamoDbExpression
+        description: ''
+    package: aws-dynamodb

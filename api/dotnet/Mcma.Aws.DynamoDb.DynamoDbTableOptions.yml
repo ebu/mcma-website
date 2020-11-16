@@ -1,0 +1,743 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.DynamoDb.DynamoDbTableOptions
+  commentId: T:Mcma.Aws.DynamoDb.DynamoDbTableOptions
+  id: DynamoDbTableOptions
+  parent: Mcma.Aws.DynamoDb
+  children:
+  - Mcma.Aws.DynamoDb.DynamoDbTableOptions.Config
+  - Mcma.Aws.DynamoDb.DynamoDbTableOptions.ConsistentGet
+  - Mcma.Aws.DynamoDb.DynamoDbTableOptions.ConsistentQuery
+  - Mcma.Aws.DynamoDb.DynamoDbTableOptions.Credentials
+  langs:
+  - csharp
+  - vb
+  name: DynamoDbTableOptions
+  nameWithType: DynamoDbTableOptions
+  fullName: Mcma.Aws.DynamoDb.DynamoDbTableOptions
+  type: Class
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/DynamoDbTableOptions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: DynamoDbTableOptions
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/DynamoDbTableOptions.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: 'public class DynamoDbTableOptions : DocumentDatabaseTableOptions'
+    content.vb: >-
+      Public Class DynamoDbTableOptions
+
+          Inherits DocumentDatabaseTableOptions
+  inheritance:
+  - System.Object
+  - Mcma.Data.DocumentDatabaseTableOptions
+  inheritedMembers:
+  - Mcma.Data.DocumentDatabaseTableOptions.TableName
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Aws.DynamoDb.DynamoDbTableOptions.ConsistentGet
+  commentId: P:Mcma.Aws.DynamoDb.DynamoDbTableOptions.ConsistentGet
+  id: ConsistentGet
+  parent: Mcma.Aws.DynamoDb.DynamoDbTableOptions
+  langs:
+  - csharp
+  - vb
+  name: ConsistentGet
+  nameWithType: DynamoDbTableOptions.ConsistentGet
+  fullName: Mcma.Aws.DynamoDb.DynamoDbTableOptions.ConsistentGet
+  type: Property
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/DynamoDbTableOptions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ConsistentGet
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/DynamoDbTableOptions.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: public bool? ConsistentGet { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property ConsistentGet As Boolean?
+  overload: Mcma.Aws.DynamoDb.DynamoDbTableOptions.ConsistentGet*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mcma.Aws.DynamoDb.DynamoDbTableOptions.ConsistentQuery
+  commentId: P:Mcma.Aws.DynamoDb.DynamoDbTableOptions.ConsistentQuery
+  id: ConsistentQuery
+  parent: Mcma.Aws.DynamoDb.DynamoDbTableOptions
+  langs:
+  - csharp
+  - vb
+  name: ConsistentQuery
+  nameWithType: DynamoDbTableOptions.ConsistentQuery
+  fullName: Mcma.Aws.DynamoDb.DynamoDbTableOptions.ConsistentQuery
+  type: Property
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/DynamoDbTableOptions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ConsistentQuery
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/DynamoDbTableOptions.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: public bool? ConsistentQuery { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property ConsistentQuery As Boolean?
+  overload: Mcma.Aws.DynamoDb.DynamoDbTableOptions.ConsistentQuery*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mcma.Aws.DynamoDb.DynamoDbTableOptions.Credentials
+  commentId: P:Mcma.Aws.DynamoDb.DynamoDbTableOptions.Credentials
+  id: Credentials
+  parent: Mcma.Aws.DynamoDb.DynamoDbTableOptions
+  langs:
+  - csharp
+  - vb
+  name: Credentials
+  nameWithType: DynamoDbTableOptions.Credentials
+  fullName: Mcma.Aws.DynamoDb.DynamoDbTableOptions.Credentials
+  type: Property
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/DynamoDbTableOptions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Credentials
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/DynamoDbTableOptions.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: public AWSCredentials Credentials { get; set; }
+    parameters: []
+    return:
+      type: Amazon.Runtime.AWSCredentials
+    content.vb: Public Property Credentials As AWSCredentials
+  overload: Mcma.Aws.DynamoDb.DynamoDbTableOptions.Credentials*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mcma.Aws.DynamoDb.DynamoDbTableOptions.Config
+  commentId: P:Mcma.Aws.DynamoDb.DynamoDbTableOptions.Config
+  id: Config
+  parent: Mcma.Aws.DynamoDb.DynamoDbTableOptions
+  langs:
+  - csharp
+  - vb
+  name: Config
+  nameWithType: DynamoDbTableOptions.Config
+  fullName: Mcma.Aws.DynamoDb.DynamoDbTableOptions.Config
+  type: Property
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/DynamoDbTableOptions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Config
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/DynamoDbTableOptions.cs
+    startLine: 14
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: public AmazonDynamoDBConfig Config { get; set; }
+    parameters: []
+    return:
+      type: Amazon.DynamoDBv2.AmazonDynamoDBConfig
+    content.vb: Public Property Config As AmazonDynamoDBConfig
+  overload: Mcma.Aws.DynamoDb.DynamoDbTableOptions.Config*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Aws.DynamoDb
+  commentId: N:Mcma.Aws.DynamoDb
+  name: Mcma.Aws.DynamoDb
+  nameWithType: Mcma.Aws.DynamoDb
+  fullName: Mcma.Aws.DynamoDb
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Data.DocumentDatabaseTableOptions
+  commentId: T:Mcma.Data.DocumentDatabaseTableOptions
+  parent: Mcma.Data
+  name: DocumentDatabaseTableOptions
+  nameWithType: DocumentDatabaseTableOptions
+  fullName: Mcma.Data.DocumentDatabaseTableOptions
+- uid: Mcma.Data.DocumentDatabaseTableOptions.TableName
+  commentId: P:Mcma.Data.DocumentDatabaseTableOptions.TableName
+  parent: Mcma.Data.DocumentDatabaseTableOptions
+  name: TableName
+  nameWithType: DocumentDatabaseTableOptions.TableName
+  fullName: Mcma.Data.DocumentDatabaseTableOptions.TableName
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Data
+  commentId: N:Mcma.Data
+  name: Mcma.Data
+  nameWithType: Mcma.Data
+  fullName: Mcma.Data
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Aws.DynamoDb.DynamoDbTableOptions.ConsistentGet*
+  commentId: Overload:Mcma.Aws.DynamoDb.DynamoDbTableOptions.ConsistentGet
+  name: ConsistentGet
+  nameWithType: DynamoDbTableOptions.ConsistentGet
+  fullName: Mcma.Aws.DynamoDb.DynamoDbTableOptions.ConsistentGet
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullName.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.DynamoDb.DynamoDbTableOptions.ConsistentQuery*
+  commentId: Overload:Mcma.Aws.DynamoDb.DynamoDbTableOptions.ConsistentQuery
+  name: ConsistentQuery
+  nameWithType: DynamoDbTableOptions.ConsistentQuery
+  fullName: Mcma.Aws.DynamoDb.DynamoDbTableOptions.ConsistentQuery
+- uid: Mcma.Aws.DynamoDb.DynamoDbTableOptions.Credentials*
+  commentId: Overload:Mcma.Aws.DynamoDb.DynamoDbTableOptions.Credentials
+  name: Credentials
+  nameWithType: DynamoDbTableOptions.Credentials
+  fullName: Mcma.Aws.DynamoDb.DynamoDbTableOptions.Credentials
+- uid: Amazon.Runtime.AWSCredentials
+  commentId: T:Amazon.Runtime.AWSCredentials
+  parent: Amazon.Runtime
+  isExternal: true
+  name: AWSCredentials
+  nameWithType: AWSCredentials
+  fullName: Amazon.Runtime.AWSCredentials
+- uid: Amazon.Runtime
+  commentId: N:Amazon.Runtime
+  isExternal: true
+  name: Amazon.Runtime
+  nameWithType: Amazon.Runtime
+  fullName: Amazon.Runtime
+- uid: Mcma.Aws.DynamoDb.DynamoDbTableOptions.Config*
+  commentId: Overload:Mcma.Aws.DynamoDb.DynamoDbTableOptions.Config
+  name: Config
+  nameWithType: DynamoDbTableOptions.Config
+  fullName: Mcma.Aws.DynamoDb.DynamoDbTableOptions.Config
+- uid: Amazon.DynamoDBv2.AmazonDynamoDBConfig
+  commentId: T:Amazon.DynamoDBv2.AmazonDynamoDBConfig
+  parent: Amazon.DynamoDBv2
+  isExternal: true
+  name: AmazonDynamoDBConfig
+  nameWithType: AmazonDynamoDBConfig
+  fullName: Amazon.DynamoDBv2.AmazonDynamoDBConfig
+- uid: Amazon.DynamoDBv2
+  commentId: N:Amazon.DynamoDBv2
+  isExternal: true
+  name: Amazon.DynamoDBv2
+  nameWithType: Amazon.DynamoDBv2
+  fullName: Amazon.DynamoDBv2

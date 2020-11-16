@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-functions-api
+    name: "@mcma/azure-functions-api"
+    summary: ""
+    children:
+      - azure-functions-api.AzureFunctionApiController
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: azure-functions-api.AzureFunctionApiController
+    name: AzureFunctionApiController

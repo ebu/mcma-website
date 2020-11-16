@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.ApiGateway
+  commentId: N:Mcma.Aws.ApiGateway
+  id: Mcma.Aws.ApiGateway
+  children:
+  - Mcma.Aws.ApiGateway.ApiGatewayApiController
+  - Mcma.Aws.ApiGateway.ApiGatewayServiceCollectionExtensions
+  - Mcma.Aws.ApiGateway.IApiGatewayApiController
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Aws.ApiGateway
+  nameWithType: Mcma.Aws.ApiGateway
+  fullName: Mcma.Aws.ApiGateway
+  type: Namespace
+  assemblies:
+  - Mcma.Aws.ApiGateway
+references:
+- uid: Mcma.Aws.ApiGateway.ApiGatewayApiController
+  commentId: T:Mcma.Aws.ApiGateway.ApiGatewayApiController
+  name: ApiGatewayApiController
+  nameWithType: ApiGatewayApiController
+  fullName: Mcma.Aws.ApiGateway.ApiGatewayApiController
+- uid: Mcma.Aws.ApiGateway.ApiGatewayServiceCollectionExtensions
+  commentId: T:Mcma.Aws.ApiGateway.ApiGatewayServiceCollectionExtensions
+  name: ApiGatewayServiceCollectionExtensions
+  nameWithType: ApiGatewayServiceCollectionExtensions
+  fullName: Mcma.Aws.ApiGateway.ApiGatewayServiceCollectionExtensions
+- uid: Mcma.Aws.ApiGateway.IApiGatewayApiController
+  commentId: T:Mcma.Aws.ApiGateway.IApiGatewayApiController
+  parent: Mcma.Aws.ApiGateway
+  name: IApiGatewayApiController
+  nameWithType: IApiGatewayApiController
+  fullName: Mcma.Aws.ApiGateway.IApiGatewayApiController
+- uid: Mcma.Aws.ApiGateway
+  commentId: N:Mcma.Aws.ApiGateway
+  name: Mcma.Aws.ApiGateway
+  nameWithType: Mcma.Aws.ApiGateway
+  fullName: Mcma.Aws.ApiGateway

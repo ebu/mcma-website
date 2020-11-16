@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1
+  id: IDefaultDeleteRouteCompletedHandler`1
+  parent: Mcma.Api.Routing.Defaults.Routes
+  children:
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1.OnCompletedAsync(Mcma.Api.McmaApiRequestContext,`0)
+  langs:
+  - csharp
+  - vb
+  name: IDefaultDeleteRouteCompletedHandler<TResource>
+  nameWithType: IDefaultDeleteRouteCompletedHandler<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler<TResource>
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.Api/Routing/Defaults/Delete/IDefaultDeleteRouteCompletedHandler.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IDefaultDeleteRouteCompletedHandler
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Routing/Defaults/Delete/IDefaultDeleteRouteCompletedHandler.cs
+    startLine: 4
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api.Routing.Defaults.Routes
+  syntax:
+    content: >-
+      public interface IDefaultDeleteRouteCompletedHandler<in TResource>
+
+          where TResource : McmaResource
+    typeParameters:
+    - id: TResource
+    content.vb: Public Interface IDefaultDeleteRouteCompletedHandler(Of In TResource As McmaResource)
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  nameWithType.vb: IDefaultDeleteRouteCompletedHandler(Of TResource)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler(Of TResource)
+  name.vb: IDefaultDeleteRouteCompletedHandler(Of TResource)
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1.OnCompletedAsync(Mcma.Api.McmaApiRequestContext,`0)
+  commentId: M:Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1.OnCompletedAsync(Mcma.Api.McmaApiRequestContext,`0)
+  id: OnCompletedAsync(Mcma.Api.McmaApiRequestContext,`0)
+  parent: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1
+  langs:
+  - csharp
+  - vb
+  name: OnCompletedAsync(McmaApiRequestContext, TResource)
+  nameWithType: IDefaultDeleteRouteCompletedHandler<TResource>.OnCompletedAsync(McmaApiRequestContext, TResource)
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler<TResource>.OnCompletedAsync(Mcma.Api.McmaApiRequestContext, TResource)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Api/Routing/Defaults/Delete/IDefaultDeleteRouteCompletedHandler.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: OnCompletedAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Routing/Defaults/Delete/IDefaultDeleteRouteCompletedHandler.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api.Routing.Defaults.Routes
+  syntax:
+    content: Task OnCompletedAsync(McmaApiRequestContext requestContext, TResource createdResource)
+    parameters:
+    - id: requestContext
+      type: Mcma.Api.McmaApiRequestContext
+    - id: createdResource
+      type: '{TResource}'
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function OnCompletedAsync(requestContext As McmaApiRequestContext, createdResource As TResource) As Task
+  overload: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1.OnCompletedAsync*
+  nameWithType.vb: IDefaultDeleteRouteCompletedHandler(Of TResource).OnCompletedAsync(McmaApiRequestContext, TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler(Of TResource).OnCompletedAsync(Mcma.Api.McmaApiRequestContext, TResource)
+references:
+- uid: Mcma.Api.Routing.Defaults.Routes
+  commentId: N:Mcma.Api.Routing.Defaults.Routes
+  name: Mcma.Api.Routing.Defaults.Routes
+  nameWithType: Mcma.Api.Routing.Defaults.Routes
+  fullName: Mcma.Api.Routing.Defaults.Routes
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1.OnCompletedAsync*
+  commentId: Overload:Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1.OnCompletedAsync
+  name: OnCompletedAsync
+  nameWithType: IDefaultDeleteRouteCompletedHandler<TResource>.OnCompletedAsync
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler<TResource>.OnCompletedAsync
+  nameWithType.vb: IDefaultDeleteRouteCompletedHandler(Of TResource).OnCompletedAsync
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler(Of TResource).OnCompletedAsync
+- uid: Mcma.Api.McmaApiRequestContext
+  commentId: T:Mcma.Api.McmaApiRequestContext
+  parent: Mcma.Api
+  name: McmaApiRequestContext
+  nameWithType: McmaApiRequestContext
+  fullName: Mcma.Api.McmaApiRequestContext
+- uid: '{TResource}'
+  commentId: '!:TResource'
+  definition: TResource
+  name: TResource
+  nameWithType: TResource
+  fullName: TResource
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Mcma.Api
+  commentId: N:Mcma.Api
+  name: Mcma.Api
+  nameWithType: Mcma.Api
+  fullName: Mcma.Api
+- uid: TResource
+  name: TResource
+  nameWithType: TResource
+  fullName: TResource
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

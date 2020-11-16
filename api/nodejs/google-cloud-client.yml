@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-client
+    name: "@mcma/google-cloud-client"
+    summary: ""
+    children:
+      - google-cloud-client.googleAuth
+      - google-cloud-client.GoogleAuthenticator
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: google-cloud-client.googleAuth
+    name: googleAuth(GoogleAuthOptions)
+  - uid: google-cloud-client.GoogleAuthenticator
+    name: GoogleAuthenticator

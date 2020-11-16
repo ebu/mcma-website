@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-storage.CloudStorageFileLocatorProperties
+    name: CloudStorageFileLocatorProperties
+    fullName: CloudStorageFileLocatorProperties
+    children:
+      - google-cloud-storage.CloudStorageFileLocatorProperties.@type
+      - google-cloud-storage.CloudStorageFileLocatorProperties.bucket
+      - google-cloud-storage.CloudStorageFileLocatorProperties.filePath
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: google-cloud-storage.CloudStorageLocatorProperties
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFileLocatorProperties.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: '@type?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFileLocatorProperties.bucket
+    name: bucket
+    fullName: bucket
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bucket: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFileLocatorProperties.filePath
+    name: filePath
+    fullName: filePath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'filePath: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: google-cloud-storage
+references:
+  - uid: google-cloud-storage.CloudStorageLocatorProperties
+    name: CloudStorageLocatorProperties
+    spec.typeScript:
+      - name: CloudStorageLocatorProperties
+        fullName: CloudStorageLocatorProperties
+        uid: google-cloud-storage.CloudStorageLocatorProperties

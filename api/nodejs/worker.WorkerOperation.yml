@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: worker.WorkerOperation
+    name: WorkerOperation
+    fullName: WorkerOperation
+    children:
+      - worker.WorkerOperation.accepts
+      - worker.WorkerOperation.execute
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: worker
+  - uid: worker.WorkerOperation.accepts
+    name: accepts
+    fullName: accepts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'accepts: OperationFilter'
+      return:
+        type:
+          - worker.OperationFilter
+        description: ''
+    package: worker
+  - uid: worker.WorkerOperation.execute
+    name: execute
+    fullName: execute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'execute: OperationHandler'
+      return:
+        type:
+          - worker.OperationHandler
+        description: ''
+    package: worker
+references:
+  - uid: worker.OperationFilter
+    name: OperationFilter
+    spec.typeScript:
+      - name: OperationFilter
+        fullName: OperationFilter
+        uid: worker.OperationFilter
+  - uid: worker.OperationHandler
+    name: OperationHandler
+    spec.typeScript:
+      - name: OperationHandler
+        fullName: OperationHandler
+        uid: worker.OperationHandler

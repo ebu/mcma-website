@@ -1,0 +1,272 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Logging.ILoggerProvider
+  commentId: T:Mcma.Logging.ILoggerProvider
+  id: ILoggerProvider
+  parent: Mcma.Logging
+  children:
+  - Mcma.Logging.ILoggerProvider.FlushAsync
+  - Mcma.Logging.ILoggerProvider.Get(System.String,Mcma.McmaTracker)
+  langs:
+  - csharp
+  - vb
+  name: ILoggerProvider
+  nameWithType: ILoggerProvider
+  fullName: Mcma.Logging.ILoggerProvider
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILoggerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ILoggerProvider
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILoggerProvider.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nInterface for getting <xref href=\"Mcma.Logging.ILogger\" data-throw-if-not-resolved=\"false\"></xref> for logging in MCMA\n"
+  example: []
+  syntax:
+    content: public interface ILoggerProvider
+    content.vb: Public Interface ILoggerProvider
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Logging.ILoggerProvider.Get(System.String,Mcma.McmaTracker)
+  commentId: M:Mcma.Logging.ILoggerProvider.Get(System.String,Mcma.McmaTracker)
+  id: Get(System.String,Mcma.McmaTracker)
+  parent: Mcma.Logging.ILoggerProvider
+  langs:
+  - csharp
+  - vb
+  name: Get(String, McmaTracker)
+  nameWithType: ILoggerProvider.Get(String, McmaTracker)
+  fullName: Mcma.Logging.ILoggerProvider.Get(System.String, Mcma.McmaTracker)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILoggerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Get
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILoggerProvider.cs
+    startLine: 15
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nGets an <xref href=\"Mcma.Logging.ILogger\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: ILogger Get(string requestId = null, McmaTracker tracker = null)
+    parameters:
+    - id: requestId
+      type: System.String
+      description: The ID of the current request, if any. This is generally a unique ID provided by the platform on which the code is running.
+    - id: tracker
+      type: Mcma.McmaTracker
+      description: The tracker for the current MCMA operation, if any
+    return:
+      type: Mcma.Logging.ILogger
+      description: An <xref href="Mcma.Logging.ILogger" data-throw-if-not-resolved="false"></xref> for the current request and tracker
+    content.vb: Function Get(requestId As String = Nothing, tracker As McmaTracker = Nothing) As ILogger
+  overload: Mcma.Logging.ILoggerProvider.Get*
+- uid: Mcma.Logging.ILoggerProvider.FlushAsync
+  commentId: M:Mcma.Logging.ILoggerProvider.FlushAsync
+  id: FlushAsync
+  parent: Mcma.Logging.ILoggerProvider
+  langs:
+  - csharp
+  - vb
+  name: FlushAsync()
+  nameWithType: ILoggerProvider.FlushAsync()
+  fullName: Mcma.Logging.ILoggerProvider.FlushAsync()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/ILoggerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: FlushAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/ILoggerProvider.cs
+    startLine: 21
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nFlushes any buffering of logs that might be done on the client side. This may or may not be necessary for all loggers.\n"
+  example: []
+  syntax:
+    content: Task FlushAsync()
+    return:
+      type: System.Threading.Tasks.Task
+      description: A task that completes when all log messages have been flushed
+    content.vb: Function FlushAsync As Task
+  overload: Mcma.Logging.ILoggerProvider.FlushAsync*
+references:
+- uid: Mcma.Logging.ILogger
+  commentId: T:Mcma.Logging.ILogger
+  parent: Mcma.Logging
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Mcma.Logging.ILogger
+- uid: Mcma.Logging
+  commentId: N:Mcma.Logging
+  name: Mcma.Logging
+  nameWithType: Mcma.Logging
+  fullName: Mcma.Logging
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Logging.ILoggerProvider.Get*
+  commentId: Overload:Mcma.Logging.ILoggerProvider.Get
+  name: Get
+  nameWithType: ILoggerProvider.Get
+  fullName: Mcma.Logging.ILoggerProvider.Get
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.McmaTracker
+  commentId: T:Mcma.McmaTracker
+  parent: Mcma
+  name: McmaTracker
+  nameWithType: McmaTracker
+  fullName: Mcma.McmaTracker
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma
+  commentId: N:Mcma
+  name: Mcma
+  nameWithType: Mcma
+  fullName: Mcma
+- uid: Mcma.Logging.ILoggerProvider.FlushAsync*
+  commentId: Overload:Mcma.Logging.ILoggerProvider.FlushAsync
+  name: FlushAsync
+  nameWithType: ILoggerProvider.FlushAsync
+  fullName: Mcma.Logging.ILoggerProvider.FlushAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

@@ -1,0 +1,347 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.CosmosDb.ICosmosDbContainerProvider
+  commentId: T:Mcma.Azure.CosmosDb.ICosmosDbContainerProvider
+  id: ICosmosDbContainerProvider
+  parent: Mcma.Azure.CosmosDb
+  children:
+  - Mcma.Azure.CosmosDb.ICosmosDbContainerProvider.GetAsync
+  - Mcma.Azure.CosmosDb.ICosmosDbContainerProvider.GetPropertiesAsync
+  langs:
+  - csharp
+  - vb
+  name: ICosmosDbContainerProvider
+  nameWithType: ICosmosDbContainerProvider
+  fullName: Mcma.Azure.CosmosDb.ICosmosDbContainerProvider
+  type: Interface
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/ICosmosDbContainerPropertiesProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ICosmosDbContainerProvider
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/ICosmosDbContainerPropertiesProvider.cs
+    startLine: 5
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: public interface ICosmosDbContainerProvider
+    content.vb: Public Interface ICosmosDbContainerProvider
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Azure.CosmosDb.ICosmosDbContainerProvider.GetPropertiesAsync
+  commentId: M:Mcma.Azure.CosmosDb.ICosmosDbContainerProvider.GetPropertiesAsync
+  id: GetPropertiesAsync
+  parent: Mcma.Azure.CosmosDb.ICosmosDbContainerProvider
+  langs:
+  - csharp
+  - vb
+  name: GetPropertiesAsync()
+  nameWithType: ICosmosDbContainerProvider.GetPropertiesAsync()
+  fullName: Mcma.Azure.CosmosDb.ICosmosDbContainerProvider.GetPropertiesAsync()
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/ICosmosDbContainerPropertiesProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetPropertiesAsync
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/ICosmosDbContainerPropertiesProvider.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: Task<ContainerProperties> GetPropertiesAsync()
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Azure.Cosmos.ContainerProperties}
+    content.vb: Function GetPropertiesAsync As Task(Of ContainerProperties)
+  overload: Mcma.Azure.CosmosDb.ICosmosDbContainerProvider.GetPropertiesAsync*
+- uid: Mcma.Azure.CosmosDb.ICosmosDbContainerProvider.GetAsync
+  commentId: M:Mcma.Azure.CosmosDb.ICosmosDbContainerProvider.GetAsync
+  id: GetAsync
+  parent: Mcma.Azure.CosmosDb.ICosmosDbContainerProvider
+  langs:
+  - csharp
+  - vb
+  name: GetAsync()
+  nameWithType: ICosmosDbContainerProvider.GetAsync()
+  fullName: Mcma.Azure.CosmosDb.ICosmosDbContainerProvider.GetAsync()
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/ICosmosDbContainerPropertiesProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetAsync
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/ICosmosDbContainerPropertiesProvider.cs
+    startLine: 9
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: Task<Container> GetAsync()
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Azure.Cosmos.Container}
+    content.vb: Function GetAsync As Task(Of Container)
+  overload: Mcma.Azure.CosmosDb.ICosmosDbContainerProvider.GetAsync*
+references:
+- uid: Mcma.Azure.CosmosDb
+  commentId: N:Mcma.Azure.CosmosDb
+  name: Mcma.Azure.CosmosDb
+  nameWithType: Mcma.Azure.CosmosDb
+  fullName: Mcma.Azure.CosmosDb
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Azure.CosmosDb.ICosmosDbContainerProvider.GetPropertiesAsync*
+  commentId: Overload:Mcma.Azure.CosmosDb.ICosmosDbContainerProvider.GetPropertiesAsync
+  name: GetPropertiesAsync
+  nameWithType: ICosmosDbContainerProvider.GetPropertiesAsync
+  fullName: Mcma.Azure.CosmosDb.ICosmosDbContainerProvider.GetPropertiesAsync
+- uid: System.Threading.Tasks.Task{Microsoft.Azure.Cosmos.ContainerProperties}
+  commentId: T:System.Threading.Tasks.Task{Microsoft.Azure.Cosmos.ContainerProperties}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ContainerProperties>
+  nameWithType: Task<ContainerProperties>
+  fullName: System.Threading.Tasks.Task<Microsoft.Azure.Cosmos.ContainerProperties>
+  nameWithType.vb: Task(Of ContainerProperties)
+  fullName.vb: System.Threading.Tasks.Task(Of Microsoft.Azure.Cosmos.ContainerProperties)
+  name.vb: Task(Of ContainerProperties)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Cosmos.ContainerProperties
+    name: ContainerProperties
+    nameWithType: ContainerProperties
+    fullName: Microsoft.Azure.Cosmos.ContainerProperties
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Cosmos.ContainerProperties
+    name: ContainerProperties
+    nameWithType: ContainerProperties
+    fullName: Microsoft.Azure.Cosmos.ContainerProperties
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Mcma.Azure.CosmosDb.ICosmosDbContainerProvider.GetAsync*
+  commentId: Overload:Mcma.Azure.CosmosDb.ICosmosDbContainerProvider.GetAsync
+  name: GetAsync
+  nameWithType: ICosmosDbContainerProvider.GetAsync
+  fullName: Mcma.Azure.CosmosDb.ICosmosDbContainerProvider.GetAsync
+- uid: System.Threading.Tasks.Task{Microsoft.Azure.Cosmos.Container}
+  commentId: T:System.Threading.Tasks.Task{Microsoft.Azure.Cosmos.Container}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Container>
+  nameWithType: Task<Container>
+  fullName: System.Threading.Tasks.Task<Microsoft.Azure.Cosmos.Container>
+  nameWithType.vb: Task(Of Container)
+  fullName.vb: System.Threading.Tasks.Task(Of Microsoft.Azure.Cosmos.Container)
+  name.vb: Task(Of Container)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Cosmos.Container
+    name: Container
+    nameWithType: Container
+    fullName: Microsoft.Azure.Cosmos.Container
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Cosmos.Container
+    name: Container
+    nameWithType: Container
+    fullName: Microsoft.Azure.Cosmos.Container
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,105 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.McmaResourceProperties
+    name: McmaResourceProperties
+    fullName: McmaResourceProperties
+    children:
+      - core.McmaResourceProperties.@type
+      - core.McmaResourceProperties.custom
+      - core.McmaResourceProperties.dateCreated
+      - core.McmaResourceProperties.dateModified
+      - core.McmaResourceProperties.id
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: core.McmaObjectProperties
+    package: core
+  - uid: core.McmaResourceProperties.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: '@type?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.McmaResourceProperties.custom
+    name: custom
+    fullName: custom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'custom?: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: core
+  - uid: core.McmaResourceProperties.dateCreated
+    name: dateCreated
+    fullName: dateCreated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateCreated?: Date | string'
+      return:
+        type:
+          - Date | string
+        description: ''
+    package: core
+  - uid: core.McmaResourceProperties.dateModified
+    name: dateModified
+    fullName: dateModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateModified?: Date | string'
+      return:
+        type:
+          - Date | string
+        description: ''
+    package: core
+  - uid: core.McmaResourceProperties.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+references:
+  - uid: core.McmaObjectProperties
+    name: McmaObjectProperties
+    spec.typeScript:
+      - name: McmaObjectProperties
+        fullName: McmaObjectProperties
+        uid: core.McmaObjectProperties

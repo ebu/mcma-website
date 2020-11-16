@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: worker.OperationFilter
+    name: OperationFilter
+    fullName: OperationFilter
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type OperationFilter = (providers: ProviderCollection, request:
+        WorkerRequest, ctx?: any) => Promise<boolean>
+    package: worker

@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-blob-storage.getBlobClient_1
+    name: 'getBlobClient(ConfigVariables, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getBlobClient(configVariables: ConfigVariables,
+        storageAccountName: string)
+      parameters:
+        - id: configVariables
+          type:
+            - ConfigVariables
+          description: ''
+        - id: storageAccountName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - BlobServiceClient
+        description: ''
+    package: azure-blob-storage

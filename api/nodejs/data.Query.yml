@@ -1,0 +1,121 @@
+### YamlMime:UniversalReference
+items:
+  - uid: data.Query
+    name: Query
+    fullName: Query<TDocument>
+    children:
+      - data.Query.filterExpression
+      - data.Query.pageSize
+      - data.Query.pageStartToken
+      - data.Query.path
+      - data.Query.sortAscending
+      - data.Query.sortBy
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: data
+  - uid: data.Query.filterExpression
+    name: filterExpression
+    fullName: filterExpression
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'filterExpression?: FilterExpression<TDocument>'
+      return:
+        type:
+          - data.FilterExpression<TDocument>
+        description: ''
+    package: data
+  - uid: data.Query.pageSize
+    name: pageSize
+    fullName: pageSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'pageSize?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: data
+  - uid: data.Query.pageStartToken
+    name: pageStartToken
+    fullName: pageStartToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'pageStartToken?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: data
+  - uid: data.Query.path
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'path: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: data
+  - uid: data.Query.sortAscending
+    name: sortAscending
+    fullName: sortAscending
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'sortAscending?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: data
+  - uid: data.Query.sortBy
+    name: sortBy
+    fullName: sortBy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'sortBy?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: data
+references:
+  - uid: data.FilterExpression<TDocument>
+    name: FilterExpression<TDocument>
+    spec.typeScript:
+      - name: FilterExpression
+        fullName: FilterExpression
+        uid: data.FilterExpression
+      - name: <TDocument>
+        fullName: <TDocument>

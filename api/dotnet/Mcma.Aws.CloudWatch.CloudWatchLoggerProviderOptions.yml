@@ -1,0 +1,626 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions
+  commentId: T:Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions
+  id: CloudWatchLoggerProviderOptions
+  parent: Mcma.Aws.CloudWatch
+  children:
+  - Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.Config
+  - Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.Credentials
+  - Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.LogGroupName
+  langs:
+  - csharp
+  - vb
+  name: CloudWatchLoggerProviderOptions
+  nameWithType: CloudWatchLoggerProviderOptions
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions
+  type: Class
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Logger/CloudWatchLoggerProviderOptions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: CloudWatchLoggerProviderOptions
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Logger/CloudWatchLoggerProviderOptions.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Aws.Logger
+  namespace: Mcma.Aws.CloudWatch
+  syntax:
+    content: 'public class CloudWatchLoggerProviderOptions : LoggerProviderOptions'
+    content.vb: >-
+      Public Class CloudWatchLoggerProviderOptions
+
+          Inherits LoggerProviderOptions
+  inheritance:
+  - System.Object
+  - Mcma.Logging.LoggerProviderOptions
+  inheritedMembers:
+  - Mcma.Logging.LoggerProviderOptions.Source
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.LogGroupName
+  commentId: P:Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.LogGroupName
+  id: LogGroupName
+  parent: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions
+  langs:
+  - csharp
+  - vb
+  name: LogGroupName
+  nameWithType: CloudWatchLoggerProviderOptions.LogGroupName
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.LogGroupName
+  type: Property
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Logger/CloudWatchLoggerProviderOptions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: LogGroupName
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Logger/CloudWatchLoggerProviderOptions.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Aws.Logger
+  namespace: Mcma.Aws.CloudWatch
+  syntax:
+    content: public string LogGroupName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LogGroupName As String
+  overload: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.LogGroupName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.Credentials
+  commentId: P:Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.Credentials
+  id: Credentials
+  parent: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions
+  langs:
+  - csharp
+  - vb
+  name: Credentials
+  nameWithType: CloudWatchLoggerProviderOptions.Credentials
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.Credentials
+  type: Property
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Logger/CloudWatchLoggerProviderOptions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Credentials
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Logger/CloudWatchLoggerProviderOptions.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Aws.Logger
+  namespace: Mcma.Aws.CloudWatch
+  syntax:
+    content: public AWSCredentials Credentials { get; set; }
+    parameters: []
+    return:
+      type: Amazon.Runtime.AWSCredentials
+    content.vb: Public Property Credentials As AWSCredentials
+  overload: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.Credentials*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.Config
+  commentId: P:Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.Config
+  id: Config
+  parent: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions
+  langs:
+  - csharp
+  - vb
+  name: Config
+  nameWithType: CloudWatchLoggerProviderOptions.Config
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.Config
+  type: Property
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Logger/CloudWatchLoggerProviderOptions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Config
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Logger/CloudWatchLoggerProviderOptions.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Aws.Logger
+  namespace: Mcma.Aws.CloudWatch
+  syntax:
+    content: public AmazonCloudWatchLogsConfig Config { get; set; }
+    parameters: []
+    return:
+      type: Amazon.CloudWatchLogs.AmazonCloudWatchLogsConfig
+    content.vb: Public Property Config As AmazonCloudWatchLogsConfig
+  overload: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.Config*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Aws.CloudWatch
+  commentId: N:Mcma.Aws.CloudWatch
+  name: Mcma.Aws.CloudWatch
+  nameWithType: Mcma.Aws.CloudWatch
+  fullName: Mcma.Aws.CloudWatch
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Logging.LoggerProviderOptions
+  commentId: T:Mcma.Logging.LoggerProviderOptions
+  parent: Mcma.Logging
+  name: LoggerProviderOptions
+  nameWithType: LoggerProviderOptions
+  fullName: Mcma.Logging.LoggerProviderOptions
+- uid: Mcma.Logging.LoggerProviderOptions.Source
+  commentId: P:Mcma.Logging.LoggerProviderOptions.Source
+  parent: Mcma.Logging.LoggerProviderOptions
+  name: Source
+  nameWithType: LoggerProviderOptions.Source
+  fullName: Mcma.Logging.LoggerProviderOptions.Source
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Logging
+  commentId: N:Mcma.Logging
+  name: Mcma.Logging
+  nameWithType: Mcma.Logging
+  fullName: Mcma.Logging
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.LogGroupName*
+  commentId: Overload:Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.LogGroupName
+  name: LogGroupName
+  nameWithType: CloudWatchLoggerProviderOptions.LogGroupName
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.LogGroupName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.Credentials*
+  commentId: Overload:Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.Credentials
+  name: Credentials
+  nameWithType: CloudWatchLoggerProviderOptions.Credentials
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.Credentials
+- uid: Amazon.Runtime.AWSCredentials
+  commentId: T:Amazon.Runtime.AWSCredentials
+  parent: Amazon.Runtime
+  isExternal: true
+  name: AWSCredentials
+  nameWithType: AWSCredentials
+  fullName: Amazon.Runtime.AWSCredentials
+- uid: Amazon.Runtime
+  commentId: N:Amazon.Runtime
+  isExternal: true
+  name: Amazon.Runtime
+  nameWithType: Amazon.Runtime
+  fullName: Amazon.Runtime
+- uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.Config*
+  commentId: Overload:Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.Config
+  name: Config
+  nameWithType: CloudWatchLoggerProviderOptions.Config
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions.Config
+- uid: Amazon.CloudWatchLogs.AmazonCloudWatchLogsConfig
+  commentId: T:Amazon.CloudWatchLogs.AmazonCloudWatchLogsConfig
+  parent: Amazon.CloudWatchLogs
+  isExternal: true
+  name: AmazonCloudWatchLogsConfig
+  nameWithType: AmazonCloudWatchLogsConfig
+  fullName: Amazon.CloudWatchLogs.AmazonCloudWatchLogsConfig
+- uid: Amazon.CloudWatchLogs
+  commentId: N:Amazon.CloudWatchLogs
+  isExternal: true
+  name: Amazon.CloudWatchLogs
+  nameWithType: Amazon.CloudWatchLogs
+  fullName: Amazon.CloudWatchLogs

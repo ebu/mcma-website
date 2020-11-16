@@ -1,0 +1,227 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Data.IDocumentDatabaseMutex
+  commentId: T:Mcma.Data.IDocumentDatabaseMutex
+  id: IDocumentDatabaseMutex
+  parent: Mcma.Data
+  children:
+  - Mcma.Data.IDocumentDatabaseMutex.LockAsync
+  - Mcma.Data.IDocumentDatabaseMutex.UnlockAsync
+  langs:
+  - csharp
+  - vb
+  name: IDocumentDatabaseMutex
+  nameWithType: IDocumentDatabaseMutex
+  fullName: Mcma.Data.IDocumentDatabaseMutex
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/IDocumentDatabaseMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IDocumentDatabaseMutex
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/IDocumentDatabaseMutex.cs
+    startLine: 4
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data
+  syntax:
+    content: public interface IDocumentDatabaseMutex
+    content.vb: Public Interface IDocumentDatabaseMutex
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Data.IDocumentDatabaseMutex.LockAsync
+  commentId: M:Mcma.Data.IDocumentDatabaseMutex.LockAsync
+  id: LockAsync
+  parent: Mcma.Data.IDocumentDatabaseMutex
+  langs:
+  - csharp
+  - vb
+  name: LockAsync()
+  nameWithType: IDocumentDatabaseMutex.LockAsync()
+  fullName: Mcma.Data.IDocumentDatabaseMutex.LockAsync()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/IDocumentDatabaseMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: LockAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/IDocumentDatabaseMutex.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data
+  syntax:
+    content: Task LockAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function LockAsync As Task
+  overload: Mcma.Data.IDocumentDatabaseMutex.LockAsync*
+- uid: Mcma.Data.IDocumentDatabaseMutex.UnlockAsync
+  commentId: M:Mcma.Data.IDocumentDatabaseMutex.UnlockAsync
+  id: UnlockAsync
+  parent: Mcma.Data.IDocumentDatabaseMutex
+  langs:
+  - csharp
+  - vb
+  name: UnlockAsync()
+  nameWithType: IDocumentDatabaseMutex.UnlockAsync()
+  fullName: Mcma.Data.IDocumentDatabaseMutex.UnlockAsync()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/IDocumentDatabaseMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: UnlockAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/IDocumentDatabaseMutex.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data
+  syntax:
+    content: Task UnlockAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function UnlockAsync As Task
+  overload: Mcma.Data.IDocumentDatabaseMutex.UnlockAsync*
+references:
+- uid: Mcma.Data
+  commentId: N:Mcma.Data
+  name: Mcma.Data
+  nameWithType: Mcma.Data
+  fullName: Mcma.Data
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Data.IDocumentDatabaseMutex.LockAsync*
+  commentId: Overload:Mcma.Data.IDocumentDatabaseMutex.LockAsync
+  name: LockAsync
+  nameWithType: IDocumentDatabaseMutex.LockAsync
+  fullName: Mcma.Data.IDocumentDatabaseMutex.LockAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Mcma.Data.IDocumentDatabaseMutex.UnlockAsync*
+  commentId: Overload:Mcma.Data.IDocumentDatabaseMutex.UnlockAsync
+  name: UnlockAsync
+  nameWithType: IDocumentDatabaseMutex.UnlockAsync
+  fullName: Mcma.Data.IDocumentDatabaseMutex.UnlockAsync

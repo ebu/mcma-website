@@ -1,0 +1,264 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.Logger
+    name: Logger
+    fullName: Logger
+    children:
+      - core.Logger.debug
+      - core.Logger.error
+      - core.Logger.fatal
+      - core.Logger.functionEnd
+      - core.Logger.functionStart
+      - core.Logger.info
+      - core.Logger.jobEnd
+      - core.Logger.jobStart
+      - core.Logger.jobUpdate
+      - core.Logger.log
+      - core.Logger.System
+      - core.Logger.warn
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: core
+  - uid: core.Logger.debug
+    name: 'debug(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function debug(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.Logger.error
+    name: 'error(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function error(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.Logger.fatal
+    name: 'fatal(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fatal(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.Logger.functionEnd
+    name: 'functionEnd(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function functionEnd(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.Logger.functionStart
+    name: 'functionStart(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function functionStart(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.Logger.info
+    name: 'info(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function info(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.Logger.jobEnd
+    name: 'jobEnd(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function jobEnd(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.Logger.jobStart
+    name: 'jobStart(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function jobStart(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.Logger.jobUpdate
+    name: 'jobUpdate(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function jobUpdate(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.Logger.log
+    name: 'log(number, string, any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function log(level: number, type: string, message: any, optionalParams:
+        any[])
+      parameters:
+        - id: level
+          type:
+            - number
+          description: ''
+        - id: type
+          type:
+            - string
+          description: ''
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.Logger.System
+    name: System
+    fullName: System
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static System: Logger'
+      return:
+        type:
+          - core.Logger
+        description: ''
+    package: core
+  - uid: core.Logger.warn
+    name: 'warn(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function warn(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+references:
+  - uid: core.Logger
+    name: Logger
+    spec.typeScript:
+      - name: Logger
+        fullName: Logger
+        uid: core.Logger

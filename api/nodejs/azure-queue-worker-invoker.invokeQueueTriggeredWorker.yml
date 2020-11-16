@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-queue-worker-invoker.invokeQueueTriggeredWorker
+    name: 'invokeQueueTriggeredWorker(string, WorkerRequestProperties)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function invokeQueueTriggeredWorker(workerFunctionId: string,
+        workerRequest: WorkerRequestProperties)
+      parameters:
+        - id: workerFunctionId
+          type:
+            - string
+          description: ''
+        - id: workerRequest
+          type:
+            - WorkerRequestProperties
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: azure-queue-worker-invoker

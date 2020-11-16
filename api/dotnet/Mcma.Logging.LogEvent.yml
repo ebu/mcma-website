@@ -1,0 +1,1034 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Logging.LogEvent
+  commentId: T:Mcma.Logging.LogEvent
+  id: LogEvent
+  parent: Mcma.Logging
+  children:
+  - Mcma.Logging.LogEvent.#ctor(System.String,System.Int32,System.String,System.String,System.DateTimeOffset,System.String,System.Object[],Mcma.McmaTracker)
+  - Mcma.Logging.LogEvent.Args
+  - Mcma.Logging.LogEvent.Flatten
+  - Mcma.Logging.LogEvent.Level
+  - Mcma.Logging.LogEvent.Message
+  - Mcma.Logging.LogEvent.RequestId
+  - Mcma.Logging.LogEvent.Source
+  - Mcma.Logging.LogEvent.Timestamp
+  - Mcma.Logging.LogEvent.ToString
+  - Mcma.Logging.LogEvent.Tracker
+  - Mcma.Logging.LogEvent.Type
+  langs:
+  - csharp
+  - vb
+  name: LogEvent
+  nameWithType: LogEvent
+  fullName: Mcma.Logging.LogEvent
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogEvent.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: LogEvent
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogEvent.cs
+    startLine: 9
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nRepresents a event to be logged\n"
+  example: []
+  syntax:
+    content: public class LogEvent
+    content.vb: Public Class LogEvent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Logging.LogEvent.#ctor(System.String,System.Int32,System.String,System.String,System.DateTimeOffset,System.String,System.Object[],Mcma.McmaTracker)
+  commentId: M:Mcma.Logging.LogEvent.#ctor(System.String,System.Int32,System.String,System.String,System.DateTimeOffset,System.String,System.Object[],Mcma.McmaTracker)
+  id: '#ctor(System.String,System.Int32,System.String,System.String,System.DateTimeOffset,System.String,System.Object[],Mcma.McmaTracker)'
+  parent: Mcma.Logging.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: LogEvent(String, Int32, String, String, DateTimeOffset, String, Object[], McmaTracker)
+  nameWithType: LogEvent.LogEvent(String, Int32, String, String, DateTimeOffset, String, Object[], McmaTracker)
+  fullName: Mcma.Logging.LogEvent.LogEvent(System.String, System.Int32, System.String, System.String, System.DateTimeOffset, System.String, System.Object[], Mcma.McmaTracker)
+  type: Constructor
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogEvent.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogEvent.cs
+    startLine: 22
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nInstantiates a <xref href=\"Mcma.Logging.LogEvent\" data-throw-if-not-resolved=\"false\"></xref> with all required properties\n"
+  example: []
+  syntax:
+    content: public LogEvent(string type, int level, string source, string requestId, DateTimeOffset timestamp, string message, object[] args, McmaTracker tracker = null)
+    parameters:
+    - id: type
+      type: System.String
+      description: The type of log event (e.g. Debug, Info, Warn, etc). See <xref href="Mcma.Logging.LogType" data-throw-if-not-resolved="false"></xref> for a list of well-known types.
+    - id: level
+      type: System.Int32
+      description: The log level of the event. Higher numbers are less severe. See <xref href="Mcma.Logging.LogLevel" data-throw-if-not-resolved="false"></xref> for a list of well-known levels.
+    - id: source
+      type: System.String
+      description: The source from which this log event came
+    - id: requestId
+      type: System.String
+      description: ''
+    - id: timestamp
+      type: System.DateTimeOffset
+      description: ''
+    - id: message
+      type: System.String
+      description: ''
+    - id: args
+      type: System.Object[]
+      description: ''
+    - id: tracker
+      type: Mcma.McmaTracker
+      description: ''
+    content.vb: Public Sub New(type As String, level As Integer, source As String, requestId As String, timestamp As DateTimeOffset, message As String, args As Object(), tracker As McmaTracker = Nothing)
+  overload: Mcma.Logging.LogEvent.#ctor*
+  nameWithType.vb: LogEvent.LogEvent(String, Int32, String, String, DateTimeOffset, String, Object(), McmaTracker)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.LogEvent.LogEvent(System.String, System.Int32, System.String, System.String, System.DateTimeOffset, System.String, System.Object(), Mcma.McmaTracker)
+  name.vb: LogEvent(String, Int32, String, String, DateTimeOffset, String, Object(), McmaTracker)
+- uid: Mcma.Logging.LogEvent.Type
+  commentId: P:Mcma.Logging.LogEvent.Type
+  id: Type
+  parent: Mcma.Logging.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: LogEvent.Type
+  fullName: Mcma.Logging.LogEvent.Type
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogEvent.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Type
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogEvent.cs
+    startLine: 46
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nGets the type of log event. See <xref href=\"Mcma.Logging.LogType\" data-throw-if-not-resolved=\"false\"></xref> for a list of well-known types for all MCMA services.\n"
+  example: []
+  syntax:
+    content: public string Type { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Type As String
+  overload: Mcma.Logging.LogEvent.Type*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Mcma.Logging.LogEvent.Level
+  commentId: P:Mcma.Logging.LogEvent.Level
+  id: Level
+  parent: Mcma.Logging.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: Level
+  nameWithType: LogEvent.Level
+  fullName: Mcma.Logging.LogEvent.Level
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogEvent.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Level
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogEvent.cs
+    startLine: 51
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nGets the log level of the event. See <xref href=\"Mcma.Logging.LogLevel\" data-throw-if-not-resolved=\"false\"></xref> for a list of well-defined values for all MCMA services.\n"
+  example: []
+  syntax:
+    content: public int Level { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Level As Integer
+  overload: Mcma.Logging.LogEvent.Level*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Mcma.Logging.LogEvent.Source
+  commentId: P:Mcma.Logging.LogEvent.Source
+  id: Source
+  parent: Mcma.Logging.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: LogEvent.Source
+  fullName: Mcma.Logging.LogEvent.Source
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogEvent.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Source
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogEvent.cs
+    startLine: 56
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nGets the source from which this log event came\n"
+  example: []
+  syntax:
+    content: public string Source { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Source As String
+  overload: Mcma.Logging.LogEvent.Source*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Mcma.Logging.LogEvent.RequestId
+  commentId: P:Mcma.Logging.LogEvent.RequestId
+  id: RequestId
+  parent: Mcma.Logging.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: RequestId
+  nameWithType: LogEvent.RequestId
+  fullName: Mcma.Logging.LogEvent.RequestId
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogEvent.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: RequestId
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogEvent.cs
+    startLine: 61
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nGet the ID of the request being processed that generated this log event, if any\n"
+  example: []
+  syntax:
+    content: public string RequestId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property RequestId As String
+  overload: Mcma.Logging.LogEvent.RequestId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Mcma.Logging.LogEvent.Timestamp
+  commentId: P:Mcma.Logging.LogEvent.Timestamp
+  id: Timestamp
+  parent: Mcma.Logging.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: Timestamp
+  nameWithType: LogEvent.Timestamp
+  fullName: Mcma.Logging.LogEvent.Timestamp
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogEvent.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Timestamp
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogEvent.cs
+    startLine: 66
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nGets the date and time at which the log event occurred\n"
+  example: []
+  syntax:
+    content: public DateTimeOffset Timestamp { get; }
+    parameters: []
+    return:
+      type: System.DateTimeOffset
+    content.vb: Public ReadOnly Property Timestamp As DateTimeOffset
+  overload: Mcma.Logging.LogEvent.Timestamp*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Mcma.Logging.LogEvent.Message
+  commentId: P:Mcma.Logging.LogEvent.Message
+  id: Message
+  parent: Mcma.Logging.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: LogEvent.Message
+  fullName: Mcma.Logging.LogEvent.Message
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogEvent.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Message
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogEvent.cs
+    startLine: 71
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nGets the message to be logged\n"
+  example: []
+  syntax:
+    content: public string Message { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Message As String
+  overload: Mcma.Logging.LogEvent.Message*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Mcma.Logging.LogEvent.Args
+  commentId: P:Mcma.Logging.LogEvent.Args
+  id: Args
+  parent: Mcma.Logging.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: Args
+  nameWithType: LogEvent.Args
+  fullName: Mcma.Logging.LogEvent.Args
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogEvent.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Args
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogEvent.cs
+    startLine: 76
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nGets the args associated with the event\n"
+  example: []
+  syntax:
+    content: public object[] Args { get; }
+    parameters: []
+    return:
+      type: System.Object[]
+    content.vb: Public ReadOnly Property Args As Object()
+  overload: Mcma.Logging.LogEvent.Args*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Mcma.Logging.LogEvent.Tracker
+  commentId: P:Mcma.Logging.LogEvent.Tracker
+  id: Tracker
+  parent: Mcma.Logging.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: Tracker
+  nameWithType: LogEvent.Tracker
+  fullName: Mcma.Logging.LogEvent.Tracker
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogEvent.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Tracker
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogEvent.cs
+    startLine: 81
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nGets the tracker for the MCMA operation that generated this event, if any\n"
+  example: []
+  syntax:
+    content: public McmaTracker Tracker { get; }
+    parameters: []
+    return:
+      type: Mcma.McmaTracker
+    content.vb: Public ReadOnly Property Tracker As McmaTracker
+  overload: Mcma.Logging.LogEvent.Tracker*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Mcma.Logging.LogEvent.Flatten
+  commentId: M:Mcma.Logging.LogEvent.Flatten
+  id: Flatten
+  parent: Mcma.Logging.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: Flatten()
+  nameWithType: LogEvent.Flatten()
+  fullName: Mcma.Logging.LogEvent.Flatten()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogEvent.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Flatten
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogEvent.cs
+    startLine: 87
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nFlattens the log event by creating a simple key-value pair json object \n"
+  example: []
+  syntax:
+    content: public JObject Flatten()
+    return:
+      type: Newtonsoft.Json.Linq.JObject
+      description: ''
+    content.vb: Public Function Flatten As JObject
+  overload: Mcma.Logging.LogEvent.Flatten*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Logging.LogEvent.ToString
+  commentId: M:Mcma.Logging.LogEvent.ToString
+  id: ToString
+  parent: Mcma.Logging.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: LogEvent.ToString()
+  fullName: Mcma.Logging.LogEvent.ToString()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogEvent.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ToString
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogEvent.cs
+    startLine: 119
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nGets the string representation of the event by flattening it using <xref href=\"Mcma.Logging.LogEvent.Flatten\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Mcma.Logging.LogEvent.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Mcma.Logging
+  commentId: N:Mcma.Logging
+  name: Mcma.Logging
+  nameWithType: Mcma.Logging
+  fullName: Mcma.Logging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Logging.LogEvent
+  commentId: T:Mcma.Logging.LogEvent
+  parent: Mcma.Logging
+  name: LogEvent
+  nameWithType: LogEvent
+  fullName: Mcma.Logging.LogEvent
+- uid: Mcma.Logging.LogType
+  commentId: T:Mcma.Logging.LogType
+  name: LogType
+  nameWithType: LogType
+  fullName: Mcma.Logging.LogType
+- uid: Mcma.Logging.LogLevel
+  commentId: T:Mcma.Logging.LogLevel
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: Mcma.Logging.LogLevel
+- uid: Mcma.Logging.LogEvent.#ctor*
+  commentId: Overload:Mcma.Logging.LogEvent.#ctor
+  name: LogEvent
+  nameWithType: LogEvent.LogEvent
+  fullName: Mcma.Logging.LogEvent.LogEvent
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.DateTimeOffset
+  commentId: T:System.DateTimeOffset
+  parent: System
+  isExternal: true
+  name: DateTimeOffset
+  nameWithType: DateTimeOffset
+  fullName: System.DateTimeOffset
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Mcma.McmaTracker
+  commentId: T:Mcma.McmaTracker
+  parent: Mcma
+  name: McmaTracker
+  nameWithType: McmaTracker
+  fullName: Mcma.McmaTracker
+- uid: Mcma
+  commentId: N:Mcma
+  name: Mcma
+  nameWithType: Mcma
+  fullName: Mcma
+- uid: Mcma.Logging.LogEvent.Type*
+  commentId: Overload:Mcma.Logging.LogEvent.Type
+  name: Type
+  nameWithType: LogEvent.Type
+  fullName: Mcma.Logging.LogEvent.Type
+- uid: Mcma.Logging.LogEvent.Level*
+  commentId: Overload:Mcma.Logging.LogEvent.Level
+  name: Level
+  nameWithType: LogEvent.Level
+  fullName: Mcma.Logging.LogEvent.Level
+- uid: Mcma.Logging.LogEvent.Source*
+  commentId: Overload:Mcma.Logging.LogEvent.Source
+  name: Source
+  nameWithType: LogEvent.Source
+  fullName: Mcma.Logging.LogEvent.Source
+- uid: Mcma.Logging.LogEvent.RequestId*
+  commentId: Overload:Mcma.Logging.LogEvent.RequestId
+  name: RequestId
+  nameWithType: LogEvent.RequestId
+  fullName: Mcma.Logging.LogEvent.RequestId
+- uid: Mcma.Logging.LogEvent.Timestamp*
+  commentId: Overload:Mcma.Logging.LogEvent.Timestamp
+  name: Timestamp
+  nameWithType: LogEvent.Timestamp
+  fullName: Mcma.Logging.LogEvent.Timestamp
+- uid: Mcma.Logging.LogEvent.Message*
+  commentId: Overload:Mcma.Logging.LogEvent.Message
+  name: Message
+  nameWithType: LogEvent.Message
+  fullName: Mcma.Logging.LogEvent.Message
+- uid: Mcma.Logging.LogEvent.Args*
+  commentId: Overload:Mcma.Logging.LogEvent.Args
+  name: Args
+  nameWithType: LogEvent.Args
+  fullName: Mcma.Logging.LogEvent.Args
+- uid: Mcma.Logging.LogEvent.Tracker*
+  commentId: Overload:Mcma.Logging.LogEvent.Tracker
+  name: Tracker
+  nameWithType: LogEvent.Tracker
+  fullName: Mcma.Logging.LogEvent.Tracker
+- uid: Mcma.Logging.LogEvent.Flatten*
+  commentId: Overload:Mcma.Logging.LogEvent.Flatten
+  name: Flatten
+  nameWithType: LogEvent.Flatten
+  fullName: Mcma.Logging.LogEvent.Flatten
+- uid: Newtonsoft.Json.Linq.JObject
+  commentId: T:Newtonsoft.Json.Linq.JObject
+  parent: Newtonsoft.Json.Linq
+  isExternal: true
+  name: JObject
+  nameWithType: JObject
+  fullName: Newtonsoft.Json.Linq.JObject
+- uid: Newtonsoft.Json.Linq
+  commentId: N:Newtonsoft.Json.Linq
+  isExternal: true
+  name: Newtonsoft.Json.Linq
+  nameWithType: Newtonsoft.Json.Linq
+  fullName: Newtonsoft.Json.Linq
+- uid: Mcma.Logging.LogEvent.Flatten
+  commentId: M:Mcma.Logging.LogEvent.Flatten
+  isExternal: true
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.LogEvent.ToString*
+  commentId: Overload:Mcma.Logging.LogEvent.ToString
+  name: ToString
+  nameWithType: LogEvent.ToString
+  fullName: Mcma.Logging.LogEvent.ToString

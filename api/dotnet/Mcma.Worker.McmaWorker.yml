@@ -1,0 +1,699 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Worker.McmaWorker
+  commentId: T:Mcma.Worker.McmaWorker
+  id: McmaWorker
+  parent: Mcma.Worker
+  children:
+  - Mcma.Worker.McmaWorker.#ctor(Mcma.Logging.ILoggerProvider,System.Collections.Generic.IEnumerable{Mcma.Worker.IMcmaWorkerOperation})
+  - Mcma.Worker.McmaWorker.DoWorkAsync(Mcma.Worker.McmaWorkerRequestContext)
+  langs:
+  - csharp
+  - vb
+  name: McmaWorker
+  nameWithType: McmaWorker
+  fullName: Mcma.Worker.McmaWorker
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Worker/McmaWorker.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaWorker
+    path: ../mcma-libraries-dotnet/Base/Mcma.Worker/McmaWorker.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Worker
+  namespace: Mcma.Worker
+  syntax:
+    content: 'public class McmaWorker : IMcmaWorker'
+    content.vb: >-
+      Public Class McmaWorker
+
+          Implements IMcmaWorker
+  inheritance:
+  - System.Object
+  implements:
+  - Mcma.Worker.IMcmaWorker
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Worker.McmaWorker.#ctor(Mcma.Logging.ILoggerProvider,System.Collections.Generic.IEnumerable{Mcma.Worker.IMcmaWorkerOperation})
+  commentId: M:Mcma.Worker.McmaWorker.#ctor(Mcma.Logging.ILoggerProvider,System.Collections.Generic.IEnumerable{Mcma.Worker.IMcmaWorkerOperation})
+  id: '#ctor(Mcma.Logging.ILoggerProvider,System.Collections.Generic.IEnumerable{Mcma.Worker.IMcmaWorkerOperation})'
+  parent: Mcma.Worker.McmaWorker
+  langs:
+  - csharp
+  - vb
+  name: McmaWorker(ILoggerProvider, IEnumerable<IMcmaWorkerOperation>)
+  nameWithType: McmaWorker.McmaWorker(ILoggerProvider, IEnumerable<IMcmaWorkerOperation>)
+  fullName: Mcma.Worker.McmaWorker.McmaWorker(Mcma.Logging.ILoggerProvider, System.Collections.Generic.IEnumerable<Mcma.Worker.IMcmaWorkerOperation>)
+  type: Constructor
+  source:
+    remote:
+      path: Base/Mcma.Worker/McmaWorker.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Base/Mcma.Worker/McmaWorker.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Worker
+  namespace: Mcma.Worker
+  syntax:
+    content: public McmaWorker(ILoggerProvider loggerProvider, IEnumerable<IMcmaWorkerOperation> operations)
+    parameters:
+    - id: loggerProvider
+      type: Mcma.Logging.ILoggerProvider
+    - id: operations
+      type: System.Collections.Generic.IEnumerable{Mcma.Worker.IMcmaWorkerOperation}
+    content.vb: Public Sub New(loggerProvider As ILoggerProvider, operations As IEnumerable(Of IMcmaWorkerOperation))
+  overload: Mcma.Worker.McmaWorker.#ctor*
+  nameWithType.vb: McmaWorker.McmaWorker(ILoggerProvider, IEnumerable(Of IMcmaWorkerOperation))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Worker.McmaWorker.McmaWorker(Mcma.Logging.ILoggerProvider, System.Collections.Generic.IEnumerable(Of Mcma.Worker.IMcmaWorkerOperation))
+  name.vb: McmaWorker(ILoggerProvider, IEnumerable(Of IMcmaWorkerOperation))
+- uid: Mcma.Worker.McmaWorker.DoWorkAsync(Mcma.Worker.McmaWorkerRequestContext)
+  commentId: M:Mcma.Worker.McmaWorker.DoWorkAsync(Mcma.Worker.McmaWorkerRequestContext)
+  id: DoWorkAsync(Mcma.Worker.McmaWorkerRequestContext)
+  parent: Mcma.Worker.McmaWorker
+  langs:
+  - csharp
+  - vb
+  name: DoWorkAsync(McmaWorkerRequestContext)
+  nameWithType: McmaWorker.DoWorkAsync(McmaWorkerRequestContext)
+  fullName: Mcma.Worker.McmaWorker.DoWorkAsync(Mcma.Worker.McmaWorkerRequestContext)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Worker/McmaWorker.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: DoWorkAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Worker/McmaWorker.cs
+    startLine: 20
+  assemblies:
+  - Mcma.Worker
+  namespace: Mcma.Worker
+  syntax:
+    content: public Task DoWorkAsync(McmaWorkerRequestContext requestContext)
+    parameters:
+    - id: requestContext
+      type: Mcma.Worker.McmaWorkerRequestContext
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DoWorkAsync(requestContext As McmaWorkerRequestContext) As Task
+  overload: Mcma.Worker.McmaWorker.DoWorkAsync*
+  implements:
+  - Mcma.Worker.IMcmaWorker.DoWorkAsync(Mcma.Worker.McmaWorkerRequestContext)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Worker
+  commentId: N:Mcma.Worker
+  name: Mcma.Worker
+  nameWithType: Mcma.Worker
+  fullName: Mcma.Worker
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Worker.IMcmaWorker
+  commentId: T:Mcma.Worker.IMcmaWorker
+  parent: Mcma.Worker
+  name: IMcmaWorker
+  nameWithType: IMcmaWorker
+  fullName: Mcma.Worker.IMcmaWorker
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Worker.McmaWorker.#ctor*
+  commentId: Overload:Mcma.Worker.McmaWorker.#ctor
+  name: McmaWorker
+  nameWithType: McmaWorker.McmaWorker
+  fullName: Mcma.Worker.McmaWorker.McmaWorker
+- uid: Mcma.Logging.ILoggerProvider
+  commentId: T:Mcma.Logging.ILoggerProvider
+  parent: Mcma.Logging
+  name: ILoggerProvider
+  nameWithType: ILoggerProvider
+  fullName: Mcma.Logging.ILoggerProvider
+- uid: System.Collections.Generic.IEnumerable{Mcma.Worker.IMcmaWorkerOperation}
+  commentId: T:System.Collections.Generic.IEnumerable{Mcma.Worker.IMcmaWorkerOperation}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<IMcmaWorkerOperation>
+  nameWithType: IEnumerable<IMcmaWorkerOperation>
+  fullName: System.Collections.Generic.IEnumerable<Mcma.Worker.IMcmaWorkerOperation>
+  nameWithType.vb: IEnumerable(Of IMcmaWorkerOperation)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Mcma.Worker.IMcmaWorkerOperation)
+  name.vb: IEnumerable(Of IMcmaWorkerOperation)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Worker.IMcmaWorkerOperation
+    name: IMcmaWorkerOperation
+    nameWithType: IMcmaWorkerOperation
+    fullName: Mcma.Worker.IMcmaWorkerOperation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Worker.IMcmaWorkerOperation
+    name: IMcmaWorkerOperation
+    nameWithType: IMcmaWorkerOperation
+    fullName: Mcma.Worker.IMcmaWorkerOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging
+  commentId: N:Mcma.Logging
+  name: Mcma.Logging
+  nameWithType: Mcma.Logging
+  fullName: Mcma.Logging
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Mcma.Worker.McmaWorker.DoWorkAsync*
+  commentId: Overload:Mcma.Worker.McmaWorker.DoWorkAsync
+  name: DoWorkAsync
+  nameWithType: McmaWorker.DoWorkAsync
+  fullName: Mcma.Worker.McmaWorker.DoWorkAsync
+- uid: Mcma.Worker.IMcmaWorker.DoWorkAsync(Mcma.Worker.McmaWorkerRequestContext)
+  commentId: M:Mcma.Worker.IMcmaWorker.DoWorkAsync(Mcma.Worker.McmaWorkerRequestContext)
+  parent: Mcma.Worker.IMcmaWorker
+  name: DoWorkAsync(McmaWorkerRequestContext)
+  nameWithType: IMcmaWorker.DoWorkAsync(McmaWorkerRequestContext)
+  fullName: Mcma.Worker.IMcmaWorker.DoWorkAsync(Mcma.Worker.McmaWorkerRequestContext)
+  spec.csharp:
+  - uid: Mcma.Worker.IMcmaWorker.DoWorkAsync(Mcma.Worker.McmaWorkerRequestContext)
+    name: DoWorkAsync
+    nameWithType: IMcmaWorker.DoWorkAsync
+    fullName: Mcma.Worker.IMcmaWorker.DoWorkAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Worker.McmaWorkerRequestContext
+    name: McmaWorkerRequestContext
+    nameWithType: McmaWorkerRequestContext
+    fullName: Mcma.Worker.McmaWorkerRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Worker.IMcmaWorker.DoWorkAsync(Mcma.Worker.McmaWorkerRequestContext)
+    name: DoWorkAsync
+    nameWithType: IMcmaWorker.DoWorkAsync
+    fullName: Mcma.Worker.IMcmaWorker.DoWorkAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Worker.McmaWorkerRequestContext
+    name: McmaWorkerRequestContext
+    nameWithType: McmaWorkerRequestContext
+    fullName: Mcma.Worker.McmaWorkerRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Worker.McmaWorkerRequestContext
+  commentId: T:Mcma.Worker.McmaWorkerRequestContext
+  parent: Mcma.Worker
+  name: McmaWorkerRequestContext
+  nameWithType: McmaWorkerRequestContext
+  fullName: Mcma.Worker.McmaWorkerRequestContext
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

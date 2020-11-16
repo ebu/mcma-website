@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-pubsub-worker-invoker
+    name: "@mcma/google-cloud-pubsub-worker-invoker"
+    summary: ""
+    children:
+      - google-cloud-pubsub-worker-invoker.PubSubTriggeredWorkerInvoker
+      - google-cloud-pubsub-worker-invoker.invokePubSubTriggeredWorker
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: google-cloud-pubsub-worker-invoker.PubSubTriggeredWorkerInvoker
+    name: PubSubTriggeredWorkerInvoker
+  - uid: google-cloud-pubsub-worker-invoker.invokePubSubTriggeredWorker
+    name: invokePubSubTriggeredWorker(string, WorkerRequestProperties)

@@ -1,0 +1,1044 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Api.Routing.Defaults.Routes
+  commentId: N:Mcma.Api.Routing.Defaults.Routes
+  id: Mcma.Api.Routing.Defaults.Routes
+  children:
+  - Mcma.Api.Routing.Defaults.Routes.DefaultCreateRoute`1
+  - Mcma.Api.Routing.Defaults.Routes.DefaultCreateRouteBuilder`1
+  - Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1
+  - Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRouteBuilder`1
+  - Mcma.Api.Routing.Defaults.Routes.DefaultGetRoute`1
+  - Mcma.Api.Routing.Defaults.Routes.DefaultGetRouteBuilder`1
+  - Mcma.Api.Routing.Defaults.Routes.DefaultQueryRouteBuilder`1
+  - Mcma.Api.Routing.Defaults.Routes.DefaultRouteCollectionBuilder`1
+  - Mcma.Api.Routing.Defaults.Routes.DefaultRouteServiceCollectionExtensions
+  - Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRoute`1
+  - Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRouteBuilder`1
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRoute`1
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteCompletedHandler`1
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute`1
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler`1
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultGetRoute`1
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteCompletedHandler`1
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteStartedHandler`1
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRoute`1
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteCompletedHandler`1
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteStartedHandler`1
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor`1
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRoute`1
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteCompletedHandler`1
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteStartedHandler`1
+  - Mcma.Api.Routing.Defaults.Routes.McmaApiCustomQuery`2
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Api.Routing.Defaults.Routes
+  nameWithType: Mcma.Api.Routing.Defaults.Routes
+  fullName: Mcma.Api.Routing.Defaults.Routes
+  type: Namespace
+  assemblies:
+  - Mcma.Api
+references:
+- uid: Mcma.Api.Routing.Defaults.Routes.DefaultCreateRoute`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.DefaultCreateRoute`1
+  name: DefaultCreateRoute<TResource>
+  nameWithType: DefaultCreateRoute<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.DefaultCreateRoute<TResource>
+  nameWithType.vb: DefaultCreateRoute(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.DefaultCreateRoute(Of TResource)
+  name.vb: DefaultCreateRoute(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultCreateRoute`1
+    name: DefaultCreateRoute
+    nameWithType: DefaultCreateRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultCreateRoute
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultCreateRoute`1
+    name: DefaultCreateRoute
+    nameWithType: DefaultCreateRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultCreateRoute
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.DefaultCreateRouteBuilder`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.DefaultCreateRouteBuilder`1
+  parent: Mcma.Api.Routing.Defaults.Routes
+  name: DefaultCreateRouteBuilder<TResource>
+  nameWithType: DefaultCreateRouteBuilder<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.DefaultCreateRouteBuilder<TResource>
+  nameWithType.vb: DefaultCreateRouteBuilder(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.DefaultCreateRouteBuilder(Of TResource)
+  name.vb: DefaultCreateRouteBuilder(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultCreateRouteBuilder`1
+    name: DefaultCreateRouteBuilder
+    nameWithType: DefaultCreateRouteBuilder
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultCreateRouteBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultCreateRouteBuilder`1
+    name: DefaultCreateRouteBuilder
+    nameWithType: DefaultCreateRouteBuilder
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultCreateRouteBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRoute`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRoute`1
+  name: IDefaultCreateRoute<TResource>
+  nameWithType: IDefaultCreateRoute<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRoute<TResource>
+  nameWithType.vb: IDefaultCreateRoute(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRoute(Of TResource)
+  name.vb: IDefaultCreateRoute(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRoute`1
+    name: IDefaultCreateRoute
+    nameWithType: IDefaultCreateRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRoute
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRoute`1
+    name: IDefaultCreateRoute
+    nameWithType: IDefaultCreateRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRoute
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteCompletedHandler`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteCompletedHandler`1
+  name: IDefaultCreateRouteCompletedHandler<TResource>
+  nameWithType: IDefaultCreateRouteCompletedHandler<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteCompletedHandler<TResource>
+  nameWithType.vb: IDefaultCreateRouteCompletedHandler(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteCompletedHandler(Of TResource)
+  name.vb: IDefaultCreateRouteCompletedHandler(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteCompletedHandler`1
+    name: IDefaultCreateRouteCompletedHandler
+    nameWithType: IDefaultCreateRouteCompletedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteCompletedHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteCompletedHandler`1
+    name: IDefaultCreateRouteCompletedHandler
+    nameWithType: IDefaultCreateRouteCompletedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteCompletedHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1
+  name: IDefaultCreateRouteStartedHandler<TResource>
+  nameWithType: IDefaultCreateRouteStartedHandler<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler<TResource>
+  nameWithType.vb: IDefaultCreateRouteStartedHandler(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler(Of TResource)
+  name.vb: IDefaultCreateRouteStartedHandler(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1
+    name: IDefaultCreateRouteStartedHandler
+    nameWithType: IDefaultCreateRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1
+    name: IDefaultCreateRouteStartedHandler
+    nameWithType: IDefaultCreateRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.DefaultRouteCollectionBuilder`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.DefaultRouteCollectionBuilder`1
+  name: DefaultRouteCollectionBuilder<TResource>
+  nameWithType: DefaultRouteCollectionBuilder<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.DefaultRouteCollectionBuilder<TResource>
+  nameWithType.vb: DefaultRouteCollectionBuilder(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.DefaultRouteCollectionBuilder(Of TResource)
+  name.vb: DefaultRouteCollectionBuilder(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultRouteCollectionBuilder`1
+    name: DefaultRouteCollectionBuilder
+    nameWithType: DefaultRouteCollectionBuilder
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultRouteCollectionBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultRouteCollectionBuilder`1
+    name: DefaultRouteCollectionBuilder
+    nameWithType: DefaultRouteCollectionBuilder
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultRouteCollectionBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.DefaultRouteServiceCollectionExtensions
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.DefaultRouteServiceCollectionExtensions
+  parent: Mcma.Api.Routing.Defaults.Routes
+  name: DefaultRouteServiceCollectionExtensions
+  nameWithType: DefaultRouteServiceCollectionExtensions
+  fullName: Mcma.Api.Routing.Defaults.Routes.DefaultRouteServiceCollectionExtensions
+- uid: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1
+  name: DefaultDeleteRoute<TResource>
+  nameWithType: DefaultDeleteRoute<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute<TResource>
+  nameWithType.vb: DefaultDeleteRoute(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute(Of TResource)
+  name.vb: DefaultDeleteRoute(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1
+    name: DefaultDeleteRoute
+    nameWithType: DefaultDeleteRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1
+    name: DefaultDeleteRoute
+    nameWithType: DefaultDeleteRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRouteBuilder`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRouteBuilder`1
+  parent: Mcma.Api.Routing.Defaults.Routes
+  name: DefaultDeleteRouteBuilder<TResource>
+  nameWithType: DefaultDeleteRouteBuilder<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRouteBuilder<TResource>
+  nameWithType.vb: DefaultDeleteRouteBuilder(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRouteBuilder(Of TResource)
+  name.vb: DefaultDeleteRouteBuilder(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRouteBuilder`1
+    name: DefaultDeleteRouteBuilder
+    nameWithType: DefaultDeleteRouteBuilder
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRouteBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRouteBuilder`1
+    name: DefaultDeleteRouteBuilder
+    nameWithType: DefaultDeleteRouteBuilder
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRouteBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute`1
+  name: IDefaultDeleteRoute<TResource>
+  nameWithType: IDefaultDeleteRoute<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute<TResource>
+  nameWithType.vb: IDefaultDeleteRoute(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute(Of TResource)
+  name.vb: IDefaultDeleteRoute(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute`1
+    name: IDefaultDeleteRoute
+    nameWithType: IDefaultDeleteRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute`1
+    name: IDefaultDeleteRoute
+    nameWithType: IDefaultDeleteRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1
+  name: IDefaultDeleteRouteCompletedHandler<TResource>
+  nameWithType: IDefaultDeleteRouteCompletedHandler<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler<TResource>
+  nameWithType.vb: IDefaultDeleteRouteCompletedHandler(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler(Of TResource)
+  name.vb: IDefaultDeleteRouteCompletedHandler(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1
+    name: IDefaultDeleteRouteCompletedHandler
+    nameWithType: IDefaultDeleteRouteCompletedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1
+    name: IDefaultDeleteRouteCompletedHandler
+    nameWithType: IDefaultDeleteRouteCompletedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler`1
+  name: IDefaultDeleteRouteStartedHandler<TResource>
+  nameWithType: IDefaultDeleteRouteStartedHandler<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler<TResource>
+  nameWithType.vb: IDefaultDeleteRouteStartedHandler(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler(Of TResource)
+  name.vb: IDefaultDeleteRouteStartedHandler(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler`1
+    name: IDefaultDeleteRouteStartedHandler
+    nameWithType: IDefaultDeleteRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler`1
+    name: IDefaultDeleteRouteStartedHandler
+    nameWithType: IDefaultDeleteRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.DefaultGetRoute`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.DefaultGetRoute`1
+  name: DefaultGetRoute<TResource>
+  nameWithType: DefaultGetRoute<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.DefaultGetRoute<TResource>
+  nameWithType.vb: DefaultGetRoute(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.DefaultGetRoute(Of TResource)
+  name.vb: DefaultGetRoute(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultGetRoute`1
+    name: DefaultGetRoute
+    nameWithType: DefaultGetRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultGetRoute
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultGetRoute`1
+    name: DefaultGetRoute
+    nameWithType: DefaultGetRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultGetRoute
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.DefaultGetRouteBuilder`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.DefaultGetRouteBuilder`1
+  parent: Mcma.Api.Routing.Defaults.Routes
+  name: DefaultGetRouteBuilder<TResource>
+  nameWithType: DefaultGetRouteBuilder<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.DefaultGetRouteBuilder<TResource>
+  nameWithType.vb: DefaultGetRouteBuilder(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.DefaultGetRouteBuilder(Of TResource)
+  name.vb: DefaultGetRouteBuilder(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultGetRouteBuilder`1
+    name: DefaultGetRouteBuilder
+    nameWithType: DefaultGetRouteBuilder
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultGetRouteBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultGetRouteBuilder`1
+    name: DefaultGetRouteBuilder
+    nameWithType: DefaultGetRouteBuilder
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultGetRouteBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRoute`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultGetRoute`1
+  name: IDefaultGetRoute<TResource>
+  nameWithType: IDefaultGetRoute<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRoute<TResource>
+  nameWithType.vb: IDefaultGetRoute(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRoute(Of TResource)
+  name.vb: IDefaultGetRoute(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRoute`1
+    name: IDefaultGetRoute
+    nameWithType: IDefaultGetRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRoute
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRoute`1
+    name: IDefaultGetRoute
+    nameWithType: IDefaultGetRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRoute
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteCompletedHandler`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteCompletedHandler`1
+  name: IDefaultGetRouteCompletedHandler<TResource>
+  nameWithType: IDefaultGetRouteCompletedHandler<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteCompletedHandler<TResource>
+  nameWithType.vb: IDefaultGetRouteCompletedHandler(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteCompletedHandler(Of TResource)
+  name.vb: IDefaultGetRouteCompletedHandler(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteCompletedHandler`1
+    name: IDefaultGetRouteCompletedHandler
+    nameWithType: IDefaultGetRouteCompletedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteCompletedHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteCompletedHandler`1
+    name: IDefaultGetRouteCompletedHandler
+    nameWithType: IDefaultGetRouteCompletedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteCompletedHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteStartedHandler`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteStartedHandler`1
+  name: IDefaultGetRouteStartedHandler<TResource>
+  nameWithType: IDefaultGetRouteStartedHandler<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteStartedHandler<TResource>
+  nameWithType.vb: IDefaultGetRouteStartedHandler(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteStartedHandler(Of TResource)
+  name.vb: IDefaultGetRouteStartedHandler(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteStartedHandler`1
+    name: IDefaultGetRouteStartedHandler
+    nameWithType: IDefaultGetRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteStartedHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteStartedHandler`1
+    name: IDefaultGetRouteStartedHandler
+    nameWithType: IDefaultGetRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteStartedHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.DefaultQueryRouteBuilder`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.DefaultQueryRouteBuilder`1
+  parent: Mcma.Api.Routing.Defaults.Routes
+  name: DefaultQueryRouteBuilder<TResource>
+  nameWithType: DefaultQueryRouteBuilder<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.DefaultQueryRouteBuilder<TResource>
+  nameWithType.vb: DefaultQueryRouteBuilder(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.DefaultQueryRouteBuilder(Of TResource)
+  name.vb: DefaultQueryRouteBuilder(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultQueryRouteBuilder`1
+    name: DefaultQueryRouteBuilder
+    nameWithType: DefaultQueryRouteBuilder
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultQueryRouteBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultQueryRouteBuilder`1
+    name: DefaultQueryRouteBuilder
+    nameWithType: DefaultQueryRouteBuilder
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultQueryRouteBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRoute`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRoute`1
+  name: IDefaultQueryRoute<TResource>
+  nameWithType: IDefaultQueryRoute<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRoute<TResource>
+  nameWithType.vb: IDefaultQueryRoute(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRoute(Of TResource)
+  name.vb: IDefaultQueryRoute(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRoute`1
+    name: IDefaultQueryRoute
+    nameWithType: IDefaultQueryRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRoute
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRoute`1
+    name: IDefaultQueryRoute
+    nameWithType: IDefaultQueryRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRoute
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteCompletedHandler`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteCompletedHandler`1
+  name: IDefaultQueryRouteCompletedHandler<TResource>
+  nameWithType: IDefaultQueryRouteCompletedHandler<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteCompletedHandler<TResource>
+  nameWithType.vb: IDefaultQueryRouteCompletedHandler(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteCompletedHandler(Of TResource)
+  name.vb: IDefaultQueryRouteCompletedHandler(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteCompletedHandler`1
+    name: IDefaultQueryRouteCompletedHandler
+    nameWithType: IDefaultQueryRouteCompletedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteCompletedHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteCompletedHandler`1
+    name: IDefaultQueryRouteCompletedHandler
+    nameWithType: IDefaultQueryRouteCompletedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteCompletedHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteStartedHandler`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteStartedHandler`1
+  name: IDefaultQueryRouteStartedHandler<TResource>
+  nameWithType: IDefaultQueryRouteStartedHandler<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteStartedHandler<TResource>
+  nameWithType.vb: IDefaultQueryRouteStartedHandler(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteStartedHandler(Of TResource)
+  name.vb: IDefaultQueryRouteStartedHandler(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteStartedHandler`1
+    name: IDefaultQueryRouteStartedHandler
+    nameWithType: IDefaultQueryRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteStartedHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteStartedHandler`1
+    name: IDefaultQueryRouteStartedHandler
+    nameWithType: IDefaultQueryRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteStartedHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor`1
+  name: IDefaultRouteQueryExecutor<TResource>
+  nameWithType: IDefaultRouteQueryExecutor<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor<TResource>
+  nameWithType.vb: IDefaultRouteQueryExecutor(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor(Of TResource)
+  name.vb: IDefaultRouteQueryExecutor(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor`1
+    name: IDefaultRouteQueryExecutor
+    nameWithType: IDefaultRouteQueryExecutor
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor`1
+    name: IDefaultRouteQueryExecutor
+    nameWithType: IDefaultRouteQueryExecutor
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.McmaApiCustomQuery`2
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.McmaApiCustomQuery`2
+  name: McmaApiCustomQuery<TResource, TParameters>
+  nameWithType: McmaApiCustomQuery<TResource, TParameters>
+  fullName: Mcma.Api.Routing.Defaults.Routes.McmaApiCustomQuery<TResource, TParameters>
+  nameWithType.vb: McmaApiCustomQuery(Of TResource, TParameters)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.McmaApiCustomQuery(Of TResource, TParameters)
+  name.vb: McmaApiCustomQuery(Of TResource, TParameters)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.McmaApiCustomQuery`2
+    name: McmaApiCustomQuery
+    nameWithType: McmaApiCustomQuery
+    fullName: Mcma.Api.Routing.Defaults.Routes.McmaApiCustomQuery
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.McmaApiCustomQuery`2
+    name: McmaApiCustomQuery
+    nameWithType: McmaApiCustomQuery
+    fullName: Mcma.Api.Routing.Defaults.Routes.McmaApiCustomQuery
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRoute`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRoute`1
+  name: DefaultUpdateRoute<TResource>
+  nameWithType: DefaultUpdateRoute<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRoute<TResource>
+  nameWithType.vb: DefaultUpdateRoute(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRoute(Of TResource)
+  name.vb: DefaultUpdateRoute(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRoute`1
+    name: DefaultUpdateRoute
+    nameWithType: DefaultUpdateRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRoute
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRoute`1
+    name: DefaultUpdateRoute
+    nameWithType: DefaultUpdateRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRoute
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRouteBuilder`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRouteBuilder`1
+  parent: Mcma.Api.Routing.Defaults.Routes
+  name: DefaultUpdateRouteBuilder<TResource>
+  nameWithType: DefaultUpdateRouteBuilder<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRouteBuilder<TResource>
+  nameWithType.vb: DefaultUpdateRouteBuilder(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRouteBuilder(Of TResource)
+  name.vb: DefaultUpdateRouteBuilder(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRouteBuilder`1
+    name: DefaultUpdateRouteBuilder
+    nameWithType: DefaultUpdateRouteBuilder
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRouteBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRouteBuilder`1
+    name: DefaultUpdateRouteBuilder
+    nameWithType: DefaultUpdateRouteBuilder
+    fullName: Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRouteBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRoute`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRoute`1
+  name: IDefaultUpdateRoute<TResource>
+  nameWithType: IDefaultUpdateRoute<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRoute<TResource>
+  nameWithType.vb: IDefaultUpdateRoute(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRoute(Of TResource)
+  name.vb: IDefaultUpdateRoute(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRoute`1
+    name: IDefaultUpdateRoute
+    nameWithType: IDefaultUpdateRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRoute
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRoute`1
+    name: IDefaultUpdateRoute
+    nameWithType: IDefaultUpdateRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRoute
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteCompletedHandler`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteCompletedHandler`1
+  name: IDefaultUpdateRouteCompletedHandler<TResource>
+  nameWithType: IDefaultUpdateRouteCompletedHandler<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteCompletedHandler<TResource>
+  nameWithType.vb: IDefaultUpdateRouteCompletedHandler(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteCompletedHandler(Of TResource)
+  name.vb: IDefaultUpdateRouteCompletedHandler(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteCompletedHandler`1
+    name: IDefaultUpdateRouteCompletedHandler
+    nameWithType: IDefaultUpdateRouteCompletedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteCompletedHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteCompletedHandler`1
+    name: IDefaultUpdateRouteCompletedHandler
+    nameWithType: IDefaultUpdateRouteCompletedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteCompletedHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteStartedHandler`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteStartedHandler`1
+  name: IDefaultUpdateRouteStartedHandler<TResource>
+  nameWithType: IDefaultUpdateRouteStartedHandler<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteStartedHandler<TResource>
+  nameWithType.vb: IDefaultUpdateRouteStartedHandler(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteStartedHandler(Of TResource)
+  name.vb: IDefaultUpdateRouteStartedHandler(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteStartedHandler`1
+    name: IDefaultUpdateRouteStartedHandler
+    nameWithType: IDefaultUpdateRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteStartedHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteStartedHandler`1
+    name: IDefaultUpdateRouteStartedHandler
+    nameWithType: IDefaultUpdateRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteStartedHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes
+  commentId: N:Mcma.Api.Routing.Defaults.Routes
+  name: Mcma.Api.Routing.Defaults.Routes
+  nameWithType: Mcma.Api.Routing.Defaults.Routes
+  fullName: Mcma.Api.Routing.Defaults.Routes

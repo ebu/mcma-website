@@ -1,0 +1,600 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+  commentId: T:Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+  id: McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+  parent: Mcma.Aws.Functions.ApiHandler
+  children:
+  - Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.Action{Mcma.Api.McmaApiBuilder},System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder})
+  - Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionJobAssignmentApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String,System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder},System.Action{Mcma.Api.McmaApiBuilder})
+  langs:
+  - csharp
+  - vb
+  name: McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+  nameWithType: McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+  type: Class
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Functions.ApiHandler/McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Functions.ApiHandler/McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.cs
+    startLine: 12
+  assemblies:
+  - Mcma.GoogleCloud.Functions.ApiHandler
+  namespace: Mcma.Aws.Functions.ApiHandler
+  syntax:
+    content: public static class McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+    content.vb: Public Module McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.Action{Mcma.Api.McmaApiBuilder},System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder})
+  commentId: M:Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.Action{Mcma.Api.McmaApiBuilder},System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder})
+  id: AddMcmaGoogleCloudFunctionApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.Action{Mcma.Api.McmaApiBuilder},System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder})
+  isExtensionMethod: true
+  parent: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddMcmaGoogleCloudFunctionApiHandler(IServiceCollection, String, Action<McmaApiBuilder>, Action<FirestoreTableBuilder>)
+  nameWithType: McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionApiHandler(IServiceCollection, String, Action<McmaApiBuilder>, Action<FirestoreTableBuilder>)
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.String, System.Action<Mcma.Api.McmaApiBuilder>, System.Action<Mcma.GoogleCloud.Firestore.FirestoreTableBuilder>)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Functions.ApiHandler/McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AddMcmaGoogleCloudFunctionApiHandler
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Functions.ApiHandler/McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.cs
+    startLine: 16
+  assemblies:
+  - Mcma.GoogleCloud.Functions.ApiHandler
+  namespace: Mcma.Aws.Functions.ApiHandler
+  syntax:
+    content: public static IServiceCollection AddMcmaGoogleCloudFunctionApiHandler(this IServiceCollection services, string applicationName, Action<McmaApiBuilder> buildApi, Action<FirestoreTableBuilder> buildFirestore = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: applicationName
+      type: System.String
+    - id: buildApi
+      type: System.Action{Mcma.Api.McmaApiBuilder}
+    - id: buildFirestore
+      type: System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddMcmaGoogleCloudFunctionApiHandler(services As IServiceCollection, applicationName As String, buildApi As Action(Of McmaApiBuilder), buildFirestore As Action(Of FirestoreTableBuilder) = Nothing) As IServiceCollection
+  overload: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionApiHandler*
+  nameWithType.vb: McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionApiHandler(IServiceCollection, String, Action(Of McmaApiBuilder), Action(Of FirestoreTableBuilder))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.String, System.Action(Of Mcma.Api.McmaApiBuilder), System.Action(Of Mcma.GoogleCloud.Firestore.FirestoreTableBuilder))
+  name.vb: AddMcmaGoogleCloudFunctionApiHandler(IServiceCollection, String, Action(Of McmaApiBuilder), Action(Of FirestoreTableBuilder))
+- uid: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionJobAssignmentApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String,System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder},System.Action{Mcma.Api.McmaApiBuilder})
+  commentId: M:Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionJobAssignmentApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String,System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder},System.Action{Mcma.Api.McmaApiBuilder})
+  id: AddMcmaGoogleCloudFunctionJobAssignmentApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String,System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder},System.Action{Mcma.Api.McmaApiBuilder})
+  isExtensionMethod: true
+  parent: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddMcmaGoogleCloudFunctionJobAssignmentApiHandler(IServiceCollection, String, String, Action<FirestoreTableBuilder>, Action<McmaApiBuilder>)
+  nameWithType: McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionJobAssignmentApiHandler(IServiceCollection, String, String, Action<FirestoreTableBuilder>, Action<McmaApiBuilder>)
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionJobAssignmentApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.String, System.String, System.Action<Mcma.GoogleCloud.Firestore.FirestoreTableBuilder>, System.Action<Mcma.Api.McmaApiBuilder>)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Functions.ApiHandler/McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AddMcmaGoogleCloudFunctionJobAssignmentApiHandler
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Functions.ApiHandler/McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.cs
+    startLine: 24
+  assemblies:
+  - Mcma.GoogleCloud.Functions.ApiHandler
+  namespace: Mcma.Aws.Functions.ApiHandler
+  syntax:
+    content: public static IServiceCollection AddMcmaGoogleCloudFunctionJobAssignmentApiHandler(this IServiceCollection services, string applicationName, string workerPubSubTopic = null, Action<FirestoreTableBuilder> buildFirestore = null, Action<McmaApiBuilder> buildApi = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: applicationName
+      type: System.String
+    - id: workerPubSubTopic
+      type: System.String
+    - id: buildFirestore
+      type: System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder}
+    - id: buildApi
+      type: System.Action{Mcma.Api.McmaApiBuilder}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddMcmaGoogleCloudFunctionJobAssignmentApiHandler(services As IServiceCollection, applicationName As String, workerPubSubTopic As String = Nothing, buildFirestore As Action(Of FirestoreTableBuilder) = Nothing, buildApi As Action(Of McmaApiBuilder) = Nothing) As IServiceCollection
+  overload: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionJobAssignmentApiHandler*
+  nameWithType.vb: McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionJobAssignmentApiHandler(IServiceCollection, String, String, Action(Of FirestoreTableBuilder), Action(Of McmaApiBuilder))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionJobAssignmentApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.String, System.String, System.Action(Of Mcma.GoogleCloud.Firestore.FirestoreTableBuilder), System.Action(Of Mcma.Api.McmaApiBuilder))
+  name.vb: AddMcmaGoogleCloudFunctionJobAssignmentApiHandler(IServiceCollection, String, String, Action(Of FirestoreTableBuilder), Action(Of McmaApiBuilder))
+references:
+- uid: Mcma.Aws.Functions.ApiHandler
+  commentId: N:Mcma.Aws.Functions.ApiHandler
+  name: Mcma.Aws.Functions.ApiHandler
+  nameWithType: Mcma.Aws.Functions.ApiHandler
+  fullName: Mcma.Aws.Functions.ApiHandler
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionApiHandler*
+  commentId: Overload:Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionApiHandler
+  name: AddMcmaGoogleCloudFunctionApiHandler
+  nameWithType: McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionApiHandler
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionApiHandler
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Action{Mcma.Api.McmaApiBuilder}
+  commentId: T:System.Action{Mcma.Api.McmaApiBuilder}
+  parent: System
+  definition: System.Action`1
+  name: Action<McmaApiBuilder>
+  nameWithType: Action<McmaApiBuilder>
+  fullName: System.Action<Mcma.Api.McmaApiBuilder>
+  nameWithType.vb: Action(Of McmaApiBuilder)
+  fullName.vb: System.Action(Of Mcma.Api.McmaApiBuilder)
+  name.vb: Action(Of McmaApiBuilder)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Api.McmaApiBuilder
+    name: McmaApiBuilder
+    nameWithType: McmaApiBuilder
+    fullName: Mcma.Api.McmaApiBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Api.McmaApiBuilder
+    name: McmaApiBuilder
+    nameWithType: McmaApiBuilder
+    fullName: Mcma.Api.McmaApiBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder}
+  commentId: T:System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder}
+  parent: System
+  definition: System.Action`1
+  name: Action<FirestoreTableBuilder>
+  nameWithType: Action<FirestoreTableBuilder>
+  fullName: System.Action<Mcma.GoogleCloud.Firestore.FirestoreTableBuilder>
+  nameWithType.vb: Action(Of FirestoreTableBuilder)
+  fullName.vb: System.Action(Of Mcma.GoogleCloud.Firestore.FirestoreTableBuilder)
+  name.vb: Action(Of FirestoreTableBuilder)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.GoogleCloud.Firestore.FirestoreTableBuilder
+    name: FirestoreTableBuilder
+    nameWithType: FirestoreTableBuilder
+    fullName: Mcma.GoogleCloud.Firestore.FirestoreTableBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.GoogleCloud.Firestore.FirestoreTableBuilder
+    name: FirestoreTableBuilder
+    nameWithType: FirestoreTableBuilder
+    fullName: Mcma.GoogleCloud.Firestore.FirestoreTableBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionJobAssignmentApiHandler*
+  commentId: Overload:Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionJobAssignmentApiHandler
+  name: AddMcmaGoogleCloudFunctionJobAssignmentApiHandler
+  nameWithType: McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionJobAssignmentApiHandler
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions.AddMcmaGoogleCloudFunctionJobAssignmentApiHandler

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.Functions.ApiHandler
+  commentId: N:Mcma.Azure.Functions.ApiHandler
+  id: Mcma.Azure.Functions.ApiHandler
+  children:
+  - Mcma.Azure.Functions.ApiHandler.McmaAzureFunctionApiHandlerServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Azure.Functions.ApiHandler
+  nameWithType: Mcma.Azure.Functions.ApiHandler
+  fullName: Mcma.Azure.Functions.ApiHandler
+  type: Namespace
+  assemblies:
+  - Mcma.Azure.Functions.ApiHandler
+references:
+- uid: Mcma.Azure.Functions.ApiHandler.McmaAzureFunctionApiHandlerServiceCollectionExtensions
+  commentId: T:Mcma.Azure.Functions.ApiHandler.McmaAzureFunctionApiHandlerServiceCollectionExtensions
+  name: McmaAzureFunctionApiHandlerServiceCollectionExtensions
+  nameWithType: McmaAzureFunctionApiHandlerServiceCollectionExtensions
+  fullName: Mcma.Azure.Functions.ApiHandler.McmaAzureFunctionApiHandlerServiceCollectionExtensions

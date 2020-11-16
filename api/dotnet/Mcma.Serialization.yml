@@ -1,0 +1,59 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  id: Mcma.Serialization
+  children:
+  - Mcma.Serialization.IMcmaTypeRegistrations
+  - Mcma.Serialization.McmaCamelCasePropertyNamesContractResolver
+  - Mcma.Serialization.McmaExpandoObjectConverter
+  - Mcma.Serialization.McmaJson
+  - Mcma.Serialization.McmaObjectConverter
+  - Mcma.Serialization.McmaTypes
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+  type: Namespace
+  assemblies:
+  - Mcma.Core
+references:
+- uid: Mcma.Serialization.IMcmaTypeRegistrations
+  commentId: T:Mcma.Serialization.IMcmaTypeRegistrations
+  parent: Mcma.Serialization
+  name: IMcmaTypeRegistrations
+  nameWithType: IMcmaTypeRegistrations
+  fullName: Mcma.Serialization.IMcmaTypeRegistrations
+- uid: Mcma.Serialization.McmaCamelCasePropertyNamesContractResolver
+  commentId: T:Mcma.Serialization.McmaCamelCasePropertyNamesContractResolver
+  name: McmaCamelCasePropertyNamesContractResolver
+  nameWithType: McmaCamelCasePropertyNamesContractResolver
+  fullName: Mcma.Serialization.McmaCamelCasePropertyNamesContractResolver
+- uid: Mcma.Serialization.McmaExpandoObjectConverter
+  commentId: T:Mcma.Serialization.McmaExpandoObjectConverter
+  name: McmaExpandoObjectConverter
+  nameWithType: McmaExpandoObjectConverter
+  fullName: Mcma.Serialization.McmaExpandoObjectConverter
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization.McmaObjectConverter
+  commentId: T:Mcma.Serialization.McmaObjectConverter
+  name: McmaObjectConverter
+  nameWithType: McmaObjectConverter
+  fullName: Mcma.Serialization.McmaObjectConverter
+- uid: Mcma.Serialization.McmaTypes
+  commentId: T:Mcma.Serialization.McmaTypes
+  name: McmaTypes
+  nameWithType: McmaTypes
+  fullName: Mcma.Serialization.McmaTypes
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization

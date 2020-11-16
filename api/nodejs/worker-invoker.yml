@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: worker-invoker
+    name: "@mcma/worker-invoker"
+    summary: ""
+    children:
+      - worker-invoker.getWorkerFunctionId
+      - worker-invoker.InvokeWorker
+      - worker-invoker.WorkerInvoker
+      - worker-invoker.WorkerRequestProperties
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: worker-invoker.getWorkerFunctionId
+    name: getWorkerFunctionId(ConfigVariables)
+  - uid: worker-invoker.InvokeWorker
+    name: InvokeWorker
+  - uid: worker-invoker.WorkerInvoker
+    name: WorkerInvoker
+  - uid: worker-invoker.WorkerRequestProperties
+    name: WorkerRequestProperties

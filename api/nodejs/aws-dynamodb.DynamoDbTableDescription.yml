@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-dynamodb.DynamoDbTableDescription
+    name: DynamoDbTableDescription
+    fullName: DynamoDbTableDescription
+    children:
+      - aws-dynamodb.DynamoDbTableDescription.globalSecondaryIndexes
+      - aws-dynamodb.DynamoDbTableDescription.keyNames
+      - aws-dynamodb.DynamoDbTableDescription.localSecondaryIndexes
+      - aws-dynamodb.DynamoDbTableDescription.tableName
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.DynamoDbTableDescription.globalSecondaryIndexes
+    name: globalSecondaryIndexes
+    fullName: globalSecondaryIndexes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'globalSecondaryIndexes: GlobalSecondaryIndexDescription[]'
+      return:
+        type:
+          - 'aws-dynamodb.GlobalSecondaryIndexDescription[]'
+        description: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.DynamoDbTableDescription.keyNames
+    name: keyNames
+    fullName: keyNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'keyNames: KeyNames'
+      return:
+        type:
+          - aws-dynamodb.KeyNames
+        description: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.DynamoDbTableDescription.localSecondaryIndexes
+    name: localSecondaryIndexes
+    fullName: localSecondaryIndexes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'localSecondaryIndexes: LocalSecondaryIndexDescription[]'
+      return:
+        type:
+          - 'aws-dynamodb.LocalSecondaryIndexDescription[]'
+        description: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.DynamoDbTableDescription.tableName
+    name: tableName
+    fullName: tableName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'tableName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-dynamodb
+references:
+  - uid: 'aws-dynamodb.GlobalSecondaryIndexDescription[]'
+    name: 'GlobalSecondaryIndexDescription[]'
+    spec.typeScript:
+      - name: GlobalSecondaryIndexDescription
+        fullName: GlobalSecondaryIndexDescription
+        uid: aws-dynamodb.GlobalSecondaryIndexDescription
+      - name: '[]'
+        fullName: '[]'
+  - uid: aws-dynamodb.KeyNames
+    name: KeyNames
+    spec.typeScript:
+      - name: KeyNames
+        fullName: KeyNames
+        uid: aws-dynamodb.KeyNames
+  - uid: 'aws-dynamodb.LocalSecondaryIndexDescription[]'
+    name: 'LocalSecondaryIndexDescription[]'
+    spec.typeScript:
+      - name: LocalSecondaryIndexDescription
+        fullName: LocalSecondaryIndexDescription
+        uid: aws-dynamodb.LocalSecondaryIndexDescription
+      - name: '[]'
+        fullName: '[]'

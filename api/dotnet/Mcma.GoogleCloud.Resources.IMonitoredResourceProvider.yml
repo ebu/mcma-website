@@ -1,0 +1,269 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Resources.IMonitoredResourceProvider
+  commentId: T:Mcma.GoogleCloud.Resources.IMonitoredResourceProvider
+  id: IMonitoredResourceProvider
+  parent: Mcma.GoogleCloud.Resources
+  children:
+  - Mcma.GoogleCloud.Resources.IMonitoredResourceProvider.GetCurrentResourceAsync
+  langs:
+  - csharp
+  - vb
+  name: IMonitoredResourceProvider
+  nameWithType: IMonitoredResourceProvider
+  fullName: Mcma.GoogleCloud.Resources.IMonitoredResourceProvider
+  type: Interface
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud/Resources/IMonitoredResourceProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IMonitoredResourceProvider
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud/Resources/IMonitoredResourceProvider.cs
+    startLine: 5
+  assemblies:
+  - Mcma.GoogleCloud
+  namespace: Mcma.GoogleCloud.Resources
+  syntax:
+    content: public interface IMonitoredResourceProvider
+    content.vb: Public Interface IMonitoredResourceProvider
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.GoogleCloud.Resources.IMonitoredResourceProvider.GetCurrentResourceAsync
+  commentId: M:Mcma.GoogleCloud.Resources.IMonitoredResourceProvider.GetCurrentResourceAsync
+  id: GetCurrentResourceAsync
+  parent: Mcma.GoogleCloud.Resources.IMonitoredResourceProvider
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentResourceAsync()
+  nameWithType: IMonitoredResourceProvider.GetCurrentResourceAsync()
+  fullName: Mcma.GoogleCloud.Resources.IMonitoredResourceProvider.GetCurrentResourceAsync()
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud/Resources/IMonitoredResourceProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetCurrentResourceAsync
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud/Resources/IMonitoredResourceProvider.cs
+    startLine: 7
+  assemblies:
+  - Mcma.GoogleCloud
+  namespace: Mcma.GoogleCloud.Resources
+  syntax:
+    content: Task<MonitoredResource> GetCurrentResourceAsync()
+    return:
+      type: System.Threading.Tasks.Task{Google.Api.MonitoredResource}
+    content.vb: Function GetCurrentResourceAsync As Task(Of MonitoredResource)
+  overload: Mcma.GoogleCloud.Resources.IMonitoredResourceProvider.GetCurrentResourceAsync*
+references:
+- uid: Mcma.GoogleCloud.Resources
+  commentId: N:Mcma.GoogleCloud.Resources
+  name: Mcma.GoogleCloud.Resources
+  nameWithType: Mcma.GoogleCloud.Resources
+  fullName: Mcma.GoogleCloud.Resources
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.GoogleCloud.Resources.IMonitoredResourceProvider.GetCurrentResourceAsync*
+  commentId: Overload:Mcma.GoogleCloud.Resources.IMonitoredResourceProvider.GetCurrentResourceAsync
+  name: GetCurrentResourceAsync
+  nameWithType: IMonitoredResourceProvider.GetCurrentResourceAsync
+  fullName: Mcma.GoogleCloud.Resources.IMonitoredResourceProvider.GetCurrentResourceAsync
+- uid: System.Threading.Tasks.Task{Google.Api.MonitoredResource}
+  commentId: T:System.Threading.Tasks.Task{Google.Api.MonitoredResource}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<MonitoredResource>
+  nameWithType: Task<MonitoredResource>
+  fullName: System.Threading.Tasks.Task<Google.Api.MonitoredResource>
+  nameWithType.vb: Task(Of MonitoredResource)
+  fullName.vb: System.Threading.Tasks.Task(Of Google.Api.MonitoredResource)
+  name.vb: Task(Of MonitoredResource)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Google.Api.MonitoredResource
+    name: MonitoredResource
+    nameWithType: MonitoredResource
+    fullName: Google.Api.MonitoredResource
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Google.Api.MonitoredResource
+    name: MonitoredResource
+    nameWithType: MonitoredResource
+    fullName: Google.Api.MonitoredResource
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

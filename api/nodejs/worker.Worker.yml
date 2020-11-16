@@ -1,0 +1,153 @@
+### YamlMime:UniversalReference
+items:
+  - uid: worker.Worker
+    name: Worker
+    fullName: Worker
+    children:
+      - worker.Worker.addOperation_1
+      - worker.Worker.addOperation
+      - worker.Worker.addOperation_2
+      - worker.Worker.doWork
+      - worker.Worker.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: worker
+  - uid: worker.Worker.addOperation_1
+    name: 'addOperation(OperationFilter, OperationHandler)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addOperation(operationFilter: OperationFilter, handler:
+        OperationHandler)
+      parameters:
+        - id: operationFilter
+          type:
+            - worker.OperationFilter
+          description: ''
+        - id: handler
+          type:
+            - worker.OperationHandler
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: worker
+  - uid: worker.Worker.addOperation
+    name: 'addOperation(string, OperationHandler)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addOperation(operationName: string, handler: OperationHandler)'
+      parameters:
+        - id: operationName
+          type:
+            - string
+          description: ''
+        - id: handler
+          type:
+            - worker.OperationHandler
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: worker
+  - uid: worker.Worker.addOperation_2
+    name: addOperation(WorkerOperation)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addOperation(operation: WorkerOperation)'
+      parameters:
+        - id: operation
+          type:
+            - worker.WorkerOperation
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: worker
+  - uid: worker.Worker.doWork
+    name: 'doWork(WorkerRequest, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function doWork(request: WorkerRequest, ctx?: any)'
+      parameters:
+        - id: request
+          type:
+            - worker.WorkerRequest
+          description: ''
+        - id: ctx
+          type:
+            - any
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: worker
+  - uid: worker.Worker.constructor
+    name: Worker(ProviderCollection)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Worker(providers: ProviderCollection)'
+      parameters:
+        - id: providers
+          type:
+            - worker.ProviderCollection
+          description: ''
+    package: worker
+references:
+  - uid: worker.ProviderCollection
+    name: ProviderCollection
+    spec.typeScript:
+      - name: ProviderCollection
+        fullName: ProviderCollection
+        uid: worker.ProviderCollection
+  - uid: worker.OperationHandler
+    name: OperationHandler
+    spec.typeScript:
+      - name: OperationHandler
+        fullName: OperationHandler
+        uid: worker.OperationHandler
+  - uid: worker.OperationFilter
+    name: OperationFilter
+    spec.typeScript:
+      - name: OperationFilter
+        fullName: OperationFilter
+        uid: worker.OperationFilter
+  - uid: worker.WorkerOperation
+    name: WorkerOperation
+    spec.typeScript:
+      - name: WorkerOperation
+        fullName: WorkerOperation
+        uid: worker.WorkerOperation
+  - uid: worker.WorkerRequest
+    name: WorkerRequest
+    spec.typeScript:
+      - name: WorkerRequest
+        fullName: WorkerRequest
+        uid: worker.WorkerRequest

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.Functions.Worker
+  commentId: N:Mcma.Azure.Functions.Worker
+  id: Mcma.Azure.Functions.Worker
+  children:
+  - Mcma.Azure.Functions.Worker.McmaAzureFunctionWorkerServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Azure.Functions.Worker
+  nameWithType: Mcma.Azure.Functions.Worker
+  fullName: Mcma.Azure.Functions.Worker
+  type: Namespace
+  assemblies:
+  - Mcma.Azure.Functions.Worker
+references:
+- uid: Mcma.Azure.Functions.Worker.McmaAzureFunctionWorkerServiceCollectionExtensions
+  commentId: T:Mcma.Azure.Functions.Worker.McmaAzureFunctionWorkerServiceCollectionExtensions
+  name: McmaAzureFunctionWorkerServiceCollectionExtensions
+  nameWithType: McmaAzureFunctionWorkerServiceCollectionExtensions
+  fullName: Mcma.Azure.Functions.Worker.McmaAzureFunctionWorkerServiceCollectionExtensions

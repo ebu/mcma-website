@@ -1,0 +1,292 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Client.IAuthProvider
+  commentId: T:Mcma.Client.IAuthProvider
+  id: IAuthProvider
+  parent: Mcma.Client
+  children:
+  - Mcma.Client.IAuthProvider.GetAsync(System.String,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: IAuthProvider
+  nameWithType: IAuthProvider
+  fullName: Mcma.Client.IAuthProvider
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.Client/Auth/IAuthProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IAuthProvider
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Auth/IAuthProvider.cs
+    startLine: 4
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: public interface IAuthProvider
+    content.vb: Public Interface IAuthProvider
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Client.IAuthProvider.GetAsync(System.String,System.Object)
+  commentId: M:Mcma.Client.IAuthProvider.GetAsync(System.String,System.Object)
+  id: GetAsync(System.String,System.Object)
+  parent: Mcma.Client.IAuthProvider
+  langs:
+  - csharp
+  - vb
+  name: GetAsync(String, Object)
+  nameWithType: IAuthProvider.GetAsync(String, Object)
+  fullName: Mcma.Client.IAuthProvider.GetAsync(System.String, System.Object)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Auth/IAuthProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Auth/IAuthProvider.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: Task<IAuthenticator> GetAsync(string authType, object authContext)
+    parameters:
+    - id: authType
+      type: System.String
+    - id: authContext
+      type: System.Object
+    return:
+      type: System.Threading.Tasks.Task{Mcma.Client.IAuthenticator}
+    content.vb: Function GetAsync(authType As String, authContext As Object) As Task(Of IAuthenticator)
+  overload: Mcma.Client.IAuthProvider.GetAsync*
+references:
+- uid: Mcma.Client
+  commentId: N:Mcma.Client
+  name: Mcma.Client
+  nameWithType: Mcma.Client
+  fullName: Mcma.Client
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Client.IAuthProvider.GetAsync*
+  commentId: Overload:Mcma.Client.IAuthProvider.GetAsync
+  name: GetAsync
+  nameWithType: IAuthProvider.GetAsync
+  fullName: Mcma.Client.IAuthProvider.GetAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Threading.Tasks.Task{Mcma.Client.IAuthenticator}
+  commentId: T:System.Threading.Tasks.Task{Mcma.Client.IAuthenticator}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IAuthenticator>
+  nameWithType: Task<IAuthenticator>
+  fullName: System.Threading.Tasks.Task<Mcma.Client.IAuthenticator>
+  nameWithType.vb: Task(Of IAuthenticator)
+  fullName.vb: System.Threading.Tasks.Task(Of Mcma.Client.IAuthenticator)
+  name.vb: Task(Of IAuthenticator)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Client.IAuthenticator
+    name: IAuthenticator
+    nameWithType: IAuthenticator
+    fullName: Mcma.Client.IAuthenticator
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Client.IAuthenticator
+    name: IAuthenticator
+    nameWithType: IAuthenticator
+    fullName: Mcma.Client.IAuthenticator
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

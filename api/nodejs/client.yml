@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: client
+    name: "@mcma/client"
+    summary: ""
+    children:
+      - client.AccessToken
+      - client.accessTokenAuth
+      - client.AccessTokenAuthenticator
+      - client.AccessTokenProvider
+      - client.AuthProvider
+      - client.AuthTypeRegistration
+      - client.Authenticator
+      - client.AuthenticatorFactory
+      - client.Http
+      - client.HttpClient
+      - client.HttpClientConfig
+      - client.HttpRequestConfig
+      - client.getResourceManagerConfig
+      - client.ResourceEndpointClient
+      - client.ResourceManager
+      - client.ResourceManagerConfig
+      - client.ResourceManagerProvider
+      - client.ServiceClient
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: client.AccessToken
+    name: AccessToken
+  - uid: client.accessTokenAuth
+    name: accessTokenAuth(AccessTokenProvider<T>, string)
+  - uid: client.AccessTokenAuthenticator
+    name: AccessTokenAuthenticator
+  - uid: client.AccessTokenProvider
+    name: AccessTokenProvider
+  - uid: client.AuthProvider
+    name: AuthProvider
+  - uid: client.AuthTypeRegistration
+    name: AuthTypeRegistration
+  - uid: client.Authenticator
+    name: Authenticator
+  - uid: client.AuthenticatorFactory
+    name: AuthenticatorFactory
+  - uid: client.Http
+    name: Http
+  - uid: client.HttpClient
+    name: HttpClient
+  - uid: client.HttpClientConfig
+    name: HttpClientConfig
+  - uid: client.HttpRequestConfig
+    name: HttpRequestConfig
+  - uid: client.getResourceManagerConfig
+    name: getResourceManagerConfig(ConfigVariables)
+  - uid: client.ResourceEndpointClient
+    name: ResourceEndpointClient
+  - uid: client.ResourceManager
+    name: ResourceManager
+  - uid: client.ResourceManagerConfig
+    name: ResourceManagerConfig
+  - uid: client.ResourceManagerProvider
+    name: ResourceManagerProvider
+  - uid: client.ServiceClient
+    name: ServiceClient

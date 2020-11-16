@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-dynamodb
+    name: "@mcma/aws-dynamodb"
+    summary: ""
+    children:
+      - aws-dynamodb.buildFilterExpression
+      - aws-dynamodb.DynamoDbMutex
+      - aws-dynamodb.DynamoDbTable
+      - aws-dynamodb.DynamoDbTableDescription
+      - aws-dynamodb.GlobalSecondaryIndexDescription
+      - aws-dynamodb.KeyNames
+      - aws-dynamodb.LocalSecondaryIndexDescription
+      - aws-dynamodb.getTableDescription
+      - aws-dynamodb.DynamoDbTableOptions
+      - aws-dynamodb.CustomQueryFactory
+      - aws-dynamodb.CustomQueryRegistry
+      - aws-dynamodb.DynamoDbTableProvider
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: aws-dynamodb.buildFilterExpression
+    name: buildFilterExpression(FilterExpression)
+  - uid: aws-dynamodb.DynamoDbMutex
+    name: DynamoDbMutex
+  - uid: aws-dynamodb.DynamoDbTable
+    name: DynamoDbTable
+  - uid: aws-dynamodb.DynamoDbTableDescription
+    name: DynamoDbTableDescription
+  - uid: aws-dynamodb.GlobalSecondaryIndexDescription
+    name: GlobalSecondaryIndexDescription
+  - uid: aws-dynamodb.KeyNames
+    name: KeyNames
+  - uid: aws-dynamodb.LocalSecondaryIndexDescription
+    name: LocalSecondaryIndexDescription
+  - uid: aws-dynamodb.getTableDescription
+    name: getTableDescription(DynamoDB, string)
+  - uid: aws-dynamodb.DynamoDbTableOptions
+    name: DynamoDbTableOptions
+  - uid: aws-dynamodb.CustomQueryFactory
+    name: CustomQueryFactory
+  - uid: aws-dynamodb.CustomQueryRegistry
+    name: CustomQueryRegistry
+  - uid: aws-dynamodb.DynamoDbTableProvider
+    name: DynamoDbTableProvider

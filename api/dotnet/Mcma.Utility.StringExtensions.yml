@@ -1,0 +1,2008 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Utility.StringExtensions
+  commentId: T:Mcma.Utility.StringExtensions
+  id: StringExtensions
+  parent: Mcma.Utility
+  children:
+  - Mcma.Utility.StringExtensions.CamelCaseToKebabCase(System.String)
+  - Mcma.Utility.StringExtensions.CamelCaseToPascalCase(System.String)
+  - Mcma.Utility.StringExtensions.FromBase64(System.String)
+  - Mcma.Utility.StringExtensions.HexDecode(System.String)
+  - Mcma.Utility.StringExtensions.HexDecodeString(System.String)
+  - Mcma.Utility.StringExtensions.HexEncode(System.Byte[])
+  - Mcma.Utility.StringExtensions.Join(System.Collections.Generic.IEnumerable{System.String},System.String)
+  - Mcma.Utility.StringExtensions.KebabCaseToCamelCase(System.String)
+  - Mcma.Utility.StringExtensions.KebabCaseToPascalCase(System.String)
+  - Mcma.Utility.StringExtensions.Parse(System.String,System.Type)
+  - Mcma.Utility.StringExtensions.Parse``1(System.String)
+  - Mcma.Utility.StringExtensions.PascalCaseToCamelCase(System.String)
+  - Mcma.Utility.StringExtensions.PascalCaseToKebabCase(System.String)
+  - Mcma.Utility.StringExtensions.ReadStringFromStreamAsync(System.IO.Stream)
+  - Mcma.Utility.StringExtensions.Replace(System.String,System.String,System.String,System.StringComparison)
+  - Mcma.Utility.StringExtensions.SplitIntoChunks(System.String,System.Int32)
+  - Mcma.Utility.StringExtensions.SplitOn(System.String,System.String)
+  - Mcma.Utility.StringExtensions.ToBase64(System.String)
+  - Mcma.Utility.StringExtensions.ToDictionary(System.String,System.String,System.String)
+  - Mcma.Utility.StringExtensions.ToKeyValuePair(System.String,System.String)
+  - Mcma.Utility.StringExtensions.TryParse(System.String,System.Type,System.Object@)
+  - Mcma.Utility.StringExtensions.TryParse``1(System.String,``0)
+  - Mcma.Utility.StringExtensions.TryParse``1(System.String,``0@)
+  langs:
+  - csharp
+  - vb
+  name: StringExtensions
+  nameWithType: StringExtensions
+  fullName: Mcma.Utility.StringExtensions
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: StringExtensions
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  syntax:
+    content: public static class StringExtensions
+    content.vb: Public Module StringExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.Utility.StringExtensions.SplitOn(System.String,System.String)
+  commentId: M:Mcma.Utility.StringExtensions.SplitOn(System.String,System.String)
+  id: SplitOn(System.String,System.String)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: SplitOn(String, String)
+  nameWithType: StringExtensions.SplitOn(String, String)
+  fullName: Mcma.Utility.StringExtensions.SplitOn(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: SplitOn
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 18
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nSplits a string\n"
+  example: []
+  syntax:
+    content: public static string[] SplitOn(this string toSplit, string splitOn)
+    parameters:
+    - id: toSplit
+      type: System.String
+      description: ''
+    - id: splitOn
+      type: System.String
+      description: ''
+    return:
+      type: System.String[]
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SplitOn(toSplit As String, splitOn As String) As String()
+  overload: Mcma.Utility.StringExtensions.SplitOn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.StringExtensions.Join(System.Collections.Generic.IEnumerable{System.String},System.String)
+  commentId: M:Mcma.Utility.StringExtensions.Join(System.Collections.Generic.IEnumerable{System.String},System.String)
+  id: Join(System.Collections.Generic.IEnumerable{System.String},System.String)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: Join(IEnumerable<String>, String)
+  nameWithType: StringExtensions.Join(IEnumerable<String>, String)
+  fullName: Mcma.Utility.StringExtensions.Join(System.Collections.Generic.IEnumerable<System.String>, System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Join
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 27
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nJoins a collection of strings\n"
+  example: []
+  syntax:
+    content: public static string Join(this IEnumerable<string> toJoin, string joinWith = null)
+    parameters:
+    - id: toJoin
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: ''
+    - id: joinWith
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Join(toJoin As IEnumerable(Of String), joinWith As String = Nothing) As String
+  overload: Mcma.Utility.StringExtensions.Join*
+  nameWithType.vb: StringExtensions.Join(IEnumerable(Of String), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Utility.StringExtensions.Join(System.Collections.Generic.IEnumerable(Of System.String), System.String)
+  name.vb: Join(IEnumerable(Of String), String)
+- uid: Mcma.Utility.StringExtensions.ToDictionary(System.String,System.String,System.String)
+  commentId: M:Mcma.Utility.StringExtensions.ToDictionary(System.String,System.String,System.String)
+  id: ToDictionary(System.String,System.String,System.String)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToDictionary(String, String, String)
+  nameWithType: StringExtensions.ToDictionary(String, String, String)
+  fullName: Mcma.Utility.StringExtensions.ToDictionary(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ToDictionary
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 37
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nConverts a delimited string into a dictionary of key-value pairs\n"
+  example: []
+  syntax:
+    content: public static IDictionary<string, string> ToDictionary(this string source, string pairDelimiter, string valueDelimiter = "=")
+    parameters:
+    - id: source
+      type: System.String
+      description: ''
+    - id: pairDelimiter
+      type: System.String
+      description: ''
+    - id: valueDelimiter
+      type: System.String
+      description: ''
+    return:
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDictionary(source As String, pairDelimiter As String, valueDelimiter As String = "=") As IDictionary(Of String, String)
+  overload: Mcma.Utility.StringExtensions.ToDictionary*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.StringExtensions.ToKeyValuePair(System.String,System.String)
+  commentId: M:Mcma.Utility.StringExtensions.ToKeyValuePair(System.String,System.String)
+  id: ToKeyValuePair(System.String,System.String)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToKeyValuePair(String, String)
+  nameWithType: StringExtensions.ToKeyValuePair(String, String)
+  fullName: Mcma.Utility.StringExtensions.ToKeyValuePair(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ToKeyValuePair
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 46
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nConverts a string to a key-value pair\n"
+  example: []
+  syntax:
+    content: public static (string, string) ToKeyValuePair(this string source, string delimiter = "=")
+    parameters:
+    - id: source
+      type: System.String
+      description: ''
+    - id: delimiter
+      type: System.String
+      description: ''
+    return:
+      type: System.ValueTuple{System.String,System.String}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToKeyValuePair(source As String, delimiter As String = "=") As(String, String)
+  overload: Mcma.Utility.StringExtensions.ToKeyValuePair*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.StringExtensions.ToBase64(System.String)
+  commentId: M:Mcma.Utility.StringExtensions.ToBase64(System.String)
+  id: ToBase64(System.String)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToBase64(String)
+  nameWithType: StringExtensions.ToBase64(String)
+  fullName: Mcma.Utility.StringExtensions.ToBase64(System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ToBase64
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 67
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nConverts a string to the base 64 representation of its UTF-8 bytes\n"
+  example: []
+  syntax:
+    content: public static string ToBase64(this string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: The text to convert
+    return:
+      type: System.String
+      description: The base 64 representation of its UTF-8 bytes
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToBase64(text As String) As String
+  overload: Mcma.Utility.StringExtensions.ToBase64*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.StringExtensions.FromBase64(System.String)
+  commentId: M:Mcma.Utility.StringExtensions.FromBase64(System.String)
+  id: FromBase64(System.String)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromBase64(String)
+  nameWithType: StringExtensions.FromBase64(String)
+  fullName: Mcma.Utility.StringExtensions.FromBase64(System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: FromBase64
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 73
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nConverts a string from base 64 representation\n"
+  example: []
+  syntax:
+    content: public static string FromBase64(this string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: The text to convert
+    return:
+      type: System.String
+      description: The plain text version of the given base 64
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromBase64(text As String) As String
+  overload: Mcma.Utility.StringExtensions.FromBase64*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.StringExtensions.Parse``1(System.String)
+  commentId: M:Mcma.Utility.StringExtensions.Parse``1(System.String)
+  id: Parse``1(System.String)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: Parse<T>(String)
+  nameWithType: StringExtensions.Parse<T>(String)
+  fullName: Mcma.Utility.StringExtensions.Parse<T>(System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Parse
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 81
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nConverts a text value to a given type\n"
+  example: []
+  syntax:
+    content: public static T Parse<T>(this string textValue)
+    parameters:
+    - id: textValue
+      type: System.String
+      description: The text value to convert
+    typeParameters:
+    - id: T
+      description: The type to which to convert the text
+    return:
+      type: '{T}'
+      description: The resulting converted value
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Parse(Of T)(textValue As String) As T
+  overload: Mcma.Utility.StringExtensions.Parse*
+  nameWithType.vb: StringExtensions.Parse(Of T)(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Utility.StringExtensions.Parse(Of T)(System.String)
+  name.vb: Parse(Of T)(String)
+- uid: Mcma.Utility.StringExtensions.TryParse``1(System.String,``0)
+  commentId: M:Mcma.Utility.StringExtensions.TryParse``1(System.String,``0)
+  id: TryParse``1(System.String,``0)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParse<T>(String, T)
+  nameWithType: StringExtensions.TryParse<T>(String, T)
+  fullName: Mcma.Utility.StringExtensions.TryParse<T>(System.String, T)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: TryParse
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 90
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nTries to parse a text value to a value of a given type, using a default value if parsing fails\n"
+  example: []
+  syntax:
+    content: public static T TryParse<T>(this string textValue, T defaultValue)
+    parameters:
+    - id: textValue
+      type: System.String
+      description: The text value to parse
+    - id: defaultValue
+      type: '{T}'
+      description: The default value to use if parsing fails
+    typeParameters:
+    - id: T
+      description: The type to which to parse
+    return:
+      type: '{T}'
+      description: The parsed value if successful; otherwise, the provided default value
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryParse(Of T)(textValue As String, defaultValue As T) As T
+  overload: Mcma.Utility.StringExtensions.TryParse*
+  nameWithType.vb: StringExtensions.TryParse(Of T)(String, T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Utility.StringExtensions.TryParse(Of T)(System.String, T)
+  name.vb: TryParse(Of T)(String, T)
+- uid: Mcma.Utility.StringExtensions.TryParse``1(System.String,``0@)
+  commentId: M:Mcma.Utility.StringExtensions.TryParse``1(System.String,``0@)
+  id: TryParse``1(System.String,``0@)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParse<T>(String, out T)
+  nameWithType: StringExtensions.TryParse<T>(String, out T)
+  fullName: Mcma.Utility.StringExtensions.TryParse<T>(System.String, out T)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: TryParse
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 100
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nTries to parse a text value to a value of a given type\n"
+  example: []
+  syntax:
+    content: public static bool TryParse<T>(this string textValue, out T obj)
+    parameters:
+    - id: textValue
+      type: System.String
+      description: The text value to parse
+    - id: obj
+      type: '{T}'
+      description: The resulting parsed object
+    typeParameters:
+    - id: T
+      description: The type to which to parse
+    return:
+      type: System.Boolean
+      description: True if parsed successfully; else, false
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryParse(Of T)(textValue As String, ByRef obj As T) As Boolean
+  overload: Mcma.Utility.StringExtensions.TryParse*
+  nameWithType.vb: StringExtensions.TryParse(Of T)(String, ByRef T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Utility.StringExtensions.TryParse(Of T)(System.String, ByRef T)
+  name.vb: TryParse(Of T)(String, ByRef T)
+- uid: Mcma.Utility.StringExtensions.Parse(System.String,System.Type)
+  commentId: M:Mcma.Utility.StringExtensions.Parse(System.String,System.Type)
+  id: Parse(System.String,System.Type)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: Parse(String, Type)
+  nameWithType: StringExtensions.Parse(String, Type)
+  fullName: Mcma.Utility.StringExtensions.Parse(System.String, System.Type)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Parse
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 118
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nConverts a text value to a given type\n"
+  example: []
+  syntax:
+    content: public static object Parse(this string textValue, Type type)
+    parameters:
+    - id: textValue
+      type: System.String
+      description: The text value to convert
+    - id: type
+      type: System.Type
+      description: The type to which to convert the text
+    return:
+      type: System.Object
+      description: The resulting converted value
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Parse(textValue As String, type As Type) As Object
+  overload: Mcma.Utility.StringExtensions.Parse*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.StringExtensions.TryParse(System.String,System.Type,System.Object@)
+  commentId: M:Mcma.Utility.StringExtensions.TryParse(System.String,System.Type,System.Object@)
+  id: TryParse(System.String,System.Type,System.Object@)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryParse(String, Type, out Object)
+  nameWithType: StringExtensions.TryParse(String, Type, out Object)
+  fullName: Mcma.Utility.StringExtensions.TryParse(System.String, System.Type, out System.Object)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: TryParse
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 135
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nTries to parse a text value to a value of a given type\n"
+  example: []
+  syntax:
+    content: public static bool TryParse(this string textValue, Type type, out object obj)
+    parameters:
+    - id: textValue
+      type: System.String
+      description: The text value to parse
+    - id: type
+      type: System.Type
+      description: The type to which to parse
+    - id: obj
+      type: System.Object
+      description: The resulting parsed object
+    return:
+      type: System.Boolean
+      description: True if parsed successfully; else, false
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryParse(textValue As String, type As Type, ByRef obj As Object) As Boolean
+  overload: Mcma.Utility.StringExtensions.TryParse*
+  nameWithType.vb: StringExtensions.TryParse(String, Type, ByRef Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Utility.StringExtensions.TryParse(System.String, System.Type, ByRef System.Object)
+  name.vb: TryParse(String, Type, ByRef Object)
+- uid: Mcma.Utility.StringExtensions.Replace(System.String,System.String,System.String,System.StringComparison)
+  commentId: M:Mcma.Utility.StringExtensions.Replace(System.String,System.String,System.String,System.StringComparison)
+  id: Replace(System.String,System.String,System.String,System.StringComparison)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: Replace(String, String, String, StringComparison)
+  nameWithType: StringExtensions.Replace(String, String, String, StringComparison)
+  fullName: Mcma.Utility.StringExtensions.Replace(System.String, System.String, System.String, System.StringComparison)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Replace
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 244
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nReplaces text in a given string, using the specified StringComparison to find matches\n"
+  example: []
+  syntax:
+    content: public static string Replace(this string source, string toReplace, string replaceWith, StringComparison stringComparison)
+    parameters:
+    - id: source
+      type: System.String
+      description: ''
+    - id: toReplace
+      type: System.String
+      description: ''
+    - id: replaceWith
+      type: System.String
+      description: ''
+    - id: stringComparison
+      type: System.StringComparison
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Replace(source As String, toReplace As String, replaceWith As String, stringComparison As StringComparison) As String
+  overload: Mcma.Utility.StringExtensions.Replace*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.StringExtensions.CamelCaseToPascalCase(System.String)
+  commentId: M:Mcma.Utility.StringExtensions.CamelCaseToPascalCase(System.String)
+  id: CamelCaseToPascalCase(System.String)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: CamelCaseToPascalCase(String)
+  nameWithType: StringExtensions.CamelCaseToPascalCase(String)
+  fullName: Mcma.Utility.StringExtensions.CamelCaseToPascalCase(System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: CamelCaseToPascalCase
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 274
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nConverts a camel case string to Pascal case\n"
+  example: []
+  syntax:
+    content: public static string CamelCaseToPascalCase(this string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CamelCaseToPascalCase(text As String) As String
+  overload: Mcma.Utility.StringExtensions.CamelCaseToPascalCase*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.StringExtensions.PascalCaseToCamelCase(System.String)
+  commentId: M:Mcma.Utility.StringExtensions.PascalCaseToCamelCase(System.String)
+  id: PascalCaseToCamelCase(System.String)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: PascalCaseToCamelCase(String)
+  nameWithType: StringExtensions.PascalCaseToCamelCase(String)
+  fullName: Mcma.Utility.StringExtensions.PascalCaseToCamelCase(System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: PascalCaseToCamelCase
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 284
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nConverts a Pascal case string to camel case\n"
+  example: []
+  syntax:
+    content: public static string PascalCaseToCamelCase(this string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PascalCaseToCamelCase(text As String) As String
+  overload: Mcma.Utility.StringExtensions.PascalCaseToCamelCase*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.StringExtensions.KebabCaseToCamelCase(System.String)
+  commentId: M:Mcma.Utility.StringExtensions.KebabCaseToCamelCase(System.String)
+  id: KebabCaseToCamelCase(System.String)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: KebabCaseToCamelCase(String)
+  nameWithType: StringExtensions.KebabCaseToCamelCase(String)
+  fullName: Mcma.Utility.StringExtensions.KebabCaseToCamelCase(System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: KebabCaseToCamelCase
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 298
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nConverts a kebab case string to camel case\n"
+  example: []
+  syntax:
+    content: public static string KebabCaseToCamelCase(this string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function KebabCaseToCamelCase(text As String) As String
+  overload: Mcma.Utility.StringExtensions.KebabCaseToCamelCase*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.StringExtensions.CamelCaseToKebabCase(System.String)
+  commentId: M:Mcma.Utility.StringExtensions.CamelCaseToKebabCase(System.String)
+  id: CamelCaseToKebabCase(System.String)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: CamelCaseToKebabCase(String)
+  nameWithType: StringExtensions.CamelCaseToKebabCase(String)
+  fullName: Mcma.Utility.StringExtensions.CamelCaseToKebabCase(System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: CamelCaseToKebabCase
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 321
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nConverts a camel case string to kebab case\n"
+  example: []
+  syntax:
+    content: public static string CamelCaseToKebabCase(this string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CamelCaseToKebabCase(text As String) As String
+  overload: Mcma.Utility.StringExtensions.CamelCaseToKebabCase*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.StringExtensions.PascalCaseToKebabCase(System.String)
+  commentId: M:Mcma.Utility.StringExtensions.PascalCaseToKebabCase(System.String)
+  id: PascalCaseToKebabCase(System.String)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: PascalCaseToKebabCase(String)
+  nameWithType: StringExtensions.PascalCaseToKebabCase(String)
+  fullName: Mcma.Utility.StringExtensions.PascalCaseToKebabCase(System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: PascalCaseToKebabCase
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 349
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nConverts a Pascal case string to kebab case\n"
+  example: []
+  syntax:
+    content: public static string PascalCaseToKebabCase(this string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PascalCaseToKebabCase(text As String) As String
+  overload: Mcma.Utility.StringExtensions.PascalCaseToKebabCase*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.StringExtensions.KebabCaseToPascalCase(System.String)
+  commentId: M:Mcma.Utility.StringExtensions.KebabCaseToPascalCase(System.String)
+  id: KebabCaseToPascalCase(System.String)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: KebabCaseToPascalCase(String)
+  nameWithType: StringExtensions.KebabCaseToPascalCase(String)
+  fullName: Mcma.Utility.StringExtensions.KebabCaseToPascalCase(System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: KebabCaseToPascalCase
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 359
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nConverts a kebab case string to Pascal case\n"
+  example: []
+  syntax:
+    content: public static string KebabCaseToPascalCase(this string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function KebabCaseToPascalCase(text As String) As String
+  overload: Mcma.Utility.StringExtensions.KebabCaseToPascalCase*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.StringExtensions.HexEncode(System.Byte[])
+  commentId: M:Mcma.Utility.StringExtensions.HexEncode(System.Byte[])
+  id: HexEncode(System.Byte[])
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: HexEncode(Byte[])
+  nameWithType: StringExtensions.HexEncode(Byte[])
+  fullName: Mcma.Utility.StringExtensions.HexEncode(System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: HexEncode
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 367
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  syntax:
+    content: public static string HexEncode(this byte[] key)
+    parameters:
+    - id: key
+      type: System.Byte[]
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HexEncode(key As Byte()) As String
+  overload: Mcma.Utility.StringExtensions.HexEncode*
+  nameWithType.vb: StringExtensions.HexEncode(Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Utility.StringExtensions.HexEncode(System.Byte())
+  name.vb: HexEncode(Byte())
+- uid: Mcma.Utility.StringExtensions.HexDecode(System.String)
+  commentId: M:Mcma.Utility.StringExtensions.HexDecode(System.String)
+  id: HexDecode(System.String)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: HexDecode(String)
+  nameWithType: StringExtensions.HexDecode(String)
+  fullName: Mcma.Utility.StringExtensions.HexDecode(System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: HexDecode
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 369
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  syntax:
+    content: public static byte[] HexDecode(this string hexString)
+    parameters:
+    - id: hexString
+      type: System.String
+    return:
+      type: System.Byte[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HexDecode(hexString As String) As Byte()
+  overload: Mcma.Utility.StringExtensions.HexDecode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.StringExtensions.HexDecodeString(System.String)
+  commentId: M:Mcma.Utility.StringExtensions.HexDecodeString(System.String)
+  id: HexDecodeString(System.String)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: HexDecodeString(String)
+  nameWithType: StringExtensions.HexDecodeString(String)
+  fullName: Mcma.Utility.StringExtensions.HexDecodeString(System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: HexDecodeString
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 371
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  syntax:
+    content: public static string HexDecodeString(this string hexString)
+    parameters:
+    - id: hexString
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HexDecodeString(hexString As String) As String
+  overload: Mcma.Utility.StringExtensions.HexDecodeString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.StringExtensions.SplitIntoChunks(System.String,System.Int32)
+  commentId: M:Mcma.Utility.StringExtensions.SplitIntoChunks(System.String,System.Int32)
+  id: SplitIntoChunks(System.String,System.Int32)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: SplitIntoChunks(String, Int32)
+  nameWithType: StringExtensions.SplitIntoChunks(String, Int32)
+  fullName: Mcma.Utility.StringExtensions.SplitIntoChunks(System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: SplitIntoChunks
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 373
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  syntax:
+    content: public static IEnumerable<string> SplitIntoChunks(this string source, int chunkSize)
+    parameters:
+    - id: source
+      type: System.String
+    - id: chunkSize
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SplitIntoChunks(source As String, chunkSize As Integer) As IEnumerable(Of String)
+  overload: Mcma.Utility.StringExtensions.SplitIntoChunks*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Utility.StringExtensions.ReadStringFromStreamAsync(System.IO.Stream)
+  commentId: M:Mcma.Utility.StringExtensions.ReadStringFromStreamAsync(System.IO.Stream)
+  id: ReadStringFromStreamAsync(System.IO.Stream)
+  isExtensionMethod: true
+  parent: Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: ReadStringFromStreamAsync(Stream)
+  nameWithType: StringExtensions.ReadStringFromStreamAsync(Stream)
+  fullName: Mcma.Utility.StringExtensions.ReadStringFromStreamAsync(System.IO.Stream)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/StringExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ReadStringFromStreamAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/StringExtensions.cs
+    startLine: 379
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  syntax:
+    content: public static Task<string> ReadStringFromStreamAsync(this Stream stream)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ReadStringFromStreamAsync(stream As Stream) As Task(Of String)
+  overload: Mcma.Utility.StringExtensions.ReadStringFromStreamAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Mcma.Utility
+  commentId: N:Mcma.Utility
+  name: Mcma.Utility
+  nameWithType: Mcma.Utility
+  fullName: Mcma.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Utility.StringExtensions.SplitOn*
+  commentId: Overload:Mcma.Utility.StringExtensions.SplitOn
+  name: SplitOn
+  nameWithType: StringExtensions.SplitOn
+  fullName: Mcma.Utility.StringExtensions.SplitOn
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Mcma.Utility.StringExtensions.Join*
+  commentId: Overload:Mcma.Utility.StringExtensions.Join
+  name: Join
+  nameWithType: StringExtensions.Join
+  fullName: Mcma.Utility.StringExtensions.Join
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Mcma.Utility.StringExtensions.ToDictionary*
+  commentId: Overload:Mcma.Utility.StringExtensions.ToDictionary
+  name: ToDictionary
+  nameWithType: StringExtensions.ToDictionary
+  fullName: Mcma.Utility.StringExtensions.ToDictionary
+- uid: System.Collections.Generic.IDictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<String, String>
+  nameWithType: IDictionary<String, String>
+  fullName: System.Collections.Generic.IDictionary<System.String, System.String>
+  nameWithType.vb: IDictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.IDictionary(Of System.String, System.String)
+  name.vb: IDictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Utility.StringExtensions.ToKeyValuePair*
+  commentId: Overload:Mcma.Utility.StringExtensions.ToKeyValuePair
+  name: ToKeyValuePair
+  nameWithType: StringExtensions.ToKeyValuePair
+  fullName: Mcma.Utility.StringExtensions.ToKeyValuePair
+- uid: System.ValueTuple{System.String,System.String}
+  commentId: T:System.ValueTuple{System.String,System.String}
+  parent: System
+  isExternal: true
+  name: ValueTuple<String, String>
+  nameWithType: ValueTuple<String, String>
+  fullName: System.ValueTuple<System.String, System.String>
+  nameWithType.vb: ValueTuple(Of String, String)
+  fullName.vb: System.ValueTuple(Of System.String, System.String)
+  name.vb: ValueTuple(Of String, String)
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Utility.StringExtensions.ToBase64*
+  commentId: Overload:Mcma.Utility.StringExtensions.ToBase64
+  name: ToBase64
+  nameWithType: StringExtensions.ToBase64
+  fullName: Mcma.Utility.StringExtensions.ToBase64
+- uid: Mcma.Utility.StringExtensions.FromBase64*
+  commentId: Overload:Mcma.Utility.StringExtensions.FromBase64
+  name: FromBase64
+  nameWithType: StringExtensions.FromBase64
+  fullName: Mcma.Utility.StringExtensions.FromBase64
+- uid: Mcma.Utility.StringExtensions.Parse*
+  commentId: Overload:Mcma.Utility.StringExtensions.Parse
+  name: Parse
+  nameWithType: StringExtensions.Parse
+  fullName: Mcma.Utility.StringExtensions.Parse
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Mcma.Utility.StringExtensions.TryParse*
+  commentId: Overload:Mcma.Utility.StringExtensions.TryParse
+  name: TryParse
+  nameWithType: StringExtensions.TryParse
+  fullName: Mcma.Utility.StringExtensions.TryParse
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Mcma.Utility.StringExtensions.Replace*
+  commentId: Overload:Mcma.Utility.StringExtensions.Replace
+  name: Replace
+  nameWithType: StringExtensions.Replace
+  fullName: Mcma.Utility.StringExtensions.Replace
+- uid: System.StringComparison
+  commentId: T:System.StringComparison
+  parent: System
+  isExternal: true
+  name: StringComparison
+  nameWithType: StringComparison
+  fullName: System.StringComparison
+- uid: Mcma.Utility.StringExtensions.CamelCaseToPascalCase*
+  commentId: Overload:Mcma.Utility.StringExtensions.CamelCaseToPascalCase
+  name: CamelCaseToPascalCase
+  nameWithType: StringExtensions.CamelCaseToPascalCase
+  fullName: Mcma.Utility.StringExtensions.CamelCaseToPascalCase
+- uid: Mcma.Utility.StringExtensions.PascalCaseToCamelCase*
+  commentId: Overload:Mcma.Utility.StringExtensions.PascalCaseToCamelCase
+  name: PascalCaseToCamelCase
+  nameWithType: StringExtensions.PascalCaseToCamelCase
+  fullName: Mcma.Utility.StringExtensions.PascalCaseToCamelCase
+- uid: Mcma.Utility.StringExtensions.KebabCaseToCamelCase*
+  commentId: Overload:Mcma.Utility.StringExtensions.KebabCaseToCamelCase
+  name: KebabCaseToCamelCase
+  nameWithType: StringExtensions.KebabCaseToCamelCase
+  fullName: Mcma.Utility.StringExtensions.KebabCaseToCamelCase
+- uid: Mcma.Utility.StringExtensions.CamelCaseToKebabCase*
+  commentId: Overload:Mcma.Utility.StringExtensions.CamelCaseToKebabCase
+  name: CamelCaseToKebabCase
+  nameWithType: StringExtensions.CamelCaseToKebabCase
+  fullName: Mcma.Utility.StringExtensions.CamelCaseToKebabCase
+- uid: Mcma.Utility.StringExtensions.PascalCaseToKebabCase*
+  commentId: Overload:Mcma.Utility.StringExtensions.PascalCaseToKebabCase
+  name: PascalCaseToKebabCase
+  nameWithType: StringExtensions.PascalCaseToKebabCase
+  fullName: Mcma.Utility.StringExtensions.PascalCaseToKebabCase
+- uid: Mcma.Utility.StringExtensions.KebabCaseToPascalCase*
+  commentId: Overload:Mcma.Utility.StringExtensions.KebabCaseToPascalCase
+  name: KebabCaseToPascalCase
+  nameWithType: StringExtensions.KebabCaseToPascalCase
+  fullName: Mcma.Utility.StringExtensions.KebabCaseToPascalCase
+- uid: Mcma.Utility.StringExtensions.HexEncode*
+  commentId: Overload:Mcma.Utility.StringExtensions.HexEncode
+  name: HexEncode
+  nameWithType: StringExtensions.HexEncode
+  fullName: Mcma.Utility.StringExtensions.HexEncode
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Mcma.Utility.StringExtensions.HexDecode*
+  commentId: Overload:Mcma.Utility.StringExtensions.HexDecode
+  name: HexDecode
+  nameWithType: StringExtensions.HexDecode
+  fullName: Mcma.Utility.StringExtensions.HexDecode
+- uid: Mcma.Utility.StringExtensions.HexDecodeString*
+  commentId: Overload:Mcma.Utility.StringExtensions.HexDecodeString
+  name: HexDecodeString
+  nameWithType: StringExtensions.HexDecodeString
+  fullName: Mcma.Utility.StringExtensions.HexDecodeString
+- uid: Mcma.Utility.StringExtensions.SplitIntoChunks*
+  commentId: Overload:Mcma.Utility.StringExtensions.SplitIntoChunks
+  name: SplitIntoChunks
+  nameWithType: StringExtensions.SplitIntoChunks
+  fullName: Mcma.Utility.StringExtensions.SplitIntoChunks
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mcma.Utility.StringExtensions.ReadStringFromStreamAsync*
+  commentId: Overload:Mcma.Utility.StringExtensions.ReadStringFromStreamAsync
+  name: ReadStringFromStreamAsync
+  nameWithType: StringExtensions.ReadStringFromStreamAsync
+  fullName: Mcma.Utility.StringExtensions.ReadStringFromStreamAsync
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

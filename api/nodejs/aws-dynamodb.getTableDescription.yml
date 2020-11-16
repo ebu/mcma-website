@@ -1,0 +1,36 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-dynamodb.getTableDescription
+    name: 'getTableDescription(DynamoDB, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getTableDescription(dynamoDb: DynamoDB, tableName: string)'
+      parameters:
+        - id: dynamoDb
+          type:
+            - DynamoDB
+          description: ''
+        - id: tableName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<aws-dynamodb.DynamoDbTableDescription>
+        description: ''
+    package: aws-dynamodb
+references:
+  - uid: Promise<aws-dynamodb.DynamoDbTableDescription>
+    name: DynamoDbTableDescription>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: DynamoDbTableDescription
+        fullName: DynamoDbTableDescription
+        uid: aws-dynamodb.DynamoDbTableDescription
+      - name: '>'
+        fullName: '>'

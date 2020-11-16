@@ -1,0 +1,551 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Logging.LogType
+  commentId: T:Mcma.Logging.LogType
+  id: LogType
+  parent: Mcma.Logging
+  children:
+  - Mcma.Logging.LogType.Debug
+  - Mcma.Logging.LogType.Error
+  - Mcma.Logging.LogType.Fatal
+  - Mcma.Logging.LogType.Info
+  - Mcma.Logging.LogType.Warn
+  langs:
+  - csharp
+  - vb
+  name: LogType
+  nameWithType: LogType
+  fullName: Mcma.Logging.LogType
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogType.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: LogType
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogType.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nContains well-known log types\n"
+  remarks: >-
+    Log types in MCMA are labels to generally indicate why a log message is being written. Some of these map 1-to-1 with log levels, but they
+
+    are not required to, and custom values can be used, as they are just strings.
+  example: []
+  syntax:
+    content: public static class LogType
+    content.vb: Public Module LogType
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.Logging.LogType.Fatal
+  commentId: F:Mcma.Logging.LogType.Fatal
+  id: Fatal
+  parent: Mcma.Logging.LogType
+  langs:
+  - csharp
+  - vb
+  name: Fatal
+  nameWithType: LogType.Fatal
+  fullName: Mcma.Logging.LogType.Fatal
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogType.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Fatal
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogType.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nType for general <xref href=\"Mcma.Logging.LogLevel.Fatal\" data-throw-if-not-resolved=\"false\"></xref> messages \n"
+  example: []
+  syntax:
+    content: public const string Fatal = "FATAL"
+    return:
+      type: System.String
+    content.vb: Public Const Fatal As String = "FATAL"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Logging.LogType.Error
+  commentId: F:Mcma.Logging.LogType.Error
+  id: Error
+  parent: Mcma.Logging.LogType
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: LogType.Error
+  fullName: Mcma.Logging.LogType.Error
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogType.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Error
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogType.cs
+    startLine: 17
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nType for general <xref href=\"Mcma.Logging.LogLevel.Error\" data-throw-if-not-resolved=\"false\"></xref> messages \n"
+  example: []
+  syntax:
+    content: public const string Error = "ERROR"
+    return:
+      type: System.String
+    content.vb: Public Const Error As String = "ERROR"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Logging.LogType.Warn
+  commentId: F:Mcma.Logging.LogType.Warn
+  id: Warn
+  parent: Mcma.Logging.LogType
+  langs:
+  - csharp
+  - vb
+  name: Warn
+  nameWithType: LogType.Warn
+  fullName: Mcma.Logging.LogType.Warn
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogType.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Warn
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogType.cs
+    startLine: 22
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nType for general <xref href=\"Mcma.Logging.LogLevel.Warn\" data-throw-if-not-resolved=\"false\"></xref> messages \n"
+  example: []
+  syntax:
+    content: public const string Warn = "WARN"
+    return:
+      type: System.String
+    content.vb: Public Const Warn As String = "WARN"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Logging.LogType.Info
+  commentId: F:Mcma.Logging.LogType.Info
+  id: Info
+  parent: Mcma.Logging.LogType
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: LogType.Info
+  fullName: Mcma.Logging.LogType.Info
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogType.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Info
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogType.cs
+    startLine: 27
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nType for general <xref href=\"Mcma.Logging.LogLevel.Info\" data-throw-if-not-resolved=\"false\"></xref> messages \n"
+  example: []
+  syntax:
+    content: public const string Info = "INFO"
+    return:
+      type: System.String
+    content.vb: Public Const Info As String = "INFO"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Logging.LogType.Debug
+  commentId: F:Mcma.Logging.LogType.Debug
+  id: Debug
+  parent: Mcma.Logging.LogType
+  langs:
+  - csharp
+  - vb
+  name: Debug
+  nameWithType: LogType.Debug
+  fullName: Mcma.Logging.LogType.Debug
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/LogType.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Debug
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/LogType.cs
+    startLine: 32
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nType for general <xref href=\"Mcma.Logging.LogLevel.Debug\" data-throw-if-not-resolved=\"false\"></xref> messages \n"
+  example: []
+  syntax:
+    content: public const string Debug = "DEBUG"
+    return:
+      type: System.String
+    content.vb: Public Const Debug As String = "DEBUG"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Mcma.Logging
+  commentId: N:Mcma.Logging
+  name: Mcma.Logging
+  nameWithType: Mcma.Logging
+  fullName: Mcma.Logging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Logging.LogLevel.Fatal
+  commentId: F:Mcma.Logging.LogLevel.Fatal
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.Logging.LogLevel.Error
+  commentId: F:Mcma.Logging.LogLevel.Error
+  isExternal: true
+- uid: Mcma.Logging.LogLevel.Warn
+  commentId: F:Mcma.Logging.LogLevel.Warn
+  isExternal: true
+- uid: Mcma.Logging.LogLevel.Info
+  commentId: F:Mcma.Logging.LogLevel.Info
+  isExternal: true
+- uid: Mcma.Logging.LogLevel.Debug
+  commentId: F:Mcma.Logging.LogLevel.Debug
+  isExternal: true

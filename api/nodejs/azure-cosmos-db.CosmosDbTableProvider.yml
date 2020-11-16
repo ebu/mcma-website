@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-cosmos-db.CosmosDbTableProvider
+    name: CosmosDbTableProvider
+    fullName: CosmosDbTableProvider
+    children:
+      - azure-cosmos-db.CosmosDbTableProvider.constructor
+      - azure-cosmos-db.CosmosDbTableProvider.get
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbTableProvider.constructor
+    name: CosmosDbTableProvider(CosmosDbTableProviderOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CosmosDbTableProvider(options: CosmosDbTableProviderOptions)'
+      parameters:
+        - id: options
+          type:
+            - azure-cosmos-db.CosmosDbTableProviderOptions
+          description: ''
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbTableProvider.get
+    name: get(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get(tableName: string)'
+      parameters:
+        - id: tableName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<DocumentDatabaseTable>
+        description: ''
+    package: azure-cosmos-db
+references:
+  - uid: azure-cosmos-db.CosmosDbTableProviderOptions
+    name: CosmosDbTableProviderOptions
+    spec.typeScript:
+      - name: CosmosDbTableProviderOptions
+        fullName: CosmosDbTableProviderOptions
+        uid: azure-cosmos-db.CosmosDbTableProviderOptions

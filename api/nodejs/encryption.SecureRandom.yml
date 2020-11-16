@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: encryption.SecureRandom
+    name: SecureRandom()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function SecureRandom()
+      parameters: []
+    package: encryption

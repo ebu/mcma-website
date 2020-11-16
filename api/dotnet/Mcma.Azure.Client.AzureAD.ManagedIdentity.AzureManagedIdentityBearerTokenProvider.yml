@@ -1,0 +1,576 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider
+  commentId: T:Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider
+  id: AzureManagedIdentityBearerTokenProvider
+  parent: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  children:
+  - Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.#ctor(Microsoft.Extensions.Options.IOptionsMonitor{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+  - Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.Dispose
+  - Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.GetAsync(Mcma.Azure.Client.AzureAD.AzureADAuthContext,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: AzureManagedIdentityBearerTokenProvider
+  nameWithType: AzureManagedIdentityBearerTokenProvider
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider
+  type: Class
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/AzureAD/ManagedIdentity/AzureManagedIdentityBearerTokenProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AzureManagedIdentityBearerTokenProvider
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/AzureAD/ManagedIdentity/AzureManagedIdentityBearerTokenProvider.cs
+    startLine: 9
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  syntax:
+    content: 'public class AzureManagedIdentityBearerTokenProvider : object, IBearerTokenProvider<AzureADAuthContext>, IDisposable'
+    content.vb: >-
+      Public Class AzureManagedIdentityBearerTokenProvider
+
+          Inherits Object
+
+          Implements IBearerTokenProvider(Of AzureADAuthContext), IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - Mcma.Client.AccessTokens.IBearerTokenProvider{Mcma.Azure.Client.AzureAD.AzureADAuthContext}
+  - System.IDisposable
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.#ctor(Microsoft.Extensions.Options.IOptionsMonitor{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+  commentId: M:Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.#ctor(Microsoft.Extensions.Options.IOptionsMonitor{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})
+  id: '#ctor(Microsoft.Extensions.Options.IOptionsMonitor{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions})'
+  parent: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider
+  langs:
+  - csharp
+  - vb
+  name: AzureManagedIdentityBearerTokenProvider(IOptionsMonitor<AzureManagedIdentityBearerTokenProviderOptions>)
+  nameWithType: AzureManagedIdentityBearerTokenProvider.AzureManagedIdentityBearerTokenProvider(IOptionsMonitor<AzureManagedIdentityBearerTokenProviderOptions>)
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.AzureManagedIdentityBearerTokenProvider(Microsoft.Extensions.Options.IOptionsMonitor<Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions>)
+  type: Constructor
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/AzureAD/ManagedIdentity/AzureManagedIdentityBearerTokenProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/AzureAD/ManagedIdentity/AzureManagedIdentityBearerTokenProvider.cs
+    startLine: 11
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  syntax:
+    content: public AzureManagedIdentityBearerTokenProvider(IOptionsMonitor<AzureManagedIdentityBearerTokenProviderOptions> optionsMonitor)
+    parameters:
+    - id: optionsMonitor
+      type: Microsoft.Extensions.Options.IOptionsMonitor{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions}
+    content.vb: Public Sub New(optionsMonitor As IOptionsMonitor(Of AzureManagedIdentityBearerTokenProviderOptions))
+  overload: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.#ctor*
+  nameWithType.vb: AzureManagedIdentityBearerTokenProvider.AzureManagedIdentityBearerTokenProvider(IOptionsMonitor(Of AzureManagedIdentityBearerTokenProviderOptions))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.AzureManagedIdentityBearerTokenProvider(Microsoft.Extensions.Options.IOptionsMonitor(Of Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions))
+  name.vb: AzureManagedIdentityBearerTokenProvider(IOptionsMonitor(Of AzureManagedIdentityBearerTokenProviderOptions))
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.GetAsync(Mcma.Azure.Client.AzureAD.AzureADAuthContext,System.Threading.CancellationToken)
+  commentId: M:Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.GetAsync(Mcma.Azure.Client.AzureAD.AzureADAuthContext,System.Threading.CancellationToken)
+  id: GetAsync(Mcma.Azure.Client.AzureAD.AzureADAuthContext,System.Threading.CancellationToken)
+  parent: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider
+  langs:
+  - csharp
+  - vb
+  name: GetAsync(AzureADAuthContext, CancellationToken)
+  nameWithType: AzureManagedIdentityBearerTokenProvider.GetAsync(AzureADAuthContext, CancellationToken)
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.GetAsync(Mcma.Azure.Client.AzureAD.AzureADAuthContext, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/AzureAD/ManagedIdentity/AzureManagedIdentityBearerTokenProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetAsync
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/AzureAD/ManagedIdentity/AzureManagedIdentityBearerTokenProvider.cs
+    startLine: 29
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  syntax:
+    content: public Task<BearerToken> GetAsync(AzureADAuthContext authContext, CancellationToken cancellationToken = null)
+    parameters:
+    - id: authContext
+      type: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{Mcma.Client.AccessTokens.BearerToken}
+    content.vb: Public Function GetAsync(authContext As AzureADAuthContext, cancellationToken As CancellationToken = Nothing) As Task(Of BearerToken)
+  overload: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.GetAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.Dispose
+  commentId: M:Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.Dispose
+  id: Dispose
+  parent: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: AzureManagedIdentityBearerTokenProvider.Dispose()
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/AzureAD/ManagedIdentity/AzureManagedIdentityBearerTokenProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Dispose
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/AzureAD/ManagedIdentity/AzureManagedIdentityBearerTokenProvider.cs
+    startLine: 46
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  commentId: N:Mcma.Azure.Client.AzureAD.ManagedIdentity
+  name: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  nameWithType: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Client.AccessTokens.IBearerTokenProvider{Mcma.Azure.Client.AzureAD.AzureADAuthContext}
+  commentId: T:Mcma.Client.AccessTokens.IBearerTokenProvider{Mcma.Azure.Client.AzureAD.AzureADAuthContext}
+  parent: Mcma.Client.AccessTokens
+  definition: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+  name: IBearerTokenProvider<AzureADAuthContext>
+  nameWithType: IBearerTokenProvider<AzureADAuthContext>
+  fullName: Mcma.Client.AccessTokens.IBearerTokenProvider<Mcma.Azure.Client.AzureAD.AzureADAuthContext>
+  nameWithType.vb: IBearerTokenProvider(Of AzureADAuthContext)
+  fullName.vb: Mcma.Client.AccessTokens.IBearerTokenProvider(Of Mcma.Azure.Client.AzureAD.AzureADAuthContext)
+  name.vb: IBearerTokenProvider(Of AzureADAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+    name: IBearerTokenProvider
+    nameWithType: IBearerTokenProvider
+    fullName: Mcma.Client.AccessTokens.IBearerTokenProvider
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+    name: AzureADAuthContext
+    nameWithType: AzureADAuthContext
+    fullName: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+    name: IBearerTokenProvider
+    nameWithType: IBearerTokenProvider
+    fullName: Mcma.Client.AccessTokens.IBearerTokenProvider
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+    name: AzureADAuthContext
+    nameWithType: AzureADAuthContext
+    fullName: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+  commentId: T:Mcma.Client.AccessTokens.IBearerTokenProvider`1
+  name: IBearerTokenProvider<TAuthContext>
+  nameWithType: IBearerTokenProvider<TAuthContext>
+  fullName: Mcma.Client.AccessTokens.IBearerTokenProvider<TAuthContext>
+  nameWithType.vb: IBearerTokenProvider(Of TAuthContext)
+  fullName.vb: Mcma.Client.AccessTokens.IBearerTokenProvider(Of TAuthContext)
+  name.vb: IBearerTokenProvider(Of TAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+    name: IBearerTokenProvider
+    nameWithType: IBearerTokenProvider
+    fullName: Mcma.Client.AccessTokens.IBearerTokenProvider
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+    name: IBearerTokenProvider
+    nameWithType: IBearerTokenProvider
+    fullName: Mcma.Client.AccessTokens.IBearerTokenProvider
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AccessTokens
+  commentId: N:Mcma.Client.AccessTokens
+  name: Mcma.Client.AccessTokens
+  nameWithType: Mcma.Client.AccessTokens
+  fullName: Mcma.Client.AccessTokens
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.#ctor*
+  commentId: Overload:Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.#ctor
+  name: AzureManagedIdentityBearerTokenProvider
+  nameWithType: AzureManagedIdentityBearerTokenProvider.AzureManagedIdentityBearerTokenProvider
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.AzureManagedIdentityBearerTokenProvider
+- uid: Microsoft.Extensions.Options.IOptionsMonitor{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions}
+  commentId: T:Microsoft.Extensions.Options.IOptionsMonitor{Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IOptionsMonitor`1
+  name: IOptionsMonitor<AzureManagedIdentityBearerTokenProviderOptions>
+  nameWithType: IOptionsMonitor<AzureManagedIdentityBearerTokenProviderOptions>
+  fullName: Microsoft.Extensions.Options.IOptionsMonitor<Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions>
+  nameWithType.vb: IOptionsMonitor(Of AzureManagedIdentityBearerTokenProviderOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptionsMonitor(Of Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions)
+  name.vb: IOptionsMonitor(Of AzureManagedIdentityBearerTokenProviderOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptionsMonitor`1
+    name: IOptionsMonitor
+    nameWithType: IOptionsMonitor
+    fullName: Microsoft.Extensions.Options.IOptionsMonitor
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+    name: AzureManagedIdentityBearerTokenProviderOptions
+    nameWithType: AzureManagedIdentityBearerTokenProviderOptions
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptionsMonitor`1
+    name: IOptionsMonitor
+    nameWithType: IOptionsMonitor
+    fullName: Microsoft.Extensions.Options.IOptionsMonitor
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+    name: AzureManagedIdentityBearerTokenProviderOptions
+    nameWithType: AzureManagedIdentityBearerTokenProviderOptions
+    fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options.IOptionsMonitor`1
+  commentId: T:Microsoft.Extensions.Options.IOptionsMonitor`1
+  isExternal: true
+  name: IOptionsMonitor<TOptions>
+  nameWithType: IOptionsMonitor<TOptions>
+  fullName: Microsoft.Extensions.Options.IOptionsMonitor<TOptions>
+  nameWithType.vb: IOptionsMonitor(Of TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptionsMonitor(Of TOptions)
+  name.vb: IOptionsMonitor(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptionsMonitor`1
+    name: IOptionsMonitor
+    nameWithType: IOptionsMonitor
+    fullName: Microsoft.Extensions.Options.IOptionsMonitor
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptionsMonitor`1
+    name: IOptionsMonitor
+    nameWithType: IOptionsMonitor
+    fullName: Microsoft.Extensions.Options.IOptionsMonitor
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: true
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.GetAsync*
+  commentId: Overload:Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.GetAsync
+  name: GetAsync
+  nameWithType: AzureManagedIdentityBearerTokenProvider.GetAsync
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.GetAsync
+- uid: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+  commentId: T:Mcma.Azure.Client.AzureAD.AzureADAuthContext
+  parent: Mcma.Azure.Client.AzureAD
+  name: AzureADAuthContext
+  nameWithType: AzureADAuthContext
+  fullName: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{Mcma.Client.AccessTokens.BearerToken}
+  commentId: T:System.Threading.Tasks.Task{Mcma.Client.AccessTokens.BearerToken}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<BearerToken>
+  nameWithType: Task<BearerToken>
+  fullName: System.Threading.Tasks.Task<Mcma.Client.AccessTokens.BearerToken>
+  nameWithType.vb: Task(Of BearerToken)
+  fullName.vb: System.Threading.Tasks.Task(Of Mcma.Client.AccessTokens.BearerToken)
+  name.vb: Task(Of BearerToken)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Client.AccessTokens.BearerToken
+    name: BearerToken
+    nameWithType: BearerToken
+    fullName: Mcma.Client.AccessTokens.BearerToken
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Client.AccessTokens.BearerToken
+    name: BearerToken
+    nameWithType: BearerToken
+    fullName: Mcma.Client.AccessTokens.BearerToken
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Azure.Client.AzureAD
+  commentId: N:Mcma.Azure.Client.AzureAD
+  name: Mcma.Azure.Client.AzureAD
+  nameWithType: Mcma.Azure.Client.AzureAD
+  fullName: Mcma.Azure.Client.AzureAD
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.Dispose*
+  commentId: Overload:Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.Dispose
+  name: Dispose
+  nameWithType: AzureManagedIdentityBearerTokenProvider.Dispose
+  fullName: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider.Dispose

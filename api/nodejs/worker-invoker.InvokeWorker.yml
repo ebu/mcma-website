@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: worker-invoker.InvokeWorker
+    name: InvokeWorker
+    fullName: InvokeWorker
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type InvokeWorker = (workerFunctionId: string, workerRequest:
+        WorkerRequestProperties) => Promise<void>
+    package: worker-invoker

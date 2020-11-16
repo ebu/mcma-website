@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: worker.JobProfileHandler
+    name: JobProfileHandler
+    fullName: JobProfileHandler<T>
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type JobProfileHandler<T> = (providers: ProviderCollection,
+        workerJobHelper: ProcessJobAssignmentHelper<T>, ctx: any) =>
+        Promise<void>
+    package: worker

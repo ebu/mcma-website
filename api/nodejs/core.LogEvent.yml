@@ -1,0 +1,206 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.LogEvent
+    name: LogEvent
+    fullName: LogEvent
+    children:
+      - core.LogEvent.flatten
+      - core.LogEvent.level
+      - core.LogEvent.constructor
+      - core.LogEvent.message
+      - core.LogEvent.requestId
+      - core.LogEvent.source
+      - core.LogEvent.timestamp
+      - core.LogEvent.toString
+      - core.LogEvent.tracker
+      - core.LogEvent.type
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: core
+  - uid: core.LogEvent.flatten
+    name: flatten()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function flatten()
+      parameters: []
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: core
+  - uid: core.LogEvent.level
+    name: level
+    fullName: level
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public level: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: core
+  - uid: core.LogEvent.constructor
+    name: 'LogEvent(string, number, string, string, Date, any, McmaTrackerProperties)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new LogEvent(type: string, level: number, source: string, requestId:
+        string, timestamp: Date, message: any, tracker?: McmaTrackerProperties)
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+        - id: level
+          type:
+            - number
+          description: ''
+        - id: source
+          type:
+            - string
+          description: ''
+        - id: requestId
+          type:
+            - string
+          description: ''
+        - id: timestamp
+          type:
+            - Date
+          description: ''
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: tracker
+          type:
+            - core.McmaTrackerProperties
+          description: ''
+          optional: true
+    package: core
+  - uid: core.LogEvent.message
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public message: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: core
+  - uid: core.LogEvent.requestId
+    name: requestId
+    fullName: requestId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public requestId: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.LogEvent.source
+    name: source
+    fullName: source
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public source: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.LogEvent.timestamp
+    name: timestamp
+    fullName: timestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public timestamp: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.LogEvent.toString
+    name: toString()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toString()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.LogEvent.tracker
+    name: tracker
+    fullName: tracker
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'public tracker?: McmaTrackerProperties'
+      return:
+        type:
+          - core.McmaTrackerProperties
+        description: ''
+    package: core
+  - uid: core.LogEvent.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+references:
+  - uid: core.McmaTrackerProperties
+    name: McmaTrackerProperties
+    spec.typeScript:
+      - name: McmaTrackerProperties
+        fullName: McmaTrackerProperties
+        uid: core.McmaTrackerProperties

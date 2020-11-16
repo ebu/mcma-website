@@ -1,0 +1,630 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController
+  commentId: T:Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController
+  id: HttpFunctionApiController
+  parent: Mcma.GoogleCloud.HttpFunctionsApi
+  children:
+  - Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController.#ctor(Mcma.Api.IMcmaApiController,Mcma.Logging.ILoggerProvider)
+  - Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  langs:
+  - csharp
+  - vb
+  name: HttpFunctionApiController
+  nameWithType: HttpFunctionApiController
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController
+  type: Class
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.HttpFunctionsApi/HttpFunctionApiController.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: HttpFunctionApiController
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.HttpFunctionsApi/HttpFunctionApiController.cs
+    startLine: 8
+  assemblies:
+  - Mcma.GoogleCloud.HttpFunctionsApi
+  namespace: Mcma.GoogleCloud.HttpFunctionsApi
+  syntax:
+    content: 'public class HttpFunctionApiController : IHttpFunctionApiController'
+    content.vb: >-
+      Public Class HttpFunctionApiController
+
+          Implements IHttpFunctionApiController
+  inheritance:
+  - System.Object
+  implements:
+  - Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController.#ctor(Mcma.Api.IMcmaApiController,Mcma.Logging.ILoggerProvider)
+  commentId: M:Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController.#ctor(Mcma.Api.IMcmaApiController,Mcma.Logging.ILoggerProvider)
+  id: '#ctor(Mcma.Api.IMcmaApiController,Mcma.Logging.ILoggerProvider)'
+  parent: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController
+  langs:
+  - csharp
+  - vb
+  name: HttpFunctionApiController(IMcmaApiController, ILoggerProvider)
+  nameWithType: HttpFunctionApiController.HttpFunctionApiController(IMcmaApiController, ILoggerProvider)
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController.HttpFunctionApiController(Mcma.Api.IMcmaApiController, Mcma.Logging.ILoggerProvider)
+  type: Constructor
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.HttpFunctionsApi/HttpFunctionApiController.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.HttpFunctionsApi/HttpFunctionApiController.cs
+    startLine: 10
+  assemblies:
+  - Mcma.GoogleCloud.HttpFunctionsApi
+  namespace: Mcma.GoogleCloud.HttpFunctionsApi
+  syntax:
+    content: public HttpFunctionApiController(IMcmaApiController controller, ILoggerProvider loggerProvider)
+    parameters:
+    - id: controller
+      type: Mcma.Api.IMcmaApiController
+    - id: loggerProvider
+      type: Mcma.Logging.ILoggerProvider
+    content.vb: Public Sub New(controller As IMcmaApiController, loggerProvider As ILoggerProvider)
+  overload: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  commentId: M:Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  id: HandleRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  parent: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController
+  langs:
+  - csharp
+  - vb
+  name: HandleRequestAsync(HttpContext)
+  nameWithType: HttpFunctionApiController.HandleRequestAsync(HttpContext)
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.HttpFunctionsApi/HttpFunctionApiController.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: HandleRequestAsync
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.HttpFunctionsApi/HttpFunctionApiController.cs
+    startLine: 20
+  assemblies:
+  - Mcma.GoogleCloud.HttpFunctionsApi
+  namespace: Mcma.GoogleCloud.HttpFunctionsApi
+  syntax:
+    content: public Task HandleRequestAsync(HttpContext httpContext)
+    parameters:
+    - id: httpContext
+      type: Microsoft.AspNetCore.Http.HttpContext
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function HandleRequestAsync(httpContext As HttpContext) As Task
+  overload: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController.HandleRequestAsync*
+  implements:
+  - Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.GoogleCloud.HttpFunctionsApi
+  commentId: N:Mcma.GoogleCloud.HttpFunctionsApi
+  name: Mcma.GoogleCloud.HttpFunctionsApi
+  nameWithType: Mcma.GoogleCloud.HttpFunctionsApi
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController
+  commentId: T:Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController
+  parent: Mcma.GoogleCloud.HttpFunctionsApi
+  name: IHttpFunctionApiController
+  nameWithType: IHttpFunctionApiController
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController.#ctor*
+  commentId: Overload:Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController.#ctor
+  name: HttpFunctionApiController
+  nameWithType: HttpFunctionApiController.HttpFunctionApiController
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController.HttpFunctionApiController
+- uid: Mcma.Api.IMcmaApiController
+  commentId: T:Mcma.Api.IMcmaApiController
+  parent: Mcma.Api
+  name: IMcmaApiController
+  nameWithType: IMcmaApiController
+  fullName: Mcma.Api.IMcmaApiController
+- uid: Mcma.Logging.ILoggerProvider
+  commentId: T:Mcma.Logging.ILoggerProvider
+  parent: Mcma.Logging
+  name: ILoggerProvider
+  nameWithType: ILoggerProvider
+  fullName: Mcma.Logging.ILoggerProvider
+- uid: Mcma.Api
+  commentId: N:Mcma.Api
+  name: Mcma.Api
+  nameWithType: Mcma.Api
+  fullName: Mcma.Api
+- uid: Mcma.Logging
+  commentId: N:Mcma.Logging
+  name: Mcma.Logging
+  nameWithType: Mcma.Logging
+  fullName: Mcma.Logging
+- uid: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController.HandleRequestAsync*
+  commentId: Overload:Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController.HandleRequestAsync
+  name: HandleRequestAsync
+  nameWithType: HttpFunctionApiController.HandleRequestAsync
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController.HandleRequestAsync
+- uid: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  commentId: M:Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  parent: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController
+  isExternal: true
+  name: HandleRequestAsync(HttpContext)
+  nameWithType: IHttpFunctionApiController.HandleRequestAsync(HttpContext)
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+    name: HandleRequestAsync
+    nameWithType: IHttpFunctionApiController.HandleRequestAsync
+    fullName: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController.HandleRequestAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Http.HttpContext
+    name: HttpContext
+    nameWithType: HttpContext
+    fullName: Microsoft.AspNetCore.Http.HttpContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+    name: HandleRequestAsync
+    nameWithType: IHttpFunctionApiController.HandleRequestAsync
+    fullName: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController.HandleRequestAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Http.HttpContext
+    name: HttpContext
+    nameWithType: HttpContext
+    fullName: Microsoft.AspNetCore.Http.HttpContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Http.HttpContext
+  commentId: T:Microsoft.AspNetCore.Http.HttpContext
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: HttpContext
+  nameWithType: HttpContext
+  fullName: Microsoft.AspNetCore.Http.HttpContext
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: true
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

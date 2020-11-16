@@ -1,0 +1,230 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1
+  commentId: T:Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1
+  id: IMcmaLambdaFunctionHandler`1
+  parent: Mcma.Aws.Functions
+  children:
+  - Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1.ExecuteAsync(`0,Amazon.Lambda.Core.ILambdaContext)
+  langs:
+  - csharp
+  - vb
+  name: IMcmaLambdaFunctionHandler<TInput>
+  nameWithType: IMcmaLambdaFunctionHandler<TInput>
+  fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler<TInput>
+  type: Interface
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Functions/IMcmaLambdaFunctionHandler.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IMcmaLambdaFunctionHandler
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Functions/IMcmaLambdaFunctionHandler.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Aws.Functions
+  namespace: Mcma.Aws.Functions
+  syntax:
+    content: public interface IMcmaLambdaFunctionHandler<in TInput>
+    typeParameters:
+    - id: TInput
+    content.vb: Public Interface IMcmaLambdaFunctionHandler(Of In TInput)
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  nameWithType.vb: IMcmaLambdaFunctionHandler(Of TInput)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler(Of TInput)
+  name.vb: IMcmaLambdaFunctionHandler(Of TInput)
+- uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1.ExecuteAsync(`0,Amazon.Lambda.Core.ILambdaContext)
+  commentId: M:Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1.ExecuteAsync(`0,Amazon.Lambda.Core.ILambdaContext)
+  id: ExecuteAsync(`0,Amazon.Lambda.Core.ILambdaContext)
+  parent: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1
+  langs:
+  - csharp
+  - vb
+  name: ExecuteAsync(TInput, ILambdaContext)
+  nameWithType: IMcmaLambdaFunctionHandler<TInput>.ExecuteAsync(TInput, ILambdaContext)
+  fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler<TInput>.ExecuteAsync(TInput, Amazon.Lambda.Core.ILambdaContext)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Functions/IMcmaLambdaFunctionHandler.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ExecuteAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Functions/IMcmaLambdaFunctionHandler.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Aws.Functions
+  namespace: Mcma.Aws.Functions
+  syntax:
+    content: Task ExecuteAsync(TInput input, ILambdaContext context)
+    parameters:
+    - id: input
+      type: '{TInput}'
+    - id: context
+      type: Amazon.Lambda.Core.ILambdaContext
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ExecuteAsync(input As TInput, context As ILambdaContext) As Task
+  overload: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1.ExecuteAsync*
+  nameWithType.vb: IMcmaLambdaFunctionHandler(Of TInput).ExecuteAsync(TInput, ILambdaContext)
+  fullName.vb: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler(Of TInput).ExecuteAsync(TInput, Amazon.Lambda.Core.ILambdaContext)
+references:
+- uid: Mcma.Aws.Functions
+  commentId: N:Mcma.Aws.Functions
+  name: Mcma.Aws.Functions
+  nameWithType: Mcma.Aws.Functions
+  fullName: Mcma.Aws.Functions
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1.ExecuteAsync*
+  commentId: Overload:Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1.ExecuteAsync
+  name: ExecuteAsync
+  nameWithType: IMcmaLambdaFunctionHandler<TInput>.ExecuteAsync
+  fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler<TInput>.ExecuteAsync
+  nameWithType.vb: IMcmaLambdaFunctionHandler(Of TInput).ExecuteAsync
+  fullName.vb: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler(Of TInput).ExecuteAsync
+- uid: '{TInput}'
+  commentId: '!:TInput'
+  definition: TInput
+  name: TInput
+  nameWithType: TInput
+  fullName: TInput
+- uid: Amazon.Lambda.Core.ILambdaContext
+  commentId: T:Amazon.Lambda.Core.ILambdaContext
+  parent: Amazon.Lambda.Core
+  isExternal: true
+  name: ILambdaContext
+  nameWithType: ILambdaContext
+  fullName: Amazon.Lambda.Core.ILambdaContext
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: TInput
+  name: TInput
+  nameWithType: TInput
+  fullName: TInput
+- uid: Amazon.Lambda.Core
+  commentId: N:Amazon.Lambda.Core
+  isExternal: true
+  name: Amazon.Lambda.Core
+  nameWithType: Amazon.Lambda.Core
+  fullName: Amazon.Lambda.Core
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

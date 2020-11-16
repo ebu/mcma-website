@@ -1,0 +1,539 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions
+  commentId: T:Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions
+  id: AwsAuthenticatorRegistryExtensions
+  parent: Mcma.Aws.Client
+  children:
+  - Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  - Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  langs:
+  - csharp
+  - vb
+  name: AwsAuthenticatorRegistryExtensions
+  nameWithType: AwsAuthenticatorRegistryExtensions
+  fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions
+  type: Class
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsAuthenticatorRegistryExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AwsAuthenticatorRegistryExtensions
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsAuthenticatorRegistryExtensions.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public static class AwsAuthenticatorRegistryExtensions
+    content.vb: Public Module AwsAuthenticatorRegistryExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  commentId: M:Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  id: AddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  isExtensionMethod: true
+  parent: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddAws4Auth(AuthenticatorRegistry, Action<Aws4AuthenticatorFactoryOptions>)
+  nameWithType: AwsAuthenticatorRegistryExtensions.AddAws4Auth(AuthenticatorRegistry, Action<Aws4AuthenticatorFactoryOptions>)
+  fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(Mcma.Client.AuthenticatorRegistry, System.Action<Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions>)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsAuthenticatorRegistryExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AddAws4Auth
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsAuthenticatorRegistryExtensions.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public static AuthenticatorRegistry AddAws4Auth(this AuthenticatorRegistry authenticatorRegistry, Action<Aws4AuthenticatorFactoryOptions> configureOptions = null)
+    parameters:
+    - id: authenticatorRegistry
+      type: Mcma.Client.AuthenticatorRegistry
+    - id: configureOptions
+      type: System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions}
+    return:
+      type: Mcma.Client.AuthenticatorRegistry
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddAws4Auth(authenticatorRegistry As AuthenticatorRegistry, configureOptions As Action(Of Aws4AuthenticatorFactoryOptions) = Nothing) As AuthenticatorRegistry
+  overload: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth*
+  nameWithType.vb: AwsAuthenticatorRegistryExtensions.AddAws4Auth(AuthenticatorRegistry, Action(Of Aws4AuthenticatorFactoryOptions))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth(Mcma.Client.AuthenticatorRegistry, System.Action(Of Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions))
+  name.vb: AddAws4Auth(AuthenticatorRegistry, Action(Of Aws4AuthenticatorFactoryOptions))
+- uid: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  commentId: M:Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  id: TryAddAws4Auth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions})
+  isExtensionMethod: true
+  parent: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryAddAws4Auth(AuthenticatorRegistry, Action<Aws4AuthenticatorFactoryOptions>)
+  nameWithType: AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(AuthenticatorRegistry, Action<Aws4AuthenticatorFactoryOptions>)
+  fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(Mcma.Client.AuthenticatorRegistry, System.Action<Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions>)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsAuthenticatorRegistryExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: TryAddAws4Auth
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsAuthenticatorRegistryExtensions.cs
+    startLine: 17
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public static AuthenticatorRegistry TryAddAws4Auth(this AuthenticatorRegistry authenticatorRegistry, Action<Aws4AuthenticatorFactoryOptions> configureOptions = null)
+    parameters:
+    - id: authenticatorRegistry
+      type: Mcma.Client.AuthenticatorRegistry
+    - id: configureOptions
+      type: System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions}
+    return:
+      type: Mcma.Client.AuthenticatorRegistry
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryAddAws4Auth(authenticatorRegistry As AuthenticatorRegistry, configureOptions As Action(Of Aws4AuthenticatorFactoryOptions) = Nothing) As AuthenticatorRegistry
+  overload: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth*
+  nameWithType.vb: AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(AuthenticatorRegistry, Action(Of Aws4AuthenticatorFactoryOptions))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth(Mcma.Client.AuthenticatorRegistry, System.Action(Of Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions))
+  name.vb: TryAddAws4Auth(AuthenticatorRegistry, Action(Of Aws4AuthenticatorFactoryOptions))
+references:
+- uid: Mcma.Aws.Client
+  commentId: N:Mcma.Aws.Client
+  name: Mcma.Aws.Client
+  nameWithType: Mcma.Aws.Client
+  fullName: Mcma.Aws.Client
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth*
+  commentId: Overload:Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth
+  name: AddAws4Auth
+  nameWithType: AwsAuthenticatorRegistryExtensions.AddAws4Auth
+  fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.AddAws4Auth
+- uid: Mcma.Client.AuthenticatorRegistry
+  commentId: T:Mcma.Client.AuthenticatorRegistry
+  parent: Mcma.Client
+  name: AuthenticatorRegistry
+  nameWithType: AuthenticatorRegistry
+  fullName: Mcma.Client.AuthenticatorRegistry
+- uid: System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions}
+  commentId: T:System.Action{Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions}
+  parent: System
+  definition: System.Action`1
+  name: Action<Aws4AuthenticatorFactoryOptions>
+  nameWithType: Action<Aws4AuthenticatorFactoryOptions>
+  fullName: System.Action<Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions>
+  nameWithType.vb: Action(Of Aws4AuthenticatorFactoryOptions)
+  fullName.vb: System.Action(Of Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions)
+  name.vb: Action(Of Aws4AuthenticatorFactoryOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+    name: Aws4AuthenticatorFactoryOptions
+    nameWithType: Aws4AuthenticatorFactoryOptions
+    fullName: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+    name: Aws4AuthenticatorFactoryOptions
+    nameWithType: Aws4AuthenticatorFactoryOptions
+    fullName: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client
+  commentId: N:Mcma.Client
+  name: Mcma.Client
+  nameWithType: Mcma.Client
+  fullName: Mcma.Client
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth*
+  commentId: Overload:Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth
+  name: TryAddAws4Auth
+  nameWithType: AwsAuthenticatorRegistryExtensions.TryAddAws4Auth
+  fullName: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions.TryAddAws4Auth

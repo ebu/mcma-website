@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.onResourceUpsert
+    name: 'onResourceUpsert(McmaResourceProperties, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onResourceUpsert(resource: McmaResourceProperties, id: string)'
+      parameters:
+        - id: resource
+          type:
+            - core.McmaResourceProperties
+          description: ''
+        - id: id
+          type:
+            - string
+          description: ''
+    package: core
+references:
+  - uid: core.McmaResourceProperties
+    name: McmaResourceProperties
+    spec.typeScript:
+      - name: McmaResourceProperties
+        fullName: McmaResourceProperties
+        uid: core.McmaResourceProperties

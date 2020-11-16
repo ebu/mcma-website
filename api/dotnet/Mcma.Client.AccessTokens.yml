@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Client.AccessTokens
+  commentId: N:Mcma.Client.AccessTokens
+  id: Mcma.Client.AccessTokens
+  children:
+  - Mcma.Client.AccessTokens.BearerToken
+  - Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions
+  - Mcma.Client.AccessTokens.IBearerTokenProvider`1
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Client.AccessTokens
+  nameWithType: Mcma.Client.AccessTokens
+  fullName: Mcma.Client.AccessTokens
+  type: Namespace
+  assemblies:
+  - Mcma.Client
+references:
+- uid: Mcma.Client.AccessTokens.BearerToken
+  commentId: T:Mcma.Client.AccessTokens.BearerToken
+  parent: Mcma.Client.AccessTokens
+  name: BearerToken
+  nameWithType: BearerToken
+  fullName: Mcma.Client.AccessTokens.BearerToken
+- uid: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions
+  commentId: T:Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions
+  parent: Mcma.Client.AccessTokens
+  name: BearerTokenAuthenticatorRegistryExtensions
+  nameWithType: BearerTokenAuthenticatorRegistryExtensions
+  fullName: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions
+- uid: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+  commentId: T:Mcma.Client.AccessTokens.IBearerTokenProvider`1
+  name: IBearerTokenProvider<TAuthContext>
+  nameWithType: IBearerTokenProvider<TAuthContext>
+  fullName: Mcma.Client.AccessTokens.IBearerTokenProvider<TAuthContext>
+  nameWithType.vb: IBearerTokenProvider(Of TAuthContext)
+  fullName.vb: Mcma.Client.AccessTokens.IBearerTokenProvider(Of TAuthContext)
+  name.vb: IBearerTokenProvider(Of TAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+    name: IBearerTokenProvider
+    nameWithType: IBearerTokenProvider
+    fullName: Mcma.Client.AccessTokens.IBearerTokenProvider
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+    name: IBearerTokenProvider
+    nameWithType: IBearerTokenProvider
+    fullName: Mcma.Client.AccessTokens.IBearerTokenProvider
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AccessTokens
+  commentId: N:Mcma.Client.AccessTokens
+  name: Mcma.Client.AccessTokens
+  nameWithType: Mcma.Client.AccessTokens
+  fullName: Mcma.Client.AccessTokens

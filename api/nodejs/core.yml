@@ -1,0 +1,169 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core
+    name: "@mcma/core"
+    summary: ""
+    children:
+      - core.ConfigVariables
+      - core.ConsoleLogger
+      - core.ConsoleLoggerProvider
+      - core.LogEvent
+      - core.LogLevel
+      - core.LogType
+      - core.Logger
+      - core.LoggerProvider
+      - core.McmaException
+      - core.JobAssignment
+      - core.JobAssignmentProperties
+      - core.JobBase
+      - core.JobBaseProperties
+      - core.JobExecution
+      - core.JobExecutionProperties
+      - core.JobParameter
+      - core.JobParameterProperties
+      - core.JobParameterBag
+      - core.JobProfile
+      - core.JobProfileProperties
+      - core.JobStatus
+      - core.AIJob
+      - core.AmeJob
+      - core.CaptureJob
+      - core.DistributionJob
+      - core.Job
+      - core.JobProperties
+      - core.QAJob
+      - core.TransferJob
+      - core.TransformJob
+      - core.WorkflowJob
+      - core.Locator
+      - core.LocatorProperties
+      - core.McmaObject
+      - core.McmaObjectProperties
+      - core.McmaResource
+      - core.McmaResourceProperties
+      - core.onResourceCreate
+      - core.onResourceUpsert
+      - core.McmaResourceConstructor
+      - core.McmaResourceType
+      - core.McmaTracker
+      - core.McmaTrackerProperties
+      - core.Notification
+      - core.NotificationProperties
+      - core.NotificationEndpoint
+      - core.NotificationEndpointProperties
+      - core.ProblemDetail
+      - core.ProblemDetailProperties
+      - core.ResourceEndpoint
+      - core.ResourceEndpointProperties
+      - core.Service
+      - core.ServiceProperties
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: core.ConfigVariables
+    name: ConfigVariables
+  - uid: core.ConsoleLogger
+    name: ConsoleLogger
+  - uid: core.ConsoleLoggerProvider
+    name: ConsoleLoggerProvider
+  - uid: core.LogEvent
+    name: LogEvent
+  - uid: core.LogLevel
+    name: LogLevel
+  - uid: core.LogType
+    name: LogType
+  - uid: core.Logger
+    name: Logger
+  - uid: core.LoggerProvider
+    name: LoggerProvider
+  - uid: core.McmaException
+    name: McmaException
+  - uid: core.JobAssignment
+    name: JobAssignment
+  - uid: core.JobAssignmentProperties
+    name: JobAssignmentProperties
+  - uid: core.JobBase
+    name: JobBase
+  - uid: core.JobBaseProperties
+    name: JobBaseProperties
+  - uid: core.JobExecution
+    name: JobExecution
+  - uid: core.JobExecutionProperties
+    name: JobExecutionProperties
+  - uid: core.JobParameter
+    name: JobParameter
+  - uid: core.JobParameterProperties
+    name: JobParameterProperties
+  - uid: core.JobParameterBag
+    name: JobParameterBag
+  - uid: core.JobProfile
+    name: JobProfile
+  - uid: core.JobProfileProperties
+    name: JobProfileProperties
+  - uid: core.JobStatus
+    name: JobStatus
+  - uid: core.AIJob
+    name: AIJob
+  - uid: core.AmeJob
+    name: AmeJob
+  - uid: core.CaptureJob
+    name: CaptureJob
+  - uid: core.DistributionJob
+    name: DistributionJob
+  - uid: core.Job
+    name: Job
+  - uid: core.JobProperties
+    name: JobProperties
+  - uid: core.QAJob
+    name: QAJob
+  - uid: core.TransferJob
+    name: TransferJob
+  - uid: core.TransformJob
+    name: TransformJob
+  - uid: core.WorkflowJob
+    name: WorkflowJob
+  - uid: core.Locator
+    name: Locator
+  - uid: core.LocatorProperties
+    name: LocatorProperties
+  - uid: core.McmaObject
+    name: McmaObject
+  - uid: core.McmaObjectProperties
+    name: McmaObjectProperties
+  - uid: core.McmaResource
+    name: McmaResource
+  - uid: core.McmaResourceProperties
+    name: McmaResourceProperties
+  - uid: core.onResourceCreate
+    name: onResourceCreate(McmaResourceProperties, string)
+  - uid: core.onResourceUpsert
+    name: onResourceUpsert(McmaResourceProperties, string)
+  - uid: core.McmaResourceConstructor
+    name: McmaResourceConstructor
+  - uid: core.McmaResourceType
+    name: McmaResourceType
+  - uid: core.McmaTracker
+    name: McmaTracker
+  - uid: core.McmaTrackerProperties
+    name: McmaTrackerProperties
+  - uid: core.Notification
+    name: Notification
+  - uid: core.NotificationProperties
+    name: NotificationProperties
+  - uid: core.NotificationEndpoint
+    name: NotificationEndpoint
+  - uid: core.NotificationEndpointProperties
+    name: NotificationEndpointProperties
+  - uid: core.ProblemDetail
+    name: ProblemDetail
+  - uid: core.ProblemDetailProperties
+    name: ProblemDetailProperties
+  - uid: core.ResourceEndpoint
+    name: ResourceEndpoint
+  - uid: core.ResourceEndpointProperties
+    name: ResourceEndpointProperties
+  - uid: core.Service
+    name: Service
+  - uid: core.ServiceProperties
+    name: ServiceProperties

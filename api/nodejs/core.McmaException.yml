@@ -1,0 +1,167 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.McmaException
+    name: McmaException
+    fullName: McmaException
+    children:
+      - core.McmaException.cause
+      - core.McmaException.context
+      - core.McmaException.Error
+      - core.McmaException.constructor
+      - core.McmaException.message
+      - core.McmaException.name
+      - core.McmaException.stack
+      - core.McmaException.toString
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: core.McmaException.Error
+    package: core
+  - uid: core.McmaException.cause
+    name: cause
+    fullName: cause
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'public cause?: McmaException'
+      return:
+        type:
+          - core.McmaException
+        description: ''
+    package: core
+  - uid: core.McmaException.context
+    name: context
+    fullName: context
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'public context?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: core
+  - uid: core.McmaException.Error
+    name: Error
+    fullName: Error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static Error: ErrorConstructor'
+      return:
+        type:
+          - ErrorConstructor
+        description: ''
+    package: core
+  - uid: core.McmaException.constructor
+    name: 'McmaException(string, McmaException, any)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new McmaException(message: string, cause?: McmaException, context?: any)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: ''
+        - id: cause
+          type:
+            - core.McmaException
+          description: ''
+          optional: true
+        - id: context
+          type:
+            - any
+          description: ''
+          optional: true
+    package: core
+  - uid: core.McmaException.message
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public message: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.McmaException.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.McmaException.stack
+    name: stack
+    fullName: stack
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'stack?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.McmaException.toString
+    name: toString()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toString()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+references:
+  - uid: core.McmaException.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: core.McmaException.Error
+  - uid: core.McmaException
+    name: McmaException
+    spec.typeScript:
+      - name: McmaException
+        fullName: McmaException
+        uid: core.McmaException

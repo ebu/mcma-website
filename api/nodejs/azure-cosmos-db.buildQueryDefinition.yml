@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-cosmos-db.buildQueryDefinition
+    name: 'buildQueryDefinition(Query<TDocument>, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function buildQueryDefinition<TDocument>(query: Query<TDocument>,
+        partitionKeyName: string)
+      parameters:
+        - id: query
+          type:
+            - Query<TDocument>
+          description: ''
+        - id: partitionKeyName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - SqlQuerySpec
+        description: ''
+    package: azure-cosmos-db

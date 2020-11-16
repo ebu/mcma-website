@@ -1,0 +1,928 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.Client.AwsConstants.Regions
+  commentId: T:Mcma.Aws.Client.AwsConstants.Regions
+  id: AwsConstants.Regions
+  parent: Mcma.Aws.Client
+  children:
+  - Mcma.Aws.Client.AwsConstants.Regions.ApNortheast1
+  - Mcma.Aws.Client.AwsConstants.Regions.ApNortheast2
+  - Mcma.Aws.Client.AwsConstants.Regions.ApSouth1
+  - Mcma.Aws.Client.AwsConstants.Regions.ApSoutheast1
+  - Mcma.Aws.Client.AwsConstants.Regions.ApSoutheast2
+  - Mcma.Aws.Client.AwsConstants.Regions.CaCentral1
+  - Mcma.Aws.Client.AwsConstants.Regions.CnNorth1
+  - Mcma.Aws.Client.AwsConstants.Regions.EuCentral1
+  - Mcma.Aws.Client.AwsConstants.Regions.EuWest1
+  - Mcma.Aws.Client.AwsConstants.Regions.EuWest2
+  - Mcma.Aws.Client.AwsConstants.Regions.EuWest3
+  - Mcma.Aws.Client.AwsConstants.Regions.SaEast1
+  - Mcma.Aws.Client.AwsConstants.Regions.UsEast1
+  - Mcma.Aws.Client.AwsConstants.Regions.UsEast2
+  - Mcma.Aws.Client.AwsConstants.Regions.UsGovWest1
+  - Mcma.Aws.Client.AwsConstants.Regions.UsWest1
+  - Mcma.Aws.Client.AwsConstants.Regions.UsWest2
+  langs:
+  - csharp
+  - vb
+  name: AwsConstants.Regions
+  nameWithType: AwsConstants.Regions
+  fullName: Mcma.Aws.Client.AwsConstants.Regions
+  type: Class
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Regions
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public static class Regions
+    content.vb: Public Module Regions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.Aws.Client.AwsConstants.Regions.UsEast1
+  commentId: F:Mcma.Aws.Client.AwsConstants.Regions.UsEast1
+  id: UsEast1
+  parent: Mcma.Aws.Client.AwsConstants.Regions
+  langs:
+  - csharp
+  - vb
+  name: UsEast1
+  nameWithType: AwsConstants.Regions.UsEast1
+  fullName: Mcma.Aws.Client.AwsConstants.Regions.UsEast1
+  type: Field
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: UsEast1
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public const string UsEast1 = "us-east-1"
+    return:
+      type: System.String
+    content.vb: Public Const UsEast1 As String = "us-east-1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Aws.Client.AwsConstants.Regions.UsEast2
+  commentId: F:Mcma.Aws.Client.AwsConstants.Regions.UsEast2
+  id: UsEast2
+  parent: Mcma.Aws.Client.AwsConstants.Regions
+  langs:
+  - csharp
+  - vb
+  name: UsEast2
+  nameWithType: AwsConstants.Regions.UsEast2
+  fullName: Mcma.Aws.Client.AwsConstants.Regions.UsEast2
+  type: Field
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: UsEast2
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 11
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public const string UsEast2 = "us-east-2"
+    return:
+      type: System.String
+    content.vb: Public Const UsEast2 As String = "us-east-2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Aws.Client.AwsConstants.Regions.UsWest1
+  commentId: F:Mcma.Aws.Client.AwsConstants.Regions.UsWest1
+  id: UsWest1
+  parent: Mcma.Aws.Client.AwsConstants.Regions
+  langs:
+  - csharp
+  - vb
+  name: UsWest1
+  nameWithType: AwsConstants.Regions.UsWest1
+  fullName: Mcma.Aws.Client.AwsConstants.Regions.UsWest1
+  type: Field
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: UsWest1
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public const string UsWest1 = "us-west-1"
+    return:
+      type: System.String
+    content.vb: Public Const UsWest1 As String = "us-west-1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Aws.Client.AwsConstants.Regions.UsWest2
+  commentId: F:Mcma.Aws.Client.AwsConstants.Regions.UsWest2
+  id: UsWest2
+  parent: Mcma.Aws.Client.AwsConstants.Regions
+  langs:
+  - csharp
+  - vb
+  name: UsWest2
+  nameWithType: AwsConstants.Regions.UsWest2
+  fullName: Mcma.Aws.Client.AwsConstants.Regions.UsWest2
+  type: Field
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: UsWest2
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 13
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public const string UsWest2 = "us-west-2"
+    return:
+      type: System.String
+    content.vb: Public Const UsWest2 As String = "us-west-2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Aws.Client.AwsConstants.Regions.ApSouth1
+  commentId: F:Mcma.Aws.Client.AwsConstants.Regions.ApSouth1
+  id: ApSouth1
+  parent: Mcma.Aws.Client.AwsConstants.Regions
+  langs:
+  - csharp
+  - vb
+  name: ApSouth1
+  nameWithType: AwsConstants.Regions.ApSouth1
+  fullName: Mcma.Aws.Client.AwsConstants.Regions.ApSouth1
+  type: Field
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ApSouth1
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 14
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public const string ApSouth1 = "ap-south-1"
+    return:
+      type: System.String
+    content.vb: Public Const ApSouth1 As String = "ap-south-1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Aws.Client.AwsConstants.Regions.ApNortheast1
+  commentId: F:Mcma.Aws.Client.AwsConstants.Regions.ApNortheast1
+  id: ApNortheast1
+  parent: Mcma.Aws.Client.AwsConstants.Regions
+  langs:
+  - csharp
+  - vb
+  name: ApNortheast1
+  nameWithType: AwsConstants.Regions.ApNortheast1
+  fullName: Mcma.Aws.Client.AwsConstants.Regions.ApNortheast1
+  type: Field
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ApNortheast1
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 15
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public const string ApNortheast1 = "ap-northeast-1"
+    return:
+      type: System.String
+    content.vb: Public Const ApNortheast1 As String = "ap-northeast-1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Aws.Client.AwsConstants.Regions.ApNortheast2
+  commentId: F:Mcma.Aws.Client.AwsConstants.Regions.ApNortheast2
+  id: ApNortheast2
+  parent: Mcma.Aws.Client.AwsConstants.Regions
+  langs:
+  - csharp
+  - vb
+  name: ApNortheast2
+  nameWithType: AwsConstants.Regions.ApNortheast2
+  fullName: Mcma.Aws.Client.AwsConstants.Regions.ApNortheast2
+  type: Field
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ApNortheast2
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 16
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public const string ApNortheast2 = "ap-northeast-2"
+    return:
+      type: System.String
+    content.vb: Public Const ApNortheast2 As String = "ap-northeast-2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Aws.Client.AwsConstants.Regions.ApSoutheast1
+  commentId: F:Mcma.Aws.Client.AwsConstants.Regions.ApSoutheast1
+  id: ApSoutheast1
+  parent: Mcma.Aws.Client.AwsConstants.Regions
+  langs:
+  - csharp
+  - vb
+  name: ApSoutheast1
+  nameWithType: AwsConstants.Regions.ApSoutheast1
+  fullName: Mcma.Aws.Client.AwsConstants.Regions.ApSoutheast1
+  type: Field
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ApSoutheast1
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 17
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public const string ApSoutheast1 = "ap-southeast-1"
+    return:
+      type: System.String
+    content.vb: Public Const ApSoutheast1 As String = "ap-southeast-1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Aws.Client.AwsConstants.Regions.ApSoutheast2
+  commentId: F:Mcma.Aws.Client.AwsConstants.Regions.ApSoutheast2
+  id: ApSoutheast2
+  parent: Mcma.Aws.Client.AwsConstants.Regions
+  langs:
+  - csharp
+  - vb
+  name: ApSoutheast2
+  nameWithType: AwsConstants.Regions.ApSoutheast2
+  fullName: Mcma.Aws.Client.AwsConstants.Regions.ApSoutheast2
+  type: Field
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ApSoutheast2
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 18
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public const string ApSoutheast2 = "ap-southeast-2"
+    return:
+      type: System.String
+    content.vb: Public Const ApSoutheast2 As String = "ap-southeast-2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Aws.Client.AwsConstants.Regions.CaCentral1
+  commentId: F:Mcma.Aws.Client.AwsConstants.Regions.CaCentral1
+  id: CaCentral1
+  parent: Mcma.Aws.Client.AwsConstants.Regions
+  langs:
+  - csharp
+  - vb
+  name: CaCentral1
+  nameWithType: AwsConstants.Regions.CaCentral1
+  fullName: Mcma.Aws.Client.AwsConstants.Regions.CaCentral1
+  type: Field
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: CaCentral1
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 19
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public const string CaCentral1 = "ca-central-1"
+    return:
+      type: System.String
+    content.vb: Public Const CaCentral1 As String = "ca-central-1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Aws.Client.AwsConstants.Regions.CnNorth1
+  commentId: F:Mcma.Aws.Client.AwsConstants.Regions.CnNorth1
+  id: CnNorth1
+  parent: Mcma.Aws.Client.AwsConstants.Regions
+  langs:
+  - csharp
+  - vb
+  name: CnNorth1
+  nameWithType: AwsConstants.Regions.CnNorth1
+  fullName: Mcma.Aws.Client.AwsConstants.Regions.CnNorth1
+  type: Field
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: CnNorth1
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 20
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public const string CnNorth1 = "cn-north-1"
+    return:
+      type: System.String
+    content.vb: Public Const CnNorth1 As String = "cn-north-1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Aws.Client.AwsConstants.Regions.EuCentral1
+  commentId: F:Mcma.Aws.Client.AwsConstants.Regions.EuCentral1
+  id: EuCentral1
+  parent: Mcma.Aws.Client.AwsConstants.Regions
+  langs:
+  - csharp
+  - vb
+  name: EuCentral1
+  nameWithType: AwsConstants.Regions.EuCentral1
+  fullName: Mcma.Aws.Client.AwsConstants.Regions.EuCentral1
+  type: Field
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: EuCentral1
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 21
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public const string EuCentral1 = "eu-central-1"
+    return:
+      type: System.String
+    content.vb: Public Const EuCentral1 As String = "eu-central-1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Aws.Client.AwsConstants.Regions.EuWest1
+  commentId: F:Mcma.Aws.Client.AwsConstants.Regions.EuWest1
+  id: EuWest1
+  parent: Mcma.Aws.Client.AwsConstants.Regions
+  langs:
+  - csharp
+  - vb
+  name: EuWest1
+  nameWithType: AwsConstants.Regions.EuWest1
+  fullName: Mcma.Aws.Client.AwsConstants.Regions.EuWest1
+  type: Field
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: EuWest1
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 22
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public const string EuWest1 = "eu-west-1"
+    return:
+      type: System.String
+    content.vb: Public Const EuWest1 As String = "eu-west-1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Aws.Client.AwsConstants.Regions.EuWest2
+  commentId: F:Mcma.Aws.Client.AwsConstants.Regions.EuWest2
+  id: EuWest2
+  parent: Mcma.Aws.Client.AwsConstants.Regions
+  langs:
+  - csharp
+  - vb
+  name: EuWest2
+  nameWithType: AwsConstants.Regions.EuWest2
+  fullName: Mcma.Aws.Client.AwsConstants.Regions.EuWest2
+  type: Field
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: EuWest2
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 23
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public const string EuWest2 = "eu-west-2"
+    return:
+      type: System.String
+    content.vb: Public Const EuWest2 As String = "eu-west-2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Aws.Client.AwsConstants.Regions.EuWest3
+  commentId: F:Mcma.Aws.Client.AwsConstants.Regions.EuWest3
+  id: EuWest3
+  parent: Mcma.Aws.Client.AwsConstants.Regions
+  langs:
+  - csharp
+  - vb
+  name: EuWest3
+  nameWithType: AwsConstants.Regions.EuWest3
+  fullName: Mcma.Aws.Client.AwsConstants.Regions.EuWest3
+  type: Field
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: EuWest3
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 24
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public const string EuWest3 = "eu-west-3"
+    return:
+      type: System.String
+    content.vb: Public Const EuWest3 As String = "eu-west-3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Aws.Client.AwsConstants.Regions.SaEast1
+  commentId: F:Mcma.Aws.Client.AwsConstants.Regions.SaEast1
+  id: SaEast1
+  parent: Mcma.Aws.Client.AwsConstants.Regions
+  langs:
+  - csharp
+  - vb
+  name: SaEast1
+  nameWithType: AwsConstants.Regions.SaEast1
+  fullName: Mcma.Aws.Client.AwsConstants.Regions.SaEast1
+  type: Field
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: SaEast1
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 25
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public const string SaEast1 = "sa-east-1"
+    return:
+      type: System.String
+    content.vb: Public Const SaEast1 As String = "sa-east-1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Aws.Client.AwsConstants.Regions.UsGovWest1
+  commentId: F:Mcma.Aws.Client.AwsConstants.Regions.UsGovWest1
+  id: UsGovWest1
+  parent: Mcma.Aws.Client.AwsConstants.Regions
+  langs:
+  - csharp
+  - vb
+  name: UsGovWest1
+  nameWithType: AwsConstants.Regions.UsGovWest1
+  fullName: Mcma.Aws.Client.AwsConstants.Regions.UsGovWest1
+  type: Field
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Client/AwsConstants.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: UsGovWest1
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Client/AwsConstants.cs
+    startLine: 26
+  assemblies:
+  - Mcma.Aws.Client
+  namespace: Mcma.Aws.Client
+  syntax:
+    content: public const string UsGovWest1 = "us-gov-west-1"
+    return:
+      type: System.String
+    content.vb: Public Const UsGovWest1 As String = "us-gov-west-1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Mcma.Aws.Client
+  commentId: N:Mcma.Aws.Client
+  name: Mcma.Aws.Client
+  nameWithType: Mcma.Aws.Client
+  fullName: Mcma.Aws.Client
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

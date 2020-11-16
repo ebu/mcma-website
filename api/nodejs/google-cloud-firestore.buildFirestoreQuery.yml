@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-firestore.buildFirestoreQuery
+    name: 'buildFirestoreQuery(FirestoreQuery<TDocument>, Query<TDocument>)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function buildFirestoreQuery<TDocument>(firestoreQuery:
+        FirestoreQuery<TDocument>, query: Query<TDocument>)
+      parameters:
+        - id: firestoreQuery
+          type:
+            - FirestoreQuery<TDocument>
+          description: ''
+        - id: query
+          type:
+            - Query<TDocument>
+          description: ''
+      return:
+        type:
+          - FirestoreQuery<TDocument>
+        description: ''
+    package: google-cloud-firestore

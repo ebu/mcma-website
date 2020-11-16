@@ -1,0 +1,609 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Utility.ExpressionExtensions
+  commentId: T:Mcma.Utility.ExpressionExtensions
+  id: ExpressionExtensions
+  parent: Mcma.Utility
+  children:
+  - Mcma.Utility.ExpressionExtensions.GetProperty``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  - Mcma.Utility.ExpressionExtensions.GetPropertyName``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  langs:
+  - csharp
+  - vb
+  name: ExpressionExtensions
+  nameWithType: ExpressionExtensions
+  fullName: Mcma.Utility.ExpressionExtensions
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/ExpressionExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ExpressionExtensions
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/ExpressionExtensions.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  syntax:
+    content: public static class ExpressionExtensions
+    content.vb: Public Module ExpressionExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.Utility.ExpressionExtensions.GetProperty``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  commentId: M:Mcma.Utility.ExpressionExtensions.GetProperty``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  id: GetProperty``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  isExtensionMethod: true
+  parent: Mcma.Utility.ExpressionExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetProperty<TObject>(Expression<Func<TObject, Object>>)
+  nameWithType: ExpressionExtensions.GetProperty<TObject>(Expression<Func<TObject, Object>>)
+  fullName: Mcma.Utility.ExpressionExtensions.GetProperty<TObject>(System.Linq.Expressions.Expression<System.Func<TObject, System.Object>>)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/ExpressionExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetProperty
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/ExpressionExtensions.cs
+    startLine: 15
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nGets the <xref href=\"System.Reflection.PropertyInfo\" data-throw-if-not-resolved=\"false\"></xref> referenced by an <xref href=\"System.Linq.Expressions.Expression%601\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public static PropertyInfo GetProperty<TObject>(this Expression<Func<TObject, object>> expression)
+    parameters:
+    - id: expression
+      type: System.Linq.Expressions.Expression{System.Func{{TObject},System.Object}}
+      description: The expression referencing a property
+    typeParameters:
+    - id: TObject
+      description: The type of object the expression references
+    return:
+      type: System.Reflection.PropertyInfo
+      description: The <xref href="System.Reflection.PropertyInfo" data-throw-if-not-resolved="false"></xref> for the referenced property
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetProperty(Of TObject)(expression As Expression(Of Func(Of TObject, Object))) As PropertyInfo
+  overload: Mcma.Utility.ExpressionExtensions.GetProperty*
+  exceptions:
+  - type: Mcma.McmaException
+    commentId: T:Mcma.McmaException
+    description: Thrown if the provided expression is not MemberExpression that references a property
+  nameWithType.vb: ExpressionExtensions.GetProperty(Of TObject)(Expression(Of Func(Of TObject, Object)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Utility.ExpressionExtensions.GetProperty(Of TObject)(System.Linq.Expressions.Expression(Of System.Func(Of TObject, System.Object)))
+  name.vb: GetProperty(Of TObject)(Expression(Of Func(Of TObject, Object)))
+- uid: Mcma.Utility.ExpressionExtensions.GetPropertyName``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  commentId: M:Mcma.Utility.ExpressionExtensions.GetPropertyName``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  id: GetPropertyName``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  isExtensionMethod: true
+  parent: Mcma.Utility.ExpressionExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetPropertyName<TObject>(Expression<Func<TObject, Object>>)
+  nameWithType: ExpressionExtensions.GetPropertyName<TObject>(Expression<Func<TObject, Object>>)
+  fullName: Mcma.Utility.ExpressionExtensions.GetPropertyName<TObject>(System.Linq.Expressions.Expression<System.Func<TObject, System.Object>>)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Utility/ExpressionExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetPropertyName
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Utility/ExpressionExtensions.cs
+    startLine: 37
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Utility
+  summary: "\nGets the name of a property referenced by an <xref href=\"System.Linq.Expressions.Expression%601\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public static string GetPropertyName<TObject>(this Expression<Func<TObject, object>> expression)
+    parameters:
+    - id: expression
+      type: System.Linq.Expressions.Expression{System.Func{{TObject},System.Object}}
+      description: The expression referencing a property
+    typeParameters:
+    - id: TObject
+      description: The type of object the expression references
+    return:
+      type: System.String
+      description: The name of the referenced property
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetPropertyName(Of TObject)(expression As Expression(Of Func(Of TObject, Object))) As String
+  overload: Mcma.Utility.ExpressionExtensions.GetPropertyName*
+  nameWithType.vb: ExpressionExtensions.GetPropertyName(Of TObject)(Expression(Of Func(Of TObject, Object)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Utility.ExpressionExtensions.GetPropertyName(Of TObject)(System.Linq.Expressions.Expression(Of System.Func(Of TObject, System.Object)))
+  name.vb: GetPropertyName(Of TObject)(Expression(Of Func(Of TObject, Object)))
+references:
+- uid: Mcma.Utility
+  commentId: N:Mcma.Utility
+  name: Mcma.Utility
+  nameWithType: Mcma.Utility
+  fullName: Mcma.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Reflection.PropertyInfo
+  commentId: T:System.Reflection.PropertyInfo
+  parent: System.Reflection
+  isExternal: true
+  name: PropertyInfo
+  nameWithType: PropertyInfo
+  fullName: System.Reflection.PropertyInfo
+- uid: System.Linq.Expressions.Expression`1
+  commentId: T:System.Linq.Expressions.Expression`1
+  isExternal: true
+  name: Expression<TDelegate>
+  nameWithType: Expression<TDelegate>
+  fullName: System.Linq.Expressions.Expression<TDelegate>
+  nameWithType.vb: Expression(Of TDelegate)
+  fullName.vb: System.Linq.Expressions.Expression(Of TDelegate)
+  name.vb: Expression(Of TDelegate)
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TDelegate
+    nameWithType: TDelegate
+    fullName: TDelegate
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TDelegate
+    nameWithType: TDelegate
+    fullName: TDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaException
+  commentId: T:Mcma.McmaException
+  name: McmaException
+  nameWithType: McmaException
+  fullName: Mcma.McmaException
+- uid: Mcma.Utility.ExpressionExtensions.GetProperty*
+  commentId: Overload:Mcma.Utility.ExpressionExtensions.GetProperty
+  name: GetProperty
+  nameWithType: ExpressionExtensions.GetProperty
+  fullName: Mcma.Utility.ExpressionExtensions.GetProperty
+- uid: System.Linq.Expressions.Expression{System.Func{{TObject},System.Object}}
+  commentId: T:System.Linq.Expressions.Expression{System.Func{``0,System.Object}}
+  parent: System.Linq.Expressions
+  definition: System.Linq.Expressions.Expression`1
+  name: Expression<Func<TObject, Object>>
+  nameWithType: Expression<Func<TObject, Object>>
+  fullName: System.Linq.Expressions.Expression<System.Func<TObject, System.Object>>
+  nameWithType.vb: Expression(Of Func(Of TObject, Object))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of TObject, System.Object))
+  name.vb: Expression(Of Func(Of TObject, Object))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TObject
+    nameWithType: TObject
+    fullName: TObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TObject
+    nameWithType: TObject
+    fullName: TObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+- uid: System.Linq.Expressions
+  commentId: N:System.Linq.Expressions
+  isExternal: true
+  name: System.Linq.Expressions
+  nameWithType: System.Linq.Expressions
+  fullName: System.Linq.Expressions
+- uid: Mcma.Utility.ExpressionExtensions.GetPropertyName*
+  commentId: Overload:Mcma.Utility.ExpressionExtensions.GetPropertyName
+  name: GetPropertyName
+  nameWithType: ExpressionExtensions.GetPropertyName
+  fullName: Mcma.Utility.ExpressionExtensions.GetPropertyName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

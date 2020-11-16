@@ -1,0 +1,451 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.JobStatus
+  commentId: T:Mcma.JobStatus
+  id: JobStatus
+  parent: Mcma
+  children:
+  - Mcma.JobStatus.Assigned
+  - Mcma.JobStatus.Canceled
+  - Mcma.JobStatus.Completed
+  - Mcma.JobStatus.Failed
+  - Mcma.JobStatus.New
+  - Mcma.JobStatus.Pending
+  - Mcma.JobStatus.Queued
+  - Mcma.JobStatus.Running
+  - Mcma.JobStatus.Scheduled
+  langs:
+  - csharp
+  - vb
+  name: JobStatus
+  nameWithType: JobStatus
+  fullName: Mcma.JobStatus
+  type: Enum
+  source:
+    remote:
+      path: Base/Mcma.Core/Model/JobStatus.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: JobStatus
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Model/JobStatus.cs
+    startLine: 5
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma
+  summary: "\nEnumeration of all the possible statuses an MCMA job might have\n"
+  example: []
+  syntax:
+    content: public enum JobStatus
+    content.vb: Public Enum JobStatus
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Mcma.JobStatus.New
+  commentId: F:Mcma.JobStatus.New
+  id: New
+  parent: Mcma.JobStatus
+  langs:
+  - csharp
+  - vb
+  name: New
+  nameWithType: JobStatus.New
+  fullName: Mcma.JobStatus.New
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Core/Model/JobStatus.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: New
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Model/JobStatus.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma
+  syntax:
+    content: New = 0
+    return:
+      type: Mcma.JobStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.JobStatus.Pending
+  commentId: F:Mcma.JobStatus.Pending
+  id: Pending
+  parent: Mcma.JobStatus
+  langs:
+  - csharp
+  - vb
+  name: Pending
+  nameWithType: JobStatus.Pending
+  fullName: Mcma.JobStatus.Pending
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Core/Model/JobStatus.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Pending
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Model/JobStatus.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma
+  syntax:
+    content: Pending = 1
+    return:
+      type: Mcma.JobStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.JobStatus.Assigned
+  commentId: F:Mcma.JobStatus.Assigned
+  id: Assigned
+  parent: Mcma.JobStatus
+  langs:
+  - csharp
+  - vb
+  name: Assigned
+  nameWithType: JobStatus.Assigned
+  fullName: Mcma.JobStatus.Assigned
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Core/Model/JobStatus.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Assigned
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Model/JobStatus.cs
+    startLine: 9
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma
+  syntax:
+    content: Assigned = 2
+    return:
+      type: Mcma.JobStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.JobStatus.Queued
+  commentId: F:Mcma.JobStatus.Queued
+  id: Queued
+  parent: Mcma.JobStatus
+  langs:
+  - csharp
+  - vb
+  name: Queued
+  nameWithType: JobStatus.Queued
+  fullName: Mcma.JobStatus.Queued
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Core/Model/JobStatus.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Queued
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Model/JobStatus.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma
+  syntax:
+    content: Queued = 3
+    return:
+      type: Mcma.JobStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.JobStatus.Scheduled
+  commentId: F:Mcma.JobStatus.Scheduled
+  id: Scheduled
+  parent: Mcma.JobStatus
+  langs:
+  - csharp
+  - vb
+  name: Scheduled
+  nameWithType: JobStatus.Scheduled
+  fullName: Mcma.JobStatus.Scheduled
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Core/Model/JobStatus.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Scheduled
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Model/JobStatus.cs
+    startLine: 11
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma
+  syntax:
+    content: Scheduled = 4
+    return:
+      type: Mcma.JobStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.JobStatus.Running
+  commentId: F:Mcma.JobStatus.Running
+  id: Running
+  parent: Mcma.JobStatus
+  langs:
+  - csharp
+  - vb
+  name: Running
+  nameWithType: JobStatus.Running
+  fullName: Mcma.JobStatus.Running
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Core/Model/JobStatus.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Running
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Model/JobStatus.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma
+  syntax:
+    content: Running = 5
+    return:
+      type: Mcma.JobStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.JobStatus.Completed
+  commentId: F:Mcma.JobStatus.Completed
+  id: Completed
+  parent: Mcma.JobStatus
+  langs:
+  - csharp
+  - vb
+  name: Completed
+  nameWithType: JobStatus.Completed
+  fullName: Mcma.JobStatus.Completed
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Core/Model/JobStatus.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Completed
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Model/JobStatus.cs
+    startLine: 13
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma
+  syntax:
+    content: Completed = 6
+    return:
+      type: Mcma.JobStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.JobStatus.Failed
+  commentId: F:Mcma.JobStatus.Failed
+  id: Failed
+  parent: Mcma.JobStatus
+  langs:
+  - csharp
+  - vb
+  name: Failed
+  nameWithType: JobStatus.Failed
+  fullName: Mcma.JobStatus.Failed
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Core/Model/JobStatus.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Failed
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Model/JobStatus.cs
+    startLine: 14
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma
+  syntax:
+    content: Failed = 7
+    return:
+      type: Mcma.JobStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.JobStatus.Canceled
+  commentId: F:Mcma.JobStatus.Canceled
+  id: Canceled
+  parent: Mcma.JobStatus
+  langs:
+  - csharp
+  - vb
+  name: Canceled
+  nameWithType: JobStatus.Canceled
+  fullName: Mcma.JobStatus.Canceled
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Core/Model/JobStatus.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Canceled
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Model/JobStatus.cs
+    startLine: 15
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma
+  syntax:
+    content: Canceled = 8
+    return:
+      type: Mcma.JobStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Mcma
+  commentId: N:Mcma
+  name: Mcma
+  nameWithType: Mcma
+  fullName: Mcma
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.JobStatus
+  commentId: T:Mcma.JobStatus
+  parent: Mcma
+  name: JobStatus
+  nameWithType: JobStatus
+  fullName: Mcma.JobStatus

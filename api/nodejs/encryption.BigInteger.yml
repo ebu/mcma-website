@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: encryption.BigInteger
+    name: 'BigInteger(any, any, any)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function BigInteger(a: any, b?: any, c?: any)'
+      parameters:
+        - id: a
+          type:
+            - any
+          description: ''
+        - id: b
+          type:
+            - any
+          description: ''
+          optional: true
+        - id: c
+          type:
+            - any
+          description: ''
+          optional: true
+    package: encryption

@@ -1,0 +1,150 @@
+### YamlMime:UniversalReference
+items:
+  - uid: api.DefaultUpdateRoute
+    name: DefaultUpdateRoute
+    fullName: DefaultUpdateRoute<T>
+    children:
+      - api.DefaultUpdateRoute.constructor
+      - api.DefaultUpdateRoute.handler
+      - api.DefaultUpdateRoute.httpMethod
+      - api.DefaultUpdateRoute.onCompleted
+      - api.DefaultUpdateRoute.onStarted
+      - api.DefaultUpdateRoute.path
+      - api.DefaultUpdateRoute.template
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: api.McmaApiRoute
+    package: api
+  - uid: api.DefaultUpdateRoute.constructor
+    name: 'DefaultUpdateRoute(DocumentDatabaseTableProvider, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new DefaultUpdateRoute(dbTableProvider: DocumentDatabaseTableProvider,
+        root: string)
+      parameters:
+        - id: dbTableProvider
+          type:
+            - DocumentDatabaseTableProvider
+          description: ''
+        - id: root
+          type:
+            - string
+          description: ''
+    package: api
+  - uid: api.DefaultUpdateRoute.handler
+    name: handler
+    fullName: handler
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public handler: McmaApiRouteHandler'
+      return:
+        type:
+          - api.McmaApiRouteHandler
+        description: ''
+    package: api
+  - uid: api.DefaultUpdateRoute.httpMethod
+    name: httpMethod
+    fullName: httpMethod
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public httpMethod: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: api
+  - uid: api.DefaultUpdateRoute.onCompleted
+    name: onCompleted
+    fullName: onCompleted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        public onCompleted: (requestContext: McmaApiRequestContext, resource: T)
+        => Promise<void>
+      return:
+        type:
+          - >-
+            (requestContext: McmaApiRequestContext, resource: T) =>
+            Promise<void>
+        description: ''
+    package: api
+  - uid: api.DefaultUpdateRoute.onStarted
+    name: onStarted
+    fullName: onStarted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        public onStarted: (requestContext: McmaApiRequestContext) =>
+        Promise<boolean>
+      return:
+        type:
+          - '(requestContext: McmaApiRequestContext) => Promise<boolean>'
+        description: ''
+    package: api
+  - uid: api.DefaultUpdateRoute.path
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public path: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: api
+  - uid: api.DefaultUpdateRoute.template
+    name: template
+    fullName: template
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'template: uriTemplates.URITemplate'
+      return:
+        type:
+          - uriTemplates.URITemplate
+        description: ''
+    package: api
+references:
+  - uid: api.McmaApiRoute
+    name: McmaApiRoute
+    spec.typeScript:
+      - name: McmaApiRoute
+        fullName: McmaApiRoute
+        uid: api.McmaApiRoute
+  - uid: api.McmaApiRouteHandler
+    name: McmaApiRouteHandler
+    spec.typeScript:
+      - name: McmaApiRouteHandler
+        fullName: McmaApiRouteHandler
+        uid: api.McmaApiRouteHandler

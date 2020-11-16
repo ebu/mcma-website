@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: api.McmaApiController
+    name: McmaApiController
+    fullName: McmaApiController
+    children:
+      - api.McmaApiController.handleRequest
+      - api.McmaApiController.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: api
+  - uid: api.McmaApiController.handleRequest
+    name: handleRequest(McmaApiRequestContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function handleRequest(requestContext: McmaApiRequestContext)'
+      parameters:
+        - id: requestContext
+          type:
+            - api.McmaApiRequestContext
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: api
+  - uid: api.McmaApiController.constructor
+    name: McmaApiController(McmaApiRouteCollection)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new McmaApiController(routes?: McmaApiRouteCollection)'
+      parameters:
+        - id: routes
+          type:
+            - api.McmaApiRouteCollection
+          description: ''
+          optional: true
+    package: api
+references:
+  - uid: api.McmaApiRouteCollection
+    name: McmaApiRouteCollection
+    spec.typeScript:
+      - name: McmaApiRouteCollection
+        fullName: McmaApiRouteCollection
+        uid: api.McmaApiRouteCollection
+  - uid: api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    spec.typeScript:
+      - name: McmaApiRequestContext
+        fullName: McmaApiRequestContext
+        uid: api.McmaApiRequestContext

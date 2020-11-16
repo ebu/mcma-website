@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: api.inMemoryTextValues
+    name: 'inMemoryTextValues([key: string]: string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function inMemoryTextValues<T>(filterValues: [key: string]: string)'
+      parameters:
+        - id: filterValues
+          type:
+            - '[key: string]: string'
+          description: ''
+      return:
+        type:
+          - '(item: T) => boolean'
+        description: ''
+    package: api

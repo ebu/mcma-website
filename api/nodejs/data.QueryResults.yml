@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: data.QueryResults
+    name: QueryResults
+    fullName: QueryResults<TDocument>
+    children:
+      - data.QueryResults.nextPageStartToken
+      - data.QueryResults.results
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: data
+  - uid: data.QueryResults.nextPageStartToken
+    name: nextPageStartToken
+    fullName: nextPageStartToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'nextPageStartToken?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: data
+  - uid: data.QueryResults.results
+    name: results
+    fullName: results
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'results: TDocument[]'
+      return:
+        type:
+          - 'TDocument[]'
+        description: ''
+    package: data

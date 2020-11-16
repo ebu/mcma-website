@@ -1,0 +1,2503 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.ProblemDetail
+  commentId: T:Mcma.ProblemDetail
+  id: ProblemDetail
+  parent: Mcma
+  children:
+  - Mcma.ProblemDetail.Detail
+  - Mcma.ProblemDetail.Instance
+  - Mcma.ProblemDetail.ProblemType
+  - Mcma.ProblemDetail.Title
+  langs:
+  - csharp
+  - vb
+  name: ProblemDetail
+  nameWithType: ProblemDetail
+  fullName: Mcma.ProblemDetail
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Core/Model/ProblemDetail.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ProblemDetail
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Model/ProblemDetail.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma
+  summary: "\nRepresents an error as defined by RFC 7807 (https://tools.ietf.org/html/rfc7807)\n"
+  example: []
+  syntax:
+    content: 'public class ProblemDetail : McmaObject, IDictionary<string, object>, ICollection<KeyValuePair<string, object>>, IEnumerable<KeyValuePair<string, object>>, IEnumerable, IDynamicMetaObjectProvider'
+    content.vb: >-
+      Public Class ProblemDetail
+
+          Inherits McmaObject
+
+          Implements IDictionary(Of String, Object), ICollection(Of KeyValuePair(Of String, Object)), IEnumerable(Of KeyValuePair(Of String, Object)), IEnumerable, IDynamicMetaObjectProvider
+  inheritance:
+  - System.Object
+  - Mcma.McmaExpandoObject
+  - Mcma.McmaObject
+  implements:
+  - System.Collections.Generic.IDictionary{System.String,System.Object}
+  - System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  - System.Collections.IEnumerable
+  - System.Dynamic.IDynamicMetaObjectProvider
+  inheritedMembers:
+  - Mcma.McmaObject.Type
+  - Mcma.McmaExpandoObject.Item(System.String)
+  - Mcma.McmaExpandoObject.HasProperty(System.String,System.Boolean)
+  - Mcma.McmaExpandoObject.Get``1(System.String,System.Boolean)
+  - Mcma.McmaExpandoObject.GetOrAdd``1(System.String,System.Boolean)
+  - Mcma.McmaExpandoObject.TryGet``1(System.String,{T}@)
+  - Mcma.McmaExpandoObject.TryGet``1(System.String,System.Boolean,{T}@)
+  - Mcma.McmaExpandoObject.Set``1(System.String,{T})
+  - Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#Keys
+  - Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#Values
+  - Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Count
+  - Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#IsReadOnly
+  - Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#Add(System.String,System.Object)
+  - Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Add(System.Collections.Generic.KeyValuePair{System.String,System.Object})
+  - Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Clear
+  - Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Contains(System.Collections.Generic.KeyValuePair{System.String,System.Object})
+  - Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#ContainsKey(System.String)
+  - Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#CopyTo(System.Collections.Generic.KeyValuePair{System.String,System.Object}[],System.Int32)
+  - Mcma.McmaExpandoObject.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#GetEnumerator
+  - Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#Remove(System.String)
+  - Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Remove(System.Collections.Generic.KeyValuePair{System.String,System.Object})
+  - Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#TryGetValue(System.String,System.Object@)
+  - Mcma.McmaExpandoObject.System#Collections#IEnumerable#GetEnumerator
+  - Mcma.McmaExpandoObject.System#Dynamic#IDynamicMetaObjectProvider#GetMetaObject(System.Linq.Expressions.Expression)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression``1
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.ProblemDetail.ProblemType
+  commentId: P:Mcma.ProblemDetail.ProblemType
+  id: ProblemType
+  parent: Mcma.ProblemDetail
+  langs:
+  - csharp
+  - vb
+  name: ProblemType
+  nameWithType: ProblemDetail.ProblemType
+  fullName: Mcma.ProblemDetail.ProblemType
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Model/ProblemDetail.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ProblemType
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Model/ProblemDetail.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma
+  summary: "\nGets or sets \n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("type")]
+
+      public string ProblemType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("type")>
+
+      Public Property ProblemType As String
+  overload: Mcma.ProblemDetail.ProblemType*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mcma.ProblemDetail.Title
+  commentId: P:Mcma.ProblemDetail.Title
+  id: Title
+  parent: Mcma.ProblemDetail
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: ProblemDetail.Title
+  fullName: Mcma.ProblemDetail.Title
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Model/ProblemDetail.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Title
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Model/ProblemDetail.cs
+    startLine: 18
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma
+  summary: "\nGets or sets a brief description of the error encountered\n"
+  example: []
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: Mcma.ProblemDetail.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mcma.ProblemDetail.Detail
+  commentId: P:Mcma.ProblemDetail.Detail
+  id: Detail
+  parent: Mcma.ProblemDetail
+  langs:
+  - csharp
+  - vb
+  name: Detail
+  nameWithType: ProblemDetail.Detail
+  fullName: Mcma.ProblemDetail.Detail
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Model/ProblemDetail.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Detail
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Model/ProblemDetail.cs
+    startLine: 23
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma
+  summary: "\nGets or sets a more detailed message about the error encountered \n"
+  example: []
+  syntax:
+    content: public string Detail { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Detail As String
+  overload: Mcma.ProblemDetail.Detail*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mcma.ProblemDetail.Instance
+  commentId: P:Mcma.ProblemDetail.Instance
+  id: Instance
+  parent: Mcma.ProblemDetail
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: ProblemDetail.Instance
+  fullName: Mcma.ProblemDetail.Instance
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Model/ProblemDetail.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Instance
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Model/ProblemDetail.cs
+    startLine: 28
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma
+  summary: "\nGets or sets a reference that identifies the specific occurrence of the problem\n"
+  example: []
+  syntax:
+    content: public string Instance { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Instance As String
+  overload: Mcma.ProblemDetail.Instance*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma
+  commentId: N:Mcma
+  name: Mcma
+  nameWithType: Mcma
+  fullName: Mcma
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.McmaExpandoObject
+  commentId: T:Mcma.McmaExpandoObject
+  parent: Mcma
+  name: McmaExpandoObject
+  nameWithType: McmaExpandoObject
+  fullName: Mcma.McmaExpandoObject
+- uid: Mcma.McmaObject
+  commentId: T:Mcma.McmaObject
+  parent: Mcma
+  name: McmaObject
+  nameWithType: McmaObject
+  fullName: Mcma.McmaObject
+- uid: System.Collections.Generic.IDictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<String, Object>
+  nameWithType: IDictionary<String, Object>
+  fullName: System.Collections.Generic.IDictionary<System.String, System.Object>
+  nameWithType.vb: IDictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.IDictionary(Of System.String, System.Object)
+  name.vb: IDictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  commentId: T:System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<KeyValuePair<String, Object>>
+  nameWithType: ICollection<KeyValuePair<String, Object>>
+  fullName: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String, System.Object>>
+  nameWithType.vb: ICollection(Of KeyValuePair(Of String, Object))
+  fullName.vb: System.Collections.Generic.ICollection(Of System.Collections.Generic.KeyValuePair(Of System.String, System.Object))
+  name.vb: ICollection(Of KeyValuePair(Of String, Object))
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<KeyValuePair<String, Object>>
+  nameWithType: IEnumerable<KeyValuePair<String, Object>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String, System.Object>>
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of String, Object))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of System.String, System.Object))
+  name.vb: IEnumerable(Of KeyValuePair(Of String, Object))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Dynamic.IDynamicMetaObjectProvider
+  commentId: T:System.Dynamic.IDynamicMetaObjectProvider
+  parent: System.Dynamic
+  isExternal: true
+  name: IDynamicMetaObjectProvider
+  nameWithType: IDynamicMetaObjectProvider
+  fullName: System.Dynamic.IDynamicMetaObjectProvider
+- uid: Mcma.McmaObject.Type
+  commentId: P:Mcma.McmaObject.Type
+  parent: Mcma.McmaObject
+  name: Type
+  nameWithType: McmaObject.Type
+  fullName: Mcma.McmaObject.Type
+- uid: Mcma.McmaExpandoObject.Item(System.String)
+  commentId: P:Mcma.McmaExpandoObject.Item(System.String)
+  parent: Mcma.McmaExpandoObject
+  isExternal: true
+  name: Item[String]
+  nameWithType: McmaExpandoObject.Item[String]
+  fullName: Mcma.McmaExpandoObject.Item[System.String]
+  nameWithType.vb: McmaExpandoObject.Item(String)
+  fullName.vb: Mcma.McmaExpandoObject.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.Item(System.String)
+    name: Item
+    nameWithType: McmaExpandoObject.Item
+    fullName: Mcma.McmaExpandoObject.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.Item(System.String)
+    name: Item
+    nameWithType: McmaExpandoObject.Item
+    fullName: Mcma.McmaExpandoObject.Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.HasProperty(System.String,System.Boolean)
+  commentId: M:Mcma.McmaExpandoObject.HasProperty(System.String,System.Boolean)
+  parent: Mcma.McmaExpandoObject
+  isExternal: true
+  name: HasProperty(String, Boolean)
+  nameWithType: McmaExpandoObject.HasProperty(String, Boolean)
+  fullName: Mcma.McmaExpandoObject.HasProperty(System.String, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.HasProperty(System.String,System.Boolean)
+    name: HasProperty
+    nameWithType: McmaExpandoObject.HasProperty
+    fullName: Mcma.McmaExpandoObject.HasProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.HasProperty(System.String,System.Boolean)
+    name: HasProperty
+    nameWithType: McmaExpandoObject.HasProperty
+    fullName: Mcma.McmaExpandoObject.HasProperty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.Get``1(System.String,System.Boolean)
+  commentId: M:Mcma.McmaExpandoObject.Get``1(System.String,System.Boolean)
+  parent: Mcma.McmaExpandoObject
+  isExternal: true
+  name: Get<T>(String, Boolean)
+  nameWithType: McmaExpandoObject.Get<T>(String, Boolean)
+  fullName: Mcma.McmaExpandoObject.Get<T>(System.String, System.Boolean)
+  nameWithType.vb: McmaExpandoObject.Get(Of T)(String, Boolean)
+  fullName.vb: Mcma.McmaExpandoObject.Get(Of T)(System.String, System.Boolean)
+  name.vb: Get(Of T)(String, Boolean)
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.Get``1(System.String,System.Boolean)
+    name: Get<T>
+    nameWithType: McmaExpandoObject.Get<T>
+    fullName: Mcma.McmaExpandoObject.Get<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.Get``1(System.String,System.Boolean)
+    name: Get(Of T)
+    nameWithType: McmaExpandoObject.Get(Of T)
+    fullName: Mcma.McmaExpandoObject.Get(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.GetOrAdd``1(System.String,System.Boolean)
+  commentId: M:Mcma.McmaExpandoObject.GetOrAdd``1(System.String,System.Boolean)
+  parent: Mcma.McmaExpandoObject
+  isExternal: true
+  name: GetOrAdd<T>(String, Boolean)
+  nameWithType: McmaExpandoObject.GetOrAdd<T>(String, Boolean)
+  fullName: Mcma.McmaExpandoObject.GetOrAdd<T>(System.String, System.Boolean)
+  nameWithType.vb: McmaExpandoObject.GetOrAdd(Of T)(String, Boolean)
+  fullName.vb: Mcma.McmaExpandoObject.GetOrAdd(Of T)(System.String, System.Boolean)
+  name.vb: GetOrAdd(Of T)(String, Boolean)
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.GetOrAdd``1(System.String,System.Boolean)
+    name: GetOrAdd<T>
+    nameWithType: McmaExpandoObject.GetOrAdd<T>
+    fullName: Mcma.McmaExpandoObject.GetOrAdd<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.GetOrAdd``1(System.String,System.Boolean)
+    name: GetOrAdd(Of T)
+    nameWithType: McmaExpandoObject.GetOrAdd(Of T)
+    fullName: Mcma.McmaExpandoObject.GetOrAdd(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.TryGet``1(System.String,{T}@)
+  commentId: M:Mcma.McmaExpandoObject.TryGet``1(System.String,``0@)
+  parent: Mcma.McmaExpandoObject
+  definition: Mcma.McmaExpandoObject.TryGet``1(System.String,``0@)
+  name: TryGet<T>(String, T)
+  nameWithType: McmaExpandoObject.TryGet<T>(String, T)
+  fullName: Mcma.McmaExpandoObject.TryGet<T>(System.String, T)
+  nameWithType.vb: McmaExpandoObject.TryGet(Of T)(String, T)
+  fullName.vb: Mcma.McmaExpandoObject.TryGet(Of T)(System.String, T)
+  name.vb: TryGet(Of T)(String, T)
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.TryGet``1(System.String,``0@)
+    name: TryGet<T>
+    nameWithType: McmaExpandoObject.TryGet<T>
+    fullName: Mcma.McmaExpandoObject.TryGet<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.TryGet``1(System.String,``0@)
+    name: TryGet(Of T)
+    nameWithType: McmaExpandoObject.TryGet(Of T)
+    fullName: Mcma.McmaExpandoObject.TryGet(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.TryGet``1(System.String,System.Boolean,{T}@)
+  commentId: M:Mcma.McmaExpandoObject.TryGet``1(System.String,System.Boolean,``0@)
+  parent: Mcma.McmaExpandoObject
+  definition: Mcma.McmaExpandoObject.TryGet``1(System.String,System.Boolean,``0@)
+  name: TryGet<T>(String, Boolean, T)
+  nameWithType: McmaExpandoObject.TryGet<T>(String, Boolean, T)
+  fullName: Mcma.McmaExpandoObject.TryGet<T>(System.String, System.Boolean, T)
+  nameWithType.vb: McmaExpandoObject.TryGet(Of T)(String, Boolean, T)
+  fullName.vb: Mcma.McmaExpandoObject.TryGet(Of T)(System.String, System.Boolean, T)
+  name.vb: TryGet(Of T)(String, Boolean, T)
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.TryGet``1(System.String,System.Boolean,``0@)
+    name: TryGet<T>
+    nameWithType: McmaExpandoObject.TryGet<T>
+    fullName: Mcma.McmaExpandoObject.TryGet<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.TryGet``1(System.String,System.Boolean,``0@)
+    name: TryGet(Of T)
+    nameWithType: McmaExpandoObject.TryGet(Of T)
+    fullName: Mcma.McmaExpandoObject.TryGet(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.Set``1(System.String,{T})
+  commentId: M:Mcma.McmaExpandoObject.Set``1(System.String,``0)
+  parent: Mcma.McmaExpandoObject
+  definition: Mcma.McmaExpandoObject.Set``1(System.String,``0)
+  name: Set<T>(String, T)
+  nameWithType: McmaExpandoObject.Set<T>(String, T)
+  fullName: Mcma.McmaExpandoObject.Set<T>(System.String, T)
+  nameWithType.vb: McmaExpandoObject.Set(Of T)(String, T)
+  fullName.vb: Mcma.McmaExpandoObject.Set(Of T)(System.String, T)
+  name.vb: Set(Of T)(String, T)
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.Set``1(System.String,``0)
+    name: Set<T>
+    nameWithType: McmaExpandoObject.Set<T>
+    fullName: Mcma.McmaExpandoObject.Set<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.Set``1(System.String,``0)
+    name: Set(Of T)
+    nameWithType: McmaExpandoObject.Set(Of T)
+    fullName: Mcma.McmaExpandoObject.Set(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#Keys
+  commentId: P:Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#Keys
+  parent: Mcma.McmaExpandoObject
+  name: IDictionary<String, Object>.Keys
+  nameWithType: McmaExpandoObject.IDictionary<String, Object>.Keys
+  fullName: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String, System.Object>.Keys
+  nameWithType.vb: McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.Keys
+  fullName.vb: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.Keys
+  name.vb: System.Collections.Generic.IDictionary<System.String,System.Object>.Keys
+- uid: Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#Values
+  commentId: P:Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#Values
+  parent: Mcma.McmaExpandoObject
+  name: IDictionary<String, Object>.Values
+  nameWithType: McmaExpandoObject.IDictionary<String, Object>.Values
+  fullName: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String, System.Object>.Values
+  nameWithType.vb: McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.Values
+  fullName.vb: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.Values
+  name.vb: System.Collections.Generic.IDictionary<System.String,System.Object>.Values
+- uid: Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Count
+  commentId: P:Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Count
+  parent: Mcma.McmaExpandoObject
+  name: ICollection<KeyValuePair<String, Object>>.Count
+  nameWithType: McmaExpandoObject.ICollection<KeyValuePair<String, Object>>.Count
+  fullName: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String, System.Object>>.Count
+  nameWithType.vb: McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Count
+  fullName.vb: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Count
+  name.vb: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Count
+- uid: Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#IsReadOnly
+  commentId: P:Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#IsReadOnly
+  parent: Mcma.McmaExpandoObject
+  name: ICollection<KeyValuePair<String, Object>>.IsReadOnly
+  nameWithType: McmaExpandoObject.ICollection<KeyValuePair<String, Object>>.IsReadOnly
+  fullName: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String, System.Object>>.IsReadOnly
+  nameWithType.vb: McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.IsReadOnly
+  fullName.vb: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.IsReadOnly
+  name.vb: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.IsReadOnly
+- uid: Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#Add(System.String,System.Object)
+  commentId: M:Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#Add(System.String,System.Object)
+  parent: Mcma.McmaExpandoObject
+  isExternal: true
+  name: IDictionary<String, Object>.Add(String, Object)
+  nameWithType: McmaExpandoObject.IDictionary<String, Object>.Add(String, Object)
+  fullName: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String, System.Object>.Add(System.String, System.Object)
+  nameWithType.vb: McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.Add(String, Object)
+  fullName.vb: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.Add(System.String, System.Object)
+  name.vb: System.Collections.Generic.IDictionary<System.String,System.Object>.Add(String, Object)
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#Add(System.String,System.Object)
+    name: IDictionary<String, Object>.Add
+    nameWithType: McmaExpandoObject.IDictionary<String, Object>.Add
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String, System.Object>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#Add(System.String,System.Object)
+    name: System.Collections.Generic.IDictionary<System.String,System.Object>.Add
+    nameWithType: McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.Add
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Add(System.Collections.Generic.KeyValuePair{System.String,System.Object})
+  commentId: M:Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Add(System.Collections.Generic.KeyValuePair{System.String,System.Object})
+  parent: Mcma.McmaExpandoObject
+  isExternal: true
+  name: ICollection<KeyValuePair<String, Object>>.Add(KeyValuePair<String, Object>)
+  nameWithType: McmaExpandoObject.ICollection<KeyValuePair<String, Object>>.Add(KeyValuePair<String, Object>)
+  fullName: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String, System.Object>>.Add(System.Collections.Generic.KeyValuePair<System.String, System.Object>)
+  nameWithType.vb: McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Add(KeyValuePair(Of String, Object))
+  fullName.vb: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Add(System.Collections.Generic.KeyValuePair(Of System.String, System.Object))
+  name.vb: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Add(KeyValuePair(Of String, Object))
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Add(System.Collections.Generic.KeyValuePair{System.String,System.Object})
+    name: ICollection<KeyValuePair<String, Object>>.Add
+    nameWithType: McmaExpandoObject.ICollection<KeyValuePair<String, Object>>.Add
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String, System.Object>>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Add(System.Collections.Generic.KeyValuePair{System.String,System.Object})
+    name: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Add
+    nameWithType: McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Add
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Clear
+  commentId: M:Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Clear
+  parent: Mcma.McmaExpandoObject
+  name: ICollection<KeyValuePair<String, Object>>.Clear()
+  nameWithType: McmaExpandoObject.ICollection<KeyValuePair<String, Object>>.Clear()
+  fullName: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String, System.Object>>.Clear()
+  nameWithType.vb: McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Clear()
+  fullName.vb: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Clear()
+  name.vb: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Clear()
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Clear
+    name: ICollection<KeyValuePair<String, Object>>.Clear
+    nameWithType: McmaExpandoObject.ICollection<KeyValuePair<String, Object>>.Clear
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String, System.Object>>.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Clear
+    name: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Clear
+    nameWithType: McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Clear
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Contains(System.Collections.Generic.KeyValuePair{System.String,System.Object})
+  commentId: M:Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Contains(System.Collections.Generic.KeyValuePair{System.String,System.Object})
+  parent: Mcma.McmaExpandoObject
+  isExternal: true
+  name: ICollection<KeyValuePair<String, Object>>.Contains(KeyValuePair<String, Object>)
+  nameWithType: McmaExpandoObject.ICollection<KeyValuePair<String, Object>>.Contains(KeyValuePair<String, Object>)
+  fullName: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String, System.Object>>.Contains(System.Collections.Generic.KeyValuePair<System.String, System.Object>)
+  nameWithType.vb: McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Contains(KeyValuePair(Of String, Object))
+  fullName.vb: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Contains(System.Collections.Generic.KeyValuePair(Of System.String, System.Object))
+  name.vb: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Contains(KeyValuePair(Of String, Object))
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Contains(System.Collections.Generic.KeyValuePair{System.String,System.Object})
+    name: ICollection<KeyValuePair<String, Object>>.Contains
+    nameWithType: McmaExpandoObject.ICollection<KeyValuePair<String, Object>>.Contains
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String, System.Object>>.Contains
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Contains(System.Collections.Generic.KeyValuePair{System.String,System.Object})
+    name: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Contains
+    nameWithType: McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Contains
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Contains
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#ContainsKey(System.String)
+  commentId: M:Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#ContainsKey(System.String)
+  parent: Mcma.McmaExpandoObject
+  isExternal: true
+  name: IDictionary<String, Object>.ContainsKey(String)
+  nameWithType: McmaExpandoObject.IDictionary<String, Object>.ContainsKey(String)
+  fullName: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String, System.Object>.ContainsKey(System.String)
+  nameWithType.vb: McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.ContainsKey(String)
+  fullName.vb: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.ContainsKey(System.String)
+  name.vb: System.Collections.Generic.IDictionary<System.String,System.Object>.ContainsKey(String)
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#ContainsKey(System.String)
+    name: IDictionary<String, Object>.ContainsKey
+    nameWithType: McmaExpandoObject.IDictionary<String, Object>.ContainsKey
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String, System.Object>.ContainsKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#ContainsKey(System.String)
+    name: System.Collections.Generic.IDictionary<System.String,System.Object>.ContainsKey
+    nameWithType: McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.ContainsKey
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.ContainsKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#CopyTo(System.Collections.Generic.KeyValuePair{System.String,System.Object}[],System.Int32)
+  commentId: M:Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#CopyTo(System.Collections.Generic.KeyValuePair{System.String,System.Object}[],System.Int32)
+  parent: Mcma.McmaExpandoObject
+  isExternal: true
+  name: ICollection<KeyValuePair<String, Object>>.CopyTo(KeyValuePair<String, Object>[], Int32)
+  nameWithType: McmaExpandoObject.ICollection<KeyValuePair<String, Object>>.CopyTo(KeyValuePair<String, Object>[], Int32)
+  fullName: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String, System.Object>>.CopyTo(System.Collections.Generic.KeyValuePair<System.String, System.Object>[], System.Int32)
+  nameWithType.vb: McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.CopyTo(KeyValuePair(Of String, Object)(), Int32)
+  fullName.vb: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.CopyTo(System.Collections.Generic.KeyValuePair(Of System.String, System.Object)(), System.Int32)
+  name.vb: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.CopyTo(KeyValuePair(Of String, Object)(), Int32)
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#CopyTo(System.Collections.Generic.KeyValuePair{System.String,System.Object}[],System.Int32)
+    name: ICollection<KeyValuePair<String, Object>>.CopyTo
+    nameWithType: McmaExpandoObject.ICollection<KeyValuePair<String, Object>>.CopyTo
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String, System.Object>>.CopyTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#CopyTo(System.Collections.Generic.KeyValuePair{System.String,System.Object}[],System.Int32)
+    name: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.CopyTo
+    nameWithType: McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.CopyTo
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.CopyTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#GetEnumerator
+  commentId: M:Mcma.McmaExpandoObject.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#GetEnumerator
+  parent: Mcma.McmaExpandoObject
+  name: IEnumerable<KeyValuePair<String, Object>>.GetEnumerator()
+  nameWithType: McmaExpandoObject.IEnumerable<KeyValuePair<String, Object>>.GetEnumerator()
+  fullName: Mcma.McmaExpandoObject.System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String, System.Object>>.GetEnumerator()
+  nameWithType.vb: McmaExpandoObject.System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator()
+  fullName.vb: Mcma.McmaExpandoObject.System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator()
+  name.vb: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator()
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#GetEnumerator
+    name: IEnumerable<KeyValuePair<String, Object>>.GetEnumerator
+    nameWithType: McmaExpandoObject.IEnumerable<KeyValuePair<String, Object>>.GetEnumerator
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String, System.Object>>.GetEnumerator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#GetEnumerator
+    name: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator
+    nameWithType: McmaExpandoObject.System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#Remove(System.String)
+  commentId: M:Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#Remove(System.String)
+  parent: Mcma.McmaExpandoObject
+  isExternal: true
+  name: IDictionary<String, Object>.Remove(String)
+  nameWithType: McmaExpandoObject.IDictionary<String, Object>.Remove(String)
+  fullName: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String, System.Object>.Remove(System.String)
+  nameWithType.vb: McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.Remove(String)
+  fullName.vb: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.Remove(System.String)
+  name.vb: System.Collections.Generic.IDictionary<System.String,System.Object>.Remove(String)
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#Remove(System.String)
+    name: IDictionary<String, Object>.Remove
+    nameWithType: McmaExpandoObject.IDictionary<String, Object>.Remove
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String, System.Object>.Remove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#Remove(System.String)
+    name: System.Collections.Generic.IDictionary<System.String,System.Object>.Remove
+    nameWithType: McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.Remove
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.Remove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Remove(System.Collections.Generic.KeyValuePair{System.String,System.Object})
+  commentId: M:Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Remove(System.Collections.Generic.KeyValuePair{System.String,System.Object})
+  parent: Mcma.McmaExpandoObject
+  isExternal: true
+  name: ICollection<KeyValuePair<String, Object>>.Remove(KeyValuePair<String, Object>)
+  nameWithType: McmaExpandoObject.ICollection<KeyValuePair<String, Object>>.Remove(KeyValuePair<String, Object>)
+  fullName: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String, System.Object>>.Remove(System.Collections.Generic.KeyValuePair<System.String, System.Object>)
+  nameWithType.vb: McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Remove(KeyValuePair(Of String, Object))
+  fullName.vb: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Remove(System.Collections.Generic.KeyValuePair(Of System.String, System.Object))
+  name.vb: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Remove(KeyValuePair(Of String, Object))
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Remove(System.Collections.Generic.KeyValuePair{System.String,System.Object})
+    name: ICollection<KeyValuePair<String, Object>>.Remove
+    nameWithType: McmaExpandoObject.ICollection<KeyValuePair<String, Object>>.Remove
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String, System.Object>>.Remove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Remove(System.Collections.Generic.KeyValuePair{System.String,System.Object})
+    name: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Remove
+    nameWithType: McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Remove
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Remove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#TryGetValue(System.String,System.Object@)
+  commentId: M:Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#TryGetValue(System.String,System.Object@)
+  parent: Mcma.McmaExpandoObject
+  isExternal: true
+  name: IDictionary<String, Object>.TryGetValue(String, Object)
+  nameWithType: McmaExpandoObject.IDictionary<String, Object>.TryGetValue(String, Object)
+  fullName: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String, System.Object>.TryGetValue(System.String, System.Object)
+  nameWithType.vb: McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.TryGetValue(String, Object)
+  fullName.vb: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.TryGetValue(System.String, System.Object)
+  name.vb: System.Collections.Generic.IDictionary<System.String,System.Object>.TryGetValue(String, Object)
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#TryGetValue(System.String,System.Object@)
+    name: IDictionary<String, Object>.TryGetValue
+    nameWithType: McmaExpandoObject.IDictionary<String, Object>.TryGetValue
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String, System.Object>.TryGetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.System#Collections#Generic#IDictionary{System#String,System#Object}#TryGetValue(System.String,System.Object@)
+    name: System.Collections.Generic.IDictionary<System.String,System.Object>.TryGetValue
+    nameWithType: McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.TryGetValue
+    fullName: Mcma.McmaExpandoObject.System.Collections.Generic.IDictionary<System.String,System.Object>.TryGetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.System#Collections#IEnumerable#GetEnumerator
+  commentId: M:Mcma.McmaExpandoObject.System#Collections#IEnumerable#GetEnumerator
+  parent: Mcma.McmaExpandoObject
+  name: IEnumerable.GetEnumerator()
+  nameWithType: McmaExpandoObject.IEnumerable.GetEnumerator()
+  fullName: Mcma.McmaExpandoObject.System.Collections.IEnumerable.GetEnumerator()
+  nameWithType.vb: McmaExpandoObject.System.Collections.IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.System#Collections#IEnumerable#GetEnumerator
+    name: IEnumerable.GetEnumerator
+    nameWithType: McmaExpandoObject.IEnumerable.GetEnumerator
+    fullName: Mcma.McmaExpandoObject.System.Collections.IEnumerable.GetEnumerator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.System#Collections#IEnumerable#GetEnumerator
+    name: System.Collections.IEnumerable.GetEnumerator
+    nameWithType: McmaExpandoObject.System.Collections.IEnumerable.GetEnumerator
+    fullName: Mcma.McmaExpandoObject.System.Collections.IEnumerable.GetEnumerator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.System#Dynamic#IDynamicMetaObjectProvider#GetMetaObject(System.Linq.Expressions.Expression)
+  commentId: M:Mcma.McmaExpandoObject.System#Dynamic#IDynamicMetaObjectProvider#GetMetaObject(System.Linq.Expressions.Expression)
+  parent: Mcma.McmaExpandoObject
+  isExternal: true
+  name: IDynamicMetaObjectProvider.GetMetaObject(Expression)
+  nameWithType: McmaExpandoObject.IDynamicMetaObjectProvider.GetMetaObject(Expression)
+  fullName: Mcma.McmaExpandoObject.System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject(System.Linq.Expressions.Expression)
+  nameWithType.vb: McmaExpandoObject.System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject(Expression)
+  name.vb: System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject(Expression)
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.System#Dynamic#IDynamicMetaObjectProvider#GetMetaObject(System.Linq.Expressions.Expression)
+    name: IDynamicMetaObjectProvider.GetMetaObject
+    nameWithType: McmaExpandoObject.IDynamicMetaObjectProvider.GetMetaObject
+    fullName: Mcma.McmaExpandoObject.System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Linq.Expressions.Expression
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.System#Dynamic#IDynamicMetaObjectProvider#GetMetaObject(System.Linq.Expressions.Expression)
+    name: System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject
+    nameWithType: McmaExpandoObject.System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject
+    fullName: Mcma.McmaExpandoObject.System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Linq.Expressions.Expression
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}}.Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression``1
+  commentId: M:Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}})
+  parent: Mcma.Data.DocumentDatabase.Queries.HelperExtensions
+  definition: Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}})
+  name: ToFilterExpression<T>()
+  nameWithType: HelperExtensions.ToFilterExpression<T>()
+  fullName: Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression<T>()
+  nameWithType.vb: HelperExtensions.ToFilterExpression(Of T)()
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression(Of T)()
+  name.vb: ToFilterExpression(Of T)()
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression``1
+    name: ToFilterExpression<T>
+    nameWithType: HelperExtensions.ToFilterExpression<T>
+    fullName: Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression``1
+    name: ToFilterExpression(Of T)
+    nameWithType: HelperExtensions.ToFilterExpression(Of T)
+    fullName: Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: System.Dynamic
+  commentId: N:System.Dynamic
+  isExternal: true
+  name: System.Dynamic
+  nameWithType: System.Dynamic
+  fullName: System.Dynamic
+- uid: Mcma.McmaExpandoObject.TryGet``1(System.String,``0@)
+  commentId: M:Mcma.McmaExpandoObject.TryGet``1(System.String,``0@)
+  isExternal: true
+  name: TryGet<T>(String, T)
+  nameWithType: McmaExpandoObject.TryGet<T>(String, T)
+  fullName: Mcma.McmaExpandoObject.TryGet<T>(System.String, T)
+  nameWithType.vb: McmaExpandoObject.TryGet(Of T)(String, T)
+  fullName.vb: Mcma.McmaExpandoObject.TryGet(Of T)(System.String, T)
+  name.vb: TryGet(Of T)(String, T)
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.TryGet``1(System.String,``0@)
+    name: TryGet<T>
+    nameWithType: McmaExpandoObject.TryGet<T>
+    fullName: Mcma.McmaExpandoObject.TryGet<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.TryGet``1(System.String,``0@)
+    name: TryGet(Of T)
+    nameWithType: McmaExpandoObject.TryGet(Of T)
+    fullName: Mcma.McmaExpandoObject.TryGet(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.TryGet``1(System.String,System.Boolean,``0@)
+  commentId: M:Mcma.McmaExpandoObject.TryGet``1(System.String,System.Boolean,``0@)
+  isExternal: true
+  name: TryGet<T>(String, Boolean, T)
+  nameWithType: McmaExpandoObject.TryGet<T>(String, Boolean, T)
+  fullName: Mcma.McmaExpandoObject.TryGet<T>(System.String, System.Boolean, T)
+  nameWithType.vb: McmaExpandoObject.TryGet(Of T)(String, Boolean, T)
+  fullName.vb: Mcma.McmaExpandoObject.TryGet(Of T)(System.String, System.Boolean, T)
+  name.vb: TryGet(Of T)(String, Boolean, T)
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.TryGet``1(System.String,System.Boolean,``0@)
+    name: TryGet<T>
+    nameWithType: McmaExpandoObject.TryGet<T>
+    fullName: Mcma.McmaExpandoObject.TryGet<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.TryGet``1(System.String,System.Boolean,``0@)
+    name: TryGet(Of T)
+    nameWithType: McmaExpandoObject.TryGet(Of T)
+    fullName: Mcma.McmaExpandoObject.TryGet(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaExpandoObject.Set``1(System.String,``0)
+  commentId: M:Mcma.McmaExpandoObject.Set``1(System.String,``0)
+  isExternal: true
+  name: Set<T>(String, T)
+  nameWithType: McmaExpandoObject.Set<T>(String, T)
+  fullName: Mcma.McmaExpandoObject.Set<T>(System.String, T)
+  nameWithType.vb: McmaExpandoObject.Set(Of T)(String, T)
+  fullName.vb: Mcma.McmaExpandoObject.Set(Of T)(System.String, T)
+  name.vb: Set(Of T)(String, T)
+  spec.csharp:
+  - uid: Mcma.McmaExpandoObject.Set``1(System.String,``0)
+    name: Set<T>
+    nameWithType: McmaExpandoObject.Set<T>
+    fullName: Mcma.McmaExpandoObject.Set<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.McmaExpandoObject.Set``1(System.String,``0)
+    name: Set(Of T)
+    nameWithType: McmaExpandoObject.Set(Of T)
+    fullName: Mcma.McmaExpandoObject.Set(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}})
+  commentId: M:Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}})
+  isExternal: true
+  name: ToFilterExpression<T>(IEnumerable<KeyValuePair<String, Object>>)
+  nameWithType: HelperExtensions.ToFilterExpression<T>(IEnumerable<KeyValuePair<String, Object>>)
+  fullName: Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression<T>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String, System.Object>>)
+  nameWithType.vb: HelperExtensions.ToFilterExpression(Of T)(IEnumerable(Of KeyValuePair(Of String, Object)))
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression(Of T)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of System.String, System.Object)))
+  name.vb: ToFilterExpression(Of T)(IEnumerable(Of KeyValuePair(Of String, Object)))
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}})
+    name: ToFilterExpression<T>
+    nameWithType: HelperExtensions.ToFilterExpression<T>
+    fullName: Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}})
+    name: ToFilterExpression(Of T)
+    nameWithType: HelperExtensions.ToFilterExpression(Of T)
+    fullName: Mcma.Data.DocumentDatabase.Queries.HelperExtensions.ToFilterExpression(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.HelperExtensions
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.HelperExtensions
+  parent: Mcma.Data.DocumentDatabase.Queries
+  name: HelperExtensions
+  nameWithType: HelperExtensions
+  fullName: Mcma.Data.DocumentDatabase.Queries.HelperExtensions
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Data.DocumentDatabase.Queries
+  commentId: N:Mcma.Data.DocumentDatabase.Queries
+  name: Mcma.Data.DocumentDatabase.Queries
+  nameWithType: Mcma.Data.DocumentDatabase.Queries
+  fullName: Mcma.Data.DocumentDatabase.Queries
+- uid: Mcma.ProblemDetail.ProblemType*
+  commentId: Overload:Mcma.ProblemDetail.ProblemType
+  name: ProblemType
+  nameWithType: ProblemDetail.ProblemType
+  fullName: Mcma.ProblemDetail.ProblemType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.ProblemDetail.Title*
+  commentId: Overload:Mcma.ProblemDetail.Title
+  name: Title
+  nameWithType: ProblemDetail.Title
+  fullName: Mcma.ProblemDetail.Title
+- uid: Mcma.ProblemDetail.Detail*
+  commentId: Overload:Mcma.ProblemDetail.Detail
+  name: Detail
+  nameWithType: ProblemDetail.Detail
+  fullName: Mcma.ProblemDetail.Detail
+- uid: Mcma.ProblemDetail.Instance*
+  commentId: Overload:Mcma.ProblemDetail.Instance
+  name: Instance
+  nameWithType: ProblemDetail.Instance
+  fullName: Mcma.ProblemDetail.Instance

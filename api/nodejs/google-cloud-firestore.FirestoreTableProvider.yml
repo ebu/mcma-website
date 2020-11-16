@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-firestore.FirestoreTableProvider
+    name: FirestoreTableProvider
+    fullName: FirestoreTableProvider
+    children:
+      - google-cloud-firestore.FirestoreTableProvider.constructor
+      - google-cloud-firestore.FirestoreTableProvider.get
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreTableProvider.constructor
+    name: FirestoreTableProvider(FirestoreTableProviderOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FirestoreTableProvider(options: FirestoreTableProviderOptions)'
+      parameters:
+        - id: options
+          type:
+            - google-cloud-firestore.FirestoreTableProviderOptions
+          description: ''
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreTableProvider.get
+    name: get(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get(tableName: string)'
+      parameters:
+        - id: tableName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<DocumentDatabaseTable>
+        description: ''
+    package: google-cloud-firestore
+references:
+  - uid: google-cloud-firestore.FirestoreTableProviderOptions
+    name: FirestoreTableProviderOptions
+    spec.typeScript:
+      - name: FirestoreTableProviderOptions
+        fullName: FirestoreTableProviderOptions
+        uid: google-cloud-firestore.FirestoreTableProviderOptions

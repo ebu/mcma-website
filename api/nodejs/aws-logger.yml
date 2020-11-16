@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-logger
+    name: "@mcma/aws-logger"
+    summary: ""
+    children:
+      - aws-logger.AwsCloudWatchLogger
+      - aws-logger.AwsCloudWatchLoggerProvider
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: aws-logger.AwsCloudWatchLogger
+    name: AwsCloudWatchLogger
+  - uid: aws-logger.AwsCloudWatchLoggerProvider
+    name: AwsCloudWatchLoggerProvider

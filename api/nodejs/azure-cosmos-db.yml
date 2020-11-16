@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-cosmos-db
+    name: "@mcma/azure-cosmos-db"
+    summary: ""
+    children:
+      - azure-cosmos-db.buildQueryDefinition
+      - azure-cosmos-db.CosmosDbMutex
+      - azure-cosmos-db.CosmosDbTable
+      - azure-cosmos-db.CosmosDbTableProvider
+      - azure-cosmos-db.CosmosDbTableProviderOptions
+      - azure-cosmos-db.CustomQueryFactory
+      - azure-cosmos-db.CustomQueryRegistry
+      - azure-cosmos-db.fillOptionsFromConfigVariables
+      - azure-cosmos-db.parsePartitionKeyAndGuid
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: azure-cosmos-db.buildQueryDefinition
+    name: buildQueryDefinition(Query<TDocument>, string)
+  - uid: azure-cosmos-db.CosmosDbMutex
+    name: CosmosDbMutex
+  - uid: azure-cosmos-db.CosmosDbTable
+    name: CosmosDbTable
+  - uid: azure-cosmos-db.CosmosDbTableProvider
+    name: CosmosDbTableProvider
+  - uid: azure-cosmos-db.CosmosDbTableProviderOptions
+    name: CosmosDbTableProviderOptions
+  - uid: azure-cosmos-db.CustomQueryFactory
+    name: CustomQueryFactory
+  - uid: azure-cosmos-db.CustomQueryRegistry
+    name: CustomQueryRegistry
+  - uid: azure-cosmos-db.fillOptionsFromConfigVariables
+    name: fillOptionsFromConfigVariables(CosmosDbTableProviderOptions,
+      ConfigVariables)
+  - uid: azure-cosmos-db.parsePartitionKeyAndGuid
+    name: parsePartitionKeyAndGuid(string)

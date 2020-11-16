@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-http-functions
+    name: "@mcma/google-cloud-http-functions"
+    summary: ""
+    children:
+      - google-cloud-http-functions.HttpFunctionApiController
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: google-cloud-http-functions.HttpFunctionApiController
+    name: HttpFunctionApiController

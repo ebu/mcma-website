@@ -1,0 +1,1667 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Client.McmaHttpClient
+  commentId: T:Mcma.Client.McmaHttpClient
+  id: McmaHttpClient
+  parent: Mcma.Client
+  children:
+  - Mcma.Client.McmaHttpClient.#ctor(System.Net.Http.HttpClient,Mcma.Client.IAuthenticator,Mcma.McmaTracker)
+  - Mcma.Client.McmaHttpClient.DeleteAsync(System.String,System.Threading.CancellationToken)
+  - Mcma.Client.McmaHttpClient.GetAsync(System.String,System.Threading.CancellationToken)
+  - Mcma.Client.McmaHttpClient.PostAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken)
+  - Mcma.Client.McmaHttpClient.PutAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken)
+  - Mcma.Client.McmaHttpClient.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: McmaHttpClient
+  nameWithType: McmaHttpClient
+  fullName: Mcma.Client.McmaHttpClient
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Client/Http/McmaHttpClient.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaHttpClient
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Http/McmaHttpClient.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: public class McmaHttpClient
+    content.vb: Public Class McmaHttpClient
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Mcma.Client.McmaHttpClient.Mcma.Client.McmaHttpClientExtensions.GetAsync``1(System.String,System.Boolean,System.Threading.CancellationToken)
+  - Mcma.Client.McmaHttpClient.Mcma.Client.McmaHttpClientExtensions.PostAsync(System.String,System.Object,System.Threading.CancellationToken)
+  - Mcma.Client.McmaHttpClient.Mcma.Client.McmaHttpClientExtensions.PostAsync``1(System.String,System.Object,System.Threading.CancellationToken)
+  - Mcma.Client.McmaHttpClient.Mcma.Client.McmaHttpClientExtensions.PutAsync(System.String,System.Object,System.Threading.CancellationToken)
+  - Mcma.Client.McmaHttpClient.Mcma.Client.McmaHttpClientExtensions.PutAsync``1(System.String,System.Object,System.Threading.CancellationToken)
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Client.McmaHttpClient.#ctor(System.Net.Http.HttpClient,Mcma.Client.IAuthenticator,Mcma.McmaTracker)
+  commentId: M:Mcma.Client.McmaHttpClient.#ctor(System.Net.Http.HttpClient,Mcma.Client.IAuthenticator,Mcma.McmaTracker)
+  id: '#ctor(System.Net.Http.HttpClient,Mcma.Client.IAuthenticator,Mcma.McmaTracker)'
+  parent: Mcma.Client.McmaHttpClient
+  langs:
+  - csharp
+  - vb
+  name: McmaHttpClient(HttpClient, IAuthenticator, McmaTracker)
+  nameWithType: McmaHttpClient.McmaHttpClient(HttpClient, IAuthenticator, McmaTracker)
+  fullName: Mcma.Client.McmaHttpClient.McmaHttpClient(System.Net.Http.HttpClient, Mcma.Client.IAuthenticator, Mcma.McmaTracker)
+  type: Constructor
+  source:
+    remote:
+      path: Base/Mcma.Client/Http/McmaHttpClient.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Http/McmaHttpClient.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: public McmaHttpClient(HttpClient httpClient, IAuthenticator authenticator = null, McmaTracker tracker = null)
+    parameters:
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+    - id: authenticator
+      type: Mcma.Client.IAuthenticator
+    - id: tracker
+      type: Mcma.McmaTracker
+    content.vb: Public Sub New(httpClient As HttpClient, authenticator As IAuthenticator = Nothing, tracker As McmaTracker = Nothing)
+  overload: Mcma.Client.McmaHttpClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Client.McmaHttpClient.GetAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.McmaHttpClient.GetAsync(System.String,System.Threading.CancellationToken)
+  id: GetAsync(System.String,System.Threading.CancellationToken)
+  parent: Mcma.Client.McmaHttpClient
+  langs:
+  - csharp
+  - vb
+  name: GetAsync(String, CancellationToken)
+  nameWithType: McmaHttpClient.GetAsync(String, CancellationToken)
+  fullName: Mcma.Client.McmaHttpClient.GetAsync(System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Http/McmaHttpClient.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Http/McmaHttpClient.cs
+    startLine: 25
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: public Task<HttpResponseMessage> GetAsync(string url, CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: url
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+    content.vb: Public Function GetAsync(url As String, cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)
+  overload: Mcma.Client.McmaHttpClient.GetAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Client.McmaHttpClient.PostAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.McmaHttpClient.PostAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken)
+  id: PostAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken)
+  parent: Mcma.Client.McmaHttpClient
+  langs:
+  - csharp
+  - vb
+  name: PostAsync(String, HttpContent, CancellationToken)
+  nameWithType: McmaHttpClient.PostAsync(String, HttpContent, CancellationToken)
+  fullName: Mcma.Client.McmaHttpClient.PostAsync(System.String, System.Net.Http.HttpContent, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Http/McmaHttpClient.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: PostAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Http/McmaHttpClient.cs
+    startLine: 28
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: public Task<HttpResponseMessage> PostAsync(string url, HttpContent body, CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: url
+      type: System.String
+    - id: body
+      type: System.Net.Http.HttpContent
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+    content.vb: Public Function PostAsync(url As String, body As HttpContent, cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)
+  overload: Mcma.Client.McmaHttpClient.PostAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Client.McmaHttpClient.PutAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.McmaHttpClient.PutAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken)
+  id: PutAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken)
+  parent: Mcma.Client.McmaHttpClient
+  langs:
+  - csharp
+  - vb
+  name: PutAsync(String, HttpContent, CancellationToken)
+  nameWithType: McmaHttpClient.PutAsync(String, HttpContent, CancellationToken)
+  fullName: Mcma.Client.McmaHttpClient.PutAsync(System.String, System.Net.Http.HttpContent, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Http/McmaHttpClient.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: PutAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Http/McmaHttpClient.cs
+    startLine: 31
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: public Task<HttpResponseMessage> PutAsync(string url, HttpContent body, CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: url
+      type: System.String
+    - id: body
+      type: System.Net.Http.HttpContent
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+    content.vb: Public Function PutAsync(url As String, body As HttpContent, cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)
+  overload: Mcma.Client.McmaHttpClient.PutAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Client.McmaHttpClient.DeleteAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.McmaHttpClient.DeleteAsync(System.String,System.Threading.CancellationToken)
+  id: DeleteAsync(System.String,System.Threading.CancellationToken)
+  parent: Mcma.Client.McmaHttpClient
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync(String, CancellationToken)
+  nameWithType: McmaHttpClient.DeleteAsync(String, CancellationToken)
+  fullName: Mcma.Client.McmaHttpClient.DeleteAsync(System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Http/McmaHttpClient.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: DeleteAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Http/McmaHttpClient.cs
+    startLine: 34
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: public Task<HttpResponseMessage> DeleteAsync(string url, CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: url
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+    content.vb: Public Function DeleteAsync(url As String, cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)
+  overload: Mcma.Client.McmaHttpClient.DeleteAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Client.McmaHttpClient.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.McmaHttpClient.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  id: SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  parent: Mcma.Client.McmaHttpClient
+  langs:
+  - csharp
+  - vb
+  name: SendAsync(HttpRequestMessage, CancellationToken)
+  nameWithType: McmaHttpClient.SendAsync(HttpRequestMessage, CancellationToken)
+  fullName: Mcma.Client.McmaHttpClient.SendAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Http/McmaHttpClient.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: SendAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Http/McmaHttpClient.cs
+    startLine: 37
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: public Task<HttpResponseMessage> SendAsync(HttpRequestMessage httpRequestMessage, CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: httpRequestMessage
+      type: System.Net.Http.HttpRequestMessage
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+    content.vb: Public Function SendAsync(httpRequestMessage As HttpRequestMessage, cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)
+  overload: Mcma.Client.McmaHttpClient.SendAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Client
+  commentId: N:Mcma.Client
+  name: Mcma.Client
+  nameWithType: Mcma.Client
+  fullName: Mcma.Client
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.McmaHttpClient.Mcma.Client.McmaHttpClientExtensions.GetAsync``1(System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.McmaHttpClientExtensions.GetAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Boolean,System.Threading.CancellationToken)
+  parent: Mcma.Client.McmaHttpClientExtensions
+  definition: Mcma.Client.McmaHttpClientExtensions.GetAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Boolean,System.Threading.CancellationToken)
+  name: GetAsync<T>(String, Boolean, CancellationToken)
+  nameWithType: McmaHttpClientExtensions.GetAsync<T>(String, Boolean, CancellationToken)
+  fullName: Mcma.Client.McmaHttpClientExtensions.GetAsync<T>(System.String, System.Boolean, System.Threading.CancellationToken)
+  nameWithType.vb: McmaHttpClientExtensions.GetAsync(Of T)(String, Boolean, CancellationToken)
+  fullName.vb: Mcma.Client.McmaHttpClientExtensions.GetAsync(Of T)(System.String, System.Boolean, System.Threading.CancellationToken)
+  name.vb: GetAsync(Of T)(String, Boolean, CancellationToken)
+  spec.csharp:
+  - uid: Mcma.Client.McmaHttpClientExtensions.GetAsync``1(System.String,System.Boolean,System.Threading.CancellationToken)
+    name: GetAsync<T>
+    nameWithType: McmaHttpClientExtensions.GetAsync<T>
+    fullName: Mcma.Client.McmaHttpClientExtensions.GetAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.McmaHttpClientExtensions.GetAsync``1(System.String,System.Boolean,System.Threading.CancellationToken)
+    name: GetAsync(Of T)
+    nameWithType: McmaHttpClientExtensions.GetAsync(Of T)
+    fullName: Mcma.Client.McmaHttpClientExtensions.GetAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.McmaHttpClient.Mcma.Client.McmaHttpClientExtensions.PostAsync(System.String,System.Object,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.McmaHttpClientExtensions.PostAsync(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+  parent: Mcma.Client.McmaHttpClientExtensions
+  definition: Mcma.Client.McmaHttpClientExtensions.PostAsync(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+  name: PostAsync(String, Object, CancellationToken)
+  nameWithType: McmaHttpClientExtensions.PostAsync(String, Object, CancellationToken)
+  fullName: Mcma.Client.McmaHttpClientExtensions.PostAsync(System.String, System.Object, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Mcma.Client.McmaHttpClientExtensions.PostAsync(System.String,System.Object,System.Threading.CancellationToken)
+    name: PostAsync
+    nameWithType: McmaHttpClientExtensions.PostAsync
+    fullName: Mcma.Client.McmaHttpClientExtensions.PostAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.McmaHttpClientExtensions.PostAsync(System.String,System.Object,System.Threading.CancellationToken)
+    name: PostAsync
+    nameWithType: McmaHttpClientExtensions.PostAsync
+    fullName: Mcma.Client.McmaHttpClientExtensions.PostAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.McmaHttpClient.Mcma.Client.McmaHttpClientExtensions.PostAsync``1(System.String,System.Object,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.McmaHttpClientExtensions.PostAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+  parent: Mcma.Client.McmaHttpClientExtensions
+  definition: Mcma.Client.McmaHttpClientExtensions.PostAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+  name: PostAsync<T>(String, Object, CancellationToken)
+  nameWithType: McmaHttpClientExtensions.PostAsync<T>(String, Object, CancellationToken)
+  fullName: Mcma.Client.McmaHttpClientExtensions.PostAsync<T>(System.String, System.Object, System.Threading.CancellationToken)
+  nameWithType.vb: McmaHttpClientExtensions.PostAsync(Of T)(String, Object, CancellationToken)
+  fullName.vb: Mcma.Client.McmaHttpClientExtensions.PostAsync(Of T)(System.String, System.Object, System.Threading.CancellationToken)
+  name.vb: PostAsync(Of T)(String, Object, CancellationToken)
+  spec.csharp:
+  - uid: Mcma.Client.McmaHttpClientExtensions.PostAsync``1(System.String,System.Object,System.Threading.CancellationToken)
+    name: PostAsync<T>
+    nameWithType: McmaHttpClientExtensions.PostAsync<T>
+    fullName: Mcma.Client.McmaHttpClientExtensions.PostAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.McmaHttpClientExtensions.PostAsync``1(System.String,System.Object,System.Threading.CancellationToken)
+    name: PostAsync(Of T)
+    nameWithType: McmaHttpClientExtensions.PostAsync(Of T)
+    fullName: Mcma.Client.McmaHttpClientExtensions.PostAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.McmaHttpClient.Mcma.Client.McmaHttpClientExtensions.PutAsync(System.String,System.Object,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.McmaHttpClientExtensions.PutAsync(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+  parent: Mcma.Client.McmaHttpClientExtensions
+  definition: Mcma.Client.McmaHttpClientExtensions.PutAsync(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+  name: PutAsync(String, Object, CancellationToken)
+  nameWithType: McmaHttpClientExtensions.PutAsync(String, Object, CancellationToken)
+  fullName: Mcma.Client.McmaHttpClientExtensions.PutAsync(System.String, System.Object, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Mcma.Client.McmaHttpClientExtensions.PutAsync(System.String,System.Object,System.Threading.CancellationToken)
+    name: PutAsync
+    nameWithType: McmaHttpClientExtensions.PutAsync
+    fullName: Mcma.Client.McmaHttpClientExtensions.PutAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.McmaHttpClientExtensions.PutAsync(System.String,System.Object,System.Threading.CancellationToken)
+    name: PutAsync
+    nameWithType: McmaHttpClientExtensions.PutAsync
+    fullName: Mcma.Client.McmaHttpClientExtensions.PutAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.McmaHttpClient.Mcma.Client.McmaHttpClientExtensions.PutAsync``1(System.String,System.Object,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.McmaHttpClientExtensions.PutAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+  parent: Mcma.Client.McmaHttpClientExtensions
+  definition: Mcma.Client.McmaHttpClientExtensions.PutAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+  name: PutAsync<T>(String, Object, CancellationToken)
+  nameWithType: McmaHttpClientExtensions.PutAsync<T>(String, Object, CancellationToken)
+  fullName: Mcma.Client.McmaHttpClientExtensions.PutAsync<T>(System.String, System.Object, System.Threading.CancellationToken)
+  nameWithType.vb: McmaHttpClientExtensions.PutAsync(Of T)(String, Object, CancellationToken)
+  fullName.vb: Mcma.Client.McmaHttpClientExtensions.PutAsync(Of T)(System.String, System.Object, System.Threading.CancellationToken)
+  name.vb: PutAsync(Of T)(String, Object, CancellationToken)
+  spec.csharp:
+  - uid: Mcma.Client.McmaHttpClientExtensions.PutAsync``1(System.String,System.Object,System.Threading.CancellationToken)
+    name: PutAsync<T>
+    nameWithType: McmaHttpClientExtensions.PutAsync<T>
+    fullName: Mcma.Client.McmaHttpClientExtensions.PutAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.McmaHttpClientExtensions.PutAsync``1(System.String,System.Object,System.Threading.CancellationToken)
+    name: PutAsync(Of T)
+    nameWithType: McmaHttpClientExtensions.PutAsync(Of T)
+    fullName: Mcma.Client.McmaHttpClientExtensions.PutAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Client.McmaHttpClientExtensions.GetAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.McmaHttpClientExtensions.GetAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Boolean,System.Threading.CancellationToken)
+  isExternal: true
+  name: GetAsync<T>(McmaHttpClient, String, Boolean, CancellationToken)
+  nameWithType: McmaHttpClientExtensions.GetAsync<T>(McmaHttpClient, String, Boolean, CancellationToken)
+  fullName: Mcma.Client.McmaHttpClientExtensions.GetAsync<T>(Mcma.Client.McmaHttpClient, System.String, System.Boolean, System.Threading.CancellationToken)
+  nameWithType.vb: McmaHttpClientExtensions.GetAsync(Of T)(McmaHttpClient, String, Boolean, CancellationToken)
+  fullName.vb: Mcma.Client.McmaHttpClientExtensions.GetAsync(Of T)(Mcma.Client.McmaHttpClient, System.String, System.Boolean, System.Threading.CancellationToken)
+  name.vb: GetAsync(Of T)(McmaHttpClient, String, Boolean, CancellationToken)
+  spec.csharp:
+  - uid: Mcma.Client.McmaHttpClientExtensions.GetAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: GetAsync<T>
+    nameWithType: McmaHttpClientExtensions.GetAsync<T>
+    fullName: Mcma.Client.McmaHttpClientExtensions.GetAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.McmaHttpClient
+    name: McmaHttpClient
+    nameWithType: McmaHttpClient
+    fullName: Mcma.Client.McmaHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.McmaHttpClientExtensions.GetAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: GetAsync(Of T)
+    nameWithType: McmaHttpClientExtensions.GetAsync(Of T)
+    fullName: Mcma.Client.McmaHttpClientExtensions.GetAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.McmaHttpClient
+    name: McmaHttpClient
+    nameWithType: McmaHttpClient
+    fullName: Mcma.Client.McmaHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.McmaHttpClientExtensions
+  commentId: T:Mcma.Client.McmaHttpClientExtensions
+  parent: Mcma.Client
+  name: McmaHttpClientExtensions
+  nameWithType: McmaHttpClientExtensions
+  fullName: Mcma.Client.McmaHttpClientExtensions
+- uid: Mcma.Client.McmaHttpClientExtensions.PostAsync(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.McmaHttpClientExtensions.PostAsync(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+  isExternal: true
+  name: PostAsync(McmaHttpClient, String, Object, CancellationToken)
+  nameWithType: McmaHttpClientExtensions.PostAsync(McmaHttpClient, String, Object, CancellationToken)
+  fullName: Mcma.Client.McmaHttpClientExtensions.PostAsync(Mcma.Client.McmaHttpClient, System.String, System.Object, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Mcma.Client.McmaHttpClientExtensions.PostAsync(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+    name: PostAsync
+    nameWithType: McmaHttpClientExtensions.PostAsync
+    fullName: Mcma.Client.McmaHttpClientExtensions.PostAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.McmaHttpClient
+    name: McmaHttpClient
+    nameWithType: McmaHttpClient
+    fullName: Mcma.Client.McmaHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.McmaHttpClientExtensions.PostAsync(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+    name: PostAsync
+    nameWithType: McmaHttpClientExtensions.PostAsync
+    fullName: Mcma.Client.McmaHttpClientExtensions.PostAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.McmaHttpClient
+    name: McmaHttpClient
+    nameWithType: McmaHttpClient
+    fullName: Mcma.Client.McmaHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.McmaHttpClientExtensions.PostAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.McmaHttpClientExtensions.PostAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+  isExternal: true
+  name: PostAsync<T>(McmaHttpClient, String, Object, CancellationToken)
+  nameWithType: McmaHttpClientExtensions.PostAsync<T>(McmaHttpClient, String, Object, CancellationToken)
+  fullName: Mcma.Client.McmaHttpClientExtensions.PostAsync<T>(Mcma.Client.McmaHttpClient, System.String, System.Object, System.Threading.CancellationToken)
+  nameWithType.vb: McmaHttpClientExtensions.PostAsync(Of T)(McmaHttpClient, String, Object, CancellationToken)
+  fullName.vb: Mcma.Client.McmaHttpClientExtensions.PostAsync(Of T)(Mcma.Client.McmaHttpClient, System.String, System.Object, System.Threading.CancellationToken)
+  name.vb: PostAsync(Of T)(McmaHttpClient, String, Object, CancellationToken)
+  spec.csharp:
+  - uid: Mcma.Client.McmaHttpClientExtensions.PostAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+    name: PostAsync<T>
+    nameWithType: McmaHttpClientExtensions.PostAsync<T>
+    fullName: Mcma.Client.McmaHttpClientExtensions.PostAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.McmaHttpClient
+    name: McmaHttpClient
+    nameWithType: McmaHttpClient
+    fullName: Mcma.Client.McmaHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.McmaHttpClientExtensions.PostAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+    name: PostAsync(Of T)
+    nameWithType: McmaHttpClientExtensions.PostAsync(Of T)
+    fullName: Mcma.Client.McmaHttpClientExtensions.PostAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.McmaHttpClient
+    name: McmaHttpClient
+    nameWithType: McmaHttpClient
+    fullName: Mcma.Client.McmaHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.McmaHttpClientExtensions.PutAsync(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.McmaHttpClientExtensions.PutAsync(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+  isExternal: true
+  name: PutAsync(McmaHttpClient, String, Object, CancellationToken)
+  nameWithType: McmaHttpClientExtensions.PutAsync(McmaHttpClient, String, Object, CancellationToken)
+  fullName: Mcma.Client.McmaHttpClientExtensions.PutAsync(Mcma.Client.McmaHttpClient, System.String, System.Object, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Mcma.Client.McmaHttpClientExtensions.PutAsync(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+    name: PutAsync
+    nameWithType: McmaHttpClientExtensions.PutAsync
+    fullName: Mcma.Client.McmaHttpClientExtensions.PutAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.McmaHttpClient
+    name: McmaHttpClient
+    nameWithType: McmaHttpClient
+    fullName: Mcma.Client.McmaHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.McmaHttpClientExtensions.PutAsync(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+    name: PutAsync
+    nameWithType: McmaHttpClientExtensions.PutAsync
+    fullName: Mcma.Client.McmaHttpClientExtensions.PutAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.McmaHttpClient
+    name: McmaHttpClient
+    nameWithType: McmaHttpClient
+    fullName: Mcma.Client.McmaHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.McmaHttpClientExtensions.PutAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.McmaHttpClientExtensions.PutAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+  isExternal: true
+  name: PutAsync<T>(McmaHttpClient, String, Object, CancellationToken)
+  nameWithType: McmaHttpClientExtensions.PutAsync<T>(McmaHttpClient, String, Object, CancellationToken)
+  fullName: Mcma.Client.McmaHttpClientExtensions.PutAsync<T>(Mcma.Client.McmaHttpClient, System.String, System.Object, System.Threading.CancellationToken)
+  nameWithType.vb: McmaHttpClientExtensions.PutAsync(Of T)(McmaHttpClient, String, Object, CancellationToken)
+  fullName.vb: Mcma.Client.McmaHttpClientExtensions.PutAsync(Of T)(Mcma.Client.McmaHttpClient, System.String, System.Object, System.Threading.CancellationToken)
+  name.vb: PutAsync(Of T)(McmaHttpClient, String, Object, CancellationToken)
+  spec.csharp:
+  - uid: Mcma.Client.McmaHttpClientExtensions.PutAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+    name: PutAsync<T>
+    nameWithType: McmaHttpClientExtensions.PutAsync<T>
+    fullName: Mcma.Client.McmaHttpClientExtensions.PutAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.McmaHttpClient
+    name: McmaHttpClient
+    nameWithType: McmaHttpClient
+    fullName: Mcma.Client.McmaHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.McmaHttpClientExtensions.PutAsync``1(Mcma.Client.McmaHttpClient,System.String,System.Object,System.Threading.CancellationToken)
+    name: PutAsync(Of T)
+    nameWithType: McmaHttpClientExtensions.PutAsync(Of T)
+    fullName: Mcma.Client.McmaHttpClientExtensions.PutAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.McmaHttpClient
+    name: McmaHttpClient
+    nameWithType: McmaHttpClient
+    fullName: Mcma.Client.McmaHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Client.McmaHttpClient.#ctor*
+  commentId: Overload:Mcma.Client.McmaHttpClient.#ctor
+  name: McmaHttpClient
+  nameWithType: McmaHttpClient.McmaHttpClient
+  fullName: Mcma.Client.McmaHttpClient.McmaHttpClient
+- uid: System.Net.Http.HttpClient
+  commentId: T:System.Net.Http.HttpClient
+  parent: System.Net.Http
+  isExternal: true
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: Mcma.Client.IAuthenticator
+  commentId: T:Mcma.Client.IAuthenticator
+  parent: Mcma.Client
+  name: IAuthenticator
+  nameWithType: IAuthenticator
+  fullName: Mcma.Client.IAuthenticator
+- uid: Mcma.McmaTracker
+  commentId: T:Mcma.McmaTracker
+  parent: Mcma
+  name: McmaTracker
+  nameWithType: McmaTracker
+  fullName: Mcma.McmaTracker
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+- uid: Mcma
+  commentId: N:Mcma
+  name: Mcma
+  nameWithType: Mcma
+  fullName: Mcma
+- uid: Mcma.Client.McmaHttpClient.GetAsync*
+  commentId: Overload:Mcma.Client.McmaHttpClient.GetAsync
+  name: GetAsync
+  nameWithType: McmaHttpClient.GetAsync
+  fullName: Mcma.Client.McmaHttpClient.GetAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+  commentId: T:System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<HttpResponseMessage>
+  nameWithType: Task<HttpResponseMessage>
+  fullName: System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>
+  nameWithType.vb: Task(Of HttpResponseMessage)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Net.Http.HttpResponseMessage)
+  name.vb: Task(Of HttpResponseMessage)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Mcma.Client.McmaHttpClient.PostAsync*
+  commentId: Overload:Mcma.Client.McmaHttpClient.PostAsync
+  name: PostAsync
+  nameWithType: McmaHttpClient.PostAsync
+  fullName: Mcma.Client.McmaHttpClient.PostAsync
+- uid: System.Net.Http.HttpContent
+  commentId: T:System.Net.Http.HttpContent
+  parent: System.Net.Http
+  isExternal: true
+  name: HttpContent
+  nameWithType: HttpContent
+  fullName: System.Net.Http.HttpContent
+- uid: Mcma.Client.McmaHttpClient.PutAsync*
+  commentId: Overload:Mcma.Client.McmaHttpClient.PutAsync
+  name: PutAsync
+  nameWithType: McmaHttpClient.PutAsync
+  fullName: Mcma.Client.McmaHttpClient.PutAsync
+- uid: Mcma.Client.McmaHttpClient.DeleteAsync*
+  commentId: Overload:Mcma.Client.McmaHttpClient.DeleteAsync
+  name: DeleteAsync
+  nameWithType: McmaHttpClient.DeleteAsync
+  fullName: Mcma.Client.McmaHttpClient.DeleteAsync
+- uid: Mcma.Client.McmaHttpClient.SendAsync*
+  commentId: Overload:Mcma.Client.McmaHttpClient.SendAsync
+  name: SendAsync
+  nameWithType: McmaHttpClient.SendAsync
+  fullName: Mcma.Client.McmaHttpClient.SendAsync
+- uid: System.Net.Http.HttpRequestMessage
+  commentId: T:System.Net.Http.HttpRequestMessage
+  parent: System.Net.Http
+  isExternal: true
+  name: HttpRequestMessage
+  nameWithType: HttpRequestMessage
+  fullName: System.Net.Http.HttpRequestMessage

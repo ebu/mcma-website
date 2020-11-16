@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-client.AzureManagedIdentityAccessTokenProvider
+    name: AzureManagedIdentityAccessTokenProvider
+    fullName: AzureManagedIdentityAccessTokenProvider
+    children:
+      - azure-client.AzureManagedIdentityAccessTokenProvider.getAccessToken
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-client
+  - uid: azure-client.AzureManagedIdentityAccessTokenProvider.getAccessToken
+    name: getAccessToken(AzureAdAuthContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getAccessToken(authContext: AzureAdAuthContext)'
+      parameters:
+        - id: authContext
+          type:
+            - azure-client.AzureAdAuthContext
+          description: ''
+      return:
+        type:
+          - Promise<AccessToken>
+        description: ''
+    package: azure-client
+references:
+  - uid: azure-client.AzureAdAuthContext
+    name: AzureAdAuthContext
+    spec.typeScript:
+      - name: AzureAdAuthContext
+        fullName: AzureAdAuthContext
+        uid: azure-client.AzureAdAuthContext

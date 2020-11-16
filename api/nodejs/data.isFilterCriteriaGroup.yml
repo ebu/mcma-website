@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: data.isFilterCriteriaGroup
+    name: isFilterCriteriaGroup(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isFilterCriteriaGroup<T>(obj: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - obj
+        description: ''
+    package: data

@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.WorkerInvoker
+  commentId: N:Mcma.Azure.WorkerInvoker
+  id: Mcma.Azure.WorkerInvoker
+  children:
+  - Mcma.Azure.WorkerInvoker.McmaQueueWorkerInvokerEnvironmentVariables
+  - Mcma.Azure.WorkerInvoker.QueueWorkerInvoker
+  - Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions
+  - Mcma.Azure.WorkerInvoker.QueueWorkerInvokerServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Azure.WorkerInvoker
+  nameWithType: Mcma.Azure.WorkerInvoker
+  fullName: Mcma.Azure.WorkerInvoker
+  type: Namespace
+  assemblies:
+  - Mcma.Azure.QueueWorkerInvoker
+references:
+- uid: Mcma.Azure.WorkerInvoker.McmaQueueWorkerInvokerEnvironmentVariables
+  commentId: T:Mcma.Azure.WorkerInvoker.McmaQueueWorkerInvokerEnvironmentVariables
+  name: McmaQueueWorkerInvokerEnvironmentVariables
+  nameWithType: McmaQueueWorkerInvokerEnvironmentVariables
+  fullName: Mcma.Azure.WorkerInvoker.McmaQueueWorkerInvokerEnvironmentVariables
+- uid: Mcma.Azure.WorkerInvoker.QueueWorkerInvoker
+  commentId: T:Mcma.Azure.WorkerInvoker.QueueWorkerInvoker
+  name: QueueWorkerInvoker
+  nameWithType: QueueWorkerInvoker
+  fullName: Mcma.Azure.WorkerInvoker.QueueWorkerInvoker
+- uid: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions
+  commentId: T:Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions
+  name: QueueWorkerInvokerOptions
+  nameWithType: QueueWorkerInvokerOptions
+  fullName: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions
+- uid: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerServiceCollectionExtensions
+  commentId: T:Mcma.Azure.WorkerInvoker.QueueWorkerInvokerServiceCollectionExtensions
+  name: QueueWorkerInvokerServiceCollectionExtensions
+  nameWithType: QueueWorkerInvokerServiceCollectionExtensions
+  fullName: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerServiceCollectionExtensions

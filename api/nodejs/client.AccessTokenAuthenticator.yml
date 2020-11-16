@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+items:
+  - uid: client.AccessTokenAuthenticator
+    name: AccessTokenAuthenticator
+    fullName: AccessTokenAuthenticator<T>
+    children:
+      - client.AccessTokenAuthenticator.constructor
+      - client.AccessTokenAuthenticator.sign
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: client
+  - uid: client.AccessTokenAuthenticator.constructor
+    name: 'AccessTokenAuthenticator(AccessTokenProvider<T>, T)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new AccessTokenAuthenticator(tokenProvider: AccessTokenProvider<T>,
+        authContext: T)
+      parameters:
+        - id: tokenProvider
+          type:
+            - client.AccessTokenProvider<T>
+          description: ''
+        - id: authContext
+          type:
+            - T
+          description: ''
+    package: client
+  - uid: client.AccessTokenAuthenticator.sign
+    name: sign(HttpRequestConfig)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function sign(config: HttpRequestConfig)'
+      parameters:
+        - id: config
+          type:
+            - client.HttpRequestConfig
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: client
+references:
+  - uid: client.AccessTokenProvider<T>
+    name: AccessTokenProvider<T>
+    spec.typeScript:
+      - name: AccessTokenProvider
+        fullName: AccessTokenProvider
+        uid: client.AccessTokenProvider
+      - name: <T>
+        fullName: <T>
+  - uid: client.HttpRequestConfig
+    name: HttpRequestConfig
+    spec.typeScript:
+      - name: HttpRequestConfig
+        fullName: HttpRequestConfig
+        uid: client.HttpRequestConfig

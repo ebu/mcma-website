@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-lambda-worker-invoker.invokeLambdaWorker
+    name: 'invokeLambdaWorker(string, WorkerRequestProperties)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function invokeLambdaWorker(workerFunctionId: string, workerRequest:
+        WorkerRequestProperties)
+      parameters:
+        - id: workerFunctionId
+          type:
+            - string
+          description: ''
+        - id: workerRequest
+          type:
+            - WorkerRequestProperties
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: aws-lambda-worker-invoker

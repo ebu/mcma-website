@@ -1,0 +1,133 @@
+### YamlMime:UniversalReference
+items:
+  - uid: api.McmaApiError
+    name: McmaApiError
+    fullName: McmaApiError
+    children:
+      - api.McmaApiError.@type
+      - api.McmaApiError.error
+      - api.McmaApiError.constructor
+      - api.McmaApiError.message
+      - api.McmaApiError.path
+      - api.McmaApiError.status
+      - api.McmaApiError.timestamp
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: McmaObject
+    package: api
+  - uid: api.McmaApiError.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: api
+  - uid: api.McmaApiError.error
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'error: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: api
+  - uid: api.McmaApiError.constructor
+    name: 'McmaApiError(number, string, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new McmaApiError(status: number, message: string, path: string)'
+      parameters:
+        - id: status
+          type:
+            - number
+          description: ''
+        - id: message
+          type:
+            - string
+          description: ''
+        - id: path
+          type:
+            - string
+          description: ''
+    package: api
+  - uid: api.McmaApiError.message
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public message: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: api
+  - uid: api.McmaApiError.path
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public path: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: api
+  - uid: api.McmaApiError.status
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public status: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: api
+  - uid: api.McmaApiError.timestamp
+    name: timestamp
+    fullName: timestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'timestamp: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: api

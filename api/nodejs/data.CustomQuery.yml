@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: data.CustomQuery
+    name: CustomQuery
+    fullName: CustomQuery<TDocument>
+    children:
+      - data.CustomQuery.name
+      - data.CustomQuery.pageStartToken
+      - data.CustomQuery.parameters
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: data
+  - uid: data.CustomQuery.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: data
+  - uid: data.CustomQuery.pageStartToken
+    name: pageStartToken
+    fullName: pageStartToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'pageStartToken?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: data
+  - uid: data.CustomQuery.parameters
+    name: parameters
+    fullName: parameters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'parameters: TParameters'
+      return:
+        type:
+          - TParameters
+        description: ''
+    package: data

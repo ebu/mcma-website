@@ -1,0 +1,723 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1
+  commentId: T:Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1
+  id: BlobStorageProxy`1
+  parent: Mcma.Azure.BlobStorage.Proxies
+  children:
+  - Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.#ctor(`0,System.String)
+  - Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.AccountKey
+  - Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.ContainerClient
+  - Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.Locator
+  - Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.ServiceClient
+  langs:
+  - csharp
+  - vb
+  name: BlobStorageProxy<T>
+  nameWithType: BlobStorageProxy<T>
+  fullName: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy<T>
+  type: Class
+  source:
+    remote:
+      path: Azure/Mcma.Azure.BlobStorage/Proxies/BlobStorageProxy.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: BlobStorageProxy
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.BlobStorage/Proxies/BlobStorageProxy.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Azure.BlobStorage
+  namespace: Mcma.Azure.BlobStorage.Proxies
+  syntax:
+    content: >-
+      public abstract class BlobStorageProxy<T>
+
+          where T : BlobStorageLocator
+    typeParameters:
+    - id: T
+    content.vb: Public MustInherit Class BlobStorageProxy(Of T As BlobStorageLocator)
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Mcma.Azure.BlobStorage.Proxies.BlobStorageFileProxy
+  - Mcma.Azure.BlobStorage.Proxies.BlobStorageFolderProxy
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  nameWithType.vb: BlobStorageProxy(Of T)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy(Of T)
+  name.vb: BlobStorageProxy(Of T)
+- uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.#ctor(`0,System.String)
+  commentId: M:Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.#ctor(`0,System.String)
+  id: '#ctor(`0,System.String)'
+  parent: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1
+  langs:
+  - csharp
+  - vb
+  name: BlobStorageProxy(T, String)
+  nameWithType: BlobStorageProxy<T>.BlobStorageProxy(T, String)
+  fullName: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy<T>.BlobStorageProxy(T, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Azure/Mcma.Azure.BlobStorage/Proxies/BlobStorageProxy.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.BlobStorage/Proxies/BlobStorageProxy.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Azure.BlobStorage
+  namespace: Mcma.Azure.BlobStorage.Proxies
+  syntax:
+    content: protected BlobStorageProxy(T locator, string connectionString)
+    parameters:
+    - id: locator
+      type: '{T}'
+    - id: connectionString
+      type: System.String
+    content.vb: Protected Sub New(locator As T, connectionString As String)
+  overload: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.#ctor*
+  nameWithType.vb: BlobStorageProxy(Of T).BlobStorageProxy(T, String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy(Of T).BlobStorageProxy(T, System.String)
+- uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.Locator
+  commentId: P:Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.Locator
+  id: Locator
+  parent: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1
+  langs:
+  - csharp
+  - vb
+  name: Locator
+  nameWithType: BlobStorageProxy<T>.Locator
+  fullName: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy<T>.Locator
+  type: Property
+  source:
+    remote:
+      path: Azure/Mcma.Azure.BlobStorage/Proxies/BlobStorageProxy.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Locator
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.BlobStorage/Proxies/BlobStorageProxy.cs
+    startLine: 16
+  assemblies:
+  - Mcma.Azure.BlobStorage
+  namespace: Mcma.Azure.BlobStorage.Proxies
+  syntax:
+    content: public T Locator { get; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public ReadOnly Property Locator As T
+  overload: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.Locator*
+  nameWithType.vb: BlobStorageProxy(Of T).Locator
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy(Of T).Locator
+- uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.AccountKey
+  commentId: P:Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.AccountKey
+  id: AccountKey
+  parent: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1
+  langs:
+  - csharp
+  - vb
+  name: AccountKey
+  nameWithType: BlobStorageProxy<T>.AccountKey
+  fullName: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy<T>.AccountKey
+  type: Property
+  source:
+    remote:
+      path: Azure/Mcma.Azure.BlobStorage/Proxies/BlobStorageProxy.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AccountKey
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.BlobStorage/Proxies/BlobStorageProxy.cs
+    startLine: 18
+  assemblies:
+  - Mcma.Azure.BlobStorage
+  namespace: Mcma.Azure.BlobStorage.Proxies
+  syntax:
+    content: protected string AccountKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected ReadOnly Property AccountKey As String
+  overload: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.AccountKey*
+  nameWithType.vb: BlobStorageProxy(Of T).AccountKey
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+  fullName.vb: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy(Of T).AccountKey
+- uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.ServiceClient
+  commentId: P:Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.ServiceClient
+  id: ServiceClient
+  parent: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1
+  langs:
+  - csharp
+  - vb
+  name: ServiceClient
+  nameWithType: BlobStorageProxy<T>.ServiceClient
+  fullName: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy<T>.ServiceClient
+  type: Property
+  source:
+    remote:
+      path: Azure/Mcma.Azure.BlobStorage/Proxies/BlobStorageProxy.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ServiceClient
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.BlobStorage/Proxies/BlobStorageProxy.cs
+    startLine: 20
+  assemblies:
+  - Mcma.Azure.BlobStorage
+  namespace: Mcma.Azure.BlobStorage.Proxies
+  syntax:
+    content: protected BlobServiceClient ServiceClient { get; }
+    parameters: []
+    return:
+      type: Azure.Storage.Blobs.BlobServiceClient
+    content.vb: Protected ReadOnly Property ServiceClient As BlobServiceClient
+  overload: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.ServiceClient*
+  nameWithType.vb: BlobStorageProxy(Of T).ServiceClient
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+  fullName.vb: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy(Of T).ServiceClient
+- uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.ContainerClient
+  commentId: P:Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.ContainerClient
+  id: ContainerClient
+  parent: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1
+  langs:
+  - csharp
+  - vb
+  name: ContainerClient
+  nameWithType: BlobStorageProxy<T>.ContainerClient
+  fullName: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy<T>.ContainerClient
+  type: Property
+  source:
+    remote:
+      path: Azure/Mcma.Azure.BlobStorage/Proxies/BlobStorageProxy.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ContainerClient
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.BlobStorage/Proxies/BlobStorageProxy.cs
+    startLine: 22
+  assemblies:
+  - Mcma.Azure.BlobStorage
+  namespace: Mcma.Azure.BlobStorage.Proxies
+  syntax:
+    content: protected BlobContainerClient ContainerClient { get; }
+    parameters: []
+    return:
+      type: Azure.Storage.Blobs.BlobContainerClient
+    content.vb: Protected ReadOnly Property ContainerClient As BlobContainerClient
+  overload: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.ContainerClient*
+  nameWithType.vb: BlobStorageProxy(Of T).ContainerClient
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+  fullName.vb: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy(Of T).ContainerClient
+references:
+- uid: Mcma.Azure.BlobStorage.Proxies
+  commentId: N:Mcma.Azure.BlobStorage.Proxies
+  name: Mcma.Azure.BlobStorage.Proxies
+  nameWithType: Mcma.Azure.BlobStorage.Proxies
+  fullName: Mcma.Azure.BlobStorage.Proxies
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.#ctor*
+  commentId: Overload:Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.#ctor
+  name: BlobStorageProxy
+  nameWithType: BlobStorageProxy<T>.BlobStorageProxy
+  fullName: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy<T>.BlobStorageProxy
+  nameWithType.vb: BlobStorageProxy(Of T).BlobStorageProxy
+  fullName.vb: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy(Of T).BlobStorageProxy
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.Locator*
+  commentId: Overload:Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.Locator
+  name: Locator
+  nameWithType: BlobStorageProxy<T>.Locator
+  fullName: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy<T>.Locator
+  nameWithType.vb: BlobStorageProxy(Of T).Locator
+  fullName.vb: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy(Of T).Locator
+- uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.AccountKey*
+  commentId: Overload:Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.AccountKey
+  name: AccountKey
+  nameWithType: BlobStorageProxy<T>.AccountKey
+  fullName: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy<T>.AccountKey
+  nameWithType.vb: BlobStorageProxy(Of T).AccountKey
+  fullName.vb: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy(Of T).AccountKey
+- uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.ServiceClient*
+  commentId: Overload:Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.ServiceClient
+  name: ServiceClient
+  nameWithType: BlobStorageProxy<T>.ServiceClient
+  fullName: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy<T>.ServiceClient
+  nameWithType.vb: BlobStorageProxy(Of T).ServiceClient
+  fullName.vb: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy(Of T).ServiceClient
+- uid: Azure.Storage.Blobs.BlobServiceClient
+  commentId: T:Azure.Storage.Blobs.BlobServiceClient
+  parent: Azure.Storage.Blobs
+  isExternal: true
+  name: BlobServiceClient
+  nameWithType: BlobServiceClient
+  fullName: Azure.Storage.Blobs.BlobServiceClient
+- uid: Azure.Storage.Blobs
+  commentId: N:Azure.Storage.Blobs
+  isExternal: true
+  name: Azure.Storage.Blobs
+  nameWithType: Azure.Storage.Blobs
+  fullName: Azure.Storage.Blobs
+- uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.ContainerClient*
+  commentId: Overload:Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1.ContainerClient
+  name: ContainerClient
+  nameWithType: BlobStorageProxy<T>.ContainerClient
+  fullName: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy<T>.ContainerClient
+  nameWithType.vb: BlobStorageProxy(Of T).ContainerClient
+  fullName.vb: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy(Of T).ContainerClient
+- uid: Azure.Storage.Blobs.BlobContainerClient
+  commentId: T:Azure.Storage.Blobs.BlobContainerClient
+  parent: Azure.Storage.Blobs
+  isExternal: true
+  name: BlobContainerClient
+  nameWithType: BlobContainerClient
+  fullName: Azure.Storage.Blobs.BlobContainerClient

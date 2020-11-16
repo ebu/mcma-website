@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-logger
+    name: "@mcma/google-cloud-logger"
+    summary: ""
+    children:
+      - google-cloud-logger.CloudLoggingLogger
+      - google-cloud-logger.CloudLoggingLoggerProvider
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: google-cloud-logger.CloudLoggingLogger
+    name: CloudLoggingLogger
+  - uid: google-cloud-logger.CloudLoggingLoggerProvider
+    name: CloudLoggingLoggerProvider

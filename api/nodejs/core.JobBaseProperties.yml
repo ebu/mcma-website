@@ -1,0 +1,191 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.JobBaseProperties
+    name: JobBaseProperties
+    fullName: JobBaseProperties
+    children:
+      - core.JobBaseProperties.@type
+      - core.JobBaseProperties.custom
+      - core.JobBaseProperties.dateCreated
+      - core.JobBaseProperties.dateModified
+      - core.JobBaseProperties.error
+      - core.JobBaseProperties.id
+      - core.JobBaseProperties.jobOutput
+      - core.JobBaseProperties.progress
+      - core.JobBaseProperties.status
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: core.McmaResourceProperties
+    package: core
+  - uid: core.JobBaseProperties.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: '@type?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobBaseProperties.custom
+    name: custom
+    fullName: custom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'custom?: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: core
+  - uid: core.JobBaseProperties.dateCreated
+    name: dateCreated
+    fullName: dateCreated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateCreated?: Date | string'
+      return:
+        type:
+          - Date | string
+        description: ''
+    package: core
+  - uid: core.JobBaseProperties.dateModified
+    name: dateModified
+    fullName: dateModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateModified?: Date | string'
+      return:
+        type:
+          - Date | string
+        description: ''
+    package: core
+  - uid: core.JobBaseProperties.error
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'error?: ProblemDetailProperties'
+      return:
+        type:
+          - core.ProblemDetailProperties
+        description: ''
+    package: core
+  - uid: core.JobBaseProperties.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobBaseProperties.jobOutput
+    name: jobOutput
+    fullName: jobOutput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'jobOutput?: JobParameterBag'
+      return:
+        type:
+          - core.JobParameterBag
+        description: ''
+    package: core
+  - uid: core.JobBaseProperties.progress
+    name: progress
+    fullName: progress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'progress?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: core
+  - uid: core.JobBaseProperties.status
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'status?: JobStatus'
+      return:
+        type:
+          - core.JobStatus
+        description: ''
+    package: core
+references:
+  - uid: core.McmaResourceProperties
+    name: McmaResourceProperties
+    spec.typeScript:
+      - name: McmaResourceProperties
+        fullName: McmaResourceProperties
+        uid: core.McmaResourceProperties
+  - uid: core.ProblemDetailProperties
+    name: ProblemDetailProperties
+    spec.typeScript:
+      - name: ProblemDetailProperties
+        fullName: ProblemDetailProperties
+        uid: core.ProblemDetailProperties
+  - uid: core.JobParameterBag
+    name: JobParameterBag
+    spec.typeScript:
+      - name: JobParameterBag
+        fullName: JobParameterBag
+        uid: core.JobParameterBag
+  - uid: core.JobStatus
+    name: JobStatus
+    spec.typeScript:
+      - name: JobStatus
+        fullName: JobStatus
+        uid: core.JobStatus

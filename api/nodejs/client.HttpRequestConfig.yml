@@ -1,0 +1,455 @@
+### YamlMime:UniversalReference
+items:
+  - uid: client.HttpRequestConfig
+    name: HttpRequestConfig
+    fullName: HttpRequestConfig
+    children:
+      - client.HttpRequestConfig.adapter
+      - client.HttpRequestConfig.auth
+      - client.HttpRequestConfig.baseURL
+      - client.HttpRequestConfig.cancelToken
+      - client.HttpRequestConfig.data
+      - client.HttpRequestConfig.headers
+      - client.HttpRequestConfig.httpAgent
+      - client.HttpRequestConfig.httpsAgent
+      - client.HttpRequestConfig.maxContentLength
+      - client.HttpRequestConfig.maxRedirects
+      - client.HttpRequestConfig.method
+      - client.HttpRequestConfig.onDownloadProgress
+      - client.HttpRequestConfig.onUploadProgress
+      - client.HttpRequestConfig.params
+      - client.HttpRequestConfig.paramsSerializer
+      - client.HttpRequestConfig.proxy
+      - client.HttpRequestConfig.responseType
+      - client.HttpRequestConfig.timeout
+      - client.HttpRequestConfig.tracker
+      - client.HttpRequestConfig.transformRequest
+      - client.HttpRequestConfig.transformResponse
+      - client.HttpRequestConfig.url
+      - client.HttpRequestConfig.validateStatus
+      - client.HttpRequestConfig.withCredentials
+      - client.HttpRequestConfig.xsrfCookieName
+      - client.HttpRequestConfig.xsrfHeaderName
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: AxiosRequestConfig
+    package: client
+  - uid: client.HttpRequestConfig.adapter
+    name: adapter
+    fullName: adapter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'adapter?: AxiosAdapter'
+      return:
+        type:
+          - AxiosAdapter
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.auth
+    name: auth
+    fullName: auth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'auth?: AxiosBasicCredentials'
+      return:
+        type:
+          - AxiosBasicCredentials
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.baseURL
+    name: baseURL
+    fullName: baseURL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'baseURL?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.cancelToken
+    name: cancelToken
+    fullName: cancelToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'cancelToken?: CancelToken'
+      return:
+        type:
+          - CancelToken
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.data
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'data?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.headers
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'headers?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.httpAgent
+    name: httpAgent
+    fullName: httpAgent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'httpAgent?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.httpsAgent
+    name: httpsAgent
+    fullName: httpsAgent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'httpsAgent?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.maxContentLength
+    name: maxContentLength
+    fullName: maxContentLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxContentLength?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.maxRedirects
+    name: maxRedirects
+    fullName: maxRedirects
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxRedirects?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.method
+    name: method
+    fullName: method
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'method?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.onDownloadProgress
+    name: onDownloadProgress
+    fullName: onDownloadProgress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onDownloadProgress?: (progressEvent: any) => void'
+      return:
+        type:
+          - '(progressEvent: any) => void'
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.onUploadProgress
+    name: onUploadProgress
+    fullName: onUploadProgress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onUploadProgress?: (progressEvent: any) => void'
+      return:
+        type:
+          - '(progressEvent: any) => void'
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.params
+    name: params
+    fullName: params
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'params?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.paramsSerializer
+    name: paramsSerializer
+    fullName: paramsSerializer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'paramsSerializer?: (params: any) => string'
+      return:
+        type:
+          - '(params: any) => string'
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.proxy
+    name: proxy
+    fullName: proxy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'proxy?: AxiosProxyConfig | false'
+      return:
+        type:
+          - AxiosProxyConfig | false
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.responseType
+    name: responseType
+    fullName: responseType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'responseType?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.timeout
+    name: timeout
+    fullName: timeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'timeout?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.tracker
+    name: tracker
+    fullName: tracker
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'tracker?: McmaTracker'
+      return:
+        type:
+          - McmaTracker
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.transformRequest
+    name: transformRequest
+    fullName: transformRequest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'transformRequest?: AxiosTransformer | AxiosTransformer[]'
+      return:
+        type:
+          - 'AxiosTransformer | AxiosTransformer[]'
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.transformResponse
+    name: transformResponse
+    fullName: transformResponse
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'transformResponse?: AxiosTransformer | AxiosTransformer[]'
+      return:
+        type:
+          - 'AxiosTransformer | AxiosTransformer[]'
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'url?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.validateStatus
+    name: validateStatus
+    fullName: validateStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'validateStatus?: (status: number) => boolean'
+      return:
+        type:
+          - '(status: number) => boolean'
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.withCredentials
+    name: withCredentials
+    fullName: withCredentials
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'withCredentials?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.xsrfCookieName
+    name: xsrfCookieName
+    fullName: xsrfCookieName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'xsrfCookieName?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: client
+  - uid: client.HttpRequestConfig.xsrfHeaderName
+    name: xsrfHeaderName
+    fullName: xsrfHeaderName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'xsrfHeaderName?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: client

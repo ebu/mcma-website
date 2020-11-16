@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-client.azureAdManagedIdentityAuth
+    name: azureAdManagedIdentityAuth()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function azureAdManagedIdentityAuth()
+      parameters: []
+      return:
+        type:
+          - AuthTypeRegistration<azure-client.AzureAdAuthContext>
+        description: ''
+    package: azure-client
+references:
+  - uid: AuthTypeRegistration<azure-client.AzureAdAuthContext>
+    name: AzureAdAuthContext>
+    spec.typeScript:
+      - name: AuthTypeRegistration<
+        fullName: AuthTypeRegistration<
+      - name: AzureAdAuthContext
+        fullName: AzureAdAuthContext
+        uid: azure-client.AzureAdAuthContext
+      - name: '>'
+        fullName: '>'

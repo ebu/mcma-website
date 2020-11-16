@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+  id: ICustomQueryBuilder
+  parent: Mcma.Data.DocumentDatabase.Queries
+  children:
+  - Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder.Name
+  - Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder.ParameterType
+  langs:
+  - csharp
+  - vb
+  name: ICustomQueryBuilder
+  nameWithType: ICustomQueryBuilder
+  fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/Custom/ICustomQueryBuilder.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ICustomQueryBuilder
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/Custom/ICustomQueryBuilder.cs
+    startLine: 9
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public interface ICustomQueryBuilder
+    content.vb: Public Interface ICustomQueryBuilder
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder.Name
+  commentId: P:Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder.Name
+  id: Name
+  parent: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ICustomQueryBuilder.Name
+  fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder.Name
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/Custom/ICustomQueryBuilder.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Name
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/Custom/ICustomQueryBuilder.cs
+    startLine: 11
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder.ParameterType
+  commentId: P:Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder.ParameterType
+  id: ParameterType
+  parent: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+  langs:
+  - csharp
+  - vb
+  name: ParameterType
+  nameWithType: ICustomQueryBuilder.ParameterType
+  fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder.ParameterType
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/Custom/ICustomQueryBuilder.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ParameterType
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/Custom/ICustomQueryBuilder.cs
+    startLine: 13
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: Type ParameterType { get; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: ReadOnly Property ParameterType As Type
+  overload: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder.ParameterType*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Mcma.Data.DocumentDatabase.Queries
+  commentId: N:Mcma.Data.DocumentDatabase.Queries
+  name: Mcma.Data.DocumentDatabase.Queries
+  nameWithType: Mcma.Data.DocumentDatabase.Queries
+  fullName: Mcma.Data.DocumentDatabase.Queries
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder.Name*
+  commentId: Overload:Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder.Name
+  name: Name
+  nameWithType: ICustomQueryBuilder.Name
+  fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder.ParameterType*
+  commentId: Overload:Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder.ParameterType
+  name: ParameterType
+  nameWithType: ICustomQueryBuilder.ParameterType
+  fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder.ParameterType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type

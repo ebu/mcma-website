@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-firestore.parsePathAndGuid
+    name: parsePathAndGuid(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function parsePathAndGuid(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Object
+        description: ''
+    package: google-cloud-firestore

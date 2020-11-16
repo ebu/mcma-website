@@ -1,0 +1,293 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.FunctionsApi.IAzureFunctionApiController
+  commentId: T:Mcma.Azure.FunctionsApi.IAzureFunctionApiController
+  id: IAzureFunctionApiController
+  parent: Mcma.Azure.FunctionsApi
+  children:
+  - Mcma.Azure.FunctionsApi.IAzureFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpRequest,Microsoft.Azure.WebJobs.ExecutionContext)
+  langs:
+  - csharp
+  - vb
+  name: IAzureFunctionApiController
+  nameWithType: IAzureFunctionApiController
+  fullName: Mcma.Azure.FunctionsApi.IAzureFunctionApiController
+  type: Interface
+  source:
+    remote:
+      path: Azure/Mcma.Azure.FunctionsApi/IAzureFunctionApiController.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IAzureFunctionApiController
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.FunctionsApi/IAzureFunctionApiController.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Azure.FunctionsApi
+  namespace: Mcma.Azure.FunctionsApi
+  syntax:
+    content: public interface IAzureFunctionApiController
+    content.vb: Public Interface IAzureFunctionApiController
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Azure.FunctionsApi.IAzureFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpRequest,Microsoft.Azure.WebJobs.ExecutionContext)
+  commentId: M:Mcma.Azure.FunctionsApi.IAzureFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpRequest,Microsoft.Azure.WebJobs.ExecutionContext)
+  id: HandleRequestAsync(Microsoft.AspNetCore.Http.HttpRequest,Microsoft.Azure.WebJobs.ExecutionContext)
+  parent: Mcma.Azure.FunctionsApi.IAzureFunctionApiController
+  langs:
+  - csharp
+  - vb
+  name: HandleRequestAsync(HttpRequest, ExecutionContext)
+  nameWithType: IAzureFunctionApiController.HandleRequestAsync(HttpRequest, ExecutionContext)
+  fullName: Mcma.Azure.FunctionsApi.IAzureFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpRequest, Microsoft.Azure.WebJobs.ExecutionContext)
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.FunctionsApi/IAzureFunctionApiController.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: HandleRequestAsync
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.FunctionsApi/IAzureFunctionApiController.cs
+    startLine: 9
+  assemblies:
+  - Mcma.Azure.FunctionsApi
+  namespace: Mcma.Azure.FunctionsApi
+  syntax:
+    content: Task<IActionResult> HandleRequestAsync(HttpRequest request, ExecutionContext executionContext)
+    parameters:
+    - id: request
+      type: Microsoft.AspNetCore.Http.HttpRequest
+    - id: executionContext
+      type: Microsoft.Azure.WebJobs.ExecutionContext
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+    content.vb: Function HandleRequestAsync(request As HttpRequest, executionContext As ExecutionContext) As Task(Of IActionResult)
+  overload: Mcma.Azure.FunctionsApi.IAzureFunctionApiController.HandleRequestAsync*
+references:
+- uid: Mcma.Azure.FunctionsApi
+  commentId: N:Mcma.Azure.FunctionsApi
+  name: Mcma.Azure.FunctionsApi
+  nameWithType: Mcma.Azure.FunctionsApi
+  fullName: Mcma.Azure.FunctionsApi
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Azure.FunctionsApi.IAzureFunctionApiController.HandleRequestAsync*
+  commentId: Overload:Mcma.Azure.FunctionsApi.IAzureFunctionApiController.HandleRequestAsync
+  name: HandleRequestAsync
+  nameWithType: IAzureFunctionApiController.HandleRequestAsync
+  fullName: Mcma.Azure.FunctionsApi.IAzureFunctionApiController.HandleRequestAsync
+- uid: Microsoft.AspNetCore.Http.HttpRequest
+  commentId: T:Microsoft.AspNetCore.Http.HttpRequest
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: HttpRequest
+  nameWithType: HttpRequest
+  fullName: Microsoft.AspNetCore.Http.HttpRequest
+- uid: Microsoft.Azure.WebJobs.ExecutionContext
+  commentId: T:Microsoft.Azure.WebJobs.ExecutionContext
+  parent: Microsoft.Azure.WebJobs
+  isExternal: true
+  name: ExecutionContext
+  nameWithType: ExecutionContext
+  fullName: Microsoft.Azure.WebJobs.ExecutionContext
+- uid: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+  commentId: '!:System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IActionResult>
+  nameWithType: Task<IActionResult>
+  fullName: System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+  nameWithType.vb: Task(Of IActionResult)
+  fullName.vb: System.Threading.Tasks.Task(Of Microsoft.AspNetCore.Mvc.IActionResult)
+  name.vb: Task(Of IActionResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Mvc.IActionResult
+    name: IActionResult
+    nameWithType: IActionResult
+    fullName: Microsoft.AspNetCore.Mvc.IActionResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Mvc.IActionResult
+    name: IActionResult
+    nameWithType: IActionResult
+    fullName: Microsoft.AspNetCore.Mvc.IActionResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: true
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http
+- uid: Microsoft.Azure.WebJobs
+  commentId: N:Microsoft.Azure.WebJobs
+  isExternal: true
+  name: Microsoft.Azure.WebJobs
+  nameWithType: Microsoft.Azure.WebJobs
+  fullName: Microsoft.Azure.WebJobs
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,241 @@
+### YamlMime:UniversalReference
+items:
+  - uid: api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    fullName: McmaApiRequestContext
+    children:
+      - api.McmaApiRequestContext.configVariables
+      - api.McmaApiRequestContext.getLogger
+      - api.McmaApiRequestContext.getRequestBody
+      - api.McmaApiRequestContext.getTracker
+      - api.McmaApiRequestContext.hasRequestBody
+      - api.McmaApiRequestContext.constructor
+      - api.McmaApiRequestContext.request
+      - api.McmaApiRequestContext.response
+      - api.McmaApiRequestContext.setResponseBadRequestDueToMissingBody
+      - api.McmaApiRequestContext.setResponseBody
+      - api.McmaApiRequestContext.setResponseResourceCreated
+      - api.McmaApiRequestContext.setResponseResourceNotFound
+      - api.McmaApiRequestContext.setResponseStatusCode
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: api
+  - uid: api.McmaApiRequestContext.configVariables
+    name: configVariables
+    fullName: configVariables
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public configVariables: ConfigVariables'
+      return:
+        type:
+          - ConfigVariables
+        description: ''
+    package: api
+  - uid: api.McmaApiRequestContext.getLogger
+    name: getLogger()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getLogger()
+      parameters: []
+      return:
+        type:
+          - Logger | undefined
+        description: ''
+    package: api
+  - uid: api.McmaApiRequestContext.getRequestBody
+    name: getRequestBody()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getRequestBody<T>()
+      parameters: []
+      return:
+        type:
+          - T
+        description: ''
+    package: api
+  - uid: api.McmaApiRequestContext.getTracker
+    name: getTracker()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getTracker()
+      parameters: []
+      return:
+        type:
+          - McmaTracker | undefined
+        description: ''
+    package: api
+  - uid: api.McmaApiRequestContext.hasRequestBody
+    name: hasRequestBody()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function hasRequestBody()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: api
+  - uid: api.McmaApiRequestContext.constructor
+    name: 'McmaApiRequestContext(McmaApiRequest, LoggerProvider, ConfigVariables)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new McmaApiRequestContext(request: McmaApiRequest, loggerProvider:
+        LoggerProvider, configVariables: ConfigVariables)
+      parameters:
+        - id: request
+          type:
+            - api.McmaApiRequest
+          description: ''
+        - id: loggerProvider
+          type:
+            - LoggerProvider
+          description: ''
+        - id: configVariables
+          type:
+            - ConfigVariables
+          description: ''
+    package: api
+  - uid: api.McmaApiRequestContext.request
+    name: request
+    fullName: request
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public request: McmaApiRequest'
+      return:
+        type:
+          - api.McmaApiRequest
+        description: ''
+    package: api
+  - uid: api.McmaApiRequestContext.response
+    name: response
+    fullName: response
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public response: McmaApiResponse = new McmaApiResponse()'
+      return:
+        type:
+          - api.McmaApiResponse
+        description: ''
+    package: api
+  - uid: api.McmaApiRequestContext.setResponseBadRequestDueToMissingBody
+    name: setResponseBadRequestDueToMissingBody()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function setResponseBadRequestDueToMissingBody()
+      parameters: []
+    package: api
+  - uid: api.McmaApiRequestContext.setResponseBody
+    name: setResponseBody(any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setResponseBody(body: any)'
+      parameters:
+        - id: body
+          type:
+            - any
+          description: ''
+    package: api
+  - uid: api.McmaApiRequestContext.setResponseResourceCreated
+    name: setResponseResourceCreated(McmaResource)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setResponseResourceCreated(resource: McmaResource)'
+      parameters:
+        - id: resource
+          type:
+            - McmaResource
+          description: ''
+    package: api
+  - uid: api.McmaApiRequestContext.setResponseResourceNotFound
+    name: setResponseResourceNotFound()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function setResponseResourceNotFound()
+      parameters: []
+    package: api
+  - uid: api.McmaApiRequestContext.setResponseStatusCode
+    name: 'setResponseStatusCode(number, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function setResponseStatusCode(statusCode: number, statusMessage?:
+        string)
+      parameters:
+        - id: statusCode
+          type:
+            - number
+          description: ''
+        - id: statusMessage
+          type:
+            - string
+          description: ''
+          optional: true
+    package: api
+references:
+  - uid: api.McmaApiRequest
+    name: McmaApiRequest
+    spec.typeScript:
+      - name: McmaApiRequest
+        fullName: McmaApiRequest
+        uid: api.McmaApiRequest
+  - uid: api.McmaApiResponse
+    name: McmaApiResponse
+    spec.typeScript:
+      - name: McmaApiResponse
+        fullName: McmaApiResponse
+        uid: api.McmaApiResponse

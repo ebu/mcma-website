@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-client.AwsV4Authenticator
+    name: AwsV4Authenticator
+    fullName: AwsV4Authenticator
+    children:
+      - aws-client.AwsV4Authenticator.constructor
+      - aws-client.AwsV4Authenticator.sign
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: aws-client
+  - uid: aws-client.AwsV4Authenticator.constructor
+    name: AwsV4Authenticator(Credentials)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new AwsV4Authenticator(credentials: Credentials)'
+      parameters:
+        - id: credentials
+          type:
+            - Credentials
+          description: ''
+    package: aws-client
+  - uid: aws-client.AwsV4Authenticator.sign
+    name: sign(HttpRequestConfig)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function sign(request: HttpRequestConfig)'
+      parameters:
+        - id: request
+          type:
+            - HttpRequestConfig
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: aws-client

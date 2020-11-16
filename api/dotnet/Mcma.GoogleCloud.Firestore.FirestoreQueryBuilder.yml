@@ -1,0 +1,749 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Firestore.FirestoreQueryBuilder
+  commentId: T:Mcma.GoogleCloud.Firestore.FirestoreQueryBuilder
+  id: FirestoreQueryBuilder
+  parent: Mcma.GoogleCloud.Firestore
+  children:
+  - Mcma.GoogleCloud.Firestore.FirestoreQueryBuilder.Build``1(Google.Cloud.Firestore.Query,Mcma.Data.DocumentDatabase.Queries.Query{``0})
+  langs:
+  - csharp
+  - vb
+  name: FirestoreQueryBuilder
+  nameWithType: FirestoreQueryBuilder
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreQueryBuilder
+  type: Class
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreQueryBuilder.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: FirestoreQueryBuilder
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreQueryBuilder.cs
+    startLine: 6
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: 'public class FirestoreQueryBuilder : IFirestoreQueryBuilder'
+    content.vb: >-
+      Public Class FirestoreQueryBuilder
+
+          Implements IFirestoreQueryBuilder
+  inheritance:
+  - System.Object
+  implements:
+  - Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.GoogleCloud.Firestore.FirestoreQueryBuilder.Build``1(Google.Cloud.Firestore.Query,Mcma.Data.DocumentDatabase.Queries.Query{``0})
+  commentId: M:Mcma.GoogleCloud.Firestore.FirestoreQueryBuilder.Build``1(Google.Cloud.Firestore.Query,Mcma.Data.DocumentDatabase.Queries.Query{``0})
+  id: Build``1(Google.Cloud.Firestore.Query,Mcma.Data.DocumentDatabase.Queries.Query{``0})
+  parent: Mcma.GoogleCloud.Firestore.FirestoreQueryBuilder
+  langs:
+  - csharp
+  - vb
+  name: Build<T>(Query, Query<T>)
+  nameWithType: FirestoreQueryBuilder.Build<T>(Query, Query<T>)
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreQueryBuilder.Build<T>(Google.Cloud.Firestore.Query, Mcma.Data.DocumentDatabase.Queries.Query<T>)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreQueryBuilder.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Build
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreQueryBuilder.cs
+    startLine: 36
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: public Query Build<T>(Query firestoreQuery, Query<T> query)
+    parameters:
+    - id: firestoreQuery
+      type: Google.Cloud.Firestore.Query
+    - id: query
+      type: Mcma.Data.DocumentDatabase.Queries.Query{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: Google.Cloud.Firestore.Query
+    content.vb: Public Function Build(Of T)(firestoreQuery As Query, query As Query(Of T)) As Query
+  overload: Mcma.GoogleCloud.Firestore.FirestoreQueryBuilder.Build*
+  implements:
+  - Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build``1(Google.Cloud.Firestore.Query,Mcma.Data.DocumentDatabase.Queries.Query{{T}})
+  nameWithType.vb: FirestoreQueryBuilder.Build(Of T)(Query, Query(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.GoogleCloud.Firestore.FirestoreQueryBuilder.Build(Of T)(Google.Cloud.Firestore.Query, Mcma.Data.DocumentDatabase.Queries.Query(Of T))
+  name.vb: Build(Of T)(Query, Query(Of T))
+references:
+- uid: Mcma.GoogleCloud.Firestore
+  commentId: N:Mcma.GoogleCloud.Firestore
+  name: Mcma.GoogleCloud.Firestore
+  nameWithType: Mcma.GoogleCloud.Firestore
+  fullName: Mcma.GoogleCloud.Firestore
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder
+  commentId: T:Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder
+  parent: Mcma.GoogleCloud.Firestore
+  name: IFirestoreQueryBuilder
+  nameWithType: IFirestoreQueryBuilder
+  fullName: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.GoogleCloud.Firestore.FirestoreQueryBuilder.Build*
+  commentId: Overload:Mcma.GoogleCloud.Firestore.FirestoreQueryBuilder.Build
+  name: Build
+  nameWithType: FirestoreQueryBuilder.Build
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreQueryBuilder.Build
+- uid: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build``1(Google.Cloud.Firestore.Query,Mcma.Data.DocumentDatabase.Queries.Query{{T}})
+  commentId: M:Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build``1(Google.Cloud.Firestore.Query,Mcma.Data.DocumentDatabase.Queries.Query{``0})
+  parent: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder
+  definition: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build``1(Google.Cloud.Firestore.Query,Mcma.Data.DocumentDatabase.Queries.Query{``0})
+  name: Build<T>(Query, Query<T>)
+  nameWithType: IFirestoreQueryBuilder.Build<T>(Query, Query<T>)
+  fullName: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build<T>(Google.Cloud.Firestore.Query, Mcma.Data.DocumentDatabase.Queries.Query<T>)
+  nameWithType.vb: IFirestoreQueryBuilder.Build(Of T)(Query, Query(Of T))
+  fullName.vb: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build(Of T)(Google.Cloud.Firestore.Query, Mcma.Data.DocumentDatabase.Queries.Query(Of T))
+  name.vb: Build(Of T)(Query, Query(Of T))
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build``1(Google.Cloud.Firestore.Query,Mcma.Data.DocumentDatabase.Queries.Query{``0})
+    name: Build<T>
+    nameWithType: IFirestoreQueryBuilder.Build<T>
+    fullName: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Google.Cloud.Firestore.Query
+    name: Query
+    nameWithType: Query
+    fullName: Google.Cloud.Firestore.Query
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build``1(Google.Cloud.Firestore.Query,Mcma.Data.DocumentDatabase.Queries.Query{``0})
+    name: Build(Of T)
+    nameWithType: IFirestoreQueryBuilder.Build(Of T)
+    fullName: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Google.Cloud.Firestore.Query
+    name: Query
+    nameWithType: Query
+    fullName: Google.Cloud.Firestore.Query
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Google.Cloud.Firestore.Query
+  commentId: T:Google.Cloud.Firestore.Query
+  parent: Google.Cloud.Firestore
+  isExternal: true
+  name: Query
+  nameWithType: Query
+  fullName: Google.Cloud.Firestore.Query
+- uid: Mcma.Data.DocumentDatabase.Queries.Query{{T}}
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.Query{``0}
+  parent: Mcma.Data.DocumentDatabase.Queries
+  definition: Mcma.Data.DocumentDatabase.Queries.Query`1
+  name: Query<T>
+  nameWithType: Query<T>
+  fullName: Mcma.Data.DocumentDatabase.Queries.Query<T>
+  nameWithType.vb: Query(Of T)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.Query(Of T)
+  name.vb: Query(Of T)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build``1(Google.Cloud.Firestore.Query,Mcma.Data.DocumentDatabase.Queries.Query{``0})
+  commentId: M:Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build``1(Google.Cloud.Firestore.Query,Mcma.Data.DocumentDatabase.Queries.Query{``0})
+  isExternal: true
+  name: Build<T>(Query, Query<T>)
+  nameWithType: IFirestoreQueryBuilder.Build<T>(Query, Query<T>)
+  fullName: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build<T>(Google.Cloud.Firestore.Query, Mcma.Data.DocumentDatabase.Queries.Query<T>)
+  nameWithType.vb: IFirestoreQueryBuilder.Build(Of T)(Query, Query(Of T))
+  fullName.vb: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build(Of T)(Google.Cloud.Firestore.Query, Mcma.Data.DocumentDatabase.Queries.Query(Of T))
+  name.vb: Build(Of T)(Query, Query(Of T))
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build``1(Google.Cloud.Firestore.Query,Mcma.Data.DocumentDatabase.Queries.Query{``0})
+    name: Build<T>
+    nameWithType: IFirestoreQueryBuilder.Build<T>
+    fullName: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Google.Cloud.Firestore.Query
+    name: Query
+    nameWithType: Query
+    fullName: Google.Cloud.Firestore.Query
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build``1(Google.Cloud.Firestore.Query,Mcma.Data.DocumentDatabase.Queries.Query{``0})
+    name: Build(Of T)
+    nameWithType: IFirestoreQueryBuilder.Build(Of T)
+    fullName: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder.Build(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Google.Cloud.Firestore.Query
+    name: Query
+    nameWithType: Query
+    fullName: Google.Cloud.Firestore.Query
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Google.Cloud.Firestore
+  commentId: N:Google.Cloud.Firestore
+  isExternal: true
+  name: Google.Cloud.Firestore
+  nameWithType: Google.Cloud.Firestore
+  fullName: Google.Cloud.Firestore
+- uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.Query`1
+  parent: Mcma.Data.DocumentDatabase.Queries
+  name: Query<T>
+  nameWithType: Query<T>
+  fullName: Mcma.Data.DocumentDatabase.Queries.Query<T>
+  nameWithType.vb: Query(Of T)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.Query(Of T)
+  name.vb: Query(Of T)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries
+  commentId: N:Mcma.Data.DocumentDatabase.Queries
+  name: Mcma.Data.DocumentDatabase.Queries
+  nameWithType: Mcma.Data.DocumentDatabase.Queries
+  fullName: Mcma.Data.DocumentDatabase.Queries

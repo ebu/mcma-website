@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: worker.WorkerRequestProperties
+    name: WorkerRequestProperties
+    fullName: WorkerRequestProperties
+    children:
+      - worker.WorkerRequestProperties.input
+      - worker.WorkerRequestProperties.operationName
+      - worker.WorkerRequestProperties.tracker
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: worker
+  - uid: worker.WorkerRequestProperties.input
+    name: input
+    fullName: input
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'input?: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: worker
+  - uid: worker.WorkerRequestProperties.operationName
+    name: operationName
+    fullName: operationName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'operationName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: worker
+  - uid: worker.WorkerRequestProperties.tracker
+    name: tracker
+    fullName: tracker
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'tracker?: McmaTrackerProperties'
+      return:
+        type:
+          - McmaTrackerProperties
+        description: ''
+    package: worker

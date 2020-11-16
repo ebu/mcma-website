@@ -1,0 +1,419 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Data.DocumentDatabase.Queries
+  commentId: N:Mcma.Data.DocumentDatabase.Queries
+  id: Mcma.Data.DocumentDatabase.Queries
+  children:
+  - Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  - Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+  - Mcma.Data.DocumentDatabase.Queries.CustomQueryBuilder`2
+  - Mcma.Data.DocumentDatabase.Queries.FilterCriteria`1
+  - Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2
+  - Mcma.Data.DocumentDatabase.Queries.FilterCriteriaGroup`1
+  - Mcma.Data.DocumentDatabase.Queries.HelperExtensions
+  - Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+  - Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder`2
+  - Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+  - Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+  - Mcma.Data.DocumentDatabase.Queries.LogicalOperator
+  - Mcma.Data.DocumentDatabase.Queries.Query`1
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Data.DocumentDatabase.Queries
+  nameWithType: Mcma.Data.DocumentDatabase.Queries
+  fullName: Mcma.Data.DocumentDatabase.Queries
+  type: Namespace
+  assemblies:
+  - Mcma.Data
+references:
+- uid: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  parent: Mcma.Data.DocumentDatabase.Queries
+  name: BinaryOperator
+  nameWithType: BinaryOperator
+  fullName: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+- uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+  name: CustomQuery<TParameters>
+  nameWithType: CustomQuery<TParameters>
+  fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery<TParameters>
+  nameWithType.vb: CustomQuery(Of TParameters)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.CustomQuery(Of TParameters)
+  name.vb: CustomQuery(Of TParameters)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+    name: CustomQuery
+    nameWithType: CustomQuery
+    fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+    name: CustomQuery
+    nameWithType: CustomQuery
+    fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.CustomQueryBuilder`2
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.CustomQueryBuilder`2
+  name: CustomQueryBuilder<TParameters, TProviderQuery>
+  nameWithType: CustomQueryBuilder<TParameters, TProviderQuery>
+  fullName: Mcma.Data.DocumentDatabase.Queries.CustomQueryBuilder<TParameters, TProviderQuery>
+  nameWithType.vb: CustomQueryBuilder(Of TParameters, TProviderQuery)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.CustomQueryBuilder(Of TParameters, TProviderQuery)
+  name.vb: CustomQueryBuilder(Of TParameters, TProviderQuery)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.CustomQueryBuilder`2
+    name: CustomQueryBuilder
+    nameWithType: CustomQueryBuilder
+    fullName: Mcma.Data.DocumentDatabase.Queries.CustomQueryBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TProviderQuery
+    nameWithType: TProviderQuery
+    fullName: TProviderQuery
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.CustomQueryBuilder`2
+    name: CustomQueryBuilder
+    nameWithType: CustomQueryBuilder
+    fullName: Mcma.Data.DocumentDatabase.Queries.CustomQueryBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TProviderQuery
+    nameWithType: TProviderQuery
+    fullName: TProviderQuery
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder`2
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder`2
+  name: ICustomQueryBuilder<TParameters, TProviderQuery>
+  nameWithType: ICustomQueryBuilder<TParameters, TProviderQuery>
+  fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder<TParameters, TProviderQuery>
+  nameWithType.vb: ICustomQueryBuilder(Of TParameters, TProviderQuery)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder(Of TParameters, TProviderQuery)
+  name.vb: ICustomQueryBuilder(Of TParameters, TProviderQuery)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder`2
+    name: ICustomQueryBuilder
+    nameWithType: ICustomQueryBuilder
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TProviderQuery
+    nameWithType: TProviderQuery
+    fullName: TProviderQuery
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder`2
+    name: ICustomQueryBuilder
+    nameWithType: ICustomQueryBuilder
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TProviderQuery
+    nameWithType: TProviderQuery
+    fullName: TProviderQuery
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+  parent: Mcma.Data.DocumentDatabase.Queries
+  name: ICustomQueryBuilder
+  nameWithType: ICustomQueryBuilder
+  fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+- uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+  name: ICustomQueryBuilderRegistry<TProviderQuery>
+  nameWithType: ICustomQueryBuilderRegistry<TProviderQuery>
+  fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry<TProviderQuery>
+  nameWithType.vb: ICustomQueryBuilderRegistry(Of TProviderQuery)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry(Of TProviderQuery)
+  name.vb: ICustomQueryBuilderRegistry(Of TProviderQuery)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+    name: ICustomQueryBuilderRegistry
+    nameWithType: ICustomQueryBuilderRegistry
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TProviderQuery
+    nameWithType: TProviderQuery
+    fullName: TProviderQuery
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+    name: ICustomQueryBuilderRegistry
+    nameWithType: ICustomQueryBuilderRegistry
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TProviderQuery
+    nameWithType: TProviderQuery
+    fullName: TProviderQuery
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`1
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.FilterCriteria`1
+  name: FilterCriteria<TDoc>
+  nameWithType: FilterCriteria<TDoc>
+  fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteria<TDoc>
+  nameWithType.vb: FilterCriteria(Of TDoc)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.FilterCriteria(Of TDoc)
+  name.vb: FilterCriteria(Of TDoc)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`1
+    name: FilterCriteria
+    nameWithType: FilterCriteria
+    fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteria
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TDoc
+    nameWithType: TDoc
+    fullName: TDoc
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`1
+    name: FilterCriteria
+    nameWithType: FilterCriteria
+    fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteria
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TDoc
+    nameWithType: TDoc
+    fullName: TDoc
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2
+  name: FilterCriteria<TDoc, TProp>
+  nameWithType: FilterCriteria<TDoc, TProp>
+  fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteria<TDoc, TProp>
+  nameWithType.vb: FilterCriteria(Of TDoc, TProp)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.FilterCriteria(Of TDoc, TProp)
+  name.vb: FilterCriteria(Of TDoc, TProp)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2
+    name: FilterCriteria
+    nameWithType: FilterCriteria
+    fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteria
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TDoc
+    nameWithType: TDoc
+    fullName: TDoc
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TProp
+    nameWithType: TProp
+    fullName: TProp
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2
+    name: FilterCriteria
+    nameWithType: FilterCriteria
+    fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteria
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TDoc
+    nameWithType: TDoc
+    fullName: TDoc
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TProp
+    nameWithType: TProp
+    fullName: TProp
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteriaGroup`1
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.FilterCriteriaGroup`1
+  name: FilterCriteriaGroup<TDoc>
+  nameWithType: FilterCriteriaGroup<TDoc>
+  fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteriaGroup<TDoc>
+  nameWithType.vb: FilterCriteriaGroup(Of TDoc)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.FilterCriteriaGroup(Of TDoc)
+  name.vb: FilterCriteriaGroup(Of TDoc)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteriaGroup`1
+    name: FilterCriteriaGroup
+    nameWithType: FilterCriteriaGroup
+    fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteriaGroup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TDoc
+    nameWithType: TDoc
+    fullName: TDoc
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteriaGroup`1
+    name: FilterCriteriaGroup
+    nameWithType: FilterCriteriaGroup
+    fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteriaGroup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TDoc
+    nameWithType: TDoc
+    fullName: TDoc
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.HelperExtensions
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.HelperExtensions
+  parent: Mcma.Data.DocumentDatabase.Queries
+  name: HelperExtensions
+  nameWithType: HelperExtensions
+  fullName: Mcma.Data.DocumentDatabase.Queries.HelperExtensions
+- uid: Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+  name: IFilterExpression<TDoc>
+  nameWithType: IFilterExpression<TDoc>
+  fullName: Mcma.Data.DocumentDatabase.Queries.IFilterExpression<TDoc>
+  nameWithType.vb: IFilterExpression(Of TDoc)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.IFilterExpression(Of TDoc)
+  name.vb: IFilterExpression(Of TDoc)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+    name: IFilterExpression
+    nameWithType: IFilterExpression
+    fullName: Mcma.Data.DocumentDatabase.Queries.IFilterExpression
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TDoc
+    nameWithType: TDoc
+    fullName: TDoc
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+    name: IFilterExpression
+    nameWithType: IFilterExpression
+    fullName: Mcma.Data.DocumentDatabase.Queries.IFilterExpression
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TDoc
+    nameWithType: TDoc
+    fullName: TDoc
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.LogicalOperator
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.LogicalOperator
+  parent: Mcma.Data.DocumentDatabase.Queries
+  name: LogicalOperator
+  nameWithType: LogicalOperator
+  fullName: Mcma.Data.DocumentDatabase.Queries.LogicalOperator
+- uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.Query`1
+  parent: Mcma.Data.DocumentDatabase.Queries
+  name: Query<T>
+  nameWithType: Query<T>
+  fullName: Mcma.Data.DocumentDatabase.Queries.Query<T>
+  nameWithType.vb: Query(Of T)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.Query(Of T)
+  name.vb: Query(Of T)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries
+  commentId: N:Mcma.Data.DocumentDatabase.Queries
+  name: Mcma.Data.DocumentDatabase.Queries
+  nameWithType: Mcma.Data.DocumentDatabase.Queries
+  fullName: Mcma.Data.DocumentDatabase.Queries

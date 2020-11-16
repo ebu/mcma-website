@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: worker.Providers
+    name: Providers
+    fullName: Providers
+    children:
+      - worker.Providers.authProvider
+      - worker.Providers.dbTableProvider
+      - worker.Providers.loggerProvider
+      - worker.Providers.resourceManagerProvider
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: worker
+  - uid: worker.Providers.authProvider
+    name: authProvider
+    fullName: authProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'authProvider?: AuthProvider'
+      return:
+        type:
+          - AuthProvider
+        description: ''
+    package: worker
+  - uid: worker.Providers.dbTableProvider
+    name: dbTableProvider
+    fullName: dbTableProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dbTableProvider?: DocumentDatabaseTableProvider'
+      return:
+        type:
+          - DocumentDatabaseTableProvider
+        description: ''
+    package: worker
+  - uid: worker.Providers.loggerProvider
+    name: loggerProvider
+    fullName: loggerProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'loggerProvider?: LoggerProvider'
+      return:
+        type:
+          - LoggerProvider
+        description: ''
+    package: worker
+  - uid: worker.Providers.resourceManagerProvider
+    name: resourceManagerProvider
+    fullName: resourceManagerProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'resourceManagerProvider?: ResourceManagerProvider'
+      return:
+        type:
+          - ResourceManagerProvider
+        description: ''
+    package: worker

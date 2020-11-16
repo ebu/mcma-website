@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: client.HttpClientConfig
+    name: HttpClientConfig
+    fullName: HttpClientConfig
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: 'type HttpClientConfig = { maxAttempts: number, retryInterval: number }'
+    package: client

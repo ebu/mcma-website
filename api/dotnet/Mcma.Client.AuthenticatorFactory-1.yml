@@ -1,0 +1,754 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Client.AuthenticatorFactory`1
+  commentId: T:Mcma.Client.AuthenticatorFactory`1
+  id: AuthenticatorFactory`1
+  parent: Mcma.Client
+  children:
+  - Mcma.Client.AuthenticatorFactory`1.DefaultAuthContext
+  - Mcma.Client.AuthenticatorFactory`1.GetAsync(`0)
+  - Mcma.Client.AuthenticatorFactory`1.GetAsync(System.Object)
+  - Mcma.Client.AuthenticatorFactory`1.TryParseContext(System.String,`0@)
+  langs:
+  - csharp
+  - vb
+  name: AuthenticatorFactory<TAuthContext>
+  nameWithType: AuthenticatorFactory<TAuthContext>
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Client/Auth/AuthenticatorFactory.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AuthenticatorFactory
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Auth/AuthenticatorFactory.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: 'public abstract class AuthenticatorFactory<TAuthContext> : IAuthenticatorFactory'
+    typeParameters:
+    - id: TAuthContext
+    content.vb: >-
+      Public MustInherit Class AuthenticatorFactory(Of TAuthContext)
+
+          Implements IAuthenticatorFactory
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory
+  - Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext)
+  name.vb: AuthenticatorFactory(Of TAuthContext)
+- uid: Mcma.Client.AuthenticatorFactory`1.DefaultAuthContext
+  commentId: P:Mcma.Client.AuthenticatorFactory`1.DefaultAuthContext
+  id: DefaultAuthContext
+  parent: Mcma.Client.AuthenticatorFactory`1
+  langs:
+  - csharp
+  - vb
+  name: DefaultAuthContext
+  nameWithType: AuthenticatorFactory<TAuthContext>.DefaultAuthContext
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.DefaultAuthContext
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Client/Auth/AuthenticatorFactory.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: DefaultAuthContext
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Auth/AuthenticatorFactory.cs
+    startLine: 11
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: protected virtual TAuthContext DefaultAuthContext { get; }
+    parameters: []
+    return:
+      type: '{TAuthContext}'
+    content.vb: Protected Overridable ReadOnly Property DefaultAuthContext As TAuthContext
+  overload: Mcma.Client.AuthenticatorFactory`1.DefaultAuthContext*
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext).DefaultAuthContext
+  modifiers.csharp:
+  - protected
+  - virtual
+  - get
+  modifiers.vb:
+  - Protected
+  - Overridable
+  - ReadOnly
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext).DefaultAuthContext
+- uid: Mcma.Client.AuthenticatorFactory`1.TryParseContext(System.String,`0@)
+  commentId: M:Mcma.Client.AuthenticatorFactory`1.TryParseContext(System.String,`0@)
+  id: TryParseContext(System.String,`0@)
+  parent: Mcma.Client.AuthenticatorFactory`1
+  langs:
+  - csharp
+  - vb
+  name: TryParseContext(String, out TAuthContext)
+  nameWithType: AuthenticatorFactory<TAuthContext>.TryParseContext(String, out TAuthContext)
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.TryParseContext(System.String, out TAuthContext)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Auth/AuthenticatorFactory.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: TryParseContext
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Auth/AuthenticatorFactory.cs
+    startLine: 13
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: protected static bool TryParseContext(string authContextString, out TAuthContext authContext)
+    parameters:
+    - id: authContextString
+      type: System.String
+    - id: authContext
+      type: '{TAuthContext}'
+    return:
+      type: System.Boolean
+    content.vb: Protected Shared Function TryParseContext(authContextString As String, ByRef authContext As TAuthContext) As Boolean
+  overload: Mcma.Client.AuthenticatorFactory`1.TryParseContext*
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext).TryParseContext(String, ByRef TAuthContext)
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext).TryParseContext(System.String, ByRef TAuthContext)
+  name.vb: TryParseContext(String, ByRef TAuthContext)
+- uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(System.Object)
+  commentId: M:Mcma.Client.AuthenticatorFactory`1.GetAsync(System.Object)
+  id: GetAsync(System.Object)
+  parent: Mcma.Client.AuthenticatorFactory`1
+  langs:
+  - csharp
+  - vb
+  name: GetAsync(Object)
+  nameWithType: AuthenticatorFactory<TAuthContext>.GetAsync(Object)
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.GetAsync(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Auth/AuthenticatorFactory.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Auth/AuthenticatorFactory.cs
+    startLine: 27
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: public Task<IAuthenticator> GetAsync(object authContext)
+    parameters:
+    - id: authContext
+      type: System.Object
+    return:
+      type: System.Threading.Tasks.Task{Mcma.Client.IAuthenticator}
+    content.vb: Public Function GetAsync(authContext As Object) As Task(Of IAuthenticator)
+  overload: Mcma.Client.AuthenticatorFactory`1.GetAsync*
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext).GetAsync(Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext).GetAsync(System.Object)
+- uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(`0)
+  commentId: M:Mcma.Client.AuthenticatorFactory`1.GetAsync(`0)
+  id: GetAsync(`0)
+  parent: Mcma.Client.AuthenticatorFactory`1
+  langs:
+  - csharp
+  - vb
+  name: GetAsync(TAuthContext)
+  nameWithType: AuthenticatorFactory<TAuthContext>.GetAsync(TAuthContext)
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.GetAsync(TAuthContext)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Auth/AuthenticatorFactory.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Auth/AuthenticatorFactory.cs
+    startLine: 41
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: protected abstract Task<IAuthenticator> GetAsync(TAuthContext authContext)
+    parameters:
+    - id: authContext
+      type: '{TAuthContext}'
+    return:
+      type: System.Threading.Tasks.Task{Mcma.Client.IAuthenticator}
+    content.vb: Protected MustOverride Function GetAsync(authContext As TAuthContext) As Task(Of IAuthenticator)
+  overload: Mcma.Client.AuthenticatorFactory`1.GetAsync*
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext).GetAsync(TAuthContext)
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext).GetAsync(TAuthContext)
+references:
+- uid: Mcma.Client
+  commentId: N:Mcma.Client
+  name: Mcma.Client
+  nameWithType: Mcma.Client
+  fullName: Mcma.Client
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Client.AuthenticatorFactory`1.DefaultAuthContext*
+  commentId: Overload:Mcma.Client.AuthenticatorFactory`1.DefaultAuthContext
+  name: DefaultAuthContext
+  nameWithType: AuthenticatorFactory<TAuthContext>.DefaultAuthContext
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.DefaultAuthContext
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext).DefaultAuthContext
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext).DefaultAuthContext
+- uid: '{TAuthContext}'
+  commentId: '!:TAuthContext'
+  definition: TAuthContext
+  name: TAuthContext
+  nameWithType: TAuthContext
+  fullName: TAuthContext
+- uid: TAuthContext
+  name: TAuthContext
+  nameWithType: TAuthContext
+  fullName: TAuthContext
+- uid: Mcma.Client.AuthenticatorFactory`1.TryParseContext*
+  commentId: Overload:Mcma.Client.AuthenticatorFactory`1.TryParseContext
+  name: TryParseContext
+  nameWithType: AuthenticatorFactory<TAuthContext>.TryParseContext
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.TryParseContext
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext).TryParseContext
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext).TryParseContext
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Mcma.Client.AuthenticatorFactory`1.GetAsync*
+  commentId: Overload:Mcma.Client.AuthenticatorFactory`1.GetAsync
+  name: GetAsync
+  nameWithType: AuthenticatorFactory<TAuthContext>.GetAsync
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.GetAsync
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext).GetAsync
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext).GetAsync
+- uid: System.Threading.Tasks.Task{Mcma.Client.IAuthenticator}
+  commentId: T:System.Threading.Tasks.Task{Mcma.Client.IAuthenticator}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IAuthenticator>
+  nameWithType: Task<IAuthenticator>
+  fullName: System.Threading.Tasks.Task<Mcma.Client.IAuthenticator>
+  nameWithType.vb: Task(Of IAuthenticator)
+  fullName.vb: System.Threading.Tasks.Task(Of Mcma.Client.IAuthenticator)
+  name.vb: Task(Of IAuthenticator)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Client.IAuthenticator
+    name: IAuthenticator
+    nameWithType: IAuthenticator
+    fullName: Mcma.Client.IAuthenticator
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Client.IAuthenticator
+    name: IAuthenticator
+    nameWithType: IAuthenticator
+    fullName: Mcma.Client.IAuthenticator
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

@@ -1,0 +1,11 @@
+{
+    "module": "commonjs",
+    "exclude": [
+        "**/node_modules/**"
+    ],
+    "entryPoint": "index.ts",
+    "excludeExternals": true,
+    "excludeNotExported": true,
+    "excludePrivate": true,
+    "ignoreCompilerErrors": true
+}

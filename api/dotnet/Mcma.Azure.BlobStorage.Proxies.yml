@@ -1,0 +1,79 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.BlobStorage.Proxies
+  commentId: N:Mcma.Azure.BlobStorage.Proxies
+  id: Mcma.Azure.BlobStorage.Proxies
+  children:
+  - Mcma.Azure.BlobStorage.Proxies.BlobStorageFileProxy
+  - Mcma.Azure.BlobStorage.Proxies.BlobStorageFolderProxy
+  - Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1
+  - Mcma.Azure.BlobStorage.Proxies.BlobStorageProxyExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Azure.BlobStorage.Proxies
+  nameWithType: Mcma.Azure.BlobStorage.Proxies
+  fullName: Mcma.Azure.BlobStorage.Proxies
+  type: Namespace
+  assemblies:
+  - Mcma.Azure.BlobStorage
+references:
+- uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageFileProxy
+  commentId: T:Mcma.Azure.BlobStorage.Proxies.BlobStorageFileProxy
+  parent: Mcma.Azure.BlobStorage.Proxies
+  name: BlobStorageFileProxy
+  nameWithType: BlobStorageFileProxy
+  fullName: Mcma.Azure.BlobStorage.Proxies.BlobStorageFileProxy
+- uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageFolderProxy
+  commentId: T:Mcma.Azure.BlobStorage.Proxies.BlobStorageFolderProxy
+  parent: Mcma.Azure.BlobStorage.Proxies
+  name: BlobStorageFolderProxy
+  nameWithType: BlobStorageFolderProxy
+  fullName: Mcma.Azure.BlobStorage.Proxies.BlobStorageFolderProxy
+- uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1
+  commentId: T:Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1
+  name: BlobStorageProxy<T>
+  nameWithType: BlobStorageProxy<T>
+  fullName: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy<T>
+  nameWithType.vb: BlobStorageProxy(Of T)
+  fullName.vb: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy(Of T)
+  name.vb: BlobStorageProxy(Of T)
+  spec.csharp:
+  - uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1
+    name: BlobStorageProxy
+    nameWithType: BlobStorageProxy
+    fullName: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1
+    name: BlobStorageProxy
+    nameWithType: BlobStorageProxy
+    fullName: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxyExtensions
+  commentId: T:Mcma.Azure.BlobStorage.Proxies.BlobStorageProxyExtensions
+  parent: Mcma.Azure.BlobStorage.Proxies
+  name: BlobStorageProxyExtensions
+  nameWithType: BlobStorageProxyExtensions
+  fullName: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxyExtensions
+- uid: Mcma.Azure.BlobStorage.Proxies
+  commentId: N:Mcma.Azure.BlobStorage.Proxies
+  name: Mcma.Azure.BlobStorage.Proxies
+  nameWithType: Mcma.Azure.BlobStorage.Proxies
+  fullName: Mcma.Azure.BlobStorage.Proxies

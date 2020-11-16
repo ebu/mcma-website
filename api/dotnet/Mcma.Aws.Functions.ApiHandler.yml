@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.Functions.ApiHandler
+  commentId: N:Mcma.Aws.Functions.ApiHandler
+  id: Mcma.Aws.Functions.ApiHandler
+  children:
+  - Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+  - Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler
+  - Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions
+  - Mcma.Aws.Functions.ApiHandler.McmaLambdaWorkerCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Aws.Functions.ApiHandler
+  nameWithType: Mcma.Aws.Functions.ApiHandler
+  fullName: Mcma.Aws.Functions.ApiHandler
+  type: Namespace
+  assemblies:
+  - Mcma.GoogleCloud.Functions.ApiHandler
+references:
+- uid: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+  commentId: T:Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+  name: McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+  nameWithType: McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+- uid: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler
+  commentId: T:Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler
+  name: McmaLambdaApiHandler
+  nameWithType: McmaLambdaApiHandler
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler
+- uid: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions
+  commentId: T:Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions
+  name: McmaLambdaApiHandlerServiceCollectionExtensions
+  nameWithType: McmaLambdaApiHandlerServiceCollectionExtensions
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions
+- uid: Mcma.Aws.Functions.ApiHandler.McmaLambdaWorkerCollectionExtensions
+  commentId: T:Mcma.Aws.Functions.ApiHandler.McmaLambdaWorkerCollectionExtensions
+  name: McmaLambdaWorkerCollectionExtensions
+  nameWithType: McmaLambdaWorkerCollectionExtensions
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaLambdaWorkerCollectionExtensions

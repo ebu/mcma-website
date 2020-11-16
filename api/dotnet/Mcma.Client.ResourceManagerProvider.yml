@@ -1,0 +1,919 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Client.ResourceManagerProvider
+  commentId: T:Mcma.Client.ResourceManagerProvider
+  id: ResourceManagerProvider
+  parent: Mcma.Client
+  children:
+  - Mcma.Client.ResourceManagerProvider.#ctor(System.Net.Http.HttpClient,Mcma.Client.IAuthProvider,Microsoft.Extensions.Options.IOptions{Mcma.Client.ResourceManagerProviderOptions})
+  - Mcma.Client.ResourceManagerProvider.Get(Mcma.McmaTracker,Mcma.Client.ResourceManagerOptions)
+  langs:
+  - csharp
+  - vb
+  name: ResourceManagerProvider
+  nameWithType: ResourceManagerProvider
+  fullName: Mcma.Client.ResourceManagerProvider
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/ResourceManagerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ResourceManagerProvider
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/ResourceManagerProvider.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: 'public class ResourceManagerProvider : IResourceManagerProvider'
+    content.vb: >-
+      Public Class ResourceManagerProvider
+
+          Implements IResourceManagerProvider
+  inheritance:
+  - System.Object
+  implements:
+  - Mcma.Client.IResourceManagerProvider
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Mcma.Client.IResourceManagerProvider.Mcma.Client.ResourceManagerProviderExtensions.Get(System.String,System.String,System.String,Mcma.McmaTracker)
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Client.ResourceManagerProvider.#ctor(System.Net.Http.HttpClient,Mcma.Client.IAuthProvider,Microsoft.Extensions.Options.IOptions{Mcma.Client.ResourceManagerProviderOptions})
+  commentId: M:Mcma.Client.ResourceManagerProvider.#ctor(System.Net.Http.HttpClient,Mcma.Client.IAuthProvider,Microsoft.Extensions.Options.IOptions{Mcma.Client.ResourceManagerProviderOptions})
+  id: '#ctor(System.Net.Http.HttpClient,Mcma.Client.IAuthProvider,Microsoft.Extensions.Options.IOptions{Mcma.Client.ResourceManagerProviderOptions})'
+  parent: Mcma.Client.ResourceManagerProvider
+  langs:
+  - csharp
+  - vb
+  name: ResourceManagerProvider(HttpClient, IAuthProvider, IOptions<ResourceManagerProviderOptions>)
+  nameWithType: ResourceManagerProvider.ResourceManagerProvider(HttpClient, IAuthProvider, IOptions<ResourceManagerProviderOptions>)
+  fullName: Mcma.Client.ResourceManagerProvider.ResourceManagerProvider(System.Net.Http.HttpClient, Mcma.Client.IAuthProvider, Microsoft.Extensions.Options.IOptions<Mcma.Client.ResourceManagerProviderOptions>)
+  type: Constructor
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/ResourceManagerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/ResourceManagerProvider.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: public ResourceManagerProvider(HttpClient httpClient, IAuthProvider authProvider, IOptions<ResourceManagerProviderOptions> options)
+    parameters:
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+    - id: authProvider
+      type: Mcma.Client.IAuthProvider
+    - id: options
+      type: Microsoft.Extensions.Options.IOptions{Mcma.Client.ResourceManagerProviderOptions}
+    content.vb: Public Sub New(httpClient As HttpClient, authProvider As IAuthProvider, options As IOptions(Of ResourceManagerProviderOptions))
+  overload: Mcma.Client.ResourceManagerProvider.#ctor*
+  nameWithType.vb: ResourceManagerProvider.ResourceManagerProvider(HttpClient, IAuthProvider, IOptions(Of ResourceManagerProviderOptions))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Client.ResourceManagerProvider.ResourceManagerProvider(System.Net.Http.HttpClient, Mcma.Client.IAuthProvider, Microsoft.Extensions.Options.IOptions(Of Mcma.Client.ResourceManagerProviderOptions))
+  name.vb: ResourceManagerProvider(HttpClient, IAuthProvider, IOptions(Of ResourceManagerProviderOptions))
+- uid: Mcma.Client.ResourceManagerProvider.Get(Mcma.McmaTracker,Mcma.Client.ResourceManagerOptions)
+  commentId: M:Mcma.Client.ResourceManagerProvider.Get(Mcma.McmaTracker,Mcma.Client.ResourceManagerOptions)
+  id: Get(Mcma.McmaTracker,Mcma.Client.ResourceManagerOptions)
+  parent: Mcma.Client.ResourceManagerProvider
+  langs:
+  - csharp
+  - vb
+  name: Get(McmaTracker, ResourceManagerOptions)
+  nameWithType: ResourceManagerProvider.Get(McmaTracker, ResourceManagerOptions)
+  fullName: Mcma.Client.ResourceManagerProvider.Get(Mcma.McmaTracker, Mcma.Client.ResourceManagerOptions)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/ResourceManagerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Get
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/ResourceManagerProvider.cs
+    startLine: 27
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: public IResourceManager Get(McmaTracker tracker = null, ResourceManagerOptions options = null)
+    parameters:
+    - id: tracker
+      type: Mcma.McmaTracker
+    - id: options
+      type: Mcma.Client.ResourceManagerOptions
+    return:
+      type: Mcma.Client.IResourceManager
+    content.vb: Public Function Get(tracker As McmaTracker = Nothing, options As ResourceManagerOptions = Nothing) As IResourceManager
+  overload: Mcma.Client.ResourceManagerProvider.Get*
+  implements:
+  - Mcma.Client.IResourceManagerProvider.Get(Mcma.McmaTracker,Mcma.Client.ResourceManagerOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Client
+  commentId: N:Mcma.Client
+  name: Mcma.Client
+  nameWithType: Mcma.Client
+  fullName: Mcma.Client
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Client.IResourceManagerProvider
+  commentId: T:Mcma.Client.IResourceManagerProvider
+  parent: Mcma.Client
+  name: IResourceManagerProvider
+  nameWithType: IResourceManagerProvider
+  fullName: Mcma.Client.IResourceManagerProvider
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.IResourceManagerProvider.Mcma.Client.ResourceManagerProviderExtensions.Get(System.String,System.String,System.String,Mcma.McmaTracker)
+  commentId: M:Mcma.Client.ResourceManagerProviderExtensions.Get(Mcma.Client.IResourceManagerProvider,System.String,System.String,System.String,Mcma.McmaTracker)
+  parent: Mcma.Client.ResourceManagerProviderExtensions
+  definition: Mcma.Client.ResourceManagerProviderExtensions.Get(Mcma.Client.IResourceManagerProvider,System.String,System.String,System.String,Mcma.McmaTracker)
+  name: Get(String, String, String, McmaTracker)
+  nameWithType: ResourceManagerProviderExtensions.Get(String, String, String, McmaTracker)
+  fullName: Mcma.Client.ResourceManagerProviderExtensions.Get(System.String, System.String, System.String, Mcma.McmaTracker)
+  spec.csharp:
+  - uid: Mcma.Client.ResourceManagerProviderExtensions.Get(System.String,System.String,System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: ResourceManagerProviderExtensions.Get
+    fullName: Mcma.Client.ResourceManagerProviderExtensions.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.ResourceManagerProviderExtensions.Get(System.String,System.String,System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: ResourceManagerProviderExtensions.Get
+    fullName: Mcma.Client.ResourceManagerProviderExtensions.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Client.ResourceManagerProviderExtensions.Get(Mcma.Client.IResourceManagerProvider,System.String,System.String,System.String,Mcma.McmaTracker)
+  commentId: M:Mcma.Client.ResourceManagerProviderExtensions.Get(Mcma.Client.IResourceManagerProvider,System.String,System.String,System.String,Mcma.McmaTracker)
+  isExternal: true
+  name: Get(IResourceManagerProvider, String, String, String, McmaTracker)
+  nameWithType: ResourceManagerProviderExtensions.Get(IResourceManagerProvider, String, String, String, McmaTracker)
+  fullName: Mcma.Client.ResourceManagerProviderExtensions.Get(Mcma.Client.IResourceManagerProvider, System.String, System.String, System.String, Mcma.McmaTracker)
+  spec.csharp:
+  - uid: Mcma.Client.ResourceManagerProviderExtensions.Get(Mcma.Client.IResourceManagerProvider,System.String,System.String,System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: ResourceManagerProviderExtensions.Get
+    fullName: Mcma.Client.ResourceManagerProviderExtensions.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.IResourceManagerProvider
+    name: IResourceManagerProvider
+    nameWithType: IResourceManagerProvider
+    fullName: Mcma.Client.IResourceManagerProvider
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.ResourceManagerProviderExtensions.Get(Mcma.Client.IResourceManagerProvider,System.String,System.String,System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: ResourceManagerProviderExtensions.Get
+    fullName: Mcma.Client.ResourceManagerProviderExtensions.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.IResourceManagerProvider
+    name: IResourceManagerProvider
+    nameWithType: IResourceManagerProvider
+    fullName: Mcma.Client.IResourceManagerProvider
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.ResourceManagerProviderExtensions
+  commentId: T:Mcma.Client.ResourceManagerProviderExtensions
+  parent: Mcma.Client
+  name: ResourceManagerProviderExtensions
+  nameWithType: ResourceManagerProviderExtensions
+  fullName: Mcma.Client.ResourceManagerProviderExtensions
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Client.ResourceManagerProvider.#ctor*
+  commentId: Overload:Mcma.Client.ResourceManagerProvider.#ctor
+  name: ResourceManagerProvider
+  nameWithType: ResourceManagerProvider.ResourceManagerProvider
+  fullName: Mcma.Client.ResourceManagerProvider.ResourceManagerProvider
+- uid: System.Net.Http.HttpClient
+  commentId: T:System.Net.Http.HttpClient
+  parent: System.Net.Http
+  isExternal: true
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: Mcma.Client.IAuthProvider
+  commentId: T:Mcma.Client.IAuthProvider
+  parent: Mcma.Client
+  name: IAuthProvider
+  nameWithType: IAuthProvider
+  fullName: Mcma.Client.IAuthProvider
+- uid: Microsoft.Extensions.Options.IOptions{Mcma.Client.ResourceManagerProviderOptions}
+  commentId: T:Microsoft.Extensions.Options.IOptions{Mcma.Client.ResourceManagerProviderOptions}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IOptions`1
+  name: IOptions<ResourceManagerProviderOptions>
+  nameWithType: IOptions<ResourceManagerProviderOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<Mcma.Client.ResourceManagerProviderOptions>
+  nameWithType.vb: IOptions(Of ResourceManagerProviderOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of Mcma.Client.ResourceManagerProviderOptions)
+  name.vb: IOptions(Of ResourceManagerProviderOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Client.ResourceManagerProviderOptions
+    name: ResourceManagerProviderOptions
+    nameWithType: ResourceManagerProviderOptions
+    fullName: Mcma.Client.ResourceManagerProviderOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Client.ResourceManagerProviderOptions
+    name: ResourceManagerProviderOptions
+    nameWithType: ResourceManagerProviderOptions
+    fullName: Mcma.Client.ResourceManagerProviderOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+- uid: Microsoft.Extensions.Options.IOptions`1
+  commentId: T:Microsoft.Extensions.Options.IOptions`1
+  isExternal: true
+  name: IOptions<TOptions>
+  nameWithType: IOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<TOptions>
+  nameWithType.vb: IOptions(Of TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of TOptions)
+  name.vb: IOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: true
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+- uid: Mcma.Client.ResourceManagerProvider.Get*
+  commentId: Overload:Mcma.Client.ResourceManagerProvider.Get
+  name: Get
+  nameWithType: ResourceManagerProvider.Get
+  fullName: Mcma.Client.ResourceManagerProvider.Get
+- uid: Mcma.Client.IResourceManagerProvider.Get(Mcma.McmaTracker,Mcma.Client.ResourceManagerOptions)
+  commentId: M:Mcma.Client.IResourceManagerProvider.Get(Mcma.McmaTracker,Mcma.Client.ResourceManagerOptions)
+  parent: Mcma.Client.IResourceManagerProvider
+  name: Get(McmaTracker, ResourceManagerOptions)
+  nameWithType: IResourceManagerProvider.Get(McmaTracker, ResourceManagerOptions)
+  fullName: Mcma.Client.IResourceManagerProvider.Get(Mcma.McmaTracker, Mcma.Client.ResourceManagerOptions)
+  spec.csharp:
+  - uid: Mcma.Client.IResourceManagerProvider.Get(Mcma.McmaTracker,Mcma.Client.ResourceManagerOptions)
+    name: Get
+    nameWithType: IResourceManagerProvider.Get
+    fullName: Mcma.Client.IResourceManagerProvider.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.Client.ResourceManagerOptions
+    name: ResourceManagerOptions
+    nameWithType: ResourceManagerOptions
+    fullName: Mcma.Client.ResourceManagerOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.IResourceManagerProvider.Get(Mcma.McmaTracker,Mcma.Client.ResourceManagerOptions)
+    name: Get
+    nameWithType: IResourceManagerProvider.Get
+    fullName: Mcma.Client.IResourceManagerProvider.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.Client.ResourceManagerOptions
+    name: ResourceManagerOptions
+    nameWithType: ResourceManagerOptions
+    fullName: Mcma.Client.ResourceManagerOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaTracker
+  commentId: T:Mcma.McmaTracker
+  parent: Mcma
+  name: McmaTracker
+  nameWithType: McmaTracker
+  fullName: Mcma.McmaTracker
+- uid: Mcma.Client.ResourceManagerOptions
+  commentId: T:Mcma.Client.ResourceManagerOptions
+  parent: Mcma.Client
+  name: ResourceManagerOptions
+  nameWithType: ResourceManagerOptions
+  fullName: Mcma.Client.ResourceManagerOptions
+- uid: Mcma.Client.IResourceManager
+  commentId: T:Mcma.Client.IResourceManager
+  parent: Mcma.Client
+  name: IResourceManager
+  nameWithType: IResourceManager
+  fullName: Mcma.Client.IResourceManager
+- uid: Mcma
+  commentId: N:Mcma
+  name: Mcma
+  nameWithType: Mcma
+  fullName: Mcma

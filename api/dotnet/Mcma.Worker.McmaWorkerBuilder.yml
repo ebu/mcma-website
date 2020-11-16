@@ -1,0 +1,1028 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Worker.McmaWorkerBuilder
+  commentId: T:Mcma.Worker.McmaWorkerBuilder
+  id: McmaWorkerBuilder
+  parent: Mcma.Worker
+  children:
+  - Mcma.Worker.McmaWorkerBuilder.AddOperation``1
+  - Mcma.Worker.McmaWorkerBuilder.AddOperation``1(System.String,System.Func{Mcma.Worker.McmaWorkerRequestContext,``0,System.Threading.Tasks.Task},System.Func{Mcma.Worker.McmaWorkerRequestContext,System.Boolean})
+  - Mcma.Worker.McmaWorkerBuilder.Services
+  langs:
+  - csharp
+  - vb
+  name: McmaWorkerBuilder
+  nameWithType: McmaWorkerBuilder
+  fullName: Mcma.Worker.McmaWorkerBuilder
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Worker/McmaWorkerBuilder.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaWorkerBuilder
+    path: ../mcma-libraries-dotnet/Base/Mcma.Worker/McmaWorkerBuilder.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Worker
+  namespace: Mcma.Worker
+  syntax:
+    content: public class McmaWorkerBuilder
+    content.vb: Public Class McmaWorkerBuilder
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Mcma.Worker.McmaWorkerBuilder.Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation``1(System.Action{Mcma.Worker.ProcessJobAssignmentOperationBuilder{{TJob}}})
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Worker.McmaWorkerBuilder.Services
+  commentId: P:Mcma.Worker.McmaWorkerBuilder.Services
+  id: Services
+  parent: Mcma.Worker.McmaWorkerBuilder
+  langs:
+  - csharp
+  - vb
+  name: Services
+  nameWithType: McmaWorkerBuilder.Services
+  fullName: Mcma.Worker.McmaWorkerBuilder.Services
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Worker/McmaWorkerBuilder.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Services
+    path: ../mcma-libraries-dotnet/Base/Mcma.Worker/McmaWorkerBuilder.cs
+    startLine: 13
+  assemblies:
+  - Mcma.Worker
+  namespace: Mcma.Worker
+  syntax:
+    content: public IServiceCollection Services { get; }
+    parameters: []
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public ReadOnly Property Services As IServiceCollection
+  overload: Mcma.Worker.McmaWorkerBuilder.Services*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Mcma.Worker.McmaWorkerBuilder.AddOperation``1
+  commentId: M:Mcma.Worker.McmaWorkerBuilder.AddOperation``1
+  id: AddOperation``1
+  parent: Mcma.Worker.McmaWorkerBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddOperation<TOperation>()
+  nameWithType: McmaWorkerBuilder.AddOperation<TOperation>()
+  fullName: Mcma.Worker.McmaWorkerBuilder.AddOperation<TOperation>()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Worker/McmaWorkerBuilder.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AddOperation
+    path: ../mcma-libraries-dotnet/Base/Mcma.Worker/McmaWorkerBuilder.cs
+    startLine: 15
+  assemblies:
+  - Mcma.Worker
+  namespace: Mcma.Worker
+  syntax:
+    content: >-
+      public McmaWorkerBuilder AddOperation<TOperation>()
+
+          where TOperation : class, IMcmaWorkerOperation
+    typeParameters:
+    - id: TOperation
+    return:
+      type: Mcma.Worker.McmaWorkerBuilder
+    content.vb: Public Function AddOperation(Of TOperation As {Class, IMcmaWorkerOperation}) As McmaWorkerBuilder
+  overload: Mcma.Worker.McmaWorkerBuilder.AddOperation*
+  nameWithType.vb: McmaWorkerBuilder.AddOperation(Of TOperation)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Worker.McmaWorkerBuilder.AddOperation(Of TOperation)()
+  name.vb: AddOperation(Of TOperation)()
+- uid: Mcma.Worker.McmaWorkerBuilder.AddOperation``1(System.String,System.Func{Mcma.Worker.McmaWorkerRequestContext,``0,System.Threading.Tasks.Task},System.Func{Mcma.Worker.McmaWorkerRequestContext,System.Boolean})
+  commentId: M:Mcma.Worker.McmaWorkerBuilder.AddOperation``1(System.String,System.Func{Mcma.Worker.McmaWorkerRequestContext,``0,System.Threading.Tasks.Task},System.Func{Mcma.Worker.McmaWorkerRequestContext,System.Boolean})
+  id: AddOperation``1(System.String,System.Func{Mcma.Worker.McmaWorkerRequestContext,``0,System.Threading.Tasks.Task},System.Func{Mcma.Worker.McmaWorkerRequestContext,System.Boolean})
+  parent: Mcma.Worker.McmaWorkerBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddOperation<TInput>(String, Func<McmaWorkerRequestContext, TInput, Task>, Func<McmaWorkerRequestContext, Boolean>)
+  nameWithType: McmaWorkerBuilder.AddOperation<TInput>(String, Func<McmaWorkerRequestContext, TInput, Task>, Func<McmaWorkerRequestContext, Boolean>)
+  fullName: Mcma.Worker.McmaWorkerBuilder.AddOperation<TInput>(System.String, System.Func<Mcma.Worker.McmaWorkerRequestContext, TInput, System.Threading.Tasks.Task>, System.Func<Mcma.Worker.McmaWorkerRequestContext, System.Boolean>)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Worker/McmaWorkerBuilder.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AddOperation
+    path: ../mcma-libraries-dotnet/Base/Mcma.Worker/McmaWorkerBuilder.cs
+    startLine: 21
+  assemblies:
+  - Mcma.Worker
+  namespace: Mcma.Worker
+  syntax:
+    content: public McmaWorkerBuilder AddOperation<TInput>(string operationName, Func<McmaWorkerRequestContext, TInput, Task> handler, Func<McmaWorkerRequestContext, bool> accepts = null)
+    parameters:
+    - id: operationName
+      type: System.String
+    - id: handler
+      type: System.Func{Mcma.Worker.McmaWorkerRequestContext,{TInput},System.Threading.Tasks.Task}
+    - id: accepts
+      type: System.Func{Mcma.Worker.McmaWorkerRequestContext,System.Boolean}
+    typeParameters:
+    - id: TInput
+    return:
+      type: Mcma.Worker.McmaWorkerBuilder
+    content.vb: Public Function AddOperation(Of TInput)(operationName As String, handler As Func(Of McmaWorkerRequestContext, TInput, Task), accepts As Func(Of McmaWorkerRequestContext, Boolean) = Nothing) As McmaWorkerBuilder
+  overload: Mcma.Worker.McmaWorkerBuilder.AddOperation*
+  nameWithType.vb: McmaWorkerBuilder.AddOperation(Of TInput)(String, Func(Of McmaWorkerRequestContext, TInput, Task), Func(Of McmaWorkerRequestContext, Boolean))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Worker.McmaWorkerBuilder.AddOperation(Of TInput)(System.String, System.Func(Of Mcma.Worker.McmaWorkerRequestContext, TInput, System.Threading.Tasks.Task), System.Func(Of Mcma.Worker.McmaWorkerRequestContext, System.Boolean))
+  name.vb: AddOperation(Of TInput)(String, Func(Of McmaWorkerRequestContext, TInput, Task), Func(Of McmaWorkerRequestContext, Boolean))
+references:
+- uid: Mcma.Worker
+  commentId: N:Mcma.Worker
+  name: Mcma.Worker
+  nameWithType: Mcma.Worker
+  fullName: Mcma.Worker
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Worker.McmaWorkerBuilder.Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation``1(System.Action{Mcma.Worker.ProcessJobAssignmentOperationBuilder{{TJob}}})
+  commentId: M:Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation``1(Mcma.Worker.McmaWorkerBuilder,System.Action{Mcma.Worker.ProcessJobAssignmentOperationBuilder{``0}})
+  parent: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions
+  definition: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation``1(Mcma.Worker.McmaWorkerBuilder,System.Action{Mcma.Worker.ProcessJobAssignmentOperationBuilder{``0}})
+  name: AddProcessJobAssignmentOperation<TJob>(Action<ProcessJobAssignmentOperationBuilder<TJob>>)
+  nameWithType: ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation<TJob>(Action<ProcessJobAssignmentOperationBuilder<TJob>>)
+  fullName: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation<TJob>(System.Action<Mcma.Worker.ProcessJobAssignmentOperationBuilder<TJob>>)
+  nameWithType.vb: ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation(Of TJob)(Action(Of ProcessJobAssignmentOperationBuilder(Of TJob)))
+  fullName.vb: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation(Of TJob)(System.Action(Of Mcma.Worker.ProcessJobAssignmentOperationBuilder(Of TJob)))
+  name.vb: AddProcessJobAssignmentOperation(Of TJob)(Action(Of ProcessJobAssignmentOperationBuilder(Of TJob)))
+  spec.csharp:
+  - uid: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation``1(System.Action{Mcma.Worker.ProcessJobAssignmentOperationBuilder{``0}})
+    name: AddProcessJobAssignmentOperation<TJob>
+    nameWithType: ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation<TJob>
+    fullName: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation<TJob>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Worker.ProcessJobAssignmentOperationBuilder`1
+    name: ProcessJobAssignmentOperationBuilder
+    nameWithType: ProcessJobAssignmentOperationBuilder
+    fullName: Mcma.Worker.ProcessJobAssignmentOperationBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TJob
+    nameWithType: TJob
+    fullName: TJob
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation``1(System.Action{Mcma.Worker.ProcessJobAssignmentOperationBuilder{``0}})
+    name: AddProcessJobAssignmentOperation(Of TJob)
+    nameWithType: ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation(Of TJob)
+    fullName: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation(Of TJob)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Worker.ProcessJobAssignmentOperationBuilder`1
+    name: ProcessJobAssignmentOperationBuilder
+    nameWithType: ProcessJobAssignmentOperationBuilder
+    fullName: Mcma.Worker.ProcessJobAssignmentOperationBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TJob
+    nameWithType: TJob
+    fullName: TJob
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation``1(Mcma.Worker.McmaWorkerBuilder,System.Action{Mcma.Worker.ProcessJobAssignmentOperationBuilder{``0}})
+  commentId: M:Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation``1(Mcma.Worker.McmaWorkerBuilder,System.Action{Mcma.Worker.ProcessJobAssignmentOperationBuilder{``0}})
+  isExternal: true
+  name: AddProcessJobAssignmentOperation<TJob>(McmaWorkerBuilder, Action<ProcessJobAssignmentOperationBuilder<TJob>>)
+  nameWithType: ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation<TJob>(McmaWorkerBuilder, Action<ProcessJobAssignmentOperationBuilder<TJob>>)
+  fullName: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation<TJob>(Mcma.Worker.McmaWorkerBuilder, System.Action<Mcma.Worker.ProcessJobAssignmentOperationBuilder<TJob>>)
+  nameWithType.vb: ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation(Of TJob)(McmaWorkerBuilder, Action(Of ProcessJobAssignmentOperationBuilder(Of TJob)))
+  fullName.vb: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation(Of TJob)(Mcma.Worker.McmaWorkerBuilder, System.Action(Of Mcma.Worker.ProcessJobAssignmentOperationBuilder(Of TJob)))
+  name.vb: AddProcessJobAssignmentOperation(Of TJob)(McmaWorkerBuilder, Action(Of ProcessJobAssignmentOperationBuilder(Of TJob)))
+  spec.csharp:
+  - uid: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation``1(Mcma.Worker.McmaWorkerBuilder,System.Action{Mcma.Worker.ProcessJobAssignmentOperationBuilder{``0}})
+    name: AddProcessJobAssignmentOperation<TJob>
+    nameWithType: ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation<TJob>
+    fullName: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation<TJob>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Worker.McmaWorkerBuilder
+    name: McmaWorkerBuilder
+    nameWithType: McmaWorkerBuilder
+    fullName: Mcma.Worker.McmaWorkerBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Worker.ProcessJobAssignmentOperationBuilder`1
+    name: ProcessJobAssignmentOperationBuilder
+    nameWithType: ProcessJobAssignmentOperationBuilder
+    fullName: Mcma.Worker.ProcessJobAssignmentOperationBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TJob
+    nameWithType: TJob
+    fullName: TJob
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation``1(Mcma.Worker.McmaWorkerBuilder,System.Action{Mcma.Worker.ProcessJobAssignmentOperationBuilder{``0}})
+    name: AddProcessJobAssignmentOperation(Of TJob)
+    nameWithType: ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation(Of TJob)
+    fullName: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions.AddProcessJobAssignmentOperation(Of TJob)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Worker.McmaWorkerBuilder
+    name: McmaWorkerBuilder
+    nameWithType: McmaWorkerBuilder
+    fullName: Mcma.Worker.McmaWorkerBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Worker.ProcessJobAssignmentOperationBuilder`1
+    name: ProcessJobAssignmentOperationBuilder
+    nameWithType: ProcessJobAssignmentOperationBuilder
+    fullName: Mcma.Worker.ProcessJobAssignmentOperationBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TJob
+    nameWithType: TJob
+    fullName: TJob
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions
+  commentId: T:Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions
+  parent: Mcma.Worker
+  name: ProcessJobAssigmentOperationServiceCollectionExtensions
+  nameWithType: ProcessJobAssigmentOperationServiceCollectionExtensions
+  fullName: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Worker.McmaWorkerBuilder.Services*
+  commentId: Overload:Mcma.Worker.McmaWorkerBuilder.Services
+  name: Services
+  nameWithType: McmaWorkerBuilder.Services
+  fullName: Mcma.Worker.McmaWorkerBuilder.Services
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: Mcma.Worker.McmaWorkerBuilder.AddOperation*
+  commentId: Overload:Mcma.Worker.McmaWorkerBuilder.AddOperation
+  name: AddOperation
+  nameWithType: McmaWorkerBuilder.AddOperation
+  fullName: Mcma.Worker.McmaWorkerBuilder.AddOperation
+- uid: Mcma.Worker.McmaWorkerBuilder
+  commentId: T:Mcma.Worker.McmaWorkerBuilder
+  parent: Mcma.Worker
+  name: McmaWorkerBuilder
+  nameWithType: McmaWorkerBuilder
+  fullName: Mcma.Worker.McmaWorkerBuilder
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Func{Mcma.Worker.McmaWorkerRequestContext,{TInput},System.Threading.Tasks.Task}
+  commentId: T:System.Func{Mcma.Worker.McmaWorkerRequestContext,``0,System.Threading.Tasks.Task}
+  parent: System
+  definition: System.Func`3
+  name: Func<McmaWorkerRequestContext, TInput, Task>
+  nameWithType: Func<McmaWorkerRequestContext, TInput, Task>
+  fullName: System.Func<Mcma.Worker.McmaWorkerRequestContext, TInput, System.Threading.Tasks.Task>
+  nameWithType.vb: Func(Of McmaWorkerRequestContext, TInput, Task)
+  fullName.vb: System.Func(Of Mcma.Worker.McmaWorkerRequestContext, TInput, System.Threading.Tasks.Task)
+  name.vb: Func(Of McmaWorkerRequestContext, TInput, Task)
+  spec.csharp:
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Worker.McmaWorkerRequestContext
+    name: McmaWorkerRequestContext
+    nameWithType: McmaWorkerRequestContext
+    fullName: Mcma.Worker.McmaWorkerRequestContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TInput
+    nameWithType: TInput
+    fullName: TInput
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Worker.McmaWorkerRequestContext
+    name: McmaWorkerRequestContext
+    nameWithType: McmaWorkerRequestContext
+    fullName: Mcma.Worker.McmaWorkerRequestContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TInput
+    nameWithType: TInput
+    fullName: TInput
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func{Mcma.Worker.McmaWorkerRequestContext,System.Boolean}
+  commentId: T:System.Func{Mcma.Worker.McmaWorkerRequestContext,System.Boolean}
+  parent: System
+  definition: System.Func`2
+  name: Func<McmaWorkerRequestContext, Boolean>
+  nameWithType: Func<McmaWorkerRequestContext, Boolean>
+  fullName: System.Func<Mcma.Worker.McmaWorkerRequestContext, System.Boolean>
+  nameWithType.vb: Func(Of McmaWorkerRequestContext, Boolean)
+  fullName.vb: System.Func(Of Mcma.Worker.McmaWorkerRequestContext, System.Boolean)
+  name.vb: Func(Of McmaWorkerRequestContext, Boolean)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Worker.McmaWorkerRequestContext
+    name: McmaWorkerRequestContext
+    nameWithType: McmaWorkerRequestContext
+    fullName: Mcma.Worker.McmaWorkerRequestContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Worker.McmaWorkerRequestContext
+    name: McmaWorkerRequestContext
+    nameWithType: McmaWorkerRequestContext
+    fullName: Mcma.Worker.McmaWorkerRequestContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`3
+  commentId: T:System.Func`3
+  isExternal: true
+  name: Func<T1, T2, TResult>
+  nameWithType: Func<T1, T2, TResult>
+  fullName: System.Func<T1, T2, TResult>
+  nameWithType.vb: Func(Of T1, T2, TResult)
+  fullName.vb: System.Func(Of T1, T2, TResult)
+  name.vb: Func(Of T1, T2, TResult)
+  spec.csharp:
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )

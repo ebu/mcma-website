@@ -1,0 +1,83 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Api.Routing.Defaults
+  commentId: N:Mcma.Api.Routing.Defaults
+  id: Mcma.Api.Routing.Defaults
+  children:
+  - Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions`1
+  - Mcma.Api.Routing.Defaults.InvokeWorkerOnCreationCompleted
+  - Mcma.Api.Routing.Defaults.JobAssignmentServiceCollectionExtensions
+  - Mcma.Api.Routing.Defaults.SetTrackerOnCreationStarted
+  - Mcma.Api.Routing.Defaults.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Api.Routing.Defaults
+  nameWithType: Mcma.Api.Routing.Defaults
+  fullName: Mcma.Api.Routing.Defaults
+  type: Namespace
+  assemblies:
+  - Mcma.Api
+references:
+- uid: Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions`1
+  commentId: T:Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions`1
+  name: DefaultRouteCollectionOptions<TResource>
+  nameWithType: DefaultRouteCollectionOptions<TResource>
+  fullName: Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions<TResource>
+  nameWithType.vb: DefaultRouteCollectionOptions(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions(Of TResource)
+  name.vb: DefaultRouteCollectionOptions(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions`1
+    name: DefaultRouteCollectionOptions
+    nameWithType: DefaultRouteCollectionOptions
+    fullName: Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions`1
+    name: DefaultRouteCollectionOptions
+    nameWithType: DefaultRouteCollectionOptions
+    fullName: Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.StringExtensions
+  commentId: T:Mcma.Api.Routing.Defaults.StringExtensions
+  name: StringExtensions
+  nameWithType: StringExtensions
+  fullName: Mcma.Api.Routing.Defaults.StringExtensions
+- uid: Mcma.Api.Routing.Defaults.InvokeWorkerOnCreationCompleted
+  commentId: T:Mcma.Api.Routing.Defaults.InvokeWorkerOnCreationCompleted
+  name: InvokeWorkerOnCreationCompleted
+  nameWithType: InvokeWorkerOnCreationCompleted
+  fullName: Mcma.Api.Routing.Defaults.InvokeWorkerOnCreationCompleted
+- uid: Mcma.Api.Routing.Defaults.JobAssignmentServiceCollectionExtensions
+  commentId: T:Mcma.Api.Routing.Defaults.JobAssignmentServiceCollectionExtensions
+  parent: Mcma.Api.Routing.Defaults
+  name: JobAssignmentServiceCollectionExtensions
+  nameWithType: JobAssignmentServiceCollectionExtensions
+  fullName: Mcma.Api.Routing.Defaults.JobAssignmentServiceCollectionExtensions
+- uid: Mcma.Api.Routing.Defaults.SetTrackerOnCreationStarted
+  commentId: T:Mcma.Api.Routing.Defaults.SetTrackerOnCreationStarted
+  name: SetTrackerOnCreationStarted
+  nameWithType: SetTrackerOnCreationStarted
+  fullName: Mcma.Api.Routing.Defaults.SetTrackerOnCreationStarted
+- uid: Mcma.Api.Routing.Defaults
+  commentId: N:Mcma.Api.Routing.Defaults
+  name: Mcma.Api.Routing.Defaults
+  nameWithType: Mcma.Api.Routing.Defaults
+  fullName: Mcma.Api.Routing.Defaults

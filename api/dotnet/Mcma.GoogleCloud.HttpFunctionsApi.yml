@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.HttpFunctionsApi
+  commentId: N:Mcma.GoogleCloud.HttpFunctionsApi
+  id: Mcma.GoogleCloud.HttpFunctionsApi
+  children:
+  - Mcma.GoogleCloud.HttpFunctionsApi.HttpAspNetExtensions
+  - Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController
+  - Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionServiceCollectionExtensions
+  - Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController
+  langs:
+  - csharp
+  - vb
+  name: Mcma.GoogleCloud.HttpFunctionsApi
+  nameWithType: Mcma.GoogleCloud.HttpFunctionsApi
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi
+  type: Namespace
+  assemblies:
+  - Mcma.GoogleCloud.HttpFunctionsApi
+references:
+- uid: Mcma.GoogleCloud.HttpFunctionsApi.HttpAspNetExtensions
+  commentId: T:Mcma.GoogleCloud.HttpFunctionsApi.HttpAspNetExtensions
+  name: HttpAspNetExtensions
+  nameWithType: HttpAspNetExtensions
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi.HttpAspNetExtensions
+- uid: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController
+  commentId: T:Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController
+  name: HttpFunctionApiController
+  nameWithType: HttpFunctionApiController
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController
+- uid: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionServiceCollectionExtensions
+  commentId: T:Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionServiceCollectionExtensions
+  name: HttpFunctionServiceCollectionExtensions
+  nameWithType: HttpFunctionServiceCollectionExtensions
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionServiceCollectionExtensions
+- uid: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController
+  commentId: T:Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController
+  parent: Mcma.GoogleCloud.HttpFunctionsApi
+  name: IHttpFunctionApiController
+  nameWithType: IHttpFunctionApiController
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController
+- uid: Mcma.GoogleCloud.HttpFunctionsApi
+  commentId: N:Mcma.GoogleCloud.HttpFunctionsApi
+  name: Mcma.GoogleCloud.HttpFunctionsApi
+  nameWithType: Mcma.GoogleCloud.HttpFunctionsApi
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi

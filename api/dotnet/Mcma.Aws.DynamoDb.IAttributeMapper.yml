@@ -1,0 +1,332 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.DynamoDb.IAttributeMapper
+  commentId: T:Mcma.Aws.DynamoDb.IAttributeMapper
+  id: IAttributeMapper
+  parent: Mcma.Aws.DynamoDb
+  children:
+  - Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes``1(System.String,System.String,``0)
+  langs:
+  - csharp
+  - vb
+  name: IAttributeMapper
+  nameWithType: IAttributeMapper
+  fullName: Mcma.Aws.DynamoDb.IAttributeMapper
+  type: Interface
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/AttributeMapping/IAttributeMapper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IAttributeMapper
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/AttributeMapping/IAttributeMapper.cs
+    startLine: 4
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: public interface IAttributeMapper
+    content.vb: Public Interface IAttributeMapper
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes``1(System.String,System.String,``0)
+  commentId: M:Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes``1(System.String,System.String,``0)
+  id: GetMappedAttributes``1(System.String,System.String,``0)
+  parent: Mcma.Aws.DynamoDb.IAttributeMapper
+  langs:
+  - csharp
+  - vb
+  name: GetMappedAttributes<TResource>(String, String, TResource)
+  nameWithType: IAttributeMapper.GetMappedAttributes<TResource>(String, String, TResource)
+  fullName: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes<TResource>(System.String, System.String, TResource)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/AttributeMapping/IAttributeMapper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetMappedAttributes
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/AttributeMapping/IAttributeMapper.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: Dictionary<string, object> GetMappedAttributes<TResource>(string partitionKey, string sortKey, TResource resource)
+    parameters:
+    - id: partitionKey
+      type: System.String
+    - id: sortKey
+      type: System.String
+    - id: resource
+      type: '{TResource}'
+    typeParameters:
+    - id: TResource
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    content.vb: Function GetMappedAttributes(Of TResource)(partitionKey As String, sortKey As String, resource As TResource) As Dictionary(Of String, Object)
+  overload: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes*
+  nameWithType.vb: IAttributeMapper.GetMappedAttributes(Of TResource)(String, String, TResource)
+  fullName.vb: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes(Of TResource)(System.String, System.String, TResource)
+  name.vb: GetMappedAttributes(Of TResource)(String, String, TResource)
+references:
+- uid: Mcma.Aws.DynamoDb
+  commentId: N:Mcma.Aws.DynamoDb
+  name: Mcma.Aws.DynamoDb
+  nameWithType: Mcma.Aws.DynamoDb
+  fullName: Mcma.Aws.DynamoDb
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes*
+  commentId: Overload:Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes
+  name: GetMappedAttributes
+  nameWithType: IAttributeMapper.GetMappedAttributes
+  fullName: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: '{TResource}'
+  commentId: '!:TResource'
+  definition: TResource
+  name: TResource
+  nameWithType: TResource
+  fullName: TResource
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Object>
+  nameWithType: Dictionary<String, Object>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TResource
+  name: TResource
+  nameWithType: TResource
+  fullName: TResource
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

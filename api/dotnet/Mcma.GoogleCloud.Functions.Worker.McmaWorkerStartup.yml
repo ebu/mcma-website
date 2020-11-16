@@ -1,0 +1,965 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup
+  commentId: T:Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup
+  id: McmaWorkerStartup
+  parent: Mcma.GoogleCloud.Functions.Worker
+  children:
+  - Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ApplicationName
+  - Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.BuildFirestore(Mcma.GoogleCloud.Firestore.FirestoreTableBuilder)
+  - Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.BuildWorker(Mcma.Worker.McmaWorkerBuilder)
+  - Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ConfigureAdditionalServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ConfigureServices(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  langs:
+  - csharp
+  - vb
+  name: McmaWorkerStartup
+  nameWithType: McmaWorkerStartup
+  fullName: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup
+  type: Class
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Functions.Worker/McmaWorkerStartup.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaWorkerStartup
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Functions.Worker/McmaWorkerStartup.cs
+    startLine: 8
+  assemblies:
+  - Mcma.GoogleCloud.Functions.Worker
+  namespace: Mcma.GoogleCloud.Functions.Worker
+  syntax:
+    content: 'public abstract class McmaWorkerStartup : FunctionsStartup'
+    content.vb: >-
+      Public MustInherit Class McmaWorkerStartup
+
+          Inherits FunctionsStartup
+  inheritance:
+  - System.Object
+  - Google.Cloud.Functions.Hosting.FunctionsStartup
+  inheritedMembers:
+  - Google.Cloud.Functions.Hosting.FunctionsStartup.Configure(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.AspNetCore.Builder.IApplicationBuilder)
+  - Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureAppConfiguration(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.Configuration.IConfigurationBuilder)
+  - Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureLogging(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.Logging.ILoggingBuilder)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ApplicationName
+  commentId: P:Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ApplicationName
+  id: ApplicationName
+  parent: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup
+  langs:
+  - csharp
+  - vb
+  name: ApplicationName
+  nameWithType: McmaWorkerStartup.ApplicationName
+  fullName: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ApplicationName
+  type: Property
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Functions.Worker/McmaWorkerStartup.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ApplicationName
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Functions.Worker/McmaWorkerStartup.cs
+    startLine: 10
+  assemblies:
+  - Mcma.GoogleCloud.Functions.Worker
+  namespace: Mcma.GoogleCloud.Functions.Worker
+  syntax:
+    content: protected abstract string ApplicationName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected MustOverride ReadOnly Property ApplicationName As String
+  overload: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ApplicationName*
+  modifiers.csharp:
+  - protected
+  - abstract
+  - get
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  - ReadOnly
+- uid: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ConfigureAdditionalServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ConfigureAdditionalServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: ConfigureAdditionalServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  parent: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup
+  langs:
+  - csharp
+  - vb
+  name: ConfigureAdditionalServices(IServiceCollection)
+  nameWithType: McmaWorkerStartup.ConfigureAdditionalServices(IServiceCollection)
+  fullName: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ConfigureAdditionalServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Functions.Worker/McmaWorkerStartup.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ConfigureAdditionalServices
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Functions.Worker/McmaWorkerStartup.cs
+    startLine: 12
+  assemblies:
+  - Mcma.GoogleCloud.Functions.Worker
+  namespace: Mcma.GoogleCloud.Functions.Worker
+  syntax:
+    content: protected virtual IServiceCollection ConfigureAdditionalServices(IServiceCollection services)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Protected Overridable Function ConfigureAdditionalServices(services As IServiceCollection) As IServiceCollection
+  overload: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ConfigureAdditionalServices*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.BuildFirestore(Mcma.GoogleCloud.Firestore.FirestoreTableBuilder)
+  commentId: M:Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.BuildFirestore(Mcma.GoogleCloud.Firestore.FirestoreTableBuilder)
+  id: BuildFirestore(Mcma.GoogleCloud.Firestore.FirestoreTableBuilder)
+  parent: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup
+  langs:
+  - csharp
+  - vb
+  name: BuildFirestore(FirestoreTableBuilder)
+  nameWithType: McmaWorkerStartup.BuildFirestore(FirestoreTableBuilder)
+  fullName: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.BuildFirestore(Mcma.GoogleCloud.Firestore.FirestoreTableBuilder)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Functions.Worker/McmaWorkerStartup.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: BuildFirestore
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Functions.Worker/McmaWorkerStartup.cs
+    startLine: 14
+  assemblies:
+  - Mcma.GoogleCloud.Functions.Worker
+  namespace: Mcma.GoogleCloud.Functions.Worker
+  syntax:
+    content: protected virtual void BuildFirestore(FirestoreTableBuilder builder)
+    parameters:
+    - id: builder
+      type: Mcma.GoogleCloud.Firestore.FirestoreTableBuilder
+    content.vb: Protected Overridable Sub BuildFirestore(builder As FirestoreTableBuilder)
+  overload: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.BuildFirestore*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.BuildWorker(Mcma.Worker.McmaWorkerBuilder)
+  commentId: M:Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.BuildWorker(Mcma.Worker.McmaWorkerBuilder)
+  id: BuildWorker(Mcma.Worker.McmaWorkerBuilder)
+  parent: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup
+  langs:
+  - csharp
+  - vb
+  name: BuildWorker(McmaWorkerBuilder)
+  nameWithType: McmaWorkerStartup.BuildWorker(McmaWorkerBuilder)
+  fullName: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.BuildWorker(Mcma.Worker.McmaWorkerBuilder)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Functions.Worker/McmaWorkerStartup.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: BuildWorker
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Functions.Worker/McmaWorkerStartup.cs
+    startLine: 18
+  assemblies:
+  - Mcma.GoogleCloud.Functions.Worker
+  namespace: Mcma.GoogleCloud.Functions.Worker
+  syntax:
+    content: protected abstract void BuildWorker(McmaWorkerBuilder workerBuilder)
+    parameters:
+    - id: workerBuilder
+      type: Mcma.Worker.McmaWorkerBuilder
+    content.vb: Protected MustOverride Sub BuildWorker(workerBuilder As McmaWorkerBuilder)
+  overload: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.BuildWorker*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ConfigureServices(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ConfigureServices(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: ConfigureServices(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  parent: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup
+  langs:
+  - csharp
+  - vb
+  name: ConfigureServices(WebHostBuilderContext, IServiceCollection)
+  nameWithType: McmaWorkerStartup.ConfigureServices(WebHostBuilderContext, IServiceCollection)
+  fullName: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ConfigureServices(Microsoft.AspNetCore.Hosting.WebHostBuilderContext, Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Functions.Worker/McmaWorkerStartup.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ConfigureServices
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Functions.Worker/McmaWorkerStartup.cs
+    startLine: 20
+  assemblies:
+  - Mcma.GoogleCloud.Functions.Worker
+  namespace: Mcma.GoogleCloud.Functions.Worker
+  syntax:
+    content: public override void ConfigureServices(WebHostBuilderContext context, IServiceCollection services)
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Overrides Sub ConfigureServices(context As WebHostBuilderContext, services As IServiceCollection)
+  overridden: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureServices(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  overload: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ConfigureServices*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Mcma.GoogleCloud.Functions.Worker
+  commentId: N:Mcma.GoogleCloud.Functions.Worker
+  name: Mcma.GoogleCloud.Functions.Worker
+  nameWithType: Mcma.GoogleCloud.Functions.Worker
+  fullName: Mcma.GoogleCloud.Functions.Worker
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Google.Cloud.Functions.Hosting.FunctionsStartup
+  commentId: T:Google.Cloud.Functions.Hosting.FunctionsStartup
+  parent: Google.Cloud.Functions.Hosting
+  isExternal: true
+  name: FunctionsStartup
+  nameWithType: FunctionsStartup
+  fullName: Google.Cloud.Functions.Hosting.FunctionsStartup
+- uid: Google.Cloud.Functions.Hosting.FunctionsStartup.Configure(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.AspNetCore.Builder.IApplicationBuilder)
+  commentId: M:Google.Cloud.Functions.Hosting.FunctionsStartup.Configure(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.AspNetCore.Builder.IApplicationBuilder)
+  parent: Google.Cloud.Functions.Hosting.FunctionsStartup
+  isExternal: true
+  name: Configure(WebHostBuilderContext, IApplicationBuilder)
+  nameWithType: FunctionsStartup.Configure(WebHostBuilderContext, IApplicationBuilder)
+  fullName: Google.Cloud.Functions.Hosting.FunctionsStartup.Configure(Microsoft.AspNetCore.Hosting.WebHostBuilderContext, Microsoft.AspNetCore.Builder.IApplicationBuilder)
+  spec.csharp:
+  - uid: Google.Cloud.Functions.Hosting.FunctionsStartup.Configure(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.AspNetCore.Builder.IApplicationBuilder)
+    name: Configure
+    nameWithType: FunctionsStartup.Configure
+    fullName: Google.Cloud.Functions.Hosting.FunctionsStartup.Configure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+    name: WebHostBuilderContext
+    nameWithType: WebHostBuilderContext
+    fullName: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.AspNetCore.Builder.IApplicationBuilder
+    name: IApplicationBuilder
+    nameWithType: IApplicationBuilder
+    fullName: Microsoft.AspNetCore.Builder.IApplicationBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Google.Cloud.Functions.Hosting.FunctionsStartup.Configure(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.AspNetCore.Builder.IApplicationBuilder)
+    name: Configure
+    nameWithType: FunctionsStartup.Configure
+    fullName: Google.Cloud.Functions.Hosting.FunctionsStartup.Configure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+    name: WebHostBuilderContext
+    nameWithType: WebHostBuilderContext
+    fullName: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.AspNetCore.Builder.IApplicationBuilder
+    name: IApplicationBuilder
+    nameWithType: IApplicationBuilder
+    fullName: Microsoft.AspNetCore.Builder.IApplicationBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureAppConfiguration(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.Configuration.IConfigurationBuilder)
+  commentId: M:Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureAppConfiguration(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.Configuration.IConfigurationBuilder)
+  parent: Google.Cloud.Functions.Hosting.FunctionsStartup
+  isExternal: true
+  name: ConfigureAppConfiguration(WebHostBuilderContext, IConfigurationBuilder)
+  nameWithType: FunctionsStartup.ConfigureAppConfiguration(WebHostBuilderContext, IConfigurationBuilder)
+  fullName: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureAppConfiguration(Microsoft.AspNetCore.Hosting.WebHostBuilderContext, Microsoft.Extensions.Configuration.IConfigurationBuilder)
+  spec.csharp:
+  - uid: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureAppConfiguration(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.Configuration.IConfigurationBuilder)
+    name: ConfigureAppConfiguration
+    nameWithType: FunctionsStartup.ConfigureAppConfiguration
+    fullName: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureAppConfiguration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+    name: WebHostBuilderContext
+    nameWithType: WebHostBuilderContext
+    fullName: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureAppConfiguration(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.Configuration.IConfigurationBuilder)
+    name: ConfigureAppConfiguration
+    nameWithType: FunctionsStartup.ConfigureAppConfiguration
+    fullName: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureAppConfiguration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+    name: WebHostBuilderContext
+    nameWithType: WebHostBuilderContext
+    fullName: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    name: IConfigurationBuilder
+    nameWithType: IConfigurationBuilder
+    fullName: Microsoft.Extensions.Configuration.IConfigurationBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureLogging(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.Logging.ILoggingBuilder)
+  commentId: M:Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureLogging(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.Logging.ILoggingBuilder)
+  parent: Google.Cloud.Functions.Hosting.FunctionsStartup
+  isExternal: true
+  name: ConfigureLogging(WebHostBuilderContext, ILoggingBuilder)
+  nameWithType: FunctionsStartup.ConfigureLogging(WebHostBuilderContext, ILoggingBuilder)
+  fullName: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureLogging(Microsoft.AspNetCore.Hosting.WebHostBuilderContext, Microsoft.Extensions.Logging.ILoggingBuilder)
+  spec.csharp:
+  - uid: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureLogging(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.Logging.ILoggingBuilder)
+    name: ConfigureLogging
+    nameWithType: FunctionsStartup.ConfigureLogging
+    fullName: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureLogging
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+    name: WebHostBuilderContext
+    nameWithType: WebHostBuilderContext
+    fullName: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.Logging.ILoggingBuilder
+    name: ILoggingBuilder
+    nameWithType: ILoggingBuilder
+    fullName: Microsoft.Extensions.Logging.ILoggingBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureLogging(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.Logging.ILoggingBuilder)
+    name: ConfigureLogging
+    nameWithType: FunctionsStartup.ConfigureLogging
+    fullName: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureLogging
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+    name: WebHostBuilderContext
+    nameWithType: WebHostBuilderContext
+    fullName: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.Logging.ILoggingBuilder
+    name: ILoggingBuilder
+    nameWithType: ILoggingBuilder
+    fullName: Microsoft.Extensions.Logging.ILoggingBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Cloud.Functions.Hosting
+  commentId: N:Google.Cloud.Functions.Hosting
+  isExternal: true
+  name: Google.Cloud.Functions.Hosting
+  nameWithType: Google.Cloud.Functions.Hosting
+  fullName: Google.Cloud.Functions.Hosting
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ApplicationName*
+  commentId: Overload:Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ApplicationName
+  name: ApplicationName
+  nameWithType: McmaWorkerStartup.ApplicationName
+  fullName: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ApplicationName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ConfigureAdditionalServices*
+  commentId: Overload:Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ConfigureAdditionalServices
+  name: ConfigureAdditionalServices
+  nameWithType: McmaWorkerStartup.ConfigureAdditionalServices
+  fullName: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ConfigureAdditionalServices
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.BuildFirestore*
+  commentId: Overload:Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.BuildFirestore
+  name: BuildFirestore
+  nameWithType: McmaWorkerStartup.BuildFirestore
+  fullName: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.BuildFirestore
+- uid: Mcma.GoogleCloud.Firestore.FirestoreTableBuilder
+  commentId: T:Mcma.GoogleCloud.Firestore.FirestoreTableBuilder
+  parent: Mcma.GoogleCloud.Firestore
+  name: FirestoreTableBuilder
+  nameWithType: FirestoreTableBuilder
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreTableBuilder
+- uid: Mcma.GoogleCloud.Firestore
+  commentId: N:Mcma.GoogleCloud.Firestore
+  name: Mcma.GoogleCloud.Firestore
+  nameWithType: Mcma.GoogleCloud.Firestore
+  fullName: Mcma.GoogleCloud.Firestore
+- uid: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.BuildWorker*
+  commentId: Overload:Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.BuildWorker
+  name: BuildWorker
+  nameWithType: McmaWorkerStartup.BuildWorker
+  fullName: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.BuildWorker
+- uid: Mcma.Worker.McmaWorkerBuilder
+  commentId: T:Mcma.Worker.McmaWorkerBuilder
+  parent: Mcma.Worker
+  name: McmaWorkerBuilder
+  nameWithType: McmaWorkerBuilder
+  fullName: Mcma.Worker.McmaWorkerBuilder
+- uid: Mcma.Worker
+  commentId: N:Mcma.Worker
+  name: Mcma.Worker
+  nameWithType: Mcma.Worker
+  fullName: Mcma.Worker
+- uid: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureServices(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureServices(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  parent: Google.Cloud.Functions.Hosting.FunctionsStartup
+  isExternal: true
+  name: ConfigureServices(WebHostBuilderContext, IServiceCollection)
+  nameWithType: FunctionsStartup.ConfigureServices(WebHostBuilderContext, IServiceCollection)
+  fullName: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureServices(Microsoft.AspNetCore.Hosting.WebHostBuilderContext, Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  spec.csharp:
+  - uid: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureServices(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.DependencyInjection.IServiceCollection)
+    name: ConfigureServices
+    nameWithType: FunctionsStartup.ConfigureServices
+    fullName: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureServices
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+    name: WebHostBuilderContext
+    nameWithType: WebHostBuilderContext
+    fullName: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    name: IServiceCollection
+    nameWithType: IServiceCollection
+    fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureServices(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.DependencyInjection.IServiceCollection)
+    name: ConfigureServices
+    nameWithType: FunctionsStartup.ConfigureServices
+    fullName: Google.Cloud.Functions.Hosting.FunctionsStartup.ConfigureServices
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+    name: WebHostBuilderContext
+    nameWithType: WebHostBuilderContext
+    fullName: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    name: IServiceCollection
+    nameWithType: IServiceCollection
+    fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ConfigureServices*
+  commentId: Overload:Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ConfigureServices
+  name: ConfigureServices
+  nameWithType: McmaWorkerStartup.ConfigureServices
+  fullName: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup.ConfigureServices
+- uid: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+  commentId: T:Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+  parent: Microsoft.AspNetCore.Hosting
+  isExternal: true
+  name: WebHostBuilderContext
+  nameWithType: WebHostBuilderContext
+  fullName: Microsoft.AspNetCore.Hosting.WebHostBuilderContext
+- uid: Microsoft.AspNetCore.Hosting
+  commentId: N:Microsoft.AspNetCore.Hosting
+  isExternal: true
+  name: Microsoft.AspNetCore.Hosting
+  nameWithType: Microsoft.AspNetCore.Hosting
+  fullName: Microsoft.AspNetCore.Hosting

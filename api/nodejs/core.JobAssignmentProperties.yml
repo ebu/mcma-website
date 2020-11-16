@@ -1,0 +1,253 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.JobAssignmentProperties
+    name: JobAssignmentProperties
+    fullName: JobAssignmentProperties
+    children:
+      - core.JobAssignmentProperties.@type
+      - core.JobAssignmentProperties.custom
+      - core.JobAssignmentProperties.dateCreated
+      - core.JobAssignmentProperties.dateModified
+      - core.JobAssignmentProperties.error
+      - core.JobAssignmentProperties.id
+      - core.JobAssignmentProperties.jobId
+      - core.JobAssignmentProperties.jobOutput
+      - core.JobAssignmentProperties.notificationEndpoint
+      - core.JobAssignmentProperties.progress
+      - core.JobAssignmentProperties.status
+      - core.JobAssignmentProperties.tracker
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: core.JobBaseProperties
+    package: core
+  - uid: core.JobAssignmentProperties.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: '@type?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobAssignmentProperties.custom
+    name: custom
+    fullName: custom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'custom?: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: core
+  - uid: core.JobAssignmentProperties.dateCreated
+    name: dateCreated
+    fullName: dateCreated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateCreated?: Date | string'
+      return:
+        type:
+          - Date | string
+        description: ''
+    package: core
+  - uid: core.JobAssignmentProperties.dateModified
+    name: dateModified
+    fullName: dateModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateModified?: Date | string'
+      return:
+        type:
+          - Date | string
+        description: ''
+    package: core
+  - uid: core.JobAssignmentProperties.error
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'error?: ProblemDetailProperties'
+      return:
+        type:
+          - core.ProblemDetailProperties
+        description: ''
+    package: core
+  - uid: core.JobAssignmentProperties.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobAssignmentProperties.jobId
+    name: jobId
+    fullName: jobId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'jobId: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobAssignmentProperties.jobOutput
+    name: jobOutput
+    fullName: jobOutput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'jobOutput?: JobParameterBag'
+      return:
+        type:
+          - core.JobParameterBag
+        description: ''
+    package: core
+  - uid: core.JobAssignmentProperties.notificationEndpoint
+    name: notificationEndpoint
+    fullName: notificationEndpoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'notificationEndpoint?: NotificationEndpointProperties'
+      return:
+        type:
+          - core.NotificationEndpointProperties
+        description: ''
+    package: core
+  - uid: core.JobAssignmentProperties.progress
+    name: progress
+    fullName: progress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'progress?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: core
+  - uid: core.JobAssignmentProperties.status
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'status?: JobStatus'
+      return:
+        type:
+          - core.JobStatus
+        description: ''
+    package: core
+  - uid: core.JobAssignmentProperties.tracker
+    name: tracker
+    fullName: tracker
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'tracker?: McmaTrackerProperties'
+      return:
+        type:
+          - core.McmaTrackerProperties
+        description: ''
+    package: core
+references:
+  - uid: core.JobBaseProperties
+    name: JobBaseProperties
+    spec.typeScript:
+      - name: JobBaseProperties
+        fullName: JobBaseProperties
+        uid: core.JobBaseProperties
+  - uid: core.ProblemDetailProperties
+    name: ProblemDetailProperties
+    spec.typeScript:
+      - name: ProblemDetailProperties
+        fullName: ProblemDetailProperties
+        uid: core.ProblemDetailProperties
+  - uid: core.JobParameterBag
+    name: JobParameterBag
+    spec.typeScript:
+      - name: JobParameterBag
+        fullName: JobParameterBag
+        uid: core.JobParameterBag
+  - uid: core.NotificationEndpointProperties
+    name: NotificationEndpointProperties
+    spec.typeScript:
+      - name: NotificationEndpointProperties
+        fullName: NotificationEndpointProperties
+        uid: core.NotificationEndpointProperties
+  - uid: core.JobStatus
+    name: JobStatus
+    spec.typeScript:
+      - name: JobStatus
+        fullName: JobStatus
+        uid: core.JobStatus
+  - uid: core.McmaTrackerProperties
+    name: McmaTrackerProperties
+    spec.typeScript:
+      - name: McmaTrackerProperties
+        fullName: McmaTrackerProperties
+        uid: core.McmaTrackerProperties

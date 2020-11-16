@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: data.isCustomQuery
+    name: isCustomQuery(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isCustomQuery<TDocument>(query: any)'
+      parameters:
+        - id: query
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - query
+        description: ''
+    package: data

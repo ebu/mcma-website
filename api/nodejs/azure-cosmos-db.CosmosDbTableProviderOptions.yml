@@ -1,0 +1,99 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-cosmos-db.CosmosDbTableProviderOptions
+    name: CosmosDbTableProviderOptions
+    fullName: CosmosDbTableProviderOptions
+    children:
+      - azure-cosmos-db.CosmosDbTableProviderOptions.customQueries
+      - azure-cosmos-db.CosmosDbTableProviderOptions.databaseId
+      - azure-cosmos-db.CosmosDbTableProviderOptions.endpoint
+      - azure-cosmos-db.CosmosDbTableProviderOptions.key
+      - azure-cosmos-db.CosmosDbTableProviderOptions.region
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbTableProviderOptions.customQueries
+    name: customQueries
+    fullName: customQueries
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'customQueries?: CustomQueryRegistry'
+      return:
+        type:
+          - azure-cosmos-db.CustomQueryRegistry
+        description: ''
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbTableProviderOptions.databaseId
+    name: databaseId
+    fullName: databaseId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'databaseId: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbTableProviderOptions.endpoint
+    name: endpoint
+    fullName: endpoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'endpoint: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbTableProviderOptions.key
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'key: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbTableProviderOptions.region
+    name: region
+    fullName: region
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'region: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-cosmos-db
+references:
+  - uid: azure-cosmos-db.CustomQueryRegistry
+    name: CustomQueryRegistry
+    spec.typeScript:
+      - name: CustomQueryRegistry
+        fullName: CustomQueryRegistry
+        uid: azure-cosmos-db.CustomQueryRegistry

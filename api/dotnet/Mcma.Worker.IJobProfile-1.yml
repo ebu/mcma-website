@@ -1,0 +1,347 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Worker.IJobProfile`1
+  commentId: T:Mcma.Worker.IJobProfile`1
+  id: IJobProfile`1
+  parent: Mcma.Worker
+  children:
+  - Mcma.Worker.IJobProfile`1.ExecuteAsync(Mcma.Worker.ProcessJobAssignmentHelper{`0},Mcma.Worker.McmaWorkerRequestContext)
+  - Mcma.Worker.IJobProfile`1.Name
+  langs:
+  - csharp
+  - vb
+  name: IJobProfile<TJob>
+  nameWithType: IJobProfile<TJob>
+  fullName: Mcma.Worker.IJobProfile<TJob>
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.Worker/Jobs/IJobProfile.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IJobProfile
+    path: ../mcma-libraries-dotnet/Base/Mcma.Worker/Jobs/IJobProfile.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Worker
+  namespace: Mcma.Worker
+  syntax:
+    content: >-
+      public interface IJobProfile<TJob>
+
+          where TJob : Job
+    typeParameters:
+    - id: TJob
+    content.vb: Public Interface IJobProfile(Of TJob As Job)
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  nameWithType.vb: IJobProfile(Of TJob)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: Mcma.Worker.IJobProfile(Of TJob)
+  name.vb: IJobProfile(Of TJob)
+- uid: Mcma.Worker.IJobProfile`1.Name
+  commentId: P:Mcma.Worker.IJobProfile`1.Name
+  id: Name
+  parent: Mcma.Worker.IJobProfile`1
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IJobProfile<TJob>.Name
+  fullName: Mcma.Worker.IJobProfile<TJob>.Name
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Worker/Jobs/IJobProfile.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Name
+    path: ../mcma-libraries-dotnet/Base/Mcma.Worker/Jobs/IJobProfile.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Worker
+  namespace: Mcma.Worker
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: Mcma.Worker.IJobProfile`1.Name*
+  nameWithType.vb: IJobProfile(Of TJob).Name
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: Mcma.Worker.IJobProfile(Of TJob).Name
+- uid: Mcma.Worker.IJobProfile`1.ExecuteAsync(Mcma.Worker.ProcessJobAssignmentHelper{`0},Mcma.Worker.McmaWorkerRequestContext)
+  commentId: M:Mcma.Worker.IJobProfile`1.ExecuteAsync(Mcma.Worker.ProcessJobAssignmentHelper{`0},Mcma.Worker.McmaWorkerRequestContext)
+  id: ExecuteAsync(Mcma.Worker.ProcessJobAssignmentHelper{`0},Mcma.Worker.McmaWorkerRequestContext)
+  parent: Mcma.Worker.IJobProfile`1
+  langs:
+  - csharp
+  - vb
+  name: ExecuteAsync(ProcessJobAssignmentHelper<TJob>, McmaWorkerRequestContext)
+  nameWithType: IJobProfile<TJob>.ExecuteAsync(ProcessJobAssignmentHelper<TJob>, McmaWorkerRequestContext)
+  fullName: Mcma.Worker.IJobProfile<TJob>.ExecuteAsync(Mcma.Worker.ProcessJobAssignmentHelper<TJob>, Mcma.Worker.McmaWorkerRequestContext)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Worker/Jobs/IJobProfile.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ExecuteAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Worker/Jobs/IJobProfile.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Worker
+  namespace: Mcma.Worker
+  syntax:
+    content: Task ExecuteAsync(ProcessJobAssignmentHelper<TJob> workerJobHelper, McmaWorkerRequestContext requestContext)
+    parameters:
+    - id: workerJobHelper
+      type: Mcma.Worker.ProcessJobAssignmentHelper{{TJob}}
+    - id: requestContext
+      type: Mcma.Worker.McmaWorkerRequestContext
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ExecuteAsync(workerJobHelper As ProcessJobAssignmentHelper(Of TJob), requestContext As McmaWorkerRequestContext) As Task
+  overload: Mcma.Worker.IJobProfile`1.ExecuteAsync*
+  nameWithType.vb: IJobProfile(Of TJob).ExecuteAsync(ProcessJobAssignmentHelper(Of TJob), McmaWorkerRequestContext)
+  fullName.vb: Mcma.Worker.IJobProfile(Of TJob).ExecuteAsync(Mcma.Worker.ProcessJobAssignmentHelper(Of TJob), Mcma.Worker.McmaWorkerRequestContext)
+  name.vb: ExecuteAsync(ProcessJobAssignmentHelper(Of TJob), McmaWorkerRequestContext)
+references:
+- uid: Mcma.Worker
+  commentId: N:Mcma.Worker
+  name: Mcma.Worker
+  nameWithType: Mcma.Worker
+  fullName: Mcma.Worker
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Worker.IJobProfile`1.Name*
+  commentId: Overload:Mcma.Worker.IJobProfile`1.Name
+  name: Name
+  nameWithType: IJobProfile<TJob>.Name
+  fullName: Mcma.Worker.IJobProfile<TJob>.Name
+  nameWithType.vb: IJobProfile(Of TJob).Name
+  fullName.vb: Mcma.Worker.IJobProfile(Of TJob).Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Worker.IJobProfile`1.ExecuteAsync*
+  commentId: Overload:Mcma.Worker.IJobProfile`1.ExecuteAsync
+  name: ExecuteAsync
+  nameWithType: IJobProfile<TJob>.ExecuteAsync
+  fullName: Mcma.Worker.IJobProfile<TJob>.ExecuteAsync
+  nameWithType.vb: IJobProfile(Of TJob).ExecuteAsync
+  fullName.vb: Mcma.Worker.IJobProfile(Of TJob).ExecuteAsync
+- uid: Mcma.Worker.ProcessJobAssignmentHelper{{TJob}}
+  commentId: T:Mcma.Worker.ProcessJobAssignmentHelper{`0}
+  parent: Mcma.Worker
+  definition: Mcma.Worker.ProcessJobAssignmentHelper`1
+  name: ProcessJobAssignmentHelper<TJob>
+  nameWithType: ProcessJobAssignmentHelper<TJob>
+  fullName: Mcma.Worker.ProcessJobAssignmentHelper<TJob>
+  nameWithType.vb: ProcessJobAssignmentHelper(Of TJob)
+  fullName.vb: Mcma.Worker.ProcessJobAssignmentHelper(Of TJob)
+  name.vb: ProcessJobAssignmentHelper(Of TJob)
+  spec.csharp:
+  - uid: Mcma.Worker.ProcessJobAssignmentHelper`1
+    name: ProcessJobAssignmentHelper
+    nameWithType: ProcessJobAssignmentHelper
+    fullName: Mcma.Worker.ProcessJobAssignmentHelper
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TJob
+    nameWithType: TJob
+    fullName: TJob
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Worker.ProcessJobAssignmentHelper`1
+    name: ProcessJobAssignmentHelper
+    nameWithType: ProcessJobAssignmentHelper
+    fullName: Mcma.Worker.ProcessJobAssignmentHelper
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TJob
+    nameWithType: TJob
+    fullName: TJob
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Worker.McmaWorkerRequestContext
+  commentId: T:Mcma.Worker.McmaWorkerRequestContext
+  parent: Mcma.Worker
+  name: McmaWorkerRequestContext
+  nameWithType: McmaWorkerRequestContext
+  fullName: Mcma.Worker.McmaWorkerRequestContext
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Mcma.Worker.ProcessJobAssignmentHelper`1
+  commentId: T:Mcma.Worker.ProcessJobAssignmentHelper`1
+  name: ProcessJobAssignmentHelper<T>
+  nameWithType: ProcessJobAssignmentHelper<T>
+  fullName: Mcma.Worker.ProcessJobAssignmentHelper<T>
+  nameWithType.vb: ProcessJobAssignmentHelper(Of T)
+  fullName.vb: Mcma.Worker.ProcessJobAssignmentHelper(Of T)
+  name.vb: ProcessJobAssignmentHelper(Of T)
+  spec.csharp:
+  - uid: Mcma.Worker.ProcessJobAssignmentHelper`1
+    name: ProcessJobAssignmentHelper
+    nameWithType: ProcessJobAssignmentHelper
+    fullName: Mcma.Worker.ProcessJobAssignmentHelper
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Worker.ProcessJobAssignmentHelper`1
+    name: ProcessJobAssignmentHelper
+    nameWithType: ProcessJobAssignmentHelper
+    fullName: Mcma.Worker.ProcessJobAssignmentHelper
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

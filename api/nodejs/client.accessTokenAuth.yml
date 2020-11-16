@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: client.accessTokenAuth
+    name: 'accessTokenAuth(AccessTokenProvider<T>, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function accessTokenAuth<T>(tokenProvider: AccessTokenProvider<T>,
+        authType?: string)
+      parameters:
+        - id: tokenProvider
+          type:
+            - client.AccessTokenProvider<T>
+          description: ''
+        - id: authType
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - client.AuthTypeRegistration<T>
+        description: ''
+    package: client
+references:
+  - uid: client.AccessTokenProvider<T>
+    name: AccessTokenProvider<T>
+    spec.typeScript:
+      - name: AccessTokenProvider
+        fullName: AccessTokenProvider
+        uid: client.AccessTokenProvider
+      - name: <T>
+        fullName: <T>
+  - uid: client.AuthTypeRegistration<T>
+    name: AuthTypeRegistration<T>
+    spec.typeScript:
+      - name: AuthTypeRegistration
+        fullName: AuthTypeRegistration
+        uid: client.AuthTypeRegistration
+      - name: <T>
+        fullName: <T>

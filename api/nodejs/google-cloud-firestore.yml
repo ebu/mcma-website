@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-firestore
+    name: "@mcma/google-cloud-firestore"
+    summary: ""
+    children:
+      - google-cloud-firestore.buildFirestoreQuery
+      - google-cloud-firestore.FirestoreMcmaDataConverter
+      - google-cloud-firestore.FirestoreMutex
+      - google-cloud-firestore.FirestoreTable
+      - google-cloud-firestore.FirestoreTableProvider
+      - google-cloud-firestore.FirestoreTableProviderOptions
+      - google-cloud-firestore.CustomQueryFactory
+      - google-cloud-firestore.CustomQueryRegistry
+      - google-cloud-firestore.parsePathAndGuid
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: google-cloud-firestore.buildFirestoreQuery
+    name: buildFirestoreQuery(FirestoreQuery<TDocument>, Query<TDocument>)
+  - uid: google-cloud-firestore.FirestoreMcmaDataConverter
+    name: FirestoreMcmaDataConverter
+  - uid: google-cloud-firestore.FirestoreMutex
+    name: FirestoreMutex
+  - uid: google-cloud-firestore.FirestoreTable
+    name: FirestoreTable
+  - uid: google-cloud-firestore.FirestoreTableProvider
+    name: FirestoreTableProvider
+  - uid: google-cloud-firestore.FirestoreTableProviderOptions
+    name: FirestoreTableProviderOptions
+  - uid: google-cloud-firestore.CustomQueryFactory
+    name: CustomQueryFactory
+  - uid: google-cloud-firestore.CustomQueryRegistry
+    name: CustomQueryRegistry
+  - uid: google-cloud-firestore.parsePathAndGuid
+    name: parsePathAndGuid(string)

@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.S3
+  commentId: N:Mcma.Aws.S3
+  id: Mcma.Aws.S3
+  children:
+  - Mcma.Aws.S3.AwsS3FileLocator
+  - Mcma.Aws.S3.AwsS3FolderLocator
+  - Mcma.Aws.S3.AwsS3Locator
+  - Mcma.Aws.S3.AwsS3LocatorHelper
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Aws.S3
+  nameWithType: Mcma.Aws.S3
+  fullName: Mcma.Aws.S3
+  type: Namespace
+  assemblies:
+  - Mcma.Aws.S3
+references:
+- uid: Mcma.Aws.S3.AwsS3FileLocator
+  commentId: T:Mcma.Aws.S3.AwsS3FileLocator
+  parent: Mcma.Aws.S3
+  name: AwsS3FileLocator
+  nameWithType: AwsS3FileLocator
+  fullName: Mcma.Aws.S3.AwsS3FileLocator
+- uid: Mcma.Aws.S3.AwsS3FolderLocator
+  commentId: T:Mcma.Aws.S3.AwsS3FolderLocator
+  name: AwsS3FolderLocator
+  nameWithType: AwsS3FolderLocator
+  fullName: Mcma.Aws.S3.AwsS3FolderLocator
+- uid: Mcma.Aws.S3.AwsS3Locator
+  commentId: T:Mcma.Aws.S3.AwsS3Locator
+  parent: Mcma.Aws.S3
+  name: AwsS3Locator
+  nameWithType: AwsS3Locator
+  fullName: Mcma.Aws.S3.AwsS3Locator
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper
+  commentId: T:Mcma.Aws.S3.AwsS3LocatorHelper
+  parent: Mcma.Aws.S3
+  name: AwsS3LocatorHelper
+  nameWithType: AwsS3LocatorHelper
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper
+- uid: Mcma.Aws.S3
+  commentId: N:Mcma.Aws.S3
+  name: Mcma.Aws.S3
+  nameWithType: Mcma.Aws.S3
+  fullName: Mcma.Aws.S3

@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.WorkerInvoker
+  commentId: N:Mcma.WorkerInvoker
+  id: Mcma.WorkerInvoker
+  children:
+  - Mcma.WorkerInvoker.IWorkerInvoker
+  - Mcma.WorkerInvoker.WorkerInvoker
+  - Mcma.WorkerInvoker.WorkerInvokerOptions
+  - Mcma.WorkerInvoker.WorkerRequest
+  langs:
+  - csharp
+  - vb
+  name: Mcma.WorkerInvoker
+  nameWithType: Mcma.WorkerInvoker
+  fullName: Mcma.WorkerInvoker
+  type: Namespace
+  assemblies:
+  - Mcma.WorkerInvoker
+references:
+- uid: Mcma.WorkerInvoker.IWorkerInvoker
+  commentId: T:Mcma.WorkerInvoker.IWorkerInvoker
+  parent: Mcma.WorkerInvoker
+  name: IWorkerInvoker
+  nameWithType: IWorkerInvoker
+  fullName: Mcma.WorkerInvoker.IWorkerInvoker
+- uid: Mcma.WorkerInvoker.WorkerInvoker
+  commentId: T:Mcma.WorkerInvoker.WorkerInvoker
+  parent: Mcma.WorkerInvoker
+  name: WorkerInvoker
+  nameWithType: WorkerInvoker
+  fullName: Mcma.WorkerInvoker.WorkerInvoker
+- uid: Mcma.WorkerInvoker.WorkerInvokerOptions
+  commentId: T:Mcma.WorkerInvoker.WorkerInvokerOptions
+  parent: Mcma.WorkerInvoker
+  name: WorkerInvokerOptions
+  nameWithType: WorkerInvokerOptions
+  fullName: Mcma.WorkerInvoker.WorkerInvokerOptions
+- uid: Mcma.WorkerInvoker.WorkerRequest
+  commentId: T:Mcma.WorkerInvoker.WorkerRequest
+  parent: Mcma.WorkerInvoker
+  name: WorkerRequest
+  nameWithType: WorkerRequest
+  fullName: Mcma.WorkerInvoker.WorkerRequest
+- uid: Mcma.WorkerInvoker
+  commentId: N:Mcma.WorkerInvoker
+  name: Mcma.WorkerInvoker
+  nameWithType: Mcma.WorkerInvoker
+  fullName: Mcma.WorkerInvoker

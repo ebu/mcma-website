@@ -1,0 +1,551 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription
+  commentId: T:Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription
+  id: LocalSecondaryIndexDescription
+  parent: Mcma.Aws.DynamoDb
+  children:
+  - Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.#ctor(System.String,System.String)
+  - Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.Name
+  - Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.SortKeyName
+  langs:
+  - csharp
+  - vb
+  name: LocalSecondaryIndexDescription
+  nameWithType: LocalSecondaryIndexDescription
+  fullName: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription
+  type: Struct
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/TableDescription/LocalSecondaryIndexDescription.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: LocalSecondaryIndexDescription
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/TableDescription/LocalSecondaryIndexDescription.cs
+    startLine: 4
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: public struct LocalSecondaryIndexDescription
+    content.vb: Public Structure LocalSecondaryIndexDescription
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.#ctor(System.String,System.String)
+  commentId: M:Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription
+  langs:
+  - csharp
+  - vb
+  name: LocalSecondaryIndexDescription(String, String)
+  nameWithType: LocalSecondaryIndexDescription.LocalSecondaryIndexDescription(String, String)
+  fullName: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.LocalSecondaryIndexDescription(System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/TableDescription/LocalSecondaryIndexDescription.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/TableDescription/LocalSecondaryIndexDescription.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: public LocalSecondaryIndexDescription(string name, string sortKeyName)
+    parameters:
+    - id: name
+      type: System.String
+    - id: sortKeyName
+      type: System.String
+    content.vb: Public Sub New(name As String, sortKeyName As String)
+  overload: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.Name
+  commentId: P:Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.Name
+  id: Name
+  parent: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: LocalSecondaryIndexDescription.Name
+  fullName: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.Name
+  type: Property
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/TableDescription/LocalSecondaryIndexDescription.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Name
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/TableDescription/LocalSecondaryIndexDescription.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.SortKeyName
+  commentId: P:Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.SortKeyName
+  id: SortKeyName
+  parent: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription
+  langs:
+  - csharp
+  - vb
+  name: SortKeyName
+  nameWithType: LocalSecondaryIndexDescription.SortKeyName
+  fullName: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.SortKeyName
+  type: Property
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/TableDescription/LocalSecondaryIndexDescription.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: SortKeyName
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/TableDescription/LocalSecondaryIndexDescription.cs
+    startLine: 14
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: public string SortKeyName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property SortKeyName As String
+  overload: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.SortKeyName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Mcma.Aws.DynamoDb
+  commentId: N:Mcma.Aws.DynamoDb
+  name: Mcma.Aws.DynamoDb
+  nameWithType: Mcma.Aws.DynamoDb
+  fullName: Mcma.Aws.DynamoDb
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.#ctor*
+  commentId: Overload:Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.#ctor
+  name: LocalSecondaryIndexDescription
+  nameWithType: LocalSecondaryIndexDescription.LocalSecondaryIndexDescription
+  fullName: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.LocalSecondaryIndexDescription
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.Name*
+  commentId: Overload:Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.Name
+  name: Name
+  nameWithType: LocalSecondaryIndexDescription.Name
+  fullName: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.Name
+- uid: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.SortKeyName*
+  commentId: Overload:Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.SortKeyName
+  name: SortKeyName
+  nameWithType: LocalSecondaryIndexDescription.SortKeyName
+  fullName: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription.SortKeyName

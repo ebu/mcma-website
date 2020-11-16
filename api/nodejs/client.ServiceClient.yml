@@ -1,0 +1,112 @@
+### YamlMime:UniversalReference
+items:
+  - uid: client.ServiceClient
+    name: ServiceClient
+    fullName: ServiceClient
+    children:
+      - client.ServiceClient.getAllResourceEndpointClients
+      - client.ServiceClient.getResourceEndpointClient
+      - client.ServiceClient.hasResourceEndpoint
+      - client.ServiceClient.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: client
+  - uid: client.ServiceClient.getAllResourceEndpointClients
+    name: getAllResourceEndpointClients()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getAllResourceEndpointClients()
+      parameters: []
+      return:
+        type:
+          - 'client.ResourceEndpointClient[]'
+        description: ''
+    package: client
+  - uid: client.ServiceClient.getResourceEndpointClient
+    name: getResourceEndpointClient(string | Function)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getResourceEndpointClient(resourceType: string | Function)'
+      parameters:
+        - id: resourceType
+          type:
+            - string | Function
+          description: ''
+      return:
+        type:
+          - client.ResourceEndpointClient | undefined
+        description: ''
+    package: client
+  - uid: client.ServiceClient.hasResourceEndpoint
+    name: hasResourceEndpoint(string | Function)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function hasResourceEndpoint(resourceType: string | Function)'
+      parameters:
+        - id: resourceType
+          type:
+            - string | Function
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: client
+  - uid: client.ServiceClient.constructor
+    name: 'ServiceClient(ServiceProperties, AuthProvider)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ServiceClient(service: ServiceProperties, authProvider:
+        AuthProvider)
+      parameters:
+        - id: service
+          type:
+            - ServiceProperties
+          description: ''
+        - id: authProvider
+          type:
+            - client.AuthProvider
+          description: ''
+    package: client
+references:
+  - uid: client.AuthProvider
+    name: AuthProvider
+    spec.typeScript:
+      - name: AuthProvider
+        fullName: AuthProvider
+        uid: client.AuthProvider
+  - uid: 'client.ResourceEndpointClient[]'
+    name: 'ResourceEndpointClient[]'
+    spec.typeScript:
+      - name: ResourceEndpointClient
+        fullName: ResourceEndpointClient
+        uid: client.ResourceEndpointClient
+      - name: '[]'
+        fullName: '[]'
+  - uid: client.ResourceEndpointClient | undefined
+    name: ResourceEndpointClient | undefined
+    spec.typeScript:
+      - name: ResourceEndpointClient
+        fullName: ResourceEndpointClient
+        uid: client.ResourceEndpointClient
+      - name: ' | undefined'
+        fullName: ' | undefined'

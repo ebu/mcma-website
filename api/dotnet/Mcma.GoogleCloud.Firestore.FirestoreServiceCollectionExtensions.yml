@@ -1,0 +1,589 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions
+  commentId: T:Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions
+  id: FirestoreServiceCollectionExtensions
+  parent: Mcma.GoogleCloud.Firestore
+  children:
+  - Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions.AddMcmaFirestore(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableOptions},System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder})
+  - Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions.AddMcmaFirestore(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder})
+  langs:
+  - csharp
+  - vb
+  name: FirestoreServiceCollectionExtensions
+  nameWithType: FirestoreServiceCollectionExtensions
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions
+  type: Class
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreServiceCollectionExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: FirestoreServiceCollectionExtensions
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreServiceCollectionExtensions.cs
+    startLine: 9
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: public static class FirestoreServiceCollectionExtensions
+    content.vb: Public Module FirestoreServiceCollectionExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions.AddMcmaFirestore(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableOptions},System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder})
+  commentId: M:Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions.AddMcmaFirestore(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableOptions},System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder})
+  id: AddMcmaFirestore(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableOptions},System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder})
+  isExtensionMethod: true
+  parent: Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddMcmaFirestore(IServiceCollection, Action<FirestoreTableOptions>, Action<FirestoreTableBuilder>)
+  nameWithType: FirestoreServiceCollectionExtensions.AddMcmaFirestore(IServiceCollection, Action<FirestoreTableOptions>, Action<FirestoreTableBuilder>)
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions.AddMcmaFirestore(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Mcma.GoogleCloud.Firestore.FirestoreTableOptions>, System.Action<Mcma.GoogleCloud.Firestore.FirestoreTableBuilder>)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreServiceCollectionExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AddMcmaFirestore
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreServiceCollectionExtensions.cs
+    startLine: 11
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: public static IServiceCollection AddMcmaFirestore(this IServiceCollection services, Action<FirestoreTableOptions> configureOptions = null, Action<FirestoreTableBuilder> build = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: configureOptions
+      type: System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableOptions}
+    - id: build
+      type: System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddMcmaFirestore(services As IServiceCollection, configureOptions As Action(Of FirestoreTableOptions) = Nothing, build As Action(Of FirestoreTableBuilder) = Nothing) As IServiceCollection
+  overload: Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions.AddMcmaFirestore*
+  nameWithType.vb: FirestoreServiceCollectionExtensions.AddMcmaFirestore(IServiceCollection, Action(Of FirestoreTableOptions), Action(Of FirestoreTableBuilder))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions.AddMcmaFirestore(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of Mcma.GoogleCloud.Firestore.FirestoreTableOptions), System.Action(Of Mcma.GoogleCloud.Firestore.FirestoreTableBuilder))
+  name.vb: AddMcmaFirestore(IServiceCollection, Action(Of FirestoreTableOptions), Action(Of FirestoreTableBuilder))
+- uid: Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions.AddMcmaFirestore(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder})
+  commentId: M:Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions.AddMcmaFirestore(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder})
+  id: AddMcmaFirestore(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder})
+  isExtensionMethod: true
+  parent: Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddMcmaFirestore(IServiceCollection, String, Action<FirestoreTableBuilder>)
+  nameWithType: FirestoreServiceCollectionExtensions.AddMcmaFirestore(IServiceCollection, String, Action<FirestoreTableBuilder>)
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions.AddMcmaFirestore(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.String, System.Action<Mcma.GoogleCloud.Firestore.FirestoreTableBuilder>)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreServiceCollectionExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AddMcmaFirestore
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreServiceCollectionExtensions.cs
+    startLine: 28
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: public static IServiceCollection AddMcmaFirestore(this IServiceCollection services, string tableName, Action<FirestoreTableBuilder> build = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: tableName
+      type: System.String
+    - id: build
+      type: System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddMcmaFirestore(services As IServiceCollection, tableName As String, build As Action(Of FirestoreTableBuilder) = Nothing) As IServiceCollection
+  overload: Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions.AddMcmaFirestore*
+  nameWithType.vb: FirestoreServiceCollectionExtensions.AddMcmaFirestore(IServiceCollection, String, Action(Of FirestoreTableBuilder))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions.AddMcmaFirestore(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.String, System.Action(Of Mcma.GoogleCloud.Firestore.FirestoreTableBuilder))
+  name.vb: AddMcmaFirestore(IServiceCollection, String, Action(Of FirestoreTableBuilder))
+references:
+- uid: Mcma.GoogleCloud.Firestore
+  commentId: N:Mcma.GoogleCloud.Firestore
+  name: Mcma.GoogleCloud.Firestore
+  nameWithType: Mcma.GoogleCloud.Firestore
+  fullName: Mcma.GoogleCloud.Firestore
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions.AddMcmaFirestore*
+  commentId: Overload:Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions.AddMcmaFirestore
+  name: AddMcmaFirestore
+  nameWithType: FirestoreServiceCollectionExtensions.AddMcmaFirestore
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions.AddMcmaFirestore
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableOptions}
+  commentId: T:System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableOptions}
+  parent: System
+  definition: System.Action`1
+  name: Action<FirestoreTableOptions>
+  nameWithType: Action<FirestoreTableOptions>
+  fullName: System.Action<Mcma.GoogleCloud.Firestore.FirestoreTableOptions>
+  nameWithType.vb: Action(Of FirestoreTableOptions)
+  fullName.vb: System.Action(Of Mcma.GoogleCloud.Firestore.FirestoreTableOptions)
+  name.vb: Action(Of FirestoreTableOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.GoogleCloud.Firestore.FirestoreTableOptions
+    name: FirestoreTableOptions
+    nameWithType: FirestoreTableOptions
+    fullName: Mcma.GoogleCloud.Firestore.FirestoreTableOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.GoogleCloud.Firestore.FirestoreTableOptions
+    name: FirestoreTableOptions
+    nameWithType: FirestoreTableOptions
+    fullName: Mcma.GoogleCloud.Firestore.FirestoreTableOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder}
+  commentId: T:System.Action{Mcma.GoogleCloud.Firestore.FirestoreTableBuilder}
+  parent: System
+  definition: System.Action`1
+  name: Action<FirestoreTableBuilder>
+  nameWithType: Action<FirestoreTableBuilder>
+  fullName: System.Action<Mcma.GoogleCloud.Firestore.FirestoreTableBuilder>
+  nameWithType.vb: Action(Of FirestoreTableBuilder)
+  fullName.vb: System.Action(Of Mcma.GoogleCloud.Firestore.FirestoreTableBuilder)
+  name.vb: Action(Of FirestoreTableBuilder)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.GoogleCloud.Firestore.FirestoreTableBuilder
+    name: FirestoreTableBuilder
+    nameWithType: FirestoreTableBuilder
+    fullName: Mcma.GoogleCloud.Firestore.FirestoreTableBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.GoogleCloud.Firestore.FirestoreTableBuilder
+    name: FirestoreTableBuilder
+    nameWithType: FirestoreTableBuilder
+    fullName: Mcma.GoogleCloud.Firestore.FirestoreTableBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

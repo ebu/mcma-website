@@ -1,0 +1,1530 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Api.McmaApiRequestContext
+  commentId: T:Mcma.Api.McmaApiRequestContext
+  id: McmaApiRequestContext
+  parent: Mcma.Api
+  children:
+  - Mcma.Api.McmaApiRequestContext.#ctor(Mcma.Logging.ILoggerProvider,Mcma.Api.McmaApiRequest)
+  - Mcma.Api.McmaApiRequestContext.GetLogger
+  - Mcma.Api.McmaApiRequestContext.GetRequestBody``1
+  - Mcma.Api.McmaApiRequestContext.GetRequestHeaderValue(System.String)
+  - Mcma.Api.McmaApiRequestContext.GetTracker
+  - Mcma.Api.McmaApiRequestContext.HasRequestBody
+  - Mcma.Api.McmaApiRequestContext.MethodSupportsRequestBody
+  - Mcma.Api.McmaApiRequestContext.Request
+  - Mcma.Api.McmaApiRequestContext.RequestId
+  - Mcma.Api.McmaApiRequestContext.Response
+  - Mcma.Api.McmaApiRequestContext.SetResponseBody(System.Object)
+  - Mcma.Api.McmaApiRequestContext.SetResponseHeader(System.String,System.String)
+  - Mcma.Api.McmaApiRequestContext.SetResponseStatus(System.Int32,System.String)
+  - Mcma.Api.McmaApiRequestContext.SetResponseStatusCode(System.Net.HttpStatusCode,System.String)
+  - Mcma.Api.McmaApiRequestContext.TryLoadRequestJsonBody(System.Exception@)
+  langs:
+  - csharp
+  - vb
+  name: McmaApiRequestContext
+  nameWithType: McmaApiRequestContext
+  fullName: Mcma.Api.McmaApiRequestContext
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiRequestContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaApiRequestContext
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiRequestContext.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public class McmaApiRequestContext
+    content.vb: Public Class McmaApiRequestContext
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Mcma.Api.McmaApiRequestContext.Mcma.Api.McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody
+  - Mcma.Api.McmaApiRequestContext.Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceCreated(Mcma.McmaResource)
+  - Mcma.Api.McmaApiRequestContext.Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceNotFound
+  - Mcma.Api.McmaApiRequestContext.Mcma.Api.QueryRequestHelper.ToQuery``1
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  - Mcma.Api.McmaApiRequestContext.Mcma.Azure.FunctionsApi.HttpExtensions.ToActionResult
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Api.McmaApiRequestContext.#ctor(Mcma.Logging.ILoggerProvider,Mcma.Api.McmaApiRequest)
+  commentId: M:Mcma.Api.McmaApiRequestContext.#ctor(Mcma.Logging.ILoggerProvider,Mcma.Api.McmaApiRequest)
+  id: '#ctor(Mcma.Logging.ILoggerProvider,Mcma.Api.McmaApiRequest)'
+  parent: Mcma.Api.McmaApiRequestContext
+  langs:
+  - csharp
+  - vb
+  name: McmaApiRequestContext(ILoggerProvider, McmaApiRequest)
+  nameWithType: McmaApiRequestContext.McmaApiRequestContext(ILoggerProvider, McmaApiRequest)
+  fullName: Mcma.Api.McmaApiRequestContext.McmaApiRequestContext(Mcma.Logging.ILoggerProvider, Mcma.Api.McmaApiRequest)
+  type: Constructor
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiRequestContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiRequestContext.cs
+    startLine: 16
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public McmaApiRequestContext(ILoggerProvider loggerProvider, McmaApiRequest request)
+    parameters:
+    - id: loggerProvider
+      type: Mcma.Logging.ILoggerProvider
+    - id: request
+      type: Mcma.Api.McmaApiRequest
+    content.vb: Public Sub New(loggerProvider As ILoggerProvider, request As McmaApiRequest)
+  overload: Mcma.Api.McmaApiRequestContext.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Api.McmaApiRequestContext.Request
+  commentId: P:Mcma.Api.McmaApiRequestContext.Request
+  id: Request
+  parent: Mcma.Api.McmaApiRequestContext
+  langs:
+  - csharp
+  - vb
+  name: Request
+  nameWithType: McmaApiRequestContext.Request
+  fullName: Mcma.Api.McmaApiRequestContext.Request
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiRequestContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Request
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiRequestContext.cs
+    startLine: 22
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public McmaApiRequest Request { get; }
+    parameters: []
+    return:
+      type: Mcma.Api.McmaApiRequest
+    content.vb: Public ReadOnly Property Request As McmaApiRequest
+  overload: Mcma.Api.McmaApiRequestContext.Request*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Mcma.Api.McmaApiRequestContext.Response
+  commentId: P:Mcma.Api.McmaApiRequestContext.Response
+  id: Response
+  parent: Mcma.Api.McmaApiRequestContext
+  langs:
+  - csharp
+  - vb
+  name: Response
+  nameWithType: McmaApiRequestContext.Response
+  fullName: Mcma.Api.McmaApiRequestContext.Response
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiRequestContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Response
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiRequestContext.cs
+    startLine: 26
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public McmaApiResponse Response { get; }
+    parameters: []
+    return:
+      type: Mcma.Api.McmaApiResponse
+    content.vb: Public ReadOnly Property Response As McmaApiResponse
+  overload: Mcma.Api.McmaApiRequestContext.Response*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Mcma.Api.McmaApiRequestContext.RequestId
+  commentId: P:Mcma.Api.McmaApiRequestContext.RequestId
+  id: RequestId
+  parent: Mcma.Api.McmaApiRequestContext
+  langs:
+  - csharp
+  - vb
+  name: RequestId
+  nameWithType: McmaApiRequestContext.RequestId
+  fullName: Mcma.Api.McmaApiRequestContext.RequestId
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiRequestContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: RequestId
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiRequestContext.cs
+    startLine: 28
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public string RequestId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property RequestId As String
+  overload: Mcma.Api.McmaApiRequestContext.RequestId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Mcma.Api.McmaApiRequestContext.HasRequestBody
+  commentId: P:Mcma.Api.McmaApiRequestContext.HasRequestBody
+  id: HasRequestBody
+  parent: Mcma.Api.McmaApiRequestContext
+  langs:
+  - csharp
+  - vb
+  name: HasRequestBody
+  nameWithType: McmaApiRequestContext.HasRequestBody
+  fullName: Mcma.Api.McmaApiRequestContext.HasRequestBody
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiRequestContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: HasRequestBody
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiRequestContext.cs
+    startLine: 30
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public bool HasRequestBody { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasRequestBody As Boolean
+  overload: Mcma.Api.McmaApiRequestContext.HasRequestBody*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Mcma.Api.McmaApiRequestContext.MethodSupportsRequestBody
+  commentId: P:Mcma.Api.McmaApiRequestContext.MethodSupportsRequestBody
+  id: MethodSupportsRequestBody
+  parent: Mcma.Api.McmaApiRequestContext
+  langs:
+  - csharp
+  - vb
+  name: MethodSupportsRequestBody
+  nameWithType: McmaApiRequestContext.MethodSupportsRequestBody
+  fullName: Mcma.Api.McmaApiRequestContext.MethodSupportsRequestBody
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiRequestContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: MethodSupportsRequestBody
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiRequestContext.cs
+    startLine: 32
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public bool MethodSupportsRequestBody { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property MethodSupportsRequestBody As Boolean
+  overload: Mcma.Api.McmaApiRequestContext.MethodSupportsRequestBody*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Mcma.Api.McmaApiRequestContext.GetRequestHeaderValue(System.String)
+  commentId: M:Mcma.Api.McmaApiRequestContext.GetRequestHeaderValue(System.String)
+  id: GetRequestHeaderValue(System.String)
+  parent: Mcma.Api.McmaApiRequestContext
+  langs:
+  - csharp
+  - vb
+  name: GetRequestHeaderValue(String)
+  nameWithType: McmaApiRequestContext.GetRequestHeaderValue(String)
+  fullName: Mcma.Api.McmaApiRequestContext.GetRequestHeaderValue(System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiRequestContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetRequestHeaderValue
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiRequestContext.cs
+    startLine: 35
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public string GetRequestHeaderValue(string header)
+    parameters:
+    - id: header
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetRequestHeaderValue(header As String) As String
+  overload: Mcma.Api.McmaApiRequestContext.GetRequestHeaderValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Api.McmaApiRequestContext.TryLoadRequestJsonBody(System.Exception@)
+  commentId: M:Mcma.Api.McmaApiRequestContext.TryLoadRequestJsonBody(System.Exception@)
+  id: TryLoadRequestJsonBody(System.Exception@)
+  parent: Mcma.Api.McmaApiRequestContext
+  langs:
+  - csharp
+  - vb
+  name: TryLoadRequestJsonBody(out Exception)
+  nameWithType: McmaApiRequestContext.TryLoadRequestJsonBody(out Exception)
+  fullName: Mcma.Api.McmaApiRequestContext.TryLoadRequestJsonBody(out System.Exception)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiRequestContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: TryLoadRequestJsonBody
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiRequestContext.cs
+    startLine: 38
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public bool TryLoadRequestJsonBody(out Exception exception)
+    parameters:
+    - id: exception
+      type: System.Exception
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryLoadRequestJsonBody(ByRef exception As Exception) As Boolean
+  overload: Mcma.Api.McmaApiRequestContext.TryLoadRequestJsonBody*
+  nameWithType.vb: McmaApiRequestContext.TryLoadRequestJsonBody(ByRef Exception)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Api.McmaApiRequestContext.TryLoadRequestJsonBody(ByRef System.Exception)
+  name.vb: TryLoadRequestJsonBody(ByRef Exception)
+- uid: Mcma.Api.McmaApiRequestContext.GetRequestBody``1
+  commentId: M:Mcma.Api.McmaApiRequestContext.GetRequestBody``1
+  id: GetRequestBody``1
+  parent: Mcma.Api.McmaApiRequestContext
+  langs:
+  - csharp
+  - vb
+  name: GetRequestBody<T>()
+  nameWithType: McmaApiRequestContext.GetRequestBody<T>()
+  fullName: Mcma.Api.McmaApiRequestContext.GetRequestBody<T>()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiRequestContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetRequestBody
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiRequestContext.cs
+    startLine: 56
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: >-
+      public T GetRequestBody<T>()
+
+          where T : McmaObject
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetRequestBody(Of T As McmaObject) As T
+  overload: Mcma.Api.McmaApiRequestContext.GetRequestBody*
+  nameWithType.vb: McmaApiRequestContext.GetRequestBody(Of T)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Api.McmaApiRequestContext.GetRequestBody(Of T)()
+  name.vb: GetRequestBody(Of T)()
+- uid: Mcma.Api.McmaApiRequestContext.SetResponseStatusCode(System.Net.HttpStatusCode,System.String)
+  commentId: M:Mcma.Api.McmaApiRequestContext.SetResponseStatusCode(System.Net.HttpStatusCode,System.String)
+  id: SetResponseStatusCode(System.Net.HttpStatusCode,System.String)
+  parent: Mcma.Api.McmaApiRequestContext
+  langs:
+  - csharp
+  - vb
+  name: SetResponseStatusCode(HttpStatusCode, String)
+  nameWithType: McmaApiRequestContext.SetResponseStatusCode(HttpStatusCode, String)
+  fullName: Mcma.Api.McmaApiRequestContext.SetResponseStatusCode(System.Net.HttpStatusCode, System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiRequestContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: SetResponseStatusCode
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiRequestContext.cs
+    startLine: 58
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public void SetResponseStatusCode(HttpStatusCode status, string statusMessage = null)
+    parameters:
+    - id: status
+      type: System.Net.HttpStatusCode
+    - id: statusMessage
+      type: System.String
+    content.vb: Public Sub SetResponseStatusCode(status As HttpStatusCode, statusMessage As String = Nothing)
+  overload: Mcma.Api.McmaApiRequestContext.SetResponseStatusCode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Api.McmaApiRequestContext.SetResponseStatus(System.Int32,System.String)
+  commentId: M:Mcma.Api.McmaApiRequestContext.SetResponseStatus(System.Int32,System.String)
+  id: SetResponseStatus(System.Int32,System.String)
+  parent: Mcma.Api.McmaApiRequestContext
+  langs:
+  - csharp
+  - vb
+  name: SetResponseStatus(Int32, String)
+  nameWithType: McmaApiRequestContext.SetResponseStatus(Int32, String)
+  fullName: Mcma.Api.McmaApiRequestContext.SetResponseStatus(System.Int32, System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiRequestContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: SetResponseStatus
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiRequestContext.cs
+    startLine: 61
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public void SetResponseStatus(int status, string statusMessage = null)
+    parameters:
+    - id: status
+      type: System.Int32
+    - id: statusMessage
+      type: System.String
+    content.vb: Public Sub SetResponseStatus(status As Integer, statusMessage As String = Nothing)
+  overload: Mcma.Api.McmaApiRequestContext.SetResponseStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Api.McmaApiRequestContext.SetResponseBody(System.Object)
+  commentId: M:Mcma.Api.McmaApiRequestContext.SetResponseBody(System.Object)
+  id: SetResponseBody(System.Object)
+  parent: Mcma.Api.McmaApiRequestContext
+  langs:
+  - csharp
+  - vb
+  name: SetResponseBody(Object)
+  nameWithType: McmaApiRequestContext.SetResponseBody(Object)
+  fullName: Mcma.Api.McmaApiRequestContext.SetResponseBody(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiRequestContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: SetResponseBody
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiRequestContext.cs
+    startLine: 67
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public void SetResponseBody(object body)
+    parameters:
+    - id: body
+      type: System.Object
+    content.vb: Public Sub SetResponseBody(body As Object)
+  overload: Mcma.Api.McmaApiRequestContext.SetResponseBody*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Api.McmaApiRequestContext.SetResponseHeader(System.String,System.String)
+  commentId: M:Mcma.Api.McmaApiRequestContext.SetResponseHeader(System.String,System.String)
+  id: SetResponseHeader(System.String,System.String)
+  parent: Mcma.Api.McmaApiRequestContext
+  langs:
+  - csharp
+  - vb
+  name: SetResponseHeader(String, String)
+  nameWithType: McmaApiRequestContext.SetResponseHeader(String, String)
+  fullName: Mcma.Api.McmaApiRequestContext.SetResponseHeader(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiRequestContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: SetResponseHeader
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiRequestContext.cs
+    startLine: 69
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public void SetResponseHeader(string header, string value)
+    parameters:
+    - id: header
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub SetResponseHeader(header As String, value As String)
+  overload: Mcma.Api.McmaApiRequestContext.SetResponseHeader*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Api.McmaApiRequestContext.GetTracker
+  commentId: M:Mcma.Api.McmaApiRequestContext.GetTracker
+  id: GetTracker
+  parent: Mcma.Api.McmaApiRequestContext
+  langs:
+  - csharp
+  - vb
+  name: GetTracker()
+  nameWithType: McmaApiRequestContext.GetTracker()
+  fullName: Mcma.Api.McmaApiRequestContext.GetTracker()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiRequestContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetTracker
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiRequestContext.cs
+    startLine: 71
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public McmaTracker GetTracker()
+    return:
+      type: Mcma.McmaTracker
+    content.vb: Public Function GetTracker As McmaTracker
+  overload: Mcma.Api.McmaApiRequestContext.GetTracker*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Api.McmaApiRequestContext.GetLogger
+  commentId: M:Mcma.Api.McmaApiRequestContext.GetLogger
+  id: GetLogger
+  parent: Mcma.Api.McmaApiRequestContext
+  langs:
+  - csharp
+  - vb
+  name: GetLogger()
+  nameWithType: McmaApiRequestContext.GetLogger()
+  fullName: Mcma.Api.McmaApiRequestContext.GetLogger()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiRequestContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetLogger
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiRequestContext.cs
+    startLine: 112
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public ILogger GetLogger()
+    return:
+      type: Mcma.Logging.ILogger
+    content.vb: Public Function GetLogger As ILogger
+  overload: Mcma.Api.McmaApiRequestContext.GetLogger*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Api
+  commentId: N:Mcma.Api
+  name: Mcma.Api
+  nameWithType: Mcma.Api
+  fullName: Mcma.Api
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.McmaApiRequestContext.Mcma.Api.McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody
+  commentId: M:Mcma.Api.McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody(Mcma.Api.McmaApiRequestContext)
+  parent: Mcma.Api.McmaApiRequestContextExtensions
+  definition: Mcma.Api.McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody(Mcma.Api.McmaApiRequestContext)
+  name: SetResponseBadRequestDueToMissingBody()
+  nameWithType: McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody()
+  fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody()
+  spec.csharp:
+  - uid: Mcma.Api.McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody
+    name: SetResponseBadRequestDueToMissingBody
+    nameWithType: McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody
+    fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Api.McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody
+    name: SetResponseBadRequestDueToMissingBody
+    nameWithType: McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody
+    fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.McmaApiRequestContext.Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceCreated(Mcma.McmaResource)
+  commentId: M:Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceCreated(Mcma.Api.McmaApiRequestContext,Mcma.McmaResource)
+  parent: Mcma.Api.McmaApiRequestContextExtensions
+  definition: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceCreated(Mcma.Api.McmaApiRequestContext,Mcma.McmaResource)
+  name: SetResponseResourceCreated(McmaResource)
+  nameWithType: McmaApiRequestContextExtensions.SetResponseResourceCreated(McmaResource)
+  fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceCreated(Mcma.McmaResource)
+  spec.csharp:
+  - uid: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceCreated(Mcma.McmaResource)
+    name: SetResponseResourceCreated
+    nameWithType: McmaApiRequestContextExtensions.SetResponseResourceCreated
+    fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceCreated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.McmaResource
+    name: McmaResource
+    nameWithType: McmaResource
+    fullName: Mcma.McmaResource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceCreated(Mcma.McmaResource)
+    name: SetResponseResourceCreated
+    nameWithType: McmaApiRequestContextExtensions.SetResponseResourceCreated
+    fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceCreated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.McmaResource
+    name: McmaResource
+    nameWithType: McmaResource
+    fullName: Mcma.McmaResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.McmaApiRequestContext.Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceNotFound
+  commentId: M:Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceNotFound(Mcma.Api.McmaApiRequestContext)
+  parent: Mcma.Api.McmaApiRequestContextExtensions
+  definition: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceNotFound(Mcma.Api.McmaApiRequestContext)
+  name: SetResponseResourceNotFound()
+  nameWithType: McmaApiRequestContextExtensions.SetResponseResourceNotFound()
+  fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceNotFound()
+  spec.csharp:
+  - uid: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceNotFound
+    name: SetResponseResourceNotFound
+    nameWithType: McmaApiRequestContextExtensions.SetResponseResourceNotFound
+    fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceNotFound
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceNotFound
+    name: SetResponseResourceNotFound
+    nameWithType: McmaApiRequestContextExtensions.SetResponseResourceNotFound
+    fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceNotFound
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.McmaApiRequestContext.Mcma.Api.QueryRequestHelper.ToQuery``1
+  commentId: M:Mcma.Api.QueryRequestHelper.ToQuery``1(Mcma.Api.McmaApiRequestContext)
+  parent: Mcma.Api.QueryRequestHelper
+  definition: Mcma.Api.QueryRequestHelper.ToQuery``1(Mcma.Api.McmaApiRequestContext)
+  name: ToQuery<T>()
+  nameWithType: QueryRequestHelper.ToQuery<T>()
+  fullName: Mcma.Api.QueryRequestHelper.ToQuery<T>()
+  nameWithType.vb: QueryRequestHelper.ToQuery(Of T)()
+  fullName.vb: Mcma.Api.QueryRequestHelper.ToQuery(Of T)()
+  name.vb: ToQuery(Of T)()
+  spec.csharp:
+  - uid: Mcma.Api.QueryRequestHelper.ToQuery``1
+    name: ToQuery<T>
+    nameWithType: QueryRequestHelper.ToQuery<T>
+    fullName: Mcma.Api.QueryRequestHelper.ToQuery<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Api.QueryRequestHelper.ToQuery``1
+    name: ToQuery(Of T)
+    nameWithType: QueryRequestHelper.ToQuery(Of T)
+    fullName: Mcma.Api.QueryRequestHelper.ToQuery(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.McmaApiRequestContext.Mcma.Azure.FunctionsApi.HttpExtensions.ToActionResult
+  commentId: M:Mcma.Azure.FunctionsApi.HttpExtensions.ToActionResult(Mcma.Api.McmaApiRequestContext)
+  parent: Mcma.Azure.FunctionsApi.HttpExtensions
+  definition: Mcma.Azure.FunctionsApi.HttpExtensions.ToActionResult(Mcma.Api.McmaApiRequestContext)
+  name: ToActionResult()
+  nameWithType: HttpExtensions.ToActionResult()
+  fullName: Mcma.Azure.FunctionsApi.HttpExtensions.ToActionResult()
+  spec.csharp:
+  - uid: Mcma.Azure.FunctionsApi.HttpExtensions.ToActionResult
+    name: ToActionResult
+    nameWithType: HttpExtensions.ToActionResult
+    fullName: Mcma.Azure.FunctionsApi.HttpExtensions.ToActionResult
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Azure.FunctionsApi.HttpExtensions.ToActionResult
+    name: ToActionResult
+    nameWithType: HttpExtensions.ToActionResult
+    fullName: Mcma.Azure.FunctionsApi.HttpExtensions.ToActionResult
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Api.McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody(Mcma.Api.McmaApiRequestContext)
+  commentId: M:Mcma.Api.McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody(Mcma.Api.McmaApiRequestContext)
+  name: SetResponseBadRequestDueToMissingBody(McmaApiRequestContext)
+  nameWithType: McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody(McmaApiRequestContext)
+  fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody(Mcma.Api.McmaApiRequestContext)
+  spec.csharp:
+  - uid: Mcma.Api.McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody(Mcma.Api.McmaApiRequestContext)
+    name: SetResponseBadRequestDueToMissingBody
+    nameWithType: McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody
+    fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Api.McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody(Mcma.Api.McmaApiRequestContext)
+    name: SetResponseBadRequestDueToMissingBody
+    nameWithType: McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody
+    fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseBadRequestDueToMissingBody
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.McmaApiRequestContextExtensions
+  commentId: T:Mcma.Api.McmaApiRequestContextExtensions
+  parent: Mcma.Api
+  name: McmaApiRequestContextExtensions
+  nameWithType: McmaApiRequestContextExtensions
+  fullName: Mcma.Api.McmaApiRequestContextExtensions
+- uid: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceCreated(Mcma.Api.McmaApiRequestContext,Mcma.McmaResource)
+  commentId: M:Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceCreated(Mcma.Api.McmaApiRequestContext,Mcma.McmaResource)
+  name: SetResponseResourceCreated(McmaApiRequestContext, McmaResource)
+  nameWithType: McmaApiRequestContextExtensions.SetResponseResourceCreated(McmaApiRequestContext, McmaResource)
+  fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceCreated(Mcma.Api.McmaApiRequestContext, Mcma.McmaResource)
+  spec.csharp:
+  - uid: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceCreated(Mcma.Api.McmaApiRequestContext,Mcma.McmaResource)
+    name: SetResponseResourceCreated
+    nameWithType: McmaApiRequestContextExtensions.SetResponseResourceCreated
+    fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceCreated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaResource
+    name: McmaResource
+    nameWithType: McmaResource
+    fullName: Mcma.McmaResource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceCreated(Mcma.Api.McmaApiRequestContext,Mcma.McmaResource)
+    name: SetResponseResourceCreated
+    nameWithType: McmaApiRequestContextExtensions.SetResponseResourceCreated
+    fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceCreated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaResource
+    name: McmaResource
+    nameWithType: McmaResource
+    fullName: Mcma.McmaResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceNotFound(Mcma.Api.McmaApiRequestContext)
+  commentId: M:Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceNotFound(Mcma.Api.McmaApiRequestContext)
+  name: SetResponseResourceNotFound(McmaApiRequestContext)
+  nameWithType: McmaApiRequestContextExtensions.SetResponseResourceNotFound(McmaApiRequestContext)
+  fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceNotFound(Mcma.Api.McmaApiRequestContext)
+  spec.csharp:
+  - uid: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceNotFound(Mcma.Api.McmaApiRequestContext)
+    name: SetResponseResourceNotFound
+    nameWithType: McmaApiRequestContextExtensions.SetResponseResourceNotFound
+    fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceNotFound
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceNotFound(Mcma.Api.McmaApiRequestContext)
+    name: SetResponseResourceNotFound
+    nameWithType: McmaApiRequestContextExtensions.SetResponseResourceNotFound
+    fullName: Mcma.Api.McmaApiRequestContextExtensions.SetResponseResourceNotFound
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.QueryRequestHelper.ToQuery``1(Mcma.Api.McmaApiRequestContext)
+  commentId: M:Mcma.Api.QueryRequestHelper.ToQuery``1(Mcma.Api.McmaApiRequestContext)
+  name: ToQuery<T>(McmaApiRequestContext)
+  nameWithType: QueryRequestHelper.ToQuery<T>(McmaApiRequestContext)
+  fullName: Mcma.Api.QueryRequestHelper.ToQuery<T>(Mcma.Api.McmaApiRequestContext)
+  nameWithType.vb: QueryRequestHelper.ToQuery(Of T)(McmaApiRequestContext)
+  fullName.vb: Mcma.Api.QueryRequestHelper.ToQuery(Of T)(Mcma.Api.McmaApiRequestContext)
+  name.vb: ToQuery(Of T)(McmaApiRequestContext)
+  spec.csharp:
+  - uid: Mcma.Api.QueryRequestHelper.ToQuery``1(Mcma.Api.McmaApiRequestContext)
+    name: ToQuery<T>
+    nameWithType: QueryRequestHelper.ToQuery<T>
+    fullName: Mcma.Api.QueryRequestHelper.ToQuery<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Api.QueryRequestHelper.ToQuery``1(Mcma.Api.McmaApiRequestContext)
+    name: ToQuery(Of T)
+    nameWithType: QueryRequestHelper.ToQuery(Of T)
+    fullName: Mcma.Api.QueryRequestHelper.ToQuery(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.QueryRequestHelper
+  commentId: T:Mcma.Api.QueryRequestHelper
+  parent: Mcma.Api
+  name: QueryRequestHelper
+  nameWithType: QueryRequestHelper
+  fullName: Mcma.Api.QueryRequestHelper
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Azure.FunctionsApi.HttpExtensions.ToActionResult(Mcma.Api.McmaApiRequestContext)
+  commentId: M:Mcma.Azure.FunctionsApi.HttpExtensions.ToActionResult(Mcma.Api.McmaApiRequestContext)
+  name: ToActionResult(McmaApiRequestContext)
+  nameWithType: HttpExtensions.ToActionResult(McmaApiRequestContext)
+  fullName: Mcma.Azure.FunctionsApi.HttpExtensions.ToActionResult(Mcma.Api.McmaApiRequestContext)
+  spec.csharp:
+  - uid: Mcma.Azure.FunctionsApi.HttpExtensions.ToActionResult(Mcma.Api.McmaApiRequestContext)
+    name: ToActionResult
+    nameWithType: HttpExtensions.ToActionResult
+    fullName: Mcma.Azure.FunctionsApi.HttpExtensions.ToActionResult
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Azure.FunctionsApi.HttpExtensions.ToActionResult(Mcma.Api.McmaApiRequestContext)
+    name: ToActionResult
+    nameWithType: HttpExtensions.ToActionResult
+    fullName: Mcma.Azure.FunctionsApi.HttpExtensions.ToActionResult
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Azure.FunctionsApi.HttpExtensions
+  commentId: T:Mcma.Azure.FunctionsApi.HttpExtensions
+  parent: Mcma.Azure.FunctionsApi
+  name: HttpExtensions
+  nameWithType: HttpExtensions
+  fullName: Mcma.Azure.FunctionsApi.HttpExtensions
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Azure.FunctionsApi
+  commentId: N:Mcma.Azure.FunctionsApi
+  name: Mcma.Azure.FunctionsApi
+  nameWithType: Mcma.Azure.FunctionsApi
+  fullName: Mcma.Azure.FunctionsApi
+- uid: Mcma.Api.McmaApiRequestContext.#ctor*
+  commentId: Overload:Mcma.Api.McmaApiRequestContext.#ctor
+  name: McmaApiRequestContext
+  nameWithType: McmaApiRequestContext.McmaApiRequestContext
+  fullName: Mcma.Api.McmaApiRequestContext.McmaApiRequestContext
+- uid: Mcma.Logging.ILoggerProvider
+  commentId: T:Mcma.Logging.ILoggerProvider
+  parent: Mcma.Logging
+  name: ILoggerProvider
+  nameWithType: ILoggerProvider
+  fullName: Mcma.Logging.ILoggerProvider
+- uid: Mcma.Api.McmaApiRequest
+  commentId: T:Mcma.Api.McmaApiRequest
+  parent: Mcma.Api
+  name: McmaApiRequest
+  nameWithType: McmaApiRequest
+  fullName: Mcma.Api.McmaApiRequest
+- uid: Mcma.Logging
+  commentId: N:Mcma.Logging
+  name: Mcma.Logging
+  nameWithType: Mcma.Logging
+  fullName: Mcma.Logging
+- uid: Mcma.Api.McmaApiRequestContext.Request*
+  commentId: Overload:Mcma.Api.McmaApiRequestContext.Request
+  name: Request
+  nameWithType: McmaApiRequestContext.Request
+  fullName: Mcma.Api.McmaApiRequestContext.Request
+- uid: Mcma.Api.McmaApiRequestContext.Response*
+  commentId: Overload:Mcma.Api.McmaApiRequestContext.Response
+  name: Response
+  nameWithType: McmaApiRequestContext.Response
+  fullName: Mcma.Api.McmaApiRequestContext.Response
+- uid: Mcma.Api.McmaApiResponse
+  commentId: T:Mcma.Api.McmaApiResponse
+  parent: Mcma.Api
+  name: McmaApiResponse
+  nameWithType: McmaApiResponse
+  fullName: Mcma.Api.McmaApiResponse
+- uid: Mcma.Api.McmaApiRequestContext.RequestId*
+  commentId: Overload:Mcma.Api.McmaApiRequestContext.RequestId
+  name: RequestId
+  nameWithType: McmaApiRequestContext.RequestId
+  fullName: Mcma.Api.McmaApiRequestContext.RequestId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.Api.McmaApiRequestContext.HasRequestBody*
+  commentId: Overload:Mcma.Api.McmaApiRequestContext.HasRequestBody
+  name: HasRequestBody
+  nameWithType: McmaApiRequestContext.HasRequestBody
+  fullName: Mcma.Api.McmaApiRequestContext.HasRequestBody
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Mcma.Api.McmaApiRequestContext.MethodSupportsRequestBody*
+  commentId: Overload:Mcma.Api.McmaApiRequestContext.MethodSupportsRequestBody
+  name: MethodSupportsRequestBody
+  nameWithType: McmaApiRequestContext.MethodSupportsRequestBody
+  fullName: Mcma.Api.McmaApiRequestContext.MethodSupportsRequestBody
+- uid: Mcma.Api.McmaApiRequestContext.GetRequestHeaderValue*
+  commentId: Overload:Mcma.Api.McmaApiRequestContext.GetRequestHeaderValue
+  name: GetRequestHeaderValue
+  nameWithType: McmaApiRequestContext.GetRequestHeaderValue
+  fullName: Mcma.Api.McmaApiRequestContext.GetRequestHeaderValue
+- uid: Mcma.Api.McmaApiRequestContext.TryLoadRequestJsonBody*
+  commentId: Overload:Mcma.Api.McmaApiRequestContext.TryLoadRequestJsonBody
+  name: TryLoadRequestJsonBody
+  nameWithType: McmaApiRequestContext.TryLoadRequestJsonBody
+  fullName: Mcma.Api.McmaApiRequestContext.TryLoadRequestJsonBody
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: Mcma.Api.McmaApiRequestContext.GetRequestBody*
+  commentId: Overload:Mcma.Api.McmaApiRequestContext.GetRequestBody
+  name: GetRequestBody
+  nameWithType: McmaApiRequestContext.GetRequestBody
+  fullName: Mcma.Api.McmaApiRequestContext.GetRequestBody
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Mcma.Api.McmaApiRequestContext.SetResponseStatusCode*
+  commentId: Overload:Mcma.Api.McmaApiRequestContext.SetResponseStatusCode
+  name: SetResponseStatusCode
+  nameWithType: McmaApiRequestContext.SetResponseStatusCode
+  fullName: Mcma.Api.McmaApiRequestContext.SetResponseStatusCode
+- uid: System.Net.HttpStatusCode
+  commentId: T:System.Net.HttpStatusCode
+  parent: System.Net
+  isExternal: true
+  name: HttpStatusCode
+  nameWithType: HttpStatusCode
+  fullName: System.Net.HttpStatusCode
+- uid: System.Net
+  commentId: N:System.Net
+  isExternal: true
+  name: System.Net
+  nameWithType: System.Net
+  fullName: System.Net
+- uid: Mcma.Api.McmaApiRequestContext.SetResponseStatus*
+  commentId: Overload:Mcma.Api.McmaApiRequestContext.SetResponseStatus
+  name: SetResponseStatus
+  nameWithType: McmaApiRequestContext.SetResponseStatus
+  fullName: Mcma.Api.McmaApiRequestContext.SetResponseStatus
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mcma.Api.McmaApiRequestContext.SetResponseBody*
+  commentId: Overload:Mcma.Api.McmaApiRequestContext.SetResponseBody
+  name: SetResponseBody
+  nameWithType: McmaApiRequestContext.SetResponseBody
+  fullName: Mcma.Api.McmaApiRequestContext.SetResponseBody
+- uid: Mcma.Api.McmaApiRequestContext.SetResponseHeader*
+  commentId: Overload:Mcma.Api.McmaApiRequestContext.SetResponseHeader
+  name: SetResponseHeader
+  nameWithType: McmaApiRequestContext.SetResponseHeader
+  fullName: Mcma.Api.McmaApiRequestContext.SetResponseHeader
+- uid: Mcma.Api.McmaApiRequestContext.GetTracker*
+  commentId: Overload:Mcma.Api.McmaApiRequestContext.GetTracker
+  name: GetTracker
+  nameWithType: McmaApiRequestContext.GetTracker
+  fullName: Mcma.Api.McmaApiRequestContext.GetTracker
+- uid: Mcma.McmaTracker
+  commentId: T:Mcma.McmaTracker
+  parent: Mcma
+  name: McmaTracker
+  nameWithType: McmaTracker
+  fullName: Mcma.McmaTracker
+- uid: Mcma
+  commentId: N:Mcma
+  name: Mcma
+  nameWithType: Mcma
+  fullName: Mcma
+- uid: Mcma.Api.McmaApiRequestContext.GetLogger*
+  commentId: Overload:Mcma.Api.McmaApiRequestContext.GetLogger
+  name: GetLogger
+  nameWithType: McmaApiRequestContext.GetLogger
+  fullName: Mcma.Api.McmaApiRequestContext.GetLogger
+- uid: Mcma.Logging.ILogger
+  commentId: T:Mcma.Logging.ILogger
+  parent: Mcma.Logging
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Mcma.Logging.ILogger

@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-http-functions.HttpFunctionApiController
+    name: HttpFunctionApiController
+    fullName: HttpFunctionApiController
+    children:
+      - google-cloud-http-functions.HttpFunctionApiController.handleRequest
+      - google-cloud-http-functions.HttpFunctionApiController.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: google-cloud-http-functions
+  - uid: google-cloud-http-functions.HttpFunctionApiController.handleRequest
+    name: 'handleRequest(Request, Response)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function handleRequest(request: Request, response: Response)'
+      parameters:
+        - id: request
+          type:
+            - Request
+          description: ''
+        - id: response
+          type:
+            - Response
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: google-cloud-http-functions
+  - uid: google-cloud-http-functions.HttpFunctionApiController.constructor
+    name: >-
+      HttpFunctionApiController(McmaApiRouteCollection, LoggerProvider,
+      ConfigVariables)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new HttpFunctionApiController(routes: McmaApiRouteCollection,
+        loggerProvider?: LoggerProvider, configVariables: ConfigVariables)
+      parameters:
+        - id: routes
+          type:
+            - McmaApiRouteCollection
+          description: ''
+        - id: loggerProvider
+          type:
+            - LoggerProvider
+          description: ''
+          optional: true
+        - id: configVariables
+          type:
+            - ConfigVariables
+          description: ''
+    package: google-cloud-http-functions

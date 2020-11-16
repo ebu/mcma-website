@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-client.azureFunctionKeyAuth
+    name: azureFunctionKeyAuth(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function azureFunctionKeyAuth(decryptionKey?: string)'
+      parameters:
+        - id: decryptionKey
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - AuthTypeRegistration<azure-client.AzureFunctionKeyAuthContext>
+        description: ''
+    package: azure-client
+references:
+  - uid: AuthTypeRegistration<azure-client.AzureFunctionKeyAuthContext>
+    name: AzureFunctionKeyAuthContext>
+    spec.typeScript:
+      - name: AuthTypeRegistration<
+        fullName: AuthTypeRegistration<
+      - name: AzureFunctionKeyAuthContext
+        fullName: AzureFunctionKeyAuthContext
+        uid: azure-client.AzureFunctionKeyAuthContext
+      - name: '>'
+        fullName: '>'

@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-queue-worker-invoker
+    name: "@mcma/azure-queue-worker-invoker"
+    summary: ""
+    children:
+      - azure-queue-worker-invoker.QueueWorkerInvoker
+      - azure-queue-worker-invoker.invokeQueueTriggeredWorker
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: azure-queue-worker-invoker.QueueWorkerInvoker
+    name: QueueWorkerInvoker
+  - uid: azure-queue-worker-invoker.invokeQueueTriggeredWorker
+    name: invokeQueueTriggeredWorker(string, WorkerRequestProperties)

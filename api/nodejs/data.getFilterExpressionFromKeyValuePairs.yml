@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+items:
+  - uid: data.getFilterExpressionFromKeyValuePairs
+    name: 'getFilterExpressionFromKeyValuePairs([key: string]: any)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getFilterExpressionFromKeyValuePairs<T>(keyValuePairs: [key:
+        string]: any)
+      parameters:
+        - id: keyValuePairs
+          type:
+            - '[key: string]: any'
+          description: ''
+      return:
+        type:
+          - data.FilterExpression<T>
+        description: ''
+    package: data
+references:
+  - uid: data.FilterExpression<T>
+    name: FilterExpression<T>
+    spec.typeScript:
+      - name: FilterExpression
+        fullName: FilterExpression
+        uid: data.FilterExpression
+      - name: <T>
+        fullName: <T>

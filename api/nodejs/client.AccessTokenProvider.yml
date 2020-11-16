@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: client.AccessTokenProvider
+    name: AccessTokenProvider
+    fullName: AccessTokenProvider<T>
+    children:
+      - client.AccessTokenProvider.getAccessToken
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: client
+  - uid: client.AccessTokenProvider.getAccessToken
+    name: getAccessToken(T)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getAccessToken(authContext: T)'
+      parameters:
+        - id: authContext
+          type:
+            - T
+          description: ''
+      return:
+        type:
+          - Promise<client.AccessToken>
+        description: ''
+    package: client
+references:
+  - uid: Promise<client.AccessToken>
+    name: AccessToken>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: AccessToken
+        fullName: AccessToken
+        uid: client.AccessToken
+      - name: '>'
+        fullName: '>'

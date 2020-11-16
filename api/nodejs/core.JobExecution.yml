@@ -1,0 +1,319 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.JobExecution
+    name: JobExecution
+    fullName: JobExecution
+    children:
+      - core.JobExecution.@type
+      - core.JobExecution.actualDuration
+      - core.JobExecution.actualEndDate
+      - core.JobExecution.actualStartDate
+      - core.JobExecution.custom
+      - core.JobExecution.dateCreated
+      - core.JobExecution.dateModified
+      - core.JobExecution.error
+      - core.JobExecution.id
+      - core.JobExecution.jobAssignmentId
+      - core.JobExecution.constructor
+      - core.JobExecution.jobOutput
+      - core.JobExecution.onCreate
+      - core.JobExecution.onUpsert
+      - core.JobExecution.progress
+      - core.JobExecution.status
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: core.JobBase<core.JobExecutionProperties>
+    package: core
+  - uid: core.JobExecution.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobExecution.actualDuration
+    name: actualDuration
+    fullName: actualDuration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'actualDuration?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: core
+  - uid: core.JobExecution.actualEndDate
+    name: actualEndDate
+    fullName: actualEndDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'actualEndDate?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.JobExecution.actualStartDate
+    name: actualStartDate
+    fullName: actualStartDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'actualStartDate?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.JobExecution.custom
+    name: custom
+    fullName: custom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'custom?: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: core
+  - uid: core.JobExecution.dateCreated
+    name: dateCreated
+    fullName: dateCreated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateCreated?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.JobExecution.dateModified
+    name: dateModified
+    fullName: dateModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateModified?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.JobExecution.error
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'error?: ProblemDetail'
+      return:
+        type:
+          - core.ProblemDetail
+        description: ''
+    package: core
+  - uid: core.JobExecution.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobExecution.jobAssignmentId
+    name: jobAssignmentId
+    fullName: jobAssignmentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'jobAssignmentId?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobExecution.constructor
+    name: JobExecution(JobExecutionProperties)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new JobExecution(properties: JobExecutionProperties)'
+      parameters:
+        - id: properties
+          type:
+            - core.JobExecutionProperties
+          description: ''
+    package: core
+  - uid: core.JobExecution.jobOutput
+    name: jobOutput
+    fullName: jobOutput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'jobOutput?: JobParameterBag'
+      return:
+        type:
+          - core.JobParameterBag
+        description: ''
+    package: core
+  - uid: core.JobExecution.onCreate
+    name: onCreate(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onCreate(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+    package: core
+  - uid: core.JobExecution.onUpsert
+    name: onUpsert(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onUpsert(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+    package: core
+  - uid: core.JobExecution.progress
+    name: progress
+    fullName: progress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'progress?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: core
+  - uid: core.JobExecution.status
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'status?: JobStatus'
+      return:
+        type:
+          - core.JobStatus
+        description: ''
+    package: core
+references:
+  - uid: core.JobBase<core.JobExecutionProperties>
+    name: JobExecutionProperties>
+    spec.typeScript:
+      - name: JobBase
+        fullName: JobBase
+        uid: core.JobBase
+      - name: <
+        fullName: <
+      - name: JobExecutionProperties
+        fullName: JobExecutionProperties
+        uid: core.JobExecutionProperties
+      - name: '>'
+        fullName: '>'
+  - uid: core.JobExecutionProperties
+    name: JobExecutionProperties
+    spec.typeScript:
+      - name: JobExecutionProperties
+        fullName: JobExecutionProperties
+        uid: core.JobExecutionProperties
+  - uid: core.ProblemDetail
+    name: ProblemDetail
+    spec.typeScript:
+      - name: ProblemDetail
+        fullName: ProblemDetail
+        uid: core.ProblemDetail
+  - uid: core.JobParameterBag
+    name: JobParameterBag
+    spec.typeScript:
+      - name: JobParameterBag
+        fullName: JobParameterBag
+        uid: core.JobParameterBag
+  - uid: core.JobStatus
+    name: JobStatus
+    spec.typeScript:
+      - name: JobStatus
+        fullName: JobStatus
+        uid: core.JobStatus

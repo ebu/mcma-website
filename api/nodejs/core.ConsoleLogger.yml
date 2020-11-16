@@ -1,0 +1,300 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.ConsoleLogger
+    name: ConsoleLogger
+    fullName: ConsoleLogger
+    children:
+      - core.ConsoleLogger.constructor
+      - core.ConsoleLogger.debug
+      - core.ConsoleLogger.error
+      - core.ConsoleLogger.fatal
+      - core.ConsoleLogger.functionEnd
+      - core.ConsoleLogger.functionStart
+      - core.ConsoleLogger.info
+      - core.ConsoleLogger.jobEnd
+      - core.ConsoleLogger.jobStart
+      - core.ConsoleLogger.jobUpdate
+      - core.ConsoleLogger.log
+      - core.ConsoleLogger.System
+      - core.ConsoleLogger.warn
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: core.Logger
+    package: core
+  - uid: core.ConsoleLogger.constructor
+    name: 'ConsoleLogger(string, string, McmaTrackerProperties)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ConsoleLogger(source: string, requestId?: string, tracker?:
+        McmaTrackerProperties)
+      parameters:
+        - id: source
+          type:
+            - string
+          description: ''
+        - id: requestId
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: tracker
+          type:
+            - core.McmaTrackerProperties
+          description: ''
+          optional: true
+    package: core
+  - uid: core.ConsoleLogger.debug
+    name: 'debug(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function debug(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.ConsoleLogger.error
+    name: 'error(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function error(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.ConsoleLogger.fatal
+    name: 'fatal(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fatal(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.ConsoleLogger.functionEnd
+    name: 'functionEnd(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function functionEnd(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.ConsoleLogger.functionStart
+    name: 'functionStart(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function functionStart(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.ConsoleLogger.info
+    name: 'info(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function info(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.ConsoleLogger.jobEnd
+    name: 'jobEnd(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function jobEnd(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.ConsoleLogger.jobStart
+    name: 'jobStart(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function jobStart(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.ConsoleLogger.jobUpdate
+    name: 'jobUpdate(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function jobUpdate(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.ConsoleLogger.log
+    name: 'log(number, string, any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function log(level: number, type: string, message: any, optionalParams:
+        any[])
+      parameters:
+        - id: level
+          type:
+            - number
+          description: ''
+        - id: type
+          type:
+            - string
+          description: ''
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+  - uid: core.ConsoleLogger.System
+    name: System
+    fullName: System
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static System: Logger'
+      return:
+        type:
+          - core.Logger
+        description: ''
+    package: core
+  - uid: core.ConsoleLogger.warn
+    name: 'warn(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function warn(message: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: core
+references:
+  - uid: core.Logger
+    name: Logger
+    spec.typeScript:
+      - name: Logger
+        fullName: Logger
+        uid: core.Logger
+  - uid: core.McmaTrackerProperties
+    name: McmaTrackerProperties
+    spec.typeScript:
+      - name: McmaTrackerProperties
+        fullName: McmaTrackerProperties
+        uid: core.McmaTrackerProperties

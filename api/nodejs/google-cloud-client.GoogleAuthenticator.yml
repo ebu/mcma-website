@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-client.GoogleAuthenticator
+    name: GoogleAuthenticator
+    fullName: GoogleAuthenticator
+    children:
+      - google-cloud-client.GoogleAuthenticator.constructor
+      - google-cloud-client.GoogleAuthenticator.sign
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: google-cloud-client
+  - uid: google-cloud-client.GoogleAuthenticator.constructor
+    name: GoogleAuthenticator(GoogleAuthOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new GoogleAuthenticator(authContext: GoogleAuthOptions)'
+      parameters:
+        - id: authContext
+          type:
+            - GoogleAuthOptions
+          description: ''
+    package: google-cloud-client
+  - uid: google-cloud-client.GoogleAuthenticator.sign
+    name: sign(HttpRequestConfig)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function sign(requestConfig: HttpRequestConfig)'
+      parameters:
+        - id: requestConfig
+          type:
+            - HttpRequestConfig
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: google-cloud-client

@@ -1,0 +1,84 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-logger.AwsCloudWatchLoggerProvider
+    name: AwsCloudWatchLoggerProvider
+    fullName: AwsCloudWatchLoggerProvider
+    children:
+      - aws-logger.AwsCloudWatchLoggerProvider.constructor
+      - aws-logger.AwsCloudWatchLoggerProvider.flush
+      - aws-logger.AwsCloudWatchLoggerProvider.get
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: aws-logger
+  - uid: aws-logger.AwsCloudWatchLoggerProvider.constructor
+    name: 'AwsCloudWatchLoggerProvider(string, string, CloudWatchLogs)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new AwsCloudWatchLoggerProvider(source: string, logGroupName: string,
+        cloudWatchLogs: CloudWatchLogs)
+      parameters:
+        - id: source
+          type:
+            - string
+          description: ''
+        - id: logGroupName
+          type:
+            - string
+          description: ''
+        - id: cloudWatchLogs
+          type:
+            - CloudWatchLogs
+          description: ''
+    package: aws-logger
+  - uid: aws-logger.AwsCloudWatchLoggerProvider.flush
+    name: flush(Date | number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function flush(until?: Date | number)'
+      parameters:
+        - id: until
+          type:
+            - Date | number
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: aws-logger
+  - uid: aws-logger.AwsCloudWatchLoggerProvider.get
+    name: 'get(string, McmaTrackerProperties)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get(requestId?: string, tracker?: McmaTrackerProperties)'
+      parameters:
+        - id: requestId
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: tracker
+          type:
+            - McmaTrackerProperties
+          description: ''
+          optional: true
+      return:
+        type:
+          - Logger
+        description: ''
+    package: aws-logger

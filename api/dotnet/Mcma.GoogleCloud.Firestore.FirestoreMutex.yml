@@ -1,0 +1,1082 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Firestore.FirestoreMutex
+  commentId: T:Mcma.GoogleCloud.Firestore.FirestoreMutex
+  id: FirestoreMutex
+  parent: Mcma.GoogleCloud.Firestore
+  children:
+  - Mcma.GoogleCloud.Firestore.FirestoreMutex.#ctor(Google.Cloud.Firestore.CollectionReference,System.String,System.String,System.Nullable{System.TimeSpan})
+  - Mcma.GoogleCloud.Firestore.FirestoreMutex.DeleteLockDataAsync(System.String)
+  - Mcma.GoogleCloud.Firestore.FirestoreMutex.GetLockDataAsync
+  - Mcma.GoogleCloud.Firestore.FirestoreMutex.PutLockDataAsync
+  - Mcma.GoogleCloud.Firestore.FirestoreMutex.VersionId
+  langs:
+  - csharp
+  - vb
+  name: FirestoreMutex
+  nameWithType: FirestoreMutex
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreMutex
+  type: Class
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: FirestoreMutex
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMutex.cs
+    startLine: 7
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: 'public class FirestoreMutex : DocumentDatabaseMutex, IDocumentDatabaseMutex'
+    content.vb: >-
+      Public Class FirestoreMutex
+
+          Inherits DocumentDatabaseMutex
+
+          Implements IDocumentDatabaseMutex
+  inheritance:
+  - System.Object
+  - Mcma.Data.DocumentDatabaseMutex
+  implements:
+  - Mcma.Data.IDocumentDatabaseMutex
+  inheritedMembers:
+  - Mcma.Data.DocumentDatabaseMutex.MutexName
+  - Mcma.Data.DocumentDatabaseMutex.MutexHolder
+  - Mcma.Data.DocumentDatabaseMutex.LockTimeout
+  - Mcma.Data.DocumentDatabaseMutex.Logger
+  - Mcma.Data.DocumentDatabaseMutex.HasLock
+  - Mcma.Data.DocumentDatabaseMutex.LockAsync
+  - Mcma.Data.DocumentDatabaseMutex.UnlockAsync
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.GoogleCloud.Firestore.FirestoreMutex.#ctor(Google.Cloud.Firestore.CollectionReference,System.String,System.String,System.Nullable{System.TimeSpan})
+  commentId: M:Mcma.GoogleCloud.Firestore.FirestoreMutex.#ctor(Google.Cloud.Firestore.CollectionReference,System.String,System.String,System.Nullable{System.TimeSpan})
+  id: '#ctor(Google.Cloud.Firestore.CollectionReference,System.String,System.String,System.Nullable{System.TimeSpan})'
+  parent: Mcma.GoogleCloud.Firestore.FirestoreMutex
+  langs:
+  - csharp
+  - vb
+  name: FirestoreMutex(CollectionReference, String, String, Nullable<TimeSpan>)
+  nameWithType: FirestoreMutex.FirestoreMutex(CollectionReference, String, String, Nullable<TimeSpan>)
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreMutex.FirestoreMutex(Google.Cloud.Firestore.CollectionReference, System.String, System.String, System.Nullable<System.TimeSpan>)
+  type: Constructor
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMutex.cs
+    startLine: 9
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: public FirestoreMutex(CollectionReference collection, string mutexName, string mutexHolder, TimeSpan? lockTimeout = default(TimeSpan? ))
+    parameters:
+    - id: collection
+      type: Google.Cloud.Firestore.CollectionReference
+    - id: mutexName
+      type: System.String
+    - id: mutexHolder
+      type: System.String
+    - id: lockTimeout
+      type: System.Nullable{System.TimeSpan}
+    content.vb: Public Sub New(collection As CollectionReference, mutexName As String, mutexHolder As String, lockTimeout As TimeSpan? = Nothing)
+  overload: Mcma.GoogleCloud.Firestore.FirestoreMutex.#ctor*
+  nameWithType.vb: FirestoreMutex.FirestoreMutex(CollectionReference, String, String, Nullable(Of TimeSpan))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.GoogleCloud.Firestore.FirestoreMutex.FirestoreMutex(Google.Cloud.Firestore.CollectionReference, System.String, System.String, System.Nullable(Of System.TimeSpan))
+  name.vb: FirestoreMutex(CollectionReference, String, String, Nullable(Of TimeSpan))
+- uid: Mcma.GoogleCloud.Firestore.FirestoreMutex.VersionId
+  commentId: P:Mcma.GoogleCloud.Firestore.FirestoreMutex.VersionId
+  id: VersionId
+  parent: Mcma.GoogleCloud.Firestore.FirestoreMutex
+  langs:
+  - csharp
+  - vb
+  name: VersionId
+  nameWithType: FirestoreMutex.VersionId
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreMutex.VersionId
+  type: Property
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: VersionId
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMutex.cs
+    startLine: 19
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: protected override string VersionId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected Overrides ReadOnly Property VersionId As String
+  overridden: Mcma.Data.DocumentDatabaseMutex.VersionId
+  overload: Mcma.GoogleCloud.Firestore.FirestoreMutex.VersionId*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
+- uid: Mcma.GoogleCloud.Firestore.FirestoreMutex.GetLockDataAsync
+  commentId: M:Mcma.GoogleCloud.Firestore.FirestoreMutex.GetLockDataAsync
+  id: GetLockDataAsync
+  parent: Mcma.GoogleCloud.Firestore.FirestoreMutex
+  langs:
+  - csharp
+  - vb
+  name: GetLockDataAsync()
+  nameWithType: FirestoreMutex.GetLockDataAsync()
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreMutex.GetLockDataAsync()
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetLockDataAsync
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMutex.cs
+    startLine: 21
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: protected override Task<LockData> GetLockDataAsync()
+    return:
+      type: System.Threading.Tasks.Task{Mcma.Data.LockData}
+    content.vb: Protected Overrides Function GetLockDataAsync As Task(Of LockData)
+  overridden: Mcma.Data.DocumentDatabaseMutex.GetLockDataAsync
+  overload: Mcma.GoogleCloud.Firestore.FirestoreMutex.GetLockDataAsync*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Mcma.GoogleCloud.Firestore.FirestoreMutex.PutLockDataAsync
+  commentId: M:Mcma.GoogleCloud.Firestore.FirestoreMutex.PutLockDataAsync
+  id: PutLockDataAsync
+  parent: Mcma.GoogleCloud.Firestore.FirestoreMutex
+  langs:
+  - csharp
+  - vb
+  name: PutLockDataAsync()
+  nameWithType: FirestoreMutex.PutLockDataAsync()
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreMutex.PutLockDataAsync()
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: PutLockDataAsync
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMutex.cs
+    startLine: 40
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: protected override Task PutLockDataAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function PutLockDataAsync As Task
+  overridden: Mcma.Data.DocumentDatabaseMutex.PutLockDataAsync
+  overload: Mcma.GoogleCloud.Firestore.FirestoreMutex.PutLockDataAsync*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Mcma.GoogleCloud.Firestore.FirestoreMutex.DeleteLockDataAsync(System.String)
+  commentId: M:Mcma.GoogleCloud.Firestore.FirestoreMutex.DeleteLockDataAsync(System.String)
+  id: DeleteLockDataAsync(System.String)
+  parent: Mcma.GoogleCloud.Firestore.FirestoreMutex
+  langs:
+  - csharp
+  - vb
+  name: DeleteLockDataAsync(String)
+  nameWithType: FirestoreMutex.DeleteLockDataAsync(String)
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreMutex.DeleteLockDataAsync(System.String)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMutex.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: DeleteLockDataAsync
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMutex.cs
+    startLine: 51
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: protected override Task DeleteLockDataAsync(string versionId)
+    parameters:
+    - id: versionId
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function DeleteLockDataAsync(versionId As String) As Task
+  overridden: Mcma.Data.DocumentDatabaseMutex.DeleteLockDataAsync(System.String)
+  overload: Mcma.GoogleCloud.Firestore.FirestoreMutex.DeleteLockDataAsync*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Mcma.GoogleCloud.Firestore
+  commentId: N:Mcma.GoogleCloud.Firestore
+  name: Mcma.GoogleCloud.Firestore
+  nameWithType: Mcma.GoogleCloud.Firestore
+  fullName: Mcma.GoogleCloud.Firestore
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Data.DocumentDatabaseMutex
+  commentId: T:Mcma.Data.DocumentDatabaseMutex
+  parent: Mcma.Data
+  name: DocumentDatabaseMutex
+  nameWithType: DocumentDatabaseMutex
+  fullName: Mcma.Data.DocumentDatabaseMutex
+- uid: Mcma.Data.IDocumentDatabaseMutex
+  commentId: T:Mcma.Data.IDocumentDatabaseMutex
+  parent: Mcma.Data
+  name: IDocumentDatabaseMutex
+  nameWithType: IDocumentDatabaseMutex
+  fullName: Mcma.Data.IDocumentDatabaseMutex
+- uid: Mcma.Data.DocumentDatabaseMutex.MutexName
+  commentId: P:Mcma.Data.DocumentDatabaseMutex.MutexName
+  parent: Mcma.Data.DocumentDatabaseMutex
+  name: MutexName
+  nameWithType: DocumentDatabaseMutex.MutexName
+  fullName: Mcma.Data.DocumentDatabaseMutex.MutexName
+- uid: Mcma.Data.DocumentDatabaseMutex.MutexHolder
+  commentId: P:Mcma.Data.DocumentDatabaseMutex.MutexHolder
+  parent: Mcma.Data.DocumentDatabaseMutex
+  name: MutexHolder
+  nameWithType: DocumentDatabaseMutex.MutexHolder
+  fullName: Mcma.Data.DocumentDatabaseMutex.MutexHolder
+- uid: Mcma.Data.DocumentDatabaseMutex.LockTimeout
+  commentId: P:Mcma.Data.DocumentDatabaseMutex.LockTimeout
+  parent: Mcma.Data.DocumentDatabaseMutex
+  name: LockTimeout
+  nameWithType: DocumentDatabaseMutex.LockTimeout
+  fullName: Mcma.Data.DocumentDatabaseMutex.LockTimeout
+- uid: Mcma.Data.DocumentDatabaseMutex.Logger
+  commentId: P:Mcma.Data.DocumentDatabaseMutex.Logger
+  parent: Mcma.Data.DocumentDatabaseMutex
+  name: Logger
+  nameWithType: DocumentDatabaseMutex.Logger
+  fullName: Mcma.Data.DocumentDatabaseMutex.Logger
+- uid: Mcma.Data.DocumentDatabaseMutex.HasLock
+  commentId: P:Mcma.Data.DocumentDatabaseMutex.HasLock
+  parent: Mcma.Data.DocumentDatabaseMutex
+  name: HasLock
+  nameWithType: DocumentDatabaseMutex.HasLock
+  fullName: Mcma.Data.DocumentDatabaseMutex.HasLock
+- uid: Mcma.Data.DocumentDatabaseMutex.LockAsync
+  commentId: M:Mcma.Data.DocumentDatabaseMutex.LockAsync
+  parent: Mcma.Data.DocumentDatabaseMutex
+  name: LockAsync()
+  nameWithType: DocumentDatabaseMutex.LockAsync()
+  fullName: Mcma.Data.DocumentDatabaseMutex.LockAsync()
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabaseMutex.LockAsync
+    name: LockAsync
+    nameWithType: DocumentDatabaseMutex.LockAsync
+    fullName: Mcma.Data.DocumentDatabaseMutex.LockAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabaseMutex.LockAsync
+    name: LockAsync
+    nameWithType: DocumentDatabaseMutex.LockAsync
+    fullName: Mcma.Data.DocumentDatabaseMutex.LockAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabaseMutex.UnlockAsync
+  commentId: M:Mcma.Data.DocumentDatabaseMutex.UnlockAsync
+  parent: Mcma.Data.DocumentDatabaseMutex
+  name: UnlockAsync()
+  nameWithType: DocumentDatabaseMutex.UnlockAsync()
+  fullName: Mcma.Data.DocumentDatabaseMutex.UnlockAsync()
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabaseMutex.UnlockAsync
+    name: UnlockAsync
+    nameWithType: DocumentDatabaseMutex.UnlockAsync
+    fullName: Mcma.Data.DocumentDatabaseMutex.UnlockAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabaseMutex.UnlockAsync
+    name: UnlockAsync
+    nameWithType: DocumentDatabaseMutex.UnlockAsync
+    fullName: Mcma.Data.DocumentDatabaseMutex.UnlockAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Data
+  commentId: N:Mcma.Data
+  name: Mcma.Data
+  nameWithType: Mcma.Data
+  fullName: Mcma.Data
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.GoogleCloud.Firestore.FirestoreMutex.#ctor*
+  commentId: Overload:Mcma.GoogleCloud.Firestore.FirestoreMutex.#ctor
+  name: FirestoreMutex
+  nameWithType: FirestoreMutex.FirestoreMutex
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreMutex.FirestoreMutex
+- uid: Google.Cloud.Firestore.CollectionReference
+  commentId: T:Google.Cloud.Firestore.CollectionReference
+  parent: Google.Cloud.Firestore
+  isExternal: true
+  name: CollectionReference
+  nameWithType: CollectionReference
+  fullName: Google.Cloud.Firestore.CollectionReference
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Nullable{System.TimeSpan}
+  commentId: T:System.Nullable{System.TimeSpan}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<TimeSpan>
+  nameWithType: Nullable<TimeSpan>
+  fullName: System.Nullable<System.TimeSpan>
+  nameWithType.vb: Nullable(Of TimeSpan)
+  fullName.vb: System.Nullable(Of System.TimeSpan)
+  name.vb: Nullable(Of TimeSpan)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Google.Cloud.Firestore
+  commentId: N:Google.Cloud.Firestore
+  isExternal: true
+  name: Google.Cloud.Firestore
+  nameWithType: Google.Cloud.Firestore
+  fullName: Google.Cloud.Firestore
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabaseMutex.VersionId
+  commentId: P:Mcma.Data.DocumentDatabaseMutex.VersionId
+  parent: Mcma.Data.DocumentDatabaseMutex
+  name: VersionId
+  nameWithType: DocumentDatabaseMutex.VersionId
+  fullName: Mcma.Data.DocumentDatabaseMutex.VersionId
+- uid: Mcma.GoogleCloud.Firestore.FirestoreMutex.VersionId*
+  commentId: Overload:Mcma.GoogleCloud.Firestore.FirestoreMutex.VersionId
+  name: VersionId
+  nameWithType: FirestoreMutex.VersionId
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreMutex.VersionId
+- uid: Mcma.Data.DocumentDatabaseMutex.GetLockDataAsync
+  commentId: M:Mcma.Data.DocumentDatabaseMutex.GetLockDataAsync
+  parent: Mcma.Data.DocumentDatabaseMutex
+  name: GetLockDataAsync()
+  nameWithType: DocumentDatabaseMutex.GetLockDataAsync()
+  fullName: Mcma.Data.DocumentDatabaseMutex.GetLockDataAsync()
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabaseMutex.GetLockDataAsync
+    name: GetLockDataAsync
+    nameWithType: DocumentDatabaseMutex.GetLockDataAsync
+    fullName: Mcma.Data.DocumentDatabaseMutex.GetLockDataAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabaseMutex.GetLockDataAsync
+    name: GetLockDataAsync
+    nameWithType: DocumentDatabaseMutex.GetLockDataAsync
+    fullName: Mcma.Data.DocumentDatabaseMutex.GetLockDataAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Firestore.FirestoreMutex.GetLockDataAsync*
+  commentId: Overload:Mcma.GoogleCloud.Firestore.FirestoreMutex.GetLockDataAsync
+  name: GetLockDataAsync
+  nameWithType: FirestoreMutex.GetLockDataAsync
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreMutex.GetLockDataAsync
+- uid: System.Threading.Tasks.Task{Mcma.Data.LockData}
+  commentId: T:System.Threading.Tasks.Task{Mcma.Data.LockData}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<LockData>
+  nameWithType: Task<LockData>
+  fullName: System.Threading.Tasks.Task<Mcma.Data.LockData>
+  nameWithType.vb: Task(Of LockData)
+  fullName.vb: System.Threading.Tasks.Task(Of Mcma.Data.LockData)
+  name.vb: Task(Of LockData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Data.LockData
+    name: LockData
+    nameWithType: LockData
+    fullName: Mcma.Data.LockData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Data.LockData
+    name: LockData
+    nameWithType: LockData
+    fullName: Mcma.Data.LockData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Mcma.Data.DocumentDatabaseMutex.PutLockDataAsync
+  commentId: M:Mcma.Data.DocumentDatabaseMutex.PutLockDataAsync
+  parent: Mcma.Data.DocumentDatabaseMutex
+  name: PutLockDataAsync()
+  nameWithType: DocumentDatabaseMutex.PutLockDataAsync()
+  fullName: Mcma.Data.DocumentDatabaseMutex.PutLockDataAsync()
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabaseMutex.PutLockDataAsync
+    name: PutLockDataAsync
+    nameWithType: DocumentDatabaseMutex.PutLockDataAsync
+    fullName: Mcma.Data.DocumentDatabaseMutex.PutLockDataAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabaseMutex.PutLockDataAsync
+    name: PutLockDataAsync
+    nameWithType: DocumentDatabaseMutex.PutLockDataAsync
+    fullName: Mcma.Data.DocumentDatabaseMutex.PutLockDataAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Firestore.FirestoreMutex.PutLockDataAsync*
+  commentId: Overload:Mcma.GoogleCloud.Firestore.FirestoreMutex.PutLockDataAsync
+  name: PutLockDataAsync
+  nameWithType: FirestoreMutex.PutLockDataAsync
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreMutex.PutLockDataAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Mcma.Data.DocumentDatabaseMutex.DeleteLockDataAsync(System.String)
+  commentId: M:Mcma.Data.DocumentDatabaseMutex.DeleteLockDataAsync(System.String)
+  parent: Mcma.Data.DocumentDatabaseMutex
+  isExternal: true
+  name: DeleteLockDataAsync(String)
+  nameWithType: DocumentDatabaseMutex.DeleteLockDataAsync(String)
+  fullName: Mcma.Data.DocumentDatabaseMutex.DeleteLockDataAsync(System.String)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabaseMutex.DeleteLockDataAsync(System.String)
+    name: DeleteLockDataAsync
+    nameWithType: DocumentDatabaseMutex.DeleteLockDataAsync
+    fullName: Mcma.Data.DocumentDatabaseMutex.DeleteLockDataAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabaseMutex.DeleteLockDataAsync(System.String)
+    name: DeleteLockDataAsync
+    nameWithType: DocumentDatabaseMutex.DeleteLockDataAsync
+    fullName: Mcma.Data.DocumentDatabaseMutex.DeleteLockDataAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Firestore.FirestoreMutex.DeleteLockDataAsync*
+  commentId: Overload:Mcma.GoogleCloud.Firestore.FirestoreMutex.DeleteLockDataAsync
+  name: DeleteLockDataAsync
+  nameWithType: FirestoreMutex.DeleteLockDataAsync
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreMutex.DeleteLockDataAsync

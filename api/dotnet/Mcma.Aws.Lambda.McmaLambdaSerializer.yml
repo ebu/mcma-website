@@ -1,0 +1,296 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.Lambda.McmaLambdaSerializer
+  commentId: T:Mcma.Aws.Lambda.McmaLambdaSerializer
+  id: McmaLambdaSerializer
+  parent: Mcma.Aws.Lambda
+  children:
+  - Mcma.Aws.Lambda.McmaLambdaSerializer.Deserialize``1(System.IO.Stream)
+  - Mcma.Aws.Lambda.McmaLambdaSerializer.Serialize``1(``0,System.IO.Stream)
+  langs:
+  - csharp
+  - vb
+  name: McmaLambdaSerializer
+  nameWithType: McmaLambdaSerializer
+  fullName: Mcma.Aws.Lambda.McmaLambdaSerializer
+  type: Class
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Serialization/McmaLambdaSerializer.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaLambdaSerializer
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Serialization/McmaLambdaSerializer.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Aws.Serialization
+  namespace: Mcma.Aws.Lambda
+  syntax:
+    content: 'public class McmaLambdaSerializer : object, ILambdaSerializer'
+    content.vb: >-
+      Public Class McmaLambdaSerializer
+
+          Inherits Object
+
+          Implements ILambdaSerializer
+  inheritance:
+  - System.Object
+  implements:
+  - Amazon.Lambda.Core.ILambdaSerializer
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Aws.Lambda.McmaLambdaSerializer.Serialize``1(``0,System.IO.Stream)
+  commentId: M:Mcma.Aws.Lambda.McmaLambdaSerializer.Serialize``1(``0,System.IO.Stream)
+  id: Serialize``1(``0,System.IO.Stream)
+  parent: Mcma.Aws.Lambda.McmaLambdaSerializer
+  langs:
+  - csharp
+  - vb
+  name: Serialize<T>(T, Stream)
+  nameWithType: McmaLambdaSerializer.Serialize<T>(T, Stream)
+  fullName: Mcma.Aws.Lambda.McmaLambdaSerializer.Serialize<T>(T, System.IO.Stream)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Serialization/McmaLambdaSerializer.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Serialize
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Serialization/McmaLambdaSerializer.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Aws.Serialization
+  namespace: Mcma.Aws.Lambda
+  syntax:
+    content: public void Serialize<T>(T response, Stream responseStream)
+    parameters:
+    - id: response
+      type: '{T}'
+    - id: responseStream
+      type: System.IO.Stream
+    typeParameters:
+    - id: T
+    content.vb: Public Sub Serialize(Of T)(response As T, responseStream As Stream)
+  overload: Mcma.Aws.Lambda.McmaLambdaSerializer.Serialize*
+  nameWithType.vb: McmaLambdaSerializer.Serialize(Of T)(T, Stream)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Aws.Lambda.McmaLambdaSerializer.Serialize(Of T)(T, System.IO.Stream)
+  name.vb: Serialize(Of T)(T, Stream)
+- uid: Mcma.Aws.Lambda.McmaLambdaSerializer.Deserialize``1(System.IO.Stream)
+  commentId: M:Mcma.Aws.Lambda.McmaLambdaSerializer.Deserialize``1(System.IO.Stream)
+  id: Deserialize``1(System.IO.Stream)
+  parent: Mcma.Aws.Lambda.McmaLambdaSerializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize<T>(Stream)
+  nameWithType: McmaLambdaSerializer.Deserialize<T>(Stream)
+  fullName: Mcma.Aws.Lambda.McmaLambdaSerializer.Deserialize<T>(System.IO.Stream)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Serialization/McmaLambdaSerializer.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Deserialize
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Serialization/McmaLambdaSerializer.cs
+    startLine: 27
+  assemblies:
+  - Mcma.Aws.Serialization
+  namespace: Mcma.Aws.Lambda
+  syntax:
+    content: public T Deserialize<T>(Stream requestStream)
+    parameters:
+    - id: requestStream
+      type: System.IO.Stream
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function Deserialize(Of T)(requestStream As Stream) As T
+  overload: Mcma.Aws.Lambda.McmaLambdaSerializer.Deserialize*
+  nameWithType.vb: McmaLambdaSerializer.Deserialize(Of T)(Stream)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Aws.Lambda.McmaLambdaSerializer.Deserialize(Of T)(System.IO.Stream)
+  name.vb: Deserialize(Of T)(Stream)
+references:
+- uid: Mcma.Aws.Lambda
+  commentId: N:Mcma.Aws.Lambda
+  name: Mcma.Aws.Lambda
+  nameWithType: Mcma.Aws.Lambda
+  fullName: Mcma.Aws.Lambda
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Amazon.Lambda.Core.ILambdaSerializer
+  commentId: T:Amazon.Lambda.Core.ILambdaSerializer
+  parent: Amazon.Lambda.Core
+  isExternal: true
+  name: ILambdaSerializer
+  nameWithType: ILambdaSerializer
+  fullName: Amazon.Lambda.Core.ILambdaSerializer
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Amazon.Lambda.Core
+  commentId: N:Amazon.Lambda.Core
+  isExternal: true
+  name: Amazon.Lambda.Core
+  nameWithType: Amazon.Lambda.Core
+  fullName: Amazon.Lambda.Core
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Aws.Lambda.McmaLambdaSerializer.Serialize*
+  commentId: Overload:Mcma.Aws.Lambda.McmaLambdaSerializer.Serialize
+  name: Serialize
+  nameWithType: McmaLambdaSerializer.Serialize
+  fullName: Mcma.Aws.Lambda.McmaLambdaSerializer.Serialize
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: Mcma.Aws.Lambda.McmaLambdaSerializer.Deserialize*
+  commentId: Overload:Mcma.Aws.Lambda.McmaLambdaSerializer.Deserialize
+  name: Deserialize
+  nameWithType: McmaLambdaSerializer.Deserialize
+  fullName: Mcma.Aws.Lambda.McmaLambdaSerializer.Deserialize

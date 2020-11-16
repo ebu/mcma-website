@@ -1,0 +1,1117 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1
+  id: DefaultDeleteRoute`1
+  parent: Mcma.Api.Routing.Defaults.Routes
+  children:
+  - Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1.#ctor(Mcma.Data.IDocumentDatabaseTable,Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler{`0},Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler{`0},Microsoft.Extensions.Options.IOptions{Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions{`0}})
+  - Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1.HandleAsync(Mcma.Api.McmaApiRequestContext)
+  langs:
+  - csharp
+  - vb
+  name: DefaultDeleteRoute<TResource>
+  nameWithType: DefaultDeleteRoute<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute<TResource>
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Api/Routing/Defaults/Delete/DefaultDeleteRoute.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: DefaultDeleteRoute
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Routing/Defaults/Delete/DefaultDeleteRoute.cs
+    startLine: 9
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api.Routing.Defaults.Routes
+  syntax:
+    content: 'public class DefaultDeleteRoute<TResource> : McmaApiRoute, IDefaultDeleteRoute<TResource>, IMcmaApiRoute where TResource : McmaResource'
+    typeParameters:
+    - id: TResource
+    content.vb: >-
+      Public Class DefaultDeleteRoute(Of TResource As McmaResource)
+
+          Inherits McmaApiRoute
+
+          Implements IDefaultDeleteRoute(Of TResource), IMcmaApiRoute
+  inheritance:
+  - System.Object
+  - Mcma.Api.Routes.McmaApiRoute
+  implements:
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute{{TResource}}
+  - Mcma.Api.Routes.IMcmaApiRoute
+  inheritedMembers:
+  - Mcma.Api.Routes.McmaApiRoute.HttpMethod
+  - Mcma.Api.Routes.McmaApiRoute.IsMatch(System.String,System.Collections.Generic.IDictionary{System.String,System.Object}@)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  nameWithType.vb: DefaultDeleteRoute(Of TResource)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute(Of TResource)
+  name.vb: DefaultDeleteRoute(Of TResource)
+- uid: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1.#ctor(Mcma.Data.IDocumentDatabaseTable,Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler{`0},Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler{`0},Microsoft.Extensions.Options.IOptions{Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions{`0}})
+  commentId: M:Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1.#ctor(Mcma.Data.IDocumentDatabaseTable,Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler{`0},Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler{`0},Microsoft.Extensions.Options.IOptions{Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions{`0}})
+  id: '#ctor(Mcma.Data.IDocumentDatabaseTable,Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler{`0},Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler{`0},Microsoft.Extensions.Options.IOptions{Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions{`0}})'
+  parent: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1
+  langs:
+  - csharp
+  - vb
+  name: DefaultDeleteRoute(IDocumentDatabaseTable, IDefaultDeleteRouteStartedHandler<TResource>, IDefaultDeleteRouteCompletedHandler<TResource>, IOptions<DefaultRouteCollectionOptions<TResource>>)
+  nameWithType: DefaultDeleteRoute<TResource>.DefaultDeleteRoute(IDocumentDatabaseTable, IDefaultDeleteRouteStartedHandler<TResource>, IDefaultDeleteRouteCompletedHandler<TResource>, IOptions<DefaultRouteCollectionOptions<TResource>>)
+  fullName: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute<TResource>.DefaultDeleteRoute(Mcma.Data.IDocumentDatabaseTable, Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler<TResource>, Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler<TResource>, Microsoft.Extensions.Options.IOptions<Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions<TResource>>)
+  type: Constructor
+  source:
+    remote:
+      path: Base/Mcma.Api/Routing/Defaults/Delete/DefaultDeleteRoute.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Routing/Defaults/Delete/DefaultDeleteRoute.cs
+    startLine: 11
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api.Routing.Defaults.Routes
+  syntax:
+    content: public DefaultDeleteRoute(IDocumentDatabaseTable dbTable, IDefaultDeleteRouteStartedHandler<TResource> startedHandler, IDefaultDeleteRouteCompletedHandler<TResource> completedHandler, IOptions<DefaultRouteCollectionOptions<TResource>> options)
+    parameters:
+    - id: dbTable
+      type: Mcma.Data.IDocumentDatabaseTable
+    - id: startedHandler
+      type: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler{{TResource}}
+    - id: completedHandler
+      type: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler{{TResource}}
+    - id: options
+      type: Microsoft.Extensions.Options.IOptions{Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions{{TResource}}}
+    content.vb: Public Sub New(dbTable As IDocumentDatabaseTable, startedHandler As IDefaultDeleteRouteStartedHandler(Of TResource), completedHandler As IDefaultDeleteRouteCompletedHandler(Of TResource), options As IOptions(Of DefaultRouteCollectionOptions(Of TResource)))
+  overload: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1.#ctor*
+  nameWithType.vb: DefaultDeleteRoute(Of TResource).DefaultDeleteRoute(IDocumentDatabaseTable, IDefaultDeleteRouteStartedHandler(Of TResource), IDefaultDeleteRouteCompletedHandler(Of TResource), IOptions(Of DefaultRouteCollectionOptions(Of TResource)))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute(Of TResource).DefaultDeleteRoute(Mcma.Data.IDocumentDatabaseTable, Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler(Of TResource), Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler(Of TResource), Microsoft.Extensions.Options.IOptions(Of Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions(Of TResource)))
+  name.vb: DefaultDeleteRoute(IDocumentDatabaseTable, IDefaultDeleteRouteStartedHandler(Of TResource), IDefaultDeleteRouteCompletedHandler(Of TResource), IOptions(Of DefaultRouteCollectionOptions(Of TResource)))
+- uid: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1.HandleAsync(Mcma.Api.McmaApiRequestContext)
+  commentId: M:Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1.HandleAsync(Mcma.Api.McmaApiRequestContext)
+  id: HandleAsync(Mcma.Api.McmaApiRequestContext)
+  parent: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1
+  langs:
+  - csharp
+  - vb
+  name: HandleAsync(McmaApiRequestContext)
+  nameWithType: DefaultDeleteRoute<TResource>.HandleAsync(McmaApiRequestContext)
+  fullName: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute<TResource>.HandleAsync(Mcma.Api.McmaApiRequestContext)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Api/Routing/Defaults/Delete/DefaultDeleteRoute.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: HandleAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Routing/Defaults/Delete/DefaultDeleteRoute.cs
+    startLine: 28
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api.Routing.Defaults.Routes
+  syntax:
+    content: public override Task HandleAsync(McmaApiRequestContext requestContext)
+    parameters:
+    - id: requestContext
+      type: Mcma.Api.McmaApiRequestContext
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overrides Function HandleAsync(requestContext As McmaApiRequestContext) As Task
+  overridden: Mcma.Api.Routes.McmaApiRoute.HandleAsync(Mcma.Api.McmaApiRequestContext)
+  overload: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1.HandleAsync*
+  implements:
+  - Mcma.Api.Routes.IMcmaApiRoute.HandleAsync(Mcma.Api.McmaApiRequestContext)
+  nameWithType.vb: DefaultDeleteRoute(Of TResource).HandleAsync(McmaApiRequestContext)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute(Of TResource).HandleAsync(Mcma.Api.McmaApiRequestContext)
+references:
+- uid: Mcma.Api.Routing.Defaults.Routes
+  commentId: N:Mcma.Api.Routing.Defaults.Routes
+  name: Mcma.Api.Routing.Defaults.Routes
+  nameWithType: Mcma.Api.Routing.Defaults.Routes
+  fullName: Mcma.Api.Routing.Defaults.Routes
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Api.Routes.McmaApiRoute
+  commentId: T:Mcma.Api.Routes.McmaApiRoute
+  parent: Mcma.Api.Routes
+  name: McmaApiRoute
+  nameWithType: McmaApiRoute
+  fullName: Mcma.Api.Routes.McmaApiRoute
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute{{TResource}}
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute{`0}
+  parent: Mcma.Api.Routing.Defaults.Routes
+  definition: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute`1
+  name: IDefaultDeleteRoute<TResource>
+  nameWithType: IDefaultDeleteRoute<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute<TResource>
+  nameWithType.vb: IDefaultDeleteRoute(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute(Of TResource)
+  name.vb: IDefaultDeleteRoute(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute`1
+    name: IDefaultDeleteRoute
+    nameWithType: IDefaultDeleteRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute`1
+    name: IDefaultDeleteRoute
+    nameWithType: IDefaultDeleteRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routes.IMcmaApiRoute
+  commentId: T:Mcma.Api.Routes.IMcmaApiRoute
+  parent: Mcma.Api.Routes
+  name: IMcmaApiRoute
+  nameWithType: IMcmaApiRoute
+  fullName: Mcma.Api.Routes.IMcmaApiRoute
+- uid: Mcma.Api.Routes.McmaApiRoute.HttpMethod
+  commentId: P:Mcma.Api.Routes.McmaApiRoute.HttpMethod
+  parent: Mcma.Api.Routes.McmaApiRoute
+  name: HttpMethod
+  nameWithType: McmaApiRoute.HttpMethod
+  fullName: Mcma.Api.Routes.McmaApiRoute.HttpMethod
+- uid: Mcma.Api.Routes.McmaApiRoute.IsMatch(System.String,System.Collections.Generic.IDictionary{System.String,System.Object}@)
+  commentId: M:Mcma.Api.Routes.McmaApiRoute.IsMatch(System.String,System.Collections.Generic.IDictionary{System.String,System.Object}@)
+  parent: Mcma.Api.Routes.McmaApiRoute
+  isExternal: true
+  name: IsMatch(String, IDictionary<String, Object>)
+  nameWithType: McmaApiRoute.IsMatch(String, IDictionary<String, Object>)
+  fullName: Mcma.Api.Routes.McmaApiRoute.IsMatch(System.String, System.Collections.Generic.IDictionary<System.String, System.Object>)
+  nameWithType.vb: McmaApiRoute.IsMatch(String, IDictionary(Of String, Object))
+  fullName.vb: Mcma.Api.Routes.McmaApiRoute.IsMatch(System.String, System.Collections.Generic.IDictionary(Of System.String, System.Object))
+  name.vb: IsMatch(String, IDictionary(Of String, Object))
+  spec.csharp:
+  - uid: Mcma.Api.Routes.McmaApiRoute.IsMatch(System.String,System.Collections.Generic.IDictionary{System.String,System.Object}@)
+    name: IsMatch
+    nameWithType: McmaApiRoute.IsMatch
+    fullName: Mcma.Api.Routes.McmaApiRoute.IsMatch
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Api.Routes.McmaApiRoute.IsMatch(System.String,System.Collections.Generic.IDictionary{System.String,System.Object}@)
+    name: IsMatch
+    nameWithType: McmaApiRoute.IsMatch
+    fullName: Mcma.Api.Routes.McmaApiRoute.IsMatch
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Api.Routes
+  commentId: N:Mcma.Api.Routes
+  name: Mcma.Api.Routes
+  nameWithType: Mcma.Api.Routes
+  fullName: Mcma.Api.Routes
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute`1
+  name: IDefaultDeleteRoute<TResource>
+  nameWithType: IDefaultDeleteRoute<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute<TResource>
+  nameWithType.vb: IDefaultDeleteRoute(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute(Of TResource)
+  name.vb: IDefaultDeleteRoute(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute`1
+    name: IDefaultDeleteRoute
+    nameWithType: IDefaultDeleteRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute`1
+    name: IDefaultDeleteRoute
+    nameWithType: IDefaultDeleteRoute
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1.#ctor*
+  commentId: Overload:Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1.#ctor
+  name: DefaultDeleteRoute
+  nameWithType: DefaultDeleteRoute<TResource>.DefaultDeleteRoute
+  fullName: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute<TResource>.DefaultDeleteRoute
+  nameWithType.vb: DefaultDeleteRoute(Of TResource).DefaultDeleteRoute
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute(Of TResource).DefaultDeleteRoute
+- uid: Mcma.Data.IDocumentDatabaseTable
+  commentId: T:Mcma.Data.IDocumentDatabaseTable
+  parent: Mcma.Data
+  name: IDocumentDatabaseTable
+  nameWithType: IDocumentDatabaseTable
+  fullName: Mcma.Data.IDocumentDatabaseTable
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler{{TResource}}
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler{`0}
+  parent: Mcma.Api.Routing.Defaults.Routes
+  definition: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler`1
+  name: IDefaultDeleteRouteStartedHandler<TResource>
+  nameWithType: IDefaultDeleteRouteStartedHandler<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler<TResource>
+  nameWithType.vb: IDefaultDeleteRouteStartedHandler(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler(Of TResource)
+  name.vb: IDefaultDeleteRouteStartedHandler(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler`1
+    name: IDefaultDeleteRouteStartedHandler
+    nameWithType: IDefaultDeleteRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler`1
+    name: IDefaultDeleteRouteStartedHandler
+    nameWithType: IDefaultDeleteRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler{{TResource}}
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler{`0}
+  parent: Mcma.Api.Routing.Defaults.Routes
+  definition: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1
+  name: IDefaultDeleteRouteCompletedHandler<TResource>
+  nameWithType: IDefaultDeleteRouteCompletedHandler<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler<TResource>
+  nameWithType.vb: IDefaultDeleteRouteCompletedHandler(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler(Of TResource)
+  name.vb: IDefaultDeleteRouteCompletedHandler(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1
+    name: IDefaultDeleteRouteCompletedHandler
+    nameWithType: IDefaultDeleteRouteCompletedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1
+    name: IDefaultDeleteRouteCompletedHandler
+    nameWithType: IDefaultDeleteRouteCompletedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options.IOptions{Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions{{TResource}}}
+  commentId: T:Microsoft.Extensions.Options.IOptions{Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions{`0}}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IOptions`1
+  name: IOptions<DefaultRouteCollectionOptions<TResource>>
+  nameWithType: IOptions<DefaultRouteCollectionOptions<TResource>>
+  fullName: Microsoft.Extensions.Options.IOptions<Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions<TResource>>
+  nameWithType.vb: IOptions(Of DefaultRouteCollectionOptions(Of TResource))
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions(Of TResource))
+  name.vb: IOptions(Of DefaultRouteCollectionOptions(Of TResource))
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions`1
+    name: DefaultRouteCollectionOptions
+    nameWithType: DefaultRouteCollectionOptions
+    fullName: Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions`1
+    name: DefaultRouteCollectionOptions
+    nameWithType: DefaultRouteCollectionOptions
+    fullName: Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data
+  commentId: N:Mcma.Data
+  name: Mcma.Data
+  nameWithType: Mcma.Data
+  fullName: Mcma.Data
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler`1
+  name: IDefaultDeleteRouteStartedHandler<TResource>
+  nameWithType: IDefaultDeleteRouteStartedHandler<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler<TResource>
+  nameWithType.vb: IDefaultDeleteRouteStartedHandler(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler(Of TResource)
+  name.vb: IDefaultDeleteRouteStartedHandler(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler`1
+    name: IDefaultDeleteRouteStartedHandler
+    nameWithType: IDefaultDeleteRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler`1
+    name: IDefaultDeleteRouteStartedHandler
+    nameWithType: IDefaultDeleteRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1
+  name: IDefaultDeleteRouteCompletedHandler<TResource>
+  nameWithType: IDefaultDeleteRouteCompletedHandler<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler<TResource>
+  nameWithType.vb: IDefaultDeleteRouteCompletedHandler(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler(Of TResource)
+  name.vb: IDefaultDeleteRouteCompletedHandler(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1
+    name: IDefaultDeleteRouteCompletedHandler
+    nameWithType: IDefaultDeleteRouteCompletedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1
+    name: IDefaultDeleteRouteCompletedHandler
+    nameWithType: IDefaultDeleteRouteCompletedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options.IOptions`1
+  commentId: T:Microsoft.Extensions.Options.IOptions`1
+  isExternal: true
+  name: IOptions<TOptions>
+  nameWithType: IOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<TOptions>
+  nameWithType.vb: IOptions(Of TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of TOptions)
+  name.vb: IOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: true
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+- uid: Mcma.Api.Routes.McmaApiRoute.HandleAsync(Mcma.Api.McmaApiRequestContext)
+  commentId: M:Mcma.Api.Routes.McmaApiRoute.HandleAsync(Mcma.Api.McmaApiRequestContext)
+  parent: Mcma.Api.Routes.McmaApiRoute
+  name: HandleAsync(McmaApiRequestContext)
+  nameWithType: McmaApiRoute.HandleAsync(McmaApiRequestContext)
+  fullName: Mcma.Api.Routes.McmaApiRoute.HandleAsync(Mcma.Api.McmaApiRequestContext)
+  spec.csharp:
+  - uid: Mcma.Api.Routes.McmaApiRoute.HandleAsync(Mcma.Api.McmaApiRequestContext)
+    name: HandleAsync
+    nameWithType: McmaApiRoute.HandleAsync
+    fullName: Mcma.Api.Routes.McmaApiRoute.HandleAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Api.Routes.McmaApiRoute.HandleAsync(Mcma.Api.McmaApiRequestContext)
+    name: HandleAsync
+    nameWithType: McmaApiRoute.HandleAsync
+    fullName: Mcma.Api.Routes.McmaApiRoute.HandleAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1.HandleAsync*
+  commentId: Overload:Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1.HandleAsync
+  name: HandleAsync
+  nameWithType: DefaultDeleteRoute<TResource>.HandleAsync
+  fullName: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute<TResource>.HandleAsync
+  nameWithType.vb: DefaultDeleteRoute(Of TResource).HandleAsync
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute(Of TResource).HandleAsync
+- uid: Mcma.Api.Routes.IMcmaApiRoute.HandleAsync(Mcma.Api.McmaApiRequestContext)
+  commentId: M:Mcma.Api.Routes.IMcmaApiRoute.HandleAsync(Mcma.Api.McmaApiRequestContext)
+  parent: Mcma.Api.Routes.IMcmaApiRoute
+  name: HandleAsync(McmaApiRequestContext)
+  nameWithType: IMcmaApiRoute.HandleAsync(McmaApiRequestContext)
+  fullName: Mcma.Api.Routes.IMcmaApiRoute.HandleAsync(Mcma.Api.McmaApiRequestContext)
+  spec.csharp:
+  - uid: Mcma.Api.Routes.IMcmaApiRoute.HandleAsync(Mcma.Api.McmaApiRequestContext)
+    name: HandleAsync
+    nameWithType: IMcmaApiRoute.HandleAsync
+    fullName: Mcma.Api.Routes.IMcmaApiRoute.HandleAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Api.Routes.IMcmaApiRoute.HandleAsync(Mcma.Api.McmaApiRequestContext)
+    name: HandleAsync
+    nameWithType: IMcmaApiRoute.HandleAsync
+    fullName: Mcma.Api.Routes.IMcmaApiRoute.HandleAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.McmaApiRequestContext
+  commentId: T:Mcma.Api.McmaApiRequestContext
+  parent: Mcma.Api
+  name: McmaApiRequestContext
+  nameWithType: McmaApiRequestContext
+  fullName: Mcma.Api.McmaApiRequestContext
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Mcma.Api
+  commentId: N:Mcma.Api
+  name: Mcma.Api
+  nameWithType: Mcma.Api
+  fullName: Mcma.Api
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-client.AwsV4PresignedUrlGenerator
+    name: AwsV4PresignedUrlGenerator
+    fullName: AwsV4PresignedUrlGenerator
+    children:
+      - aws-client.AwsV4PresignedUrlGenerator.constructor
+      - aws-client.AwsV4PresignedUrlGenerator.generatePresignedUrl
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: aws-client
+  - uid: aws-client.AwsV4PresignedUrlGenerator.constructor
+    name: AwsV4PresignedUrlGenerator(Credentials)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new AwsV4PresignedUrlGenerator(credentials: Credentials)'
+      parameters:
+        - id: credentials
+          type:
+            - Credentials
+          description: ''
+    package: aws-client
+  - uid: aws-client.AwsV4PresignedUrlGenerator.generatePresignedUrl
+    name: 'generatePresignedUrl(string, string, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function generatePresignedUrl(method: string, requestUrl: string,
+        expires: number)
+      parameters:
+        - id: method
+          type:
+            - string
+          description: ''
+        - id: requestUrl
+          type:
+            - string
+          description: ''
+        - id: expires
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-client

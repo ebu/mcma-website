@@ -1,0 +1,317 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions
+  commentId: T:Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions
+  id: McmaLambdaApiHandlerServiceCollectionExtensions
+  parent: Mcma.Aws.Functions.ApiHandler
+  children:
+  - Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,Action{Mcma.Api.McmaApiBuilder},System.String,Action{Mcma.Aws.DynamoDb.DynamoDbTableOptions})
+  - Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaJobAssignmentApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String,System.String,Action{Mcma.Aws.DynamoDb.DynamoDbTableOptions},Action{Mcma.Api.McmaApiBuilder})
+  langs:
+  - csharp
+  - vb
+  name: McmaLambdaApiHandlerServiceCollectionExtensions
+  nameWithType: McmaLambdaApiHandlerServiceCollectionExtensions
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions
+  type: Class
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Functions.ApiHandler/McmaLambdaApiHandlerServiceCollectionExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaLambdaApiHandlerServiceCollectionExtensions
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Functions.ApiHandler/McmaLambdaApiHandlerServiceCollectionExtensions.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Aws.Functions.ApiHandler
+  namespace: Mcma.Aws.Functions.ApiHandler
+  syntax:
+    content: 'public static class McmaLambdaApiHandlerServiceCollectionExtensions : object'
+    content.vb: >-
+      Public Module McmaLambdaApiHandlerServiceCollectionExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,Action{Mcma.Api.McmaApiBuilder},System.String,Action{Mcma.Aws.DynamoDb.DynamoDbTableOptions})
+  commentId: M:Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,Action{Mcma.Api.McmaApiBuilder},System.String,Action{Mcma.Aws.DynamoDb.DynamoDbTableOptions})
+  id: AddMcmaLambdaApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,Action{Mcma.Api.McmaApiBuilder},System.String,Action{Mcma.Aws.DynamoDb.DynamoDbTableOptions})
+  isExtensionMethod: true
+  parent: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddMcmaLambdaApiHandler(IServiceCollection, String, Action<McmaApiBuilder>, String, Action<DynamoDbTableOptions>)
+  nameWithType: McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaApiHandler(IServiceCollection, String, Action<McmaApiBuilder>, String, Action<DynamoDbTableOptions>)
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.String, Action<Mcma.Api.McmaApiBuilder>, System.String, Action<Mcma.Aws.DynamoDb.DynamoDbTableOptions>)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Functions.ApiHandler/McmaLambdaApiHandlerServiceCollectionExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AddMcmaLambdaApiHandler
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Functions.ApiHandler/McmaLambdaApiHandlerServiceCollectionExtensions.cs
+    startLine: 16
+  assemblies:
+  - Mcma.Aws.Functions.ApiHandler
+  namespace: Mcma.Aws.Functions.ApiHandler
+  syntax:
+    content: public static IServiceCollection AddMcmaLambdaApiHandler(this IServiceCollection services, string applicationName, Action<McmaApiBuilder> buildApi, string logGroupName = null, Action<DynamoDbTableOptions> configureDynamoDb = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: applicationName
+      type: System.String
+    - id: buildApi
+      type: Action{Mcma.Api.McmaApiBuilder}
+    - id: logGroupName
+      type: System.String
+    - id: configureDynamoDb
+      type: Action{Mcma.Aws.DynamoDb.DynamoDbTableOptions}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddMcmaLambdaApiHandler(services As IServiceCollection, applicationName As String, buildApi As Action(Of McmaApiBuilder), logGroupName As String = Nothing, configureDynamoDb As Action(Of DynamoDbTableOptions) = Nothing) As IServiceCollection
+  overload: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaApiHandler*
+  nameWithType.vb: McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaApiHandler(IServiceCollection, String, Action(Of McmaApiBuilder), String, Action(Of DynamoDbTableOptions))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.String, Action(Of Mcma.Api.McmaApiBuilder), System.String, Action(Of Mcma.Aws.DynamoDb.DynamoDbTableOptions))
+  name.vb: AddMcmaLambdaApiHandler(IServiceCollection, String, Action(Of McmaApiBuilder), String, Action(Of DynamoDbTableOptions))
+- uid: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaJobAssignmentApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String,System.String,Action{Mcma.Aws.DynamoDb.DynamoDbTableOptions},Action{Mcma.Api.McmaApiBuilder})
+  commentId: M:Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaJobAssignmentApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String,System.String,Action{Mcma.Aws.DynamoDb.DynamoDbTableOptions},Action{Mcma.Api.McmaApiBuilder})
+  id: AddMcmaLambdaJobAssignmentApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String,System.String,Action{Mcma.Aws.DynamoDb.DynamoDbTableOptions},Action{Mcma.Api.McmaApiBuilder})
+  isExtensionMethod: true
+  parent: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddMcmaLambdaJobAssignmentApiHandler(IServiceCollection, String, String, String, Action<DynamoDbTableOptions>, Action<McmaApiBuilder>)
+  nameWithType: McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaJobAssignmentApiHandler(IServiceCollection, String, String, String, Action<DynamoDbTableOptions>, Action<McmaApiBuilder>)
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaJobAssignmentApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.String, System.String, System.String, Action<Mcma.Aws.DynamoDb.DynamoDbTableOptions>, Action<Mcma.Api.McmaApiBuilder>)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Functions.ApiHandler/McmaLambdaApiHandlerServiceCollectionExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AddMcmaLambdaJobAssignmentApiHandler
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Functions.ApiHandler/McmaLambdaApiHandlerServiceCollectionExtensions.cs
+    startLine: 25
+  assemblies:
+  - Mcma.Aws.Functions.ApiHandler
+  namespace: Mcma.Aws.Functions.ApiHandler
+  syntax:
+    content: public static IServiceCollection AddMcmaLambdaJobAssignmentApiHandler(this IServiceCollection services, string applicationName, string logGroupName = null, string workerFunctionName = null, Action<DynamoDbTableOptions> configureDynamoDb = null, Action<McmaApiBuilder> buildApi = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: applicationName
+      type: System.String
+    - id: logGroupName
+      type: System.String
+    - id: workerFunctionName
+      type: System.String
+    - id: configureDynamoDb
+      type: Action{Mcma.Aws.DynamoDb.DynamoDbTableOptions}
+    - id: buildApi
+      type: Action{Mcma.Api.McmaApiBuilder}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddMcmaLambdaJobAssignmentApiHandler(services As IServiceCollection, applicationName As String, logGroupName As String = Nothing, workerFunctionName As String = Nothing, configureDynamoDb As Action(Of DynamoDbTableOptions) = Nothing, buildApi As Action(Of McmaApiBuilder) = Nothing) As IServiceCollection
+  overload: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaJobAssignmentApiHandler*
+  nameWithType.vb: McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaJobAssignmentApiHandler(IServiceCollection, String, String, String, Action(Of DynamoDbTableOptions), Action(Of McmaApiBuilder))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaJobAssignmentApiHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.String, System.String, System.String, Action(Of Mcma.Aws.DynamoDb.DynamoDbTableOptions), Action(Of Mcma.Api.McmaApiBuilder))
+  name.vb: AddMcmaLambdaJobAssignmentApiHandler(IServiceCollection, String, String, String, Action(Of DynamoDbTableOptions), Action(Of McmaApiBuilder))
+references:
+- uid: Mcma.Aws.Functions.ApiHandler
+  commentId: N:Mcma.Aws.Functions.ApiHandler
+  name: Mcma.Aws.Functions.ApiHandler
+  nameWithType: Mcma.Aws.Functions.ApiHandler
+  fullName: Mcma.Aws.Functions.ApiHandler
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaApiHandler*
+  commentId: Overload:Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaApiHandler
+  name: AddMcmaLambdaApiHandler
+  nameWithType: McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaApiHandler
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaApiHandler
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Action{Mcma.Api.McmaApiBuilder}
+  commentId: '!:Action{Mcma.Api.McmaApiBuilder}'
+  definition: Action`1
+  name: Action<McmaApiBuilder>
+  nameWithType: Action<McmaApiBuilder>
+  fullName: Action<Mcma.Api.McmaApiBuilder>
+  nameWithType.vb: Action(Of McmaApiBuilder)
+  fullName.vb: Action(Of Mcma.Api.McmaApiBuilder)
+  name.vb: Action(Of McmaApiBuilder)
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Api.McmaApiBuilder
+    name: McmaApiBuilder
+    nameWithType: McmaApiBuilder
+    fullName: Mcma.Api.McmaApiBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Api.McmaApiBuilder
+    name: McmaApiBuilder
+    nameWithType: McmaApiBuilder
+    fullName: Mcma.Api.McmaApiBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Action{Mcma.Aws.DynamoDb.DynamoDbTableOptions}
+  commentId: '!:Action{Mcma.Aws.DynamoDb.DynamoDbTableOptions}'
+  definition: Action`1
+  name: Action<DynamoDbTableOptions>
+  nameWithType: Action<DynamoDbTableOptions>
+  fullName: Action<Mcma.Aws.DynamoDb.DynamoDbTableOptions>
+  nameWithType.vb: Action(Of DynamoDbTableOptions)
+  fullName.vb: Action(Of Mcma.Aws.DynamoDb.DynamoDbTableOptions)
+  name.vb: Action(Of DynamoDbTableOptions)
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Aws.DynamoDb.DynamoDbTableOptions
+    name: DynamoDbTableOptions
+    nameWithType: DynamoDbTableOptions
+    fullName: Mcma.Aws.DynamoDb.DynamoDbTableOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Aws.DynamoDb.DynamoDbTableOptions
+    name: DynamoDbTableOptions
+    nameWithType: DynamoDbTableOptions
+    fullName: Mcma.Aws.DynamoDb.DynamoDbTableOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaJobAssignmentApiHandler*
+  commentId: Overload:Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaJobAssignmentApiHandler
+  name: AddMcmaLambdaJobAssignmentApiHandler
+  nameWithType: McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaJobAssignmentApiHandler
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions.AddMcmaLambdaJobAssignmentApiHandler

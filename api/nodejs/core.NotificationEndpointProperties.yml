@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.NotificationEndpointProperties
+    name: NotificationEndpointProperties
+    fullName: NotificationEndpointProperties
+    children:
+      - core.NotificationEndpointProperties.@type
+      - core.NotificationEndpointProperties.httpEndpoint
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: core.McmaObjectProperties
+    package: core
+  - uid: core.NotificationEndpointProperties.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: '@type?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.NotificationEndpointProperties.httpEndpoint
+    name: httpEndpoint
+    fullName: httpEndpoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'httpEndpoint: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+references:
+  - uid: core.McmaObjectProperties
+    name: McmaObjectProperties
+    spec.typeScript:
+      - name: McmaObjectProperties
+        fullName: McmaObjectProperties
+        uid: core.McmaObjectProperties

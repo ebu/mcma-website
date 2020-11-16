@@ -1,0 +1,2674 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Logging.Logger
+  commentId: T:Mcma.Logging.Logger
+  id: Logger
+  parent: Mcma.Logging
+  children:
+  - Mcma.Logging.Logger.#ctor(System.String,System.String,Mcma.McmaTracker)
+  - Mcma.Logging.Logger.BuildLogEvent(System.Int32,System.String,System.String,System.Object[])
+  - Mcma.Logging.Logger.Debug(System.Object[])
+  - Mcma.Logging.Logger.Debug(System.String,System.Object[])
+  - Mcma.Logging.Logger.Error(System.Object[])
+  - Mcma.Logging.Logger.Error(System.String,System.Object[])
+  - Mcma.Logging.Logger.Fatal(System.Object[])
+  - Mcma.Logging.Logger.Fatal(System.String,System.Object[])
+  - Mcma.Logging.Logger.FunctionEnd(System.String,System.Object[])
+  - Mcma.Logging.Logger.FunctionStart(System.String,System.Object[])
+  - Mcma.Logging.Logger.Info(System.Object[])
+  - Mcma.Logging.Logger.Info(System.String,System.Object[])
+  - Mcma.Logging.Logger.JobEnd(System.Object[])
+  - Mcma.Logging.Logger.JobEnd(System.String,System.Object[])
+  - Mcma.Logging.Logger.JobStart(System.Object[])
+  - Mcma.Logging.Logger.JobStart(System.String,System.Object[])
+  - Mcma.Logging.Logger.JobUpdate(System.Object[])
+  - Mcma.Logging.Logger.JobUpdate(System.String,System.Object[])
+  - Mcma.Logging.Logger.RequestId
+  - Mcma.Logging.Logger.Source
+  - Mcma.Logging.Logger.System
+  - Mcma.Logging.Logger.Tracker
+  - Mcma.Logging.Logger.Warn(System.Object[])
+  - Mcma.Logging.Logger.Warn(System.String,System.Object[])
+  - Mcma.Logging.Logger.WriteLogEvent(Mcma.Logging.LogEvent)
+  langs:
+  - csharp
+  - vb
+  name: Logger
+  nameWithType: Logger
+  fullName: Mcma.Logging.Logger
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Logger
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nAbstract base for implementing loggers. Simplifies implementations by preventing the need to write separate methods for each level (e.g. Debug, Info, Warn, etc)\n"
+  example: []
+  syntax:
+    content: 'public abstract class Logger : ILogger'
+    content.vb: >-
+      Public MustInherit Class Logger
+
+          Implements ILogger
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Mcma.Aws.CloudWatch.CloudWatchLogger
+  - Mcma.Azure.Logger.AppInsightsLogger
+  - Mcma.GoogleCloud.Logger.CloudLoggingLogger
+  - Mcma.Logging.ConsoleLogger
+  implements:
+  - Mcma.Logging.ILogger
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Mcma.Logging.Logger.#ctor(System.String,System.String,Mcma.McmaTracker)
+  commentId: M:Mcma.Logging.Logger.#ctor(System.String,System.String,Mcma.McmaTracker)
+  id: '#ctor(System.String,System.String,Mcma.McmaTracker)'
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Logger(String, String, McmaTracker)
+  nameWithType: Logger.Logger(String, String, McmaTracker)
+  fullName: Mcma.Logging.Logger.Logger(System.String, System.String, Mcma.McmaTracker)
+  type: Constructor
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 15
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nInstantiates a <xref href=\"Mcma.Logging.Logger\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: protected Logger(string source, string requestId, McmaTracker tracker)
+    parameters:
+    - id: source
+      type: System.String
+      description: The source from which the log messages are coming
+    - id: requestId
+      type: System.String
+      description: The ID of the current request, if any. This is generally a unique ID provided by the platform on which the code is running.
+    - id: tracker
+      type: Mcma.McmaTracker
+      description: The tracker for the current MCMA operation, if any
+    content.vb: Protected Sub New(source As String, requestId As String, tracker As McmaTracker)
+  overload: Mcma.Logging.Logger.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Mcma.Logging.Logger.Source
+  commentId: P:Mcma.Logging.Logger.Source
+  id: Source
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: Logger.Source
+  fullName: Mcma.Logging.Logger.Source
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Source
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 25
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nGets the source from which the log messages are coming\n"
+  example: []
+  syntax:
+    content: protected string Source { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected ReadOnly Property Source As String
+  overload: Mcma.Logging.Logger.Source*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Mcma.Logging.Logger.RequestId
+  commentId: P:Mcma.Logging.Logger.RequestId
+  id: RequestId
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: RequestId
+  nameWithType: Logger.RequestId
+  fullName: Mcma.Logging.Logger.RequestId
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: RequestId
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 30
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nGets the ID of the current request, if any\n"
+  example: []
+  syntax:
+    content: protected string RequestId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected ReadOnly Property RequestId As String
+  overload: Mcma.Logging.Logger.RequestId*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Mcma.Logging.Logger.Tracker
+  commentId: P:Mcma.Logging.Logger.Tracker
+  id: Tracker
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Tracker
+  nameWithType: Logger.Tracker
+  fullName: Mcma.Logging.Logger.Tracker
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Tracker
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 35
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nGets the tracker for the current MCMA operation, if any\n"
+  example: []
+  syntax:
+    content: protected McmaTracker Tracker { get; }
+    parameters: []
+    return:
+      type: Mcma.McmaTracker
+    content.vb: Protected ReadOnly Property Tracker As McmaTracker
+  overload: Mcma.Logging.Logger.Tracker*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Mcma.Logging.Logger.System
+  commentId: P:Mcma.Logging.Logger.System
+  id: System
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: System
+  nameWithType: Logger.System
+  fullName: Mcma.Logging.Logger.System
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: System
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 40
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nGets or sets a statically-available fallback logger. Defaults to using <xref href=\"Mcma.Logging.ConsoleLogger\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public static ILogger System { get; set; }
+    parameters: []
+    return:
+      type: Mcma.Logging.ILogger
+    content.vb: Public Shared Property System As ILogger
+  overload: Mcma.Logging.Logger.System*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Logging.Logger.BuildLogEvent(System.Int32,System.String,System.String,System.Object[])
+  commentId: M:Mcma.Logging.Logger.BuildLogEvent(System.Int32,System.String,System.String,System.Object[])
+  id: BuildLogEvent(System.Int32,System.String,System.String,System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: BuildLogEvent(Int32, String, String, Object[])
+  nameWithType: Logger.BuildLogEvent(Int32, String, String, Object[])
+  fullName: Mcma.Logging.Logger.BuildLogEvent(System.Int32, System.String, System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: BuildLogEvent
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 50
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nBuilds a <xref href=\"Mcma.Logging.LogEvent\" data-throw-if-not-resolved=\"false\"></xref> with a given level, type, message, and args\n"
+  example: []
+  syntax:
+    content: protected LogEvent BuildLogEvent(int level, string type, string message, object[] args)
+    parameters:
+    - id: level
+      type: System.Int32
+      description: ''
+    - id: type
+      type: System.String
+      description: ''
+    - id: message
+      type: System.String
+      description: ''
+    - id: args
+      type: System.Object[]
+      description: ''
+    return:
+      type: Mcma.Logging.LogEvent
+      description: ''
+    content.vb: Protected Function BuildLogEvent(level As Integer, type As String, message As String, args As Object()) As LogEvent
+  overload: Mcma.Logging.Logger.BuildLogEvent*
+  nameWithType.vb: Logger.BuildLogEvent(Int32, String, String, Object())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Mcma.Logging.Logger.BuildLogEvent(System.Int32, System.String, System.String, System.Object())
+  name.vb: BuildLogEvent(Int32, String, String, Object())
+- uid: Mcma.Logging.Logger.WriteLogEvent(Mcma.Logging.LogEvent)
+  commentId: M:Mcma.Logging.Logger.WriteLogEvent(Mcma.Logging.LogEvent)
+  id: WriteLogEvent(Mcma.Logging.LogEvent)
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: WriteLogEvent(LogEvent)
+  nameWithType: Logger.WriteLogEvent(LogEvent)
+  fullName: Mcma.Logging.Logger.WriteLogEvent(Mcma.Logging.LogEvent)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: WriteLogEvent
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 57
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  summary: "\nTo be overridden by implementers defining where log messages are written\n"
+  example: []
+  syntax:
+    content: protected abstract void WriteLogEvent(LogEvent logEvent)
+    parameters:
+    - id: logEvent
+      type: Mcma.Logging.LogEvent
+      description: ''
+    content.vb: Protected MustOverride Sub WriteLogEvent(logEvent As LogEvent)
+  overload: Mcma.Logging.Logger.WriteLogEvent*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: Mcma.Logging.Logger.Fatal(System.String,System.Object[])
+  commentId: M:Mcma.Logging.Logger.Fatal(System.String,System.Object[])
+  id: Fatal(System.String,System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Fatal(String, Object[])
+  nameWithType: Logger.Fatal(String, Object[])
+  fullName: Mcma.Logging.Logger.Fatal(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Fatal
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 63
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void Fatal(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub Fatal(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.Logger.Fatal*
+  implements:
+  - Mcma.Logging.ILogger.Fatal(System.String,System.Object[])
+  nameWithType.vb: Logger.Fatal(String, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.Fatal(System.String, System.Object())
+  name.vb: Fatal(String, Object())
+- uid: Mcma.Logging.Logger.Fatal(System.Object[])
+  commentId: M:Mcma.Logging.Logger.Fatal(System.Object[])
+  id: Fatal(System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Fatal(Object[])
+  nameWithType: Logger.Fatal(Object[])
+  fullName: Mcma.Logging.Logger.Fatal(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Fatal
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 66
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void Fatal(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub Fatal(ParamArray args As Object())
+  overload: Mcma.Logging.Logger.Fatal*
+  implements:
+  - Mcma.Logging.ILogger.Fatal(System.Object[])
+  nameWithType.vb: Logger.Fatal(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.Fatal(System.Object())
+  name.vb: Fatal(Object())
+- uid: Mcma.Logging.Logger.Error(System.String,System.Object[])
+  commentId: M:Mcma.Logging.Logger.Error(System.String,System.Object[])
+  id: Error(System.String,System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Error(String, Object[])
+  nameWithType: Logger.Error(String, Object[])
+  fullName: Mcma.Logging.Logger.Error(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Error
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 70
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void Error(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub Error(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.Logger.Error*
+  implements:
+  - Mcma.Logging.ILogger.Error(System.String,System.Object[])
+  nameWithType.vb: Logger.Error(String, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.Error(System.String, System.Object())
+  name.vb: Error(String, Object())
+- uid: Mcma.Logging.Logger.Error(System.Object[])
+  commentId: M:Mcma.Logging.Logger.Error(System.Object[])
+  id: Error(System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Error(Object[])
+  nameWithType: Logger.Error(Object[])
+  fullName: Mcma.Logging.Logger.Error(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Error
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 73
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void Error(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub Error(ParamArray args As Object())
+  overload: Mcma.Logging.Logger.Error*
+  implements:
+  - Mcma.Logging.ILogger.Error(System.Object[])
+  nameWithType.vb: Logger.Error(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.Error(System.Object())
+  name.vb: Error(Object())
+- uid: Mcma.Logging.Logger.Warn(System.String,System.Object[])
+  commentId: M:Mcma.Logging.Logger.Warn(System.String,System.Object[])
+  id: Warn(System.String,System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Warn(String, Object[])
+  nameWithType: Logger.Warn(String, Object[])
+  fullName: Mcma.Logging.Logger.Warn(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Warn
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 77
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void Warn(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub Warn(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.Logger.Warn*
+  implements:
+  - Mcma.Logging.ILogger.Warn(System.String,System.Object[])
+  nameWithType.vb: Logger.Warn(String, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.Warn(System.String, System.Object())
+  name.vb: Warn(String, Object())
+- uid: Mcma.Logging.Logger.Warn(System.Object[])
+  commentId: M:Mcma.Logging.Logger.Warn(System.Object[])
+  id: Warn(System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Warn(Object[])
+  nameWithType: Logger.Warn(Object[])
+  fullName: Mcma.Logging.Logger.Warn(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Warn
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 80
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void Warn(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub Warn(ParamArray args As Object())
+  overload: Mcma.Logging.Logger.Warn*
+  implements:
+  - Mcma.Logging.ILogger.Warn(System.Object[])
+  nameWithType.vb: Logger.Warn(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.Warn(System.Object())
+  name.vb: Warn(Object())
+- uid: Mcma.Logging.Logger.Info(System.String,System.Object[])
+  commentId: M:Mcma.Logging.Logger.Info(System.String,System.Object[])
+  id: Info(System.String,System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Info(String, Object[])
+  nameWithType: Logger.Info(String, Object[])
+  fullName: Mcma.Logging.Logger.Info(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Info
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 84
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void Info(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub Info(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.Logger.Info*
+  implements:
+  - Mcma.Logging.ILogger.Info(System.String,System.Object[])
+  nameWithType.vb: Logger.Info(String, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.Info(System.String, System.Object())
+  name.vb: Info(String, Object())
+- uid: Mcma.Logging.Logger.Info(System.Object[])
+  commentId: M:Mcma.Logging.Logger.Info(System.Object[])
+  id: Info(System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Info(Object[])
+  nameWithType: Logger.Info(Object[])
+  fullName: Mcma.Logging.Logger.Info(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Info
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 87
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void Info(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub Info(ParamArray args As Object())
+  overload: Mcma.Logging.Logger.Info*
+  implements:
+  - Mcma.Logging.ILogger.Info(System.Object[])
+  nameWithType.vb: Logger.Info(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.Info(System.Object())
+  name.vb: Info(Object())
+- uid: Mcma.Logging.Logger.Debug(System.String,System.Object[])
+  commentId: M:Mcma.Logging.Logger.Debug(System.String,System.Object[])
+  id: Debug(System.String,System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Debug(String, Object[])
+  nameWithType: Logger.Debug(String, Object[])
+  fullName: Mcma.Logging.Logger.Debug(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Debug
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 91
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void Debug(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub Debug(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.Logger.Debug*
+  implements:
+  - Mcma.Logging.ILogger.Debug(System.String,System.Object[])
+  nameWithType.vb: Logger.Debug(String, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.Debug(System.String, System.Object())
+  name.vb: Debug(String, Object())
+- uid: Mcma.Logging.Logger.Debug(System.Object[])
+  commentId: M:Mcma.Logging.Logger.Debug(System.Object[])
+  id: Debug(System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Debug(Object[])
+  nameWithType: Logger.Debug(Object[])
+  fullName: Mcma.Logging.Logger.Debug(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Debug
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 94
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void Debug(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub Debug(ParamArray args As Object())
+  overload: Mcma.Logging.Logger.Debug*
+  implements:
+  - Mcma.Logging.ILogger.Debug(System.Object[])
+  nameWithType.vb: Logger.Debug(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.Debug(System.Object())
+  name.vb: Debug(Object())
+- uid: Mcma.Logging.Logger.FunctionStart(System.String,System.Object[])
+  commentId: M:Mcma.Logging.Logger.FunctionStart(System.String,System.Object[])
+  id: FunctionStart(System.String,System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: FunctionStart(String, Object[])
+  nameWithType: Logger.FunctionStart(String, Object[])
+  fullName: Mcma.Logging.Logger.FunctionStart(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: FunctionStart
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 98
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void FunctionStart(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub FunctionStart(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.Logger.FunctionStart*
+  implements:
+  - Mcma.Logging.ILogger.FunctionStart(System.String,System.Object[])
+  nameWithType.vb: Logger.FunctionStart(String, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.FunctionStart(System.String, System.Object())
+  name.vb: FunctionStart(String, Object())
+- uid: Mcma.Logging.Logger.FunctionEnd(System.String,System.Object[])
+  commentId: M:Mcma.Logging.Logger.FunctionEnd(System.String,System.Object[])
+  id: FunctionEnd(System.String,System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: FunctionEnd(String, Object[])
+  nameWithType: Logger.FunctionEnd(String, Object[])
+  fullName: Mcma.Logging.Logger.FunctionEnd(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: FunctionEnd
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 101
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void FunctionEnd(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub FunctionEnd(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.Logger.FunctionEnd*
+  implements:
+  - Mcma.Logging.ILogger.FunctionEnd(System.String,System.Object[])
+  nameWithType.vb: Logger.FunctionEnd(String, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.FunctionEnd(System.String, System.Object())
+  name.vb: FunctionEnd(String, Object())
+- uid: Mcma.Logging.Logger.JobStart(System.Object[])
+  commentId: M:Mcma.Logging.Logger.JobStart(System.Object[])
+  id: JobStart(System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: JobStart(Object[])
+  nameWithType: Logger.JobStart(Object[])
+  fullName: Mcma.Logging.Logger.JobStart(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: JobStart
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 105
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void JobStart(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub JobStart(ParamArray args As Object())
+  overload: Mcma.Logging.Logger.JobStart*
+  implements:
+  - Mcma.Logging.ILogger.JobStart(System.Object[])
+  nameWithType.vb: Logger.JobStart(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.JobStart(System.Object())
+  name.vb: JobStart(Object())
+- uid: Mcma.Logging.Logger.JobStart(System.String,System.Object[])
+  commentId: M:Mcma.Logging.Logger.JobStart(System.String,System.Object[])
+  id: JobStart(System.String,System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: JobStart(String, Object[])
+  nameWithType: Logger.JobStart(String, Object[])
+  fullName: Mcma.Logging.Logger.JobStart(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: JobStart
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 108
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void JobStart(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub JobStart(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.Logger.JobStart*
+  implements:
+  - Mcma.Logging.ILogger.JobStart(System.String,System.Object[])
+  nameWithType.vb: Logger.JobStart(String, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.JobStart(System.String, System.Object())
+  name.vb: JobStart(String, Object())
+- uid: Mcma.Logging.Logger.JobUpdate(System.Object[])
+  commentId: M:Mcma.Logging.Logger.JobUpdate(System.Object[])
+  id: JobUpdate(System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: JobUpdate(Object[])
+  nameWithType: Logger.JobUpdate(Object[])
+  fullName: Mcma.Logging.Logger.JobUpdate(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: JobUpdate
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 111
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void JobUpdate(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub JobUpdate(ParamArray args As Object())
+  overload: Mcma.Logging.Logger.JobUpdate*
+  implements:
+  - Mcma.Logging.ILogger.JobUpdate(System.Object[])
+  nameWithType.vb: Logger.JobUpdate(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.JobUpdate(System.Object())
+  name.vb: JobUpdate(Object())
+- uid: Mcma.Logging.Logger.JobUpdate(System.String,System.Object[])
+  commentId: M:Mcma.Logging.Logger.JobUpdate(System.String,System.Object[])
+  id: JobUpdate(System.String,System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: JobUpdate(String, Object[])
+  nameWithType: Logger.JobUpdate(String, Object[])
+  fullName: Mcma.Logging.Logger.JobUpdate(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: JobUpdate
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 114
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void JobUpdate(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub JobUpdate(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.Logger.JobUpdate*
+  implements:
+  - Mcma.Logging.ILogger.JobUpdate(System.String,System.Object[])
+  nameWithType.vb: Logger.JobUpdate(String, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.JobUpdate(System.String, System.Object())
+  name.vb: JobUpdate(String, Object())
+- uid: Mcma.Logging.Logger.JobEnd(System.Object[])
+  commentId: M:Mcma.Logging.Logger.JobEnd(System.Object[])
+  id: JobEnd(System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: JobEnd(Object[])
+  nameWithType: Logger.JobEnd(Object[])
+  fullName: Mcma.Logging.Logger.JobEnd(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: JobEnd
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 117
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void JobEnd(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub JobEnd(ParamArray args As Object())
+  overload: Mcma.Logging.Logger.JobEnd*
+  implements:
+  - Mcma.Logging.ILogger.JobEnd(System.Object[])
+  nameWithType.vb: Logger.JobEnd(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.JobEnd(System.Object())
+  name.vb: JobEnd(Object())
+- uid: Mcma.Logging.Logger.JobEnd(System.String,System.Object[])
+  commentId: M:Mcma.Logging.Logger.JobEnd(System.String,System.Object[])
+  id: JobEnd(System.String,System.Object[])
+  parent: Mcma.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: JobEnd(String, Object[])
+  nameWithType: Logger.JobEnd(String, Object[])
+  fullName: Mcma.Logging.Logger.JobEnd(System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Logging/Logger.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: JobEnd
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Logging/Logger.cs
+    startLine: 120
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Logging
+  example: []
+  syntax:
+    content: public void JobEnd(string message, params object[] args)
+    parameters:
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub JobEnd(message As String, ParamArray args As Object())
+  overload: Mcma.Logging.Logger.JobEnd*
+  implements:
+  - Mcma.Logging.ILogger.JobEnd(System.String,System.Object[])
+  nameWithType.vb: Logger.JobEnd(String, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Logging.Logger.JobEnd(System.String, System.Object())
+  name.vb: JobEnd(String, Object())
+references:
+- uid: Mcma.Logging
+  commentId: N:Mcma.Logging
+  name: Mcma.Logging
+  nameWithType: Mcma.Logging
+  fullName: Mcma.Logging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Logging.ILogger
+  commentId: T:Mcma.Logging.ILogger
+  parent: Mcma.Logging
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Mcma.Logging.ILogger
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Logging.Logger
+  commentId: T:Mcma.Logging.Logger
+  parent: Mcma.Logging
+  name: Logger
+  nameWithType: Logger
+  fullName: Mcma.Logging.Logger
+- uid: Mcma.Logging.Logger.#ctor*
+  commentId: Overload:Mcma.Logging.Logger.#ctor
+  name: Logger
+  nameWithType: Logger.Logger
+  fullName: Mcma.Logging.Logger.Logger
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.McmaTracker
+  commentId: T:Mcma.McmaTracker
+  parent: Mcma
+  name: McmaTracker
+  nameWithType: McmaTracker
+  fullName: Mcma.McmaTracker
+- uid: Mcma
+  commentId: N:Mcma
+  name: Mcma
+  nameWithType: Mcma
+  fullName: Mcma
+- uid: Mcma.Logging.Logger.Source*
+  commentId: Overload:Mcma.Logging.Logger.Source
+  name: Source
+  nameWithType: Logger.Source
+  fullName: Mcma.Logging.Logger.Source
+- uid: Mcma.Logging.Logger.RequestId*
+  commentId: Overload:Mcma.Logging.Logger.RequestId
+  name: RequestId
+  nameWithType: Logger.RequestId
+  fullName: Mcma.Logging.Logger.RequestId
+- uid: Mcma.Logging.Logger.Tracker*
+  commentId: Overload:Mcma.Logging.Logger.Tracker
+  name: Tracker
+  nameWithType: Logger.Tracker
+  fullName: Mcma.Logging.Logger.Tracker
+- uid: Mcma.Logging.ConsoleLogger
+  commentId: T:Mcma.Logging.ConsoleLogger
+  parent: Mcma.Logging
+  name: ConsoleLogger
+  nameWithType: ConsoleLogger
+  fullName: Mcma.Logging.ConsoleLogger
+- uid: Mcma.Logging.Logger.System*
+  commentId: Overload:Mcma.Logging.Logger.System
+  name: System
+  nameWithType: Logger.System
+  fullName: Mcma.Logging.Logger.System
+- uid: Mcma.Logging.LogEvent
+  commentId: T:Mcma.Logging.LogEvent
+  parent: Mcma.Logging
+  name: LogEvent
+  nameWithType: LogEvent
+  fullName: Mcma.Logging.LogEvent
+- uid: Mcma.Logging.Logger.BuildLogEvent*
+  commentId: Overload:Mcma.Logging.Logger.BuildLogEvent
+  name: BuildLogEvent
+  nameWithType: Logger.BuildLogEvent
+  fullName: Mcma.Logging.Logger.BuildLogEvent
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Mcma.Logging.Logger.WriteLogEvent*
+  commentId: Overload:Mcma.Logging.Logger.WriteLogEvent
+  name: WriteLogEvent
+  nameWithType: Logger.WriteLogEvent
+  fullName: Mcma.Logging.Logger.WriteLogEvent
+- uid: Mcma.Logging.Logger.Fatal*
+  commentId: Overload:Mcma.Logging.Logger.Fatal
+  name: Fatal
+  nameWithType: Logger.Fatal
+  fullName: Mcma.Logging.Logger.Fatal
+- uid: Mcma.Logging.ILogger.Fatal(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Fatal(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: Fatal(String, Object[])
+  nameWithType: ILogger.Fatal(String, Object[])
+  fullName: Mcma.Logging.ILogger.Fatal(System.String, System.Object[])
+  nameWithType.vb: ILogger.Fatal(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.Fatal(System.String, System.Object())
+  name.vb: Fatal(String, Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.Fatal(System.String,System.Object[])
+    name: Fatal
+    nameWithType: ILogger.Fatal
+    fullName: Mcma.Logging.ILogger.Fatal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.Fatal(System.String,System.Object[])
+    name: Fatal
+    nameWithType: ILogger.Fatal
+    fullName: Mcma.Logging.ILogger.Fatal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.ILogger.Fatal(System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Fatal(System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: Fatal(Object[])
+  nameWithType: ILogger.Fatal(Object[])
+  fullName: Mcma.Logging.ILogger.Fatal(System.Object[])
+  nameWithType.vb: ILogger.Fatal(Object())
+  fullName.vb: Mcma.Logging.ILogger.Fatal(System.Object())
+  name.vb: Fatal(Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.Fatal(System.Object[])
+    name: Fatal
+    nameWithType: ILogger.Fatal
+    fullName: Mcma.Logging.ILogger.Fatal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.Fatal(System.Object[])
+    name: Fatal
+    nameWithType: ILogger.Fatal
+    fullName: Mcma.Logging.ILogger.Fatal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.Logger.Error*
+  commentId: Overload:Mcma.Logging.Logger.Error
+  name: Error
+  nameWithType: Logger.Error
+  fullName: Mcma.Logging.Logger.Error
+- uid: Mcma.Logging.ILogger.Error(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Error(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: Error(String, Object[])
+  nameWithType: ILogger.Error(String, Object[])
+  fullName: Mcma.Logging.ILogger.Error(System.String, System.Object[])
+  nameWithType.vb: ILogger.Error(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.Error(System.String, System.Object())
+  name.vb: Error(String, Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.Error(System.String,System.Object[])
+    name: Error
+    nameWithType: ILogger.Error
+    fullName: Mcma.Logging.ILogger.Error
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.Error(System.String,System.Object[])
+    name: Error
+    nameWithType: ILogger.Error
+    fullName: Mcma.Logging.ILogger.Error
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.ILogger.Error(System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Error(System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: Error(Object[])
+  nameWithType: ILogger.Error(Object[])
+  fullName: Mcma.Logging.ILogger.Error(System.Object[])
+  nameWithType.vb: ILogger.Error(Object())
+  fullName.vb: Mcma.Logging.ILogger.Error(System.Object())
+  name.vb: Error(Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.Error(System.Object[])
+    name: Error
+    nameWithType: ILogger.Error
+    fullName: Mcma.Logging.ILogger.Error
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.Error(System.Object[])
+    name: Error
+    nameWithType: ILogger.Error
+    fullName: Mcma.Logging.ILogger.Error
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.Logger.Warn*
+  commentId: Overload:Mcma.Logging.Logger.Warn
+  name: Warn
+  nameWithType: Logger.Warn
+  fullName: Mcma.Logging.Logger.Warn
+- uid: Mcma.Logging.ILogger.Warn(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Warn(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: Warn(String, Object[])
+  nameWithType: ILogger.Warn(String, Object[])
+  fullName: Mcma.Logging.ILogger.Warn(System.String, System.Object[])
+  nameWithType.vb: ILogger.Warn(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.Warn(System.String, System.Object())
+  name.vb: Warn(String, Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.Warn(System.String,System.Object[])
+    name: Warn
+    nameWithType: ILogger.Warn
+    fullName: Mcma.Logging.ILogger.Warn
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.Warn(System.String,System.Object[])
+    name: Warn
+    nameWithType: ILogger.Warn
+    fullName: Mcma.Logging.ILogger.Warn
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.ILogger.Warn(System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Warn(System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: Warn(Object[])
+  nameWithType: ILogger.Warn(Object[])
+  fullName: Mcma.Logging.ILogger.Warn(System.Object[])
+  nameWithType.vb: ILogger.Warn(Object())
+  fullName.vb: Mcma.Logging.ILogger.Warn(System.Object())
+  name.vb: Warn(Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.Warn(System.Object[])
+    name: Warn
+    nameWithType: ILogger.Warn
+    fullName: Mcma.Logging.ILogger.Warn
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.Warn(System.Object[])
+    name: Warn
+    nameWithType: ILogger.Warn
+    fullName: Mcma.Logging.ILogger.Warn
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.Logger.Info*
+  commentId: Overload:Mcma.Logging.Logger.Info
+  name: Info
+  nameWithType: Logger.Info
+  fullName: Mcma.Logging.Logger.Info
+- uid: Mcma.Logging.ILogger.Info(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Info(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: Info(String, Object[])
+  nameWithType: ILogger.Info(String, Object[])
+  fullName: Mcma.Logging.ILogger.Info(System.String, System.Object[])
+  nameWithType.vb: ILogger.Info(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.Info(System.String, System.Object())
+  name.vb: Info(String, Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.Info(System.String,System.Object[])
+    name: Info
+    nameWithType: ILogger.Info
+    fullName: Mcma.Logging.ILogger.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.Info(System.String,System.Object[])
+    name: Info
+    nameWithType: ILogger.Info
+    fullName: Mcma.Logging.ILogger.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.ILogger.Info(System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Info(System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: Info(Object[])
+  nameWithType: ILogger.Info(Object[])
+  fullName: Mcma.Logging.ILogger.Info(System.Object[])
+  nameWithType.vb: ILogger.Info(Object())
+  fullName.vb: Mcma.Logging.ILogger.Info(System.Object())
+  name.vb: Info(Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.Info(System.Object[])
+    name: Info
+    nameWithType: ILogger.Info
+    fullName: Mcma.Logging.ILogger.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.Info(System.Object[])
+    name: Info
+    nameWithType: ILogger.Info
+    fullName: Mcma.Logging.ILogger.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.Logger.Debug*
+  commentId: Overload:Mcma.Logging.Logger.Debug
+  name: Debug
+  nameWithType: Logger.Debug
+  fullName: Mcma.Logging.Logger.Debug
+- uid: Mcma.Logging.ILogger.Debug(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Debug(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: Debug(String, Object[])
+  nameWithType: ILogger.Debug(String, Object[])
+  fullName: Mcma.Logging.ILogger.Debug(System.String, System.Object[])
+  nameWithType.vb: ILogger.Debug(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.Debug(System.String, System.Object())
+  name.vb: Debug(String, Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.Debug(System.String,System.Object[])
+    name: Debug
+    nameWithType: ILogger.Debug
+    fullName: Mcma.Logging.ILogger.Debug
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.Debug(System.String,System.Object[])
+    name: Debug
+    nameWithType: ILogger.Debug
+    fullName: Mcma.Logging.ILogger.Debug
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.ILogger.Debug(System.Object[])
+  commentId: M:Mcma.Logging.ILogger.Debug(System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: Debug(Object[])
+  nameWithType: ILogger.Debug(Object[])
+  fullName: Mcma.Logging.ILogger.Debug(System.Object[])
+  nameWithType.vb: ILogger.Debug(Object())
+  fullName.vb: Mcma.Logging.ILogger.Debug(System.Object())
+  name.vb: Debug(Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.Debug(System.Object[])
+    name: Debug
+    nameWithType: ILogger.Debug
+    fullName: Mcma.Logging.ILogger.Debug
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.Debug(System.Object[])
+    name: Debug
+    nameWithType: ILogger.Debug
+    fullName: Mcma.Logging.ILogger.Debug
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.Logger.FunctionStart*
+  commentId: Overload:Mcma.Logging.Logger.FunctionStart
+  name: FunctionStart
+  nameWithType: Logger.FunctionStart
+  fullName: Mcma.Logging.Logger.FunctionStart
+- uid: Mcma.Logging.ILogger.FunctionStart(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.FunctionStart(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: FunctionStart(String, Object[])
+  nameWithType: ILogger.FunctionStart(String, Object[])
+  fullName: Mcma.Logging.ILogger.FunctionStart(System.String, System.Object[])
+  nameWithType.vb: ILogger.FunctionStart(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.FunctionStart(System.String, System.Object())
+  name.vb: FunctionStart(String, Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.FunctionStart(System.String,System.Object[])
+    name: FunctionStart
+    nameWithType: ILogger.FunctionStart
+    fullName: Mcma.Logging.ILogger.FunctionStart
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.FunctionStart(System.String,System.Object[])
+    name: FunctionStart
+    nameWithType: ILogger.FunctionStart
+    fullName: Mcma.Logging.ILogger.FunctionStart
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.Logger.FunctionEnd*
+  commentId: Overload:Mcma.Logging.Logger.FunctionEnd
+  name: FunctionEnd
+  nameWithType: Logger.FunctionEnd
+  fullName: Mcma.Logging.Logger.FunctionEnd
+- uid: Mcma.Logging.ILogger.FunctionEnd(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.FunctionEnd(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: FunctionEnd(String, Object[])
+  nameWithType: ILogger.FunctionEnd(String, Object[])
+  fullName: Mcma.Logging.ILogger.FunctionEnd(System.String, System.Object[])
+  nameWithType.vb: ILogger.FunctionEnd(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.FunctionEnd(System.String, System.Object())
+  name.vb: FunctionEnd(String, Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.FunctionEnd(System.String,System.Object[])
+    name: FunctionEnd
+    nameWithType: ILogger.FunctionEnd
+    fullName: Mcma.Logging.ILogger.FunctionEnd
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.FunctionEnd(System.String,System.Object[])
+    name: FunctionEnd
+    nameWithType: ILogger.FunctionEnd
+    fullName: Mcma.Logging.ILogger.FunctionEnd
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.Logger.JobStart*
+  commentId: Overload:Mcma.Logging.Logger.JobStart
+  name: JobStart
+  nameWithType: Logger.JobStart
+  fullName: Mcma.Logging.Logger.JobStart
+- uid: Mcma.Logging.ILogger.JobStart(System.Object[])
+  commentId: M:Mcma.Logging.ILogger.JobStart(System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: JobStart(Object[])
+  nameWithType: ILogger.JobStart(Object[])
+  fullName: Mcma.Logging.ILogger.JobStart(System.Object[])
+  nameWithType.vb: ILogger.JobStart(Object())
+  fullName.vb: Mcma.Logging.ILogger.JobStart(System.Object())
+  name.vb: JobStart(Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.JobStart(System.Object[])
+    name: JobStart
+    nameWithType: ILogger.JobStart
+    fullName: Mcma.Logging.ILogger.JobStart
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.JobStart(System.Object[])
+    name: JobStart
+    nameWithType: ILogger.JobStart
+    fullName: Mcma.Logging.ILogger.JobStart
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.ILogger.JobStart(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.JobStart(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: JobStart(String, Object[])
+  nameWithType: ILogger.JobStart(String, Object[])
+  fullName: Mcma.Logging.ILogger.JobStart(System.String, System.Object[])
+  nameWithType.vb: ILogger.JobStart(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.JobStart(System.String, System.Object())
+  name.vb: JobStart(String, Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.JobStart(System.String,System.Object[])
+    name: JobStart
+    nameWithType: ILogger.JobStart
+    fullName: Mcma.Logging.ILogger.JobStart
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.JobStart(System.String,System.Object[])
+    name: JobStart
+    nameWithType: ILogger.JobStart
+    fullName: Mcma.Logging.ILogger.JobStart
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.Logger.JobUpdate*
+  commentId: Overload:Mcma.Logging.Logger.JobUpdate
+  name: JobUpdate
+  nameWithType: Logger.JobUpdate
+  fullName: Mcma.Logging.Logger.JobUpdate
+- uid: Mcma.Logging.ILogger.JobUpdate(System.Object[])
+  commentId: M:Mcma.Logging.ILogger.JobUpdate(System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: JobUpdate(Object[])
+  nameWithType: ILogger.JobUpdate(Object[])
+  fullName: Mcma.Logging.ILogger.JobUpdate(System.Object[])
+  nameWithType.vb: ILogger.JobUpdate(Object())
+  fullName.vb: Mcma.Logging.ILogger.JobUpdate(System.Object())
+  name.vb: JobUpdate(Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.JobUpdate(System.Object[])
+    name: JobUpdate
+    nameWithType: ILogger.JobUpdate
+    fullName: Mcma.Logging.ILogger.JobUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.JobUpdate(System.Object[])
+    name: JobUpdate
+    nameWithType: ILogger.JobUpdate
+    fullName: Mcma.Logging.ILogger.JobUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.ILogger.JobUpdate(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.JobUpdate(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: JobUpdate(String, Object[])
+  nameWithType: ILogger.JobUpdate(String, Object[])
+  fullName: Mcma.Logging.ILogger.JobUpdate(System.String, System.Object[])
+  nameWithType.vb: ILogger.JobUpdate(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.JobUpdate(System.String, System.Object())
+  name.vb: JobUpdate(String, Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.JobUpdate(System.String,System.Object[])
+    name: JobUpdate
+    nameWithType: ILogger.JobUpdate
+    fullName: Mcma.Logging.ILogger.JobUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.JobUpdate(System.String,System.Object[])
+    name: JobUpdate
+    nameWithType: ILogger.JobUpdate
+    fullName: Mcma.Logging.ILogger.JobUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.Logger.JobEnd*
+  commentId: Overload:Mcma.Logging.Logger.JobEnd
+  name: JobEnd
+  nameWithType: Logger.JobEnd
+  fullName: Mcma.Logging.Logger.JobEnd
+- uid: Mcma.Logging.ILogger.JobEnd(System.Object[])
+  commentId: M:Mcma.Logging.ILogger.JobEnd(System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: JobEnd(Object[])
+  nameWithType: ILogger.JobEnd(Object[])
+  fullName: Mcma.Logging.ILogger.JobEnd(System.Object[])
+  nameWithType.vb: ILogger.JobEnd(Object())
+  fullName.vb: Mcma.Logging.ILogger.JobEnd(System.Object())
+  name.vb: JobEnd(Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.JobEnd(System.Object[])
+    name: JobEnd
+    nameWithType: ILogger.JobEnd
+    fullName: Mcma.Logging.ILogger.JobEnd
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.JobEnd(System.Object[])
+    name: JobEnd
+    nameWithType: ILogger.JobEnd
+    fullName: Mcma.Logging.ILogger.JobEnd
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.ILogger.JobEnd(System.String,System.Object[])
+  commentId: M:Mcma.Logging.ILogger.JobEnd(System.String,System.Object[])
+  parent: Mcma.Logging.ILogger
+  isExternal: true
+  name: JobEnd(String, Object[])
+  nameWithType: ILogger.JobEnd(String, Object[])
+  fullName: Mcma.Logging.ILogger.JobEnd(System.String, System.Object[])
+  nameWithType.vb: ILogger.JobEnd(String, Object())
+  fullName.vb: Mcma.Logging.ILogger.JobEnd(System.String, System.Object())
+  name.vb: JobEnd(String, Object())
+  spec.csharp:
+  - uid: Mcma.Logging.ILogger.JobEnd(System.String,System.Object[])
+    name: JobEnd
+    nameWithType: ILogger.JobEnd
+    fullName: Mcma.Logging.ILogger.JobEnd
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.ILogger.JobEnd(System.String,System.Object[])
+    name: JobEnd
+    nameWithType: ILogger.JobEnd
+    fullName: Mcma.Logging.ILogger.JobEnd
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )

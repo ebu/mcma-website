@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: data.FilterCriteriaGroup
+    name: FilterCriteriaGroup
+    fullName: FilterCriteriaGroup<T>
+    children:
+      - data.FilterCriteriaGroup.children
+      - data.FilterCriteriaGroup.logicalOperator
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: data
+  - uid: data.FilterCriteriaGroup.children
+    name: children
+    fullName: children
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'children: FilterExpression<T>[]'
+      return:
+        type:
+          - 'data.FilterExpression<T>[]'
+        description: ''
+    package: data
+  - uid: data.FilterCriteriaGroup.logicalOperator
+    name: logicalOperator
+    fullName: logicalOperator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'logicalOperator: LogicalOperator'
+      return:
+        type:
+          - data.LogicalOperator
+        description: ''
+    package: data
+references:
+  - uid: 'data.FilterExpression<T>[]'
+    name: 'FilterExpression<T>[]'
+    spec.typeScript:
+      - name: FilterExpression
+        fullName: FilterExpression
+        uid: data.FilterExpression
+      - name: '<T>[]'
+        fullName: '<T>[]'
+  - uid: data.LogicalOperator
+    name: LogicalOperator
+    spec.typeScript:
+      - name: LogicalOperator
+        fullName: LogicalOperator
+        uid: data.LogicalOperator

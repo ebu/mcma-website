@@ -1,0 +1,907 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.DynamoDb.AttributeMapper
+  commentId: T:Mcma.Aws.DynamoDb.AttributeMapper
+  id: AttributeMapper
+  parent: Mcma.Aws.DynamoDb
+  children:
+  - Mcma.Aws.DynamoDb.AttributeMapper.#ctor(System.Collections.Generic.IEnumerable{Mcma.Aws.DynamoDb.IAttributeMapping})
+  - Mcma.Aws.DynamoDb.AttributeMapper.GetMappedAttributes``1(System.String,System.String,``0)
+  langs:
+  - csharp
+  - vb
+  name: AttributeMapper
+  nameWithType: AttributeMapper
+  fullName: Mcma.Aws.DynamoDb.AttributeMapper
+  type: Class
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/AttributeMapping/AttributeMapper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AttributeMapper
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/AttributeMapping/AttributeMapper.cs
+    startLine: 5
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: 'public class AttributeMapper : IAttributeMapper'
+    content.vb: >-
+      Public Class AttributeMapper
+
+          Implements IAttributeMapper
+  inheritance:
+  - System.Object
+  implements:
+  - Mcma.Aws.DynamoDb.IAttributeMapper
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Aws.DynamoDb.AttributeMapper.#ctor(System.Collections.Generic.IEnumerable{Mcma.Aws.DynamoDb.IAttributeMapping})
+  commentId: M:Mcma.Aws.DynamoDb.AttributeMapper.#ctor(System.Collections.Generic.IEnumerable{Mcma.Aws.DynamoDb.IAttributeMapping})
+  id: '#ctor(System.Collections.Generic.IEnumerable{Mcma.Aws.DynamoDb.IAttributeMapping})'
+  parent: Mcma.Aws.DynamoDb.AttributeMapper
+  langs:
+  - csharp
+  - vb
+  name: AttributeMapper(IEnumerable<IAttributeMapping>)
+  nameWithType: AttributeMapper.AttributeMapper(IEnumerable<IAttributeMapping>)
+  fullName: Mcma.Aws.DynamoDb.AttributeMapper.AttributeMapper(System.Collections.Generic.IEnumerable<Mcma.Aws.DynamoDb.IAttributeMapping>)
+  type: Constructor
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/AttributeMapping/AttributeMapper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/AttributeMapping/AttributeMapper.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: public AttributeMapper(IEnumerable<IAttributeMapping> mappings)
+    parameters:
+    - id: mappings
+      type: System.Collections.Generic.IEnumerable{Mcma.Aws.DynamoDb.IAttributeMapping}
+    content.vb: Public Sub New(mappings As IEnumerable(Of IAttributeMapping))
+  overload: Mcma.Aws.DynamoDb.AttributeMapper.#ctor*
+  nameWithType.vb: AttributeMapper.AttributeMapper(IEnumerable(Of IAttributeMapping))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Aws.DynamoDb.AttributeMapper.AttributeMapper(System.Collections.Generic.IEnumerable(Of Mcma.Aws.DynamoDb.IAttributeMapping))
+  name.vb: AttributeMapper(IEnumerable(Of IAttributeMapping))
+- uid: Mcma.Aws.DynamoDb.AttributeMapper.GetMappedAttributes``1(System.String,System.String,``0)
+  commentId: M:Mcma.Aws.DynamoDb.AttributeMapper.GetMappedAttributes``1(System.String,System.String,``0)
+  id: GetMappedAttributes``1(System.String,System.String,``0)
+  parent: Mcma.Aws.DynamoDb.AttributeMapper
+  langs:
+  - csharp
+  - vb
+  name: GetMappedAttributes<TResource>(String, String, TResource)
+  nameWithType: AttributeMapper.GetMappedAttributes<TResource>(String, String, TResource)
+  fullName: Mcma.Aws.DynamoDb.AttributeMapper.GetMappedAttributes<TResource>(System.String, System.String, TResource)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/AttributeMapping/AttributeMapper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetMappedAttributes
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/AttributeMapping/AttributeMapper.cs
+    startLine: 14
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: public Dictionary<string, object> GetMappedAttributes<TResource>(string partitionKey, string sortKey, TResource resource)
+    parameters:
+    - id: partitionKey
+      type: System.String
+    - id: sortKey
+      type: System.String
+    - id: resource
+      type: '{TResource}'
+    typeParameters:
+    - id: TResource
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    content.vb: Public Function GetMappedAttributes(Of TResource)(partitionKey As String, sortKey As String, resource As TResource) As Dictionary(Of String, Object)
+  overload: Mcma.Aws.DynamoDb.AttributeMapper.GetMappedAttributes*
+  implements:
+  - Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes``1(System.String,System.String,{TResource})
+  nameWithType.vb: AttributeMapper.GetMappedAttributes(Of TResource)(String, String, TResource)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Aws.DynamoDb.AttributeMapper.GetMappedAttributes(Of TResource)(System.String, System.String, TResource)
+  name.vb: GetMappedAttributes(Of TResource)(String, String, TResource)
+references:
+- uid: Mcma.Aws.DynamoDb
+  commentId: N:Mcma.Aws.DynamoDb
+  name: Mcma.Aws.DynamoDb
+  nameWithType: Mcma.Aws.DynamoDb
+  fullName: Mcma.Aws.DynamoDb
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Aws.DynamoDb.IAttributeMapper
+  commentId: T:Mcma.Aws.DynamoDb.IAttributeMapper
+  parent: Mcma.Aws.DynamoDb
+  name: IAttributeMapper
+  nameWithType: IAttributeMapper
+  fullName: Mcma.Aws.DynamoDb.IAttributeMapper
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Aws.DynamoDb.AttributeMapper.#ctor*
+  commentId: Overload:Mcma.Aws.DynamoDb.AttributeMapper.#ctor
+  name: AttributeMapper
+  nameWithType: AttributeMapper.AttributeMapper
+  fullName: Mcma.Aws.DynamoDb.AttributeMapper.AttributeMapper
+- uid: System.Collections.Generic.IEnumerable{Mcma.Aws.DynamoDb.IAttributeMapping}
+  commentId: T:System.Collections.Generic.IEnumerable{Mcma.Aws.DynamoDb.IAttributeMapping}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<IAttributeMapping>
+  nameWithType: IEnumerable<IAttributeMapping>
+  fullName: System.Collections.Generic.IEnumerable<Mcma.Aws.DynamoDb.IAttributeMapping>
+  nameWithType.vb: IEnumerable(Of IAttributeMapping)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Mcma.Aws.DynamoDb.IAttributeMapping)
+  name.vb: IEnumerable(Of IAttributeMapping)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Aws.DynamoDb.IAttributeMapping
+    name: IAttributeMapping
+    nameWithType: IAttributeMapping
+    fullName: Mcma.Aws.DynamoDb.IAttributeMapping
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Aws.DynamoDb.IAttributeMapping
+    name: IAttributeMapping
+    nameWithType: IAttributeMapping
+    fullName: Mcma.Aws.DynamoDb.IAttributeMapping
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Mcma.Aws.DynamoDb.AttributeMapper.GetMappedAttributes*
+  commentId: Overload:Mcma.Aws.DynamoDb.AttributeMapper.GetMappedAttributes
+  name: GetMappedAttributes
+  nameWithType: AttributeMapper.GetMappedAttributes
+  fullName: Mcma.Aws.DynamoDb.AttributeMapper.GetMappedAttributes
+- uid: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes``1(System.String,System.String,{TResource})
+  commentId: M:Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes``1(System.String,System.String,``0)
+  parent: Mcma.Aws.DynamoDb.IAttributeMapper
+  definition: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes``1(System.String,System.String,``0)
+  name: GetMappedAttributes<TResource>(String, String, TResource)
+  nameWithType: IAttributeMapper.GetMappedAttributes<TResource>(String, String, TResource)
+  fullName: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes<TResource>(System.String, System.String, TResource)
+  nameWithType.vb: IAttributeMapper.GetMappedAttributes(Of TResource)(String, String, TResource)
+  fullName.vb: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes(Of TResource)(System.String, System.String, TResource)
+  name.vb: GetMappedAttributes(Of TResource)(String, String, TResource)
+  spec.csharp:
+  - uid: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes``1(System.String,System.String,``0)
+    name: GetMappedAttributes<TResource>
+    nameWithType: IAttributeMapper.GetMappedAttributes<TResource>
+    fullName: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes<TResource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes``1(System.String,System.String,``0)
+    name: GetMappedAttributes(Of TResource)
+    nameWithType: IAttributeMapper.GetMappedAttributes(Of TResource)
+    fullName: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes(Of TResource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: '{TResource}'
+  commentId: '!:TResource'
+  definition: TResource
+  name: TResource
+  nameWithType: TResource
+  fullName: TResource
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Object>
+  nameWithType: Dictionary<String, Object>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes``1(System.String,System.String,``0)
+  commentId: M:Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes``1(System.String,System.String,``0)
+  isExternal: true
+  name: GetMappedAttributes<TResource>(String, String, TResource)
+  nameWithType: IAttributeMapper.GetMappedAttributes<TResource>(String, String, TResource)
+  fullName: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes<TResource>(System.String, System.String, TResource)
+  nameWithType.vb: IAttributeMapper.GetMappedAttributes(Of TResource)(String, String, TResource)
+  fullName.vb: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes(Of TResource)(System.String, System.String, TResource)
+  name.vb: GetMappedAttributes(Of TResource)(String, String, TResource)
+  spec.csharp:
+  - uid: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes``1(System.String,System.String,``0)
+    name: GetMappedAttributes<TResource>
+    nameWithType: IAttributeMapper.GetMappedAttributes<TResource>
+    fullName: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes<TResource>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes``1(System.String,System.String,``0)
+    name: GetMappedAttributes(Of TResource)
+    nameWithType: IAttributeMapper.GetMappedAttributes(Of TResource)
+    fullName: Mcma.Aws.DynamoDb.IAttributeMapper.GetMappedAttributes(Of TResource)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TResource
+  name: TResource
+  nameWithType: TResource
+  fullName: TResource
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )

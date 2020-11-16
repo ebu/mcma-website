@@ -1,0 +1,981 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry
+  commentId: T:Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry
+  id: CosmosDbCustomQueryBuilderRegistry
+  parent: Mcma.Azure.CosmosDb
+  children:
+  - Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.#ctor(System.Collections.Generic.IEnumerable{Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder})
+  - Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.Get``1(System.String)
+  langs:
+  - csharp
+  - vb
+  name: CosmosDbCustomQueryBuilderRegistry
+  nameWithType: CosmosDbCustomQueryBuilderRegistry
+  fullName: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry
+  type: Class
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/CosmosDbCustomQueryBuilderRegistry.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: CosmosDbCustomQueryBuilderRegistry
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/CosmosDbCustomQueryBuilderRegistry.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: 'public class CosmosDbCustomQueryBuilderRegistry : ICustomQueryBuilderRegistry<(QueryDefinition, QueryRequestOptions)>'
+    content.vb: >-
+      Public Class CosmosDbCustomQueryBuilderRegistry
+
+          Implements ICustomQueryBuilderRegistry(Of(QueryDefinition, QueryRequestOptions))
+  inheritance:
+  - System.Object
+  implements:
+  - Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry{System.ValueTuple{Microsoft.Azure.Cosmos.QueryDefinition,Microsoft.Azure.Cosmos.QueryRequestOptions}}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.#ctor(System.Collections.Generic.IEnumerable{Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder})
+  commentId: M:Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.#ctor(System.Collections.Generic.IEnumerable{Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder})
+  id: '#ctor(System.Collections.Generic.IEnumerable{Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder})'
+  parent: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry
+  langs:
+  - csharp
+  - vb
+  name: CosmosDbCustomQueryBuilderRegistry(IEnumerable<ICustomQueryBuilder>)
+  nameWithType: CosmosDbCustomQueryBuilderRegistry.CosmosDbCustomQueryBuilderRegistry(IEnumerable<ICustomQueryBuilder>)
+  fullName: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.CosmosDbCustomQueryBuilderRegistry(System.Collections.Generic.IEnumerable<Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder>)
+  type: Constructor
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/CosmosDbCustomQueryBuilderRegistry.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/CosmosDbCustomQueryBuilderRegistry.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: public CosmosDbCustomQueryBuilderRegistry(IEnumerable<ICustomQueryBuilder> queryBuilders)
+    parameters:
+    - id: queryBuilders
+      type: System.Collections.Generic.IEnumerable{Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder}
+    content.vb: Public Sub New(queryBuilders As IEnumerable(Of ICustomQueryBuilder))
+  overload: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.#ctor*
+  nameWithType.vb: CosmosDbCustomQueryBuilderRegistry.CosmosDbCustomQueryBuilderRegistry(IEnumerable(Of ICustomQueryBuilder))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.CosmosDbCustomQueryBuilderRegistry(System.Collections.Generic.IEnumerable(Of Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder))
+  name.vb: CosmosDbCustomQueryBuilderRegistry(IEnumerable(Of ICustomQueryBuilder))
+- uid: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.Get``1(System.String)
+  commentId: M:Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.Get``1(System.String)
+  id: Get``1(System.String)
+  parent: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry
+  langs:
+  - csharp
+  - vb
+  name: Get<TParameters>(String)
+  nameWithType: CosmosDbCustomQueryBuilderRegistry.Get<TParameters>(String)
+  fullName: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.Get<TParameters>(System.String)
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/CosmosDbCustomQueryBuilderRegistry.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Get
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/CosmosDbCustomQueryBuilderRegistry.cs
+    startLine: 17
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: public ICustomQueryBuilder<TParameters, (QueryDefinition, QueryRequestOptions)> Get<TParameters>(string name)
+    parameters:
+    - id: name
+      type: System.String
+    typeParameters:
+    - id: TParameters
+    return:
+      type: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder{{TParameters},System.ValueTuple{Microsoft.Azure.Cosmos.QueryDefinition,Microsoft.Azure.Cosmos.QueryRequestOptions}}
+    content.vb: Public Function Get(Of TParameters)(name As String) As ICustomQueryBuilder(Of TParameters, (QueryDefinition, QueryRequestOptions))
+  overload: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.Get*
+  implements:
+  - Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry{System.ValueTuple{Microsoft.Azure.Cosmos.QueryDefinition,Microsoft.Azure.Cosmos.QueryRequestOptions}}.Get``1(System.String)
+  nameWithType.vb: CosmosDbCustomQueryBuilderRegistry.Get(Of TParameters)(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.Get(Of TParameters)(System.String)
+  name.vb: Get(Of TParameters)(String)
+references:
+- uid: Mcma.Azure.CosmosDb
+  commentId: N:Mcma.Azure.CosmosDb
+  name: Mcma.Azure.CosmosDb
+  nameWithType: Mcma.Azure.CosmosDb
+  fullName: Mcma.Azure.CosmosDb
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry{System.ValueTuple{Microsoft.Azure.Cosmos.QueryDefinition,Microsoft.Azure.Cosmos.QueryRequestOptions}}
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry{System.ValueTuple{Microsoft.Azure.Cosmos.QueryDefinition,Microsoft.Azure.Cosmos.QueryRequestOptions}}
+  parent: Mcma.Data.DocumentDatabase.Queries
+  definition: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+  name: ICustomQueryBuilderRegistry<ValueTuple<QueryDefinition, QueryRequestOptions>>
+  nameWithType: ICustomQueryBuilderRegistry<ValueTuple<QueryDefinition, QueryRequestOptions>>
+  fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry<System.ValueTuple<Microsoft.Azure.Cosmos.QueryDefinition, Microsoft.Azure.Cosmos.QueryRequestOptions>>
+  nameWithType.vb: ICustomQueryBuilderRegistry(Of ValueTuple(Of QueryDefinition, QueryRequestOptions))
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry(Of System.ValueTuple(Of Microsoft.Azure.Cosmos.QueryDefinition, Microsoft.Azure.Cosmos.QueryRequestOptions))
+  name.vb: ICustomQueryBuilderRegistry(Of ValueTuple(Of QueryDefinition, QueryRequestOptions))
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+    name: ICustomQueryBuilderRegistry
+    nameWithType: ICustomQueryBuilderRegistry
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Cosmos.QueryDefinition
+    name: QueryDefinition
+    nameWithType: QueryDefinition
+    fullName: Microsoft.Azure.Cosmos.QueryDefinition
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Azure.Cosmos.QueryRequestOptions
+    name: QueryRequestOptions
+    nameWithType: QueryRequestOptions
+    fullName: Microsoft.Azure.Cosmos.QueryRequestOptions
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+    name: ICustomQueryBuilderRegistry
+    nameWithType: ICustomQueryBuilderRegistry
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Cosmos.QueryDefinition
+    name: QueryDefinition
+    nameWithType: QueryDefinition
+    fullName: Microsoft.Azure.Cosmos.QueryDefinition
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Azure.Cosmos.QueryRequestOptions
+    name: QueryRequestOptions
+    nameWithType: QueryRequestOptions
+    fullName: Microsoft.Azure.Cosmos.QueryRequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+  name: ICustomQueryBuilderRegistry<TProviderQuery>
+  nameWithType: ICustomQueryBuilderRegistry<TProviderQuery>
+  fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry<TProviderQuery>
+  nameWithType.vb: ICustomQueryBuilderRegistry(Of TProviderQuery)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry(Of TProviderQuery)
+  name.vb: ICustomQueryBuilderRegistry(Of TProviderQuery)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+    name: ICustomQueryBuilderRegistry
+    nameWithType: ICustomQueryBuilderRegistry
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TProviderQuery
+    nameWithType: TProviderQuery
+    fullName: TProviderQuery
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+    name: ICustomQueryBuilderRegistry
+    nameWithType: ICustomQueryBuilderRegistry
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TProviderQuery
+    nameWithType: TProviderQuery
+    fullName: TProviderQuery
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries
+  commentId: N:Mcma.Data.DocumentDatabase.Queries
+  name: Mcma.Data.DocumentDatabase.Queries
+  nameWithType: Mcma.Data.DocumentDatabase.Queries
+  fullName: Mcma.Data.DocumentDatabase.Queries
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.#ctor*
+  commentId: Overload:Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.#ctor
+  name: CosmosDbCustomQueryBuilderRegistry
+  nameWithType: CosmosDbCustomQueryBuilderRegistry.CosmosDbCustomQueryBuilderRegistry
+  fullName: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.CosmosDbCustomQueryBuilderRegistry
+- uid: System.Collections.Generic.IEnumerable{Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder}
+  commentId: T:System.Collections.Generic.IEnumerable{Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ICustomQueryBuilder>
+  nameWithType: IEnumerable<ICustomQueryBuilder>
+  fullName: System.Collections.Generic.IEnumerable<Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder>
+  nameWithType.vb: IEnumerable(Of ICustomQueryBuilder)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder)
+  name.vb: IEnumerable(Of ICustomQueryBuilder)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+    name: ICustomQueryBuilder
+    nameWithType: ICustomQueryBuilder
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+    name: ICustomQueryBuilder
+    nameWithType: ICustomQueryBuilder
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.Get*
+  commentId: Overload:Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.Get
+  name: Get
+  nameWithType: CosmosDbCustomQueryBuilderRegistry.Get
+  fullName: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry.Get
+- uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry{System.ValueTuple{Microsoft.Azure.Cosmos.QueryDefinition,Microsoft.Azure.Cosmos.QueryRequestOptions}}.Get``1(System.String)
+  commentId: M:Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry{System.ValueTuple{Microsoft.Azure.Cosmos.QueryDefinition,Microsoft.Azure.Cosmos.QueryRequestOptions}}.Get``1(System.String)
+  parent: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry{System.ValueTuple{Microsoft.Azure.Cosmos.QueryDefinition,Microsoft.Azure.Cosmos.QueryRequestOptions}}
+  definition: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1.Get``1(System.String)
+  name: Get<TParameters>(String)
+  nameWithType: ICustomQueryBuilderRegistry<(QueryDefinition, QueryRequestOptions)>.Get<TParameters>(String)
+  fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry<System.ValueTuple<Microsoft.Azure.Cosmos.QueryDefinition, Microsoft.Azure.Cosmos.QueryRequestOptions>>.Get<TParameters>(System.String)
+  nameWithType.vb: ICustomQueryBuilderRegistry(Of (QueryDefinition, QueryRequestOptions)).Get(Of TParameters)(String)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry(Of System.ValueTuple(Of Microsoft.Azure.Cosmos.QueryDefinition, Microsoft.Azure.Cosmos.QueryRequestOptions)).Get(Of TParameters)(System.String)
+  name.vb: Get(Of TParameters)(String)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1.Get``1(System.String)
+    name: Get<TParameters>
+    nameWithType: ICustomQueryBuilderRegistry<(QueryDefinition, QueryRequestOptions)>.Get<TParameters>
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry<System.ValueTuple<Microsoft.Azure.Cosmos.QueryDefinition, Microsoft.Azure.Cosmos.QueryRequestOptions>>.Get<TParameters>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1.Get``1(System.String)
+    name: Get(Of TParameters)
+    nameWithType: ICustomQueryBuilderRegistry(Of (QueryDefinition, QueryRequestOptions)).Get(Of TParameters)
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry(Of System.ValueTuple(Of Microsoft.Azure.Cosmos.QueryDefinition, Microsoft.Azure.Cosmos.QueryRequestOptions)).Get(Of TParameters)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder{{TParameters},System.ValueTuple{Microsoft.Azure.Cosmos.QueryDefinition,Microsoft.Azure.Cosmos.QueryRequestOptions}}
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder{``0,System.ValueTuple{Microsoft.Azure.Cosmos.QueryDefinition,Microsoft.Azure.Cosmos.QueryRequestOptions}}
+  parent: Mcma.Data.DocumentDatabase.Queries
+  definition: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder`2
+  name: ICustomQueryBuilder<TParameters, ValueTuple<QueryDefinition, QueryRequestOptions>>
+  nameWithType: ICustomQueryBuilder<TParameters, ValueTuple<QueryDefinition, QueryRequestOptions>>
+  fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder<TParameters, System.ValueTuple<Microsoft.Azure.Cosmos.QueryDefinition, Microsoft.Azure.Cosmos.QueryRequestOptions>>
+  nameWithType.vb: ICustomQueryBuilder(Of TParameters, ValueTuple(Of QueryDefinition, QueryRequestOptions))
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder(Of TParameters, System.ValueTuple(Of Microsoft.Azure.Cosmos.QueryDefinition, Microsoft.Azure.Cosmos.QueryRequestOptions))
+  name.vb: ICustomQueryBuilder(Of TParameters, ValueTuple(Of QueryDefinition, QueryRequestOptions))
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder`2
+    name: ICustomQueryBuilder
+    nameWithType: ICustomQueryBuilder
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Cosmos.QueryDefinition
+    name: QueryDefinition
+    nameWithType: QueryDefinition
+    fullName: Microsoft.Azure.Cosmos.QueryDefinition
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Azure.Cosmos.QueryRequestOptions
+    name: QueryRequestOptions
+    nameWithType: QueryRequestOptions
+    fullName: Microsoft.Azure.Cosmos.QueryRequestOptions
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder`2
+    name: ICustomQueryBuilder
+    nameWithType: ICustomQueryBuilder
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Cosmos.QueryDefinition
+    name: QueryDefinition
+    nameWithType: QueryDefinition
+    fullName: Microsoft.Azure.Cosmos.QueryDefinition
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Azure.Cosmos.QueryRequestOptions
+    name: QueryRequestOptions
+    nameWithType: QueryRequestOptions
+    fullName: Microsoft.Azure.Cosmos.QueryRequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1.Get``1(System.String)
+  commentId: M:Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1.Get``1(System.String)
+  isExternal: true
+  name: Get<TParameters>(String)
+  nameWithType: ICustomQueryBuilderRegistry<TProviderQuery>.Get<TParameters>(String)
+  fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry<TProviderQuery>.Get<TParameters>(System.String)
+  nameWithType.vb: ICustomQueryBuilderRegistry(Of TProviderQuery).Get(Of TParameters)(String)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry(Of TProviderQuery).Get(Of TParameters)(System.String)
+  name.vb: Get(Of TParameters)(String)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1.Get``1(System.String)
+    name: Get<TParameters>
+    nameWithType: ICustomQueryBuilderRegistry<TProviderQuery>.Get<TParameters>
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry<TProviderQuery>.Get<TParameters>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1.Get``1(System.String)
+    name: Get(Of TParameters)
+    nameWithType: ICustomQueryBuilderRegistry(Of TProviderQuery).Get(Of TParameters)
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry(Of TProviderQuery).Get(Of TParameters)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder`2
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder`2
+  name: ICustomQueryBuilder<TParameters, TProviderQuery>
+  nameWithType: ICustomQueryBuilder<TParameters, TProviderQuery>
+  fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder<TParameters, TProviderQuery>
+  nameWithType.vb: ICustomQueryBuilder(Of TParameters, TProviderQuery)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder(Of TParameters, TProviderQuery)
+  name.vb: ICustomQueryBuilder(Of TParameters, TProviderQuery)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder`2
+    name: ICustomQueryBuilder
+    nameWithType: ICustomQueryBuilder
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TProviderQuery
+    nameWithType: TProviderQuery
+    fullName: TProviderQuery
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder`2
+    name: ICustomQueryBuilder
+    nameWithType: ICustomQueryBuilder
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TProviderQuery
+    nameWithType: TProviderQuery
+    fullName: TProviderQuery
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+items:
+  - uid: api.McmaApiResponse
+    name: McmaApiResponse
+    fullName: McmaApiResponse
+    children:
+      - api.McmaApiResponse.body
+      - api.McmaApiResponse.headers
+      - api.McmaApiResponse.statusCode
+      - api.McmaApiResponse.statusMessage
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: api
+  - uid: api.McmaApiResponse.body
+    name: body
+    fullName: body
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public body: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: api
+  - uid: api.McmaApiResponse.headers
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public headers: [key: string]: string'
+      return:
+        type:
+          - '[key: string]: string'
+        description: ''
+    package: api
+  - uid: api.McmaApiResponse.statusCode
+    name: statusCode
+    fullName: statusCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public statusCode: number = 0'
+      return:
+        type:
+          - number
+        description: ''
+    package: api
+  - uid: api.McmaApiResponse.statusMessage
+    name: statusMessage
+    fullName: statusMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public statusMessage: string = null'
+      return:
+        type:
+          - string
+        description: ''
+    package: api

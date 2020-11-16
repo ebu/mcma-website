@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-logger
+    name: "@mcma/azure-logger"
+    summary: ""
+    children:
+      - azure-logger.AppInsightsLogger
+      - azure-logger.AppInsightsLoggerProvider
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: azure-logger.AppInsightsLogger
+    name: AppInsightsLogger
+  - uid: azure-logger.AppInsightsLoggerProvider
+    name: AppInsightsLoggerProvider

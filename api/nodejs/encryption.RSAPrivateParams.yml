@@ -1,0 +1,148 @@
+### YamlMime:UniversalReference
+items:
+  - uid: encryption.RSAPrivateParams
+    name: RSAPrivateParams
+    fullName: RSAPrivateParams
+    children:
+      - encryption.RSAPrivateParams.coeff
+      - encryption.RSAPrivateParams.d
+      - encryption.RSAPrivateParams.dmp1
+      - encryption.RSAPrivateParams.dmq1
+      - encryption.RSAPrivateParams.e
+      - encryption.RSAPrivateParams.n
+      - encryption.RSAPrivateParams.p
+      - encryption.RSAPrivateParams.q
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: encryption.RSAPublicParams
+    package: encryption
+  - uid: encryption.RSAPrivateParams.coeff
+    name: coeff
+    fullName: coeff
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'coeff: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: encryption
+  - uid: encryption.RSAPrivateParams.d
+    name: d
+    fullName: d
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'd: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: encryption
+  - uid: encryption.RSAPrivateParams.dmp1
+    name: dmp1
+    fullName: dmp1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'dmp1: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: encryption
+  - uid: encryption.RSAPrivateParams.dmq1
+    name: dmq1
+    fullName: dmq1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'dmq1: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: encryption
+  - uid: encryption.RSAPrivateParams.e
+    name: e
+    fullName: e
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'e: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: encryption
+  - uid: encryption.RSAPrivateParams.n
+    name: 'n'
+    fullName: 'n'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'n: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: encryption
+  - uid: encryption.RSAPrivateParams.p
+    name: p
+    fullName: p
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'p: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: encryption
+  - uid: encryption.RSAPrivateParams.q
+    name: q
+    fullName: q
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'q: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: encryption
+references:
+  - uid: encryption.RSAPublicParams
+    name: RSAPublicParams
+    spec.typeScript:
+      - name: RSAPublicParams
+        fullName: RSAPublicParams
+        uid: encryption.RSAPublicParams

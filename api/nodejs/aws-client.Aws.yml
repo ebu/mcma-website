@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-client.Aws
+    name: Aws
+    fullName: Aws
+    children:
+      - aws-client.Aws.config
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: aws-client
+  - uid: aws-client.Aws.config
+    name: config
+    fullName: config
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'config: AwsConfig'
+      return:
+        type:
+          - aws-client.AwsConfig
+        description: ''
+    package: aws-client
+references:
+  - uid: aws-client.AwsConfig
+    name: AwsConfig
+    spec.typeScript:
+      - name: AwsConfig
+        fullName: AwsConfig
+        uid: aws-client.AwsConfig

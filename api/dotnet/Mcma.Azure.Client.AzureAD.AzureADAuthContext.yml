@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+  commentId: T:Mcma.Azure.Client.AzureAD.AzureADAuthContext
+  id: AzureADAuthContext
+  parent: Mcma.Azure.Client.AzureAD
+  children:
+  - Mcma.Azure.Client.AzureAD.AzureADAuthContext.Scope
+  - Mcma.Azure.Client.AzureAD.AzureADAuthContext.ValidateScope
+  langs:
+  - csharp
+  - vb
+  name: AzureADAuthContext
+  nameWithType: AzureADAuthContext
+  fullName: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+  type: Class
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/AzureAD/AzureADAuthContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AzureADAuthContext
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/AzureAD/AzureADAuthContext.cs
+    startLine: 4
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.AzureAD
+  syntax:
+    content: 'public class AzureADAuthContext : object'
+    content.vb: >-
+      Public Class AzureADAuthContext
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Azure.Client.AzureAD.AzureADAuthContext.Scope
+  commentId: P:Mcma.Azure.Client.AzureAD.AzureADAuthContext.Scope
+  id: Scope
+  parent: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+  langs:
+  - csharp
+  - vb
+  name: Scope
+  nameWithType: AzureADAuthContext.Scope
+  fullName: Mcma.Azure.Client.AzureAD.AzureADAuthContext.Scope
+  type: Property
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/AzureAD/AzureADAuthContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Scope
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/AzureAD/AzureADAuthContext.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.AzureAD
+  syntax:
+    content: public string Scope { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Scope As String
+  overload: Mcma.Azure.Client.AzureAD.AzureADAuthContext.Scope*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mcma.Azure.Client.AzureAD.AzureADAuthContext.ValidateScope
+  commentId: M:Mcma.Azure.Client.AzureAD.AzureADAuthContext.ValidateScope
+  id: ValidateScope
+  parent: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+  langs:
+  - csharp
+  - vb
+  name: ValidateScope()
+  nameWithType: AzureADAuthContext.ValidateScope()
+  fullName: Mcma.Azure.Client.AzureAD.AzureADAuthContext.ValidateScope()
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/AzureAD/AzureADAuthContext.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ValidateScope
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/AzureAD/AzureADAuthContext.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.AzureAD
+  syntax:
+    content: public void ValidateScope()
+    content.vb: Public Sub ValidateScope
+  overload: Mcma.Azure.Client.AzureAD.AzureADAuthContext.ValidateScope*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Azure.Client.AzureAD
+  commentId: N:Mcma.Azure.Client.AzureAD
+  name: Mcma.Azure.Client.AzureAD
+  nameWithType: Mcma.Azure.Client.AzureAD
+  fullName: Mcma.Azure.Client.AzureAD
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Azure.Client.AzureAD.AzureADAuthContext.Scope*
+  commentId: Overload:Mcma.Azure.Client.AzureAD.AzureADAuthContext.Scope
+  name: Scope
+  nameWithType: AzureADAuthContext.Scope
+  fullName: Mcma.Azure.Client.AzureAD.AzureADAuthContext.Scope
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.Azure.Client.AzureAD.AzureADAuthContext.ValidateScope*
+  commentId: Overload:Mcma.Azure.Client.AzureAD.AzureADAuthContext.ValidateScope
+  name: ValidateScope
+  nameWithType: AzureADAuthContext.ValidateScope
+  fullName: Mcma.Azure.Client.AzureAD.AzureADAuthContext.ValidateScope

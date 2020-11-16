@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.Lambda
+  commentId: N:Mcma.Aws.Lambda
+  id: Mcma.Aws.Lambda
+  children:
+  - Mcma.Aws.Lambda.McmaLambdaSerializer
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Aws.Lambda
+  nameWithType: Mcma.Aws.Lambda
+  fullName: Mcma.Aws.Lambda
+  type: Namespace
+  assemblies:
+  - Mcma.Aws.Serialization
+references:
+- uid: Mcma.Aws.Lambda.McmaLambdaSerializer
+  commentId: T:Mcma.Aws.Lambda.McmaLambdaSerializer
+  name: McmaLambdaSerializer
+  nameWithType: McmaLambdaSerializer
+  fullName: Mcma.Aws.Lambda.McmaLambdaSerializer

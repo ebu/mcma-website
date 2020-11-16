@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.Functions.Worker
+  commentId: N:Mcma.Aws.Functions.Worker
+  id: Mcma.Aws.Functions.Worker
+  children:
+  - Mcma.Aws.Functions.Worker.McmaLambdaWorker
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Aws.Functions.Worker
+  nameWithType: Mcma.Aws.Functions.Worker
+  fullName: Mcma.Aws.Functions.Worker
+  type: Namespace
+  assemblies:
+  - Mcma.Aws.Functions.Worker
+references:
+- uid: Mcma.Aws.Functions.Worker.McmaLambdaWorker
+  commentId: T:Mcma.Aws.Functions.Worker.McmaLambdaWorker
+  name: McmaLambdaWorker
+  nameWithType: McmaLambdaWorker
+  fullName: Mcma.Aws.Functions.Worker.McmaLambdaWorker

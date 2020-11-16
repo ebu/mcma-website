@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-client.AwsConfig
+    name: AwsConfig
+    fullName: AwsConfig
+    children:
+      - aws-client.AwsConfig.credentials
+      - aws-client.AwsConfig.region
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: aws-client
+  - uid: aws-client.AwsConfig.credentials
+    name: credentials
+    fullName: credentials
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'credentials?: AwsCredentials'
+      return:
+        type:
+          - aws-client.AwsCredentials
+        description: ''
+    package: aws-client
+  - uid: aws-client.AwsConfig.region
+    name: region
+    fullName: region
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'region?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-client
+references:
+  - uid: aws-client.AwsCredentials
+    name: AwsCredentials
+    spec.typeScript:
+      - name: AwsCredentials
+        fullName: AwsCredentials
+        uid: aws-client.AwsCredentials

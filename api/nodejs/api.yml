@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+items:
+  - uid: api
+    name: "@mcma/api"
+    summary: ""
+    children:
+      - api.getPublicUrl
+      - api.inMemoryTextValues
+      - api.HttpStatusCode
+      - api.getStatusError
+      - api.McmaApiController
+      - api.McmaApiError
+      - api.McmaApiRequest
+      - api.McmaApiRequestConfig
+      - api.McmaApiRequestContext
+      - api.McmaApiResponse
+      - api.DefaultCreateRoute
+      - api.DefaultDeleteRoute
+      - api.DefaultGetRoute
+      - api.DefaultJobRouteCollection
+      - api.DefaultQueryRoute
+      - api.buildStandardQuery
+      - api.DefaultRouteCollection
+      - api.DefaultUpdateRoute
+      - api.URITemplate
+      - api.McmaApiRoute
+      - api.McmaApiRouteCollection
+      - api.McmaApiRouteHandler
+      - api.camelCaseToKebabCase
+      - api.pluralizeKebabCase
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: api.getPublicUrl
+    name: getPublicUrl(ConfigVariables)
+  - uid: api.inMemoryTextValues
+    name: "inMemoryTextValues([key: string]: string)"
+  - uid: api.HttpStatusCode
+    name: HttpStatusCode
+  - uid: api.getStatusError
+    name: getStatusError(number)
+  - uid: api.McmaApiController
+    name: McmaApiController
+  - uid: api.McmaApiError
+    name: McmaApiError
+  - uid: api.McmaApiRequest
+    name: McmaApiRequest
+  - uid: api.McmaApiRequestConfig
+    name: McmaApiRequestConfig
+  - uid: api.McmaApiRequestContext
+    name: McmaApiRequestContext
+  - uid: api.McmaApiResponse
+    name: McmaApiResponse
+  - uid: api.DefaultCreateRoute
+    name: DefaultCreateRoute
+  - uid: api.DefaultDeleteRoute
+    name: DefaultDeleteRoute
+  - uid: api.DefaultGetRoute
+    name: DefaultGetRoute
+  - uid: api.DefaultJobRouteCollection
+    name: DefaultJobRouteCollection
+  - uid: api.DefaultQueryRoute
+    name: DefaultQueryRoute
+  - uid: api.buildStandardQuery
+    name: buildStandardQuery(McmaApiRequestContext, boolean)
+  - uid: api.DefaultRouteCollection
+    name: DefaultRouteCollection
+  - uid: api.DefaultUpdateRoute
+    name: DefaultUpdateRoute
+  - uid: api.URITemplate
+    name: URITemplate
+  - uid: api.McmaApiRoute
+    name: McmaApiRoute
+  - uid: api.McmaApiRouteCollection
+    name: McmaApiRouteCollection
+  - uid: api.McmaApiRouteHandler
+    name: McmaApiRouteHandler
+  - uid: api.camelCaseToKebabCase
+    name: camelCaseToKebabCase(string)
+  - uid: api.pluralizeKebabCase
+    name: pluralizeKebabCase(string)

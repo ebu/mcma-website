@@ -1,0 +1,187 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-dynamodb.DynamoDbTable
+    name: DynamoDbTable
+    fullName: DynamoDbTable
+    children:
+      - aws-dynamodb.DynamoDbTable.createMutex
+      - aws-dynamodb.DynamoDbTable.customQuery
+      - aws-dynamodb.DynamoDbTable.delete
+      - aws-dynamodb.DynamoDbTable.constructor
+      - aws-dynamodb.DynamoDbTable.get
+      - aws-dynamodb.DynamoDbTable.put
+      - aws-dynamodb.DynamoDbTable.query
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.DynamoDbTable.createMutex
+    name: 'createMutex(string, string, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createMutex(mutexName: string, mutexHolder: string,
+        lockTimeout: number)
+      parameters:
+        - id: mutexName
+          type:
+            - string
+          description: ''
+        - id: mutexHolder
+          type:
+            - string
+          description: ''
+        - id: lockTimeout
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - DocumentDatabaseMutex
+        description: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.DynamoDbTable.customQuery
+    name: 'customQuery(CustomQuery<TDocument, TParameters>)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function customQuery<TDocument>(query: CustomQuery<TDocument,
+        TParameters>)
+      parameters:
+        - id: query
+          type:
+            - 'CustomQuery<TDocument, TParameters>'
+          description: ''
+      return:
+        type:
+          - Promise<QueryResults<TDocument>>
+        description: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.DynamoDbTable.delete
+    name: delete(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function delete(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.DynamoDbTable.constructor
+    name: 'DynamoDbTable(DynamoDB, DynamoDbTableDescription, DynamoDbTableOptions)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new DynamoDbTable(dynamoDb: DynamoDB, tableDescription:
+        DynamoDbTableDescription, options?: DynamoDbTableOptions)
+      parameters:
+        - id: dynamoDb
+          type:
+            - DynamoDB
+          description: ''
+        - id: tableDescription
+          type:
+            - aws-dynamodb.DynamoDbTableDescription
+          description: ''
+        - id: options
+          type:
+            - aws-dynamodb.DynamoDbTableOptions
+          description: ''
+          optional: true
+    package: aws-dynamodb
+  - uid: aws-dynamodb.DynamoDbTable.get
+    name: get(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get<TDocument>(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<TDocument>
+        description: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.DynamoDbTable.put
+    name: 'put(string, TDocument)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function put<TDocument>(id: string, resource: TDocument)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: resource
+          type:
+            - TDocument
+          description: ''
+      return:
+        type:
+          - Promise<TDocument>
+        description: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.DynamoDbTable.query
+    name: query(Query<TDocument>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function query<TDocument>(query: Query<TDocument>)'
+      parameters:
+        - id: query
+          type:
+            - Query<TDocument>
+          description: ''
+      return:
+        type:
+          - Promise<QueryResults<TDocument>>
+        description: ''
+    package: aws-dynamodb
+references:
+  - uid: aws-dynamodb.DynamoDbTableDescription
+    name: DynamoDbTableDescription
+    spec.typeScript:
+      - name: DynamoDbTableDescription
+        fullName: DynamoDbTableDescription
+        uid: aws-dynamodb.DynamoDbTableDescription
+  - uid: aws-dynamodb.DynamoDbTableOptions
+    name: DynamoDbTableOptions
+    spec.typeScript:
+      - name: DynamoDbTableOptions
+        fullName: DynamoDbTableOptions
+        uid: aws-dynamodb.DynamoDbTableOptions

@@ -1,0 +1,298 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Worker.IMcmaWorkerOperation
+  commentId: T:Mcma.Worker.IMcmaWorkerOperation
+  id: IMcmaWorkerOperation
+  parent: Mcma.Worker
+  children:
+  - Mcma.Worker.IMcmaWorkerOperation.Accepts(Mcma.Worker.McmaWorkerRequestContext)
+  - Mcma.Worker.IMcmaWorkerOperation.ExecuteAsync(Mcma.Worker.McmaWorkerRequestContext)
+  - Mcma.Worker.IMcmaWorkerOperation.Name
+  langs:
+  - csharp
+  - vb
+  name: IMcmaWorkerOperation
+  nameWithType: IMcmaWorkerOperation
+  fullName: Mcma.Worker.IMcmaWorkerOperation
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.Worker/IMcmaWorkerOperation.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IMcmaWorkerOperation
+    path: ../mcma-libraries-dotnet/Base/Mcma.Worker/IMcmaWorkerOperation.cs
+    startLine: 4
+  assemblies:
+  - Mcma.Worker
+  namespace: Mcma.Worker
+  syntax:
+    content: public interface IMcmaWorkerOperation
+    content.vb: Public Interface IMcmaWorkerOperation
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Worker.IMcmaWorkerOperation.Name
+  commentId: P:Mcma.Worker.IMcmaWorkerOperation.Name
+  id: Name
+  parent: Mcma.Worker.IMcmaWorkerOperation
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IMcmaWorkerOperation.Name
+  fullName: Mcma.Worker.IMcmaWorkerOperation.Name
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Worker/IMcmaWorkerOperation.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Name
+    path: ../mcma-libraries-dotnet/Base/Mcma.Worker/IMcmaWorkerOperation.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Worker
+  namespace: Mcma.Worker
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: Mcma.Worker.IMcmaWorkerOperation.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Mcma.Worker.IMcmaWorkerOperation.Accepts(Mcma.Worker.McmaWorkerRequestContext)
+  commentId: M:Mcma.Worker.IMcmaWorkerOperation.Accepts(Mcma.Worker.McmaWorkerRequestContext)
+  id: Accepts(Mcma.Worker.McmaWorkerRequestContext)
+  parent: Mcma.Worker.IMcmaWorkerOperation
+  langs:
+  - csharp
+  - vb
+  name: Accepts(McmaWorkerRequestContext)
+  nameWithType: IMcmaWorkerOperation.Accepts(McmaWorkerRequestContext)
+  fullName: Mcma.Worker.IMcmaWorkerOperation.Accepts(Mcma.Worker.McmaWorkerRequestContext)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Worker/IMcmaWorkerOperation.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Accepts
+    path: ../mcma-libraries-dotnet/Base/Mcma.Worker/IMcmaWorkerOperation.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Worker
+  namespace: Mcma.Worker
+  syntax:
+    content: bool Accepts(McmaWorkerRequestContext request)
+    parameters:
+    - id: request
+      type: Mcma.Worker.McmaWorkerRequestContext
+    return:
+      type: System.Boolean
+    content.vb: Function Accepts(request As McmaWorkerRequestContext) As Boolean
+  overload: Mcma.Worker.IMcmaWorkerOperation.Accepts*
+- uid: Mcma.Worker.IMcmaWorkerOperation.ExecuteAsync(Mcma.Worker.McmaWorkerRequestContext)
+  commentId: M:Mcma.Worker.IMcmaWorkerOperation.ExecuteAsync(Mcma.Worker.McmaWorkerRequestContext)
+  id: ExecuteAsync(Mcma.Worker.McmaWorkerRequestContext)
+  parent: Mcma.Worker.IMcmaWorkerOperation
+  langs:
+  - csharp
+  - vb
+  name: ExecuteAsync(McmaWorkerRequestContext)
+  nameWithType: IMcmaWorkerOperation.ExecuteAsync(McmaWorkerRequestContext)
+  fullName: Mcma.Worker.IMcmaWorkerOperation.ExecuteAsync(Mcma.Worker.McmaWorkerRequestContext)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Worker/IMcmaWorkerOperation.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ExecuteAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Worker/IMcmaWorkerOperation.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Worker
+  namespace: Mcma.Worker
+  syntax:
+    content: Task ExecuteAsync(McmaWorkerRequestContext request)
+    parameters:
+    - id: request
+      type: Mcma.Worker.McmaWorkerRequestContext
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ExecuteAsync(request As McmaWorkerRequestContext) As Task
+  overload: Mcma.Worker.IMcmaWorkerOperation.ExecuteAsync*
+references:
+- uid: Mcma.Worker
+  commentId: N:Mcma.Worker
+  name: Mcma.Worker
+  nameWithType: Mcma.Worker
+  fullName: Mcma.Worker
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Worker.IMcmaWorkerOperation.Name*
+  commentId: Overload:Mcma.Worker.IMcmaWorkerOperation.Name
+  name: Name
+  nameWithType: IMcmaWorkerOperation.Name
+  fullName: Mcma.Worker.IMcmaWorkerOperation.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Worker.IMcmaWorkerOperation.Accepts*
+  commentId: Overload:Mcma.Worker.IMcmaWorkerOperation.Accepts
+  name: Accepts
+  nameWithType: IMcmaWorkerOperation.Accepts
+  fullName: Mcma.Worker.IMcmaWorkerOperation.Accepts
+- uid: Mcma.Worker.McmaWorkerRequestContext
+  commentId: T:Mcma.Worker.McmaWorkerRequestContext
+  parent: Mcma.Worker
+  name: McmaWorkerRequestContext
+  nameWithType: McmaWorkerRequestContext
+  fullName: Mcma.Worker.McmaWorkerRequestContext
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Mcma.Worker.IMcmaWorkerOperation.ExecuteAsync*
+  commentId: Overload:Mcma.Worker.IMcmaWorkerOperation.ExecuteAsync
+  name: ExecuteAsync
+  nameWithType: IMcmaWorkerOperation.ExecuteAsync
+  fullName: Mcma.Worker.IMcmaWorkerOperation.ExecuteAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

@@ -1,0 +1,235 @@
+### YamlMime:UniversalReference
+items:
+  - uid: encryption.RSAKey
+    name: RSAKey
+    fullName: RSAKey
+    children:
+      - encryption.RSAKey.coeff
+      - encryption.RSAKey.d
+      - encryption.RSAKey.decrypt
+      - encryption.RSAKey.dmp1
+      - encryption.RSAKey.dmq1
+      - encryption.RSAKey.e
+      - encryption.RSAKey.encrypt
+      - encryption.RSAKey.generate
+      - encryption.RSAKey.n
+      - encryption.RSAKey.p
+      - encryption.RSAKey.q
+      - encryption.RSAKey.setPrivate
+      - encryption.RSAKey.setPrivateEx
+      - encryption.RSAKey.setPublic
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: encryption
+  - uid: encryption.RSAKey.coeff
+    name: coeff
+    fullName: coeff
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public coeff: any = null'
+      return:
+        type:
+          - any
+        description: ''
+    package: encryption
+  - uid: encryption.RSAKey.d
+    name: d
+    fullName: d
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public d: any = null'
+      return:
+        type:
+          - any
+        description: ''
+    package: encryption
+  - uid: encryption.RSAKey.decrypt
+    name: decrypt
+    fullName: decrypt
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public decrypt: RSADecrypt = RSADecrypt'
+      return:
+        type:
+          - RSADecrypt
+        description: ''
+    package: encryption
+  - uid: encryption.RSAKey.dmp1
+    name: dmp1
+    fullName: dmp1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public dmp1: any = null'
+      return:
+        type:
+          - any
+        description: ''
+    package: encryption
+  - uid: encryption.RSAKey.dmq1
+    name: dmq1
+    fullName: dmq1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public dmq1: any = null'
+      return:
+        type:
+          - any
+        description: ''
+    package: encryption
+  - uid: encryption.RSAKey.e
+    name: e
+    fullName: e
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public e: number = 0'
+      return:
+        type:
+          - number
+        description: ''
+    package: encryption
+  - uid: encryption.RSAKey.encrypt
+    name: encrypt
+    fullName: encrypt
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public encrypt: RSAEncrypt = RSAEncrypt'
+      return:
+        type:
+          - RSAEncrypt
+        description: ''
+    package: encryption
+  - uid: encryption.RSAKey.generate
+    name: generate
+    fullName: generate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public generate: RSAGenerate = RSAGenerate'
+      return:
+        type:
+          - RSAGenerate
+        description: ''
+    package: encryption
+  - uid: encryption.RSAKey.n
+    name: 'n'
+    fullName: 'n'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public n: any = null'
+      return:
+        type:
+          - any
+        description: ''
+    package: encryption
+  - uid: encryption.RSAKey.p
+    name: p
+    fullName: p
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public p: any = null'
+      return:
+        type:
+          - any
+        description: ''
+    package: encryption
+  - uid: encryption.RSAKey.q
+    name: q
+    fullName: q
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public q: any = null'
+      return:
+        type:
+          - any
+        description: ''
+    package: encryption
+  - uid: encryption.RSAKey.setPrivate
+    name: setPrivate
+    fullName: setPrivate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public setPrivate: RSASetPrivate = RSASetPrivate'
+      return:
+        type:
+          - RSASetPrivate
+        description: ''
+    package: encryption
+  - uid: encryption.RSAKey.setPrivateEx
+    name: setPrivateEx
+    fullName: setPrivateEx
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public setPrivateEx: RSASetPrivateEx = RSASetPrivateEx'
+      return:
+        type:
+          - RSASetPrivateEx
+        description: ''
+    package: encryption
+  - uid: encryption.RSAKey.setPublic
+    name: setPublic
+    fullName: setPublic
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public setPublic: RSASetPublic = RSASetPublic'
+      return:
+        type:
+          - RSASetPublic
+        description: ''
+    package: encryption

@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.Client.AzureAD.AuthenticationResultExtensions
+  commentId: T:Mcma.Azure.Client.AzureAD.AuthenticationResultExtensions
+  id: AuthenticationResultExtensions
+  parent: Mcma.Azure.Client.AzureAD
+  children:
+  - Mcma.Azure.Client.AzureAD.AuthenticationResultExtensions.ToBearerToken(Microsoft.Identity.Client.AuthenticationResult)
+  langs:
+  - csharp
+  - vb
+  name: AuthenticationResultExtensions
+  nameWithType: AuthenticationResultExtensions
+  fullName: Mcma.Azure.Client.AzureAD.AuthenticationResultExtensions
+  type: Class
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/AzureAD/AuthenticationResultExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AuthenticationResultExtensions
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/AzureAD/AuthenticationResultExtensions.cs
+    startLine: 5
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.AzureAD
+  syntax:
+    content: 'public static class AuthenticationResultExtensions : object'
+    content.vb: >-
+      Public Module AuthenticationResultExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.Azure.Client.AzureAD.AuthenticationResultExtensions.ToBearerToken(Microsoft.Identity.Client.AuthenticationResult)
+  commentId: M:Mcma.Azure.Client.AzureAD.AuthenticationResultExtensions.ToBearerToken(Microsoft.Identity.Client.AuthenticationResult)
+  id: ToBearerToken(Microsoft.Identity.Client.AuthenticationResult)
+  isExtensionMethod: true
+  parent: Mcma.Azure.Client.AzureAD.AuthenticationResultExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToBearerToken(AuthenticationResult)
+  nameWithType: AuthenticationResultExtensions.ToBearerToken(AuthenticationResult)
+  fullName: Mcma.Azure.Client.AzureAD.AuthenticationResultExtensions.ToBearerToken(Microsoft.Identity.Client.AuthenticationResult)
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/AzureAD/AuthenticationResultExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ToBearerToken
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/AzureAD/AuthenticationResultExtensions.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.AzureAD
+  syntax:
+    content: public static BearerToken ToBearerToken(this AuthenticationResult authResult)
+    parameters:
+    - id: authResult
+      type: Microsoft.Identity.Client.AuthenticationResult
+    return:
+      type: Mcma.Client.AccessTokens.BearerToken
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToBearerToken(authResult As AuthenticationResult) As BearerToken
+  overload: Mcma.Azure.Client.AzureAD.AuthenticationResultExtensions.ToBearerToken*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Mcma.Azure.Client.AzureAD
+  commentId: N:Mcma.Azure.Client.AzureAD
+  name: Mcma.Azure.Client.AzureAD
+  nameWithType: Mcma.Azure.Client.AzureAD
+  fullName: Mcma.Azure.Client.AzureAD
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Azure.Client.AzureAD.AuthenticationResultExtensions.ToBearerToken*
+  commentId: Overload:Mcma.Azure.Client.AzureAD.AuthenticationResultExtensions.ToBearerToken
+  name: ToBearerToken
+  nameWithType: AuthenticationResultExtensions.ToBearerToken
+  fullName: Mcma.Azure.Client.AzureAD.AuthenticationResultExtensions.ToBearerToken
+- uid: Microsoft.Identity.Client.AuthenticationResult
+  commentId: T:Microsoft.Identity.Client.AuthenticationResult
+  parent: Microsoft.Identity.Client
+  isExternal: true
+  name: AuthenticationResult
+  nameWithType: AuthenticationResult
+  fullName: Microsoft.Identity.Client.AuthenticationResult
+- uid: Mcma.Client.AccessTokens.BearerToken
+  commentId: T:Mcma.Client.AccessTokens.BearerToken
+  parent: Mcma.Client.AccessTokens
+  name: BearerToken
+  nameWithType: BearerToken
+  fullName: Mcma.Client.AccessTokens.BearerToken
+- uid: Microsoft.Identity.Client
+  commentId: N:Microsoft.Identity.Client
+  isExternal: true
+  name: Microsoft.Identity.Client
+  nameWithType: Microsoft.Identity.Client
+  fullName: Microsoft.Identity.Client
+- uid: Mcma.Client.AccessTokens
+  commentId: N:Mcma.Client.AccessTokens
+  name: Mcma.Client.AccessTokens
+  nameWithType: Mcma.Client.AccessTokens
+  fullName: Mcma.Client.AccessTokens

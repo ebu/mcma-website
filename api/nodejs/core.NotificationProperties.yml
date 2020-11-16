@@ -1,0 +1,70 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.NotificationProperties
+    name: NotificationProperties
+    fullName: NotificationProperties
+    children:
+      - core.NotificationProperties.@type
+      - core.NotificationProperties.content
+      - core.NotificationProperties.source
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: core.McmaObjectProperties
+    package: core
+  - uid: core.NotificationProperties.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: '@type?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.NotificationProperties.content
+    name: content
+    fullName: content
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'content: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: core
+  - uid: core.NotificationProperties.source
+    name: source
+    fullName: source
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'source?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+references:
+  - uid: core.McmaObjectProperties
+    name: McmaObjectProperties
+    spec.typeScript:
+      - name: McmaObjectProperties
+        fullName: McmaObjectProperties
+        uid: core.McmaObjectProperties

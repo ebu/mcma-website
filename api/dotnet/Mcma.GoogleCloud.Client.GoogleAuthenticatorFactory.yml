@@ -1,0 +1,1082 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory
+  commentId: T:Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory
+  id: GoogleAuthenticatorFactory
+  parent: Mcma.GoogleCloud.Client
+  children:
+  - Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory.#ctor(Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+  - Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory.GetAsync(Mcma.GoogleCloud.Client.GoogleAuthContext)
+  langs:
+  - csharp
+  - vb
+  name: GoogleAuthenticatorFactory
+  nameWithType: GoogleAuthenticatorFactory
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory
+  type: Class
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Client/GoogleAuthenticatorFactory.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GoogleAuthenticatorFactory
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Client/GoogleAuthenticatorFactory.cs
+    startLine: 8
+  assemblies:
+  - Mcma.GoogleCloud.Client
+  namespace: Mcma.GoogleCloud.Client
+  syntax:
+    content: 'public class GoogleAuthenticatorFactory : AuthenticatorFactory<GoogleAuthContext>, IAuthenticatorFactory'
+    content.vb: >-
+      Public Class GoogleAuthenticatorFactory
+
+          Inherits AuthenticatorFactory(Of GoogleAuthContext)
+
+          Implements IAuthenticatorFactory
+  inheritance:
+  - System.Object
+  - Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}
+  inheritedMembers:
+  - Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}.DefaultAuthContext
+  - Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}.TryParseContext(System.String,Mcma.GoogleCloud.Client.GoogleAuthContext@)
+  - Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}.GetAsync(System.Object)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory.#ctor(Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+  commentId: M:Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory.#ctor(Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})
+  id: '#ctor(Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions})'
+  parent: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory
+  langs:
+  - csharp
+  - vb
+  name: GoogleAuthenticatorFactory(IOptions<GoogleAuthenticatorOptions>)
+  nameWithType: GoogleAuthenticatorFactory.GoogleAuthenticatorFactory(IOptions<GoogleAuthenticatorOptions>)
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory.GoogleAuthenticatorFactory(Microsoft.Extensions.Options.IOptions<Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions>)
+  type: Constructor
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Client/GoogleAuthenticatorFactory.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Client/GoogleAuthenticatorFactory.cs
+    startLine: 10
+  assemblies:
+  - Mcma.GoogleCloud.Client
+  namespace: Mcma.GoogleCloud.Client
+  syntax:
+    content: public GoogleAuthenticatorFactory(IOptions<GoogleAuthenticatorOptions> options)
+    parameters:
+    - id: options
+      type: Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions}
+    content.vb: Public Sub New(options As IOptions(Of GoogleAuthenticatorOptions))
+  overload: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory.#ctor*
+  nameWithType.vb: GoogleAuthenticatorFactory.GoogleAuthenticatorFactory(IOptions(Of GoogleAuthenticatorOptions))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory.GoogleAuthenticatorFactory(Microsoft.Extensions.Options.IOptions(Of Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions))
+  name.vb: GoogleAuthenticatorFactory(IOptions(Of GoogleAuthenticatorOptions))
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory.GetAsync(Mcma.GoogleCloud.Client.GoogleAuthContext)
+  commentId: M:Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory.GetAsync(Mcma.GoogleCloud.Client.GoogleAuthContext)
+  id: GetAsync(Mcma.GoogleCloud.Client.GoogleAuthContext)
+  parent: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory
+  langs:
+  - csharp
+  - vb
+  name: GetAsync(GoogleAuthContext)
+  nameWithType: GoogleAuthenticatorFactory.GetAsync(GoogleAuthContext)
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory.GetAsync(Mcma.GoogleCloud.Client.GoogleAuthContext)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Client/GoogleAuthenticatorFactory.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetAsync
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Client/GoogleAuthenticatorFactory.cs
+    startLine: 17
+  assemblies:
+  - Mcma.GoogleCloud.Client
+  namespace: Mcma.GoogleCloud.Client
+  syntax:
+    content: protected override Task<IAuthenticator> GetAsync(GoogleAuthContext authContext)
+    parameters:
+    - id: authContext
+      type: Mcma.GoogleCloud.Client.GoogleAuthContext
+    return:
+      type: System.Threading.Tasks.Task{Mcma.Client.IAuthenticator}
+    content.vb: Protected Overrides Function GetAsync(authContext As GoogleAuthContext) As Task(Of IAuthenticator)
+  overridden: Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}.GetAsync(Mcma.GoogleCloud.Client.GoogleAuthContext)
+  overload: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory.GetAsync*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Mcma.GoogleCloud.Client
+  commentId: N:Mcma.GoogleCloud.Client
+  name: Mcma.GoogleCloud.Client
+  nameWithType: Mcma.GoogleCloud.Client
+  fullName: Mcma.GoogleCloud.Client
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}
+  commentId: T:Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}
+  parent: Mcma.Client
+  definition: Mcma.Client.AuthenticatorFactory`1
+  name: AuthenticatorFactory<GoogleAuthContext>
+  nameWithType: AuthenticatorFactory<GoogleAuthContext>
+  fullName: Mcma.Client.AuthenticatorFactory<Mcma.GoogleCloud.Client.GoogleAuthContext>
+  nameWithType.vb: AuthenticatorFactory(Of GoogleAuthContext)
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of Mcma.GoogleCloud.Client.GoogleAuthContext)
+  name.vb: AuthenticatorFactory(Of GoogleAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AuthenticatorFactory`1
+    name: AuthenticatorFactory
+    nameWithType: AuthenticatorFactory
+    fullName: Mcma.Client.AuthenticatorFactory
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthContext
+    name: GoogleAuthContext
+    nameWithType: GoogleAuthContext
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthContext
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Client.AuthenticatorFactory`1
+    name: AuthenticatorFactory
+    nameWithType: AuthenticatorFactory
+    fullName: Mcma.Client.AuthenticatorFactory
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthContext
+    name: GoogleAuthContext
+    nameWithType: GoogleAuthContext
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}.DefaultAuthContext
+  commentId: P:Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}.DefaultAuthContext
+  parent: Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}
+  definition: Mcma.Client.AuthenticatorFactory`1.DefaultAuthContext
+  name: DefaultAuthContext
+  nameWithType: AuthenticatorFactory<GoogleAuthContext>.DefaultAuthContext
+  fullName: Mcma.Client.AuthenticatorFactory<Mcma.GoogleCloud.Client.GoogleAuthContext>.DefaultAuthContext
+  nameWithType.vb: AuthenticatorFactory(Of GoogleAuthContext).DefaultAuthContext
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of Mcma.GoogleCloud.Client.GoogleAuthContext).DefaultAuthContext
+- uid: Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}.TryParseContext(System.String,Mcma.GoogleCloud.Client.GoogleAuthContext@)
+  commentId: M:Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}.TryParseContext(System.String,Mcma.GoogleCloud.Client.GoogleAuthContext@)
+  parent: Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}
+  definition: Mcma.Client.AuthenticatorFactory`1.TryParseContext(System.String,`0@)
+  name: TryParseContext(String, GoogleAuthContext)
+  nameWithType: AuthenticatorFactory<GoogleAuthContext>.TryParseContext(String, GoogleAuthContext)
+  fullName: Mcma.Client.AuthenticatorFactory<Mcma.GoogleCloud.Client.GoogleAuthContext>.TryParseContext(System.String, Mcma.GoogleCloud.Client.GoogleAuthContext)
+  nameWithType.vb: AuthenticatorFactory(Of GoogleAuthContext).TryParseContext(String, GoogleAuthContext)
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of Mcma.GoogleCloud.Client.GoogleAuthContext).TryParseContext(System.String, Mcma.GoogleCloud.Client.GoogleAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AuthenticatorFactory`1.TryParseContext(System.String,`0@)
+    name: TryParseContext
+    nameWithType: AuthenticatorFactory<GoogleAuthContext>.TryParseContext
+    fullName: Mcma.Client.AuthenticatorFactory<Mcma.GoogleCloud.Client.GoogleAuthContext>.TryParseContext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthContext
+    name: GoogleAuthContext
+    nameWithType: GoogleAuthContext
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.AuthenticatorFactory`1.TryParseContext(System.String,`0@)
+    name: TryParseContext
+    nameWithType: AuthenticatorFactory(Of GoogleAuthContext).TryParseContext
+    fullName: Mcma.Client.AuthenticatorFactory(Of Mcma.GoogleCloud.Client.GoogleAuthContext).TryParseContext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthContext
+    name: GoogleAuthContext
+    nameWithType: GoogleAuthContext
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}.GetAsync(System.Object)
+  commentId: M:Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}.GetAsync(System.Object)
+  parent: Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}
+  definition: Mcma.Client.AuthenticatorFactory`1.GetAsync(System.Object)
+  name: GetAsync(Object)
+  nameWithType: AuthenticatorFactory<GoogleAuthContext>.GetAsync(Object)
+  fullName: Mcma.Client.AuthenticatorFactory<Mcma.GoogleCloud.Client.GoogleAuthContext>.GetAsync(System.Object)
+  nameWithType.vb: AuthenticatorFactory(Of GoogleAuthContext).GetAsync(Object)
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of Mcma.GoogleCloud.Client.GoogleAuthContext).GetAsync(System.Object)
+  spec.csharp:
+  - uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(System.Object)
+    name: GetAsync
+    nameWithType: AuthenticatorFactory<GoogleAuthContext>.GetAsync
+    fullName: Mcma.Client.AuthenticatorFactory<Mcma.GoogleCloud.Client.GoogleAuthContext>.GetAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(System.Object)
+    name: GetAsync
+    nameWithType: AuthenticatorFactory(Of GoogleAuthContext).GetAsync
+    fullName: Mcma.Client.AuthenticatorFactory(Of Mcma.GoogleCloud.Client.GoogleAuthContext).GetAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Client.AuthenticatorFactory`1
+  commentId: T:Mcma.Client.AuthenticatorFactory`1
+  name: AuthenticatorFactory<TAuthContext>
+  nameWithType: AuthenticatorFactory<TAuthContext>
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext)
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext)
+  name.vb: AuthenticatorFactory(Of TAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AuthenticatorFactory`1
+    name: AuthenticatorFactory
+    nameWithType: AuthenticatorFactory
+    fullName: Mcma.Client.AuthenticatorFactory
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Client.AuthenticatorFactory`1
+    name: AuthenticatorFactory
+    nameWithType: AuthenticatorFactory
+    fullName: Mcma.Client.AuthenticatorFactory
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client
+  commentId: N:Mcma.Client
+  name: Mcma.Client
+  nameWithType: Mcma.Client
+  fullName: Mcma.Client
+- uid: Mcma.Client.AuthenticatorFactory`1.DefaultAuthContext
+  commentId: P:Mcma.Client.AuthenticatorFactory`1.DefaultAuthContext
+  name: DefaultAuthContext
+  nameWithType: AuthenticatorFactory<TAuthContext>.DefaultAuthContext
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.DefaultAuthContext
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext).DefaultAuthContext
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext).DefaultAuthContext
+- uid: Mcma.Client.AuthenticatorFactory`1.TryParseContext(System.String,`0@)
+  commentId: M:Mcma.Client.AuthenticatorFactory`1.TryParseContext(System.String,`0@)
+  isExternal: true
+  name: TryParseContext(String, TAuthContext)
+  nameWithType: AuthenticatorFactory<TAuthContext>.TryParseContext(String, TAuthContext)
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.TryParseContext(System.String, TAuthContext)
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext).TryParseContext(String, TAuthContext)
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext).TryParseContext(System.String, TAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AuthenticatorFactory`1.TryParseContext(System.String,`0@)
+    name: TryParseContext
+    nameWithType: AuthenticatorFactory<TAuthContext>.TryParseContext
+    fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.TryParseContext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.AuthenticatorFactory`1.TryParseContext(System.String,`0@)
+    name: TryParseContext
+    nameWithType: AuthenticatorFactory(Of TAuthContext).TryParseContext
+    fullName: Mcma.Client.AuthenticatorFactory(Of TAuthContext).TryParseContext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(System.Object)
+  commentId: M:Mcma.Client.AuthenticatorFactory`1.GetAsync(System.Object)
+  isExternal: true
+  name: GetAsync(Object)
+  nameWithType: AuthenticatorFactory<TAuthContext>.GetAsync(Object)
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.GetAsync(System.Object)
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext).GetAsync(Object)
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext).GetAsync(System.Object)
+  spec.csharp:
+  - uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(System.Object)
+    name: GetAsync
+    nameWithType: AuthenticatorFactory<TAuthContext>.GetAsync
+    fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.GetAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(System.Object)
+    name: GetAsync
+    nameWithType: AuthenticatorFactory(Of TAuthContext).GetAsync
+    fullName: Mcma.Client.AuthenticatorFactory(Of TAuthContext).GetAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory.#ctor*
+  commentId: Overload:Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory.#ctor
+  name: GoogleAuthenticatorFactory
+  nameWithType: GoogleAuthenticatorFactory.GoogleAuthenticatorFactory
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory.GoogleAuthenticatorFactory
+- uid: Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions}
+  commentId: T:Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IOptions`1
+  name: IOptions<GoogleAuthenticatorOptions>
+  nameWithType: IOptions<GoogleAuthenticatorOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions>
+  nameWithType.vb: IOptions(Of GoogleAuthenticatorOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions)
+  name.vb: IOptions(Of GoogleAuthenticatorOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+    name: GoogleAuthenticatorOptions
+    nameWithType: GoogleAuthenticatorOptions
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+    name: GoogleAuthenticatorOptions
+    nameWithType: GoogleAuthenticatorOptions
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options.IOptions`1
+  commentId: T:Microsoft.Extensions.Options.IOptions`1
+  isExternal: true
+  name: IOptions<TOptions>
+  nameWithType: IOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<TOptions>
+  nameWithType.vb: IOptions(Of TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of TOptions)
+  name.vb: IOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: true
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+- uid: Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}.GetAsync(Mcma.GoogleCloud.Client.GoogleAuthContext)
+  commentId: M:Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}.GetAsync(Mcma.GoogleCloud.Client.GoogleAuthContext)
+  parent: Mcma.Client.AuthenticatorFactory{Mcma.GoogleCloud.Client.GoogleAuthContext}
+  definition: Mcma.Client.AuthenticatorFactory`1.GetAsync(`0)
+  name: GetAsync(GoogleAuthContext)
+  nameWithType: AuthenticatorFactory<GoogleAuthContext>.GetAsync(GoogleAuthContext)
+  fullName: Mcma.Client.AuthenticatorFactory<Mcma.GoogleCloud.Client.GoogleAuthContext>.GetAsync(Mcma.GoogleCloud.Client.GoogleAuthContext)
+  nameWithType.vb: AuthenticatorFactory(Of GoogleAuthContext).GetAsync(GoogleAuthContext)
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of Mcma.GoogleCloud.Client.GoogleAuthContext).GetAsync(Mcma.GoogleCloud.Client.GoogleAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(`0)
+    name: GetAsync
+    nameWithType: AuthenticatorFactory<GoogleAuthContext>.GetAsync
+    fullName: Mcma.Client.AuthenticatorFactory<Mcma.GoogleCloud.Client.GoogleAuthContext>.GetAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthContext
+    name: GoogleAuthContext
+    nameWithType: GoogleAuthContext
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(`0)
+    name: GetAsync
+    nameWithType: AuthenticatorFactory(Of GoogleAuthContext).GetAsync
+    fullName: Mcma.Client.AuthenticatorFactory(Of Mcma.GoogleCloud.Client.GoogleAuthContext).GetAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthContext
+    name: GoogleAuthContext
+    nameWithType: GoogleAuthContext
+    fullName: Mcma.GoogleCloud.Client.GoogleAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory.GetAsync*
+  commentId: Overload:Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory.GetAsync
+  name: GetAsync
+  nameWithType: GoogleAuthenticatorFactory.GetAsync
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory.GetAsync
+- uid: Mcma.GoogleCloud.Client.GoogleAuthContext
+  commentId: T:Mcma.GoogleCloud.Client.GoogleAuthContext
+  parent: Mcma.GoogleCloud.Client
+  name: GoogleAuthContext
+  nameWithType: GoogleAuthContext
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthContext
+- uid: System.Threading.Tasks.Task{Mcma.Client.IAuthenticator}
+  commentId: T:System.Threading.Tasks.Task{Mcma.Client.IAuthenticator}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IAuthenticator>
+  nameWithType: Task<IAuthenticator>
+  fullName: System.Threading.Tasks.Task<Mcma.Client.IAuthenticator>
+  nameWithType.vb: Task(Of IAuthenticator)
+  fullName.vb: System.Threading.Tasks.Task(Of Mcma.Client.IAuthenticator)
+  name.vb: Task(Of IAuthenticator)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Client.IAuthenticator
+    name: IAuthenticator
+    nameWithType: IAuthenticator
+    fullName: Mcma.Client.IAuthenticator
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Client.IAuthenticator
+    name: IAuthenticator
+    nameWithType: IAuthenticator
+    fullName: Mcma.Client.IAuthenticator
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(`0)
+  commentId: M:Mcma.Client.AuthenticatorFactory`1.GetAsync(`0)
+  name: GetAsync(TAuthContext)
+  nameWithType: AuthenticatorFactory<TAuthContext>.GetAsync(TAuthContext)
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.GetAsync(TAuthContext)
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext).GetAsync(TAuthContext)
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext).GetAsync(TAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(`0)
+    name: GetAsync
+    nameWithType: AuthenticatorFactory<TAuthContext>.GetAsync
+    fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.GetAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(`0)
+    name: GetAsync
+    nameWithType: AuthenticatorFactory(Of TAuthContext).GetAsync
+    fullName: Mcma.Client.AuthenticatorFactory(Of TAuthContext).GetAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

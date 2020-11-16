@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: client.ResourceManagerConfig
+    name: ResourceManagerConfig
+    fullName: ResourceManagerConfig
+    children:
+      - client.ResourceManagerConfig.servicesAuthContext
+      - client.ResourceManagerConfig.servicesAuthType
+      - client.ResourceManagerConfig.servicesUrl
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: client
+  - uid: client.ResourceManagerConfig.servicesAuthContext
+    name: servicesAuthContext
+    fullName: servicesAuthContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'servicesAuthContext?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: client
+  - uid: client.ResourceManagerConfig.servicesAuthType
+    name: servicesAuthType
+    fullName: servicesAuthType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'servicesAuthType?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: client
+  - uid: client.ResourceManagerConfig.servicesUrl
+    name: servicesUrl
+    fullName: servicesUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'servicesUrl: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: client

@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  commentId: N:Mcma.Azure.Client.AzureAD.ConfidentialClient
+  id: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  children:
+  - Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions
+  - Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  nameWithType: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  type: Namespace
+  assemblies:
+  - Mcma.Azure.Client
+references:
+- uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions
+  commentId: T:Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions
+  parent: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  name: AzureADConfidentialClientAuthRegistryExtensions
+  nameWithType: AzureADConfidentialClientAuthRegistryExtensions
+  fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions
+- uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider
+  commentId: T:Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider
+  name: AzureADConfidentialClientBearerTokenProvider
+  nameWithType: AzureADConfidentialClientBearerTokenProvider
+  fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider
+- uid: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  commentId: N:Mcma.Azure.Client.AzureAD.ConfidentialClient
+  name: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  nameWithType: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient

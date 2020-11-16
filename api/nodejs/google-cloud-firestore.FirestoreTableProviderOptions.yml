@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-firestore.FirestoreTableProviderOptions
+    name: FirestoreTableProviderOptions
+    fullName: FirestoreTableProviderOptions
+    children:
+      - google-cloud-firestore.FirestoreTableProviderOptions.customQueries
+      - google-cloud-firestore.FirestoreTableProviderOptions.firestore
+      - google-cloud-firestore.FirestoreTableProviderOptions.firestoreSettings
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreTableProviderOptions.customQueries
+    name: customQueries
+    fullName: customQueries
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'customQueries?: CustomQueryRegistry'
+      return:
+        type:
+          - google-cloud-firestore.CustomQueryRegistry
+        description: ''
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreTableProviderOptions.firestore
+    name: firestore
+    fullName: firestore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'firestore?: Firestore'
+      return:
+        type:
+          - Firestore
+        description: ''
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreTableProviderOptions.firestoreSettings
+    name: firestoreSettings
+    fullName: firestoreSettings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'firestoreSettings?: Settings'
+      return:
+        type:
+          - Settings
+        description: ''
+    package: google-cloud-firestore
+references:
+  - uid: google-cloud-firestore.CustomQueryRegistry
+    name: CustomQueryRegistry
+    spec.typeScript:
+      - name: CustomQueryRegistry
+        fullName: CustomQueryRegistry
+        uid: google-cloud-firestore.CustomQueryRegistry

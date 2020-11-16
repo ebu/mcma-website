@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.Client.AzureAD
+  commentId: N:Mcma.Azure.Client.AzureAD
+  id: Mcma.Azure.Client.AzureAD
+  children:
+  - Mcma.Azure.Client.AzureAD.AuthenticationResultExtensions
+  - Mcma.Azure.Client.AzureAD.AzureADAuthContext
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Azure.Client.AzureAD
+  nameWithType: Mcma.Azure.Client.AzureAD
+  fullName: Mcma.Azure.Client.AzureAD
+  type: Namespace
+  assemblies:
+  - Mcma.Azure.Client
+references:
+- uid: Mcma.Azure.Client.AzureAD.AuthenticationResultExtensions
+  commentId: T:Mcma.Azure.Client.AzureAD.AuthenticationResultExtensions
+  name: AuthenticationResultExtensions
+  nameWithType: AuthenticationResultExtensions
+  fullName: Mcma.Azure.Client.AzureAD.AuthenticationResultExtensions
+- uid: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+  commentId: T:Mcma.Azure.Client.AzureAD.AzureADAuthContext
+  parent: Mcma.Azure.Client.AzureAD
+  name: AzureADAuthContext
+  nameWithType: AzureADAuthContext
+  fullName: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+- uid: Mcma.Azure.Client.AzureAD
+  commentId: N:Mcma.Azure.Client.AzureAD
+  name: Mcma.Azure.Client.AzureAD
+  nameWithType: Mcma.Azure.Client.AzureAD
+  fullName: Mcma.Azure.Client.AzureAD

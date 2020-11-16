@@ -1,0 +1,705 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.FunctionsApi.McmaApiActionResult
+  commentId: T:Mcma.Azure.FunctionsApi.McmaApiActionResult
+  id: McmaApiActionResult
+  parent: Mcma.Azure.FunctionsApi
+  children:
+  - Mcma.Azure.FunctionsApi.McmaApiActionResult.#ctor(Mcma.Api.McmaApiResponse)
+  - Mcma.Azure.FunctionsApi.McmaApiActionResult.ExecuteResultAsync(Microsoft.AspNetCore.Mvc.ActionContext)
+  langs:
+  - csharp
+  - vb
+  name: McmaApiActionResult
+  nameWithType: McmaApiActionResult
+  fullName: Mcma.Azure.FunctionsApi.McmaApiActionResult
+  type: Class
+  source:
+    remote:
+      path: Azure/Mcma.Azure.FunctionsApi/McmaApiActionResult.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaApiActionResult
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.FunctionsApi/McmaApiActionResult.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Azure.FunctionsApi
+  namespace: Mcma.Azure.FunctionsApi
+  syntax:
+    content: 'public class McmaApiActionResult : ActionResult, IActionResult'
+    content.vb: >-
+      Public Class McmaApiActionResult
+
+          Inherits ActionResult
+
+          Implements IActionResult
+  inheritance:
+  - System.Object
+  - Microsoft.AspNetCore.Mvc.ActionResult
+  implements:
+  - Microsoft.AspNetCore.Mvc.IActionResult
+  inheritedMembers:
+  - Microsoft.AspNetCore.Mvc.ActionResult.ExecuteResult(Microsoft.AspNetCore.Mvc.ActionContext)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.Finalize
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Azure.FunctionsApi.McmaApiActionResult.#ctor(Mcma.Api.McmaApiResponse)
+  commentId: M:Mcma.Azure.FunctionsApi.McmaApiActionResult.#ctor(Mcma.Api.McmaApiResponse)
+  id: '#ctor(Mcma.Api.McmaApiResponse)'
+  parent: Mcma.Azure.FunctionsApi.McmaApiActionResult
+  langs:
+  - csharp
+  - vb
+  name: McmaApiActionResult(McmaApiResponse)
+  nameWithType: McmaApiActionResult.McmaApiActionResult(McmaApiResponse)
+  fullName: Mcma.Azure.FunctionsApi.McmaApiActionResult.McmaApiActionResult(Mcma.Api.McmaApiResponse)
+  type: Constructor
+  source:
+    remote:
+      path: Azure/Mcma.Azure.FunctionsApi/McmaApiActionResult.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.FunctionsApi/McmaApiActionResult.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Azure.FunctionsApi
+  namespace: Mcma.Azure.FunctionsApi
+  syntax:
+    content: public McmaApiActionResult(McmaApiResponse response)
+    parameters:
+    - id: response
+      type: Mcma.Api.McmaApiResponse
+    content.vb: Public Sub New(response As McmaApiResponse)
+  overload: Mcma.Azure.FunctionsApi.McmaApiActionResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Azure.FunctionsApi.McmaApiActionResult.ExecuteResultAsync(Microsoft.AspNetCore.Mvc.ActionContext)
+  commentId: M:Mcma.Azure.FunctionsApi.McmaApiActionResult.ExecuteResultAsync(Microsoft.AspNetCore.Mvc.ActionContext)
+  id: ExecuteResultAsync(Microsoft.AspNetCore.Mvc.ActionContext)
+  parent: Mcma.Azure.FunctionsApi.McmaApiActionResult
+  langs:
+  - csharp
+  - vb
+  name: ExecuteResultAsync(ActionContext)
+  nameWithType: McmaApiActionResult.ExecuteResultAsync(ActionContext)
+  fullName: Mcma.Azure.FunctionsApi.McmaApiActionResult.ExecuteResultAsync(Microsoft.AspNetCore.Mvc.ActionContext)
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.FunctionsApi/McmaApiActionResult.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ExecuteResultAsync
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.FunctionsApi/McmaApiActionResult.cs
+    startLine: 15
+  assemblies:
+  - Mcma.Azure.FunctionsApi
+  namespace: Mcma.Azure.FunctionsApi
+  syntax:
+    content: public override Task ExecuteResultAsync(ActionContext context)
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Mvc.ActionContext
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overrides Function ExecuteResultAsync(context As ActionContext) As Task
+  overridden: Microsoft.AspNetCore.Mvc.ActionResult.ExecuteResultAsync(Microsoft.AspNetCore.Mvc.ActionContext)
+  overload: Mcma.Azure.FunctionsApi.McmaApiActionResult.ExecuteResultAsync*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Mcma.Azure.FunctionsApi
+  commentId: N:Mcma.Azure.FunctionsApi
+  name: Mcma.Azure.FunctionsApi
+  nameWithType: Mcma.Azure.FunctionsApi
+  fullName: Mcma.Azure.FunctionsApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNetCore.Mvc.ActionResult
+  commentId: T:Microsoft.AspNetCore.Mvc.ActionResult
+  parent: Microsoft.AspNetCore.Mvc
+  isExternal: true
+  name: ActionResult
+  nameWithType: ActionResult
+  fullName: Microsoft.AspNetCore.Mvc.ActionResult
+- uid: Microsoft.AspNetCore.Mvc.IActionResult
+  commentId: T:Microsoft.AspNetCore.Mvc.IActionResult
+  parent: Microsoft.AspNetCore.Mvc
+  isExternal: true
+  name: IActionResult
+  nameWithType: IActionResult
+  fullName: Microsoft.AspNetCore.Mvc.IActionResult
+- uid: Microsoft.AspNetCore.Mvc.ActionResult.ExecuteResult(Microsoft.AspNetCore.Mvc.ActionContext)
+  commentId: M:Microsoft.AspNetCore.Mvc.ActionResult.ExecuteResult(Microsoft.AspNetCore.Mvc.ActionContext)
+  parent: Microsoft.AspNetCore.Mvc.ActionResult
+  isExternal: true
+  name: ExecuteResult(ActionContext)
+  nameWithType: ActionResult.ExecuteResult(ActionContext)
+  fullName: Microsoft.AspNetCore.Mvc.ActionResult.ExecuteResult(Microsoft.AspNetCore.Mvc.ActionContext)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Mvc.ActionResult.ExecuteResult(Microsoft.AspNetCore.Mvc.ActionContext)
+    name: ExecuteResult
+    nameWithType: ActionResult.ExecuteResult
+    fullName: Microsoft.AspNetCore.Mvc.ActionResult.ExecuteResult
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Mvc.ActionContext
+    name: ActionContext
+    nameWithType: ActionContext
+    fullName: Microsoft.AspNetCore.Mvc.ActionContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Mvc.ActionResult.ExecuteResult(Microsoft.AspNetCore.Mvc.ActionContext)
+    name: ExecuteResult
+    nameWithType: ActionResult.ExecuteResult
+    fullName: Microsoft.AspNetCore.Mvc.ActionResult.ExecuteResult
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Mvc.ActionContext
+    name: ActionContext
+    nameWithType: ActionContext
+    fullName: Microsoft.AspNetCore.Mvc.ActionContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Finalize
+  commentId: M:System.Object.Finalize
+  parent: System.Object
+  isExternal: true
+  name: Finalize()
+  nameWithType: Object.Finalize()
+  fullName: System.Object.Finalize()
+  spec.csharp:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.Mvc
+  commentId: N:Microsoft.AspNetCore.Mvc
+  isExternal: true
+  name: Microsoft.AspNetCore.Mvc
+  nameWithType: Microsoft.AspNetCore.Mvc
+  fullName: Microsoft.AspNetCore.Mvc
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Azure.FunctionsApi.McmaApiActionResult.#ctor*
+  commentId: Overload:Mcma.Azure.FunctionsApi.McmaApiActionResult.#ctor
+  name: McmaApiActionResult
+  nameWithType: McmaApiActionResult.McmaApiActionResult
+  fullName: Mcma.Azure.FunctionsApi.McmaApiActionResult.McmaApiActionResult
+- uid: Mcma.Api.McmaApiResponse
+  commentId: T:Mcma.Api.McmaApiResponse
+  parent: Mcma.Api
+  name: McmaApiResponse
+  nameWithType: McmaApiResponse
+  fullName: Mcma.Api.McmaApiResponse
+- uid: Mcma.Api
+  commentId: N:Mcma.Api
+  name: Mcma.Api
+  nameWithType: Mcma.Api
+  fullName: Mcma.Api
+- uid: Microsoft.AspNetCore.Mvc.ActionResult.ExecuteResultAsync(Microsoft.AspNetCore.Mvc.ActionContext)
+  commentId: M:Microsoft.AspNetCore.Mvc.ActionResult.ExecuteResultAsync(Microsoft.AspNetCore.Mvc.ActionContext)
+  parent: Microsoft.AspNetCore.Mvc.ActionResult
+  isExternal: true
+  name: ExecuteResultAsync(ActionContext)
+  nameWithType: ActionResult.ExecuteResultAsync(ActionContext)
+  fullName: Microsoft.AspNetCore.Mvc.ActionResult.ExecuteResultAsync(Microsoft.AspNetCore.Mvc.ActionContext)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Mvc.ActionResult.ExecuteResultAsync(Microsoft.AspNetCore.Mvc.ActionContext)
+    name: ExecuteResultAsync
+    nameWithType: ActionResult.ExecuteResultAsync
+    fullName: Microsoft.AspNetCore.Mvc.ActionResult.ExecuteResultAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Mvc.ActionContext
+    name: ActionContext
+    nameWithType: ActionContext
+    fullName: Microsoft.AspNetCore.Mvc.ActionContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Mvc.ActionResult.ExecuteResultAsync(Microsoft.AspNetCore.Mvc.ActionContext)
+    name: ExecuteResultAsync
+    nameWithType: ActionResult.ExecuteResultAsync
+    fullName: Microsoft.AspNetCore.Mvc.ActionResult.ExecuteResultAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Mvc.ActionContext
+    name: ActionContext
+    nameWithType: ActionContext
+    fullName: Microsoft.AspNetCore.Mvc.ActionContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Azure.FunctionsApi.McmaApiActionResult.ExecuteResultAsync*
+  commentId: Overload:Mcma.Azure.FunctionsApi.McmaApiActionResult.ExecuteResultAsync
+  name: ExecuteResultAsync
+  nameWithType: McmaApiActionResult.ExecuteResultAsync
+  fullName: Mcma.Azure.FunctionsApi.McmaApiActionResult.ExecuteResultAsync
+- uid: Microsoft.AspNetCore.Mvc.ActionContext
+  commentId: T:Microsoft.AspNetCore.Mvc.ActionContext
+  parent: Microsoft.AspNetCore.Mvc
+  isExternal: true
+  name: ActionContext
+  nameWithType: ActionContext
+  fullName: Microsoft.AspNetCore.Mvc.ActionContext
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

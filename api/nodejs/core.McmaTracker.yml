@@ -1,0 +1,107 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.McmaTracker
+    name: McmaTracker
+    fullName: McmaTracker
+    children:
+      - core.McmaTracker.@type
+      - core.McmaTracker.custom
+      - core.McmaTracker.id
+      - core.McmaTracker.label
+      - core.McmaTracker.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: core.McmaObject
+    package: core
+  - uid: core.McmaTracker.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.McmaTracker.custom
+    name: custom
+    fullName: custom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'custom?: [key: string]: string'
+      return:
+        type:
+          - '[key: string]: string'
+        description: ''
+    package: core
+  - uid: core.McmaTracker.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.McmaTracker.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'label: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.McmaTracker.constructor
+    name: McmaTracker(McmaTrackerProperties)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new McmaTracker(properties: McmaTrackerProperties)'
+      parameters:
+        - id: properties
+          type:
+            - core.McmaTrackerProperties
+          description: ''
+    package: core
+references:
+  - uid: core.McmaObject
+    name: McmaObject
+    spec.typeScript:
+      - name: McmaObject
+        fullName: McmaObject
+        uid: core.McmaObject
+  - uid: core.McmaTrackerProperties
+    name: McmaTrackerProperties
+    spec.typeScript:
+      - name: McmaTrackerProperties
+        fullName: McmaTrackerProperties
+        uid: core.McmaTrackerProperties

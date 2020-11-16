@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-cosmos-db.CustomQueryFactory
+    name: CustomQueryFactory
+    fullName: CustomQueryFactory
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: 'type CustomQueryFactory = (customQuery: CustomQuery) => SqlQuerySpec'
+    package: azure-cosmos-db

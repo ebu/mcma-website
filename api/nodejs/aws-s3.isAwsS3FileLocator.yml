@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-s3.isAwsS3FileLocator
+    name: isAwsS3FileLocator(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isAwsS3FileLocator(x: any)'
+      parameters:
+        - id: x
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - x
+        description: ''
+    package: aws-s3

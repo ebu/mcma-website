@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-api-gateway
+    name: "@mcma/aws-api-gateway"
+    summary: ""
+    children:
+      - aws-api-gateway.ApiGatewayApiController
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: aws-api-gateway.ApiGatewayApiController
+    name: ApiGatewayApiController

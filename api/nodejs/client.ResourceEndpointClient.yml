@@ -1,0 +1,235 @@
+### YamlMime:UniversalReference
+items:
+  - uid: client.ResourceEndpointClient
+    name: ResourceEndpointClient
+    fullName: ResourceEndpointClient
+    children:
+      - client.ResourceEndpointClient.delete
+      - client.ResourceEndpointClient.get
+      - client.ResourceEndpointClient.httpEndpoint
+      - client.ResourceEndpointClient.patch
+      - client.ResourceEndpointClient.post
+      - client.ResourceEndpointClient.put
+      - client.ResourceEndpointClient.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: client
+  - uid: client.ResourceEndpointClient.delete
+    name: 'delete(string | HttpRequestConfig, HttpRequestConfig)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function delete<T>(urlOrConfig?: string | HttpRequestConfig, config?:
+        HttpRequestConfig)
+      parameters:
+        - id: urlOrConfig
+          type:
+            - string | client.HttpRequestConfig
+          description: ''
+          optional: true
+        - id: config
+          type:
+            - client.HttpRequestConfig
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<AxiosResponse<T>>
+        description: ''
+    package: client
+  - uid: client.ResourceEndpointClient.get
+    name: 'get(string | HttpRequestConfig, HttpRequestConfig)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function get<T>(urlOrConfig?: string | HttpRequestConfig, config?:
+        HttpRequestConfig)
+      parameters:
+        - id: urlOrConfig
+          type:
+            - string | client.HttpRequestConfig
+          description: ''
+          optional: true
+        - id: config
+          type:
+            - client.HttpRequestConfig
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<AxiosResponse<T>>
+        description: ''
+    package: client
+  - uid: client.ResourceEndpointClient.httpEndpoint
+    name: httpEndpoint
+    fullName: httpEndpoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string httpEndpoint
+      return:
+        type:
+          - string
+        description: ''
+    package: client
+  - uid: client.ResourceEndpointClient.patch
+    name: 'patch(Partial<T>, string | HttpRequestConfig, HttpRequestConfig)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function patch<T>(body: Partial<T>, urlOrConfig?: string |
+        HttpRequestConfig, config?: HttpRequestConfig)
+      parameters:
+        - id: body
+          type:
+            - Partial<T>
+          description: ''
+        - id: urlOrConfig
+          type:
+            - string | client.HttpRequestConfig
+          description: ''
+          optional: true
+        - id: config
+          type:
+            - client.HttpRequestConfig
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<AxiosResponse<T>>
+        description: ''
+    package: client
+  - uid: client.ResourceEndpointClient.post
+    name: 'post(T, string | HttpRequestConfig, HttpRequestConfig)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function post<T>(body: T, urlOrConfig?: string | HttpRequestConfig,
+        config?: HttpRequestConfig)
+      parameters:
+        - id: body
+          type:
+            - T
+          description: ''
+        - id: urlOrConfig
+          type:
+            - string | client.HttpRequestConfig
+          description: ''
+          optional: true
+        - id: config
+          type:
+            - client.HttpRequestConfig
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<AxiosResponse<T>>
+        description: ''
+    package: client
+  - uid: client.ResourceEndpointClient.put
+    name: 'put(T, string | HttpRequestConfig, HttpRequestConfig)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function put<T>(body: T, urlOrConfig?: string | HttpRequestConfig,
+        config?: HttpRequestConfig)
+      parameters:
+        - id: body
+          type:
+            - T
+          description: ''
+        - id: urlOrConfig
+          type:
+            - string | client.HttpRequestConfig
+          description: ''
+          optional: true
+        - id: config
+          type:
+            - client.HttpRequestConfig
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<AxiosResponse<T>>
+        description: ''
+    package: client
+  - uid: client.ResourceEndpointClient.constructor
+    name: >-
+      ResourceEndpointClient(ResourceEndpointProperties, AuthProvider, string,
+      any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ResourceEndpointClient(resourceEndpoint: ResourceEndpointProperties,
+        authProvider: AuthProvider, serviceAuthType?: string,
+        serviceAuthContext?: any)
+      parameters:
+        - id: resourceEndpoint
+          type:
+            - ResourceEndpointProperties
+          description: ''
+        - id: authProvider
+          type:
+            - client.AuthProvider
+          description: ''
+        - id: serviceAuthType
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: serviceAuthContext
+          type:
+            - any
+          description: ''
+          optional: true
+    package: client
+references:
+  - uid: client.AuthProvider
+    name: AuthProvider
+    spec.typeScript:
+      - name: AuthProvider
+        fullName: AuthProvider
+        uid: client.AuthProvider
+  - uid: string | client.HttpRequestConfig
+    name: HttpRequestConfig
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: HttpRequestConfig
+        fullName: HttpRequestConfig
+        uid: client.HttpRequestConfig
+  - uid: client.HttpRequestConfig
+    name: HttpRequestConfig
+    spec.typeScript:
+      - name: HttpRequestConfig
+        fullName: HttpRequestConfig
+        uid: client.HttpRequestConfig

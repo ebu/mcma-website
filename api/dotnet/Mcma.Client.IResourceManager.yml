@@ -1,0 +1,1427 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Client.IResourceManager
+  commentId: T:Mcma.Client.IResourceManager
+  id: IResourceManager
+  parent: Mcma.Client
+  children:
+  - Mcma.Client.IResourceManager.CreateAsync``1(``0,System.Threading.CancellationToken)
+  - Mcma.Client.IResourceManager.DeleteAsync``1(System.String,System.Threading.CancellationToken)
+  - Mcma.Client.IResourceManager.GetAsync``1(System.String,System.Threading.CancellationToken)
+  - Mcma.Client.IResourceManager.GetResourceEndpointClientAsync(System.String)
+  - Mcma.Client.IResourceManager.GetServiceClient(Mcma.Service)
+  - Mcma.Client.IResourceManager.InitAsync
+  - Mcma.Client.IResourceManager.QueryAsync``1(System.Threading.CancellationToken,System.ValueTuple{System.String,System.String}[])
+  - Mcma.Client.IResourceManager.QueryAsync``1(System.ValueTuple{System.String,System.String}[])
+  - Mcma.Client.IResourceManager.SendNotificationAsync``1(System.String,``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+  - Mcma.Client.IResourceManager.UpdateAsync``1(System.String,``0,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IResourceManager
+  nameWithType: IResourceManager
+  fullName: Mcma.Client.IResourceManager
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/IResourceManager.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IResourceManager
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/IResourceManager.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: public interface IResourceManager
+    content.vb: Public Interface IResourceManager
+  extensionMethods:
+  - Mcma.Client.IResourceManager.Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl``1(System.String)
+  - Mcma.Client.IResourceManager.Mcma.Client.ResourceManagerExtensions.UpdateAsync``1({T},System.Threading.CancellationToken)
+  - Mcma.Client.IResourceManager.Mcma.Client.ResourceManagerExtensions.SendNotificationAsync``1({T},Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+  - Mcma.Client.IResourceManager.Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync``1({T},Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Client.IResourceManager.InitAsync
+  commentId: M:Mcma.Client.IResourceManager.InitAsync
+  id: InitAsync
+  parent: Mcma.Client.IResourceManager
+  langs:
+  - csharp
+  - vb
+  name: InitAsync()
+  nameWithType: IResourceManager.InitAsync()
+  fullName: Mcma.Client.IResourceManager.InitAsync()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/IResourceManager.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: InitAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/IResourceManager.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: Task InitAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function InitAsync As Task
+  overload: Mcma.Client.IResourceManager.InitAsync*
+- uid: Mcma.Client.IResourceManager.GetServiceClient(Mcma.Service)
+  commentId: M:Mcma.Client.IResourceManager.GetServiceClient(Mcma.Service)
+  id: GetServiceClient(Mcma.Service)
+  parent: Mcma.Client.IResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetServiceClient(Service)
+  nameWithType: IResourceManager.GetServiceClient(Service)
+  fullName: Mcma.Client.IResourceManager.GetServiceClient(Mcma.Service)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/IResourceManager.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetServiceClient
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/IResourceManager.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: IServiceClient GetServiceClient(Service service)
+    parameters:
+    - id: service
+      type: Mcma.Service
+    return:
+      type: Mcma.Client.IServiceClient
+    content.vb: Function GetServiceClient(service As Service) As IServiceClient
+  overload: Mcma.Client.IResourceManager.GetServiceClient*
+- uid: Mcma.Client.IResourceManager.GetResourceEndpointClientAsync(System.String)
+  commentId: M:Mcma.Client.IResourceManager.GetResourceEndpointClientAsync(System.String)
+  id: GetResourceEndpointClientAsync(System.String)
+  parent: Mcma.Client.IResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetResourceEndpointClientAsync(String)
+  nameWithType: IResourceManager.GetResourceEndpointClientAsync(String)
+  fullName: Mcma.Client.IResourceManager.GetResourceEndpointClientAsync(System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/IResourceManager.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetResourceEndpointClientAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/IResourceManager.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: Task<IResourceEndpointClient> GetResourceEndpointClientAsync(string url)
+    parameters:
+    - id: url
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Mcma.Client.IResourceEndpointClient}
+    content.vb: Function GetResourceEndpointClientAsync(url As String) As Task(Of IResourceEndpointClient)
+  overload: Mcma.Client.IResourceManager.GetResourceEndpointClientAsync*
+- uid: Mcma.Client.IResourceManager.QueryAsync``1(System.ValueTuple{System.String,System.String}[])
+  commentId: M:Mcma.Client.IResourceManager.QueryAsync``1(System.ValueTuple{System.String,System.String}[])
+  id: QueryAsync``1(System.ValueTuple{System.String,System.String}[])
+  parent: Mcma.Client.IResourceManager
+  langs:
+  - csharp
+  - vb
+  name: QueryAsync<T>((String, String)[])
+  nameWithType: IResourceManager.QueryAsync<T>((String, String)[])
+  fullName: Mcma.Client.IResourceManager.QueryAsync<T>(System.ValueTuple<System.String, System.String>[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/IResourceManager.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: QueryAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/IResourceManager.cs
+    startLine: 14
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: >-
+      Task<IEnumerable<T>> QueryAsync<T>(params (string, string)[] filter)
+
+          where T : McmaObject
+    parameters:
+    - id: filter
+      type: System.ValueTuple{System.String,System.String}[]
+    typeParameters:
+    - id: T
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{{T}}}
+    content.vb: Function QueryAsync(Of T As McmaObject)(ParamArray filter As(String, String)()) As Task(Of IEnumerable(Of T))
+  overload: Mcma.Client.IResourceManager.QueryAsync*
+  nameWithType.vb: IResourceManager.QueryAsync(Of T)((String, String)())
+  fullName.vb: Mcma.Client.IResourceManager.QueryAsync(Of T)(System.ValueTuple(Of System.String, System.String)())
+  name.vb: QueryAsync(Of T)((String, String)())
+- uid: Mcma.Client.IResourceManager.QueryAsync``1(System.Threading.CancellationToken,System.ValueTuple{System.String,System.String}[])
+  commentId: M:Mcma.Client.IResourceManager.QueryAsync``1(System.Threading.CancellationToken,System.ValueTuple{System.String,System.String}[])
+  id: QueryAsync``1(System.Threading.CancellationToken,System.ValueTuple{System.String,System.String}[])
+  parent: Mcma.Client.IResourceManager
+  langs:
+  - csharp
+  - vb
+  name: QueryAsync<T>(CancellationToken, (String, String)[])
+  nameWithType: IResourceManager.QueryAsync<T>(CancellationToken, (String, String)[])
+  fullName: Mcma.Client.IResourceManager.QueryAsync<T>(System.Threading.CancellationToken, System.ValueTuple<System.String, System.String>[])
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/IResourceManager.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: QueryAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/IResourceManager.cs
+    startLine: 16
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: >-
+      Task<IEnumerable<T>> QueryAsync<T>(CancellationToken cancellationToken, params (string, string)[] filter)
+
+          where T : McmaObject
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    - id: filter
+      type: System.ValueTuple{System.String,System.String}[]
+    typeParameters:
+    - id: T
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{{T}}}
+    content.vb: Function QueryAsync(Of T As McmaObject)(cancellationToken As CancellationToken, ParamArray filter As(String, String)()) As Task(Of IEnumerable(Of T))
+  overload: Mcma.Client.IResourceManager.QueryAsync*
+  nameWithType.vb: IResourceManager.QueryAsync(Of T)(CancellationToken, (String, String)())
+  fullName.vb: Mcma.Client.IResourceManager.QueryAsync(Of T)(System.Threading.CancellationToken, System.ValueTuple(Of System.String, System.String)())
+  name.vb: QueryAsync(Of T)(CancellationToken, (String, String)())
+- uid: Mcma.Client.IResourceManager.GetAsync``1(System.String,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.IResourceManager.GetAsync``1(System.String,System.Threading.CancellationToken)
+  id: GetAsync``1(System.String,System.Threading.CancellationToken)
+  parent: Mcma.Client.IResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetAsync<T>(String, CancellationToken)
+  nameWithType: IResourceManager.GetAsync<T>(String, CancellationToken)
+  fullName: Mcma.Client.IResourceManager.GetAsync<T>(System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/IResourceManager.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/IResourceManager.cs
+    startLine: 18
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: >-
+      Task<T> GetAsync<T>(string resourceId, CancellationToken cancellationToken = default(CancellationToken))
+
+          where T : McmaObject
+    parameters:
+    - id: resourceId
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    typeParameters:
+    - id: T
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+    content.vb: Function GetAsync(Of T As McmaObject)(resourceId As String, cancellationToken As CancellationToken = Nothing) As Task(Of T)
+  overload: Mcma.Client.IResourceManager.GetAsync*
+  nameWithType.vb: IResourceManager.GetAsync(Of T)(String, CancellationToken)
+  fullName.vb: Mcma.Client.IResourceManager.GetAsync(Of T)(System.String, System.Threading.CancellationToken)
+  name.vb: GetAsync(Of T)(String, CancellationToken)
+- uid: Mcma.Client.IResourceManager.CreateAsync``1(``0,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.IResourceManager.CreateAsync``1(``0,System.Threading.CancellationToken)
+  id: CreateAsync``1(``0,System.Threading.CancellationToken)
+  parent: Mcma.Client.IResourceManager
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync<T>(T, CancellationToken)
+  nameWithType: IResourceManager.CreateAsync<T>(T, CancellationToken)
+  fullName: Mcma.Client.IResourceManager.CreateAsync<T>(T, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/IResourceManager.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: CreateAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/IResourceManager.cs
+    startLine: 20
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: >-
+      Task<T> CreateAsync<T>(T resource, CancellationToken cancellationToken = default(CancellationToken))
+
+          where T : McmaObject
+    parameters:
+    - id: resource
+      type: '{T}'
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    typeParameters:
+    - id: T
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+    content.vb: Function CreateAsync(Of T As McmaObject)(resource As T, cancellationToken As CancellationToken = Nothing) As Task(Of T)
+  overload: Mcma.Client.IResourceManager.CreateAsync*
+  nameWithType.vb: IResourceManager.CreateAsync(Of T)(T, CancellationToken)
+  fullName.vb: Mcma.Client.IResourceManager.CreateAsync(Of T)(T, System.Threading.CancellationToken)
+  name.vb: CreateAsync(Of T)(T, CancellationToken)
+- uid: Mcma.Client.IResourceManager.UpdateAsync``1(System.String,``0,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.IResourceManager.UpdateAsync``1(System.String,``0,System.Threading.CancellationToken)
+  id: UpdateAsync``1(System.String,``0,System.Threading.CancellationToken)
+  parent: Mcma.Client.IResourceManager
+  langs:
+  - csharp
+  - vb
+  name: UpdateAsync<T>(String, T, CancellationToken)
+  nameWithType: IResourceManager.UpdateAsync<T>(String, T, CancellationToken)
+  fullName: Mcma.Client.IResourceManager.UpdateAsync<T>(System.String, T, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/IResourceManager.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: UpdateAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/IResourceManager.cs
+    startLine: 22
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: >-
+      Task<T> UpdateAsync<T>(string resourceId, T resource, CancellationToken cancellationToken = default(CancellationToken))
+
+          where T : McmaObject
+    parameters:
+    - id: resourceId
+      type: System.String
+    - id: resource
+      type: '{T}'
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    typeParameters:
+    - id: T
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+    content.vb: Function UpdateAsync(Of T As McmaObject)(resourceId As String, resource As T, cancellationToken As CancellationToken = Nothing) As Task(Of T)
+  overload: Mcma.Client.IResourceManager.UpdateAsync*
+  nameWithType.vb: IResourceManager.UpdateAsync(Of T)(String, T, CancellationToken)
+  fullName.vb: Mcma.Client.IResourceManager.UpdateAsync(Of T)(System.String, T, System.Threading.CancellationToken)
+  name.vb: UpdateAsync(Of T)(String, T, CancellationToken)
+- uid: Mcma.Client.IResourceManager.DeleteAsync``1(System.String,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.IResourceManager.DeleteAsync``1(System.String,System.Threading.CancellationToken)
+  id: DeleteAsync``1(System.String,System.Threading.CancellationToken)
+  parent: Mcma.Client.IResourceManager
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync<T>(String, CancellationToken)
+  nameWithType: IResourceManager.DeleteAsync<T>(String, CancellationToken)
+  fullName: Mcma.Client.IResourceManager.DeleteAsync<T>(System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/IResourceManager.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: DeleteAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/IResourceManager.cs
+    startLine: 24
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: >-
+      Task DeleteAsync<T>(string resourceId, CancellationToken cancellationToken = default(CancellationToken))
+
+          where T : McmaObject
+    parameters:
+    - id: resourceId
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    typeParameters:
+    - id: T
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteAsync(Of T As McmaObject)(resourceId As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: Mcma.Client.IResourceManager.DeleteAsync*
+  nameWithType.vb: IResourceManager.DeleteAsync(Of T)(String, CancellationToken)
+  fullName.vb: Mcma.Client.IResourceManager.DeleteAsync(Of T)(System.String, System.Threading.CancellationToken)
+  name.vb: DeleteAsync(Of T)(String, CancellationToken)
+- uid: Mcma.Client.IResourceManager.SendNotificationAsync``1(System.String,``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.IResourceManager.SendNotificationAsync``1(System.String,``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+  id: SendNotificationAsync``1(System.String,``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+  parent: Mcma.Client.IResourceManager
+  langs:
+  - csharp
+  - vb
+  name: SendNotificationAsync<T>(String, T, NotificationEndpoint, CancellationToken)
+  nameWithType: IResourceManager.SendNotificationAsync<T>(String, T, NotificationEndpoint, CancellationToken)
+  fullName: Mcma.Client.IResourceManager.SendNotificationAsync<T>(System.String, T, Mcma.NotificationEndpoint, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Resources/IResourceManager.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: SendNotificationAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Resources/IResourceManager.cs
+    startLine: 26
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: >-
+      Task SendNotificationAsync<T>(string resourceId, T resource, NotificationEndpoint notificationEndpoint, CancellationToken cancellationToken = default(CancellationToken))
+
+          where T : McmaObject
+    parameters:
+    - id: resourceId
+      type: System.String
+    - id: resource
+      type: '{T}'
+    - id: notificationEndpoint
+      type: Mcma.NotificationEndpoint
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    typeParameters:
+    - id: T
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SendNotificationAsync(Of T As McmaObject)(resourceId As String, resource As T, notificationEndpoint As NotificationEndpoint, cancellationToken As CancellationToken = Nothing) As Task
+  overload: Mcma.Client.IResourceManager.SendNotificationAsync*
+  nameWithType.vb: IResourceManager.SendNotificationAsync(Of T)(String, T, NotificationEndpoint, CancellationToken)
+  fullName.vb: Mcma.Client.IResourceManager.SendNotificationAsync(Of T)(System.String, T, Mcma.NotificationEndpoint, System.Threading.CancellationToken)
+  name.vb: SendNotificationAsync(Of T)(String, T, NotificationEndpoint, CancellationToken)
+references:
+- uid: Mcma.Client
+  commentId: N:Mcma.Client
+  name: Mcma.Client
+  nameWithType: Mcma.Client
+  fullName: Mcma.Client
+- uid: Mcma.Client.IResourceManager.Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl``1(System.String)
+  commentId: M:Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl``1(Mcma.Client.IResourceManager,System.String)
+  parent: Mcma.Client.ResourceManagerExtensions
+  definition: Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl``1(Mcma.Client.IResourceManager,System.String)
+  name: ResolveResourceFromFullUrl<T>(String)
+  nameWithType: ResourceManagerExtensions.ResolveResourceFromFullUrl<T>(String)
+  fullName: Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl<T>(System.String)
+  nameWithType.vb: ResourceManagerExtensions.ResolveResourceFromFullUrl(Of T)(String)
+  fullName.vb: Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl(Of T)(System.String)
+  name.vb: ResolveResourceFromFullUrl(Of T)(String)
+  spec.csharp:
+  - uid: Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl``1(System.String)
+    name: ResolveResourceFromFullUrl<T>
+    nameWithType: ResourceManagerExtensions.ResolveResourceFromFullUrl<T>
+    fullName: Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl``1(System.String)
+    name: ResolveResourceFromFullUrl(Of T)
+    nameWithType: ResourceManagerExtensions.ResolveResourceFromFullUrl(Of T)
+    fullName: Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.IResourceManager.Mcma.Client.ResourceManagerExtensions.UpdateAsync``1({T},System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.ResourceManagerExtensions.UpdateAsync``1(Mcma.Client.IResourceManager,``0,System.Threading.CancellationToken)
+  parent: Mcma.Client.ResourceManagerExtensions
+  definition: Mcma.Client.ResourceManagerExtensions.UpdateAsync``1(Mcma.Client.IResourceManager,``0,System.Threading.CancellationToken)
+  name: UpdateAsync<T>(T, CancellationToken)
+  nameWithType: ResourceManagerExtensions.UpdateAsync<T>(T, CancellationToken)
+  fullName: Mcma.Client.ResourceManagerExtensions.UpdateAsync<T>(T, System.Threading.CancellationToken)
+  nameWithType.vb: ResourceManagerExtensions.UpdateAsync(Of T)(T, CancellationToken)
+  fullName.vb: Mcma.Client.ResourceManagerExtensions.UpdateAsync(Of T)(T, System.Threading.CancellationToken)
+  name.vb: UpdateAsync(Of T)(T, CancellationToken)
+  spec.csharp:
+  - uid: Mcma.Client.ResourceManagerExtensions.UpdateAsync``1(``0,System.Threading.CancellationToken)
+    name: UpdateAsync<T>
+    nameWithType: ResourceManagerExtensions.UpdateAsync<T>
+    fullName: Mcma.Client.ResourceManagerExtensions.UpdateAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.ResourceManagerExtensions.UpdateAsync``1(``0,System.Threading.CancellationToken)
+    name: UpdateAsync(Of T)
+    nameWithType: ResourceManagerExtensions.UpdateAsync(Of T)
+    fullName: Mcma.Client.ResourceManagerExtensions.UpdateAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.IResourceManager.Mcma.Client.ResourceManagerExtensions.SendNotificationAsync``1({T},Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.ResourceManagerExtensions.SendNotificationAsync``1(Mcma.Client.IResourceManager,``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+  parent: Mcma.Client.ResourceManagerExtensions
+  definition: Mcma.Client.ResourceManagerExtensions.SendNotificationAsync``1(Mcma.Client.IResourceManager,``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+  name: SendNotificationAsync<T>(T, NotificationEndpoint, CancellationToken)
+  nameWithType: ResourceManagerExtensions.SendNotificationAsync<T>(T, NotificationEndpoint, CancellationToken)
+  fullName: Mcma.Client.ResourceManagerExtensions.SendNotificationAsync<T>(T, Mcma.NotificationEndpoint, System.Threading.CancellationToken)
+  nameWithType.vb: ResourceManagerExtensions.SendNotificationAsync(Of T)(T, NotificationEndpoint, CancellationToken)
+  fullName.vb: Mcma.Client.ResourceManagerExtensions.SendNotificationAsync(Of T)(T, Mcma.NotificationEndpoint, System.Threading.CancellationToken)
+  name.vb: SendNotificationAsync(Of T)(T, NotificationEndpoint, CancellationToken)
+  spec.csharp:
+  - uid: Mcma.Client.ResourceManagerExtensions.SendNotificationAsync``1(``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+    name: SendNotificationAsync<T>
+    nameWithType: ResourceManagerExtensions.SendNotificationAsync<T>
+    fullName: Mcma.Client.ResourceManagerExtensions.SendNotificationAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.NotificationEndpoint
+    name: NotificationEndpoint
+    nameWithType: NotificationEndpoint
+    fullName: Mcma.NotificationEndpoint
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.ResourceManagerExtensions.SendNotificationAsync``1(``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+    name: SendNotificationAsync(Of T)
+    nameWithType: ResourceManagerExtensions.SendNotificationAsync(Of T)
+    fullName: Mcma.Client.ResourceManagerExtensions.SendNotificationAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.NotificationEndpoint
+    name: NotificationEndpoint
+    nameWithType: NotificationEndpoint
+    fullName: Mcma.NotificationEndpoint
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.IResourceManager.Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync``1({T},Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync``1(Mcma.Client.IResourceManager,``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+  parent: Mcma.Client.ResourceManagerExtensions
+  definition: Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync``1(Mcma.Client.IResourceManager,``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+  name: SendJobNotificationAsync<T>(T, NotificationEndpoint, CancellationToken)
+  nameWithType: ResourceManagerExtensions.SendJobNotificationAsync<T>(T, NotificationEndpoint, CancellationToken)
+  fullName: Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync<T>(T, Mcma.NotificationEndpoint, System.Threading.CancellationToken)
+  nameWithType.vb: ResourceManagerExtensions.SendJobNotificationAsync(Of T)(T, NotificationEndpoint, CancellationToken)
+  fullName.vb: Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync(Of T)(T, Mcma.NotificationEndpoint, System.Threading.CancellationToken)
+  name.vb: SendJobNotificationAsync(Of T)(T, NotificationEndpoint, CancellationToken)
+  spec.csharp:
+  - uid: Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync``1(``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+    name: SendJobNotificationAsync<T>
+    nameWithType: ResourceManagerExtensions.SendJobNotificationAsync<T>
+    fullName: Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.NotificationEndpoint
+    name: NotificationEndpoint
+    nameWithType: NotificationEndpoint
+    fullName: Mcma.NotificationEndpoint
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync``1(``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+    name: SendJobNotificationAsync(Of T)
+    nameWithType: ResourceManagerExtensions.SendJobNotificationAsync(Of T)
+    fullName: Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.NotificationEndpoint
+    name: NotificationEndpoint
+    nameWithType: NotificationEndpoint
+    fullName: Mcma.NotificationEndpoint
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl``1(Mcma.Client.IResourceManager,System.String)
+  commentId: M:Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl``1(Mcma.Client.IResourceManager,System.String)
+  isExternal: true
+  name: ResolveResourceFromFullUrl<T>(IResourceManager, String)
+  nameWithType: ResourceManagerExtensions.ResolveResourceFromFullUrl<T>(IResourceManager, String)
+  fullName: Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl<T>(Mcma.Client.IResourceManager, System.String)
+  nameWithType.vb: ResourceManagerExtensions.ResolveResourceFromFullUrl(Of T)(IResourceManager, String)
+  fullName.vb: Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl(Of T)(Mcma.Client.IResourceManager, System.String)
+  name.vb: ResolveResourceFromFullUrl(Of T)(IResourceManager, String)
+  spec.csharp:
+  - uid: Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl``1(Mcma.Client.IResourceManager,System.String)
+    name: ResolveResourceFromFullUrl<T>
+    nameWithType: ResourceManagerExtensions.ResolveResourceFromFullUrl<T>
+    fullName: Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.IResourceManager
+    name: IResourceManager
+    nameWithType: IResourceManager
+    fullName: Mcma.Client.IResourceManager
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl``1(Mcma.Client.IResourceManager,System.String)
+    name: ResolveResourceFromFullUrl(Of T)
+    nameWithType: ResourceManagerExtensions.ResolveResourceFromFullUrl(Of T)
+    fullName: Mcma.Client.ResourceManagerExtensions.ResolveResourceFromFullUrl(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.IResourceManager
+    name: IResourceManager
+    nameWithType: IResourceManager
+    fullName: Mcma.Client.IResourceManager
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.ResourceManagerExtensions
+  commentId: T:Mcma.Client.ResourceManagerExtensions
+  parent: Mcma.Client
+  name: ResourceManagerExtensions
+  nameWithType: ResourceManagerExtensions
+  fullName: Mcma.Client.ResourceManagerExtensions
+- uid: Mcma.Client.ResourceManagerExtensions.UpdateAsync``1(Mcma.Client.IResourceManager,``0,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.ResourceManagerExtensions.UpdateAsync``1(Mcma.Client.IResourceManager,``0,System.Threading.CancellationToken)
+  isExternal: true
+  name: UpdateAsync<T>(IResourceManager, T, CancellationToken)
+  nameWithType: ResourceManagerExtensions.UpdateAsync<T>(IResourceManager, T, CancellationToken)
+  fullName: Mcma.Client.ResourceManagerExtensions.UpdateAsync<T>(Mcma.Client.IResourceManager, T, System.Threading.CancellationToken)
+  nameWithType.vb: ResourceManagerExtensions.UpdateAsync(Of T)(IResourceManager, T, CancellationToken)
+  fullName.vb: Mcma.Client.ResourceManagerExtensions.UpdateAsync(Of T)(Mcma.Client.IResourceManager, T, System.Threading.CancellationToken)
+  name.vb: UpdateAsync(Of T)(IResourceManager, T, CancellationToken)
+  spec.csharp:
+  - uid: Mcma.Client.ResourceManagerExtensions.UpdateAsync``1(Mcma.Client.IResourceManager,``0,System.Threading.CancellationToken)
+    name: UpdateAsync<T>
+    nameWithType: ResourceManagerExtensions.UpdateAsync<T>
+    fullName: Mcma.Client.ResourceManagerExtensions.UpdateAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.IResourceManager
+    name: IResourceManager
+    nameWithType: IResourceManager
+    fullName: Mcma.Client.IResourceManager
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.ResourceManagerExtensions.UpdateAsync``1(Mcma.Client.IResourceManager,``0,System.Threading.CancellationToken)
+    name: UpdateAsync(Of T)
+    nameWithType: ResourceManagerExtensions.UpdateAsync(Of T)
+    fullName: Mcma.Client.ResourceManagerExtensions.UpdateAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.IResourceManager
+    name: IResourceManager
+    nameWithType: IResourceManager
+    fullName: Mcma.Client.IResourceManager
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.ResourceManagerExtensions.SendNotificationAsync``1(Mcma.Client.IResourceManager,``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.ResourceManagerExtensions.SendNotificationAsync``1(Mcma.Client.IResourceManager,``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+  isExternal: true
+  name: SendNotificationAsync<T>(IResourceManager, T, NotificationEndpoint, CancellationToken)
+  nameWithType: ResourceManagerExtensions.SendNotificationAsync<T>(IResourceManager, T, NotificationEndpoint, CancellationToken)
+  fullName: Mcma.Client.ResourceManagerExtensions.SendNotificationAsync<T>(Mcma.Client.IResourceManager, T, Mcma.NotificationEndpoint, System.Threading.CancellationToken)
+  nameWithType.vb: ResourceManagerExtensions.SendNotificationAsync(Of T)(IResourceManager, T, NotificationEndpoint, CancellationToken)
+  fullName.vb: Mcma.Client.ResourceManagerExtensions.SendNotificationAsync(Of T)(Mcma.Client.IResourceManager, T, Mcma.NotificationEndpoint, System.Threading.CancellationToken)
+  name.vb: SendNotificationAsync(Of T)(IResourceManager, T, NotificationEndpoint, CancellationToken)
+  spec.csharp:
+  - uid: Mcma.Client.ResourceManagerExtensions.SendNotificationAsync``1(Mcma.Client.IResourceManager,``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+    name: SendNotificationAsync<T>
+    nameWithType: ResourceManagerExtensions.SendNotificationAsync<T>
+    fullName: Mcma.Client.ResourceManagerExtensions.SendNotificationAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.IResourceManager
+    name: IResourceManager
+    nameWithType: IResourceManager
+    fullName: Mcma.Client.IResourceManager
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.NotificationEndpoint
+    name: NotificationEndpoint
+    nameWithType: NotificationEndpoint
+    fullName: Mcma.NotificationEndpoint
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.ResourceManagerExtensions.SendNotificationAsync``1(Mcma.Client.IResourceManager,``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+    name: SendNotificationAsync(Of T)
+    nameWithType: ResourceManagerExtensions.SendNotificationAsync(Of T)
+    fullName: Mcma.Client.ResourceManagerExtensions.SendNotificationAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.IResourceManager
+    name: IResourceManager
+    nameWithType: IResourceManager
+    fullName: Mcma.Client.IResourceManager
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.NotificationEndpoint
+    name: NotificationEndpoint
+    nameWithType: NotificationEndpoint
+    fullName: Mcma.NotificationEndpoint
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync``1(Mcma.Client.IResourceManager,``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync``1(Mcma.Client.IResourceManager,``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+  isExternal: true
+  name: SendJobNotificationAsync<T>(IResourceManager, T, NotificationEndpoint, CancellationToken)
+  nameWithType: ResourceManagerExtensions.SendJobNotificationAsync<T>(IResourceManager, T, NotificationEndpoint, CancellationToken)
+  fullName: Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync<T>(Mcma.Client.IResourceManager, T, Mcma.NotificationEndpoint, System.Threading.CancellationToken)
+  nameWithType.vb: ResourceManagerExtensions.SendJobNotificationAsync(Of T)(IResourceManager, T, NotificationEndpoint, CancellationToken)
+  fullName.vb: Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync(Of T)(Mcma.Client.IResourceManager, T, Mcma.NotificationEndpoint, System.Threading.CancellationToken)
+  name.vb: SendJobNotificationAsync(Of T)(IResourceManager, T, NotificationEndpoint, CancellationToken)
+  spec.csharp:
+  - uid: Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync``1(Mcma.Client.IResourceManager,``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+    name: SendJobNotificationAsync<T>
+    nameWithType: ResourceManagerExtensions.SendJobNotificationAsync<T>
+    fullName: Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.IResourceManager
+    name: IResourceManager
+    nameWithType: IResourceManager
+    fullName: Mcma.Client.IResourceManager
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.NotificationEndpoint
+    name: NotificationEndpoint
+    nameWithType: NotificationEndpoint
+    fullName: Mcma.NotificationEndpoint
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync``1(Mcma.Client.IResourceManager,``0,Mcma.NotificationEndpoint,System.Threading.CancellationToken)
+    name: SendJobNotificationAsync(Of T)
+    nameWithType: ResourceManagerExtensions.SendJobNotificationAsync(Of T)
+    fullName: Mcma.Client.ResourceManagerExtensions.SendJobNotificationAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Client.IResourceManager
+    name: IResourceManager
+    nameWithType: IResourceManager
+    fullName: Mcma.Client.IResourceManager
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.NotificationEndpoint
+    name: NotificationEndpoint
+    nameWithType: NotificationEndpoint
+    fullName: Mcma.NotificationEndpoint
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Client.IResourceManager.InitAsync*
+  commentId: Overload:Mcma.Client.IResourceManager.InitAsync
+  name: InitAsync
+  nameWithType: IResourceManager.InitAsync
+  fullName: Mcma.Client.IResourceManager.InitAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Mcma.Client.IResourceManager.GetServiceClient*
+  commentId: Overload:Mcma.Client.IResourceManager.GetServiceClient
+  name: GetServiceClient
+  nameWithType: IResourceManager.GetServiceClient
+  fullName: Mcma.Client.IResourceManager.GetServiceClient
+- uid: Mcma.Service
+  commentId: T:Mcma.Service
+  parent: Mcma
+  name: Service
+  nameWithType: Service
+  fullName: Mcma.Service
+- uid: Mcma.Client.IServiceClient
+  commentId: T:Mcma.Client.IServiceClient
+  parent: Mcma.Client
+  name: IServiceClient
+  nameWithType: IServiceClient
+  fullName: Mcma.Client.IServiceClient
+- uid: Mcma
+  commentId: N:Mcma
+  name: Mcma
+  nameWithType: Mcma
+  fullName: Mcma
+- uid: Mcma.Client.IResourceManager.GetResourceEndpointClientAsync*
+  commentId: Overload:Mcma.Client.IResourceManager.GetResourceEndpointClientAsync
+  name: GetResourceEndpointClientAsync
+  nameWithType: IResourceManager.GetResourceEndpointClientAsync
+  fullName: Mcma.Client.IResourceManager.GetResourceEndpointClientAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{Mcma.Client.IResourceEndpointClient}
+  commentId: T:System.Threading.Tasks.Task{Mcma.Client.IResourceEndpointClient}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IResourceEndpointClient>
+  nameWithType: Task<IResourceEndpointClient>
+  fullName: System.Threading.Tasks.Task<Mcma.Client.IResourceEndpointClient>
+  nameWithType.vb: Task(Of IResourceEndpointClient)
+  fullName.vb: System.Threading.Tasks.Task(Of Mcma.Client.IResourceEndpointClient)
+  name.vb: Task(Of IResourceEndpointClient)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Client.IResourceEndpointClient
+    name: IResourceEndpointClient
+    nameWithType: IResourceEndpointClient
+    fullName: Mcma.Client.IResourceEndpointClient
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Client.IResourceEndpointClient
+    name: IResourceEndpointClient
+    nameWithType: IResourceEndpointClient
+    fullName: Mcma.Client.IResourceEndpointClient
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.IResourceManager.QueryAsync*
+  commentId: Overload:Mcma.Client.IResourceManager.QueryAsync
+  name: QueryAsync
+  nameWithType: IResourceManager.QueryAsync
+  fullName: Mcma.Client.IResourceManager.QueryAsync
+- uid: System.ValueTuple{System.String,System.String}[]
+  isExternal: true
+  name: ValueTuple<String, String>[]
+  nameWithType: ValueTuple<String, String>[]
+  fullName: System.ValueTuple<System.String, System.String>[]
+  nameWithType.vb: ValueTuple(Of String, String)()
+  fullName.vb: System.ValueTuple(Of System.String, System.String)()
+  name.vb: ValueTuple(Of String, String)()
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{{T}}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{``0}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IEnumerable<T>>
+  nameWithType: Task<IEnumerable<T>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<T>>
+  nameWithType.vb: Task(Of IEnumerable(Of T))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.IEnumerable(Of T))
+  name.vb: Task(Of IEnumerable(Of T))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: Mcma.Client.IResourceManager.GetAsync*
+  commentId: Overload:Mcma.Client.IResourceManager.GetAsync
+  name: GetAsync
+  nameWithType: IResourceManager.GetAsync
+  fullName: Mcma.Client.IResourceManager.GetAsync
+- uid: System.Threading.Tasks.Task{{T}}
+  commentId: T:System.Threading.Tasks.Task{``0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<T>
+  nameWithType: Task<T>
+  fullName: System.Threading.Tasks.Task<T>
+  nameWithType.vb: Task(Of T)
+  fullName.vb: System.Threading.Tasks.Task(Of T)
+  name.vb: Task(Of T)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.IResourceManager.CreateAsync*
+  commentId: Overload:Mcma.Client.IResourceManager.CreateAsync
+  name: CreateAsync
+  nameWithType: IResourceManager.CreateAsync
+  fullName: Mcma.Client.IResourceManager.CreateAsync
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Mcma.Client.IResourceManager.UpdateAsync*
+  commentId: Overload:Mcma.Client.IResourceManager.UpdateAsync
+  name: UpdateAsync
+  nameWithType: IResourceManager.UpdateAsync
+  fullName: Mcma.Client.IResourceManager.UpdateAsync
+- uid: Mcma.Client.IResourceManager.DeleteAsync*
+  commentId: Overload:Mcma.Client.IResourceManager.DeleteAsync
+  name: DeleteAsync
+  nameWithType: IResourceManager.DeleteAsync
+  fullName: Mcma.Client.IResourceManager.DeleteAsync
+- uid: Mcma.Client.IResourceManager.SendNotificationAsync*
+  commentId: Overload:Mcma.Client.IResourceManager.SendNotificationAsync
+  name: SendNotificationAsync
+  nameWithType: IResourceManager.SendNotificationAsync
+  fullName: Mcma.Client.IResourceManager.SendNotificationAsync
+- uid: Mcma.NotificationEndpoint
+  commentId: T:Mcma.NotificationEndpoint
+  parent: Mcma
+  name: NotificationEndpoint
+  nameWithType: NotificationEndpoint
+  fullName: Mcma.NotificationEndpoint

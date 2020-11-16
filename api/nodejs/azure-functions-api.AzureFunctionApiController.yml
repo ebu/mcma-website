@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-functions-api.AzureFunctionApiController
+    name: AzureFunctionApiController
+    fullName: AzureFunctionApiController
+    children:
+      - azure-functions-api.AzureFunctionApiController.constructor
+      - azure-functions-api.AzureFunctionApiController.handleRequest
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-functions-api
+  - uid: azure-functions-api.AzureFunctionApiController.constructor
+    name: >-
+      AzureFunctionApiController(McmaApiRouteCollection, LoggerProvider,
+      ConfigVariables)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new AzureFunctionApiController(routes: McmaApiRouteCollection,
+        loggerProvider?: LoggerProvider, configVariables: ConfigVariables)
+      parameters:
+        - id: routes
+          type:
+            - McmaApiRouteCollection
+          description: ''
+        - id: loggerProvider
+          type:
+            - LoggerProvider
+          description: ''
+          optional: true
+        - id: configVariables
+          type:
+            - ConfigVariables
+          description: ''
+    package: azure-functions-api
+  - uid: azure-functions-api.AzureFunctionApiController.handleRequest
+    name: handleRequest(HttpRequest)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function handleRequest(req: HttpRequest)'
+      parameters:
+        - id: req
+          type:
+            - HttpRequest
+          description: ''
+      return:
+        type:
+          - Promise<Object>
+        description: ''
+    package: azure-functions-api

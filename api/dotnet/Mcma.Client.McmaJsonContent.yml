@@ -1,0 +1,1089 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Client.McmaJsonContent
+  commentId: T:Mcma.Client.McmaJsonContent
+  id: McmaJsonContent
+  parent: Mcma.Client
+  children:
+  - Mcma.Client.McmaJsonContent.#ctor(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: McmaJsonContent
+  nameWithType: McmaJsonContent
+  fullName: Mcma.Client.McmaJsonContent
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Client/Http/McmaJsonContent.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaJsonContent
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Http/McmaJsonContent.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: 'public class McmaJsonContent : StringContent, IDisposable'
+    content.vb: >-
+      Public Class McmaJsonContent
+
+          Inherits StringContent
+
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  - System.Net.Http.HttpContent
+  - System.Net.Http.ByteArrayContent
+  - System.Net.Http.StringContent
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Net.Http.ByteArrayContent.CreateContentReadStreamAsync
+  - System.Net.Http.ByteArrayContent.SerializeToStreamAsync(System.IO.Stream,System.Net.TransportContext)
+  - System.Net.Http.ByteArrayContent.TryComputeLength(System.Int64@)
+  - System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream)
+  - System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream,System.Net.TransportContext)
+  - System.Net.Http.HttpContent.Dispose
+  - System.Net.Http.HttpContent.Dispose(System.Boolean)
+  - System.Net.Http.HttpContent.LoadIntoBufferAsync
+  - System.Net.Http.HttpContent.LoadIntoBufferAsync(System.Int64)
+  - System.Net.Http.HttpContent.ReadAsByteArrayAsync
+  - System.Net.Http.HttpContent.ReadAsStreamAsync
+  - System.Net.Http.HttpContent.ReadAsStringAsync
+  - System.Net.Http.HttpContent.Headers
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Net.Http.HttpContent.Mcma.Client.HttpContentExtensions.ReadAsJsonAsync
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Client.McmaJsonContent.#ctor(System.Object)
+  commentId: M:Mcma.Client.McmaJsonContent.#ctor(System.Object)
+  id: '#ctor(System.Object)'
+  parent: Mcma.Client.McmaJsonContent
+  langs:
+  - csharp
+  - vb
+  name: McmaJsonContent(Object)
+  nameWithType: McmaJsonContent.McmaJsonContent(Object)
+  fullName: Mcma.Client.McmaJsonContent.McmaJsonContent(System.Object)
+  type: Constructor
+  source:
+    remote:
+      path: Base/Mcma.Client/Http/McmaJsonContent.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Http/McmaJsonContent.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client
+  syntax:
+    content: public McmaJsonContent(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    content.vb: Public Sub New(obj As Object)
+  overload: Mcma.Client.McmaJsonContent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Client
+  commentId: N:Mcma.Client
+  name: Mcma.Client
+  nameWithType: Mcma.Client
+  fullName: Mcma.Client
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Net.Http.HttpContent
+  commentId: T:System.Net.Http.HttpContent
+  parent: System.Net.Http
+  isExternal: true
+  name: HttpContent
+  nameWithType: HttpContent
+  fullName: System.Net.Http.HttpContent
+- uid: System.Net.Http.ByteArrayContent
+  commentId: T:System.Net.Http.ByteArrayContent
+  parent: System.Net.Http
+  isExternal: true
+  name: ByteArrayContent
+  nameWithType: ByteArrayContent
+  fullName: System.Net.Http.ByteArrayContent
+- uid: System.Net.Http.StringContent
+  commentId: T:System.Net.Http.StringContent
+  parent: System.Net.Http
+  isExternal: true
+  name: StringContent
+  nameWithType: StringContent
+  fullName: System.Net.Http.StringContent
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Net.Http.ByteArrayContent.CreateContentReadStreamAsync
+  commentId: M:System.Net.Http.ByteArrayContent.CreateContentReadStreamAsync
+  parent: System.Net.Http.ByteArrayContent
+  isExternal: true
+  name: CreateContentReadStreamAsync()
+  nameWithType: ByteArrayContent.CreateContentReadStreamAsync()
+  fullName: System.Net.Http.ByteArrayContent.CreateContentReadStreamAsync()
+  spec.csharp:
+  - uid: System.Net.Http.ByteArrayContent.CreateContentReadStreamAsync
+    name: CreateContentReadStreamAsync
+    nameWithType: ByteArrayContent.CreateContentReadStreamAsync
+    fullName: System.Net.Http.ByteArrayContent.CreateContentReadStreamAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Net.Http.ByteArrayContent.CreateContentReadStreamAsync
+    name: CreateContentReadStreamAsync
+    nameWithType: ByteArrayContent.CreateContentReadStreamAsync
+    fullName: System.Net.Http.ByteArrayContent.CreateContentReadStreamAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.ByteArrayContent.SerializeToStreamAsync(System.IO.Stream,System.Net.TransportContext)
+  commentId: M:System.Net.Http.ByteArrayContent.SerializeToStreamAsync(System.IO.Stream,System.Net.TransportContext)
+  parent: System.Net.Http.ByteArrayContent
+  isExternal: true
+  name: SerializeToStreamAsync(Stream, TransportContext)
+  nameWithType: ByteArrayContent.SerializeToStreamAsync(Stream, TransportContext)
+  fullName: System.Net.Http.ByteArrayContent.SerializeToStreamAsync(System.IO.Stream, System.Net.TransportContext)
+  spec.csharp:
+  - uid: System.Net.Http.ByteArrayContent.SerializeToStreamAsync(System.IO.Stream,System.Net.TransportContext)
+    name: SerializeToStreamAsync
+    nameWithType: ByteArrayContent.SerializeToStreamAsync
+    fullName: System.Net.Http.ByteArrayContent.SerializeToStreamAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.TransportContext
+    name: TransportContext
+    nameWithType: TransportContext
+    fullName: System.Net.TransportContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Net.Http.ByteArrayContent.SerializeToStreamAsync(System.IO.Stream,System.Net.TransportContext)
+    name: SerializeToStreamAsync
+    nameWithType: ByteArrayContent.SerializeToStreamAsync
+    fullName: System.Net.Http.ByteArrayContent.SerializeToStreamAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.TransportContext
+    name: TransportContext
+    nameWithType: TransportContext
+    fullName: System.Net.TransportContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.ByteArrayContent.TryComputeLength(System.Int64@)
+  commentId: M:System.Net.Http.ByteArrayContent.TryComputeLength(System.Int64@)
+  parent: System.Net.Http.ByteArrayContent
+  isExternal: true
+  name: TryComputeLength(Int64)
+  nameWithType: ByteArrayContent.TryComputeLength(Int64)
+  fullName: System.Net.Http.ByteArrayContent.TryComputeLength(System.Int64)
+  spec.csharp:
+  - uid: System.Net.Http.ByteArrayContent.TryComputeLength(System.Int64@)
+    name: TryComputeLength
+    nameWithType: ByteArrayContent.TryComputeLength
+    fullName: System.Net.Http.ByteArrayContent.TryComputeLength
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Net.Http.ByteArrayContent.TryComputeLength(System.Int64@)
+    name: TryComputeLength
+    nameWithType: ByteArrayContent.TryComputeLength
+    fullName: System.Net.Http.ByteArrayContent.TryComputeLength
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream)
+  commentId: M:System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream)
+  parent: System.Net.Http.HttpContent
+  isExternal: true
+  name: CopyToAsync(Stream)
+  nameWithType: HttpContent.CopyToAsync(Stream)
+  fullName: System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream)
+  spec.csharp:
+  - uid: System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream)
+    name: CopyToAsync
+    nameWithType: HttpContent.CopyToAsync
+    fullName: System.Net.Http.HttpContent.CopyToAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream)
+    name: CopyToAsync
+    nameWithType: HttpContent.CopyToAsync
+    fullName: System.Net.Http.HttpContent.CopyToAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream,System.Net.TransportContext)
+  commentId: M:System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream,System.Net.TransportContext)
+  parent: System.Net.Http.HttpContent
+  isExternal: true
+  name: CopyToAsync(Stream, TransportContext)
+  nameWithType: HttpContent.CopyToAsync(Stream, TransportContext)
+  fullName: System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream, System.Net.TransportContext)
+  spec.csharp:
+  - uid: System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream,System.Net.TransportContext)
+    name: CopyToAsync
+    nameWithType: HttpContent.CopyToAsync
+    fullName: System.Net.Http.HttpContent.CopyToAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.TransportContext
+    name: TransportContext
+    nameWithType: TransportContext
+    fullName: System.Net.TransportContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream,System.Net.TransportContext)
+    name: CopyToAsync
+    nameWithType: HttpContent.CopyToAsync
+    fullName: System.Net.Http.HttpContent.CopyToAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.TransportContext
+    name: TransportContext
+    nameWithType: TransportContext
+    fullName: System.Net.TransportContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.HttpContent.Dispose
+  commentId: M:System.Net.Http.HttpContent.Dispose
+  parent: System.Net.Http.HttpContent
+  isExternal: true
+  name: Dispose()
+  nameWithType: HttpContent.Dispose()
+  fullName: System.Net.Http.HttpContent.Dispose()
+  spec.csharp:
+  - uid: System.Net.Http.HttpContent.Dispose
+    name: Dispose
+    nameWithType: HttpContent.Dispose
+    fullName: System.Net.Http.HttpContent.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Net.Http.HttpContent.Dispose
+    name: Dispose
+    nameWithType: HttpContent.Dispose
+    fullName: System.Net.Http.HttpContent.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.HttpContent.Dispose(System.Boolean)
+  commentId: M:System.Net.Http.HttpContent.Dispose(System.Boolean)
+  parent: System.Net.Http.HttpContent
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: HttpContent.Dispose(Boolean)
+  fullName: System.Net.Http.HttpContent.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: System.Net.Http.HttpContent.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: HttpContent.Dispose
+    fullName: System.Net.Http.HttpContent.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Net.Http.HttpContent.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: HttpContent.Dispose
+    fullName: System.Net.Http.HttpContent.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.HttpContent.LoadIntoBufferAsync
+  commentId: M:System.Net.Http.HttpContent.LoadIntoBufferAsync
+  parent: System.Net.Http.HttpContent
+  isExternal: true
+  name: LoadIntoBufferAsync()
+  nameWithType: HttpContent.LoadIntoBufferAsync()
+  fullName: System.Net.Http.HttpContent.LoadIntoBufferAsync()
+  spec.csharp:
+  - uid: System.Net.Http.HttpContent.LoadIntoBufferAsync
+    name: LoadIntoBufferAsync
+    nameWithType: HttpContent.LoadIntoBufferAsync
+    fullName: System.Net.Http.HttpContent.LoadIntoBufferAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Net.Http.HttpContent.LoadIntoBufferAsync
+    name: LoadIntoBufferAsync
+    nameWithType: HttpContent.LoadIntoBufferAsync
+    fullName: System.Net.Http.HttpContent.LoadIntoBufferAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.HttpContent.LoadIntoBufferAsync(System.Int64)
+  commentId: M:System.Net.Http.HttpContent.LoadIntoBufferAsync(System.Int64)
+  parent: System.Net.Http.HttpContent
+  isExternal: true
+  name: LoadIntoBufferAsync(Int64)
+  nameWithType: HttpContent.LoadIntoBufferAsync(Int64)
+  fullName: System.Net.Http.HttpContent.LoadIntoBufferAsync(System.Int64)
+  spec.csharp:
+  - uid: System.Net.Http.HttpContent.LoadIntoBufferAsync(System.Int64)
+    name: LoadIntoBufferAsync
+    nameWithType: HttpContent.LoadIntoBufferAsync
+    fullName: System.Net.Http.HttpContent.LoadIntoBufferAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Net.Http.HttpContent.LoadIntoBufferAsync(System.Int64)
+    name: LoadIntoBufferAsync
+    nameWithType: HttpContent.LoadIntoBufferAsync
+    fullName: System.Net.Http.HttpContent.LoadIntoBufferAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.HttpContent.ReadAsByteArrayAsync
+  commentId: M:System.Net.Http.HttpContent.ReadAsByteArrayAsync
+  parent: System.Net.Http.HttpContent
+  isExternal: true
+  name: ReadAsByteArrayAsync()
+  nameWithType: HttpContent.ReadAsByteArrayAsync()
+  fullName: System.Net.Http.HttpContent.ReadAsByteArrayAsync()
+  spec.csharp:
+  - uid: System.Net.Http.HttpContent.ReadAsByteArrayAsync
+    name: ReadAsByteArrayAsync
+    nameWithType: HttpContent.ReadAsByteArrayAsync
+    fullName: System.Net.Http.HttpContent.ReadAsByteArrayAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Net.Http.HttpContent.ReadAsByteArrayAsync
+    name: ReadAsByteArrayAsync
+    nameWithType: HttpContent.ReadAsByteArrayAsync
+    fullName: System.Net.Http.HttpContent.ReadAsByteArrayAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.HttpContent.ReadAsStreamAsync
+  commentId: M:System.Net.Http.HttpContent.ReadAsStreamAsync
+  parent: System.Net.Http.HttpContent
+  isExternal: true
+  name: ReadAsStreamAsync()
+  nameWithType: HttpContent.ReadAsStreamAsync()
+  fullName: System.Net.Http.HttpContent.ReadAsStreamAsync()
+  spec.csharp:
+  - uid: System.Net.Http.HttpContent.ReadAsStreamAsync
+    name: ReadAsStreamAsync
+    nameWithType: HttpContent.ReadAsStreamAsync
+    fullName: System.Net.Http.HttpContent.ReadAsStreamAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Net.Http.HttpContent.ReadAsStreamAsync
+    name: ReadAsStreamAsync
+    nameWithType: HttpContent.ReadAsStreamAsync
+    fullName: System.Net.Http.HttpContent.ReadAsStreamAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.HttpContent.ReadAsStringAsync
+  commentId: M:System.Net.Http.HttpContent.ReadAsStringAsync
+  parent: System.Net.Http.HttpContent
+  isExternal: true
+  name: ReadAsStringAsync()
+  nameWithType: HttpContent.ReadAsStringAsync()
+  fullName: System.Net.Http.HttpContent.ReadAsStringAsync()
+  spec.csharp:
+  - uid: System.Net.Http.HttpContent.ReadAsStringAsync
+    name: ReadAsStringAsync
+    nameWithType: HttpContent.ReadAsStringAsync
+    fullName: System.Net.Http.HttpContent.ReadAsStringAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Net.Http.HttpContent.ReadAsStringAsync
+    name: ReadAsStringAsync
+    nameWithType: HttpContent.ReadAsStringAsync
+    fullName: System.Net.Http.HttpContent.ReadAsStringAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.HttpContent.Headers
+  commentId: P:System.Net.Http.HttpContent.Headers
+  parent: System.Net.Http.HttpContent
+  isExternal: true
+  name: Headers
+  nameWithType: HttpContent.Headers
+  fullName: System.Net.Http.HttpContent.Headers
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.HttpContent.Mcma.Client.HttpContentExtensions.ReadAsJsonAsync
+  commentId: M:Mcma.Client.HttpContentExtensions.ReadAsJsonAsync(System.Net.Http.HttpContent)
+  parent: Mcma.Client.HttpContentExtensions
+  definition: Mcma.Client.HttpContentExtensions.ReadAsJsonAsync(System.Net.Http.HttpContent)
+  name: ReadAsJsonAsync()
+  nameWithType: HttpContentExtensions.ReadAsJsonAsync()
+  fullName: Mcma.Client.HttpContentExtensions.ReadAsJsonAsync()
+  spec.csharp:
+  - uid: Mcma.Client.HttpContentExtensions.ReadAsJsonAsync
+    name: ReadAsJsonAsync
+    nameWithType: HttpContentExtensions.ReadAsJsonAsync
+    fullName: Mcma.Client.HttpContentExtensions.ReadAsJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.HttpContentExtensions.ReadAsJsonAsync
+    name: ReadAsJsonAsync
+    nameWithType: HttpContentExtensions.ReadAsJsonAsync
+    fullName: Mcma.Client.HttpContentExtensions.ReadAsJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+- uid: Mcma.Client.HttpContentExtensions.ReadAsJsonAsync(System.Net.Http.HttpContent)
+  commentId: M:Mcma.Client.HttpContentExtensions.ReadAsJsonAsync(System.Net.Http.HttpContent)
+  isExternal: true
+  name: ReadAsJsonAsync(HttpContent)
+  nameWithType: HttpContentExtensions.ReadAsJsonAsync(HttpContent)
+  fullName: Mcma.Client.HttpContentExtensions.ReadAsJsonAsync(System.Net.Http.HttpContent)
+  spec.csharp:
+  - uid: Mcma.Client.HttpContentExtensions.ReadAsJsonAsync(System.Net.Http.HttpContent)
+    name: ReadAsJsonAsync
+    nameWithType: HttpContentExtensions.ReadAsJsonAsync
+    fullName: Mcma.Client.HttpContentExtensions.ReadAsJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpContent
+    name: HttpContent
+    nameWithType: HttpContent
+    fullName: System.Net.Http.HttpContent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.HttpContentExtensions.ReadAsJsonAsync(System.Net.Http.HttpContent)
+    name: ReadAsJsonAsync
+    nameWithType: HttpContentExtensions.ReadAsJsonAsync
+    fullName: Mcma.Client.HttpContentExtensions.ReadAsJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpContent
+    name: HttpContent
+    nameWithType: HttpContent
+    fullName: System.Net.Http.HttpContent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.HttpContentExtensions
+  commentId: T:Mcma.Client.HttpContentExtensions
+  parent: Mcma.Client
+  name: HttpContentExtensions
+  nameWithType: HttpContentExtensions
+  fullName: Mcma.Client.HttpContentExtensions
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Client.McmaJsonContent.#ctor*
+  commentId: Overload:Mcma.Client.McmaJsonContent.#ctor
+  name: McmaJsonContent
+  nameWithType: McmaJsonContent.McmaJsonContent
+  fullName: Mcma.Client.McmaJsonContent.McmaJsonContent

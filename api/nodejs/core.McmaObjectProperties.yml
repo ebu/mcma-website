@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.McmaObjectProperties
+    name: McmaObjectProperties
+    fullName: McmaObjectProperties
+    children:
+      - core.McmaObjectProperties.@type
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: core
+  - uid: core.McmaObjectProperties.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: '@type?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core

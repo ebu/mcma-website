@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: worker.ProviderCollection
+    name: ProviderCollection
+    fullName: ProviderCollection
+    children:
+      - worker.ProviderCollection.authProvider
+      - worker.ProviderCollection.dbTableProvider
+      - worker.ProviderCollection.loggerProvider
+      - worker.ProviderCollection.constructor
+      - worker.ProviderCollection.resourceManagerProvider
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: worker
+  - uid: worker.ProviderCollection.authProvider
+    name: authProvider
+    fullName: authProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: AuthProvider authProvider
+      return:
+        type:
+          - AuthProvider
+        description: ''
+    package: worker
+  - uid: worker.ProviderCollection.dbTableProvider
+    name: dbTableProvider
+    fullName: dbTableProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DocumentDatabaseTableProvider dbTableProvider
+      return:
+        type:
+          - DocumentDatabaseTableProvider
+        description: ''
+    package: worker
+  - uid: worker.ProviderCollection.loggerProvider
+    name: loggerProvider
+    fullName: loggerProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: LoggerProvider loggerProvider
+      return:
+        type:
+          - LoggerProvider
+        description: ''
+    package: worker
+  - uid: worker.ProviderCollection.constructor
+    name: ProviderCollection(Providers)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ProviderCollection(providers: Providers)'
+      parameters:
+        - id: providers
+          type:
+            - worker.Providers
+          description: ''
+    package: worker
+  - uid: worker.ProviderCollection.resourceManagerProvider
+    name: resourceManagerProvider
+    fullName: resourceManagerProvider
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ResourceManagerProvider resourceManagerProvider
+      return:
+        type:
+          - ResourceManagerProvider
+        description: ''
+    package: worker
+references:
+  - uid: worker.Providers
+    name: Providers
+    spec.typeScript:
+      - name: Providers
+        fullName: Providers
+        uid: worker.Providers

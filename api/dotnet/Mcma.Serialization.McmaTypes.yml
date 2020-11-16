@@ -1,0 +1,503 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Serialization.McmaTypes
+  commentId: T:Mcma.Serialization.McmaTypes
+  id: McmaTypes
+  parent: Mcma.Serialization
+  children:
+  - Mcma.Serialization.McmaTypes.Add(System.Type)
+  - Mcma.Serialization.McmaTypes.Add``1
+  - Mcma.Serialization.McmaTypes.FindType(System.String)
+  langs:
+  - csharp
+  - vb
+  name: McmaTypes
+  nameWithType: McmaTypes
+  fullName: Mcma.Serialization.McmaTypes
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/McmaTypes.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaTypes
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/McmaTypes.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  summary: "\nStatic registry of types of which MCMA serialization must be aware\n"
+  example: []
+  syntax:
+    content: public static class McmaTypes
+    content.vb: Public Module McmaTypes
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.Serialization.McmaTypes.Add``1
+  commentId: M:Mcma.Serialization.McmaTypes.Add``1
+  id: Add``1
+  parent: Mcma.Serialization.McmaTypes
+  langs:
+  - csharp
+  - vb
+  name: Add<T>()
+  nameWithType: McmaTypes.Add<T>()
+  fullName: Mcma.Serialization.McmaTypes.Add<T>()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/McmaTypes.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Add
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/McmaTypes.cs
+    startLine: 43
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  summary: "\nAdds a well-known type to the registry\n"
+  example: []
+  syntax:
+    content: public static IMcmaTypeRegistrations Add<T>()
+    typeParameters:
+    - id: T
+      description: The type to add
+    return:
+      type: Mcma.Serialization.IMcmaTypeRegistrations
+      description: ''
+    content.vb: Public Shared Function Add(Of T) As IMcmaTypeRegistrations
+  overload: Mcma.Serialization.McmaTypes.Add*
+  nameWithType.vb: McmaTypes.Add(Of T)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Serialization.McmaTypes.Add(Of T)()
+  name.vb: Add(Of T)()
+- uid: Mcma.Serialization.McmaTypes.Add(System.Type)
+  commentId: M:Mcma.Serialization.McmaTypes.Add(System.Type)
+  id: Add(System.Type)
+  parent: Mcma.Serialization.McmaTypes
+  langs:
+  - csharp
+  - vb
+  name: Add(Type)
+  nameWithType: McmaTypes.Add(Type)
+  fullName: Mcma.Serialization.McmaTypes.Add(System.Type)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/McmaTypes.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Add
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/McmaTypes.cs
+    startLine: 50
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  summary: "\nAdds a well-known type to the registry\n"
+  example: []
+  syntax:
+    content: public static IMcmaTypeRegistrations Add(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: ''
+    return:
+      type: Mcma.Serialization.IMcmaTypeRegistrations
+      description: ''
+    content.vb: Public Shared Function Add(type As Type) As IMcmaTypeRegistrations
+  overload: Mcma.Serialization.McmaTypes.Add*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Serialization.McmaTypes.FindType(System.String)
+  commentId: M:Mcma.Serialization.McmaTypes.FindType(System.String)
+  id: FindType(System.String)
+  parent: Mcma.Serialization.McmaTypes
+  langs:
+  - csharp
+  - vb
+  name: FindType(String)
+  nameWithType: McmaTypes.FindType(String)
+  fullName: Mcma.Serialization.McmaTypes.FindType(System.String)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/McmaTypes.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: FindType
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/McmaTypes.cs
+    startLine: 57
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  summary: "\nFinds a registered type with the given name\n"
+  example: []
+  syntax:
+    content: public static Type FindType(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the type to find. Must be an unqualified name (<see cref="!:Type.Name"></see>), as would be found in the @type json property
+    return:
+      type: System.Type
+      description: The type with the given name, if any
+    content.vb: Public Shared Function FindType(name As String) As Type
+  overload: Mcma.Serialization.McmaTypes.FindType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaTypes.Add*
+  commentId: Overload:Mcma.Serialization.McmaTypes.Add
+  name: Add
+  nameWithType: McmaTypes.Add
+  fullName: Mcma.Serialization.McmaTypes.Add
+- uid: Mcma.Serialization.IMcmaTypeRegistrations
+  commentId: T:Mcma.Serialization.IMcmaTypeRegistrations
+  parent: Mcma.Serialization
+  name: IMcmaTypeRegistrations
+  nameWithType: IMcmaTypeRegistrations
+  fullName: Mcma.Serialization.IMcmaTypeRegistrations
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Mcma.Serialization.McmaTypes.FindType*
+  commentId: Overload:Mcma.Serialization.McmaTypes.FindType
+  name: FindType
+  nameWithType: McmaTypes.FindType
+  fullName: Mcma.Serialization.McmaTypes.FindType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

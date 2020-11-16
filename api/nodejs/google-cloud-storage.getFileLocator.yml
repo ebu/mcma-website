@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-storage.getFileLocator
+    name: 'getFileLocator(CloudStorageFolderLocatorProperties, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getFileLocator(folderLocator:
+        CloudStorageFolderLocatorProperties, fileName: string)
+      parameters:
+        - id: folderLocator
+          type:
+            - google-cloud-storage.CloudStorageFolderLocatorProperties
+          description: ''
+        - id: fileName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - google-cloud-storage.CloudStorageFileLocator
+        description: ''
+    package: google-cloud-storage
+references:
+  - uid: google-cloud-storage.CloudStorageFolderLocatorProperties
+    name: CloudStorageFolderLocatorProperties
+    spec.typeScript:
+      - name: CloudStorageFolderLocatorProperties
+        fullName: CloudStorageFolderLocatorProperties
+        uid: google-cloud-storage.CloudStorageFolderLocatorProperties
+  - uid: google-cloud-storage.CloudStorageFileLocator
+    name: CloudStorageFileLocator
+    spec.typeScript:
+      - name: CloudStorageFileLocator
+        fullName: CloudStorageFileLocator
+        uid: google-cloud-storage.CloudStorageFileLocator

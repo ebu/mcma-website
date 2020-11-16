@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-queue-worker-invoker.QueueWorkerInvoker
+    name: QueueWorkerInvoker
+    fullName: QueueWorkerInvoker
+    children:
+      - azure-queue-worker-invoker.QueueWorkerInvoker.invoke
+      - azure-queue-worker-invoker.QueueWorkerInvoker.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: WorkerInvoker
+    package: azure-queue-worker-invoker
+  - uid: azure-queue-worker-invoker.QueueWorkerInvoker.invoke
+    name: 'invoke(string, WorkerRequestProperties)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function invoke(workerFunctionId: string, workerRequest:
+        WorkerRequestProperties)
+      parameters:
+        - id: workerFunctionId
+          type:
+            - string
+          description: ''
+        - id: workerRequest
+          type:
+            - WorkerRequestProperties
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: azure-queue-worker-invoker
+  - uid: azure-queue-worker-invoker.QueueWorkerInvoker.constructor
+    name: QueueWorkerInvoker()
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new QueueWorkerInvoker()
+      parameters: []
+    package: azure-queue-worker-invoker

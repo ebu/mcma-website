@@ -1,0 +1,753 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Api.Routing.Defaults.SetTrackerOnCreationStarted
+  commentId: T:Mcma.Api.Routing.Defaults.SetTrackerOnCreationStarted
+  id: SetTrackerOnCreationStarted
+  parent: Mcma.Api.Routing.Defaults
+  children:
+  - Mcma.Api.Routing.Defaults.SetTrackerOnCreationStarted.OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+  langs:
+  - csharp
+  - vb
+  name: SetTrackerOnCreationStarted
+  nameWithType: SetTrackerOnCreationStarted
+  fullName: Mcma.Api.Routing.Defaults.SetTrackerOnCreationStarted
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Api/Routing/JobAssignments/SetTrackerOnCreationStarted.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: SetTrackerOnCreationStarted
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Routing/JobAssignments/SetTrackerOnCreationStarted.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api.Routing.Defaults
+  syntax:
+    content: 'public class SetTrackerOnCreationStarted : IDefaultCreateRouteStartedHandler<JobAssignment>'
+    content.vb: >-
+      Public Class SetTrackerOnCreationStarted
+
+          Implements IDefaultCreateRouteStartedHandler(Of JobAssignment)
+  inheritance:
+  - System.Object
+  implements:
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler{Mcma.JobAssignment}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Api.Routing.Defaults.SetTrackerOnCreationStarted.OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+  commentId: M:Mcma.Api.Routing.Defaults.SetTrackerOnCreationStarted.OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+  id: OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+  parent: Mcma.Api.Routing.Defaults.SetTrackerOnCreationStarted
+  langs:
+  - csharp
+  - vb
+  name: OnStartedAsync(McmaApiRequestContext)
+  nameWithType: SetTrackerOnCreationStarted.OnStartedAsync(McmaApiRequestContext)
+  fullName: Mcma.Api.Routing.Defaults.SetTrackerOnCreationStarted.OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Api/Routing/JobAssignments/SetTrackerOnCreationStarted.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: OnStartedAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Routing/JobAssignments/SetTrackerOnCreationStarted.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api.Routing.Defaults
+  syntax:
+    content: public Task<bool> OnStartedAsync(McmaApiRequestContext requestContext)
+    parameters:
+    - id: requestContext
+      type: Mcma.Api.McmaApiRequestContext
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function OnStartedAsync(requestContext As McmaApiRequestContext) As Task(Of Boolean)
+  overload: Mcma.Api.Routing.Defaults.SetTrackerOnCreationStarted.OnStartedAsync*
+  implements:
+  - Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler{Mcma.JobAssignment}.OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Api.Routing.Defaults
+  commentId: N:Mcma.Api.Routing.Defaults
+  name: Mcma.Api.Routing.Defaults
+  nameWithType: Mcma.Api.Routing.Defaults
+  fullName: Mcma.Api.Routing.Defaults
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler{Mcma.JobAssignment}
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler{Mcma.JobAssignment}
+  parent: Mcma.Api.Routing.Defaults.Routes
+  definition: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1
+  name: IDefaultCreateRouteStartedHandler<JobAssignment>
+  nameWithType: IDefaultCreateRouteStartedHandler<JobAssignment>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler<Mcma.JobAssignment>
+  nameWithType.vb: IDefaultCreateRouteStartedHandler(Of JobAssignment)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler(Of Mcma.JobAssignment)
+  name.vb: IDefaultCreateRouteStartedHandler(Of JobAssignment)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1
+    name: IDefaultCreateRouteStartedHandler
+    nameWithType: IDefaultCreateRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.JobAssignment
+    name: JobAssignment
+    nameWithType: JobAssignment
+    fullName: Mcma.JobAssignment
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1
+    name: IDefaultCreateRouteStartedHandler
+    nameWithType: IDefaultCreateRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.JobAssignment
+    name: JobAssignment
+    nameWithType: JobAssignment
+    fullName: Mcma.JobAssignment
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1
+  commentId: T:Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1
+  name: IDefaultCreateRouteStartedHandler<TResource>
+  nameWithType: IDefaultCreateRouteStartedHandler<TResource>
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler<TResource>
+  nameWithType.vb: IDefaultCreateRouteStartedHandler(Of TResource)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler(Of TResource)
+  name.vb: IDefaultCreateRouteStartedHandler(Of TResource)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1
+    name: IDefaultCreateRouteStartedHandler
+    nameWithType: IDefaultCreateRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1
+    name: IDefaultCreateRouteStartedHandler
+    nameWithType: IDefaultCreateRouteStartedHandler
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes
+  commentId: N:Mcma.Api.Routing.Defaults.Routes
+  name: Mcma.Api.Routing.Defaults.Routes
+  nameWithType: Mcma.Api.Routing.Defaults.Routes
+  fullName: Mcma.Api.Routing.Defaults.Routes
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Api.Routing.Defaults.SetTrackerOnCreationStarted.OnStartedAsync*
+  commentId: Overload:Mcma.Api.Routing.Defaults.SetTrackerOnCreationStarted.OnStartedAsync
+  name: OnStartedAsync
+  nameWithType: SetTrackerOnCreationStarted.OnStartedAsync
+  fullName: Mcma.Api.Routing.Defaults.SetTrackerOnCreationStarted.OnStartedAsync
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler{Mcma.JobAssignment}.OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+  commentId: M:Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler{Mcma.JobAssignment}.OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+  parent: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler{Mcma.JobAssignment}
+  definition: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1.OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+  name: OnStartedAsync(McmaApiRequestContext)
+  nameWithType: IDefaultCreateRouteStartedHandler<JobAssignment>.OnStartedAsync(McmaApiRequestContext)
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler<Mcma.JobAssignment>.OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+  nameWithType.vb: IDefaultCreateRouteStartedHandler(Of JobAssignment).OnStartedAsync(McmaApiRequestContext)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler(Of Mcma.JobAssignment).OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1.OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+    name: OnStartedAsync
+    nameWithType: IDefaultCreateRouteStartedHandler<JobAssignment>.OnStartedAsync
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler<Mcma.JobAssignment>.OnStartedAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1.OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+    name: OnStartedAsync
+    nameWithType: IDefaultCreateRouteStartedHandler(Of JobAssignment).OnStartedAsync
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler(Of Mcma.JobAssignment).OnStartedAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.McmaApiRequestContext
+  commentId: T:Mcma.Api.McmaApiRequestContext
+  parent: Mcma.Api
+  name: McmaApiRequestContext
+  nameWithType: McmaApiRequestContext
+  fullName: Mcma.Api.McmaApiRequestContext
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1.OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+  commentId: M:Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1.OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+  name: OnStartedAsync(McmaApiRequestContext)
+  nameWithType: IDefaultCreateRouteStartedHandler<TResource>.OnStartedAsync(McmaApiRequestContext)
+  fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler<TResource>.OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+  nameWithType.vb: IDefaultCreateRouteStartedHandler(Of TResource).OnStartedAsync(McmaApiRequestContext)
+  fullName.vb: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler(Of TResource).OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+  spec.csharp:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1.OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+    name: OnStartedAsync
+    nameWithType: IDefaultCreateRouteStartedHandler<TResource>.OnStartedAsync
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler<TResource>.OnStartedAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1.OnStartedAsync(Mcma.Api.McmaApiRequestContext)
+    name: OnStartedAsync
+    nameWithType: IDefaultCreateRouteStartedHandler(Of TResource).OnStartedAsync
+    fullName: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler(Of TResource).OnStartedAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api
+  commentId: N:Mcma.Api
+  name: Mcma.Api
+  nameWithType: Mcma.Api
+  fullName: Mcma.Api
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

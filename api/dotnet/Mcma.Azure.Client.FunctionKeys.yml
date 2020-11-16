@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.Client.FunctionKeys
+  commentId: N:Mcma.Azure.Client.FunctionKeys
+  id: Mcma.Azure.Client.FunctionKeys
+  children:
+  - Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+  - Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator
+  - Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory
+  - Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  - Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Azure.Client.FunctionKeys
+  nameWithType: Mcma.Azure.Client.FunctionKeys
+  fullName: Mcma.Azure.Client.FunctionKeys
+  type: Namespace
+  assemblies:
+  - Mcma.Azure.Client
+references:
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+  commentId: T:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+  parent: Mcma.Azure.Client.FunctionKeys
+  name: AzureFunctionKeyAuthContext
+  nameWithType: AzureFunctionKeyAuthContext
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator
+  commentId: T:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator
+  name: AzureFunctionKeyAuthenticator
+  nameWithType: AzureFunctionKeyAuthenticator
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory
+  commentId: T:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory
+  name: AzureFunctionKeyAuthenticatorFactory
+  nameWithType: AzureFunctionKeyAuthenticatorFactory
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  commentId: T:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  name: AzureFunctionKeyAuthenticatorOptions
+  nameWithType: AzureFunctionKeyAuthenticatorOptions
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions
+  commentId: T:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions
+  parent: Mcma.Azure.Client.FunctionKeys
+  name: AzureFunctionKeyAuthRegistryExtensions
+  nameWithType: AzureFunctionKeyAuthRegistryExtensions
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions
+- uid: Mcma.Azure.Client.FunctionKeys
+  commentId: N:Mcma.Azure.Client.FunctionKeys
+  name: Mcma.Azure.Client.FunctionKeys
+  nameWithType: Mcma.Azure.Client.FunctionKeys
+  fullName: Mcma.Azure.Client.FunctionKeys

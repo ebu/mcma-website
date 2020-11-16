@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController
+  commentId: T:Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController
+  id: IHttpFunctionApiController
+  parent: Mcma.GoogleCloud.HttpFunctionsApi
+  children:
+  - Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  langs:
+  - csharp
+  - vb
+  name: IHttpFunctionApiController
+  nameWithType: IHttpFunctionApiController
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController
+  type: Interface
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.HttpFunctionsApi/IHttpFunctionApiController.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IHttpFunctionApiController
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.HttpFunctionsApi/IHttpFunctionApiController.cs
+    startLine: 5
+  assemblies:
+  - Mcma.GoogleCloud.HttpFunctionsApi
+  namespace: Mcma.GoogleCloud.HttpFunctionsApi
+  syntax:
+    content: public interface IHttpFunctionApiController
+    content.vb: Public Interface IHttpFunctionApiController
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  commentId: M:Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  id: HandleRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  parent: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController
+  langs:
+  - csharp
+  - vb
+  name: HandleRequestAsync(HttpContext)
+  nameWithType: IHttpFunctionApiController.HandleRequestAsync(HttpContext)
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController.HandleRequestAsync(Microsoft.AspNetCore.Http.HttpContext)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.HttpFunctionsApi/IHttpFunctionApiController.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: HandleRequestAsync
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.HttpFunctionsApi/IHttpFunctionApiController.cs
+    startLine: 7
+  assemblies:
+  - Mcma.GoogleCloud.HttpFunctionsApi
+  namespace: Mcma.GoogleCloud.HttpFunctionsApi
+  syntax:
+    content: Task HandleRequestAsync(HttpContext httpContext)
+    parameters:
+    - id: httpContext
+      type: Microsoft.AspNetCore.Http.HttpContext
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function HandleRequestAsync(httpContext As HttpContext) As Task
+  overload: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController.HandleRequestAsync*
+references:
+- uid: Mcma.GoogleCloud.HttpFunctionsApi
+  commentId: N:Mcma.GoogleCloud.HttpFunctionsApi
+  name: Mcma.GoogleCloud.HttpFunctionsApi
+  nameWithType: Mcma.GoogleCloud.HttpFunctionsApi
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController.HandleRequestAsync*
+  commentId: Overload:Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController.HandleRequestAsync
+  name: HandleRequestAsync
+  nameWithType: IHttpFunctionApiController.HandleRequestAsync
+  fullName: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController.HandleRequestAsync
+- uid: Microsoft.AspNetCore.Http.HttpContext
+  commentId: T:Microsoft.AspNetCore.Http.HttpContext
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: HttpContext
+  nameWithType: HttpContext
+  fullName: Microsoft.AspNetCore.Http.HttpContext
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: true
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

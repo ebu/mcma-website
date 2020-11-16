@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-dynamodb.DynamoDbTableProvider
+    name: DynamoDbTableProvider
+    fullName: DynamoDbTableProvider
+    children:
+      - aws-dynamodb.DynamoDbTableProvider.constructor
+      - aws-dynamodb.DynamoDbTableProvider.get
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.DynamoDbTableProvider.constructor
+    name: 'DynamoDbTableProvider(DynamoDbTableOptions, DynamoDB)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new DynamoDbTableProvider(options: DynamoDbTableOptions, dynamoDb:
+        DynamoDB)
+      parameters:
+        - id: options
+          type:
+            - aws-dynamodb.DynamoDbTableOptions
+          description: ''
+        - id: dynamoDb
+          type:
+            - DynamoDB
+          description: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.DynamoDbTableProvider.get
+    name: get(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get(tableName: string)'
+      parameters:
+        - id: tableName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<DocumentDatabaseTable>
+        description: ''
+    package: aws-dynamodb
+references:
+  - uid: aws-dynamodb.DynamoDbTableOptions
+    name: DynamoDbTableOptions
+    spec.typeScript:
+      - name: DynamoDbTableOptions
+        fullName: DynamoDbTableOptions
+        uid: aws-dynamodb.DynamoDbTableOptions

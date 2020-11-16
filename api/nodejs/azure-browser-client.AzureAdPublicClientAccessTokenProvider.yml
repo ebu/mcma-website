@@ -1,0 +1,70 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-browser-client.AzureAdPublicClientAccessTokenProvider
+    name: AzureAdPublicClientAccessTokenProvider
+    fullName: AzureAdPublicClientAccessTokenProvider
+    children:
+      - azure-browser-client.AzureAdPublicClientAccessTokenProvider.constructor
+      - >-
+        azure-browser-client.AzureAdPublicClientAccessTokenProvider.getAccessToken
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-browser-client
+  - uid: azure-browser-client.AzureAdPublicClientAccessTokenProvider.constructor
+    name: >-
+      AzureAdPublicClientAccessTokenProvider(ConfigurationWithTenant,
+      AccountInfo)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new AzureAdPublicClientAccessTokenProvider(options:
+        ConfigurationWithTenant, userAccount?: AccountInfo)
+      parameters:
+        - id: options
+          type:
+            - azure-browser-client.ConfigurationWithTenant
+          description: ''
+        - id: userAccount
+          type:
+            - AccountInfo
+          description: ''
+          optional: true
+    package: azure-browser-client
+  - uid: azure-browser-client.AzureAdPublicClientAccessTokenProvider.getAccessToken
+    name: getAccessToken(AzureAdAuthContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getAccessToken(authContext: AzureAdAuthContext)'
+      parameters:
+        - id: authContext
+          type:
+            - azure-browser-client.AzureAdAuthContext
+          description: ''
+      return:
+        type:
+          - Promise<AccessToken>
+        description: ''
+    package: azure-browser-client
+references:
+  - uid: azure-browser-client.ConfigurationWithTenant
+    name: ConfigurationWithTenant
+    spec.typeScript:
+      - name: ConfigurationWithTenant
+        fullName: ConfigurationWithTenant
+        uid: azure-browser-client.ConfigurationWithTenant
+  - uid: azure-browser-client.AzureAdAuthContext
+    name: AzureAdAuthContext
+    spec.typeScript:
+      - name: AzureAdAuthContext
+        fullName: AzureAdAuthContext
+        uid: azure-browser-client.AzureAdAuthContext

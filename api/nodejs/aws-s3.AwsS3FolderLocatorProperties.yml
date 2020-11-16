@@ -1,0 +1,87 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-s3.AwsS3FolderLocatorProperties
+    name: AwsS3FolderLocatorProperties
+    fullName: AwsS3FolderLocatorProperties
+    children:
+      - aws-s3.AwsS3FolderLocatorProperties.@type
+      - aws-s3.AwsS3FolderLocatorProperties.bucket
+      - aws-s3.AwsS3FolderLocatorProperties.keyPrefix
+      - aws-s3.AwsS3FolderLocatorProperties.url
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: aws-s3.AwsS3LocatorProperties
+    package: aws-s3
+  - uid: aws-s3.AwsS3FolderLocatorProperties.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: '@type?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-s3
+  - uid: aws-s3.AwsS3FolderLocatorProperties.bucket
+    name: bucket
+    fullName: bucket
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bucket: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-s3
+  - uid: aws-s3.AwsS3FolderLocatorProperties.keyPrefix
+    name: keyPrefix
+    fullName: keyPrefix
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'keyPrefix?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-s3
+  - uid: aws-s3.AwsS3FolderLocatorProperties.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'url?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-s3
+references:
+  - uid: aws-s3.AwsS3LocatorProperties
+    name: AwsS3LocatorProperties
+    spec.typeScript:
+      - name: AwsS3LocatorProperties
+        fullName: AwsS3LocatorProperties
+        uid: aws-s3.AwsS3LocatorProperties

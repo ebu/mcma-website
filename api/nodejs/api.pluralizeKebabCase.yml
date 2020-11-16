@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: api.pluralizeKebabCase
+    name: pluralizeKebabCase(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pluralizeKebabCase(value: string)'
+      parameters:
+        - id: value
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: api

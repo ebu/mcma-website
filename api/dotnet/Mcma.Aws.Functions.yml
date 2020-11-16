@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.Functions
+  commentId: N:Mcma.Aws.Functions
+  id: Mcma.Aws.Functions
+  children:
+  - Mcma.Aws.Functions.IMcmaLambdaFunctionHandler
+  - Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1
+  - Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`2
+  - Mcma.Aws.Functions.McmaLambdaFunction`1
+  - Mcma.Aws.Functions.McmaLambdaFunction`2
+  - Mcma.Aws.Functions.McmaLambdaFunction`3
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Aws.Functions
+  nameWithType: Mcma.Aws.Functions
+  fullName: Mcma.Aws.Functions
+  type: Namespace
+  assemblies:
+  - Mcma.Aws.Functions
+references:
+- uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`2
+  commentId: T:Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`2
+  name: IMcmaLambdaFunctionHandler<TInput, TOutput>
+  nameWithType: IMcmaLambdaFunctionHandler<TInput, TOutput>
+  fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler<TInput, TOutput>
+  nameWithType.vb: IMcmaLambdaFunctionHandler(Of TInput, TOutput)
+  fullName.vb: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler(Of TInput, TOutput)
+  name.vb: IMcmaLambdaFunctionHandler(Of TInput, TOutput)
+  spec.csharp:
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`2
+    name: IMcmaLambdaFunctionHandler
+    nameWithType: IMcmaLambdaFunctionHandler
+    fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TInput
+    nameWithType: TInput
+    fullName: TInput
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TOutput
+    nameWithType: TOutput
+    fullName: TOutput
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`2
+    name: IMcmaLambdaFunctionHandler
+    nameWithType: IMcmaLambdaFunctionHandler
+    fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TInput
+    nameWithType: TInput
+    fullName: TInput
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TOutput
+    nameWithType: TOutput
+    fullName: TOutput
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1
+  commentId: T:Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1
+  name: IMcmaLambdaFunctionHandler<TInput>
+  nameWithType: IMcmaLambdaFunctionHandler<TInput>
+  fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler<TInput>
+  nameWithType.vb: IMcmaLambdaFunctionHandler(Of TInput)
+  fullName.vb: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler(Of TInput)
+  name.vb: IMcmaLambdaFunctionHandler(Of TInput)
+  spec.csharp:
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1
+    name: IMcmaLambdaFunctionHandler
+    nameWithType: IMcmaLambdaFunctionHandler
+    fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TInput
+    nameWithType: TInput
+    fullName: TInput
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1
+    name: IMcmaLambdaFunctionHandler
+    nameWithType: IMcmaLambdaFunctionHandler
+    fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TInput
+    nameWithType: TInput
+    fullName: TInput
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler
+  commentId: T:Mcma.Aws.Functions.IMcmaLambdaFunctionHandler
+  name: IMcmaLambdaFunctionHandler
+  nameWithType: IMcmaLambdaFunctionHandler
+  fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler
+- uid: Mcma.Aws.Functions.McmaLambdaFunction`3
+  commentId: T:Mcma.Aws.Functions.McmaLambdaFunction`3
+  name: McmaLambdaFunction<TFunctionHandler, TInput, TOutput>
+  nameWithType: McmaLambdaFunction<TFunctionHandler, TInput, TOutput>
+  fullName: Mcma.Aws.Functions.McmaLambdaFunction<TFunctionHandler, TInput, TOutput>
+  nameWithType.vb: McmaLambdaFunction(Of TFunctionHandler, TInput, TOutput)
+  fullName.vb: Mcma.Aws.Functions.McmaLambdaFunction(Of TFunctionHandler, TInput, TOutput)
+  name.vb: McmaLambdaFunction(Of TFunctionHandler, TInput, TOutput)
+  spec.csharp:
+  - uid: Mcma.Aws.Functions.McmaLambdaFunction`3
+    name: McmaLambdaFunction
+    nameWithType: McmaLambdaFunction
+    fullName: Mcma.Aws.Functions.McmaLambdaFunction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TFunctionHandler
+    nameWithType: TFunctionHandler
+    fullName: TFunctionHandler
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TInput
+    nameWithType: TInput
+    fullName: TInput
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TOutput
+    nameWithType: TOutput
+    fullName: TOutput
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Aws.Functions.McmaLambdaFunction`3
+    name: McmaLambdaFunction
+    nameWithType: McmaLambdaFunction
+    fullName: Mcma.Aws.Functions.McmaLambdaFunction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TFunctionHandler
+    nameWithType: TFunctionHandler
+    fullName: TFunctionHandler
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TInput
+    nameWithType: TInput
+    fullName: TInput
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TOutput
+    nameWithType: TOutput
+    fullName: TOutput
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.Functions.McmaLambdaFunction`2
+  commentId: T:Mcma.Aws.Functions.McmaLambdaFunction`2
+  name: McmaLambdaFunction<TFunctionHandler, TInput>
+  nameWithType: McmaLambdaFunction<TFunctionHandler, TInput>
+  fullName: Mcma.Aws.Functions.McmaLambdaFunction<TFunctionHandler, TInput>
+  nameWithType.vb: McmaLambdaFunction(Of TFunctionHandler, TInput)
+  fullName.vb: Mcma.Aws.Functions.McmaLambdaFunction(Of TFunctionHandler, TInput)
+  name.vb: McmaLambdaFunction(Of TFunctionHandler, TInput)
+  spec.csharp:
+  - uid: Mcma.Aws.Functions.McmaLambdaFunction`2
+    name: McmaLambdaFunction
+    nameWithType: McmaLambdaFunction
+    fullName: Mcma.Aws.Functions.McmaLambdaFunction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TFunctionHandler
+    nameWithType: TFunctionHandler
+    fullName: TFunctionHandler
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TInput
+    nameWithType: TInput
+    fullName: TInput
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Aws.Functions.McmaLambdaFunction`2
+    name: McmaLambdaFunction
+    nameWithType: McmaLambdaFunction
+    fullName: Mcma.Aws.Functions.McmaLambdaFunction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TFunctionHandler
+    nameWithType: TFunctionHandler
+    fullName: TFunctionHandler
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TInput
+    nameWithType: TInput
+    fullName: TInput
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.Functions.McmaLambdaFunction`1
+  commentId: T:Mcma.Aws.Functions.McmaLambdaFunction`1
+  name: McmaLambdaFunction<TFunctionHandler>
+  nameWithType: McmaLambdaFunction<TFunctionHandler>
+  fullName: Mcma.Aws.Functions.McmaLambdaFunction<TFunctionHandler>
+  nameWithType.vb: McmaLambdaFunction(Of TFunctionHandler)
+  fullName.vb: Mcma.Aws.Functions.McmaLambdaFunction(Of TFunctionHandler)
+  name.vb: McmaLambdaFunction(Of TFunctionHandler)
+  spec.csharp:
+  - uid: Mcma.Aws.Functions.McmaLambdaFunction`1
+    name: McmaLambdaFunction
+    nameWithType: McmaLambdaFunction
+    fullName: Mcma.Aws.Functions.McmaLambdaFunction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TFunctionHandler
+    nameWithType: TFunctionHandler
+    fullName: TFunctionHandler
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Aws.Functions.McmaLambdaFunction`1
+    name: McmaLambdaFunction
+    nameWithType: McmaLambdaFunction
+    fullName: Mcma.Aws.Functions.McmaLambdaFunction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TFunctionHandler
+    nameWithType: TFunctionHandler
+    fullName: TFunctionHandler
+  - name: )
+    nameWithType: )
+    fullName: )

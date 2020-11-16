@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud
+  commentId: N:Mcma.GoogleCloud
+  id: Mcma.GoogleCloud
+  children:
+  - Mcma.GoogleCloud.CloudEnvironmentVariableHelper
+  - Mcma.GoogleCloud.JsonProtobufHelper
+  langs:
+  - csharp
+  - vb
+  name: Mcma.GoogleCloud
+  nameWithType: Mcma.GoogleCloud
+  fullName: Mcma.GoogleCloud
+  type: Namespace
+  assemblies:
+  - Mcma.GoogleCloud
+references:
+- uid: Mcma.GoogleCloud.CloudEnvironmentVariableHelper
+  commentId: T:Mcma.GoogleCloud.CloudEnvironmentVariableHelper
+  name: CloudEnvironmentVariableHelper
+  nameWithType: CloudEnvironmentVariableHelper
+  fullName: Mcma.GoogleCloud.CloudEnvironmentVariableHelper
+- uid: Mcma.GoogleCloud.JsonProtobufHelper
+  commentId: T:Mcma.GoogleCloud.JsonProtobufHelper
+  name: JsonProtobufHelper
+  nameWithType: JsonProtobufHelper
+  fullName: Mcma.GoogleCloud.JsonProtobufHelper

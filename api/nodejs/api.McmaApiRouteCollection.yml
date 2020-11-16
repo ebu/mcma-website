@@ -1,0 +1,148 @@
+### YamlMime:UniversalReference
+items:
+  - uid: api.McmaApiRouteCollection
+    name: McmaApiRouteCollection
+    fullName: McmaApiRouteCollection
+    children:
+      - api.McmaApiRouteCollection.addRoute
+      - api.McmaApiRouteCollection.addRoutes
+      - api.McmaApiRouteCollection.constructor
+      - 'api.McmaApiRouteCollection.[Symbol.iterator]'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: api
+  - uid: api.McmaApiRouteCollection.addRoute
+    name: 'addRoute(string | McmaApiRoute, string, McmaApiRouteHandler)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addRoute(methodOrRoute: string | McmaApiRoute, path?: string,
+        handler?: McmaApiRouteHandler)
+      parameters:
+        - id: methodOrRoute
+          type:
+            - string | api.McmaApiRoute
+          description: ''
+        - id: path
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: handler
+          type:
+            - api.McmaApiRouteHandler
+          description: ''
+          optional: true
+      return:
+        type:
+          - api.McmaApiRouteCollection
+        description: ''
+    package: api
+  - uid: api.McmaApiRouteCollection.addRoutes
+    name: 'addRoutes(McmaApiRouteCollection | McmaApiRoute[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addRoutes(routes: McmaApiRouteCollection | McmaApiRoute[])'
+      parameters:
+        - id: routes
+          type:
+            - 'api.McmaApiRouteCollection | api.McmaApiRoute[]'
+          description: ''
+      return:
+        type:
+          - api.McmaApiRouteCollection
+        description: ''
+    package: api
+  - uid: api.McmaApiRouteCollection.constructor
+    name: 'McmaApiRouteCollection(McmaApiRoute[])'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new McmaApiRouteCollection(routes?: McmaApiRoute[])'
+      parameters:
+        - id: routes
+          type:
+            - 'api.McmaApiRoute[]'
+          description: ''
+          optional: true
+    package: api
+  - uid: 'api.McmaApiRouteCollection.[Symbol.iterator]'
+    name: '[Symbol.iterator]()'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function [Symbol.iterator]()'
+      parameters: []
+      return:
+        type:
+          - IterableIterator<api.McmaApiRoute>
+        description: ''
+    package: api
+references:
+  - uid: 'api.McmaApiRoute[]'
+    name: 'McmaApiRoute[]'
+    spec.typeScript:
+      - name: McmaApiRoute
+        fullName: McmaApiRoute
+        uid: api.McmaApiRoute
+      - name: '[]'
+        fullName: '[]'
+  - uid: IterableIterator<api.McmaApiRoute>
+    name: McmaApiRoute>
+    spec.typeScript:
+      - name: IterableIterator<
+        fullName: IterableIterator<
+      - name: McmaApiRoute
+        fullName: McmaApiRoute
+        uid: api.McmaApiRoute
+      - name: '>'
+        fullName: '>'
+  - uid: string | api.McmaApiRoute
+    name: McmaApiRoute
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: McmaApiRoute
+        fullName: McmaApiRoute
+        uid: api.McmaApiRoute
+  - uid: api.McmaApiRouteHandler
+    name: McmaApiRouteHandler
+    spec.typeScript:
+      - name: McmaApiRouteHandler
+        fullName: McmaApiRouteHandler
+        uid: api.McmaApiRouteHandler
+  - uid: api.McmaApiRouteCollection
+    name: McmaApiRouteCollection
+    spec.typeScript:
+      - name: McmaApiRouteCollection
+        fullName: McmaApiRouteCollection
+        uid: api.McmaApiRouteCollection
+  - uid: 'api.McmaApiRouteCollection | api.McmaApiRoute[]'
+    name: 'McmaApiRoute[]'
+    spec.typeScript:
+      - name: McmaApiRouteCollection
+        fullName: McmaApiRouteCollection
+        uid: api.McmaApiRouteCollection
+      - name: ' | '
+        fullName: ' | '
+      - name: McmaApiRoute
+        fullName: McmaApiRoute
+        uid: api.McmaApiRoute
+      - name: '[]'
+        fullName: '[]'

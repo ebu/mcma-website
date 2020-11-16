@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-client.isAwsConfigInstance
+    name: isAwsConfigInstance(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isAwsConfigInstance(x: any)'
+      parameters:
+        - id: x
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - x
+        description: ''
+    package: aws-client

@@ -1,0 +1,534 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider
+  commentId: T:Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider
+  id: AzureADConfidentialClientBearerTokenProvider
+  parent: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  children:
+  - Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+  - Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider.GetAsync(Mcma.Azure.Client.AzureAD.AzureADAuthContext,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: AzureADConfidentialClientBearerTokenProvider
+  nameWithType: AzureADConfidentialClientBearerTokenProvider
+  fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider
+  type: Class
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/AzureAD/ConfidentialClient/AzureADConfidentialClientBearerTokenProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AzureADConfidentialClientBearerTokenProvider
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/AzureAD/ConfidentialClient/AzureADConfidentialClientBearerTokenProvider.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  syntax:
+    content: 'public class AzureADConfidentialClientBearerTokenProvider : object, IBearerTokenProvider<AzureADAuthContext>'
+    content.vb: >-
+      Public Class AzureADConfidentialClientBearerTokenProvider
+
+          Inherits Object
+
+          Implements IBearerTokenProvider(Of AzureADAuthContext)
+  inheritance:
+  - System.Object
+  implements:
+  - Mcma.Client.AccessTokens.IBearerTokenProvider{Mcma.Azure.Client.AzureAD.AzureADAuthContext}
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+  commentId: M:Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})
+  id: '#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.Identity.Client.ConfidentialClientApplicationOptions})'
+  parent: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider
+  langs:
+  - csharp
+  - vb
+  name: AzureADConfidentialClientBearerTokenProvider(IOptions<ConfidentialClientApplicationOptions>)
+  nameWithType: AzureADConfidentialClientBearerTokenProvider.AzureADConfidentialClientBearerTokenProvider(IOptions<ConfidentialClientApplicationOptions>)
+  fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider.AzureADConfidentialClientBearerTokenProvider(Microsoft.Extensions.Options.IOptions<Microsoft.Identity.Client.ConfidentialClientApplicationOptions>)
+  type: Constructor
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/AzureAD/ConfidentialClient/AzureADConfidentialClientBearerTokenProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/AzureAD/ConfidentialClient/AzureADConfidentialClientBearerTokenProvider.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  syntax:
+    content: public AzureADConfidentialClientBearerTokenProvider(IOptions<ConfidentialClientApplicationOptions> options)
+    parameters:
+    - id: options
+      type: Microsoft.Extensions.Options.IOptions{Microsoft.Identity.Client.ConfidentialClientApplicationOptions}
+    content.vb: Public Sub New(options As IOptions(Of ConfidentialClientApplicationOptions))
+  overload: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider.#ctor*
+  nameWithType.vb: AzureADConfidentialClientBearerTokenProvider.AzureADConfidentialClientBearerTokenProvider(IOptions(Of ConfidentialClientApplicationOptions))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider.AzureADConfidentialClientBearerTokenProvider(Microsoft.Extensions.Options.IOptions(Of Microsoft.Identity.Client.ConfidentialClientApplicationOptions))
+  name.vb: AzureADConfidentialClientBearerTokenProvider(IOptions(Of ConfidentialClientApplicationOptions))
+- uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider.GetAsync(Mcma.Azure.Client.AzureAD.AzureADAuthContext,System.Threading.CancellationToken)
+  commentId: M:Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider.GetAsync(Mcma.Azure.Client.AzureAD.AzureADAuthContext,System.Threading.CancellationToken)
+  id: GetAsync(Mcma.Azure.Client.AzureAD.AzureADAuthContext,System.Threading.CancellationToken)
+  parent: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider
+  langs:
+  - csharp
+  - vb
+  name: GetAsync(AzureADAuthContext, CancellationToken)
+  nameWithType: AzureADConfidentialClientBearerTokenProvider.GetAsync(AzureADAuthContext, CancellationToken)
+  fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider.GetAsync(Mcma.Azure.Client.AzureAD.AzureADAuthContext, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/AzureAD/ConfidentialClient/AzureADConfidentialClientBearerTokenProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetAsync
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/AzureAD/ConfidentialClient/AzureADConfidentialClientBearerTokenProvider.cs
+    startLine: 19
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  syntax:
+    content: public Task<BearerToken> GetAsync(AzureADAuthContext authContext, CancellationToken cancellationToken = null)
+    parameters:
+    - id: authContext
+      type: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{Mcma.Client.AccessTokens.BearerToken}
+    content.vb: Public Function GetAsync(authContext As AzureADAuthContext, cancellationToken As CancellationToken = Nothing) As Task(Of BearerToken)
+  overload: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider.GetAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  commentId: N:Mcma.Azure.Client.AzureAD.ConfidentialClient
+  name: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  nameWithType: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Client.AccessTokens.IBearerTokenProvider{Mcma.Azure.Client.AzureAD.AzureADAuthContext}
+  commentId: T:Mcma.Client.AccessTokens.IBearerTokenProvider{Mcma.Azure.Client.AzureAD.AzureADAuthContext}
+  parent: Mcma.Client.AccessTokens
+  definition: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+  name: IBearerTokenProvider<AzureADAuthContext>
+  nameWithType: IBearerTokenProvider<AzureADAuthContext>
+  fullName: Mcma.Client.AccessTokens.IBearerTokenProvider<Mcma.Azure.Client.AzureAD.AzureADAuthContext>
+  nameWithType.vb: IBearerTokenProvider(Of AzureADAuthContext)
+  fullName.vb: Mcma.Client.AccessTokens.IBearerTokenProvider(Of Mcma.Azure.Client.AzureAD.AzureADAuthContext)
+  name.vb: IBearerTokenProvider(Of AzureADAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+    name: IBearerTokenProvider
+    nameWithType: IBearerTokenProvider
+    fullName: Mcma.Client.AccessTokens.IBearerTokenProvider
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+    name: AzureADAuthContext
+    nameWithType: AzureADAuthContext
+    fullName: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+    name: IBearerTokenProvider
+    nameWithType: IBearerTokenProvider
+    fullName: Mcma.Client.AccessTokens.IBearerTokenProvider
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+    name: AzureADAuthContext
+    nameWithType: AzureADAuthContext
+    fullName: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+  commentId: T:Mcma.Client.AccessTokens.IBearerTokenProvider`1
+  name: IBearerTokenProvider<TAuthContext>
+  nameWithType: IBearerTokenProvider<TAuthContext>
+  fullName: Mcma.Client.AccessTokens.IBearerTokenProvider<TAuthContext>
+  nameWithType.vb: IBearerTokenProvider(Of TAuthContext)
+  fullName.vb: Mcma.Client.AccessTokens.IBearerTokenProvider(Of TAuthContext)
+  name.vb: IBearerTokenProvider(Of TAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+    name: IBearerTokenProvider
+    nameWithType: IBearerTokenProvider
+    fullName: Mcma.Client.AccessTokens.IBearerTokenProvider
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+    name: IBearerTokenProvider
+    nameWithType: IBearerTokenProvider
+    fullName: Mcma.Client.AccessTokens.IBearerTokenProvider
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AccessTokens
+  commentId: N:Mcma.Client.AccessTokens
+  name: Mcma.Client.AccessTokens
+  nameWithType: Mcma.Client.AccessTokens
+  fullName: Mcma.Client.AccessTokens
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider.#ctor*
+  commentId: Overload:Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider.#ctor
+  name: AzureADConfidentialClientBearerTokenProvider
+  nameWithType: AzureADConfidentialClientBearerTokenProvider.AzureADConfidentialClientBearerTokenProvider
+  fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider.AzureADConfidentialClientBearerTokenProvider
+- uid: Microsoft.Extensions.Options.IOptions{Microsoft.Identity.Client.ConfidentialClientApplicationOptions}
+  commentId: T:Microsoft.Extensions.Options.IOptions{Microsoft.Identity.Client.ConfidentialClientApplicationOptions}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IOptions`1
+  name: IOptions<ConfidentialClientApplicationOptions>
+  nameWithType: IOptions<ConfidentialClientApplicationOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<Microsoft.Identity.Client.ConfidentialClientApplicationOptions>
+  nameWithType.vb: IOptions(Of ConfidentialClientApplicationOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of Microsoft.Identity.Client.ConfidentialClientApplicationOptions)
+  name.vb: IOptions(Of ConfidentialClientApplicationOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    name: ConfidentialClientApplicationOptions
+    nameWithType: ConfidentialClientApplicationOptions
+    fullName: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    name: ConfidentialClientApplicationOptions
+    nameWithType: ConfidentialClientApplicationOptions
+    fullName: Microsoft.Identity.Client.ConfidentialClientApplicationOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options.IOptions`1
+  commentId: T:Microsoft.Extensions.Options.IOptions`1
+  isExternal: true
+  name: IOptions<TOptions>
+  nameWithType: IOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<TOptions>
+  nameWithType.vb: IOptions(Of TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of TOptions)
+  name.vb: IOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: true
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+- uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider.GetAsync*
+  commentId: Overload:Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider.GetAsync
+  name: GetAsync
+  nameWithType: AzureADConfidentialClientBearerTokenProvider.GetAsync
+  fullName: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider.GetAsync
+- uid: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+  commentId: T:Mcma.Azure.Client.AzureAD.AzureADAuthContext
+  parent: Mcma.Azure.Client.AzureAD
+  name: AzureADAuthContext
+  nameWithType: AzureADAuthContext
+  fullName: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{Mcma.Client.AccessTokens.BearerToken}
+  commentId: T:System.Threading.Tasks.Task{Mcma.Client.AccessTokens.BearerToken}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<BearerToken>
+  nameWithType: Task<BearerToken>
+  fullName: System.Threading.Tasks.Task<Mcma.Client.AccessTokens.BearerToken>
+  nameWithType.vb: Task(Of BearerToken)
+  fullName.vb: System.Threading.Tasks.Task(Of Mcma.Client.AccessTokens.BearerToken)
+  name.vb: Task(Of BearerToken)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Client.AccessTokens.BearerToken
+    name: BearerToken
+    nameWithType: BearerToken
+    fullName: Mcma.Client.AccessTokens.BearerToken
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Client.AccessTokens.BearerToken
+    name: BearerToken
+    nameWithType: BearerToken
+    fullName: Mcma.Client.AccessTokens.BearerToken
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Azure.Client.AzureAD
+  commentId: N:Mcma.Azure.Client.AzureAD
+  name: Mcma.Azure.Client.AzureAD
+  nameWithType: Mcma.Azure.Client.AzureAD
+  fullName: Mcma.Azure.Client.AzureAD
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

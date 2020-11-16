@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: data.LogicalOperator
+    name: LogicalOperator
+    fullName: LogicalOperator
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type LogicalOperator = "||" | "&&"
+    package: data

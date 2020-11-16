@@ -1,0 +1,315 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator
+  commentId: T:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator
+  id: AzureFunctionKeyAuthenticator
+  parent: Mcma.Azure.Client.FunctionKeys
+  children:
+  - Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator.#ctor(Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext,System.String)
+  - Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator.AuthenticateAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: AzureFunctionKeyAuthenticator
+  nameWithType: AzureFunctionKeyAuthenticator
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator
+  type: Class
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticator.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AzureFunctionKeyAuthenticator
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticator.cs
+    startLine: 9
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.FunctionKeys
+  syntax:
+    content: 'public class AzureFunctionKeyAuthenticator : object, IAuthenticator'
+    content.vb: >-
+      Public Class AzureFunctionKeyAuthenticator
+
+          Inherits Object
+
+          Implements IAuthenticator
+  inheritance:
+  - System.Object
+  implements:
+  - Mcma.Client.IAuthenticator
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator.#ctor(Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext,System.String)
+  commentId: M:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator.#ctor(Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext,System.String)
+  id: '#ctor(Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext,System.String)'
+  parent: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator
+  langs:
+  - csharp
+  - vb
+  name: AzureFunctionKeyAuthenticator(AzureFunctionKeyAuthContext, String)
+  nameWithType: AzureFunctionKeyAuthenticator.AzureFunctionKeyAuthenticator(AzureFunctionKeyAuthContext, String)
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator.AzureFunctionKeyAuthenticator(Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticator.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticator.cs
+    startLine: 11
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.FunctionKeys
+  syntax:
+    content: public AzureFunctionKeyAuthenticator(AzureFunctionKeyAuthContext authContext, string decryptionKey)
+    parameters:
+    - id: authContext
+      type: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+    - id: decryptionKey
+      type: System.String
+    content.vb: Public Sub New(authContext As AzureFunctionKeyAuthContext, decryptionKey As String)
+  overload: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator.AuthenticateAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  commentId: M:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator.AuthenticateAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  id: AuthenticateAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  parent: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator
+  langs:
+  - csharp
+  - vb
+  name: AuthenticateAsync(HttpRequestMessage, CancellationToken)
+  nameWithType: AzureFunctionKeyAuthenticator.AuthenticateAsync(HttpRequestMessage, CancellationToken)
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator.AuthenticateAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticator.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AuthenticateAsync
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticator.cs
+    startLine: 21
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.FunctionKeys
+  syntax:
+    content: public Task AuthenticateAsync(HttpRequestMessage request, CancellationToken cancellationToken = null)
+    parameters:
+    - id: request
+      type: System.Net.Http.HttpRequestMessage
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function AuthenticateAsync(request As HttpRequestMessage, cancellationToken As CancellationToken = Nothing) As Task
+  overload: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator.AuthenticateAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Azure.Client.FunctionKeys
+  commentId: N:Mcma.Azure.Client.FunctionKeys
+  name: Mcma.Azure.Client.FunctionKeys
+  nameWithType: Mcma.Azure.Client.FunctionKeys
+  fullName: Mcma.Azure.Client.FunctionKeys
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Client.IAuthenticator
+  commentId: T:Mcma.Client.IAuthenticator
+  parent: Mcma.Client
+  name: IAuthenticator
+  nameWithType: IAuthenticator
+  fullName: Mcma.Client.IAuthenticator
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Client
+  commentId: N:Mcma.Client
+  name: Mcma.Client
+  nameWithType: Mcma.Client
+  fullName: Mcma.Client
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator.#ctor*
+  commentId: Overload:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator.#ctor
+  name: AzureFunctionKeyAuthenticator
+  nameWithType: AzureFunctionKeyAuthenticator.AzureFunctionKeyAuthenticator
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator.AzureFunctionKeyAuthenticator
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+  commentId: T:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+  parent: Mcma.Azure.Client.FunctionKeys
+  name: AzureFunctionKeyAuthContext
+  nameWithType: AzureFunctionKeyAuthContext
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator.AuthenticateAsync*
+  commentId: Overload:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator.AuthenticateAsync
+  name: AuthenticateAsync
+  nameWithType: AzureFunctionKeyAuthenticator.AuthenticateAsync
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator.AuthenticateAsync
+- uid: System.Net.Http.HttpRequestMessage
+  commentId: T:System.Net.Http.HttpRequestMessage
+  parent: System.Net.Http
+  isExternal: true
+  name: HttpRequestMessage
+  nameWithType: HttpRequestMessage
+  fullName: System.Net.Http.HttpRequestMessage
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

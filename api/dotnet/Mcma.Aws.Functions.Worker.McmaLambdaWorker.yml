@@ -1,0 +1,781 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.Functions.Worker.McmaLambdaWorker
+  commentId: T:Mcma.Aws.Functions.Worker.McmaLambdaWorker
+  id: McmaLambdaWorker
+  parent: Mcma.Aws.Functions.Worker
+  children:
+  - Mcma.Aws.Functions.Worker.McmaLambdaWorker.#ctor(Mcma.Logging.ILoggerProvider,Mcma.Worker.IMcmaWorker)
+  - Mcma.Aws.Functions.Worker.McmaLambdaWorker.ExecuteAsync(Mcma.Worker.McmaWorkerRequest,Amazon.Lambda.Core.ILambdaContext)
+  langs:
+  - csharp
+  - vb
+  name: McmaLambdaWorker
+  nameWithType: McmaLambdaWorker
+  fullName: Mcma.Aws.Functions.Worker.McmaLambdaWorker
+  type: Class
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Functions.Worker/McmaLambdaWorker.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaLambdaWorker
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Functions.Worker/McmaLambdaWorker.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Aws.Functions.Worker
+  namespace: Mcma.Aws.Functions.Worker
+  syntax:
+    content: 'public class McmaLambdaWorker : IMcmaLambdaFunctionHandler<McmaWorkerRequest>'
+    content.vb: >-
+      Public Class McmaLambdaWorker
+
+          Implements IMcmaLambdaFunctionHandler(Of McmaWorkerRequest)
+  inheritance:
+  - System.Object
+  implements:
+  - Mcma.Aws.Functions.IMcmaLambdaFunctionHandler{Mcma.Worker.McmaWorkerRequest}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Aws.Functions.Worker.McmaLambdaWorker.#ctor(Mcma.Logging.ILoggerProvider,Mcma.Worker.IMcmaWorker)
+  commentId: M:Mcma.Aws.Functions.Worker.McmaLambdaWorker.#ctor(Mcma.Logging.ILoggerProvider,Mcma.Worker.IMcmaWorker)
+  id: '#ctor(Mcma.Logging.ILoggerProvider,Mcma.Worker.IMcmaWorker)'
+  parent: Mcma.Aws.Functions.Worker.McmaLambdaWorker
+  langs:
+  - csharp
+  - vb
+  name: McmaLambdaWorker(ILoggerProvider, IMcmaWorker)
+  nameWithType: McmaLambdaWorker.McmaLambdaWorker(ILoggerProvider, IMcmaWorker)
+  fullName: Mcma.Aws.Functions.Worker.McmaLambdaWorker.McmaLambdaWorker(Mcma.Logging.ILoggerProvider, Mcma.Worker.IMcmaWorker)
+  type: Constructor
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Functions.Worker/McmaLambdaWorker.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Functions.Worker/McmaLambdaWorker.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Aws.Functions.Worker
+  namespace: Mcma.Aws.Functions.Worker
+  syntax:
+    content: public McmaLambdaWorker(ILoggerProvider loggerProvider, IMcmaWorker mcmaWorker)
+    parameters:
+    - id: loggerProvider
+      type: Mcma.Logging.ILoggerProvider
+    - id: mcmaWorker
+      type: Mcma.Worker.IMcmaWorker
+    content.vb: Public Sub New(loggerProvider As ILoggerProvider, mcmaWorker As IMcmaWorker)
+  overload: Mcma.Aws.Functions.Worker.McmaLambdaWorker.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Aws.Functions.Worker.McmaLambdaWorker.ExecuteAsync(Mcma.Worker.McmaWorkerRequest,Amazon.Lambda.Core.ILambdaContext)
+  commentId: M:Mcma.Aws.Functions.Worker.McmaLambdaWorker.ExecuteAsync(Mcma.Worker.McmaWorkerRequest,Amazon.Lambda.Core.ILambdaContext)
+  id: ExecuteAsync(Mcma.Worker.McmaWorkerRequest,Amazon.Lambda.Core.ILambdaContext)
+  parent: Mcma.Aws.Functions.Worker.McmaLambdaWorker
+  langs:
+  - csharp
+  - vb
+  name: ExecuteAsync(McmaWorkerRequest, ILambdaContext)
+  nameWithType: McmaLambdaWorker.ExecuteAsync(McmaWorkerRequest, ILambdaContext)
+  fullName: Mcma.Aws.Functions.Worker.McmaLambdaWorker.ExecuteAsync(Mcma.Worker.McmaWorkerRequest, Amazon.Lambda.Core.ILambdaContext)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Functions.Worker/McmaLambdaWorker.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ExecuteAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Functions.Worker/McmaLambdaWorker.cs
+    startLine: 20
+  assemblies:
+  - Mcma.Aws.Functions.Worker
+  namespace: Mcma.Aws.Functions.Worker
+  syntax:
+    content: public Task ExecuteAsync(McmaWorkerRequest request, ILambdaContext context)
+    parameters:
+    - id: request
+      type: Mcma.Worker.McmaWorkerRequest
+    - id: context
+      type: Amazon.Lambda.Core.ILambdaContext
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function ExecuteAsync(request As McmaWorkerRequest, context As ILambdaContext) As Task
+  overload: Mcma.Aws.Functions.Worker.McmaLambdaWorker.ExecuteAsync*
+  implements:
+  - Mcma.Aws.Functions.IMcmaLambdaFunctionHandler{Mcma.Worker.McmaWorkerRequest}.ExecuteAsync(Mcma.Worker.McmaWorkerRequest,Amazon.Lambda.Core.ILambdaContext)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Aws.Functions.Worker
+  commentId: N:Mcma.Aws.Functions.Worker
+  name: Mcma.Aws.Functions.Worker
+  nameWithType: Mcma.Aws.Functions.Worker
+  fullName: Mcma.Aws.Functions.Worker
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler{Mcma.Worker.McmaWorkerRequest}
+  commentId: T:Mcma.Aws.Functions.IMcmaLambdaFunctionHandler{Mcma.Worker.McmaWorkerRequest}
+  parent: Mcma.Aws.Functions
+  definition: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1
+  name: IMcmaLambdaFunctionHandler<McmaWorkerRequest>
+  nameWithType: IMcmaLambdaFunctionHandler<McmaWorkerRequest>
+  fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler<Mcma.Worker.McmaWorkerRequest>
+  nameWithType.vb: IMcmaLambdaFunctionHandler(Of McmaWorkerRequest)
+  fullName.vb: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler(Of Mcma.Worker.McmaWorkerRequest)
+  name.vb: IMcmaLambdaFunctionHandler(Of McmaWorkerRequest)
+  spec.csharp:
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1
+    name: IMcmaLambdaFunctionHandler
+    nameWithType: IMcmaLambdaFunctionHandler
+    fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Worker.McmaWorkerRequest
+    name: McmaWorkerRequest
+    nameWithType: McmaWorkerRequest
+    fullName: Mcma.Worker.McmaWorkerRequest
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1
+    name: IMcmaLambdaFunctionHandler
+    nameWithType: IMcmaLambdaFunctionHandler
+    fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Worker.McmaWorkerRequest
+    name: McmaWorkerRequest
+    nameWithType: McmaWorkerRequest
+    fullName: Mcma.Worker.McmaWorkerRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1
+  commentId: T:Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1
+  name: IMcmaLambdaFunctionHandler<TInput>
+  nameWithType: IMcmaLambdaFunctionHandler<TInput>
+  fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler<TInput>
+  nameWithType.vb: IMcmaLambdaFunctionHandler(Of TInput)
+  fullName.vb: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler(Of TInput)
+  name.vb: IMcmaLambdaFunctionHandler(Of TInput)
+  spec.csharp:
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1
+    name: IMcmaLambdaFunctionHandler
+    nameWithType: IMcmaLambdaFunctionHandler
+    fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TInput
+    nameWithType: TInput
+    fullName: TInput
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1
+    name: IMcmaLambdaFunctionHandler
+    nameWithType: IMcmaLambdaFunctionHandler
+    fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TInput
+    nameWithType: TInput
+    fullName: TInput
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.Functions
+  commentId: N:Mcma.Aws.Functions
+  name: Mcma.Aws.Functions
+  nameWithType: Mcma.Aws.Functions
+  fullName: Mcma.Aws.Functions
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Aws.Functions.Worker.McmaLambdaWorker.#ctor*
+  commentId: Overload:Mcma.Aws.Functions.Worker.McmaLambdaWorker.#ctor
+  name: McmaLambdaWorker
+  nameWithType: McmaLambdaWorker.McmaLambdaWorker
+  fullName: Mcma.Aws.Functions.Worker.McmaLambdaWorker.McmaLambdaWorker
+- uid: Mcma.Logging.ILoggerProvider
+  commentId: T:Mcma.Logging.ILoggerProvider
+  parent: Mcma.Logging
+  name: ILoggerProvider
+  nameWithType: ILoggerProvider
+  fullName: Mcma.Logging.ILoggerProvider
+- uid: Mcma.Worker.IMcmaWorker
+  commentId: T:Mcma.Worker.IMcmaWorker
+  parent: Mcma.Worker
+  name: IMcmaWorker
+  nameWithType: IMcmaWorker
+  fullName: Mcma.Worker.IMcmaWorker
+- uid: Mcma.Logging
+  commentId: N:Mcma.Logging
+  name: Mcma.Logging
+  nameWithType: Mcma.Logging
+  fullName: Mcma.Logging
+- uid: Mcma.Worker
+  commentId: N:Mcma.Worker
+  name: Mcma.Worker
+  nameWithType: Mcma.Worker
+  fullName: Mcma.Worker
+- uid: Mcma.Aws.Functions.Worker.McmaLambdaWorker.ExecuteAsync*
+  commentId: Overload:Mcma.Aws.Functions.Worker.McmaLambdaWorker.ExecuteAsync
+  name: ExecuteAsync
+  nameWithType: McmaLambdaWorker.ExecuteAsync
+  fullName: Mcma.Aws.Functions.Worker.McmaLambdaWorker.ExecuteAsync
+- uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler{Mcma.Worker.McmaWorkerRequest}.ExecuteAsync(Mcma.Worker.McmaWorkerRequest,Amazon.Lambda.Core.ILambdaContext)
+  commentId: M:Mcma.Aws.Functions.IMcmaLambdaFunctionHandler{Mcma.Worker.McmaWorkerRequest}.ExecuteAsync(Mcma.Worker.McmaWorkerRequest,Amazon.Lambda.Core.ILambdaContext)
+  parent: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler{Mcma.Worker.McmaWorkerRequest}
+  definition: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1.ExecuteAsync(`0,Amazon.Lambda.Core.ILambdaContext)
+  name: ExecuteAsync(McmaWorkerRequest, ILambdaContext)
+  nameWithType: IMcmaLambdaFunctionHandler<McmaWorkerRequest>.ExecuteAsync(McmaWorkerRequest, ILambdaContext)
+  fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler<Mcma.Worker.McmaWorkerRequest>.ExecuteAsync(Mcma.Worker.McmaWorkerRequest, Amazon.Lambda.Core.ILambdaContext)
+  nameWithType.vb: IMcmaLambdaFunctionHandler(Of McmaWorkerRequest).ExecuteAsync(McmaWorkerRequest, ILambdaContext)
+  fullName.vb: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler(Of Mcma.Worker.McmaWorkerRequest).ExecuteAsync(Mcma.Worker.McmaWorkerRequest, Amazon.Lambda.Core.ILambdaContext)
+  spec.csharp:
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1.ExecuteAsync(`0,Amazon.Lambda.Core.ILambdaContext)
+    name: ExecuteAsync
+    nameWithType: IMcmaLambdaFunctionHandler<McmaWorkerRequest>.ExecuteAsync
+    fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler<Mcma.Worker.McmaWorkerRequest>.ExecuteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Worker.McmaWorkerRequest
+    name: McmaWorkerRequest
+    nameWithType: McmaWorkerRequest
+    fullName: Mcma.Worker.McmaWorkerRequest
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Amazon.Lambda.Core.ILambdaContext
+    name: ILambdaContext
+    nameWithType: ILambdaContext
+    fullName: Amazon.Lambda.Core.ILambdaContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1.ExecuteAsync(`0,Amazon.Lambda.Core.ILambdaContext)
+    name: ExecuteAsync
+    nameWithType: IMcmaLambdaFunctionHandler(Of McmaWorkerRequest).ExecuteAsync
+    fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler(Of Mcma.Worker.McmaWorkerRequest).ExecuteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Worker.McmaWorkerRequest
+    name: McmaWorkerRequest
+    nameWithType: McmaWorkerRequest
+    fullName: Mcma.Worker.McmaWorkerRequest
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Amazon.Lambda.Core.ILambdaContext
+    name: ILambdaContext
+    nameWithType: ILambdaContext
+    fullName: Amazon.Lambda.Core.ILambdaContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Worker.McmaWorkerRequest
+  commentId: T:Mcma.Worker.McmaWorkerRequest
+  parent: Mcma.Worker
+  name: McmaWorkerRequest
+  nameWithType: McmaWorkerRequest
+  fullName: Mcma.Worker.McmaWorkerRequest
+- uid: Amazon.Lambda.Core.ILambdaContext
+  commentId: T:Amazon.Lambda.Core.ILambdaContext
+  parent: Amazon.Lambda.Core
+  isExternal: true
+  name: ILambdaContext
+  nameWithType: ILambdaContext
+  fullName: Amazon.Lambda.Core.ILambdaContext
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1.ExecuteAsync(`0,Amazon.Lambda.Core.ILambdaContext)
+  commentId: M:Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1.ExecuteAsync(`0,Amazon.Lambda.Core.ILambdaContext)
+  isExternal: true
+  name: ExecuteAsync(TInput, ILambdaContext)
+  nameWithType: IMcmaLambdaFunctionHandler<TInput>.ExecuteAsync(TInput, ILambdaContext)
+  fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler<TInput>.ExecuteAsync(TInput, Amazon.Lambda.Core.ILambdaContext)
+  nameWithType.vb: IMcmaLambdaFunctionHandler(Of TInput).ExecuteAsync(TInput, ILambdaContext)
+  fullName.vb: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler(Of TInput).ExecuteAsync(TInput, Amazon.Lambda.Core.ILambdaContext)
+  spec.csharp:
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1.ExecuteAsync(`0,Amazon.Lambda.Core.ILambdaContext)
+    name: ExecuteAsync
+    nameWithType: IMcmaLambdaFunctionHandler<TInput>.ExecuteAsync
+    fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler<TInput>.ExecuteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TInput
+    nameWithType: TInput
+    fullName: TInput
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Amazon.Lambda.Core.ILambdaContext
+    name: ILambdaContext
+    nameWithType: ILambdaContext
+    fullName: Amazon.Lambda.Core.ILambdaContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1.ExecuteAsync(`0,Amazon.Lambda.Core.ILambdaContext)
+    name: ExecuteAsync
+    nameWithType: IMcmaLambdaFunctionHandler(Of TInput).ExecuteAsync
+    fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler(Of TInput).ExecuteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TInput
+    nameWithType: TInput
+    fullName: TInput
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Amazon.Lambda.Core.ILambdaContext
+    name: ILambdaContext
+    nameWithType: ILambdaContext
+    fullName: Amazon.Lambda.Core.ILambdaContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Amazon.Lambda.Core
+  commentId: N:Amazon.Lambda.Core
+  isExternal: true
+  name: Amazon.Lambda.Core
+  nameWithType: Amazon.Lambda.Core
+  fullName: Amazon.Lambda.Core
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

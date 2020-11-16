@@ -1,0 +1,178 @@
+### YamlMime:UniversalReference
+items:
+  - uid: client.Http
+    name: Http
+    fullName: Http
+    children:
+      - client.Http.delete
+      - client.Http.get
+      - client.Http.patch
+      - client.Http.post
+      - client.Http.put
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: client
+  - uid: client.Http.delete
+    name: 'delete(string | HttpRequestConfig, HttpRequestConfig)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function delete<T>(urlOrConfig?: string | HttpRequestConfig, config?:
+        HttpRequestConfig)
+      parameters:
+        - id: urlOrConfig
+          type:
+            - string | client.HttpRequestConfig
+          description: ''
+          optional: true
+        - id: config
+          type:
+            - client.HttpRequestConfig
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<AxiosResponse<T>>
+        description: ''
+    package: client
+  - uid: client.Http.get
+    name: 'get(string | HttpRequestConfig, HttpRequestConfig)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function get<T>(urlOrConfig?: string | HttpRequestConfig, config?:
+        HttpRequestConfig)
+      parameters:
+        - id: urlOrConfig
+          type:
+            - string | client.HttpRequestConfig
+          description: ''
+          optional: true
+        - id: config
+          type:
+            - client.HttpRequestConfig
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<AxiosResponse<T>>
+        description: ''
+    package: client
+  - uid: client.Http.patch
+    name: 'patch(Partial<T>, string | HttpRequestConfig, HttpRequestConfig)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function patch<T>(body: Partial<T>, urlOrConfig?: string |
+        HttpRequestConfig, config?: HttpRequestConfig)
+      parameters:
+        - id: body
+          type:
+            - Partial<T>
+          description: ''
+        - id: urlOrConfig
+          type:
+            - string | client.HttpRequestConfig
+          description: ''
+          optional: true
+        - id: config
+          type:
+            - client.HttpRequestConfig
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<AxiosResponse<T>>
+        description: ''
+    package: client
+  - uid: client.Http.post
+    name: 'post(T, string | HttpRequestConfig, HttpRequestConfig)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function post<T>(body: T, urlOrConfig?: string | HttpRequestConfig,
+        config?: HttpRequestConfig)
+      parameters:
+        - id: body
+          type:
+            - T
+          description: ''
+        - id: urlOrConfig
+          type:
+            - string | client.HttpRequestConfig
+          description: ''
+          optional: true
+        - id: config
+          type:
+            - client.HttpRequestConfig
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<AxiosResponse<T>>
+        description: ''
+    package: client
+  - uid: client.Http.put
+    name: 'put(T, string | HttpRequestConfig, HttpRequestConfig)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function put<T>(body: T, urlOrConfig?: string | HttpRequestConfig,
+        config?: HttpRequestConfig)
+      parameters:
+        - id: body
+          type:
+            - T
+          description: ''
+        - id: urlOrConfig
+          type:
+            - string | client.HttpRequestConfig
+          description: ''
+          optional: true
+        - id: config
+          type:
+            - client.HttpRequestConfig
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<AxiosResponse<T>>
+        description: ''
+    package: client
+references:
+  - uid: string | client.HttpRequestConfig
+    name: HttpRequestConfig
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: HttpRequestConfig
+        fullName: HttpRequestConfig
+        uid: client.HttpRequestConfig
+  - uid: client.HttpRequestConfig
+    name: HttpRequestConfig
+    spec.typeScript:
+      - name: HttpRequestConfig
+        fullName: HttpRequestConfig
+        uid: client.HttpRequestConfig

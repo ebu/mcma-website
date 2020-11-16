@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-pubsub-worker-invoker.PubSubTriggeredWorkerInvoker
+    name: PubSubTriggeredWorkerInvoker
+    fullName: PubSubTriggeredWorkerInvoker
+    children:
+      - google-cloud-pubsub-worker-invoker.PubSubTriggeredWorkerInvoker.invoke
+      - >-
+        google-cloud-pubsub-worker-invoker.PubSubTriggeredWorkerInvoker.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: WorkerInvoker
+    package: google-cloud-pubsub-worker-invoker
+  - uid: google-cloud-pubsub-worker-invoker.PubSubTriggeredWorkerInvoker.invoke
+    name: 'invoke(string, WorkerRequestProperties)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function invoke(workerFunctionId: string, workerRequest:
+        WorkerRequestProperties)
+      parameters:
+        - id: workerFunctionId
+          type:
+            - string
+          description: ''
+        - id: workerRequest
+          type:
+            - WorkerRequestProperties
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: google-cloud-pubsub-worker-invoker
+  - uid: >-
+      google-cloud-pubsub-worker-invoker.PubSubTriggeredWorkerInvoker.constructor
+    name: PubSubTriggeredWorkerInvoker()
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new PubSubTriggeredWorkerInvoker()
+      parameters: []
+    package: google-cloud-pubsub-worker-invoker

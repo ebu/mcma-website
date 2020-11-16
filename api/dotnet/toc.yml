@@ -1,0 +1,847 @@
+### YamlMime:TableOfContent
+- uid: Mcma
+  name: Mcma
+  items:
+  - uid: Mcma.AIJob
+    name: AIJob
+  - uid: Mcma.AmeJob
+    name: AmeJob
+  - uid: Mcma.CaptureJob
+    name: CaptureJob
+  - uid: Mcma.INotifiable
+    name: INotifiable
+  - uid: Mcma.IUrlLocator
+    name: IUrlLocator
+  - uid: Mcma.Job
+    name: Job
+  - uid: Mcma.JobAssignment
+    name: JobAssignment
+  - uid: Mcma.JobBase
+    name: JobBase
+  - uid: Mcma.JobExecution
+    name: JobExecution
+  - uid: Mcma.JobParameter
+    name: JobParameter
+  - uid: Mcma.JobParameterBag
+    name: JobParameterBag
+  - uid: Mcma.JobProfile
+    name: JobProfile
+  - uid: Mcma.JobStatus
+    name: JobStatus
+  - uid: Mcma.Locator
+    name: Locator
+  - uid: Mcma.McmaException
+    name: McmaException
+  - uid: Mcma.McmaExpandoObject
+    name: McmaExpandoObject
+  - uid: Mcma.McmaObject
+    name: McmaObject
+  - uid: Mcma.McmaResource
+    name: McmaResource
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+  - uid: Mcma.Notification
+    name: Notification
+  - uid: Mcma.NotificationEndpoint
+    name: NotificationEndpoint
+  - uid: Mcma.ProblemDetail
+    name: ProblemDetail
+  - uid: Mcma.QAJob
+    name: QAJob
+  - uid: Mcma.QueryResults`1
+    name: QueryResults<T>
+    name.vb: QueryResults(Of T)
+  - uid: Mcma.ResourceEndpoint
+    name: ResourceEndpoint
+  - uid: Mcma.Service
+    name: Service
+  - uid: Mcma.TransferJob
+    name: TransferJob
+  - uid: Mcma.TransformJob
+    name: TransformJob
+  - uid: Mcma.WorkflowJob
+    name: WorkflowJob
+- uid: Mcma.Api
+  name: Mcma.Api
+  items:
+  - uid: Mcma.Api.HttpStatusCodeMessage
+    name: HttpStatusCodeMessage
+  - uid: Mcma.Api.IMcmaApiController
+    name: IMcmaApiController
+  - uid: Mcma.Api.McmaApiBuilder
+    name: McmaApiBuilder
+  - uid: Mcma.Api.McmaApiController
+    name: McmaApiController
+  - uid: Mcma.Api.McmaApiEnvironmentVariables
+    name: McmaApiEnvironmentVariables
+  - uid: Mcma.Api.McmaApiError
+    name: McmaApiError
+  - uid: Mcma.Api.McmaApiOptions
+    name: McmaApiOptions
+  - uid: Mcma.Api.McmaApiOptionsExtensions
+    name: McmaApiOptionsExtensions
+  - uid: Mcma.Api.McmaApiRequest
+    name: McmaApiRequest
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+  - uid: Mcma.Api.McmaApiRequestContextExtensions
+    name: McmaApiRequestContextExtensions
+  - uid: Mcma.Api.McmaApiResponse
+    name: McmaApiResponse
+  - uid: Mcma.Api.McmaApiServiceCollectionExtensions
+    name: McmaApiServiceCollectionExtensions
+  - uid: Mcma.Api.QueryRequestHelper
+    name: QueryRequestHelper
+- uid: Mcma.Api.Routes
+  name: Mcma.Api.Routes
+  items:
+  - uid: Mcma.Api.Routes.DelegateMcmaApiRoute
+    name: DelegateMcmaApiRoute
+  - uid: Mcma.Api.Routes.IMcmaApiRoute
+    name: IMcmaApiRoute
+  - uid: Mcma.Api.Routes.IMcmaApiRouteCollection
+    name: IMcmaApiRouteCollection
+  - uid: Mcma.Api.Routes.McmaApiRoute
+    name: McmaApiRoute
+  - uid: Mcma.Api.Routes.McmaApiRouteCollection
+    name: McmaApiRouteCollection
+- uid: Mcma.Api.Routing.Defaults
+  name: Mcma.Api.Routing.Defaults
+  items:
+  - uid: Mcma.Api.Routing.Defaults.DefaultRouteCollectionOptions`1
+    name: DefaultRouteCollectionOptions<TResource>
+    name.vb: DefaultRouteCollectionOptions(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.InvokeWorkerOnCreationCompleted
+    name: InvokeWorkerOnCreationCompleted
+  - uid: Mcma.Api.Routing.Defaults.JobAssignmentServiceCollectionExtensions
+    name: JobAssignmentServiceCollectionExtensions
+  - uid: Mcma.Api.Routing.Defaults.SetTrackerOnCreationStarted
+    name: SetTrackerOnCreationStarted
+  - uid: Mcma.Api.Routing.Defaults.StringExtensions
+    name: StringExtensions
+- uid: Mcma.Api.Routing.Defaults.Routes
+  name: Mcma.Api.Routing.Defaults.Routes
+  items:
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultCreateRoute`1
+    name: DefaultCreateRoute<TResource>
+    name.vb: DefaultCreateRoute(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultCreateRouteBuilder`1
+    name: DefaultCreateRouteBuilder<TResource>
+    name.vb: DefaultCreateRouteBuilder(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRoute`1
+    name: DefaultDeleteRoute<TResource>
+    name.vb: DefaultDeleteRoute(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultDeleteRouteBuilder`1
+    name: DefaultDeleteRouteBuilder<TResource>
+    name.vb: DefaultDeleteRouteBuilder(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultGetRoute`1
+    name: DefaultGetRoute<TResource>
+    name.vb: DefaultGetRoute(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultGetRouteBuilder`1
+    name: DefaultGetRouteBuilder<TResource>
+    name.vb: DefaultGetRouteBuilder(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultQueryRouteBuilder`1
+    name: DefaultQueryRouteBuilder<TResource>
+    name.vb: DefaultQueryRouteBuilder(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultRouteCollectionBuilder`1
+    name: DefaultRouteCollectionBuilder<TResource>
+    name.vb: DefaultRouteCollectionBuilder(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultRouteServiceCollectionExtensions
+    name: DefaultRouteServiceCollectionExtensions
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRoute`1
+    name: DefaultUpdateRoute<TResource>
+    name.vb: DefaultUpdateRoute(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.DefaultUpdateRouteBuilder`1
+    name: DefaultUpdateRouteBuilder<TResource>
+    name.vb: DefaultUpdateRouteBuilder(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRoute`1
+    name: IDefaultCreateRoute<TResource>
+    name.vb: IDefaultCreateRoute(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteCompletedHandler`1
+    name: IDefaultCreateRouteCompletedHandler<TResource>
+    name.vb: IDefaultCreateRouteCompletedHandler(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultCreateRouteStartedHandler`1
+    name: IDefaultCreateRouteStartedHandler<TResource>
+    name.vb: IDefaultCreateRouteStartedHandler(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRoute`1
+    name: IDefaultDeleteRoute<TResource>
+    name.vb: IDefaultDeleteRoute(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteCompletedHandler`1
+    name: IDefaultDeleteRouteCompletedHandler<TResource>
+    name.vb: IDefaultDeleteRouteCompletedHandler(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultDeleteRouteStartedHandler`1
+    name: IDefaultDeleteRouteStartedHandler<TResource>
+    name.vb: IDefaultDeleteRouteStartedHandler(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRoute`1
+    name: IDefaultGetRoute<TResource>
+    name.vb: IDefaultGetRoute(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteCompletedHandler`1
+    name: IDefaultGetRouteCompletedHandler<TResource>
+    name.vb: IDefaultGetRouteCompletedHandler(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultGetRouteStartedHandler`1
+    name: IDefaultGetRouteStartedHandler<TResource>
+    name.vb: IDefaultGetRouteStartedHandler(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRoute`1
+    name: IDefaultQueryRoute<TResource>
+    name.vb: IDefaultQueryRoute(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteCompletedHandler`1
+    name: IDefaultQueryRouteCompletedHandler<TResource>
+    name.vb: IDefaultQueryRouteCompletedHandler(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultQueryRouteStartedHandler`1
+    name: IDefaultQueryRouteStartedHandler<TResource>
+    name.vb: IDefaultQueryRouteStartedHandler(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultRouteQueryExecutor`1
+    name: IDefaultRouteQueryExecutor<TResource>
+    name.vb: IDefaultRouteQueryExecutor(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRoute`1
+    name: IDefaultUpdateRoute<TResource>
+    name.vb: IDefaultUpdateRoute(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteCompletedHandler`1
+    name: IDefaultUpdateRouteCompletedHandler<TResource>
+    name.vb: IDefaultUpdateRouteCompletedHandler(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.IDefaultUpdateRouteStartedHandler`1
+    name: IDefaultUpdateRouteStartedHandler<TResource>
+    name.vb: IDefaultUpdateRouteStartedHandler(Of TResource)
+  - uid: Mcma.Api.Routing.Defaults.Routes.McmaApiCustomQuery`2
+    name: McmaApiCustomQuery<TResource, TParameters>
+    name.vb: McmaApiCustomQuery(Of TResource, TParameters)
+- uid: Mcma.Aws.ApiGateway
+  name: Mcma.Aws.ApiGateway
+  items:
+  - uid: Mcma.Aws.ApiGateway.ApiGatewayApiController
+    name: ApiGatewayApiController
+  - uid: Mcma.Aws.ApiGateway.ApiGatewayServiceCollectionExtensions
+    name: ApiGatewayServiceCollectionExtensions
+  - uid: Mcma.Aws.ApiGateway.IApiGatewayApiController
+    name: IApiGatewayApiController
+- uid: Mcma.Aws.Client
+  name: Mcma.Aws.Client
+  items:
+  - uid: Mcma.Aws.Client.Aws4AuthContext
+    name: Aws4AuthContext
+  - uid: Mcma.Aws.Client.Aws4Authenticator
+    name: Aws4Authenticator
+  - uid: Mcma.Aws.Client.Aws4AuthenticatorFactoryOptions
+    name: Aws4AuthenticatorFactoryOptions
+  - uid: Mcma.Aws.Client.Aws4Signer
+    name: Aws4Signer
+  - uid: Mcma.Aws.Client.AwsAuthenticatorRegistryExtensions
+    name: AwsAuthenticatorRegistryExtensions
+  - uid: Mcma.Aws.Client.AwsConstants
+    name: AwsConstants
+  - uid: Mcma.Aws.Client.AwsConstants.Headers
+    name: AwsConstants.Headers
+  - uid: Mcma.Aws.Client.AwsConstants.Regions
+    name: AwsConstants.Regions
+  - uid: Mcma.Aws.Client.AwsConstants.Services
+    name: AwsConstants.Services
+  - uid: Mcma.Aws.Client.AwsConstants.Signing
+    name: AwsConstants.Signing
+  - uid: Mcma.Aws.Client.AwsDate
+    name: AwsDate
+  - uid: Mcma.Aws.Client.AwsEnvironmentVariables
+    name: AwsEnvironmentVariables
+  - uid: Mcma.Aws.Client.AwsRequestExtensions
+    name: AwsRequestExtensions
+  - uid: Mcma.Aws.Client.AwsSigningExtensions
+    name: AwsSigningExtensions
+- uid: Mcma.Aws.CloudWatch
+  name: Mcma.Aws.CloudWatch
+  items:
+  - uid: Mcma.Aws.CloudWatch.CloudWatchLogger
+    name: CloudWatchLogger
+  - uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider
+    name: CloudWatchLoggerProvider
+  - uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions
+    name: CloudWatchLoggerProviderOptions
+  - uid: Mcma.Aws.CloudWatch.CloudWatchLoggingServiceCollectionExtensions
+    name: CloudWatchLoggingServiceCollectionExtensions
+  - uid: Mcma.Aws.CloudWatch.McmaCloudWatchEnvironmentVariables
+    name: McmaCloudWatchEnvironmentVariables
+- uid: Mcma.Aws.DynamoDb
+  name: Mcma.Aws.DynamoDb
+  items:
+  - uid: Mcma.Aws.DynamoDb.AttributeMapper
+    name: AttributeMapper
+  - uid: Mcma.Aws.DynamoDb.AttributeMapping`1
+    name: AttributeMapping<TResource>
+    name.vb: AttributeMapping(Of TResource)
+  - uid: Mcma.Aws.DynamoDb.DynamoDbCustomQueryBuilderRegistry
+    name: DynamoDbCustomQueryBuilderRegistry
+  - uid: Mcma.Aws.DynamoDb.DynamoDbMutex
+    name: DynamoDbMutex
+  - uid: Mcma.Aws.DynamoDb.DynamoDbServiceCollectionExtensions
+    name: DynamoDbServiceCollectionExtensions
+  - uid: Mcma.Aws.DynamoDb.DynamoDbTable
+    name: DynamoDbTable
+  - uid: Mcma.Aws.DynamoDb.DynamoDbTableBuilder
+    name: DynamoDbTableBuilder
+  - uid: Mcma.Aws.DynamoDb.DynamoDbTableDescription
+    name: DynamoDbTableDescription
+  - uid: Mcma.Aws.DynamoDb.DynamoDbTableOptions
+    name: DynamoDbTableOptions
+  - uid: Mcma.Aws.DynamoDb.FilterExpressionBuilder
+    name: FilterExpressionBuilder
+  - uid: Mcma.Aws.DynamoDb.GlobalSecondaryIndexDescription
+    name: GlobalSecondaryIndexDescription
+  - uid: Mcma.Aws.DynamoDb.IAttributeMapper
+    name: IAttributeMapper
+  - uid: Mcma.Aws.DynamoDb.IAttributeMapping
+    name: IAttributeMapping
+  - uid: Mcma.Aws.DynamoDb.IFilterExpressionBuilder
+    name: IFilterExpressionBuilder
+  - uid: Mcma.Aws.DynamoDb.ITableDescriptionProvider
+    name: ITableDescriptionProvider
+  - uid: Mcma.Aws.DynamoDb.JTokenExtensions
+    name: JTokenExtensions
+  - uid: Mcma.Aws.DynamoDb.KeyNames
+    name: KeyNames
+  - uid: Mcma.Aws.DynamoDb.LocalSecondaryIndexDescription
+    name: LocalSecondaryIndexDescription
+  - uid: Mcma.Aws.DynamoDb.TableDescriptionProvider
+    name: TableDescriptionProvider
+- uid: Mcma.Aws.Functions
+  name: Mcma.Aws.Functions
+  items:
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler
+    name: IMcmaLambdaFunctionHandler
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`2
+    name: IMcmaLambdaFunctionHandler<TInput, TOutput>
+    name.vb: IMcmaLambdaFunctionHandler(Of TInput, TOutput)
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`1
+    name: IMcmaLambdaFunctionHandler<TInput>
+    name.vb: IMcmaLambdaFunctionHandler(Of TInput)
+  - uid: Mcma.Aws.Functions.McmaLambdaFunction`3
+    name: McmaLambdaFunction<TFunctionHandler, TInput, TOutput>
+    name.vb: McmaLambdaFunction(Of TFunctionHandler, TInput, TOutput)
+  - uid: Mcma.Aws.Functions.McmaLambdaFunction`2
+    name: McmaLambdaFunction<TFunctionHandler, TInput>
+    name.vb: McmaLambdaFunction(Of TFunctionHandler, TInput)
+  - uid: Mcma.Aws.Functions.McmaLambdaFunction`1
+    name: McmaLambdaFunction<TFunctionHandler>
+    name.vb: McmaLambdaFunction(Of TFunctionHandler)
+- uid: Mcma.Aws.Functions.ApiHandler
+  name: Mcma.Aws.Functions.ApiHandler
+  items:
+  - uid: Mcma.Aws.Functions.ApiHandler.McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+    name: McmaGoogleCloudFunctionApiHandlerServiceCollectionExtensions
+  - uid: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler
+    name: McmaLambdaApiHandler
+  - uid: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandlerServiceCollectionExtensions
+    name: McmaLambdaApiHandlerServiceCollectionExtensions
+  - uid: Mcma.Aws.Functions.ApiHandler.McmaLambdaWorkerCollectionExtensions
+    name: McmaLambdaWorkerCollectionExtensions
+- uid: Mcma.Aws.Functions.Worker
+  name: Mcma.Aws.Functions.Worker
+  items:
+  - uid: Mcma.Aws.Functions.Worker.McmaLambdaWorker
+    name: McmaLambdaWorker
+- uid: Mcma.Aws.Lambda
+  name: Mcma.Aws.Lambda
+  items:
+  - uid: Mcma.Aws.Lambda.McmaLambdaSerializer
+    name: McmaLambdaSerializer
+- uid: Mcma.Aws.S3
+  name: Mcma.Aws.S3
+  items:
+  - uid: Mcma.Aws.S3.AwsS3FileLocator
+    name: AwsS3FileLocator
+  - uid: Mcma.Aws.S3.AwsS3FolderLocator
+    name: AwsS3FolderLocator
+  - uid: Mcma.Aws.S3.AwsS3Locator
+    name: AwsS3Locator
+  - uid: Mcma.Aws.S3.AwsS3LocatorHelper
+    name: AwsS3LocatorHelper
+- uid: Mcma.Aws.WorkerInvoker
+  name: Mcma.Aws.WorkerInvoker
+  items:
+  - uid: Mcma.Aws.WorkerInvoker.LambdaWorkerInvoker
+    name: LambdaWorkerInvoker
+  - uid: Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerOptions
+    name: LambdaWorkerInvokerOptions
+  - uid: Mcma.Aws.WorkerInvoker.LambdaWorkerInvokerServiceCollectionExtensions
+    name: LambdaWorkerInvokerServiceCollectionExtensions
+  - uid: Mcma.Aws.WorkerInvoker.McmaLambdaWorkerInvokerEnvironmentVariables
+    name: McmaLambdaWorkerInvokerEnvironmentVariables
+- uid: Mcma.Azure.BlobStorage
+  name: Mcma.Azure.BlobStorage
+  items:
+  - uid: Mcma.Azure.BlobStorage.BlobStorageFileLocator
+    name: BlobStorageFileLocator
+  - uid: Mcma.Azure.BlobStorage.BlobStorageFolderLocator
+    name: BlobStorageFolderLocator
+  - uid: Mcma.Azure.BlobStorage.BlobStorageLocator
+    name: BlobStorageLocator
+  - uid: Mcma.Azure.BlobStorage.BlobStorageLocatorHelper
+    name: BlobStorageLocatorHelper
+- uid: Mcma.Azure.BlobStorage.Proxies
+  name: Mcma.Azure.BlobStorage.Proxies
+  items:
+  - uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageFileProxy
+    name: BlobStorageFileProxy
+  - uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageFolderProxy
+    name: BlobStorageFolderProxy
+  - uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxy`1
+    name: BlobStorageProxy<T>
+    name.vb: BlobStorageProxy(Of T)
+  - uid: Mcma.Azure.BlobStorage.Proxies.BlobStorageProxyExtensions
+    name: BlobStorageProxyExtensions
+- uid: Mcma.Azure.Client
+  name: Mcma.Azure.Client
+  items:
+  - uid: Mcma.Azure.Client.AzureConstants
+    name: AzureConstants
+- uid: Mcma.Azure.Client.AzureAD
+  name: Mcma.Azure.Client.AzureAD
+  items:
+  - uid: Mcma.Azure.Client.AzureAD.AuthenticationResultExtensions
+    name: AuthenticationResultExtensions
+  - uid: Mcma.Azure.Client.AzureAD.AzureADAuthContext
+    name: AzureADAuthContext
+- uid: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  name: Mcma.Azure.Client.AzureAD.ConfidentialClient
+  items:
+  - uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientAuthRegistryExtensions
+    name: AzureADConfidentialClientAuthRegistryExtensions
+  - uid: Mcma.Azure.Client.AzureAD.ConfidentialClient.AzureADConfidentialClientBearerTokenProvider
+    name: AzureADConfidentialClientBearerTokenProvider
+- uid: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  name: Mcma.Azure.Client.AzureAD.ManagedIdentity
+  items:
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureADManagedIdentityAuthRegistryExtensions
+    name: AzureADManagedIdentityAuthRegistryExtensions
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProvider
+    name: AzureManagedIdentityBearerTokenProvider
+  - uid: Mcma.Azure.Client.AzureAD.ManagedIdentity.AzureManagedIdentityBearerTokenProviderOptions
+    name: AzureManagedIdentityBearerTokenProviderOptions
+- uid: Mcma.Azure.Client.FunctionKeys
+  name: Mcma.Azure.Client.FunctionKeys
+  items:
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+    name: AzureFunctionKeyAuthContext
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticator
+    name: AzureFunctionKeyAuthenticator
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory
+    name: AzureFunctionKeyAuthenticatorFactory
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+    name: AzureFunctionKeyAuthenticatorOptions
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions
+    name: AzureFunctionKeyAuthRegistryExtensions
+- uid: Mcma.Azure.CosmosDb
+  name: Mcma.Azure.CosmosDb
+  items:
+  - uid: Mcma.Azure.CosmosDb.ContainerPropertiesExtensions
+    name: ContainerPropertiesExtensions
+  - uid: Mcma.Azure.CosmosDb.CosmosDbCustomQueryBuilderRegistry
+    name: CosmosDbCustomQueryBuilderRegistry
+  - uid: Mcma.Azure.CosmosDb.CosmosDbItem`1
+    name: CosmosDbItem<T>
+    name.vb: CosmosDbItem(Of T)
+  - uid: Mcma.Azure.CosmosDb.CosmosDbMutex
+    name: CosmosDbMutex
+  - uid: Mcma.Azure.CosmosDb.CosmosDbServiceCollectionExtensions
+    name: CosmosDbServiceCollectionExtensions
+  - uid: Mcma.Azure.CosmosDb.CosmosDbTable
+    name: CosmosDbTable
+  - uid: Mcma.Azure.CosmosDb.CosmosDbTableBuilder
+    name: CosmosDbTableBuilder
+  - uid: Mcma.Azure.CosmosDb.CosmosDbTableOptions
+    name: CosmosDbTableOptions
+  - uid: Mcma.Azure.CosmosDb.ICosmosDbContainerProvider
+    name: ICosmosDbContainerProvider
+  - uid: Mcma.Azure.CosmosDb.IQueryDefinitionBuilder
+    name: IQueryDefinitionBuilder
+  - uid: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables
+    name: McmaCosmosDbEnvironmentVariables
+  - uid: Mcma.Azure.CosmosDb.QueryDefinitionBuilder
+    name: QueryDefinitionBuilder
+  - uid: Mcma.Azure.CosmosDb.ResponseMessageExtensions
+    name: ResponseMessageExtensions
+- uid: Mcma.Azure.Functions.ApiHandler
+  name: Mcma.Azure.Functions.ApiHandler
+  items:
+  - uid: Mcma.Azure.Functions.ApiHandler.McmaAzureFunctionApiHandlerServiceCollectionExtensions
+    name: McmaAzureFunctionApiHandlerServiceCollectionExtensions
+- uid: Mcma.Azure.Functions.Worker
+  name: Mcma.Azure.Functions.Worker
+  items:
+  - uid: Mcma.Azure.Functions.Worker.McmaAzureFunctionWorkerServiceCollectionExtensions
+    name: McmaAzureFunctionWorkerServiceCollectionExtensions
+- uid: Mcma.Azure.FunctionsApi
+  name: Mcma.Azure.FunctionsApi
+  items:
+  - uid: Mcma.Azure.FunctionsApi.AzureFunctionApiController
+    name: AzureFunctionApiController
+  - uid: Mcma.Azure.FunctionsApi.AzureFunctionsApiServiceCollectionExtensions
+    name: AzureFunctionsApiServiceCollectionExtensions
+  - uid: Mcma.Azure.FunctionsApi.HttpExtensions
+    name: HttpExtensions
+  - uid: Mcma.Azure.FunctionsApi.IAzureFunctionApiController
+    name: IAzureFunctionApiController
+  - uid: Mcma.Azure.FunctionsApi.McmaApiActionResult
+    name: McmaApiActionResult
+- uid: Mcma.Azure.Logger
+  name: Mcma.Azure.Logger
+  items:
+  - uid: Mcma.Azure.Logger.AppInsightsLogger
+    name: AppInsightsLogger
+  - uid: Mcma.Azure.Logger.AppInsightsLoggerProvider
+    name: AppInsightsLoggerProvider
+  - uid: Mcma.Azure.Logger.AppInsightsLoggerProviderOptions
+    name: AppInsightsLoggerProviderOptions
+  - uid: Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions
+    name: AppInsightsLoggerProviderServiceCollectionExtensions
+- uid: Mcma.Azure.WorkerInvoker
+  name: Mcma.Azure.WorkerInvoker
+  items:
+  - uid: Mcma.Azure.WorkerInvoker.McmaQueueWorkerInvokerEnvironmentVariables
+    name: McmaQueueWorkerInvokerEnvironmentVariables
+  - uid: Mcma.Azure.WorkerInvoker.QueueWorkerInvoker
+    name: QueueWorkerInvoker
+  - uid: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerOptions
+    name: QueueWorkerInvokerOptions
+  - uid: Mcma.Azure.WorkerInvoker.QueueWorkerInvokerServiceCollectionExtensions
+    name: QueueWorkerInvokerServiceCollectionExtensions
+- uid: Mcma.Client
+  name: Mcma.Client
+  items:
+  - uid: Mcma.Client.AuthenticationServiceCollectionExtensions
+    name: AuthenticationServiceCollectionExtensions
+  - uid: Mcma.Client.AuthenticatorFactory`1
+    name: AuthenticatorFactory<TAuthContext>
+    name.vb: AuthenticatorFactory(Of TAuthContext)
+  - uid: Mcma.Client.AuthenticatorRegistry
+    name: AuthenticatorRegistry
+  - uid: Mcma.Client.HttpContentExtensions
+    name: HttpContentExtensions
+  - uid: Mcma.Client.HttpResponseExtensions
+    name: HttpResponseExtensions
+  - uid: Mcma.Client.IAuthenticator
+    name: IAuthenticator
+  - uid: Mcma.Client.IAuthProvider
+    name: IAuthProvider
+  - uid: Mcma.Client.IResourceEndpointClient
+    name: IResourceEndpointClient
+  - uid: Mcma.Client.IResourceManager
+    name: IResourceManager
+  - uid: Mcma.Client.IResourceManagerProvider
+    name: IResourceManagerProvider
+  - uid: Mcma.Client.IServiceClient
+    name: IServiceClient
+  - uid: Mcma.Client.McmaClientBuilder
+    name: McmaClientBuilder
+  - uid: Mcma.Client.McmaClientServiceCollectionExtensions
+    name: McmaClientServiceCollectionExtensions
+  - uid: Mcma.Client.McmaHttpClient
+    name: McmaHttpClient
+  - uid: Mcma.Client.McmaHttpClientExtensions
+    name: McmaHttpClientExtensions
+  - uid: Mcma.Client.McmaHttpHeaders
+    name: McmaHttpHeaders
+  - uid: Mcma.Client.McmaJsonContent
+    name: McmaJsonContent
+  - uid: Mcma.Client.McmaResourceManagerEnvironmentVariables
+    name: McmaResourceManagerEnvironmentVariables
+  - uid: Mcma.Client.ResourceManagerExtensions
+    name: ResourceManagerExtensions
+  - uid: Mcma.Client.ResourceManagerOptions
+    name: ResourceManagerOptions
+  - uid: Mcma.Client.ResourceManagerOptionsHelper
+    name: ResourceManagerOptionsHelper
+  - uid: Mcma.Client.ResourceManagerProvider
+    name: ResourceManagerProvider
+  - uid: Mcma.Client.ResourceManagerProviderExtensions
+    name: ResourceManagerProviderExtensions
+  - uid: Mcma.Client.ResourceManagerProviderOptions
+    name: ResourceManagerProviderOptions
+- uid: Mcma.Client.AccessTokens
+  name: Mcma.Client.AccessTokens
+  items:
+  - uid: Mcma.Client.AccessTokens.BearerToken
+    name: BearerToken
+  - uid: Mcma.Client.AccessTokens.BearerTokenAuthenticatorRegistryExtensions
+    name: BearerTokenAuthenticatorRegistryExtensions
+  - uid: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+    name: IBearerTokenProvider<TAuthContext>
+    name.vb: IBearerTokenProvider(Of TAuthContext)
+- uid: Mcma.Data
+  name: Mcma.Data
+  items:
+  - uid: Mcma.Data.DocumentDatabaseMutex
+    name: DocumentDatabaseMutex
+  - uid: Mcma.Data.DocumentDatabaseTableOptions
+    name: DocumentDatabaseTableOptions
+  - uid: Mcma.Data.IDocumentDatabaseMutex
+    name: IDocumentDatabaseMutex
+  - uid: Mcma.Data.IDocumentDatabaseTable
+    name: IDocumentDatabaseTable
+  - uid: Mcma.Data.LockData
+    name: LockData
+- uid: Mcma.Data.DocumentDatabase.Queries
+  name: Mcma.Data.DocumentDatabase.Queries
+  items:
+  - uid: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+    name: BinaryOperator
+  - uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+    name: CustomQuery<TParameters>
+    name.vb: CustomQuery(Of TParameters)
+  - uid: Mcma.Data.DocumentDatabase.Queries.CustomQueryBuilder`2
+    name: CustomQueryBuilder<TParameters, TProviderQuery>
+    name.vb: CustomQueryBuilder(Of TParameters, TProviderQuery)
+  - uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2
+    name: FilterCriteria<TDoc, TProp>
+    name.vb: FilterCriteria(Of TDoc, TProp)
+  - uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`1
+    name: FilterCriteria<TDoc>
+    name.vb: FilterCriteria(Of TDoc)
+  - uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteriaGroup`1
+    name: FilterCriteriaGroup<TDoc>
+    name.vb: FilterCriteriaGroup(Of TDoc)
+  - uid: Mcma.Data.DocumentDatabase.Queries.HelperExtensions
+    name: HelperExtensions
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder
+    name: ICustomQueryBuilder
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder`2
+    name: ICustomQueryBuilder<TParameters, TProviderQuery>
+    name.vb: ICustomQueryBuilder(Of TParameters, TProviderQuery)
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+    name: ICustomQueryBuilderRegistry<TProviderQuery>
+    name.vb: ICustomQueryBuilderRegistry(Of TProviderQuery)
+  - uid: Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+    name: IFilterExpression<TDoc>
+    name.vb: IFilterExpression(Of TDoc)
+  - uid: Mcma.Data.DocumentDatabase.Queries.LogicalOperator
+    name: LogicalOperator
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query<T>
+    name.vb: Query(Of T)
+- uid: Mcma.GoogleCloud
+  name: Mcma.GoogleCloud
+  items:
+  - uid: Mcma.GoogleCloud.CloudEnvironmentVariableHelper
+    name: CloudEnvironmentVariableHelper
+  - uid: Mcma.GoogleCloud.JsonProtobufHelper
+    name: JsonProtobufHelper
+- uid: Mcma.GoogleCloud.Client
+  name: Mcma.GoogleCloud.Client
+  items:
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthContext
+    name: GoogleAuthContext
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticator
+    name: GoogleAuthenticator
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory
+    name: GoogleAuthenticatorFactory
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+    name: GoogleAuthenticatorOptions
+  - uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions
+    name: GoogleAuthenticatorRegistryExtensions
+  - uid: Mcma.GoogleCloud.Client.GoogleConstants
+    name: GoogleConstants
+- uid: Mcma.GoogleCloud.Firestore
+  name: Mcma.GoogleCloud.Firestore
+  items:
+  - uid: Mcma.GoogleCloud.Firestore.FirestoreCustomQueryBuilderRegistry
+    name: FirestoreCustomQueryBuilderRegistry
+  - uid: Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter
+    name: FirestoreMcmaConverter
+  - uid: Mcma.GoogleCloud.Firestore.FirestoreMutex
+    name: FirestoreMutex
+  - uid: Mcma.GoogleCloud.Firestore.FirestoreQueryBuilder
+    name: FirestoreQueryBuilder
+  - uid: Mcma.GoogleCloud.Firestore.FirestoreServiceCollectionExtensions
+    name: FirestoreServiceCollectionExtensions
+  - uid: Mcma.GoogleCloud.Firestore.FirestoreTable
+    name: FirestoreTable
+  - uid: Mcma.GoogleCloud.Firestore.FirestoreTableBuilder
+    name: FirestoreTableBuilder
+  - uid: Mcma.GoogleCloud.Firestore.FirestoreTableOptions
+    name: FirestoreTableOptions
+  - uid: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder
+    name: IFirestoreQueryBuilder
+  - uid: Mcma.GoogleCloud.Firestore.QuerySnapshotExtensions
+    name: QuerySnapshotExtensions
+- uid: Mcma.GoogleCloud.Functions.ApiHandler
+  name: Mcma.GoogleCloud.Functions.ApiHandler
+  items:
+  - uid: Mcma.GoogleCloud.Functions.ApiHandler.McmaApiHandlerStartup
+    name: McmaApiHandlerStartup
+  - uid: Mcma.GoogleCloud.Functions.ApiHandler.McmaJobAssignmentApiHandlerStartup
+    name: McmaJobAssignmentApiHandlerStartup
+- uid: Mcma.GoogleCloud.Functions.Worker
+  name: Mcma.GoogleCloud.Functions.Worker
+  items:
+  - uid: Mcma.GoogleCloud.Functions.Worker.McmaGoogleCloudFunctionWorkerCollectionExtensions
+    name: McmaGoogleCloudFunctionWorkerCollectionExtensions
+  - uid: Mcma.GoogleCloud.Functions.Worker.McmaJobAssignmentWorkerStartup`1
+    name: McmaJobAssignmentWorkerStartup<T>
+    name.vb: McmaJobAssignmentWorkerStartup(Of T)
+  - uid: Mcma.GoogleCloud.Functions.Worker.McmaWorkerStartup
+    name: McmaWorkerStartup
+- uid: Mcma.GoogleCloud.HttpFunctionsApi
+  name: Mcma.GoogleCloud.HttpFunctionsApi
+  items:
+  - uid: Mcma.GoogleCloud.HttpFunctionsApi.HttpAspNetExtensions
+    name: HttpAspNetExtensions
+  - uid: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionApiController
+    name: HttpFunctionApiController
+  - uid: Mcma.GoogleCloud.HttpFunctionsApi.HttpFunctionServiceCollectionExtensions
+    name: HttpFunctionServiceCollectionExtensions
+  - uid: Mcma.GoogleCloud.HttpFunctionsApi.IHttpFunctionApiController
+    name: IHttpFunctionApiController
+- uid: Mcma.GoogleCloud.Logger
+  name: Mcma.GoogleCloud.Logger
+  items:
+  - uid: Mcma.GoogleCloud.Logger.CloudLoggingLogger
+    name: CloudLoggingLogger
+  - uid: Mcma.GoogleCloud.Logger.CloudLoggingLoggerProvider
+    name: CloudLoggingLoggerProvider
+  - uid: Mcma.GoogleCloud.Logger.CloudLoggingServiceCollectionExtensions
+    name: CloudLoggingServiceCollectionExtensions
+- uid: Mcma.GoogleCloud.Metadata
+  name: Mcma.GoogleCloud.Metadata
+  items:
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+  - uid: Mcma.GoogleCloud.Metadata.MetadataService
+    name: MetadataService
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+    name: MetadataServiceExtensions
+- uid: Mcma.GoogleCloud.PubSubWorkerInvoker
+  name: Mcma.GoogleCloud.PubSubWorkerInvoker
+  items:
+  - uid: Mcma.GoogleCloud.PubSubWorkerInvoker.McmaPubSubWorkerInvokerEnvironmentVariables
+    name: McmaPubSubWorkerInvokerEnvironmentVariables
+  - uid: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker
+    name: PubSubWorkerInvoker
+  - uid: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions
+    name: PubSubWorkerInvokerOptions
+  - uid: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerServiceCollectionExtensions
+    name: PubSubWorkerInvokerServiceCollectionExtensions
+- uid: Mcma.GoogleCloud.Resources
+  name: Mcma.GoogleCloud.Resources
+  items:
+  - uid: Mcma.GoogleCloud.Resources.IMonitoredResourceProvider
+    name: IMonitoredResourceProvider
+- uid: Mcma.GoogleCloud.Storage
+  name: Mcma.GoogleCloud.Storage
+  items:
+  - uid: Mcma.GoogleCloud.Storage.CloudStorageFileLocator
+    name: CloudStorageFileLocator
+  - uid: Mcma.GoogleCloud.Storage.CloudStorageFolderLocator
+    name: CloudStorageFolderLocator
+  - uid: Mcma.GoogleCloud.Storage.CloudStorageLocator
+    name: CloudStorageLocator
+  - uid: Mcma.GoogleCloud.Storage.CloudStorageLocatorHelper
+    name: CloudStorageLocatorHelper
+- uid: Mcma.GoogleCloud.Storage.Proxies
+  name: Mcma.GoogleCloud.Storage.Proxies
+  items:
+  - uid: Mcma.GoogleCloud.Storage.Proxies.CloudStorageClientExtensions
+    name: CloudStorageClientExtensions
+  - uid: Mcma.GoogleCloud.Storage.Proxies.CloudStorageServiceCollectionExtensions
+    name: CloudStorageServiceCollectionExtensions
+- uid: Mcma.Logging
+  name: Mcma.Logging
+  items:
+  - uid: Mcma.Logging.ConsoleLogger
+    name: ConsoleLogger
+  - uid: Mcma.Logging.ConsoleLoggerProvider
+    name: ConsoleLoggerProvider
+  - uid: Mcma.Logging.ILogger
+    name: ILogger
+  - uid: Mcma.Logging.ILoggerProvider
+    name: ILoggerProvider
+  - uid: Mcma.Logging.LogEvent
+    name: LogEvent
+  - uid: Mcma.Logging.Logger
+    name: Logger
+  - uid: Mcma.Logging.LoggerProvider`1
+    name: LoggerProvider<T>
+    name.vb: LoggerProvider(Of T)
+  - uid: Mcma.Logging.LoggerProviderOptions
+    name: LoggerProviderOptions
+  - uid: Mcma.Logging.LoggingServiceCollectionExtensions
+    name: LoggingServiceCollectionExtensions
+  - uid: Mcma.Logging.LogLevel
+    name: LogLevel
+  - uid: Mcma.Logging.LogType
+    name: LogType
+- uid: Mcma.Serialization
+  name: Mcma.Serialization
+  items:
+  - uid: Mcma.Serialization.IMcmaTypeRegistrations
+    name: IMcmaTypeRegistrations
+  - uid: Mcma.Serialization.McmaCamelCasePropertyNamesContractResolver
+    name: McmaCamelCasePropertyNamesContractResolver
+  - uid: Mcma.Serialization.McmaExpandoObjectConverter
+    name: McmaExpandoObjectConverter
+  - uid: Mcma.Serialization.McmaJson
+    name: McmaJson
+  - uid: Mcma.Serialization.McmaObjectConverter
+    name: McmaObjectConverter
+  - uid: Mcma.Serialization.McmaTypes
+    name: McmaTypes
+- uid: Mcma.Utility
+  name: Mcma.Utility
+  items:
+  - uid: Mcma.Utility.EncryptionHelper
+    name: EncryptionHelper
+  - uid: Mcma.Utility.ExpressionExtensions
+    name: ExpressionExtensions
+  - uid: Mcma.Utility.McmaEnvironmentVariables
+    name: McmaEnvironmentVariables
+  - uid: Mcma.Utility.ReflectionExtensions
+    name: ReflectionExtensions
+  - uid: Mcma.Utility.ServiceCollectionExtensions
+    name: ServiceCollectionExtensions
+  - uid: Mcma.Utility.StreamExtensions
+    name: StreamExtensions
+  - uid: Mcma.Utility.StringExtensions
+    name: StringExtensions
+- uid: Mcma.Worker
+  name: Mcma.Worker
+  items:
+  - uid: Mcma.Worker.IJobProfile`1
+    name: IJobProfile<TJob>
+    name.vb: IJobProfile(Of TJob)
+  - uid: Mcma.Worker.IMcmaWorker
+    name: IMcmaWorker
+  - uid: Mcma.Worker.IMcmaWorkerOperation
+    name: IMcmaWorkerOperation
+  - uid: Mcma.Worker.McmaWorker
+    name: McmaWorker
+  - uid: Mcma.Worker.McmaWorkerBuilder
+    name: McmaWorkerBuilder
+  - uid: Mcma.Worker.McmaWorkerOperation`1
+    name: McmaWorkerOperation<T>
+    name.vb: McmaWorkerOperation(Of T)
+  - uid: Mcma.Worker.McmaWorkerRequest
+    name: McmaWorkerRequest
+  - uid: Mcma.Worker.McmaWorkerRequestContext
+    name: McmaWorkerRequestContext
+  - uid: Mcma.Worker.ProcessJobAssigmentOperationServiceCollectionExtensions
+    name: ProcessJobAssigmentOperationServiceCollectionExtensions
+  - uid: Mcma.Worker.ProcessJobAssignmentHelper`1
+    name: ProcessJobAssignmentHelper<T>
+    name.vb: ProcessJobAssignmentHelper(Of T)
+  - uid: Mcma.Worker.ProcessJobAssignmentOperation`1
+    name: ProcessJobAssignmentOperation<TJob>
+    name.vb: ProcessJobAssignmentOperation(Of TJob)
+  - uid: Mcma.Worker.ProcessJobAssignmentOperationBuilder`1
+    name: ProcessJobAssignmentOperationBuilder<TJob>
+    name.vb: ProcessJobAssignmentOperationBuilder(Of TJob)
+  - uid: Mcma.Worker.ProcessJobAssignmentRequest
+    name: ProcessJobAssignmentRequest
+  - uid: Mcma.Worker.WorkerServiceCollectionExtensions
+    name: WorkerServiceCollectionExtensions
+- uid: Mcma.WorkerInvoker
+  name: Mcma.WorkerInvoker
+  items:
+  - uid: Mcma.WorkerInvoker.IWorkerInvoker
+    name: IWorkerInvoker
+  - uid: Mcma.WorkerInvoker.WorkerInvoker
+    name: WorkerInvoker
+  - uid: Mcma.WorkerInvoker.WorkerInvokerOptions
+    name: WorkerInvokerOptions
+  - uid: Mcma.WorkerInvoker.WorkerRequest
+    name: WorkerRequest

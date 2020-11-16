@@ -1,0 +1,292 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.DynamoDb.IAttributeMapping
+  commentId: T:Mcma.Aws.DynamoDb.IAttributeMapping
+  id: IAttributeMapping
+  parent: Mcma.Aws.DynamoDb
+  children:
+  - Mcma.Aws.DynamoDb.IAttributeMapping.Get(System.String,System.String,System.Object)
+  - Mcma.Aws.DynamoDb.IAttributeMapping.Name
+  - Mcma.Aws.DynamoDb.IAttributeMapping.ResourceType
+  langs:
+  - csharp
+  - vb
+  name: IAttributeMapping
+  nameWithType: IAttributeMapping
+  fullName: Mcma.Aws.DynamoDb.IAttributeMapping
+  type: Interface
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/AttributeMapping/IAttributeMapping.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IAttributeMapping
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/AttributeMapping/IAttributeMapping.cs
+    startLine: 4
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: public interface IAttributeMapping
+    content.vb: Public Interface IAttributeMapping
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Aws.DynamoDb.IAttributeMapping.Name
+  commentId: P:Mcma.Aws.DynamoDb.IAttributeMapping.Name
+  id: Name
+  parent: Mcma.Aws.DynamoDb.IAttributeMapping
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IAttributeMapping.Name
+  fullName: Mcma.Aws.DynamoDb.IAttributeMapping.Name
+  type: Property
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/AttributeMapping/IAttributeMapping.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Name
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/AttributeMapping/IAttributeMapping.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: Mcma.Aws.DynamoDb.IAttributeMapping.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Mcma.Aws.DynamoDb.IAttributeMapping.ResourceType
+  commentId: P:Mcma.Aws.DynamoDb.IAttributeMapping.ResourceType
+  id: ResourceType
+  parent: Mcma.Aws.DynamoDb.IAttributeMapping
+  langs:
+  - csharp
+  - vb
+  name: ResourceType
+  nameWithType: IAttributeMapping.ResourceType
+  fullName: Mcma.Aws.DynamoDb.IAttributeMapping.ResourceType
+  type: Property
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/AttributeMapping/IAttributeMapping.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ResourceType
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/AttributeMapping/IAttributeMapping.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: Type ResourceType { get; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: ReadOnly Property ResourceType As Type
+  overload: Mcma.Aws.DynamoDb.IAttributeMapping.ResourceType*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Mcma.Aws.DynamoDb.IAttributeMapping.Get(System.String,System.String,System.Object)
+  commentId: M:Mcma.Aws.DynamoDb.IAttributeMapping.Get(System.String,System.String,System.Object)
+  id: Get(System.String,System.String,System.Object)
+  parent: Mcma.Aws.DynamoDb.IAttributeMapping
+  langs:
+  - csharp
+  - vb
+  name: Get(String, String, Object)
+  nameWithType: IAttributeMapping.Get(String, String, Object)
+  fullName: Mcma.Aws.DynamoDb.IAttributeMapping.Get(System.String, System.String, System.Object)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/AttributeMapping/IAttributeMapping.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Get
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/AttributeMapping/IAttributeMapping.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: object Get(string partitionKey, string sortKey, object input)
+    parameters:
+    - id: partitionKey
+      type: System.String
+    - id: sortKey
+      type: System.String
+    - id: input
+      type: System.Object
+    return:
+      type: System.Object
+    content.vb: Function Get(partitionKey As String, sortKey As String, input As Object) As Object
+  overload: Mcma.Aws.DynamoDb.IAttributeMapping.Get*
+references:
+- uid: Mcma.Aws.DynamoDb
+  commentId: N:Mcma.Aws.DynamoDb
+  name: Mcma.Aws.DynamoDb
+  nameWithType: Mcma.Aws.DynamoDb
+  fullName: Mcma.Aws.DynamoDb
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Aws.DynamoDb.IAttributeMapping.Name*
+  commentId: Overload:Mcma.Aws.DynamoDb.IAttributeMapping.Name
+  name: Name
+  nameWithType: IAttributeMapping.Name
+  fullName: Mcma.Aws.DynamoDb.IAttributeMapping.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Aws.DynamoDb.IAttributeMapping.ResourceType*
+  commentId: Overload:Mcma.Aws.DynamoDb.IAttributeMapping.ResourceType
+  name: ResourceType
+  nameWithType: IAttributeMapping.ResourceType
+  fullName: Mcma.Aws.DynamoDb.IAttributeMapping.ResourceType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Mcma.Aws.DynamoDb.IAttributeMapping.Get*
+  commentId: Overload:Mcma.Aws.DynamoDb.IAttributeMapping.Get
+  name: Get
+  nameWithType: IAttributeMapping.Get
+  fullName: Mcma.Aws.DynamoDb.IAttributeMapping.Get
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object

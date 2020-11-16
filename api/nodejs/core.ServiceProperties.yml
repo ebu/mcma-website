@@ -1,0 +1,213 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.ServiceProperties
+    name: ServiceProperties
+    fullName: ServiceProperties
+    children:
+      - core.ServiceProperties.@type
+      - core.ServiceProperties.authContext
+      - core.ServiceProperties.authType
+      - core.ServiceProperties.custom
+      - core.ServiceProperties.dateCreated
+      - core.ServiceProperties.dateModified
+      - core.ServiceProperties.id
+      - core.ServiceProperties.jobProfileIds
+      - core.ServiceProperties.jobType
+      - core.ServiceProperties.name
+      - core.ServiceProperties.resources
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: core.McmaResourceProperties
+    package: core
+  - uid: core.ServiceProperties.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: '@type?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.ServiceProperties.authContext
+    name: authContext
+    fullName: authContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'authContext?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: core
+  - uid: core.ServiceProperties.authType
+    name: authType
+    fullName: authType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'authType?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.ServiceProperties.custom
+    name: custom
+    fullName: custom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'custom?: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: core
+  - uid: core.ServiceProperties.dateCreated
+    name: dateCreated
+    fullName: dateCreated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateCreated?: Date | string'
+      return:
+        type:
+          - Date | string
+        description: ''
+    package: core
+  - uid: core.ServiceProperties.dateModified
+    name: dateModified
+    fullName: dateModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateModified?: Date | string'
+      return:
+        type:
+          - Date | string
+        description: ''
+    package: core
+  - uid: core.ServiceProperties.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.ServiceProperties.jobProfileIds
+    name: jobProfileIds
+    fullName: jobProfileIds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'jobProfileIds?: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: core
+  - uid: core.ServiceProperties.jobType
+    name: jobType
+    fullName: jobType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'jobType?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.ServiceProperties.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.ServiceProperties.resources
+    name: resources
+    fullName: resources
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'resources: ResourceEndpointProperties[]'
+      return:
+        type:
+          - 'core.ResourceEndpointProperties[]'
+        description: ''
+    package: core
+references:
+  - uid: core.McmaResourceProperties
+    name: McmaResourceProperties
+    spec.typeScript:
+      - name: McmaResourceProperties
+        fullName: McmaResourceProperties
+        uid: core.McmaResourceProperties
+  - uid: 'core.ResourceEndpointProperties[]'
+    name: 'ResourceEndpointProperties[]'
+    spec.typeScript:
+      - name: ResourceEndpointProperties
+        fullName: ResourceEndpointProperties
+        uid: core.ResourceEndpointProperties
+      - name: '[]'
+        fullName: '[]'

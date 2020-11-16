@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.ConsoleLoggerProvider
+    name: ConsoleLoggerProvider
+    fullName: ConsoleLoggerProvider
+    children:
+      - core.ConsoleLoggerProvider.constructor
+      - core.ConsoleLoggerProvider.get
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: core
+  - uid: core.ConsoleLoggerProvider.constructor
+    name: ConsoleLoggerProvider(string)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ConsoleLoggerProvider(source: string)'
+      parameters:
+        - id: source
+          type:
+            - string
+          description: ''
+    package: core
+  - uid: core.ConsoleLoggerProvider.get
+    name: 'get(string, McmaTrackerProperties)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get(requestId?: string, tracker?: McmaTrackerProperties)'
+      parameters:
+        - id: requestId
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: tracker
+          type:
+            - core.McmaTrackerProperties
+          description: ''
+          optional: true
+      return:
+        type:
+          - core.Logger
+        description: ''
+    package: core
+references:
+  - uid: core.McmaTrackerProperties
+    name: McmaTrackerProperties
+    spec.typeScript:
+      - name: McmaTrackerProperties
+        fullName: McmaTrackerProperties
+        uid: core.McmaTrackerProperties
+  - uid: core.Logger
+    name: Logger
+    spec.typeScript:
+      - name: Logger
+        fullName: Logger
+        uid: core.Logger

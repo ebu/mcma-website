@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-s3.AwsS3FileLocatorProperties
+    name: AwsS3FileLocatorProperties
+    fullName: AwsS3FileLocatorProperties
+    children:
+      - aws-s3.AwsS3FileLocatorProperties.@type
+      - aws-s3.AwsS3FileLocatorProperties.bucket
+      - aws-s3.AwsS3FileLocatorProperties.key
+      - aws-s3.AwsS3FileLocatorProperties.url
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: aws-s3.AwsS3LocatorProperties
+    package: aws-s3
+  - uid: aws-s3.AwsS3FileLocatorProperties.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: '@type?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-s3
+  - uid: aws-s3.AwsS3FileLocatorProperties.bucket
+    name: bucket
+    fullName: bucket
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bucket: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-s3
+  - uid: aws-s3.AwsS3FileLocatorProperties.key
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'key: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-s3
+  - uid: aws-s3.AwsS3FileLocatorProperties.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'url?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-s3
+references:
+  - uid: aws-s3.AwsS3LocatorProperties
+    name: AwsS3LocatorProperties
+    spec.typeScript:
+      - name: AwsS3LocatorProperties
+        fullName: AwsS3LocatorProperties
+        uid: aws-s3.AwsS3LocatorProperties

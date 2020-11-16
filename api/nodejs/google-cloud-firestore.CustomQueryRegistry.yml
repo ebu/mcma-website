@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-firestore.CustomQueryRegistry
+    name: CustomQueryRegistry
+    fullName: CustomQueryRegistry
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type CustomQueryRegistry = Object
+    package: google-cloud-firestore

@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-client.AwsAuthContext2
+    name: AwsAuthContext2
+    fullName: AwsAuthContext2
+    children:
+      - aws-client.AwsAuthContext2.accessKey
+      - aws-client.AwsAuthContext2.region
+      - aws-client.AwsAuthContext2.secretKey
+      - aws-client.AwsAuthContext2.serviceName
+      - aws-client.AwsAuthContext2.sessionToken
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: AwsBaseAuthContext
+    package: aws-client
+  - uid: aws-client.AwsAuthContext2.accessKey
+    name: accessKey
+    fullName: accessKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'accessKey: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-client
+  - uid: aws-client.AwsAuthContext2.region
+    name: region
+    fullName: region
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'region: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-client
+  - uid: aws-client.AwsAuthContext2.secretKey
+    name: secretKey
+    fullName: secretKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'secretKey: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-client
+  - uid: aws-client.AwsAuthContext2.serviceName
+    name: serviceName
+    fullName: serviceName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'serviceName?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-client
+  - uid: aws-client.AwsAuthContext2.sessionToken
+    name: sessionToken
+    fullName: sessionToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'sessionToken?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-client

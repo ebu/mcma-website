@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: data.DocumentDatabaseTableProvider
+    name: DocumentDatabaseTableProvider
+    fullName: DocumentDatabaseTableProvider
+    children:
+      - data.DocumentDatabaseTableProvider.get
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: data
+  - uid: data.DocumentDatabaseTableProvider.get
+    name: get(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get(tableName: string)'
+      parameters:
+        - id: tableName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<data.DocumentDatabaseTable>
+        description: ''
+    package: data
+references:
+  - uid: Promise<data.DocumentDatabaseTable>
+    name: DocumentDatabaseTable>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: DocumentDatabaseTable
+        fullName: DocumentDatabaseTable
+        uid: data.DocumentDatabaseTable
+      - name: '>'
+        fullName: '>'

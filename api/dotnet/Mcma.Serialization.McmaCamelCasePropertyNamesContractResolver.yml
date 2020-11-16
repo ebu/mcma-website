@@ -1,0 +1,1548 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Serialization.McmaCamelCasePropertyNamesContractResolver
+  commentId: T:Mcma.Serialization.McmaCamelCasePropertyNamesContractResolver
+  id: McmaCamelCasePropertyNamesContractResolver
+  parent: Mcma.Serialization
+  children:
+  - Mcma.Serialization.McmaCamelCasePropertyNamesContractResolver.CreateDictionaryContract(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: McmaCamelCasePropertyNamesContractResolver
+  nameWithType: McmaCamelCasePropertyNamesContractResolver
+  fullName: Mcma.Serialization.McmaCamelCasePropertyNamesContractResolver
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/McmaCamelCasePropertyNamesContractResolver.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaCamelCasePropertyNamesContractResolver
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/McmaCamelCasePropertyNamesContractResolver.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  summary: "\nInherits from <xref href=\"Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver\" data-throw-if-not-resolved=\"false\"></xref> and implements custom dictionary key resolution\n"
+  example: []
+  syntax:
+    content: 'public class McmaCamelCasePropertyNamesContractResolver : CamelCasePropertyNamesContractResolver, IContractResolver'
+    content.vb: >-
+      Public Class McmaCamelCasePropertyNamesContractResolver
+
+          Inherits CamelCasePropertyNamesContractResolver
+
+          Implements IContractResolver
+  inheritance:
+  - System.Object
+  - Newtonsoft.Json.Serialization.DefaultContractResolver
+  - Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver
+  implements:
+  - Newtonsoft.Json.Serialization.IContractResolver
+  inheritedMembers:
+  - Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver.ResolveContract(System.Type)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.GetSerializableMembers(System.Type)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.CreateObjectContract(System.Type)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.CreateConstructorParameters(System.Reflection.ConstructorInfo,Newtonsoft.Json.Serialization.JsonPropertyCollection)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePropertyFromConstructorParameter(Newtonsoft.Json.Serialization.JsonProperty,System.Reflection.ParameterInfo)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContractConverter(System.Type)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.CreateArrayContract(System.Type)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePrimitiveContract(System.Type)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.CreateLinqContract(System.Type)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.CreateISerializableContract(System.Type)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDynamicContract(System.Type)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.CreateStringContract(System.Type)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.CreateContract(System.Type)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperties(System.Type,Newtonsoft.Json.MemberSerialization)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.CreateMemberValueProvider(System.Reflection.MemberInfo)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperty(System.Reflection.MemberInfo,Newtonsoft.Json.MemberSerialization)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.ResolvePropertyName(System.String)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveExtensionDataName(System.String)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveDictionaryKey(System.String)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.GetResolvedPropertyName(System.String)
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.DynamicCodeGeneration
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.DefaultMembersSearchFlags
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.SerializeCompilerGeneratedMembers
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreSerializableInterface
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreSerializableAttribute
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreIsSpecifiedMembers
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreShouldSerializeMembers
+  - Newtonsoft.Json.Serialization.DefaultContractResolver.NamingStrategy
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Serialization.McmaCamelCasePropertyNamesContractResolver.CreateDictionaryContract(System.Type)
+  commentId: M:Mcma.Serialization.McmaCamelCasePropertyNamesContractResolver.CreateDictionaryContract(System.Type)
+  id: CreateDictionaryContract(System.Type)
+  parent: Mcma.Serialization.McmaCamelCasePropertyNamesContractResolver
+  langs:
+  - csharp
+  - vb
+  name: CreateDictionaryContract(Type)
+  nameWithType: McmaCamelCasePropertyNamesContractResolver.CreateDictionaryContract(Type)
+  fullName: Mcma.Serialization.McmaCamelCasePropertyNamesContractResolver.CreateDictionaryContract(System.Type)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/McmaCamelCasePropertyNamesContractResolver.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: CreateDictionaryContract
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/McmaCamelCasePropertyNamesContractResolver.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  syntax:
+    content: protected override JsonDictionaryContract CreateDictionaryContract(Type objectType)
+    parameters:
+    - id: objectType
+      type: System.Type
+    return:
+      type: Newtonsoft.Json.Serialization.JsonDictionaryContract
+    content.vb: Protected Overrides Function CreateDictionaryContract(objectType As Type) As JsonDictionaryContract
+  overridden: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDictionaryContract(System.Type)
+  overload: Mcma.Serialization.McmaCamelCasePropertyNamesContractResolver.CreateDictionaryContract*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver
+  commentId: T:Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver
+  parent: Newtonsoft.Json.Serialization
+  isExternal: true
+  name: CamelCasePropertyNamesContractResolver
+  nameWithType: CamelCasePropertyNamesContractResolver
+  fullName: Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver
+  commentId: T:Newtonsoft.Json.Serialization.DefaultContractResolver
+  parent: Newtonsoft.Json.Serialization
+  isExternal: true
+  name: DefaultContractResolver
+  nameWithType: DefaultContractResolver
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver
+- uid: Newtonsoft.Json.Serialization.IContractResolver
+  commentId: T:Newtonsoft.Json.Serialization.IContractResolver
+  parent: Newtonsoft.Json.Serialization
+  isExternal: true
+  name: IContractResolver
+  nameWithType: IContractResolver
+  fullName: Newtonsoft.Json.Serialization.IContractResolver
+- uid: Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver.ResolveContract(System.Type)
+  commentId: M:Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver.ResolveContract(System.Type)
+  parent: Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver
+  isExternal: true
+  name: ResolveContract(Type)
+  nameWithType: CamelCasePropertyNamesContractResolver.ResolveContract(Type)
+  fullName: Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver.ResolveContract(System.Type)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver.ResolveContract(System.Type)
+    name: ResolveContract
+    nameWithType: CamelCasePropertyNamesContractResolver.ResolveContract
+    fullName: Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver.ResolveContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver.ResolveContract(System.Type)
+    name: ResolveContract
+    nameWithType: CamelCasePropertyNamesContractResolver.ResolveContract
+    fullName: Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver.ResolveContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.GetSerializableMembers(System.Type)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.GetSerializableMembers(System.Type)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: GetSerializableMembers(Type)
+  nameWithType: DefaultContractResolver.GetSerializableMembers(Type)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.GetSerializableMembers(System.Type)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.GetSerializableMembers(System.Type)
+    name: GetSerializableMembers
+    nameWithType: DefaultContractResolver.GetSerializableMembers
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.GetSerializableMembers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.GetSerializableMembers(System.Type)
+    name: GetSerializableMembers
+    nameWithType: DefaultContractResolver.GetSerializableMembers
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.GetSerializableMembers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateObjectContract(System.Type)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateObjectContract(System.Type)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: CreateObjectContract(Type)
+  nameWithType: DefaultContractResolver.CreateObjectContract(Type)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateObjectContract(System.Type)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateObjectContract(System.Type)
+    name: CreateObjectContract
+    nameWithType: DefaultContractResolver.CreateObjectContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateObjectContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateObjectContract(System.Type)
+    name: CreateObjectContract
+    nameWithType: DefaultContractResolver.CreateObjectContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateObjectContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateConstructorParameters(System.Reflection.ConstructorInfo,Newtonsoft.Json.Serialization.JsonPropertyCollection)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateConstructorParameters(System.Reflection.ConstructorInfo,Newtonsoft.Json.Serialization.JsonPropertyCollection)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: CreateConstructorParameters(ConstructorInfo, JsonPropertyCollection)
+  nameWithType: DefaultContractResolver.CreateConstructorParameters(ConstructorInfo, JsonPropertyCollection)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateConstructorParameters(System.Reflection.ConstructorInfo, Newtonsoft.Json.Serialization.JsonPropertyCollection)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateConstructorParameters(System.Reflection.ConstructorInfo,Newtonsoft.Json.Serialization.JsonPropertyCollection)
+    name: CreateConstructorParameters
+    nameWithType: DefaultContractResolver.CreateConstructorParameters
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateConstructorParameters
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Reflection.ConstructorInfo
+    name: ConstructorInfo
+    nameWithType: ConstructorInfo
+    fullName: System.Reflection.ConstructorInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.Serialization.JsonPropertyCollection
+    name: JsonPropertyCollection
+    nameWithType: JsonPropertyCollection
+    fullName: Newtonsoft.Json.Serialization.JsonPropertyCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateConstructorParameters(System.Reflection.ConstructorInfo,Newtonsoft.Json.Serialization.JsonPropertyCollection)
+    name: CreateConstructorParameters
+    nameWithType: DefaultContractResolver.CreateConstructorParameters
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateConstructorParameters
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Reflection.ConstructorInfo
+    name: ConstructorInfo
+    nameWithType: ConstructorInfo
+    fullName: System.Reflection.ConstructorInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.Serialization.JsonPropertyCollection
+    name: JsonPropertyCollection
+    nameWithType: JsonPropertyCollection
+    fullName: Newtonsoft.Json.Serialization.JsonPropertyCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePropertyFromConstructorParameter(Newtonsoft.Json.Serialization.JsonProperty,System.Reflection.ParameterInfo)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePropertyFromConstructorParameter(Newtonsoft.Json.Serialization.JsonProperty,System.Reflection.ParameterInfo)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: CreatePropertyFromConstructorParameter(JsonProperty, ParameterInfo)
+  nameWithType: DefaultContractResolver.CreatePropertyFromConstructorParameter(JsonProperty, ParameterInfo)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePropertyFromConstructorParameter(Newtonsoft.Json.Serialization.JsonProperty, System.Reflection.ParameterInfo)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePropertyFromConstructorParameter(Newtonsoft.Json.Serialization.JsonProperty,System.Reflection.ParameterInfo)
+    name: CreatePropertyFromConstructorParameter
+    nameWithType: DefaultContractResolver.CreatePropertyFromConstructorParameter
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePropertyFromConstructorParameter
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.Serialization.JsonProperty
+    name: JsonProperty
+    nameWithType: JsonProperty
+    fullName: Newtonsoft.Json.Serialization.JsonProperty
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Reflection.ParameterInfo
+    name: ParameterInfo
+    nameWithType: ParameterInfo
+    fullName: System.Reflection.ParameterInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePropertyFromConstructorParameter(Newtonsoft.Json.Serialization.JsonProperty,System.Reflection.ParameterInfo)
+    name: CreatePropertyFromConstructorParameter
+    nameWithType: DefaultContractResolver.CreatePropertyFromConstructorParameter
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePropertyFromConstructorParameter
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Newtonsoft.Json.Serialization.JsonProperty
+    name: JsonProperty
+    nameWithType: JsonProperty
+    fullName: Newtonsoft.Json.Serialization.JsonProperty
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Reflection.ParameterInfo
+    name: ParameterInfo
+    nameWithType: ParameterInfo
+    fullName: System.Reflection.ParameterInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContractConverter(System.Type)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContractConverter(System.Type)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: ResolveContractConverter(Type)
+  nameWithType: DefaultContractResolver.ResolveContractConverter(Type)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContractConverter(System.Type)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContractConverter(System.Type)
+    name: ResolveContractConverter
+    nameWithType: DefaultContractResolver.ResolveContractConverter
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContractConverter
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContractConverter(System.Type)
+    name: ResolveContractConverter
+    nameWithType: DefaultContractResolver.ResolveContractConverter
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContractConverter
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateArrayContract(System.Type)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateArrayContract(System.Type)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: CreateArrayContract(Type)
+  nameWithType: DefaultContractResolver.CreateArrayContract(Type)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateArrayContract(System.Type)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateArrayContract(System.Type)
+    name: CreateArrayContract
+    nameWithType: DefaultContractResolver.CreateArrayContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateArrayContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateArrayContract(System.Type)
+    name: CreateArrayContract
+    nameWithType: DefaultContractResolver.CreateArrayContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateArrayContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePrimitiveContract(System.Type)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePrimitiveContract(System.Type)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: CreatePrimitiveContract(Type)
+  nameWithType: DefaultContractResolver.CreatePrimitiveContract(Type)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePrimitiveContract(System.Type)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePrimitiveContract(System.Type)
+    name: CreatePrimitiveContract
+    nameWithType: DefaultContractResolver.CreatePrimitiveContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePrimitiveContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePrimitiveContract(System.Type)
+    name: CreatePrimitiveContract
+    nameWithType: DefaultContractResolver.CreatePrimitiveContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreatePrimitiveContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateLinqContract(System.Type)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateLinqContract(System.Type)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: CreateLinqContract(Type)
+  nameWithType: DefaultContractResolver.CreateLinqContract(Type)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateLinqContract(System.Type)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateLinqContract(System.Type)
+    name: CreateLinqContract
+    nameWithType: DefaultContractResolver.CreateLinqContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateLinqContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateLinqContract(System.Type)
+    name: CreateLinqContract
+    nameWithType: DefaultContractResolver.CreateLinqContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateLinqContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateISerializableContract(System.Type)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateISerializableContract(System.Type)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: CreateISerializableContract(Type)
+  nameWithType: DefaultContractResolver.CreateISerializableContract(Type)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateISerializableContract(System.Type)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateISerializableContract(System.Type)
+    name: CreateISerializableContract
+    nameWithType: DefaultContractResolver.CreateISerializableContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateISerializableContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateISerializableContract(System.Type)
+    name: CreateISerializableContract
+    nameWithType: DefaultContractResolver.CreateISerializableContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateISerializableContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDynamicContract(System.Type)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDynamicContract(System.Type)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: CreateDynamicContract(Type)
+  nameWithType: DefaultContractResolver.CreateDynamicContract(Type)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDynamicContract(System.Type)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDynamicContract(System.Type)
+    name: CreateDynamicContract
+    nameWithType: DefaultContractResolver.CreateDynamicContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDynamicContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDynamicContract(System.Type)
+    name: CreateDynamicContract
+    nameWithType: DefaultContractResolver.CreateDynamicContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDynamicContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateStringContract(System.Type)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateStringContract(System.Type)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: CreateStringContract(Type)
+  nameWithType: DefaultContractResolver.CreateStringContract(Type)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateStringContract(System.Type)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateStringContract(System.Type)
+    name: CreateStringContract
+    nameWithType: DefaultContractResolver.CreateStringContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateStringContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateStringContract(System.Type)
+    name: CreateStringContract
+    nameWithType: DefaultContractResolver.CreateStringContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateStringContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateContract(System.Type)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateContract(System.Type)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: CreateContract(Type)
+  nameWithType: DefaultContractResolver.CreateContract(Type)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateContract(System.Type)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateContract(System.Type)
+    name: CreateContract
+    nameWithType: DefaultContractResolver.CreateContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateContract(System.Type)
+    name: CreateContract
+    nameWithType: DefaultContractResolver.CreateContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperties(System.Type,Newtonsoft.Json.MemberSerialization)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperties(System.Type,Newtonsoft.Json.MemberSerialization)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: CreateProperties(Type, MemberSerialization)
+  nameWithType: DefaultContractResolver.CreateProperties(Type, MemberSerialization)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperties(System.Type, Newtonsoft.Json.MemberSerialization)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperties(System.Type,Newtonsoft.Json.MemberSerialization)
+    name: CreateProperties
+    nameWithType: DefaultContractResolver.CreateProperties
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperties
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.MemberSerialization
+    name: MemberSerialization
+    nameWithType: MemberSerialization
+    fullName: Newtonsoft.Json.MemberSerialization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperties(System.Type,Newtonsoft.Json.MemberSerialization)
+    name: CreateProperties
+    nameWithType: DefaultContractResolver.CreateProperties
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperties
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.MemberSerialization
+    name: MemberSerialization
+    nameWithType: MemberSerialization
+    fullName: Newtonsoft.Json.MemberSerialization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateMemberValueProvider(System.Reflection.MemberInfo)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateMemberValueProvider(System.Reflection.MemberInfo)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: CreateMemberValueProvider(MemberInfo)
+  nameWithType: DefaultContractResolver.CreateMemberValueProvider(MemberInfo)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateMemberValueProvider(System.Reflection.MemberInfo)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateMemberValueProvider(System.Reflection.MemberInfo)
+    name: CreateMemberValueProvider
+    nameWithType: DefaultContractResolver.CreateMemberValueProvider
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateMemberValueProvider
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    nameWithType: MemberInfo
+    fullName: System.Reflection.MemberInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateMemberValueProvider(System.Reflection.MemberInfo)
+    name: CreateMemberValueProvider
+    nameWithType: DefaultContractResolver.CreateMemberValueProvider
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateMemberValueProvider
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    nameWithType: MemberInfo
+    fullName: System.Reflection.MemberInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperty(System.Reflection.MemberInfo,Newtonsoft.Json.MemberSerialization)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperty(System.Reflection.MemberInfo,Newtonsoft.Json.MemberSerialization)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: CreateProperty(MemberInfo, MemberSerialization)
+  nameWithType: DefaultContractResolver.CreateProperty(MemberInfo, MemberSerialization)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperty(System.Reflection.MemberInfo, Newtonsoft.Json.MemberSerialization)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperty(System.Reflection.MemberInfo,Newtonsoft.Json.MemberSerialization)
+    name: CreateProperty
+    nameWithType: DefaultContractResolver.CreateProperty
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    nameWithType: MemberInfo
+    fullName: System.Reflection.MemberInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.MemberSerialization
+    name: MemberSerialization
+    nameWithType: MemberSerialization
+    fullName: Newtonsoft.Json.MemberSerialization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperty(System.Reflection.MemberInfo,Newtonsoft.Json.MemberSerialization)
+    name: CreateProperty
+    nameWithType: DefaultContractResolver.CreateProperty
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    nameWithType: MemberInfo
+    fullName: System.Reflection.MemberInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Newtonsoft.Json.MemberSerialization
+    name: MemberSerialization
+    nameWithType: MemberSerialization
+    fullName: Newtonsoft.Json.MemberSerialization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolvePropertyName(System.String)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.ResolvePropertyName(System.String)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: ResolvePropertyName(String)
+  nameWithType: DefaultContractResolver.ResolvePropertyName(String)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolvePropertyName(System.String)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolvePropertyName(System.String)
+    name: ResolvePropertyName
+    nameWithType: DefaultContractResolver.ResolvePropertyName
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolvePropertyName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolvePropertyName(System.String)
+    name: ResolvePropertyName
+    nameWithType: DefaultContractResolver.ResolvePropertyName
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolvePropertyName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveExtensionDataName(System.String)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveExtensionDataName(System.String)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: ResolveExtensionDataName(String)
+  nameWithType: DefaultContractResolver.ResolveExtensionDataName(String)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveExtensionDataName(System.String)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveExtensionDataName(System.String)
+    name: ResolveExtensionDataName
+    nameWithType: DefaultContractResolver.ResolveExtensionDataName
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveExtensionDataName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveExtensionDataName(System.String)
+    name: ResolveExtensionDataName
+    nameWithType: DefaultContractResolver.ResolveExtensionDataName
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveExtensionDataName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveDictionaryKey(System.String)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveDictionaryKey(System.String)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: ResolveDictionaryKey(String)
+  nameWithType: DefaultContractResolver.ResolveDictionaryKey(String)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveDictionaryKey(System.String)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveDictionaryKey(System.String)
+    name: ResolveDictionaryKey
+    nameWithType: DefaultContractResolver.ResolveDictionaryKey
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveDictionaryKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveDictionaryKey(System.String)
+    name: ResolveDictionaryKey
+    nameWithType: DefaultContractResolver.ResolveDictionaryKey
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveDictionaryKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.GetResolvedPropertyName(System.String)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.GetResolvedPropertyName(System.String)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: GetResolvedPropertyName(String)
+  nameWithType: DefaultContractResolver.GetResolvedPropertyName(String)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.GetResolvedPropertyName(System.String)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.GetResolvedPropertyName(System.String)
+    name: GetResolvedPropertyName
+    nameWithType: DefaultContractResolver.GetResolvedPropertyName
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.GetResolvedPropertyName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.GetResolvedPropertyName(System.String)
+    name: GetResolvedPropertyName
+    nameWithType: DefaultContractResolver.GetResolvedPropertyName
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.GetResolvedPropertyName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.DynamicCodeGeneration
+  commentId: P:Newtonsoft.Json.Serialization.DefaultContractResolver.DynamicCodeGeneration
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: DynamicCodeGeneration
+  nameWithType: DefaultContractResolver.DynamicCodeGeneration
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.DynamicCodeGeneration
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.DefaultMembersSearchFlags
+  commentId: P:Newtonsoft.Json.Serialization.DefaultContractResolver.DefaultMembersSearchFlags
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: DefaultMembersSearchFlags
+  nameWithType: DefaultContractResolver.DefaultMembersSearchFlags
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.DefaultMembersSearchFlags
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.SerializeCompilerGeneratedMembers
+  commentId: P:Newtonsoft.Json.Serialization.DefaultContractResolver.SerializeCompilerGeneratedMembers
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: SerializeCompilerGeneratedMembers
+  nameWithType: DefaultContractResolver.SerializeCompilerGeneratedMembers
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.SerializeCompilerGeneratedMembers
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreSerializableInterface
+  commentId: P:Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreSerializableInterface
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: IgnoreSerializableInterface
+  nameWithType: DefaultContractResolver.IgnoreSerializableInterface
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreSerializableInterface
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreSerializableAttribute
+  commentId: P:Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreSerializableAttribute
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: IgnoreSerializableAttribute
+  nameWithType: DefaultContractResolver.IgnoreSerializableAttribute
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreSerializableAttribute
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreIsSpecifiedMembers
+  commentId: P:Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreIsSpecifiedMembers
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: IgnoreIsSpecifiedMembers
+  nameWithType: DefaultContractResolver.IgnoreIsSpecifiedMembers
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreIsSpecifiedMembers
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreShouldSerializeMembers
+  commentId: P:Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreShouldSerializeMembers
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: IgnoreShouldSerializeMembers
+  nameWithType: DefaultContractResolver.IgnoreShouldSerializeMembers
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.IgnoreShouldSerializeMembers
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.NamingStrategy
+  commentId: P:Newtonsoft.Json.Serialization.DefaultContractResolver.NamingStrategy
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: NamingStrategy
+  nameWithType: DefaultContractResolver.NamingStrategy
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.NamingStrategy
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Newtonsoft.Json.Serialization
+  commentId: N:Newtonsoft.Json.Serialization
+  isExternal: true
+  name: Newtonsoft.Json.Serialization
+  nameWithType: Newtonsoft.Json.Serialization
+  fullName: Newtonsoft.Json.Serialization
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDictionaryContract(System.Type)
+  commentId: M:Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDictionaryContract(System.Type)
+  parent: Newtonsoft.Json.Serialization.DefaultContractResolver
+  isExternal: true
+  name: CreateDictionaryContract(Type)
+  nameWithType: DefaultContractResolver.CreateDictionaryContract(Type)
+  fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDictionaryContract(System.Type)
+  spec.csharp:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDictionaryContract(System.Type)
+    name: CreateDictionaryContract
+    nameWithType: DefaultContractResolver.CreateDictionaryContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDictionaryContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDictionaryContract(System.Type)
+    name: CreateDictionaryContract
+    nameWithType: DefaultContractResolver.CreateDictionaryContract
+    fullName: Newtonsoft.Json.Serialization.DefaultContractResolver.CreateDictionaryContract
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaCamelCasePropertyNamesContractResolver.CreateDictionaryContract*
+  commentId: Overload:Mcma.Serialization.McmaCamelCasePropertyNamesContractResolver.CreateDictionaryContract
+  name: CreateDictionaryContract
+  nameWithType: McmaCamelCasePropertyNamesContractResolver.CreateDictionaryContract
+  fullName: Mcma.Serialization.McmaCamelCasePropertyNamesContractResolver.CreateDictionaryContract
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Newtonsoft.Json.Serialization.JsonDictionaryContract
+  commentId: T:Newtonsoft.Json.Serialization.JsonDictionaryContract
+  parent: Newtonsoft.Json.Serialization
+  isExternal: true
+  name: JsonDictionaryContract
+  nameWithType: JsonDictionaryContract
+  fullName: Newtonsoft.Json.Serialization.JsonDictionaryContract

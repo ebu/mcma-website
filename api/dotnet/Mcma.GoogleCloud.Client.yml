@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Client
+  commentId: N:Mcma.GoogleCloud.Client
+  id: Mcma.GoogleCloud.Client
+  children:
+  - Mcma.GoogleCloud.Client.GoogleAuthContext
+  - Mcma.GoogleCloud.Client.GoogleAuthenticator
+  - Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory
+  - Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+  - Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions
+  - Mcma.GoogleCloud.Client.GoogleConstants
+  langs:
+  - csharp
+  - vb
+  name: Mcma.GoogleCloud.Client
+  nameWithType: Mcma.GoogleCloud.Client
+  fullName: Mcma.GoogleCloud.Client
+  type: Namespace
+  assemblies:
+  - Mcma.GoogleCloud.Client
+references:
+- uid: Mcma.GoogleCloud.Client.GoogleAuthContext
+  commentId: T:Mcma.GoogleCloud.Client.GoogleAuthContext
+  parent: Mcma.GoogleCloud.Client
+  name: GoogleAuthContext
+  nameWithType: GoogleAuthContext
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthContext
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticator
+  commentId: T:Mcma.GoogleCloud.Client.GoogleAuthenticator
+  name: GoogleAuthenticator
+  nameWithType: GoogleAuthenticator
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticator
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory
+  commentId: T:Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory
+  name: GoogleAuthenticatorFactory
+  nameWithType: GoogleAuthenticatorFactory
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorFactory
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+  commentId: T:Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+  parent: Mcma.GoogleCloud.Client
+  name: GoogleAuthenticatorOptions
+  nameWithType: GoogleAuthenticatorOptions
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions
+  commentId: T:Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions
+  parent: Mcma.GoogleCloud.Client
+  name: GoogleAuthenticatorRegistryExtensions
+  nameWithType: GoogleAuthenticatorRegistryExtensions
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorRegistryExtensions
+- uid: Mcma.GoogleCloud.Client.GoogleConstants
+  commentId: T:Mcma.GoogleCloud.Client.GoogleConstants
+  name: GoogleConstants
+  nameWithType: GoogleConstants
+  fullName: Mcma.GoogleCloud.Client.GoogleConstants
+- uid: Mcma.GoogleCloud.Client
+  commentId: N:Mcma.GoogleCloud.Client
+  name: Mcma.GoogleCloud.Client
+  nameWithType: Mcma.GoogleCloud.Client
+  fullName: Mcma.GoogleCloud.Client

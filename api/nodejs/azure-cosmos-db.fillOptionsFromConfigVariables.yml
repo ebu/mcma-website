@@ -1,0 +1,36 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-cosmos-db.fillOptionsFromConfigVariables
+    name: >-
+      fillOptionsFromConfigVariables(CosmosDbTableProviderOptions,
+      ConfigVariables)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function fillOptionsFromConfigVariables(options:
+        CosmosDbTableProviderOptions, configVariables: ConfigVariables)
+      parameters:
+        - id: options
+          type:
+            - azure-cosmos-db.CosmosDbTableProviderOptions
+          description: ''
+        - id: configVariables
+          type:
+            - ConfigVariables
+          description: ''
+      return:
+        type:
+          - azure-cosmos-db.CosmosDbTableProviderOptions
+        description: ''
+    package: azure-cosmos-db
+references:
+  - uid: azure-cosmos-db.CosmosDbTableProviderOptions
+    name: CosmosDbTableProviderOptions
+    spec.typeScript:
+      - name: CosmosDbTableProviderOptions
+        fullName: CosmosDbTableProviderOptions
+        uid: azure-cosmos-db.CosmosDbTableProviderOptions

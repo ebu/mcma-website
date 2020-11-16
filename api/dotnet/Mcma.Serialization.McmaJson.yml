@@ -1,0 +1,903 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  id: McmaJson
+  parent: Mcma.Serialization
+  children:
+  - Mcma.Serialization.McmaJson.DefaultSettings
+  - Mcma.Serialization.McmaJson.GetSerializedType(Newtonsoft.Json.Linq.JObject,System.Type)
+  - Mcma.Serialization.McmaJson.ReadJsonFromStreamAsync(System.IO.Stream)
+  - Mcma.Serialization.McmaJson.Serializer
+  - Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  - Mcma.Serialization.McmaJson.ToMcmaObject(Newtonsoft.Json.Linq.JToken,System.Type)
+  - Mcma.Serialization.McmaJson.ToMcmaObject``1(Newtonsoft.Json.Linq.JToken)
+  - Mcma.Serialization.McmaJson.TypePropertyName
+  langs:
+  - csharp
+  - vb
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/McmaJson.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaJson
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/McmaJson.cs
+    startLine: 16
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  summary: "\nHelper class for dealing with MCMA json\n"
+  example: []
+  syntax:
+    content: public static class McmaJson
+    content.vb: Public Module McmaJson
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.Serialization.McmaJson.TypePropertyName
+  commentId: F:Mcma.Serialization.McmaJson.TypePropertyName
+  id: TypePropertyName
+  parent: Mcma.Serialization.McmaJson
+  langs:
+  - csharp
+  - vb
+  name: TypePropertyName
+  nameWithType: McmaJson.TypePropertyName
+  fullName: Mcma.Serialization.McmaJson.TypePropertyName
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/McmaJson.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: TypePropertyName
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/McmaJson.cs
+    startLine: 21
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  summary: "\nThe @type property used in all MCMA objects\n"
+  example: []
+  syntax:
+    content: public const string TypePropertyName = "@type"
+    return:
+      type: System.String
+    content.vb: Public Const TypePropertyName As String = "@type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mcma.Serialization.McmaJson.DefaultSettings
+  commentId: M:Mcma.Serialization.McmaJson.DefaultSettings
+  id: DefaultSettings
+  parent: Mcma.Serialization.McmaJson
+  langs:
+  - csharp
+  - vb
+  name: DefaultSettings()
+  nameWithType: McmaJson.DefaultSettings()
+  fullName: Mcma.Serialization.McmaJson.DefaultSettings()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/McmaJson.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: DefaultSettings
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/McmaJson.cs
+    startLine: 27
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  summary: "\nThe default settings, exposed so they can be used with other libraries that also use JSON.NET\n"
+  example: []
+  syntax:
+    content: public static JsonSerializerSettings DefaultSettings()
+    return:
+      type: Newtonsoft.Json.JsonSerializerSettings
+      description: ''
+    content.vb: Public Shared Function DefaultSettings As JsonSerializerSettings
+  overload: Mcma.Serialization.McmaJson.DefaultSettings*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Serialization.McmaJson.Serializer
+  commentId: P:Mcma.Serialization.McmaJson.Serializer
+  id: Serializer
+  parent: Mcma.Serialization.McmaJson
+  langs:
+  - csharp
+  - vb
+  name: Serializer
+  nameWithType: McmaJson.Serializer
+  fullName: Mcma.Serialization.McmaJson.Serializer
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/McmaJson.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Serializer
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/McmaJson.cs
+    startLine: 52
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  summary: "\nGets a statically-available <xref href=\"Newtonsoft.Json.JsonSerializer\" data-throw-if-not-resolved=\"false\"></xref> configured with MCMA defaults\n"
+  example: []
+  syntax:
+    content: public static JsonSerializer Serializer { get; }
+    parameters: []
+    return:
+      type: Newtonsoft.Json.JsonSerializer
+    content.vb: Public Shared ReadOnly Property Serializer As JsonSerializer
+  overload: Mcma.Serialization.McmaJson.Serializer*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mcma.Serialization.McmaJson.GetSerializedType(Newtonsoft.Json.Linq.JObject,System.Type)
+  commentId: M:Mcma.Serialization.McmaJson.GetSerializedType(Newtonsoft.Json.Linq.JObject,System.Type)
+  id: GetSerializedType(Newtonsoft.Json.Linq.JObject,System.Type)
+  parent: Mcma.Serialization.McmaJson
+  langs:
+  - csharp
+  - vb
+  name: GetSerializedType(JObject, Type)
+  nameWithType: McmaJson.GetSerializedType(JObject, Type)
+  fullName: Mcma.Serialization.McmaJson.GetSerializedType(Newtonsoft.Json.Linq.JObject, System.Type)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/McmaJson.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetSerializedType
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/McmaJson.cs
+    startLine: 62
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  summary: "\nGets the type of serialized object from a <xref href=\"Newtonsoft.Json.Linq.JObject\" data-throw-if-not-resolved=\"false\"></xref> by looking for a &quot;@type&quot; property and resolving it\n"
+  example: []
+  syntax:
+    content: public static Type GetSerializedType(JObject jObj, Type objectType = null)
+    parameters:
+    - id: jObj
+      type: Newtonsoft.Json.Linq.JObject
+      description: The json object to inspect
+    - id: objectType
+      type: System.Type
+      description: The expected object type to fall back to, if any
+    return:
+      type: System.Type
+      description: The type of the serialized object
+    content.vb: Public Shared Function GetSerializedType(jObj As JObject, objectType As Type = Nothing) As Type
+  overload: Mcma.Serialization.McmaJson.GetSerializedType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Serialization.McmaJson.ToMcmaObject``1(Newtonsoft.Json.Linq.JToken)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaObject``1(Newtonsoft.Json.Linq.JToken)
+  id: ToMcmaObject``1(Newtonsoft.Json.Linq.JToken)
+  isExtensionMethod: true
+  parent: Mcma.Serialization.McmaJson
+  langs:
+  - csharp
+  - vb
+  name: ToMcmaObject<T>(JToken)
+  nameWithType: McmaJson.ToMcmaObject<T>(JToken)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaObject<T>(Newtonsoft.Json.Linq.JToken)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/McmaJson.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ToMcmaObject
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/McmaJson.cs
+    startLine: 84
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  summary: "\nConverts json represented as a <xref href=\"Newtonsoft.Json.Linq.JToken\" data-throw-if-not-resolved=\"false\"></xref> into an object of type <see cref=\"!:T\"></see> using MCMA deserialization\n"
+  example: []
+  syntax:
+    content: public static T ToMcmaObject<T>(this JToken json)
+    parameters:
+    - id: json
+      type: Newtonsoft.Json.Linq.JToken
+      description: The json to convert
+    typeParameters:
+    - id: T
+      description: The type of object to convert to
+    return:
+      type: '{T}'
+      description: The resulting <see cref="!:T"></see> object
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToMcmaObject(Of T)(json As JToken) As T
+  overload: Mcma.Serialization.McmaJson.ToMcmaObject*
+  nameWithType.vb: McmaJson.ToMcmaObject(Of T)(JToken)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Serialization.McmaJson.ToMcmaObject(Of T)(Newtonsoft.Json.Linq.JToken)
+  name.vb: ToMcmaObject(Of T)(JToken)
+- uid: Mcma.Serialization.McmaJson.ToMcmaObject(Newtonsoft.Json.Linq.JToken,System.Type)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaObject(Newtonsoft.Json.Linq.JToken,System.Type)
+  id: ToMcmaObject(Newtonsoft.Json.Linq.JToken,System.Type)
+  isExtensionMethod: true
+  parent: Mcma.Serialization.McmaJson
+  langs:
+  - csharp
+  - vb
+  name: ToMcmaObject(JToken, Type)
+  nameWithType: McmaJson.ToMcmaObject(JToken, Type)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaObject(Newtonsoft.Json.Linq.JToken, System.Type)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/McmaJson.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ToMcmaObject
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/McmaJson.cs
+    startLine: 92
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  summary: "\nConverts json represented as a <xref href=\"Newtonsoft.Json.Linq.JToken\" data-throw-if-not-resolved=\"false\"></xref> into an object using MCMA deserialization\n"
+  example: []
+  syntax:
+    content: public static object ToMcmaObject(this JToken json, Type type = null)
+    parameters:
+    - id: json
+      type: Newtonsoft.Json.Linq.JToken
+      description: The json to convert
+    - id: type
+      type: System.Type
+      description: The type of object to convert to. If not provided, it will be derived used the &quot;@type&quot; property if available.
+    return:
+      type: System.Object
+      description: The resulting object
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToMcmaObject(json As JToken, type As Type = Nothing) As Object
+  overload: Mcma.Serialization.McmaJson.ToMcmaObject*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  id: ToMcmaJson(System.Object,System.Boolean)
+  isExtensionMethod: true
+  parent: Mcma.Serialization.McmaJson
+  langs:
+  - csharp
+  - vb
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/McmaJson.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ToMcmaJson
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/McmaJson.cs
+    startLine: 100
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  summary: "\nConverts an object to a <xref href=\"Newtonsoft.Json.Linq.JToken\" data-throw-if-not-resolved=\"false\"></xref> using MCMA serialization\n"
+  example: []
+  syntax:
+    content: public static JToken ToMcmaJson(this object obj, bool preserveCasing = false)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to convert
+    - id: preserveCasing
+      type: System.Boolean
+      description: A flag indicating if the casing of properties on the object should be preserved. Default is false.
+    return:
+      type: Newtonsoft.Json.Linq.JToken
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToMcmaJson(obj As Object, preserveCasing As Boolean = False) As JToken
+  overload: Mcma.Serialization.McmaJson.ToMcmaJson*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Serialization.McmaJson.ReadJsonFromStreamAsync(System.IO.Stream)
+  commentId: M:Mcma.Serialization.McmaJson.ReadJsonFromStreamAsync(System.IO.Stream)
+  id: ReadJsonFromStreamAsync(System.IO.Stream)
+  isExtensionMethod: true
+  parent: Mcma.Serialization.McmaJson
+  langs:
+  - csharp
+  - vb
+  name: ReadJsonFromStreamAsync(Stream)
+  nameWithType: McmaJson.ReadJsonFromStreamAsync(Stream)
+  fullName: Mcma.Serialization.McmaJson.ReadJsonFromStreamAsync(System.IO.Stream)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Core/Serialization/McmaJson.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ReadJsonFromStreamAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Serialization/McmaJson.cs
+    startLine: 108
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma.Serialization
+  summary: "\nHelper method for reading JSON from a stream\n"
+  example: []
+  syntax:
+    content: public static Task<JToken> ReadJsonFromStreamAsync(this Stream stream)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+      description: The stream to read from
+    return:
+      type: System.Threading.Tasks.Task{Newtonsoft.Json.Linq.JToken}
+      description: The content of the stream parsed as json in a <xref href="Newtonsoft.Json.Linq.JToken" data-throw-if-not-resolved="false"></xref>
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ReadJsonFromStreamAsync(stream As Stream) As Task(Of JToken)
+  overload: Mcma.Serialization.McmaJson.ReadJsonFromStreamAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.Serialization.McmaJson.DefaultSettings*
+  commentId: Overload:Mcma.Serialization.McmaJson.DefaultSettings
+  name: DefaultSettings
+  nameWithType: McmaJson.DefaultSettings
+  fullName: Mcma.Serialization.McmaJson.DefaultSettings
+- uid: Newtonsoft.Json.JsonSerializerSettings
+  commentId: T:Newtonsoft.Json.JsonSerializerSettings
+  parent: Newtonsoft.Json
+  isExternal: true
+  name: JsonSerializerSettings
+  nameWithType: JsonSerializerSettings
+  fullName: Newtonsoft.Json.JsonSerializerSettings
+- uid: Newtonsoft.Json
+  commentId: N:Newtonsoft.Json
+  isExternal: true
+  name: Newtonsoft.Json
+  nameWithType: Newtonsoft.Json
+  fullName: Newtonsoft.Json
+- uid: Newtonsoft.Json.JsonSerializer
+  commentId: T:Newtonsoft.Json.JsonSerializer
+  parent: Newtonsoft.Json
+  isExternal: true
+  name: JsonSerializer
+  nameWithType: JsonSerializer
+  fullName: Newtonsoft.Json.JsonSerializer
+- uid: Mcma.Serialization.McmaJson.Serializer*
+  commentId: Overload:Mcma.Serialization.McmaJson.Serializer
+  name: Serializer
+  nameWithType: McmaJson.Serializer
+  fullName: Mcma.Serialization.McmaJson.Serializer
+- uid: Newtonsoft.Json.Linq.JObject
+  commentId: T:Newtonsoft.Json.Linq.JObject
+  parent: Newtonsoft.Json.Linq
+  isExternal: true
+  name: JObject
+  nameWithType: JObject
+  fullName: Newtonsoft.Json.Linq.JObject
+- uid: Mcma.Serialization.McmaJson.GetSerializedType*
+  commentId: Overload:Mcma.Serialization.McmaJson.GetSerializedType
+  name: GetSerializedType
+  nameWithType: McmaJson.GetSerializedType
+  fullName: Mcma.Serialization.McmaJson.GetSerializedType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Newtonsoft.Json.Linq
+  commentId: N:Newtonsoft.Json.Linq
+  isExternal: true
+  name: Newtonsoft.Json.Linq
+  nameWithType: Newtonsoft.Json.Linq
+  fullName: Newtonsoft.Json.Linq
+- uid: Newtonsoft.Json.Linq.JToken
+  commentId: T:Newtonsoft.Json.Linq.JToken
+  parent: Newtonsoft.Json.Linq
+  isExternal: true
+  name: JToken
+  nameWithType: JToken
+  fullName: Newtonsoft.Json.Linq.JToken
+- uid: Mcma.Serialization.McmaJson.ToMcmaObject*
+  commentId: Overload:Mcma.Serialization.McmaJson.ToMcmaObject
+  name: ToMcmaObject
+  nameWithType: McmaJson.ToMcmaObject
+  fullName: Mcma.Serialization.McmaJson.ToMcmaObject
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson*
+  commentId: Overload:Mcma.Serialization.McmaJson.ToMcmaJson
+  name: ToMcmaJson
+  nameWithType: McmaJson.ToMcmaJson
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Mcma.Serialization.McmaJson.ReadJsonFromStreamAsync*
+  commentId: Overload:Mcma.Serialization.McmaJson.ReadJsonFromStreamAsync
+  name: ReadJsonFromStreamAsync
+  nameWithType: McmaJson.ReadJsonFromStreamAsync
+  fullName: Mcma.Serialization.McmaJson.ReadJsonFromStreamAsync
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.Threading.Tasks.Task{Newtonsoft.Json.Linq.JToken}
+  commentId: T:System.Threading.Tasks.Task{Newtonsoft.Json.Linq.JToken}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<JToken>
+  nameWithType: Task<JToken>
+  fullName: System.Threading.Tasks.Task<Newtonsoft.Json.Linq.JToken>
+  nameWithType.vb: Task(Of JToken)
+  fullName.vb: System.Threading.Tasks.Task(Of Newtonsoft.Json.Linq.JToken)
+  name.vb: Task(Of JToken)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Newtonsoft.Json.Linq.JToken
+    name: JToken
+    nameWithType: JToken
+    fullName: Newtonsoft.Json.Linq.JToken
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Newtonsoft.Json.Linq.JToken
+    name: JToken
+    nameWithType: JToken
+    fullName: Newtonsoft.Json.Linq.JToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

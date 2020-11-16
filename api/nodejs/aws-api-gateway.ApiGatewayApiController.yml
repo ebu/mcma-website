@@ -1,0 +1,88 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-api-gateway.ApiGatewayApiController
+    name: ApiGatewayApiController
+    fullName: ApiGatewayApiController
+    children:
+      - aws-api-gateway.ApiGatewayApiController.constructor
+      - aws-api-gateway.ApiGatewayApiController.handleRequest_1
+      - aws-api-gateway.ApiGatewayApiController.handleRequest
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: aws-api-gateway
+  - uid: aws-api-gateway.ApiGatewayApiController.constructor
+    name: >-
+      ApiGatewayApiController(McmaApiRouteCollection, LoggerProvider,
+      ConfigVariables)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ApiGatewayApiController(routes: McmaApiRouteCollection,
+        loggerProvider?: LoggerProvider, configVariables: ConfigVariables)
+      parameters:
+        - id: routes
+          type:
+            - McmaApiRouteCollection
+          description: ''
+        - id: loggerProvider
+          type:
+            - LoggerProvider
+          description: ''
+          optional: true
+        - id: configVariables
+          type:
+            - ConfigVariables
+          description: ''
+    package: aws-api-gateway
+  - uid: aws-api-gateway.ApiGatewayApiController.handleRequest_1
+    name: 'handleRequest(APIGatewayProxyEvent, Context)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function handleRequest(event: APIGatewayProxyEvent, context: Context)'
+      parameters:
+        - id: event
+          type:
+            - APIGatewayProxyEvent
+          description: ''
+        - id: context
+          type:
+            - Context
+          description: ''
+      return:
+        type:
+          - Promise<APIGatewayProxyResult>
+        description: ''
+    package: aws-api-gateway
+  - uid: aws-api-gateway.ApiGatewayApiController.handleRequest
+    name: 'handleRequest(APIGatewayProxyEventV2, Context)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function handleRequest(event: APIGatewayProxyEventV2, context: Context)'
+      parameters:
+        - id: event
+          type:
+            - APIGatewayProxyEventV2
+          description: ''
+        - id: context
+          type:
+            - Context
+          description: ''
+      return:
+        type:
+          - Promise<APIGatewayProxyResultV2>
+        description: ''
+    package: aws-api-gateway

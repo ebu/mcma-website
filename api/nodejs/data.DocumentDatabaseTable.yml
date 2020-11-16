@@ -1,0 +1,181 @@
+### YamlMime:UniversalReference
+items:
+  - uid: data.DocumentDatabaseTable
+    name: DocumentDatabaseTable
+    fullName: DocumentDatabaseTable
+    children:
+      - data.DocumentDatabaseTable.createMutex
+      - data.DocumentDatabaseTable.customQuery
+      - data.DocumentDatabaseTable.delete
+      - data.DocumentDatabaseTable.get
+      - data.DocumentDatabaseTable.put
+      - data.DocumentDatabaseTable.query
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: data
+  - uid: data.DocumentDatabaseTable.createMutex
+    name: 'createMutex(string, string, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createMutex(mutexName: string, mutexHolder: string,
+        lockTimeout?: number)
+      parameters:
+        - id: mutexName
+          type:
+            - string
+          description: ''
+        - id: mutexHolder
+          type:
+            - string
+          description: ''
+        - id: lockTimeout
+          type:
+            - number
+          description: ''
+          optional: true
+      return:
+        type:
+          - data.DocumentDatabaseMutex
+        description: ''
+    package: data
+  - uid: data.DocumentDatabaseTable.customQuery
+    name: 'customQuery(CustomQuery<TDocument, TParameters>)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function customQuery<TDocument>(query: CustomQuery<TDocument,
+        TParameters>)
+      parameters:
+        - id: query
+          type:
+            - 'data.CustomQuery<TDocument, TParameters>'
+          description: ''
+      return:
+        type:
+          - Promise<data.QueryResults<TDocument>>
+        description: ''
+    package: data
+  - uid: data.DocumentDatabaseTable.delete
+    name: delete(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function delete(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: data
+  - uid: data.DocumentDatabaseTable.get
+    name: get(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get<TDocument>(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<TDocument>
+        description: ''
+    package: data
+  - uid: data.DocumentDatabaseTable.put
+    name: 'put(string, TDocument)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function put<TDocument>(id: string, resource: TDocument)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: resource
+          type:
+            - TDocument
+          description: ''
+      return:
+        type:
+          - Promise<TDocument>
+        description: ''
+    package: data
+  - uid: data.DocumentDatabaseTable.query
+    name: query(Query<TDocument>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function query<TDocument>(query: Query<TDocument>)'
+      parameters:
+        - id: query
+          type:
+            - data.Query<TDocument>
+          description: ''
+      return:
+        type:
+          - Promise<data.QueryResults<TDocument>>
+        description: ''
+    package: data
+references:
+  - uid: data.DocumentDatabaseMutex
+    name: DocumentDatabaseMutex
+    spec.typeScript:
+      - name: DocumentDatabaseMutex
+        fullName: DocumentDatabaseMutex
+        uid: data.DocumentDatabaseMutex
+  - uid: 'data.CustomQuery<TDocument, TParameters>'
+    name: 'CustomQuery<TDocument, TParameters>'
+    spec.typeScript:
+      - name: CustomQuery
+        fullName: CustomQuery
+        uid: data.CustomQuery
+      - name: '<TDocument, TParameters>'
+        fullName: '<TDocument, TParameters>'
+  - uid: Promise<data.QueryResults<TDocument>>
+    name: QueryResults<TDocument>>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: QueryResults
+        fullName: QueryResults
+        uid: data.QueryResults
+      - name: <TDocument>>
+        fullName: <TDocument>>
+  - uid: data.Query<TDocument>
+    name: Query<TDocument>
+    spec.typeScript:
+      - name: Query
+        fullName: Query
+        uid: data.Query
+      - name: <TDocument>
+        fullName: <TDocument>

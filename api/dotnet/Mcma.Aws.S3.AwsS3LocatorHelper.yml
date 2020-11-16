@@ -1,0 +1,1127 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper
+  commentId: T:Mcma.Aws.S3.AwsS3LocatorHelper
+  id: AwsS3LocatorHelper
+  parent: Mcma.Aws.S3
+  children:
+  - Mcma.Aws.S3.AwsS3LocatorHelper.AddTypes
+  - Mcma.Aws.S3.AwsS3LocatorHelper.GetAsync(Mcma.Aws.S3.AwsS3FileLocator)
+  - Mcma.Aws.S3.AwsS3LocatorHelper.GetAsync(Mcma.Aws.S3.AwsS3FileLocator,System.String,System.String)
+  - Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketClientAsync(Mcma.Aws.S3.AwsS3Locator)
+  - Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketClientAsync(Mcma.Aws.S3.AwsS3Locator,System.String,System.String)
+  - Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketLocationAsync(Mcma.Aws.S3.AwsS3Locator)
+  - Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketLocationAsync(Mcma.Aws.S3.AwsS3Locator,System.String,System.String)
+  - Mcma.Aws.S3.AwsS3LocatorHelper.GetStreamAsync(Mcma.Aws.S3.AwsS3FileLocator)
+  - Mcma.Aws.S3.AwsS3LocatorHelper.GetStreamAsync(Mcma.Aws.S3.AwsS3FileLocator,System.String,System.String)
+  - Mcma.Aws.S3.AwsS3LocatorHelper.PutStreamAsync(Mcma.Aws.S3.AwsS3FileLocator,System.IO.Stream,System.String)
+  - Mcma.Aws.S3.AwsS3LocatorHelper.PutStreamAsync(Mcma.Aws.S3.AwsS3FileLocator,System.String,System.String,System.IO.Stream,System.String)
+  langs:
+  - csharp
+  - vb
+  name: AwsS3LocatorHelper
+  nameWithType: AwsS3LocatorHelper
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper
+  type: Class
+  source:
+    remote:
+      path: AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AwsS3LocatorHelper
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Aws.S3
+  namespace: Mcma.Aws.S3
+  syntax:
+    content: public static class AwsS3LocatorHelper
+    content.vb: Public Module AwsS3LocatorHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper.AddTypes
+  commentId: M:Mcma.Aws.S3.AwsS3LocatorHelper.AddTypes
+  id: AddTypes
+  parent: Mcma.Aws.S3.AwsS3LocatorHelper
+  langs:
+  - csharp
+  - vb
+  name: AddTypes()
+  nameWithType: AwsS3LocatorHelper.AddTypes()
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper.AddTypes()
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AddTypes
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Aws.S3
+  namespace: Mcma.Aws.S3
+  syntax:
+    content: public static IMcmaTypeRegistrations AddTypes()
+    return:
+      type: Mcma.Serialization.IMcmaTypeRegistrations
+    content.vb: Public Shared Function AddTypes As IMcmaTypeRegistrations
+  overload: Mcma.Aws.S3.AwsS3LocatorHelper.AddTypes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketLocationAsync(Mcma.Aws.S3.AwsS3Locator)
+  commentId: M:Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketLocationAsync(Mcma.Aws.S3.AwsS3Locator)
+  id: GetBucketLocationAsync(Mcma.Aws.S3.AwsS3Locator)
+  isExtensionMethod: true
+  parent: Mcma.Aws.S3.AwsS3LocatorHelper
+  langs:
+  - csharp
+  - vb
+  name: GetBucketLocationAsync(AwsS3Locator)
+  nameWithType: AwsS3LocatorHelper.GetBucketLocationAsync(AwsS3Locator)
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketLocationAsync(Mcma.Aws.S3.AwsS3Locator)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetBucketLocationAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+    startLine: 14
+  assemblies:
+  - Mcma.Aws.S3
+  namespace: Mcma.Aws.S3
+  syntax:
+    content: public static Task<string> GetBucketLocationAsync(this AwsS3Locator s3Locator)
+    parameters:
+    - id: s3Locator
+      type: Mcma.Aws.S3.AwsS3Locator
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetBucketLocationAsync(s3Locator As AwsS3Locator) As Task(Of String)
+  overload: Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketLocationAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketLocationAsync(Mcma.Aws.S3.AwsS3Locator,System.String,System.String)
+  commentId: M:Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketLocationAsync(Mcma.Aws.S3.AwsS3Locator,System.String,System.String)
+  id: GetBucketLocationAsync(Mcma.Aws.S3.AwsS3Locator,System.String,System.String)
+  isExtensionMethod: true
+  parent: Mcma.Aws.S3.AwsS3LocatorHelper
+  langs:
+  - csharp
+  - vb
+  name: GetBucketLocationAsync(AwsS3Locator, String, String)
+  nameWithType: AwsS3LocatorHelper.GetBucketLocationAsync(AwsS3Locator, String, String)
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketLocationAsync(Mcma.Aws.S3.AwsS3Locator, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetBucketLocationAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+    startLine: 20
+  assemblies:
+  - Mcma.Aws.S3
+  namespace: Mcma.Aws.S3
+  syntax:
+    content: public static Task<string> GetBucketLocationAsync(this AwsS3Locator s3Locator, string accessKey, string secretKey)
+    parameters:
+    - id: s3Locator
+      type: Mcma.Aws.S3.AwsS3Locator
+    - id: accessKey
+      type: System.String
+    - id: secretKey
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetBucketLocationAsync(s3Locator As AwsS3Locator, accessKey As String, secretKey As String) As Task(Of String)
+  overload: Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketLocationAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketClientAsync(Mcma.Aws.S3.AwsS3Locator)
+  commentId: M:Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketClientAsync(Mcma.Aws.S3.AwsS3Locator)
+  id: GetBucketClientAsync(Mcma.Aws.S3.AwsS3Locator)
+  isExtensionMethod: true
+  parent: Mcma.Aws.S3.AwsS3LocatorHelper
+  langs:
+  - csharp
+  - vb
+  name: GetBucketClientAsync(AwsS3Locator)
+  nameWithType: AwsS3LocatorHelper.GetBucketClientAsync(AwsS3Locator)
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketClientAsync(Mcma.Aws.S3.AwsS3Locator)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetBucketClientAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+    startLine: 26
+  assemblies:
+  - Mcma.Aws.S3
+  namespace: Mcma.Aws.S3
+  syntax:
+    content: public static Task<IAmazonS3> GetBucketClientAsync(this AwsS3Locator s3Locator)
+    parameters:
+    - id: s3Locator
+      type: Mcma.Aws.S3.AwsS3Locator
+    return:
+      type: System.Threading.Tasks.Task{Amazon.S3.IAmazonS3}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetBucketClientAsync(s3Locator As AwsS3Locator) As Task(Of IAmazonS3)
+  overload: Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketClientAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketClientAsync(Mcma.Aws.S3.AwsS3Locator,System.String,System.String)
+  commentId: M:Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketClientAsync(Mcma.Aws.S3.AwsS3Locator,System.String,System.String)
+  id: GetBucketClientAsync(Mcma.Aws.S3.AwsS3Locator,System.String,System.String)
+  isExtensionMethod: true
+  parent: Mcma.Aws.S3.AwsS3LocatorHelper
+  langs:
+  - csharp
+  - vb
+  name: GetBucketClientAsync(AwsS3Locator, String, String)
+  nameWithType: AwsS3LocatorHelper.GetBucketClientAsync(AwsS3Locator, String, String)
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketClientAsync(Mcma.Aws.S3.AwsS3Locator, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetBucketClientAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+    startLine: 35
+  assemblies:
+  - Mcma.Aws.S3
+  namespace: Mcma.Aws.S3
+  syntax:
+    content: public static Task<IAmazonS3> GetBucketClientAsync(this AwsS3Locator s3Locator, string accessKey, string secretKey)
+    parameters:
+    - id: s3Locator
+      type: Mcma.Aws.S3.AwsS3Locator
+    - id: accessKey
+      type: System.String
+    - id: secretKey
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Amazon.S3.IAmazonS3}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetBucketClientAsync(s3Locator As AwsS3Locator, accessKey As String, secretKey As String) As Task(Of IAmazonS3)
+  overload: Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketClientAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper.GetAsync(Mcma.Aws.S3.AwsS3FileLocator)
+  commentId: M:Mcma.Aws.S3.AwsS3LocatorHelper.GetAsync(Mcma.Aws.S3.AwsS3FileLocator)
+  id: GetAsync(Mcma.Aws.S3.AwsS3FileLocator)
+  isExtensionMethod: true
+  parent: Mcma.Aws.S3.AwsS3LocatorHelper
+  langs:
+  - csharp
+  - vb
+  name: GetAsync(AwsS3FileLocator)
+  nameWithType: AwsS3LocatorHelper.GetAsync(AwsS3FileLocator)
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper.GetAsync(Mcma.Aws.S3.AwsS3FileLocator)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+    startLine: 44
+  assemblies:
+  - Mcma.Aws.S3
+  namespace: Mcma.Aws.S3
+  syntax:
+    content: public static Task<GetObjectResponse> GetAsync(this AwsS3FileLocator s3Locator)
+    parameters:
+    - id: s3Locator
+      type: Mcma.Aws.S3.AwsS3FileLocator
+    return:
+      type: System.Threading.Tasks.Task{Amazon.S3.Model.GetObjectResponse}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetAsync(s3Locator As AwsS3FileLocator) As Task(Of GetObjectResponse)
+  overload: Mcma.Aws.S3.AwsS3LocatorHelper.GetAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper.GetAsync(Mcma.Aws.S3.AwsS3FileLocator,System.String,System.String)
+  commentId: M:Mcma.Aws.S3.AwsS3LocatorHelper.GetAsync(Mcma.Aws.S3.AwsS3FileLocator,System.String,System.String)
+  id: GetAsync(Mcma.Aws.S3.AwsS3FileLocator,System.String,System.String)
+  isExtensionMethod: true
+  parent: Mcma.Aws.S3.AwsS3LocatorHelper
+  langs:
+  - csharp
+  - vb
+  name: GetAsync(AwsS3FileLocator, String, String)
+  nameWithType: AwsS3LocatorHelper.GetAsync(AwsS3FileLocator, String, String)
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper.GetAsync(Mcma.Aws.S3.AwsS3FileLocator, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+    startLine: 50
+  assemblies:
+  - Mcma.Aws.S3
+  namespace: Mcma.Aws.S3
+  syntax:
+    content: public static Task<GetObjectResponse> GetAsync(this AwsS3FileLocator s3Locator, string accessKey, string secretKey)
+    parameters:
+    - id: s3Locator
+      type: Mcma.Aws.S3.AwsS3FileLocator
+    - id: accessKey
+      type: System.String
+    - id: secretKey
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Amazon.S3.Model.GetObjectResponse}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetAsync(s3Locator As AwsS3FileLocator, accessKey As String, secretKey As String) As Task(Of GetObjectResponse)
+  overload: Mcma.Aws.S3.AwsS3LocatorHelper.GetAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper.GetStreamAsync(Mcma.Aws.S3.AwsS3FileLocator)
+  commentId: M:Mcma.Aws.S3.AwsS3LocatorHelper.GetStreamAsync(Mcma.Aws.S3.AwsS3FileLocator)
+  id: GetStreamAsync(Mcma.Aws.S3.AwsS3FileLocator)
+  isExtensionMethod: true
+  parent: Mcma.Aws.S3.AwsS3LocatorHelper
+  langs:
+  - csharp
+  - vb
+  name: GetStreamAsync(AwsS3FileLocator)
+  nameWithType: AwsS3LocatorHelper.GetStreamAsync(AwsS3FileLocator)
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper.GetStreamAsync(Mcma.Aws.S3.AwsS3FileLocator)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetStreamAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+    startLine: 56
+  assemblies:
+  - Mcma.Aws.S3
+  namespace: Mcma.Aws.S3
+  syntax:
+    content: public static Task<Stream> GetStreamAsync(this AwsS3FileLocator s3Locator)
+    parameters:
+    - id: s3Locator
+      type: Mcma.Aws.S3.AwsS3FileLocator
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetStreamAsync(s3Locator As AwsS3FileLocator) As Task(Of Stream)
+  overload: Mcma.Aws.S3.AwsS3LocatorHelper.GetStreamAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper.GetStreamAsync(Mcma.Aws.S3.AwsS3FileLocator,System.String,System.String)
+  commentId: M:Mcma.Aws.S3.AwsS3LocatorHelper.GetStreamAsync(Mcma.Aws.S3.AwsS3FileLocator,System.String,System.String)
+  id: GetStreamAsync(Mcma.Aws.S3.AwsS3FileLocator,System.String,System.String)
+  isExtensionMethod: true
+  parent: Mcma.Aws.S3.AwsS3LocatorHelper
+  langs:
+  - csharp
+  - vb
+  name: GetStreamAsync(AwsS3FileLocator, String, String)
+  nameWithType: AwsS3LocatorHelper.GetStreamAsync(AwsS3FileLocator, String, String)
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper.GetStreamAsync(Mcma.Aws.S3.AwsS3FileLocator, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetStreamAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+    startLine: 62
+  assemblies:
+  - Mcma.Aws.S3
+  namespace: Mcma.Aws.S3
+  syntax:
+    content: public static Task<Stream> GetStreamAsync(this AwsS3FileLocator s3Locator, string accessKey, string secretKey)
+    parameters:
+    - id: s3Locator
+      type: Mcma.Aws.S3.AwsS3FileLocator
+    - id: accessKey
+      type: System.String
+    - id: secretKey
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetStreamAsync(s3Locator As AwsS3FileLocator, accessKey As String, secretKey As String) As Task(Of Stream)
+  overload: Mcma.Aws.S3.AwsS3LocatorHelper.GetStreamAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper.PutStreamAsync(Mcma.Aws.S3.AwsS3FileLocator,System.IO.Stream,System.String)
+  commentId: M:Mcma.Aws.S3.AwsS3LocatorHelper.PutStreamAsync(Mcma.Aws.S3.AwsS3FileLocator,System.IO.Stream,System.String)
+  id: PutStreamAsync(Mcma.Aws.S3.AwsS3FileLocator,System.IO.Stream,System.String)
+  isExtensionMethod: true
+  parent: Mcma.Aws.S3.AwsS3LocatorHelper
+  langs:
+  - csharp
+  - vb
+  name: PutStreamAsync(AwsS3FileLocator, Stream, String)
+  nameWithType: AwsS3LocatorHelper.PutStreamAsync(AwsS3FileLocator, Stream, String)
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper.PutStreamAsync(Mcma.Aws.S3.AwsS3FileLocator, System.IO.Stream, System.String)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: PutStreamAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+    startLine: 68
+  assemblies:
+  - Mcma.Aws.S3
+  namespace: Mcma.Aws.S3
+  syntax:
+    content: public static Task PutStreamAsync(this AwsS3FileLocator s3Locator, Stream inputStream, string contentType = null)
+    parameters:
+    - id: s3Locator
+      type: Mcma.Aws.S3.AwsS3FileLocator
+    - id: inputStream
+      type: System.IO.Stream
+    - id: contentType
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PutStreamAsync(s3Locator As AwsS3FileLocator, inputStream As Stream, contentType As String = Nothing) As Task
+  overload: Mcma.Aws.S3.AwsS3LocatorHelper.PutStreamAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper.PutStreamAsync(Mcma.Aws.S3.AwsS3FileLocator,System.String,System.String,System.IO.Stream,System.String)
+  commentId: M:Mcma.Aws.S3.AwsS3LocatorHelper.PutStreamAsync(Mcma.Aws.S3.AwsS3FileLocator,System.String,System.String,System.IO.Stream,System.String)
+  id: PutStreamAsync(Mcma.Aws.S3.AwsS3FileLocator,System.String,System.String,System.IO.Stream,System.String)
+  isExtensionMethod: true
+  parent: Mcma.Aws.S3.AwsS3LocatorHelper
+  langs:
+  - csharp
+  - vb
+  name: PutStreamAsync(AwsS3FileLocator, String, String, Stream, String)
+  nameWithType: AwsS3LocatorHelper.PutStreamAsync(AwsS3FileLocator, String, String, Stream, String)
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper.PutStreamAsync(Mcma.Aws.S3.AwsS3FileLocator, System.String, System.String, System.IO.Stream, System.String)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: PutStreamAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.S3/AwsS3LocatorHelper.cs
+    startLine: 82
+  assemblies:
+  - Mcma.Aws.S3
+  namespace: Mcma.Aws.S3
+  syntax:
+    content: public static Task PutStreamAsync(this AwsS3FileLocator s3Locator, string accessKey, string secretKey, Stream inputStream, string contentType = null)
+    parameters:
+    - id: s3Locator
+      type: Mcma.Aws.S3.AwsS3FileLocator
+    - id: accessKey
+      type: System.String
+    - id: secretKey
+      type: System.String
+    - id: inputStream
+      type: System.IO.Stream
+    - id: contentType
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PutStreamAsync(s3Locator As AwsS3FileLocator, accessKey As String, secretKey As String, inputStream As Stream, contentType As String = Nothing) As Task
+  overload: Mcma.Aws.S3.AwsS3LocatorHelper.PutStreamAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Mcma.Aws.S3
+  commentId: N:Mcma.Aws.S3
+  name: Mcma.Aws.S3
+  nameWithType: Mcma.Aws.S3
+  fullName: Mcma.Aws.S3
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper.AddTypes*
+  commentId: Overload:Mcma.Aws.S3.AwsS3LocatorHelper.AddTypes
+  name: AddTypes
+  nameWithType: AwsS3LocatorHelper.AddTypes
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper.AddTypes
+- uid: Mcma.Serialization.IMcmaTypeRegistrations
+  commentId: T:Mcma.Serialization.IMcmaTypeRegistrations
+  parent: Mcma.Serialization
+  name: IMcmaTypeRegistrations
+  nameWithType: IMcmaTypeRegistrations
+  fullName: Mcma.Serialization.IMcmaTypeRegistrations
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketLocationAsync*
+  commentId: Overload:Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketLocationAsync
+  name: GetBucketLocationAsync
+  nameWithType: AwsS3LocatorHelper.GetBucketLocationAsync
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketLocationAsync
+- uid: Mcma.Aws.S3.AwsS3Locator
+  commentId: T:Mcma.Aws.S3.AwsS3Locator
+  parent: Mcma.Aws.S3
+  name: AwsS3Locator
+  nameWithType: AwsS3Locator
+  fullName: Mcma.Aws.S3.AwsS3Locator
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketClientAsync*
+  commentId: Overload:Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketClientAsync
+  name: GetBucketClientAsync
+  nameWithType: AwsS3LocatorHelper.GetBucketClientAsync
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper.GetBucketClientAsync
+- uid: System.Threading.Tasks.Task{Amazon.S3.IAmazonS3}
+  commentId: T:System.Threading.Tasks.Task{Amazon.S3.IAmazonS3}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IAmazonS3>
+  nameWithType: Task<IAmazonS3>
+  fullName: System.Threading.Tasks.Task<Amazon.S3.IAmazonS3>
+  nameWithType.vb: Task(Of IAmazonS3)
+  fullName.vb: System.Threading.Tasks.Task(Of Amazon.S3.IAmazonS3)
+  name.vb: Task(Of IAmazonS3)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Amazon.S3.IAmazonS3
+    name: IAmazonS3
+    nameWithType: IAmazonS3
+    fullName: Amazon.S3.IAmazonS3
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Amazon.S3.IAmazonS3
+    name: IAmazonS3
+    nameWithType: IAmazonS3
+    fullName: Amazon.S3.IAmazonS3
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper.GetAsync*
+  commentId: Overload:Mcma.Aws.S3.AwsS3LocatorHelper.GetAsync
+  name: GetAsync
+  nameWithType: AwsS3LocatorHelper.GetAsync
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper.GetAsync
+- uid: Mcma.Aws.S3.AwsS3FileLocator
+  commentId: T:Mcma.Aws.S3.AwsS3FileLocator
+  parent: Mcma.Aws.S3
+  name: AwsS3FileLocator
+  nameWithType: AwsS3FileLocator
+  fullName: Mcma.Aws.S3.AwsS3FileLocator
+- uid: System.Threading.Tasks.Task{Amazon.S3.Model.GetObjectResponse}
+  commentId: T:System.Threading.Tasks.Task{Amazon.S3.Model.GetObjectResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<GetObjectResponse>
+  nameWithType: Task<GetObjectResponse>
+  fullName: System.Threading.Tasks.Task<Amazon.S3.Model.GetObjectResponse>
+  nameWithType.vb: Task(Of GetObjectResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of Amazon.S3.Model.GetObjectResponse)
+  name.vb: Task(Of GetObjectResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Amazon.S3.Model.GetObjectResponse
+    name: GetObjectResponse
+    nameWithType: GetObjectResponse
+    fullName: Amazon.S3.Model.GetObjectResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Amazon.S3.Model.GetObjectResponse
+    name: GetObjectResponse
+    nameWithType: GetObjectResponse
+    fullName: Amazon.S3.Model.GetObjectResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper.GetStreamAsync*
+  commentId: Overload:Mcma.Aws.S3.AwsS3LocatorHelper.GetStreamAsync
+  name: GetStreamAsync
+  nameWithType: AwsS3LocatorHelper.GetStreamAsync
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper.GetStreamAsync
+- uid: System.Threading.Tasks.Task{System.IO.Stream}
+  commentId: T:System.Threading.Tasks.Task{System.IO.Stream}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Stream>
+  nameWithType: Task<Stream>
+  fullName: System.Threading.Tasks.Task<System.IO.Stream>
+  nameWithType.vb: Task(Of Stream)
+  fullName.vb: System.Threading.Tasks.Task(Of System.IO.Stream)
+  name.vb: Task(Of Stream)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.S3.AwsS3LocatorHelper.PutStreamAsync*
+  commentId: Overload:Mcma.Aws.S3.AwsS3LocatorHelper.PutStreamAsync
+  name: PutStreamAsync
+  nameWithType: AwsS3LocatorHelper.PutStreamAsync
+  fullName: Mcma.Aws.S3.AwsS3LocatorHelper.PutStreamAsync
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO

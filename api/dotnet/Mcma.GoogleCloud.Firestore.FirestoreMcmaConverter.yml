@@ -1,0 +1,801 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter
+  commentId: T:Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter
+  id: FirestoreMcmaConverter
+  parent: Mcma.GoogleCloud.Firestore
+  children:
+  - Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter.FromFirestore(System.Object)
+  - Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter.ToFirestore(Mcma.McmaObject)
+  langs:
+  - csharp
+  - vb
+  name: FirestoreMcmaConverter
+  nameWithType: FirestoreMcmaConverter
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter
+  type: Class
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMcmaConverter.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: FirestoreMcmaConverter
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMcmaConverter.cs
+    startLine: 7
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: 'public class FirestoreMcmaConverter : IFirestoreConverter<McmaObject>'
+    content.vb: >-
+      Public Class FirestoreMcmaConverter
+
+          Implements IFirestoreConverter(Of McmaObject)
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Cloud.Firestore.IFirestoreConverter{Mcma.McmaObject}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter.ToFirestore(Mcma.McmaObject)
+  commentId: M:Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter.ToFirestore(Mcma.McmaObject)
+  id: ToFirestore(Mcma.McmaObject)
+  parent: Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter
+  langs:
+  - csharp
+  - vb
+  name: ToFirestore(McmaObject)
+  nameWithType: FirestoreMcmaConverter.ToFirestore(McmaObject)
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter.ToFirestore(Mcma.McmaObject)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMcmaConverter.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ToFirestore
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMcmaConverter.cs
+    startLine: 9
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: public object ToFirestore(McmaObject value)
+    parameters:
+    - id: value
+      type: Mcma.McmaObject
+    return:
+      type: System.Object
+    content.vb: Public Function ToFirestore(value As McmaObject) As Object
+  overload: Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter.ToFirestore*
+  implements:
+  - Google.Cloud.Firestore.IFirestoreConverter{Mcma.McmaObject}.ToFirestore(Mcma.McmaObject)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter.FromFirestore(System.Object)
+  commentId: M:Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter.FromFirestore(System.Object)
+  id: FromFirestore(System.Object)
+  parent: Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter
+  langs:
+  - csharp
+  - vb
+  name: FromFirestore(Object)
+  nameWithType: FirestoreMcmaConverter.FromFirestore(Object)
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter.FromFirestore(System.Object)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMcmaConverter.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: FromFirestore
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreMcmaConverter.cs
+    startLine: 11
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: public McmaObject FromFirestore(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: Mcma.McmaObject
+    content.vb: Public Function FromFirestore(value As Object) As McmaObject
+  overload: Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter.FromFirestore*
+  implements:
+  - Google.Cloud.Firestore.IFirestoreConverter{Mcma.McmaObject}.FromFirestore(System.Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.GoogleCloud.Firestore
+  commentId: N:Mcma.GoogleCloud.Firestore
+  name: Mcma.GoogleCloud.Firestore
+  nameWithType: Mcma.GoogleCloud.Firestore
+  fullName: Mcma.GoogleCloud.Firestore
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Google.Cloud.Firestore.IFirestoreConverter{Mcma.McmaObject}
+  commentId: T:Google.Cloud.Firestore.IFirestoreConverter{Mcma.McmaObject}
+  parent: Google.Cloud.Firestore
+  definition: Google.Cloud.Firestore.IFirestoreConverter`1
+  name: IFirestoreConverter<McmaObject>
+  nameWithType: IFirestoreConverter<McmaObject>
+  fullName: Google.Cloud.Firestore.IFirestoreConverter<Mcma.McmaObject>
+  nameWithType.vb: IFirestoreConverter(Of McmaObject)
+  fullName.vb: Google.Cloud.Firestore.IFirestoreConverter(Of Mcma.McmaObject)
+  name.vb: IFirestoreConverter(Of McmaObject)
+  spec.csharp:
+  - uid: Google.Cloud.Firestore.IFirestoreConverter`1
+    name: IFirestoreConverter
+    nameWithType: IFirestoreConverter
+    fullName: Google.Cloud.Firestore.IFirestoreConverter
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.McmaObject
+    name: McmaObject
+    nameWithType: McmaObject
+    fullName: Mcma.McmaObject
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Google.Cloud.Firestore.IFirestoreConverter`1
+    name: IFirestoreConverter
+    nameWithType: IFirestoreConverter
+    fullName: Google.Cloud.Firestore.IFirestoreConverter
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.McmaObject
+    name: McmaObject
+    nameWithType: McmaObject
+    fullName: Mcma.McmaObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Cloud.Firestore.IFirestoreConverter`1
+  commentId: T:Google.Cloud.Firestore.IFirestoreConverter`1
+  isExternal: true
+  name: IFirestoreConverter<T>
+  nameWithType: IFirestoreConverter<T>
+  fullName: Google.Cloud.Firestore.IFirestoreConverter<T>
+  nameWithType.vb: IFirestoreConverter(Of T)
+  fullName.vb: Google.Cloud.Firestore.IFirestoreConverter(Of T)
+  name.vb: IFirestoreConverter(Of T)
+  spec.csharp:
+  - uid: Google.Cloud.Firestore.IFirestoreConverter`1
+    name: IFirestoreConverter
+    nameWithType: IFirestoreConverter
+    fullName: Google.Cloud.Firestore.IFirestoreConverter
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Google.Cloud.Firestore.IFirestoreConverter`1
+    name: IFirestoreConverter
+    nameWithType: IFirestoreConverter
+    fullName: Google.Cloud.Firestore.IFirestoreConverter
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Google.Cloud.Firestore
+  commentId: N:Google.Cloud.Firestore
+  isExternal: true
+  name: Google.Cloud.Firestore
+  nameWithType: Google.Cloud.Firestore
+  fullName: Google.Cloud.Firestore
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter.ToFirestore*
+  commentId: Overload:Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter.ToFirestore
+  name: ToFirestore
+  nameWithType: FirestoreMcmaConverter.ToFirestore
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter.ToFirestore
+- uid: Google.Cloud.Firestore.IFirestoreConverter{Mcma.McmaObject}.ToFirestore(Mcma.McmaObject)
+  commentId: M:Google.Cloud.Firestore.IFirestoreConverter{Mcma.McmaObject}.ToFirestore(Mcma.McmaObject)
+  parent: Google.Cloud.Firestore.IFirestoreConverter{Mcma.McmaObject}
+  definition: Google.Cloud.Firestore.IFirestoreConverter`1.ToFirestore(`0)
+  name: ToFirestore(McmaObject)
+  nameWithType: IFirestoreConverter<McmaObject>.ToFirestore(McmaObject)
+  fullName: Google.Cloud.Firestore.IFirestoreConverter<Mcma.McmaObject>.ToFirestore(Mcma.McmaObject)
+  nameWithType.vb: IFirestoreConverter(Of McmaObject).ToFirestore(McmaObject)
+  fullName.vb: Google.Cloud.Firestore.IFirestoreConverter(Of Mcma.McmaObject).ToFirestore(Mcma.McmaObject)
+  spec.csharp:
+  - uid: Google.Cloud.Firestore.IFirestoreConverter`1.ToFirestore(`0)
+    name: ToFirestore
+    nameWithType: IFirestoreConverter<McmaObject>.ToFirestore
+    fullName: Google.Cloud.Firestore.IFirestoreConverter<Mcma.McmaObject>.ToFirestore
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.McmaObject
+    name: McmaObject
+    nameWithType: McmaObject
+    fullName: Mcma.McmaObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Google.Cloud.Firestore.IFirestoreConverter`1.ToFirestore(`0)
+    name: ToFirestore
+    nameWithType: IFirestoreConverter(Of McmaObject).ToFirestore
+    fullName: Google.Cloud.Firestore.IFirestoreConverter(Of Mcma.McmaObject).ToFirestore
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.McmaObject
+    name: McmaObject
+    nameWithType: McmaObject
+    fullName: Mcma.McmaObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.McmaObject
+  commentId: T:Mcma.McmaObject
+  parent: Mcma
+  name: McmaObject
+  nameWithType: McmaObject
+  fullName: Mcma.McmaObject
+- uid: Google.Cloud.Firestore.IFirestoreConverter`1.ToFirestore(`0)
+  commentId: M:Google.Cloud.Firestore.IFirestoreConverter`1.ToFirestore(`0)
+  isExternal: true
+  name: ToFirestore(T)
+  nameWithType: IFirestoreConverter<T>.ToFirestore(T)
+  fullName: Google.Cloud.Firestore.IFirestoreConverter<T>.ToFirestore(T)
+  nameWithType.vb: IFirestoreConverter(Of T).ToFirestore(T)
+  fullName.vb: Google.Cloud.Firestore.IFirestoreConverter(Of T).ToFirestore(T)
+  spec.csharp:
+  - uid: Google.Cloud.Firestore.IFirestoreConverter`1.ToFirestore(`0)
+    name: ToFirestore
+    nameWithType: IFirestoreConverter<T>.ToFirestore
+    fullName: Google.Cloud.Firestore.IFirestoreConverter<T>.ToFirestore
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Google.Cloud.Firestore.IFirestoreConverter`1.ToFirestore(`0)
+    name: ToFirestore
+    nameWithType: IFirestoreConverter(Of T).ToFirestore
+    fullName: Google.Cloud.Firestore.IFirestoreConverter(Of T).ToFirestore
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma
+  commentId: N:Mcma
+  name: Mcma
+  nameWithType: Mcma
+  fullName: Mcma
+- uid: Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter.FromFirestore*
+  commentId: Overload:Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter.FromFirestore
+  name: FromFirestore
+  nameWithType: FirestoreMcmaConverter.FromFirestore
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreMcmaConverter.FromFirestore
+- uid: Google.Cloud.Firestore.IFirestoreConverter{Mcma.McmaObject}.FromFirestore(System.Object)
+  commentId: M:Google.Cloud.Firestore.IFirestoreConverter{Mcma.McmaObject}.FromFirestore(System.Object)
+  parent: Google.Cloud.Firestore.IFirestoreConverter{Mcma.McmaObject}
+  definition: Google.Cloud.Firestore.IFirestoreConverter`1.FromFirestore(System.Object)
+  name: FromFirestore(Object)
+  nameWithType: IFirestoreConverter<McmaObject>.FromFirestore(Object)
+  fullName: Google.Cloud.Firestore.IFirestoreConverter<Mcma.McmaObject>.FromFirestore(System.Object)
+  nameWithType.vb: IFirestoreConverter(Of McmaObject).FromFirestore(Object)
+  fullName.vb: Google.Cloud.Firestore.IFirestoreConverter(Of Mcma.McmaObject).FromFirestore(System.Object)
+  spec.csharp:
+  - uid: Google.Cloud.Firestore.IFirestoreConverter`1.FromFirestore(System.Object)
+    name: FromFirestore
+    nameWithType: IFirestoreConverter<McmaObject>.FromFirestore
+    fullName: Google.Cloud.Firestore.IFirestoreConverter<Mcma.McmaObject>.FromFirestore
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Google.Cloud.Firestore.IFirestoreConverter`1.FromFirestore(System.Object)
+    name: FromFirestore
+    nameWithType: IFirestoreConverter(Of McmaObject).FromFirestore
+    fullName: Google.Cloud.Firestore.IFirestoreConverter(Of Mcma.McmaObject).FromFirestore
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Google.Cloud.Firestore.IFirestoreConverter`1.FromFirestore(System.Object)
+  commentId: M:Google.Cloud.Firestore.IFirestoreConverter`1.FromFirestore(System.Object)
+  isExternal: true
+  name: FromFirestore(Object)
+  nameWithType: IFirestoreConverter<T>.FromFirestore(Object)
+  fullName: Google.Cloud.Firestore.IFirestoreConverter<T>.FromFirestore(System.Object)
+  nameWithType.vb: IFirestoreConverter(Of T).FromFirestore(Object)
+  fullName.vb: Google.Cloud.Firestore.IFirestoreConverter(Of T).FromFirestore(System.Object)
+  spec.csharp:
+  - uid: Google.Cloud.Firestore.IFirestoreConverter`1.FromFirestore(System.Object)
+    name: FromFirestore
+    nameWithType: IFirestoreConverter<T>.FromFirestore
+    fullName: Google.Cloud.Firestore.IFirestoreConverter<T>.FromFirestore
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Google.Cloud.Firestore.IFirestoreConverter`1.FromFirestore(System.Object)
+    name: FromFirestore
+    nameWithType: IFirestoreConverter(Of T).FromFirestore
+    fullName: Google.Cloud.Firestore.IFirestoreConverter(Of T).FromFirestore
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

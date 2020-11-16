@@ -1,0 +1,656 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticator
+  commentId: T:Mcma.GoogleCloud.Client.GoogleAuthenticator
+  id: GoogleAuthenticator
+  parent: Mcma.GoogleCloud.Client
+  children:
+  - Mcma.GoogleCloud.Client.GoogleAuthenticator.#ctor(Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions,Mcma.GoogleCloud.Client.GoogleAuthContext)
+  - Mcma.GoogleCloud.Client.GoogleAuthenticator.AuthenticateAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: GoogleAuthenticator
+  nameWithType: GoogleAuthenticator
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticator
+  type: Class
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Client/GoogleAuthenticator.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GoogleAuthenticator
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Client/GoogleAuthenticator.cs
+    startLine: 9
+  assemblies:
+  - Mcma.GoogleCloud.Client
+  namespace: Mcma.GoogleCloud.Client
+  syntax:
+    content: 'public class GoogleAuthenticator : IAuthenticator'
+    content.vb: >-
+      Public Class GoogleAuthenticator
+
+          Implements IAuthenticator
+  inheritance:
+  - System.Object
+  implements:
+  - Mcma.Client.IAuthenticator
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticator.#ctor(Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions,Mcma.GoogleCloud.Client.GoogleAuthContext)
+  commentId: M:Mcma.GoogleCloud.Client.GoogleAuthenticator.#ctor(Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions,Mcma.GoogleCloud.Client.GoogleAuthContext)
+  id: '#ctor(Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions,Mcma.GoogleCloud.Client.GoogleAuthContext)'
+  parent: Mcma.GoogleCloud.Client.GoogleAuthenticator
+  langs:
+  - csharp
+  - vb
+  name: GoogleAuthenticator(GoogleAuthenticatorOptions, GoogleAuthContext)
+  nameWithType: GoogleAuthenticator.GoogleAuthenticator(GoogleAuthenticatorOptions, GoogleAuthContext)
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticator.GoogleAuthenticator(Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions, Mcma.GoogleCloud.Client.GoogleAuthContext)
+  type: Constructor
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Client/GoogleAuthenticator.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Client/GoogleAuthenticator.cs
+    startLine: 11
+  assemblies:
+  - Mcma.GoogleCloud.Client
+  namespace: Mcma.GoogleCloud.Client
+  syntax:
+    content: public GoogleAuthenticator(GoogleAuthenticatorOptions options, GoogleAuthContext authContext)
+    parameters:
+    - id: options
+      type: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+    - id: authContext
+      type: Mcma.GoogleCloud.Client.GoogleAuthContext
+    content.vb: Public Sub New(options As GoogleAuthenticatorOptions, authContext As GoogleAuthContext)
+  overload: Mcma.GoogleCloud.Client.GoogleAuthenticator.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticator.AuthenticateAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  commentId: M:Mcma.GoogleCloud.Client.GoogleAuthenticator.AuthenticateAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  id: AuthenticateAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  parent: Mcma.GoogleCloud.Client.GoogleAuthenticator
+  langs:
+  - csharp
+  - vb
+  name: AuthenticateAsync(HttpRequestMessage, CancellationToken)
+  nameWithType: GoogleAuthenticator.AuthenticateAsync(HttpRequestMessage, CancellationToken)
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticator.AuthenticateAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Client/GoogleAuthenticator.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AuthenticateAsync
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Client/GoogleAuthenticator.cs
+    startLine: 50
+  assemblies:
+  - Mcma.GoogleCloud.Client
+  namespace: Mcma.GoogleCloud.Client
+  syntax:
+    content: public Task AuthenticateAsync(HttpRequestMessage request, CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: request
+      type: System.Net.Http.HttpRequestMessage
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function AuthenticateAsync(request As HttpRequestMessage, cancellationToken As CancellationToken = Nothing) As Task
+  overload: Mcma.GoogleCloud.Client.GoogleAuthenticator.AuthenticateAsync*
+  implements:
+  - Mcma.Client.IAuthenticator.AuthenticateAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.GoogleCloud.Client
+  commentId: N:Mcma.GoogleCloud.Client
+  name: Mcma.GoogleCloud.Client
+  nameWithType: Mcma.GoogleCloud.Client
+  fullName: Mcma.GoogleCloud.Client
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Client.IAuthenticator
+  commentId: T:Mcma.Client.IAuthenticator
+  parent: Mcma.Client
+  name: IAuthenticator
+  nameWithType: IAuthenticator
+  fullName: Mcma.Client.IAuthenticator
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Client
+  commentId: N:Mcma.Client
+  name: Mcma.Client
+  nameWithType: Mcma.Client
+  fullName: Mcma.Client
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticator.#ctor*
+  commentId: Overload:Mcma.GoogleCloud.Client.GoogleAuthenticator.#ctor
+  name: GoogleAuthenticator
+  nameWithType: GoogleAuthenticator.GoogleAuthenticator
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticator.GoogleAuthenticator
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+  commentId: T:Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+  parent: Mcma.GoogleCloud.Client
+  name: GoogleAuthenticatorOptions
+  nameWithType: GoogleAuthenticatorOptions
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticatorOptions
+- uid: Mcma.GoogleCloud.Client.GoogleAuthContext
+  commentId: T:Mcma.GoogleCloud.Client.GoogleAuthContext
+  parent: Mcma.GoogleCloud.Client
+  name: GoogleAuthContext
+  nameWithType: GoogleAuthContext
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthContext
+- uid: Mcma.GoogleCloud.Client.GoogleAuthenticator.AuthenticateAsync*
+  commentId: Overload:Mcma.GoogleCloud.Client.GoogleAuthenticator.AuthenticateAsync
+  name: AuthenticateAsync
+  nameWithType: GoogleAuthenticator.AuthenticateAsync
+  fullName: Mcma.GoogleCloud.Client.GoogleAuthenticator.AuthenticateAsync
+- uid: Mcma.Client.IAuthenticator.AuthenticateAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.IAuthenticator.AuthenticateAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  parent: Mcma.Client.IAuthenticator
+  isExternal: true
+  name: AuthenticateAsync(HttpRequestMessage, CancellationToken)
+  nameWithType: IAuthenticator.AuthenticateAsync(HttpRequestMessage, CancellationToken)
+  fullName: Mcma.Client.IAuthenticator.AuthenticateAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Mcma.Client.IAuthenticator.AuthenticateAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+    name: AuthenticateAsync
+    nameWithType: IAuthenticator.AuthenticateAsync
+    fullName: Mcma.Client.IAuthenticator.AuthenticateAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.IAuthenticator.AuthenticateAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+    name: AuthenticateAsync
+    nameWithType: IAuthenticator.AuthenticateAsync
+    fullName: Mcma.Client.IAuthenticator.AuthenticateAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.HttpRequestMessage
+  commentId: T:System.Net.Http.HttpRequestMessage
+  parent: System.Net.Http
+  isExternal: true
+  name: HttpRequestMessage
+  nameWithType: HttpRequestMessage
+  fullName: System.Net.Http.HttpRequestMessage
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

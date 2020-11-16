@@ -1,0 +1,1126 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider
+  commentId: T:Mcma.Aws.CloudWatch.CloudWatchLoggerProvider
+  id: CloudWatchLoggerProvider
+  parent: Mcma.Aws.CloudWatch
+  children:
+  - Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.#ctor(Microsoft.Extensions.Options.IOptions{Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions})
+  - Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.FlushAsync
+  - Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.Get(System.String,System.String,Mcma.McmaTracker)
+  langs:
+  - csharp
+  - vb
+  name: CloudWatchLoggerProvider
+  nameWithType: CloudWatchLoggerProvider
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider
+  type: Class
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Logger/CloudWatchLoggerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: CloudWatchLoggerProvider
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Logger/CloudWatchLoggerProvider.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Aws.Logger
+  namespace: Mcma.Aws.CloudWatch
+  syntax:
+    content: 'public class CloudWatchLoggerProvider : LoggerProvider<CloudWatchLogger>, ILoggerProvider'
+    content.vb: >-
+      Public Class CloudWatchLoggerProvider
+
+          Inherits LoggerProvider(Of CloudWatchLogger)
+
+          Implements ILoggerProvider
+  inheritance:
+  - System.Object
+  - Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}
+  implements:
+  - Mcma.Logging.ILoggerProvider
+  inheritedMembers:
+  - Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}.Source
+  - Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}.Get(System.String,Mcma.McmaTracker)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.#ctor(Microsoft.Extensions.Options.IOptions{Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions})
+  commentId: M:Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.#ctor(Microsoft.Extensions.Options.IOptions{Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions})
+  id: '#ctor(Microsoft.Extensions.Options.IOptions{Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions})'
+  parent: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider
+  langs:
+  - csharp
+  - vb
+  name: CloudWatchLoggerProvider(IOptions<CloudWatchLoggerProviderOptions>)
+  nameWithType: CloudWatchLoggerProvider.CloudWatchLoggerProvider(IOptions<CloudWatchLoggerProviderOptions>)
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.CloudWatchLoggerProvider(Microsoft.Extensions.Options.IOptions<Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions>)
+  type: Constructor
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Logger/CloudWatchLoggerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Logger/CloudWatchLoggerProvider.cs
+    startLine: 14
+  assemblies:
+  - Mcma.Aws.Logger
+  namespace: Mcma.Aws.CloudWatch
+  syntax:
+    content: public CloudWatchLoggerProvider(IOptions<CloudWatchLoggerProviderOptions> options)
+    parameters:
+    - id: options
+      type: Microsoft.Extensions.Options.IOptions{Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions}
+    content.vb: Public Sub New(options As IOptions(Of CloudWatchLoggerProviderOptions))
+  overload: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.#ctor*
+  nameWithType.vb: CloudWatchLoggerProvider.CloudWatchLoggerProvider(IOptions(Of CloudWatchLoggerProviderOptions))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.CloudWatchLoggerProvider(Microsoft.Extensions.Options.IOptions(Of Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions))
+  name.vb: CloudWatchLoggerProvider(IOptions(Of CloudWatchLoggerProviderOptions))
+- uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.Get(System.String,System.String,Mcma.McmaTracker)
+  commentId: M:Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.Get(System.String,System.String,Mcma.McmaTracker)
+  id: Get(System.String,System.String,Mcma.McmaTracker)
+  parent: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider
+  langs:
+  - csharp
+  - vb
+  name: Get(String, String, McmaTracker)
+  nameWithType: CloudWatchLoggerProvider.Get(String, String, McmaTracker)
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.Get(System.String, System.String, Mcma.McmaTracker)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Logger/CloudWatchLoggerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Get
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Logger/CloudWatchLoggerProvider.cs
+    startLine: 140
+  assemblies:
+  - Mcma.Aws.Logger
+  namespace: Mcma.Aws.CloudWatch
+  syntax:
+    content: protected override CloudWatchLogger Get(string source, string requestId, McmaTracker tracker)
+    parameters:
+    - id: source
+      type: System.String
+    - id: requestId
+      type: System.String
+    - id: tracker
+      type: Mcma.McmaTracker
+    return:
+      type: Mcma.Aws.CloudWatch.CloudWatchLogger
+    content.vb: Protected Overrides Function Get(source As String, requestId As String, tracker As McmaTracker) As CloudWatchLogger
+  overridden: Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}.Get(System.String,System.String,Mcma.McmaTracker)
+  overload: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.Get*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.FlushAsync
+  commentId: M:Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.FlushAsync
+  id: FlushAsync
+  parent: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider
+  langs:
+  - csharp
+  - vb
+  name: FlushAsync()
+  nameWithType: CloudWatchLoggerProvider.FlushAsync()
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.FlushAsync()
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Logger/CloudWatchLoggerProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: FlushAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Logger/CloudWatchLoggerProvider.cs
+    startLine: 143
+  assemblies:
+  - Mcma.Aws.Logger
+  namespace: Mcma.Aws.CloudWatch
+  syntax:
+    content: public override Task FlushAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overrides Function FlushAsync As Task
+  overridden: Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}.FlushAsync
+  overload: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.FlushAsync*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Mcma.Aws.CloudWatch
+  commentId: N:Mcma.Aws.CloudWatch
+  name: Mcma.Aws.CloudWatch
+  nameWithType: Mcma.Aws.CloudWatch
+  fullName: Mcma.Aws.CloudWatch
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}
+  commentId: T:Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}
+  parent: Mcma.Logging
+  definition: Mcma.Logging.LoggerProvider`1
+  name: LoggerProvider<CloudWatchLogger>
+  nameWithType: LoggerProvider<CloudWatchLogger>
+  fullName: Mcma.Logging.LoggerProvider<Mcma.Aws.CloudWatch.CloudWatchLogger>
+  nameWithType.vb: LoggerProvider(Of CloudWatchLogger)
+  fullName.vb: Mcma.Logging.LoggerProvider(Of Mcma.Aws.CloudWatch.CloudWatchLogger)
+  name.vb: LoggerProvider(Of CloudWatchLogger)
+  spec.csharp:
+  - uid: Mcma.Logging.LoggerProvider`1
+    name: LoggerProvider
+    nameWithType: LoggerProvider
+    fullName: Mcma.Logging.LoggerProvider
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Aws.CloudWatch.CloudWatchLogger
+    name: CloudWatchLogger
+    nameWithType: CloudWatchLogger
+    fullName: Mcma.Aws.CloudWatch.CloudWatchLogger
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Logging.LoggerProvider`1
+    name: LoggerProvider
+    nameWithType: LoggerProvider
+    fullName: Mcma.Logging.LoggerProvider
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Aws.CloudWatch.CloudWatchLogger
+    name: CloudWatchLogger
+    nameWithType: CloudWatchLogger
+    fullName: Mcma.Aws.CloudWatch.CloudWatchLogger
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.ILoggerProvider
+  commentId: T:Mcma.Logging.ILoggerProvider
+  parent: Mcma.Logging
+  name: ILoggerProvider
+  nameWithType: ILoggerProvider
+  fullName: Mcma.Logging.ILoggerProvider
+- uid: Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}.Source
+  commentId: P:Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}.Source
+  parent: Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}
+  definition: Mcma.Logging.LoggerProvider`1.Source
+  name: Source
+  nameWithType: LoggerProvider<CloudWatchLogger>.Source
+  fullName: Mcma.Logging.LoggerProvider<Mcma.Aws.CloudWatch.CloudWatchLogger>.Source
+  nameWithType.vb: LoggerProvider(Of CloudWatchLogger).Source
+  fullName.vb: Mcma.Logging.LoggerProvider(Of Mcma.Aws.CloudWatch.CloudWatchLogger).Source
+- uid: Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}.Get(System.String,Mcma.McmaTracker)
+  commentId: M:Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}.Get(System.String,Mcma.McmaTracker)
+  parent: Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}
+  definition: Mcma.Logging.LoggerProvider`1.Get(System.String,Mcma.McmaTracker)
+  name: Get(String, McmaTracker)
+  nameWithType: LoggerProvider<CloudWatchLogger>.Get(String, McmaTracker)
+  fullName: Mcma.Logging.LoggerProvider<Mcma.Aws.CloudWatch.CloudWatchLogger>.Get(System.String, Mcma.McmaTracker)
+  nameWithType.vb: LoggerProvider(Of CloudWatchLogger).Get(String, McmaTracker)
+  fullName.vb: Mcma.Logging.LoggerProvider(Of Mcma.Aws.CloudWatch.CloudWatchLogger).Get(System.String, Mcma.McmaTracker)
+  spec.csharp:
+  - uid: Mcma.Logging.LoggerProvider`1.Get(System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: LoggerProvider<CloudWatchLogger>.Get
+    fullName: Mcma.Logging.LoggerProvider<Mcma.Aws.CloudWatch.CloudWatchLogger>.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.LoggerProvider`1.Get(System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: LoggerProvider(Of CloudWatchLogger).Get
+    fullName: Mcma.Logging.LoggerProvider(Of Mcma.Aws.CloudWatch.CloudWatchLogger).Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Logging.LoggerProvider`1
+  commentId: T:Mcma.Logging.LoggerProvider`1
+  name: LoggerProvider<T>
+  nameWithType: LoggerProvider<T>
+  fullName: Mcma.Logging.LoggerProvider<T>
+  nameWithType.vb: LoggerProvider(Of T)
+  fullName.vb: Mcma.Logging.LoggerProvider(Of T)
+  name.vb: LoggerProvider(Of T)
+  spec.csharp:
+  - uid: Mcma.Logging.LoggerProvider`1
+    name: LoggerProvider
+    nameWithType: LoggerProvider
+    fullName: Mcma.Logging.LoggerProvider
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Logging.LoggerProvider`1
+    name: LoggerProvider
+    nameWithType: LoggerProvider
+    fullName: Mcma.Logging.LoggerProvider
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging
+  commentId: N:Mcma.Logging
+  name: Mcma.Logging
+  nameWithType: Mcma.Logging
+  fullName: Mcma.Logging
+- uid: Mcma.Logging.LoggerProvider`1.Source
+  commentId: P:Mcma.Logging.LoggerProvider`1.Source
+  name: Source
+  nameWithType: LoggerProvider<T>.Source
+  fullName: Mcma.Logging.LoggerProvider<T>.Source
+  nameWithType.vb: LoggerProvider(Of T).Source
+  fullName.vb: Mcma.Logging.LoggerProvider(Of T).Source
+- uid: Mcma.Logging.LoggerProvider`1.Get(System.String,Mcma.McmaTracker)
+  commentId: M:Mcma.Logging.LoggerProvider`1.Get(System.String,Mcma.McmaTracker)
+  isExternal: true
+  name: Get(String, McmaTracker)
+  nameWithType: LoggerProvider<T>.Get(String, McmaTracker)
+  fullName: Mcma.Logging.LoggerProvider<T>.Get(System.String, Mcma.McmaTracker)
+  nameWithType.vb: LoggerProvider(Of T).Get(String, McmaTracker)
+  fullName.vb: Mcma.Logging.LoggerProvider(Of T).Get(System.String, Mcma.McmaTracker)
+  spec.csharp:
+  - uid: Mcma.Logging.LoggerProvider`1.Get(System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: LoggerProvider<T>.Get
+    fullName: Mcma.Logging.LoggerProvider<T>.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.LoggerProvider`1.Get(System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: LoggerProvider(Of T).Get
+    fullName: Mcma.Logging.LoggerProvider(Of T).Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.#ctor*
+  commentId: Overload:Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.#ctor
+  name: CloudWatchLoggerProvider
+  nameWithType: CloudWatchLoggerProvider.CloudWatchLoggerProvider
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.CloudWatchLoggerProvider
+- uid: Microsoft.Extensions.Options.IOptions{Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions}
+  commentId: T:Microsoft.Extensions.Options.IOptions{Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IOptions`1
+  name: IOptions<CloudWatchLoggerProviderOptions>
+  nameWithType: IOptions<CloudWatchLoggerProviderOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions>
+  nameWithType.vb: IOptions(Of CloudWatchLoggerProviderOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions)
+  name.vb: IOptions(Of CloudWatchLoggerProviderOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions
+    name: CloudWatchLoggerProviderOptions
+    nameWithType: CloudWatchLoggerProviderOptions
+    fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions
+    name: CloudWatchLoggerProviderOptions
+    nameWithType: CloudWatchLoggerProviderOptions
+    fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProviderOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options.IOptions`1
+  commentId: T:Microsoft.Extensions.Options.IOptions`1
+  isExternal: true
+  name: IOptions<TOptions>
+  nameWithType: IOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<TOptions>
+  nameWithType.vb: IOptions(Of TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of TOptions)
+  name.vb: IOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: true
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+- uid: Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}.Get(System.String,System.String,Mcma.McmaTracker)
+  commentId: M:Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}.Get(System.String,System.String,Mcma.McmaTracker)
+  parent: Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}
+  definition: Mcma.Logging.LoggerProvider`1.Get(System.String,System.String,Mcma.McmaTracker)
+  name: Get(String, String, McmaTracker)
+  nameWithType: LoggerProvider<CloudWatchLogger>.Get(String, String, McmaTracker)
+  fullName: Mcma.Logging.LoggerProvider<Mcma.Aws.CloudWatch.CloudWatchLogger>.Get(System.String, System.String, Mcma.McmaTracker)
+  nameWithType.vb: LoggerProvider(Of CloudWatchLogger).Get(String, String, McmaTracker)
+  fullName.vb: Mcma.Logging.LoggerProvider(Of Mcma.Aws.CloudWatch.CloudWatchLogger).Get(System.String, System.String, Mcma.McmaTracker)
+  spec.csharp:
+  - uid: Mcma.Logging.LoggerProvider`1.Get(System.String,System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: LoggerProvider<CloudWatchLogger>.Get
+    fullName: Mcma.Logging.LoggerProvider<Mcma.Aws.CloudWatch.CloudWatchLogger>.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.LoggerProvider`1.Get(System.String,System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: LoggerProvider(Of CloudWatchLogger).Get
+    fullName: Mcma.Logging.LoggerProvider(Of Mcma.Aws.CloudWatch.CloudWatchLogger).Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.Get*
+  commentId: Overload:Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.Get
+  name: Get
+  nameWithType: CloudWatchLoggerProvider.Get
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.Get
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.McmaTracker
+  commentId: T:Mcma.McmaTracker
+  parent: Mcma
+  name: McmaTracker
+  nameWithType: McmaTracker
+  fullName: Mcma.McmaTracker
+- uid: Mcma.Aws.CloudWatch.CloudWatchLogger
+  commentId: T:Mcma.Aws.CloudWatch.CloudWatchLogger
+  parent: Mcma.Aws.CloudWatch
+  name: CloudWatchLogger
+  nameWithType: CloudWatchLogger
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLogger
+- uid: Mcma.Logging.LoggerProvider`1.Get(System.String,System.String,Mcma.McmaTracker)
+  commentId: M:Mcma.Logging.LoggerProvider`1.Get(System.String,System.String,Mcma.McmaTracker)
+  isExternal: true
+  name: Get(String, String, McmaTracker)
+  nameWithType: LoggerProvider<T>.Get(String, String, McmaTracker)
+  fullName: Mcma.Logging.LoggerProvider<T>.Get(System.String, System.String, Mcma.McmaTracker)
+  nameWithType.vb: LoggerProvider(Of T).Get(String, String, McmaTracker)
+  fullName.vb: Mcma.Logging.LoggerProvider(Of T).Get(System.String, System.String, Mcma.McmaTracker)
+  spec.csharp:
+  - uid: Mcma.Logging.LoggerProvider`1.Get(System.String,System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: LoggerProvider<T>.Get
+    fullName: Mcma.Logging.LoggerProvider<T>.Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.LoggerProvider`1.Get(System.String,System.String,Mcma.McmaTracker)
+    name: Get
+    nameWithType: LoggerProvider(Of T).Get
+    fullName: Mcma.Logging.LoggerProvider(Of T).Get
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.McmaTracker
+    name: McmaTracker
+    nameWithType: McmaTracker
+    fullName: Mcma.McmaTracker
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma
+  commentId: N:Mcma
+  name: Mcma
+  nameWithType: Mcma
+  fullName: Mcma
+- uid: Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}.FlushAsync
+  commentId: M:Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}.FlushAsync
+  parent: Mcma.Logging.LoggerProvider{Mcma.Aws.CloudWatch.CloudWatchLogger}
+  definition: Mcma.Logging.LoggerProvider`1.FlushAsync
+  name: FlushAsync()
+  nameWithType: LoggerProvider<CloudWatchLogger>.FlushAsync()
+  fullName: Mcma.Logging.LoggerProvider<Mcma.Aws.CloudWatch.CloudWatchLogger>.FlushAsync()
+  nameWithType.vb: LoggerProvider(Of CloudWatchLogger).FlushAsync()
+  fullName.vb: Mcma.Logging.LoggerProvider(Of Mcma.Aws.CloudWatch.CloudWatchLogger).FlushAsync()
+  spec.csharp:
+  - uid: Mcma.Logging.LoggerProvider`1.FlushAsync
+    name: FlushAsync
+    nameWithType: LoggerProvider<CloudWatchLogger>.FlushAsync
+    fullName: Mcma.Logging.LoggerProvider<Mcma.Aws.CloudWatch.CloudWatchLogger>.FlushAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.LoggerProvider`1.FlushAsync
+    name: FlushAsync
+    nameWithType: LoggerProvider(Of CloudWatchLogger).FlushAsync
+    fullName: Mcma.Logging.LoggerProvider(Of Mcma.Aws.CloudWatch.CloudWatchLogger).FlushAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.FlushAsync*
+  commentId: Overload:Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.FlushAsync
+  name: FlushAsync
+  nameWithType: CloudWatchLoggerProvider.FlushAsync
+  fullName: Mcma.Aws.CloudWatch.CloudWatchLoggerProvider.FlushAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Mcma.Logging.LoggerProvider`1.FlushAsync
+  commentId: M:Mcma.Logging.LoggerProvider`1.FlushAsync
+  name: FlushAsync()
+  nameWithType: LoggerProvider<T>.FlushAsync()
+  fullName: Mcma.Logging.LoggerProvider<T>.FlushAsync()
+  nameWithType.vb: LoggerProvider(Of T).FlushAsync()
+  fullName.vb: Mcma.Logging.LoggerProvider(Of T).FlushAsync()
+  spec.csharp:
+  - uid: Mcma.Logging.LoggerProvider`1.FlushAsync
+    name: FlushAsync
+    nameWithType: LoggerProvider<T>.FlushAsync
+    fullName: Mcma.Logging.LoggerProvider<T>.FlushAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Logging.LoggerProvider`1.FlushAsync
+    name: FlushAsync
+    nameWithType: LoggerProvider(Of T).FlushAsync
+    fullName: Mcma.Logging.LoggerProvider(Of T).FlushAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

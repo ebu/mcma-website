@@ -1,0 +1,883 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.ApiGateway.ApiGatewayApiController
+  commentId: T:Mcma.Aws.ApiGateway.ApiGatewayApiController
+  id: ApiGatewayApiController
+  parent: Mcma.Aws.ApiGateway
+  children:
+  - Mcma.Aws.ApiGateway.ApiGatewayApiController.#ctor(Mcma.Logging.ILoggerProvider,Mcma.Api.IMcmaApiController)
+  - Mcma.Aws.ApiGateway.ApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  - Mcma.Aws.ApiGateway.ApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  langs:
+  - csharp
+  - vb
+  name: ApiGatewayApiController
+  nameWithType: ApiGatewayApiController
+  fullName: Mcma.Aws.ApiGateway.ApiGatewayApiController
+  type: Class
+  source:
+    remote:
+      path: AWS/Mcma.Aws.ApiGateway/ApiGatewayApiController.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ApiGatewayApiController
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.ApiGateway/ApiGatewayApiController.cs
+    startLine: 12
+  assemblies:
+  - Mcma.Aws.ApiGateway
+  namespace: Mcma.Aws.ApiGateway
+  syntax:
+    content: 'public class ApiGatewayApiController : IApiGatewayApiController'
+    content.vb: >-
+      Public Class ApiGatewayApiController
+
+          Implements IApiGatewayApiController
+  inheritance:
+  - System.Object
+  implements:
+  - Mcma.Aws.ApiGateway.IApiGatewayApiController
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Aws.ApiGateway.ApiGatewayApiController.#ctor(Mcma.Logging.ILoggerProvider,Mcma.Api.IMcmaApiController)
+  commentId: M:Mcma.Aws.ApiGateway.ApiGatewayApiController.#ctor(Mcma.Logging.ILoggerProvider,Mcma.Api.IMcmaApiController)
+  id: '#ctor(Mcma.Logging.ILoggerProvider,Mcma.Api.IMcmaApiController)'
+  parent: Mcma.Aws.ApiGateway.ApiGatewayApiController
+  langs:
+  - csharp
+  - vb
+  name: ApiGatewayApiController(ILoggerProvider, IMcmaApiController)
+  nameWithType: ApiGatewayApiController.ApiGatewayApiController(ILoggerProvider, IMcmaApiController)
+  fullName: Mcma.Aws.ApiGateway.ApiGatewayApiController.ApiGatewayApiController(Mcma.Logging.ILoggerProvider, Mcma.Api.IMcmaApiController)
+  type: Constructor
+  source:
+    remote:
+      path: AWS/Mcma.Aws.ApiGateway/ApiGatewayApiController.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.ApiGateway/ApiGatewayApiController.cs
+    startLine: 14
+  assemblies:
+  - Mcma.Aws.ApiGateway
+  namespace: Mcma.Aws.ApiGateway
+  syntax:
+    content: public ApiGatewayApiController(ILoggerProvider loggerProvider, IMcmaApiController controller)
+    parameters:
+    - id: loggerProvider
+      type: Mcma.Logging.ILoggerProvider
+    - id: controller
+      type: Mcma.Api.IMcmaApiController
+    content.vb: Public Sub New(loggerProvider As ILoggerProvider, controller As IMcmaApiController)
+  overload: Mcma.Aws.ApiGateway.ApiGatewayApiController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Aws.ApiGateway.ApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  commentId: M:Mcma.Aws.ApiGateway.ApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  id: HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  parent: Mcma.Aws.ApiGateway.ApiGatewayApiController
+  langs:
+  - csharp
+  - vb
+  name: HandleRequestAsync(APIGatewayHttpApiV2ProxyRequest, ILambdaContext)
+  nameWithType: ApiGatewayApiController.HandleRequestAsync(APIGatewayHttpApiV2ProxyRequest, ILambdaContext)
+  fullName: Mcma.Aws.ApiGateway.ApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest, Amazon.Lambda.Core.ILambdaContext)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.ApiGateway/ApiGatewayApiController.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: HandleRequestAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.ApiGateway/ApiGatewayApiController.cs
+    startLine: 24
+  assemblies:
+  - Mcma.Aws.ApiGateway
+  namespace: Mcma.Aws.ApiGateway
+  syntax:
+    content: public Task<APIGatewayHttpApiV2ProxyResponse> HandleRequestAsync(APIGatewayHttpApiV2ProxyRequest request, ILambdaContext context)
+    parameters:
+    - id: request
+      type: Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest
+    - id: context
+      type: Amazon.Lambda.Core.ILambdaContext
+    return:
+      type: System.Threading.Tasks.Task{Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyResponse}
+    content.vb: Public Function HandleRequestAsync(request As APIGatewayHttpApiV2ProxyRequest, context As ILambdaContext) As Task(Of APIGatewayHttpApiV2ProxyResponse)
+  overload: Mcma.Aws.ApiGateway.ApiGatewayApiController.HandleRequestAsync*
+  implements:
+  - Mcma.Aws.ApiGateway.IApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Aws.ApiGateway.ApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  commentId: M:Mcma.Aws.ApiGateway.ApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  id: HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  parent: Mcma.Aws.ApiGateway.ApiGatewayApiController
+  langs:
+  - csharp
+  - vb
+  name: HandleRequestAsync(APIGatewayProxyRequest, ILambdaContext)
+  nameWithType: ApiGatewayApiController.HandleRequestAsync(APIGatewayProxyRequest, ILambdaContext)
+  fullName: Mcma.Aws.ApiGateway.ApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest, Amazon.Lambda.Core.ILambdaContext)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.ApiGateway/ApiGatewayApiController.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: HandleRequestAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.ApiGateway/ApiGatewayApiController.cs
+    startLine: 56
+  assemblies:
+  - Mcma.Aws.ApiGateway
+  namespace: Mcma.Aws.ApiGateway
+  syntax:
+    content: public Task<APIGatewayProxyResponse> HandleRequestAsync(APIGatewayProxyRequest request, ILambdaContext context)
+    parameters:
+    - id: request
+      type: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest
+    - id: context
+      type: Amazon.Lambda.Core.ILambdaContext
+    return:
+      type: System.Threading.Tasks.Task{Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse}
+    content.vb: Public Function HandleRequestAsync(request As APIGatewayProxyRequest, context As ILambdaContext) As Task(Of APIGatewayProxyResponse)
+  overload: Mcma.Aws.ApiGateway.ApiGatewayApiController.HandleRequestAsync*
+  implements:
+  - Mcma.Aws.ApiGateway.IApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Aws.ApiGateway
+  commentId: N:Mcma.Aws.ApiGateway
+  name: Mcma.Aws.ApiGateway
+  nameWithType: Mcma.Aws.ApiGateway
+  fullName: Mcma.Aws.ApiGateway
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Aws.ApiGateway.IApiGatewayApiController
+  commentId: T:Mcma.Aws.ApiGateway.IApiGatewayApiController
+  parent: Mcma.Aws.ApiGateway
+  name: IApiGatewayApiController
+  nameWithType: IApiGatewayApiController
+  fullName: Mcma.Aws.ApiGateway.IApiGatewayApiController
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Aws.ApiGateway.ApiGatewayApiController.#ctor*
+  commentId: Overload:Mcma.Aws.ApiGateway.ApiGatewayApiController.#ctor
+  name: ApiGatewayApiController
+  nameWithType: ApiGatewayApiController.ApiGatewayApiController
+  fullName: Mcma.Aws.ApiGateway.ApiGatewayApiController.ApiGatewayApiController
+- uid: Mcma.Logging.ILoggerProvider
+  commentId: T:Mcma.Logging.ILoggerProvider
+  parent: Mcma.Logging
+  name: ILoggerProvider
+  nameWithType: ILoggerProvider
+  fullName: Mcma.Logging.ILoggerProvider
+- uid: Mcma.Api.IMcmaApiController
+  commentId: T:Mcma.Api.IMcmaApiController
+  parent: Mcma.Api
+  name: IMcmaApiController
+  nameWithType: IMcmaApiController
+  fullName: Mcma.Api.IMcmaApiController
+- uid: Mcma.Logging
+  commentId: N:Mcma.Logging
+  name: Mcma.Logging
+  nameWithType: Mcma.Logging
+  fullName: Mcma.Logging
+- uid: Mcma.Api
+  commentId: N:Mcma.Api
+  name: Mcma.Api
+  nameWithType: Mcma.Api
+  fullName: Mcma.Api
+- uid: Mcma.Aws.ApiGateway.ApiGatewayApiController.HandleRequestAsync*
+  commentId: Overload:Mcma.Aws.ApiGateway.ApiGatewayApiController.HandleRequestAsync
+  name: HandleRequestAsync
+  nameWithType: ApiGatewayApiController.HandleRequestAsync
+  fullName: Mcma.Aws.ApiGateway.ApiGatewayApiController.HandleRequestAsync
+- uid: Mcma.Aws.ApiGateway.IApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  commentId: M:Mcma.Aws.ApiGateway.IApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  parent: Mcma.Aws.ApiGateway.IApiGatewayApiController
+  isExternal: true
+  name: HandleRequestAsync(APIGatewayHttpApiV2ProxyRequest, ILambdaContext)
+  nameWithType: IApiGatewayApiController.HandleRequestAsync(APIGatewayHttpApiV2ProxyRequest, ILambdaContext)
+  fullName: Mcma.Aws.ApiGateway.IApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest, Amazon.Lambda.Core.ILambdaContext)
+  spec.csharp:
+  - uid: Mcma.Aws.ApiGateway.IApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+    name: HandleRequestAsync
+    nameWithType: IApiGatewayApiController.HandleRequestAsync
+    fullName: Mcma.Aws.ApiGateway.IApiGatewayApiController.HandleRequestAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest
+    name: APIGatewayHttpApiV2ProxyRequest
+    nameWithType: APIGatewayHttpApiV2ProxyRequest
+    fullName: Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Amazon.Lambda.Core.ILambdaContext
+    name: ILambdaContext
+    nameWithType: ILambdaContext
+    fullName: Amazon.Lambda.Core.ILambdaContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Aws.ApiGateway.IApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+    name: HandleRequestAsync
+    nameWithType: IApiGatewayApiController.HandleRequestAsync
+    fullName: Mcma.Aws.ApiGateway.IApiGatewayApiController.HandleRequestAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest
+    name: APIGatewayHttpApiV2ProxyRequest
+    nameWithType: APIGatewayHttpApiV2ProxyRequest
+    fullName: Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Amazon.Lambda.Core.ILambdaContext
+    name: ILambdaContext
+    nameWithType: ILambdaContext
+    fullName: Amazon.Lambda.Core.ILambdaContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest
+  commentId: T:Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest
+  parent: Amazon.Lambda.APIGatewayEvents
+  isExternal: true
+  name: APIGatewayHttpApiV2ProxyRequest
+  nameWithType: APIGatewayHttpApiV2ProxyRequest
+  fullName: Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyRequest
+- uid: Amazon.Lambda.Core.ILambdaContext
+  commentId: T:Amazon.Lambda.Core.ILambdaContext
+  parent: Amazon.Lambda.Core
+  isExternal: true
+  name: ILambdaContext
+  nameWithType: ILambdaContext
+  fullName: Amazon.Lambda.Core.ILambdaContext
+- uid: System.Threading.Tasks.Task{Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyResponse}
+  commentId: T:System.Threading.Tasks.Task{Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<APIGatewayHttpApiV2ProxyResponse>
+  nameWithType: Task<APIGatewayHttpApiV2ProxyResponse>
+  fullName: System.Threading.Tasks.Task<Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyResponse>
+  nameWithType.vb: Task(Of APIGatewayHttpApiV2ProxyResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyResponse)
+  name.vb: Task(Of APIGatewayHttpApiV2ProxyResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyResponse
+    name: APIGatewayHttpApiV2ProxyResponse
+    nameWithType: APIGatewayHttpApiV2ProxyResponse
+    fullName: Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyResponse
+    name: APIGatewayHttpApiV2ProxyResponse
+    nameWithType: APIGatewayHttpApiV2ProxyResponse
+    fullName: Amazon.Lambda.APIGatewayEvents.APIGatewayHttpApiV2ProxyResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Amazon.Lambda.APIGatewayEvents
+  commentId: N:Amazon.Lambda.APIGatewayEvents
+  isExternal: true
+  name: Amazon.Lambda.APIGatewayEvents
+  nameWithType: Amazon.Lambda.APIGatewayEvents
+  fullName: Amazon.Lambda.APIGatewayEvents
+- uid: Amazon.Lambda.Core
+  commentId: N:Amazon.Lambda.Core
+  isExternal: true
+  name: Amazon.Lambda.Core
+  nameWithType: Amazon.Lambda.Core
+  fullName: Amazon.Lambda.Core
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Mcma.Aws.ApiGateway.IApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  commentId: M:Mcma.Aws.ApiGateway.IApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  parent: Mcma.Aws.ApiGateway.IApiGatewayApiController
+  isExternal: true
+  name: HandleRequestAsync(APIGatewayProxyRequest, ILambdaContext)
+  nameWithType: IApiGatewayApiController.HandleRequestAsync(APIGatewayProxyRequest, ILambdaContext)
+  fullName: Mcma.Aws.ApiGateway.IApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest, Amazon.Lambda.Core.ILambdaContext)
+  spec.csharp:
+  - uid: Mcma.Aws.ApiGateway.IApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+    name: HandleRequestAsync
+    nameWithType: IApiGatewayApiController.HandleRequestAsync
+    fullName: Mcma.Aws.ApiGateway.IApiGatewayApiController.HandleRequestAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest
+    name: APIGatewayProxyRequest
+    nameWithType: APIGatewayProxyRequest
+    fullName: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Amazon.Lambda.Core.ILambdaContext
+    name: ILambdaContext
+    nameWithType: ILambdaContext
+    fullName: Amazon.Lambda.Core.ILambdaContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Aws.ApiGateway.IApiGatewayApiController.HandleRequestAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+    name: HandleRequestAsync
+    nameWithType: IApiGatewayApiController.HandleRequestAsync
+    fullName: Mcma.Aws.ApiGateway.IApiGatewayApiController.HandleRequestAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest
+    name: APIGatewayProxyRequest
+    nameWithType: APIGatewayProxyRequest
+    fullName: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Amazon.Lambda.Core.ILambdaContext
+    name: ILambdaContext
+    nameWithType: ILambdaContext
+    fullName: Amazon.Lambda.Core.ILambdaContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest
+  commentId: T:Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest
+  parent: Amazon.Lambda.APIGatewayEvents
+  isExternal: true
+  name: APIGatewayProxyRequest
+  nameWithType: APIGatewayProxyRequest
+  fullName: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest
+- uid: System.Threading.Tasks.Task{Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse}
+  commentId: T:System.Threading.Tasks.Task{Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<APIGatewayProxyResponse>
+  nameWithType: Task<APIGatewayProxyResponse>
+  fullName: System.Threading.Tasks.Task<Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse>
+  nameWithType.vb: Task(Of APIGatewayProxyResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse)
+  name.vb: Task(Of APIGatewayProxyResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse
+    name: APIGatewayProxyResponse
+    nameWithType: APIGatewayProxyResponse
+    fullName: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse
+    name: APIGatewayProxyResponse
+    nameWithType: APIGatewayProxyResponse
+    fullName: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

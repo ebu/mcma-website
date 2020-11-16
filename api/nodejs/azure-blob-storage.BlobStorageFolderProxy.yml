@@ -1,0 +1,141 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-blob-storage.BlobStorageFolderProxy
+    name: BlobStorageFolderProxy
+    fullName: BlobStorageFolderProxy
+    children:
+      - azure-blob-storage.BlobStorageFolderProxy.client
+      - azure-blob-storage.BlobStorageFolderProxy.container
+      - azure-blob-storage.BlobStorageFolderProxy.locator
+      - azure-blob-storage.BlobStorageFolderProxy.put
+      - azure-blob-storage.BlobStorageFolderProxy.putAsText
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: >-
+        azure-blob-storage.BlobStorageProxy<azure-blob-storage.BlobStorageFolderLocator>
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageFolderProxy.client
+    name: client
+    fullName: client
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'client: BlobServiceClient'
+      return:
+        type:
+          - BlobServiceClient
+        description: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageFolderProxy.container
+    name: container
+    fullName: container
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'container: ContainerClient'
+      return:
+        type:
+          - ContainerClient
+        description: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageFolderProxy.locator
+    name: locator
+    fullName: locator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'locator: BlobStorageFolderLocator'
+      return:
+        type:
+          - azure-blob-storage.BlobStorageFolderLocator
+        description: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageFolderProxy.put
+    name: 'put(string, Readable)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function put(fileName: string, readFrom: Readable)'
+      parameters:
+        - id: fileName
+          type:
+            - string
+          description: ''
+        - id: readFrom
+          type:
+            - Readable
+          description: ''
+      return:
+        type:
+          - Promise<azure-blob-storage.BlobStorageFileLocator>
+        description: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageFolderProxy.putAsText
+    name: 'putAsText(string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function putAsText(fileName: string, content: string)'
+      parameters:
+        - id: fileName
+          type:
+            - string
+          description: ''
+        - id: content
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<azure-blob-storage.BlobStorageFileLocator>
+        description: ''
+    package: azure-blob-storage
+references:
+  - uid: >-
+      azure-blob-storage.BlobStorageProxy<azure-blob-storage.BlobStorageFolderLocator>
+    name: BlobStorageFolderLocator>
+    spec.typeScript:
+      - name: BlobStorageProxy
+        fullName: BlobStorageProxy
+        uid: azure-blob-storage.BlobStorageProxy
+      - name: <
+        fullName: <
+      - name: BlobStorageFolderLocator
+        fullName: BlobStorageFolderLocator
+        uid: azure-blob-storage.BlobStorageFolderLocator
+      - name: '>'
+        fullName: '>'
+  - uid: azure-blob-storage.BlobStorageFolderLocator
+    name: BlobStorageFolderLocator
+    spec.typeScript:
+      - name: BlobStorageFolderLocator
+        fullName: BlobStorageFolderLocator
+        uid: azure-blob-storage.BlobStorageFolderLocator
+  - uid: Promise<azure-blob-storage.BlobStorageFileLocator>
+    name: BlobStorageFileLocator>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobStorageFileLocator
+        fullName: BlobStorageFileLocator
+        uid: azure-blob-storage.BlobStorageFileLocator
+      - name: '>'
+        fullName: '>'

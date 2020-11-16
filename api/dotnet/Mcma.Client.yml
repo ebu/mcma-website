@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Client
+  commentId: N:Mcma.Client
+  id: Mcma.Client
+  children:
+  - Mcma.Client.AuthenticationServiceCollectionExtensions
+  - Mcma.Client.AuthenticatorFactory`1
+  - Mcma.Client.AuthenticatorRegistry
+  - Mcma.Client.HttpContentExtensions
+  - Mcma.Client.HttpResponseExtensions
+  - Mcma.Client.IAuthenticator
+  - Mcma.Client.IAuthProvider
+  - Mcma.Client.IResourceEndpointClient
+  - Mcma.Client.IResourceManager
+  - Mcma.Client.IResourceManagerProvider
+  - Mcma.Client.IServiceClient
+  - Mcma.Client.McmaClientBuilder
+  - Mcma.Client.McmaClientServiceCollectionExtensions
+  - Mcma.Client.McmaHttpClient
+  - Mcma.Client.McmaHttpClientExtensions
+  - Mcma.Client.McmaHttpHeaders
+  - Mcma.Client.McmaJsonContent
+  - Mcma.Client.McmaResourceManagerEnvironmentVariables
+  - Mcma.Client.ResourceManagerExtensions
+  - Mcma.Client.ResourceManagerOptions
+  - Mcma.Client.ResourceManagerOptionsHelper
+  - Mcma.Client.ResourceManagerProvider
+  - Mcma.Client.ResourceManagerProviderExtensions
+  - Mcma.Client.ResourceManagerProviderOptions
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Client
+  nameWithType: Mcma.Client
+  fullName: Mcma.Client
+  type: Namespace
+  assemblies:
+  - Mcma.Client
+references:
+- uid: Mcma.Client.AuthenticationServiceCollectionExtensions
+  commentId: T:Mcma.Client.AuthenticationServiceCollectionExtensions
+  name: AuthenticationServiceCollectionExtensions
+  nameWithType: AuthenticationServiceCollectionExtensions
+  fullName: Mcma.Client.AuthenticationServiceCollectionExtensions
+- uid: Mcma.Client.AuthenticatorFactory`1
+  commentId: T:Mcma.Client.AuthenticatorFactory`1
+  name: AuthenticatorFactory<TAuthContext>
+  nameWithType: AuthenticatorFactory<TAuthContext>
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext)
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext)
+  name.vb: AuthenticatorFactory(Of TAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AuthenticatorFactory`1
+    name: AuthenticatorFactory
+    nameWithType: AuthenticatorFactory
+    fullName: Mcma.Client.AuthenticatorFactory
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Client.AuthenticatorFactory`1
+    name: AuthenticatorFactory
+    nameWithType: AuthenticatorFactory
+    fullName: Mcma.Client.AuthenticatorFactory
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorRegistry
+  commentId: T:Mcma.Client.AuthenticatorRegistry
+  parent: Mcma.Client
+  name: AuthenticatorRegistry
+  nameWithType: AuthenticatorRegistry
+  fullName: Mcma.Client.AuthenticatorRegistry
+- uid: Mcma.Client.IAuthenticator
+  commentId: T:Mcma.Client.IAuthenticator
+  parent: Mcma.Client
+  name: IAuthenticator
+  nameWithType: IAuthenticator
+  fullName: Mcma.Client.IAuthenticator
+- uid: Mcma.Client.IAuthProvider
+  commentId: T:Mcma.Client.IAuthProvider
+  parent: Mcma.Client
+  name: IAuthProvider
+  nameWithType: IAuthProvider
+  fullName: Mcma.Client.IAuthProvider
+- uid: Mcma.Client.HttpContentExtensions
+  commentId: T:Mcma.Client.HttpContentExtensions
+  parent: Mcma.Client
+  name: HttpContentExtensions
+  nameWithType: HttpContentExtensions
+  fullName: Mcma.Client.HttpContentExtensions
+- uid: Mcma.Client.HttpResponseExtensions
+  commentId: T:Mcma.Client.HttpResponseExtensions
+  name: HttpResponseExtensions
+  nameWithType: HttpResponseExtensions
+  fullName: Mcma.Client.HttpResponseExtensions
+- uid: Mcma.Client.McmaHttpHeaders
+  commentId: T:Mcma.Client.McmaHttpHeaders
+  name: McmaHttpHeaders
+  nameWithType: McmaHttpHeaders
+  fullName: Mcma.Client.McmaHttpHeaders
+- uid: Mcma.Client.McmaHttpClient
+  commentId: T:Mcma.Client.McmaHttpClient
+  parent: Mcma.Client
+  name: McmaHttpClient
+  nameWithType: McmaHttpClient
+  fullName: Mcma.Client.McmaHttpClient
+- uid: Mcma.Client.McmaHttpClientExtensions
+  commentId: T:Mcma.Client.McmaHttpClientExtensions
+  parent: Mcma.Client
+  name: McmaHttpClientExtensions
+  nameWithType: McmaHttpClientExtensions
+  fullName: Mcma.Client.McmaHttpClientExtensions
+- uid: Mcma.Client.McmaJsonContent
+  commentId: T:Mcma.Client.McmaJsonContent
+  name: McmaJsonContent
+  nameWithType: McmaJsonContent
+  fullName: Mcma.Client.McmaJsonContent
+- uid: Mcma.Client.McmaClientBuilder
+  commentId: T:Mcma.Client.McmaClientBuilder
+  parent: Mcma.Client
+  name: McmaClientBuilder
+  nameWithType: McmaClientBuilder
+  fullName: Mcma.Client.McmaClientBuilder
+- uid: Mcma.Client.McmaClientServiceCollectionExtensions
+  commentId: T:Mcma.Client.McmaClientServiceCollectionExtensions
+  name: McmaClientServiceCollectionExtensions
+  nameWithType: McmaClientServiceCollectionExtensions
+  fullName: Mcma.Client.McmaClientServiceCollectionExtensions
+- uid: Mcma.Client.IResourceEndpointClient
+  commentId: T:Mcma.Client.IResourceEndpointClient
+  parent: Mcma.Client
+  name: IResourceEndpointClient
+  nameWithType: IResourceEndpointClient
+  fullName: Mcma.Client.IResourceEndpointClient
+- uid: Mcma.Client.IResourceManager
+  commentId: T:Mcma.Client.IResourceManager
+  parent: Mcma.Client
+  name: IResourceManager
+  nameWithType: IResourceManager
+  fullName: Mcma.Client.IResourceManager
+- uid: Mcma.Client.IResourceManagerProvider
+  commentId: T:Mcma.Client.IResourceManagerProvider
+  parent: Mcma.Client
+  name: IResourceManagerProvider
+  nameWithType: IResourceManagerProvider
+  fullName: Mcma.Client.IResourceManagerProvider
+- uid: Mcma.Client.IServiceClient
+  commentId: T:Mcma.Client.IServiceClient
+  parent: Mcma.Client
+  name: IServiceClient
+  nameWithType: IServiceClient
+  fullName: Mcma.Client.IServiceClient
+- uid: Mcma.Client.McmaResourceManagerEnvironmentVariables
+  commentId: T:Mcma.Client.McmaResourceManagerEnvironmentVariables
+  name: McmaResourceManagerEnvironmentVariables
+  nameWithType: McmaResourceManagerEnvironmentVariables
+  fullName: Mcma.Client.McmaResourceManagerEnvironmentVariables
+- uid: Mcma.Client.ResourceManagerExtensions
+  commentId: T:Mcma.Client.ResourceManagerExtensions
+  parent: Mcma.Client
+  name: ResourceManagerExtensions
+  nameWithType: ResourceManagerExtensions
+  fullName: Mcma.Client.ResourceManagerExtensions
+- uid: Mcma.Client.ResourceManagerOptions
+  commentId: T:Mcma.Client.ResourceManagerOptions
+  parent: Mcma.Client
+  name: ResourceManagerOptions
+  nameWithType: ResourceManagerOptions
+  fullName: Mcma.Client.ResourceManagerOptions
+- uid: Mcma.Client.ResourceManagerOptionsHelper
+  commentId: T:Mcma.Client.ResourceManagerOptionsHelper
+  parent: Mcma.Client
+  name: ResourceManagerOptionsHelper
+  nameWithType: ResourceManagerOptionsHelper
+  fullName: Mcma.Client.ResourceManagerOptionsHelper
+- uid: Mcma.Client.ResourceManagerProvider
+  commentId: T:Mcma.Client.ResourceManagerProvider
+  name: ResourceManagerProvider
+  nameWithType: ResourceManagerProvider
+  fullName: Mcma.Client.ResourceManagerProvider
+- uid: Mcma.Client.ResourceManagerProviderExtensions
+  commentId: T:Mcma.Client.ResourceManagerProviderExtensions
+  parent: Mcma.Client
+  name: ResourceManagerProviderExtensions
+  nameWithType: ResourceManagerProviderExtensions
+  fullName: Mcma.Client.ResourceManagerProviderExtensions
+- uid: Mcma.Client.ResourceManagerProviderOptions
+  commentId: T:Mcma.Client.ResourceManagerProviderOptions
+  name: ResourceManagerProviderOptions
+  nameWithType: ResourceManagerProviderOptions
+  fullName: Mcma.Client.ResourceManagerProviderOptions
+- uid: Mcma.Client
+  commentId: N:Mcma.Client
+  name: Mcma.Client
+  nameWithType: Mcma.Client
+  fullName: Mcma.Client

@@ -1,0 +1,229 @@
+### YamlMime:UniversalReference
+items:
+  - uid: client.ResourceManager
+    name: ResourceManager
+    fullName: ResourceManager
+    children:
+      - client.ResourceManager.create
+      - client.ResourceManager.delete
+      - client.ResourceManager.get
+      - client.ResourceManager.getResourceEndpointClient
+      - client.ResourceManager.init
+      - client.ResourceManager.query
+      - client.ResourceManager.constructor
+      - client.ResourceManager.sendNotification
+      - client.ResourceManager.update
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: client
+  - uid: client.ResourceManager.create
+    name: create(T)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function create<T>(resource: T)'
+      parameters:
+        - id: resource
+          type:
+            - T
+          description: ''
+      return:
+        type:
+          - Promise<T>
+        description: ''
+    package: client
+  - uid: client.ResourceManager.delete
+    name: delete(T | string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function delete<T>(resource: T | string)'
+      parameters:
+        - id: resource
+          type:
+            - T | string
+          description: ''
+      return:
+        type:
+          - Promise<T>
+        description: ''
+    package: client
+  - uid: client.ResourceManager.get
+    name: get(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get<T>(resource: string)'
+      parameters:
+        - id: resource
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<T | null>
+        description: ''
+    package: client
+  - uid: client.ResourceManager.getResourceEndpointClient
+    name: getResourceEndpointClient(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getResourceEndpointClient(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<client.ResourceEndpointClient | undefined>
+        description: ''
+    package: client
+  - uid: client.ResourceManager.init
+    name: init()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function init()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: client
+  - uid: client.ResourceManager.query
+    name: 'query(McmaResourceType<T>, any, string, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function query<T>(resourceType: McmaResourceType<T>, filter?: any,
+        sortBy?: string, sortAscending?: boolean)
+      parameters:
+        - id: resourceType
+          type:
+            - McmaResourceType<T>
+          description: ''
+        - id: filter
+          type:
+            - any
+          description: ''
+          optional: true
+        - id: sortBy
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: sortAscending
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - 'Promise<T[]>'
+        description: ''
+    package: client
+  - uid: client.ResourceManager.constructor
+    name: 'ResourceManager(ResourceManagerConfig, AuthProvider)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ResourceManager(config: ResourceManagerConfig, authProvider:
+        AuthProvider)
+      parameters:
+        - id: config
+          type:
+            - client.ResourceManagerConfig
+          description: ''
+        - id: authProvider
+          type:
+            - client.AuthProvider
+          description: ''
+    package: client
+  - uid: client.ResourceManager.sendNotification
+    name: sendNotification(T)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function sendNotification<T>(resource: T)'
+      parameters:
+        - id: resource
+          type:
+            - T
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: client
+  - uid: client.ResourceManager.update
+    name: update(T)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function update<T>(resource: T)'
+      parameters:
+        - id: resource
+          type:
+            - T
+          description: ''
+      return:
+        type:
+          - Promise<T>
+        description: ''
+    package: client
+references:
+  - uid: client.ResourceManagerConfig
+    name: ResourceManagerConfig
+    spec.typeScript:
+      - name: ResourceManagerConfig
+        fullName: ResourceManagerConfig
+        uid: client.ResourceManagerConfig
+  - uid: client.AuthProvider
+    name: AuthProvider
+    spec.typeScript:
+      - name: AuthProvider
+        fullName: AuthProvider
+        uid: client.AuthProvider
+  - uid: Promise<client.ResourceEndpointClient | undefined>
+    name: ResourceEndpointClient | undefined>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: ResourceEndpointClient
+        fullName: ResourceEndpointClient
+        uid: client.ResourceEndpointClient
+      - name: ' | undefined>'
+        fullName: ' | undefined>'

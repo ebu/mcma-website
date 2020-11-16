@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-storage.CloudStorageLocator
+    name: CloudStorageLocator
+    fullName: CloudStorageLocator
+    children:
+      - google-cloud-storage.CloudStorageLocator.@type
+      - google-cloud-storage.CloudStorageLocator.bucket
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: Locator
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageLocator.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageLocator.bucket
+    name: bucket
+    fullName: bucket
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bucket: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: google-cloud-storage

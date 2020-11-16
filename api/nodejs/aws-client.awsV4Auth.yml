@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-client.awsV4Auth
+    name: awsV4Auth(Aws | AwsConfig | AwsAuthContext)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function awsV4Auth(awsConfig?: Aws | AwsConfig | AwsAuthContext)'
+      parameters:
+        - id: awsConfig
+          type:
+            - aws-client.Aws | aws-client.AwsConfig | aws-client.AwsAuthContext
+          description: ''
+          optional: true
+      return:
+        type:
+          - AuthTypeRegistration<aws-client.AwsAuthContext>
+        description: ''
+    package: aws-client
+references:
+  - uid: aws-client.Aws | aws-client.AwsConfig | aws-client.AwsAuthContext
+    name: AwsAuthContext
+    spec.typeScript:
+      - name: Aws
+        fullName: Aws
+        uid: aws-client.Aws
+      - name: ' | '
+        fullName: ' | '
+      - name: AwsConfig
+        fullName: AwsConfig
+        uid: aws-client.AwsConfig
+      - name: ' | '
+        fullName: ' | '
+      - name: AwsAuthContext
+        fullName: AwsAuthContext
+        uid: aws-client.AwsAuthContext
+  - uid: AuthTypeRegistration<aws-client.AwsAuthContext>
+    name: AwsAuthContext>
+    spec.typeScript:
+      - name: AuthTypeRegistration<
+        fullName: AuthTypeRegistration<
+      - name: AwsAuthContext
+        fullName: AwsAuthContext
+        uid: aws-client.AwsAuthContext
+      - name: '>'
+        fullName: '>'

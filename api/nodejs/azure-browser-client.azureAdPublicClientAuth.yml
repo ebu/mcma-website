@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-browser-client.azureAdPublicClientAuth
+    name: 'azureAdPublicClientAuth(ConfigurationWithTenant, AccountInfo)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function azureAdPublicClientAuth(options: ConfigurationWithTenant,
+        userAccount: AccountInfo)
+      parameters:
+        - id: options
+          type:
+            - azure-browser-client.ConfigurationWithTenant
+          description: ''
+        - id: userAccount
+          type:
+            - AccountInfo
+          description: ''
+      return:
+        type:
+          - AuthTypeRegistration<azure-browser-client.AzureAdAuthContext>
+        description: ''
+    package: azure-browser-client
+references:
+  - uid: azure-browser-client.ConfigurationWithTenant
+    name: ConfigurationWithTenant
+    spec.typeScript:
+      - name: ConfigurationWithTenant
+        fullName: ConfigurationWithTenant
+        uid: azure-browser-client.ConfigurationWithTenant
+  - uid: AuthTypeRegistration<azure-browser-client.AzureAdAuthContext>
+    name: AzureAdAuthContext>
+    spec.typeScript:
+      - name: AuthTypeRegistration<
+        fullName: AuthTypeRegistration<
+      - name: AzureAdAuthContext
+        fullName: AzureAdAuthContext
+        uid: azure-browser-client.AzureAdAuthContext
+      - name: '>'
+        fullName: '>'

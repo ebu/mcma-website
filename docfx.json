@@ -1,0 +1,76 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../mcma-libraries-dotnet",
+          "files": [
+            "Mcma.Libraries.sln"
+          ]
+        }
+      ],
+      "dest": "api/dotnet",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/dotnet/**.yml",
+          "api/dotnet/index.md",
+          "api/nodejs/**.yml",
+          "api/nodejs/index.md",
+          "api/toc.yml",
+          "api/index.md"
+        ]
+      },
+      {
+        "files": [
+          "tutorials/**.md",
+          "tutorials/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadata": {
+      "_appTitle": "MCMA",
+      "_appLogoPath": "images/mcma_logo.png",
+      "_appFaviconPath": "images/mcma_icon.ico",
+      "_enableSearch": true
+    },
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",
+      "templates/discordfx"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  }
+}

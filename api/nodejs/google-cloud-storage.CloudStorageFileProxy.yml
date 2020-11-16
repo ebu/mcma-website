@@ -1,0 +1,101 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-storage.CloudStorageFileProxy
+    name: CloudStorageFileProxy
+    fullName: CloudStorageFileProxy
+    children:
+      - google-cloud-storage.CloudStorageFileProxy.constructor
+      - google-cloud-storage.CloudStorageFileProxy.downloadToStream
+      - google-cloud-storage.CloudStorageFileProxy.getPublicReadOnlyUrl
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        google-cloud-storage.CloudStorageProxy<google-cloud-storage.CloudStorageFileLocatorProperties>
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFileProxy.constructor
+    name: >-
+      CloudStorageFileProxy(CloudStorageFileLocatorProperties, StorageOptions |
+      Storage)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CloudStorageFileProxy(locator: CloudStorageFileLocatorProperties,
+        storageOrOptions?: StorageOptions | Storage)
+      parameters:
+        - id: locator
+          type:
+            - google-cloud-storage.CloudStorageFileLocatorProperties
+          description: ''
+        - id: storageOrOptions
+          type:
+            - StorageOptions | Storage
+          description: ''
+          optional: true
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFileProxy.downloadToStream
+    name: downloadToStream(WritableStream)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function downloadToStream(writeStream: WritableStream)'
+      parameters:
+        - id: writeStream
+          type:
+            - WritableStream
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFileProxy.getPublicReadOnlyUrl
+    name: getPublicReadOnlyUrl(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getPublicReadOnlyUrl(validFor?: number)'
+      parameters:
+        - id: validFor
+          type:
+            - number
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<string>
+        description: ''
+    package: google-cloud-storage
+references:
+  - uid: >-
+      google-cloud-storage.CloudStorageProxy<google-cloud-storage.CloudStorageFileLocatorProperties>
+    name: CloudStorageFileLocatorProperties>
+    spec.typeScript:
+      - name: CloudStorageProxy
+        fullName: CloudStorageProxy
+        uid: google-cloud-storage.CloudStorageProxy
+      - name: <
+        fullName: <
+      - name: CloudStorageFileLocatorProperties
+        fullName: CloudStorageFileLocatorProperties
+        uid: google-cloud-storage.CloudStorageFileLocatorProperties
+      - name: '>'
+        fullName: '>'
+  - uid: google-cloud-storage.CloudStorageFileLocatorProperties
+    name: CloudStorageFileLocatorProperties
+    spec.typeScript:
+      - name: CloudStorageFileLocatorProperties
+        fullName: CloudStorageFileLocatorProperties
+        uid: google-cloud-storage.CloudStorageFileLocatorProperties

@@ -1,0 +1,41 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Metadata
+  commentId: N:Mcma.GoogleCloud.Metadata
+  id: Mcma.GoogleCloud.Metadata
+  children:
+  - Mcma.GoogleCloud.Metadata.IMetadataService
+  - Mcma.GoogleCloud.Metadata.MetadataService
+  - Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mcma.GoogleCloud.Metadata
+  nameWithType: Mcma.GoogleCloud.Metadata
+  fullName: Mcma.GoogleCloud.Metadata
+  type: Namespace
+  assemblies:
+  - Mcma.GoogleCloud
+references:
+- uid: Mcma.GoogleCloud.Metadata.IMetadataService
+  commentId: T:Mcma.GoogleCloud.Metadata.IMetadataService
+  parent: Mcma.GoogleCloud.Metadata
+  name: IMetadataService
+  nameWithType: IMetadataService
+  fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+- uid: Mcma.GoogleCloud.Metadata.MetadataService
+  commentId: T:Mcma.GoogleCloud.Metadata.MetadataService
+  name: MetadataService
+  nameWithType: MetadataService
+  fullName: Mcma.GoogleCloud.Metadata.MetadataService
+- uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+  commentId: T:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+  parent: Mcma.GoogleCloud.Metadata
+  name: MetadataServiceExtensions
+  nameWithType: MetadataServiceExtensions
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+- uid: Mcma.GoogleCloud.Metadata
+  commentId: N:Mcma.GoogleCloud.Metadata
+  name: Mcma.GoogleCloud.Metadata
+  nameWithType: Mcma.GoogleCloud.Metadata
+  fullName: Mcma.GoogleCloud.Metadata

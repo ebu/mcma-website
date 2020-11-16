@@ -1,0 +1,108 @@
+### YamlMime:UniversalReference
+items:
+  - uid: api.McmaApiRoute
+    name: McmaApiRoute
+    fullName: McmaApiRoute
+    children:
+      - api.McmaApiRoute.handler
+      - api.McmaApiRoute.httpMethod
+      - api.McmaApiRoute.constructor
+      - api.McmaApiRoute.path
+      - api.McmaApiRoute.template
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: api
+  - uid: api.McmaApiRoute.handler
+    name: handler
+    fullName: handler
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public handler: McmaApiRouteHandler'
+      return:
+        type:
+          - api.McmaApiRouteHandler
+        description: ''
+    package: api
+  - uid: api.McmaApiRoute.httpMethod
+    name: httpMethod
+    fullName: httpMethod
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public httpMethod: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: api
+  - uid: api.McmaApiRoute.constructor
+    name: 'McmaApiRoute(string, string, McmaApiRouteHandler)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new McmaApiRoute(httpMethod: string, path: string, handler:
+        McmaApiRouteHandler)
+      parameters:
+        - id: httpMethod
+          type:
+            - string
+          description: ''
+        - id: path
+          type:
+            - string
+          description: ''
+        - id: handler
+          type:
+            - api.McmaApiRouteHandler
+          description: ''
+    package: api
+  - uid: api.McmaApiRoute.path
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public path: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: api
+  - uid: api.McmaApiRoute.template
+    name: template
+    fullName: template
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'template: uriTemplates.URITemplate'
+      return:
+        type:
+          - uriTemplates.URITemplate
+        description: ''
+    package: api
+references:
+  - uid: api.McmaApiRouteHandler
+    name: McmaApiRouteHandler
+    spec.typeScript:
+      - name: McmaApiRouteHandler
+        fullName: McmaApiRouteHandler
+        uid: api.McmaApiRouteHandler

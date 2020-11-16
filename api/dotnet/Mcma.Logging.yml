@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Logging
+  commentId: N:Mcma.Logging
+  id: Mcma.Logging
+  children:
+  - Mcma.Logging.ConsoleLogger
+  - Mcma.Logging.ConsoleLoggerProvider
+  - Mcma.Logging.ILogger
+  - Mcma.Logging.ILoggerProvider
+  - Mcma.Logging.LogEvent
+  - Mcma.Logging.Logger
+  - Mcma.Logging.LoggerProvider`1
+  - Mcma.Logging.LoggerProviderOptions
+  - Mcma.Logging.LoggingServiceCollectionExtensions
+  - Mcma.Logging.LogLevel
+  - Mcma.Logging.LogType
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Logging
+  nameWithType: Mcma.Logging
+  fullName: Mcma.Logging
+  type: Namespace
+  assemblies:
+  - Mcma.Core
+references:
+- uid: Mcma.Logging.ConsoleLogger
+  commentId: T:Mcma.Logging.ConsoleLogger
+  parent: Mcma.Logging
+  name: ConsoleLogger
+  nameWithType: ConsoleLogger
+  fullName: Mcma.Logging.ConsoleLogger
+- uid: Mcma.Logging.ConsoleLoggerProvider
+  commentId: T:Mcma.Logging.ConsoleLoggerProvider
+  name: ConsoleLoggerProvider
+  nameWithType: ConsoleLoggerProvider
+  fullName: Mcma.Logging.ConsoleLoggerProvider
+- uid: Mcma.Logging.ILogger
+  commentId: T:Mcma.Logging.ILogger
+  parent: Mcma.Logging
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Mcma.Logging.ILogger
+- uid: Mcma.Logging.ILoggerProvider
+  commentId: T:Mcma.Logging.ILoggerProvider
+  parent: Mcma.Logging
+  name: ILoggerProvider
+  nameWithType: ILoggerProvider
+  fullName: Mcma.Logging.ILoggerProvider
+- uid: Mcma.Logging.LogEvent
+  commentId: T:Mcma.Logging.LogEvent
+  parent: Mcma.Logging
+  name: LogEvent
+  nameWithType: LogEvent
+  fullName: Mcma.Logging.LogEvent
+- uid: Mcma.Logging.Logger
+  commentId: T:Mcma.Logging.Logger
+  parent: Mcma.Logging
+  name: Logger
+  nameWithType: Logger
+  fullName: Mcma.Logging.Logger
+- uid: Mcma.Logging.LoggerProvider`1
+  commentId: T:Mcma.Logging.LoggerProvider`1
+  name: LoggerProvider<T>
+  nameWithType: LoggerProvider<T>
+  fullName: Mcma.Logging.LoggerProvider<T>
+  nameWithType.vb: LoggerProvider(Of T)
+  fullName.vb: Mcma.Logging.LoggerProvider(Of T)
+  name.vb: LoggerProvider(Of T)
+  spec.csharp:
+  - uid: Mcma.Logging.LoggerProvider`1
+    name: LoggerProvider
+    nameWithType: LoggerProvider
+    fullName: Mcma.Logging.LoggerProvider
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Logging.LoggerProvider`1
+    name: LoggerProvider
+    nameWithType: LoggerProvider
+    fullName: Mcma.Logging.LoggerProvider
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Logging.LoggerProviderOptions
+  commentId: T:Mcma.Logging.LoggerProviderOptions
+  parent: Mcma.Logging
+  name: LoggerProviderOptions
+  nameWithType: LoggerProviderOptions
+  fullName: Mcma.Logging.LoggerProviderOptions
+- uid: Mcma.Logging.LoggingServiceCollectionExtensions
+  commentId: T:Mcma.Logging.LoggingServiceCollectionExtensions
+  name: LoggingServiceCollectionExtensions
+  nameWithType: LoggingServiceCollectionExtensions
+  fullName: Mcma.Logging.LoggingServiceCollectionExtensions
+- uid: Mcma.Logging.LogLevel
+  commentId: T:Mcma.Logging.LogLevel
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: Mcma.Logging.LogLevel
+- uid: Mcma.Logging.LogType
+  commentId: T:Mcma.Logging.LogType
+  name: LogType
+  nameWithType: LogType
+  fullName: Mcma.Logging.LogType
+- uid: Mcma.Logging
+  commentId: N:Mcma.Logging
+  name: Mcma.Logging
+  nameWithType: Mcma.Logging
+  fullName: Mcma.Logging

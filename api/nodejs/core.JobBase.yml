@@ -1,0 +1,222 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.JobBase
+    name: JobBase
+    fullName: JobBase<T>
+    children:
+      - core.JobBase.@type
+      - core.JobBase.custom
+      - core.JobBase.dateCreated
+      - core.JobBase.dateModified
+      - core.JobBase.error
+      - core.JobBase.id
+      - core.JobBase.jobOutput
+      - core.JobBase.onCreate
+      - core.JobBase.onUpsert
+      - core.JobBase.progress
+      - core.JobBase.status
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: core.McmaResource
+    package: core
+  - uid: core.JobBase.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobBase.custom
+    name: custom
+    fullName: custom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'custom?: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: core
+  - uid: core.JobBase.dateCreated
+    name: dateCreated
+    fullName: dateCreated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateCreated?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.JobBase.dateModified
+    name: dateModified
+    fullName: dateModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateModified?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.JobBase.error
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'error?: ProblemDetail'
+      return:
+        type:
+          - core.ProblemDetail
+        description: ''
+    package: core
+  - uid: core.JobBase.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobBase.jobOutput
+    name: jobOutput
+    fullName: jobOutput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'jobOutput?: JobParameterBag'
+      return:
+        type:
+          - core.JobParameterBag
+        description: ''
+    package: core
+  - uid: core.JobBase.onCreate
+    name: onCreate(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onCreate(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+    package: core
+  - uid: core.JobBase.onUpsert
+    name: onUpsert(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onUpsert(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+    package: core
+  - uid: core.JobBase.progress
+    name: progress
+    fullName: progress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'progress?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: core
+  - uid: core.JobBase.status
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'status?: JobStatus'
+      return:
+        type:
+          - core.JobStatus
+        description: ''
+    package: core
+references:
+  - uid: core.McmaResource
+    name: McmaResource
+    spec.typeScript:
+      - name: McmaResource
+        fullName: McmaResource
+        uid: core.McmaResource
+  - uid: core.ProblemDetail
+    name: ProblemDetail
+    spec.typeScript:
+      - name: ProblemDetail
+        fullName: ProblemDetail
+        uid: core.ProblemDetail
+  - uid: core.JobParameterBag
+    name: JobParameterBag
+    spec.typeScript:
+      - name: JobParameterBag
+        fullName: JobParameterBag
+        uid: core.JobParameterBag
+  - uid: core.JobStatus
+    name: JobStatus
+    spec.typeScript:
+      - name: JobStatus
+        fullName: JobStatus
+        uid: core.JobStatus

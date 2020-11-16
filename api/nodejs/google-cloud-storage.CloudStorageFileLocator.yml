@@ -1,0 +1,92 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-storage.CloudStorageFileLocator
+    name: CloudStorageFileLocator
+    fullName: CloudStorageFileLocator
+    children:
+      - google-cloud-storage.CloudStorageFileLocator.@type
+      - google-cloud-storage.CloudStorageFileLocator.bucket
+      - google-cloud-storage.CloudStorageFileLocator.constructor
+      - google-cloud-storage.CloudStorageFileLocator.filePath
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: google-cloud-storage.CloudStorageLocator
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFileLocator.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFileLocator.bucket
+    name: bucket
+    fullName: bucket
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bucket: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFileLocator.constructor
+    name: CloudStorageFileLocator(CloudStorageFileLocatorProperties)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CloudStorageFileLocator(properties:
+        CloudStorageFileLocatorProperties)
+      parameters:
+        - id: properties
+          type:
+            - google-cloud-storage.CloudStorageFileLocatorProperties
+          description: ''
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFileLocator.filePath
+    name: filePath
+    fullName: filePath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public filePath: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: google-cloud-storage
+references:
+  - uid: google-cloud-storage.CloudStorageLocator
+    name: CloudStorageLocator
+    spec.typeScript:
+      - name: CloudStorageLocator
+        fullName: CloudStorageLocator
+        uid: google-cloud-storage.CloudStorageLocator
+  - uid: google-cloud-storage.CloudStorageFileLocatorProperties
+    name: CloudStorageFileLocatorProperties
+    spec.typeScript:
+      - name: CloudStorageFileLocatorProperties
+        fullName: CloudStorageFileLocatorProperties
+        uid: google-cloud-storage.CloudStorageFileLocatorProperties

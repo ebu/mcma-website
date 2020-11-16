@@ -1,0 +1,1147 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Metadata.IMetadataService
+  commentId: T:Mcma.GoogleCloud.Metadata.IMetadataService
+  id: IMetadataService
+  parent: Mcma.GoogleCloud.Metadata
+  children:
+  - Mcma.GoogleCloud.Metadata.IMetadataService.GetAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IMetadataService
+  nameWithType: IMetadataService
+  fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  type: Interface
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud/Metadata/IMetadataService.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IMetadataService
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud/Metadata/IMetadataService.cs
+    startLine: 4
+  assemblies:
+  - Mcma.GoogleCloud
+  namespace: Mcma.GoogleCloud.Metadata
+  syntax:
+    content: public interface IMetadataService
+    content.vb: Public Interface IMetadataService
+  extensionMethods:
+  - Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsAvailableAsync
+  - Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleAsync(System.String)
+  - Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForInstanceAsync(System.String)
+  - Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForProjectAsync(System.String)
+  - Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForInstanceAsync(System.String)
+  - Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForProjectAsync(System.String)
+  - Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetProjectIdAsync
+  - Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetKubernetesClusterNameAsync
+  - Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsOnKubernetesClusterAsync
+  - Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceZoneAsync
+  - Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceIdAsync
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.GoogleCloud.Metadata.IMetadataService.GetAsync(System.String)
+  commentId: M:Mcma.GoogleCloud.Metadata.IMetadataService.GetAsync(System.String)
+  id: GetAsync(System.String)
+  parent: Mcma.GoogleCloud.Metadata.IMetadataService
+  langs:
+  - csharp
+  - vb
+  name: GetAsync(String)
+  nameWithType: IMetadataService.GetAsync(String)
+  fullName: Mcma.GoogleCloud.Metadata.IMetadataService.GetAsync(System.String)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud/Metadata/IMetadataService.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetAsync
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud/Metadata/IMetadataService.cs
+    startLine: 6
+  assemblies:
+  - Mcma.GoogleCloud
+  namespace: Mcma.GoogleCloud.Metadata
+  syntax:
+    content: Task<string[]> GetAsync(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.String[]}
+    content.vb: Function GetAsync(path As String) As Task(Of String())
+  overload: Mcma.GoogleCloud.Metadata.IMetadataService.GetAsync*
+references:
+- uid: Mcma.GoogleCloud.Metadata
+  commentId: N:Mcma.GoogleCloud.Metadata
+  name: Mcma.GoogleCloud.Metadata
+  nameWithType: Mcma.GoogleCloud.Metadata
+  fullName: Mcma.GoogleCloud.Metadata
+- uid: Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsAvailableAsync
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsAvailableAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  parent: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+  definition: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsAvailableAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  name: IsAvailableAsync()
+  nameWithType: MetadataServiceExtensions.IsAvailableAsync()
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsAvailableAsync()
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsAvailableAsync
+    name: IsAvailableAsync
+    nameWithType: MetadataServiceExtensions.IsAvailableAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsAvailableAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsAvailableAsync
+    name: IsAvailableAsync
+    nameWithType: MetadataServiceExtensions.IsAvailableAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsAvailableAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleAsync(System.String)
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  parent: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+  definition: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  name: GetSingleAsync(String)
+  nameWithType: MetadataServiceExtensions.GetSingleAsync(String)
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleAsync(System.String)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleAsync(System.String)
+    name: GetSingleAsync
+    nameWithType: MetadataServiceExtensions.GetSingleAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleAsync(System.String)
+    name: GetSingleAsync
+    nameWithType: MetadataServiceExtensions.GetSingleAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForInstanceAsync(System.String)
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForInstanceAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  parent: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+  definition: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForInstanceAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  name: GetSingleForInstanceAsync(String)
+  nameWithType: MetadataServiceExtensions.GetSingleForInstanceAsync(String)
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForInstanceAsync(System.String)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForInstanceAsync(System.String)
+    name: GetSingleForInstanceAsync
+    nameWithType: MetadataServiceExtensions.GetSingleForInstanceAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForInstanceAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForInstanceAsync(System.String)
+    name: GetSingleForInstanceAsync
+    nameWithType: MetadataServiceExtensions.GetSingleForInstanceAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForInstanceAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForProjectAsync(System.String)
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForProjectAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  parent: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+  definition: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForProjectAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  name: GetSingleForProjectAsync(String)
+  nameWithType: MetadataServiceExtensions.GetSingleForProjectAsync(String)
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForProjectAsync(System.String)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForProjectAsync(System.String)
+    name: GetSingleForProjectAsync
+    nameWithType: MetadataServiceExtensions.GetSingleForProjectAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForProjectAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForProjectAsync(System.String)
+    name: GetSingleForProjectAsync
+    nameWithType: MetadataServiceExtensions.GetSingleForProjectAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForProjectAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForInstanceAsync(System.String)
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForInstanceAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  parent: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+  definition: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForInstanceAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  name: GetForInstanceAsync(String)
+  nameWithType: MetadataServiceExtensions.GetForInstanceAsync(String)
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForInstanceAsync(System.String)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForInstanceAsync(System.String)
+    name: GetForInstanceAsync
+    nameWithType: MetadataServiceExtensions.GetForInstanceAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForInstanceAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForInstanceAsync(System.String)
+    name: GetForInstanceAsync
+    nameWithType: MetadataServiceExtensions.GetForInstanceAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForInstanceAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForProjectAsync(System.String)
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForProjectAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  parent: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+  definition: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForProjectAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  name: GetForProjectAsync(String)
+  nameWithType: MetadataServiceExtensions.GetForProjectAsync(String)
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForProjectAsync(System.String)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForProjectAsync(System.String)
+    name: GetForProjectAsync
+    nameWithType: MetadataServiceExtensions.GetForProjectAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForProjectAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForProjectAsync(System.String)
+    name: GetForProjectAsync
+    nameWithType: MetadataServiceExtensions.GetForProjectAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForProjectAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetProjectIdAsync
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetProjectIdAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  parent: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+  definition: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetProjectIdAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  name: GetProjectIdAsync()
+  nameWithType: MetadataServiceExtensions.GetProjectIdAsync()
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetProjectIdAsync()
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetProjectIdAsync
+    name: GetProjectIdAsync
+    nameWithType: MetadataServiceExtensions.GetProjectIdAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetProjectIdAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetProjectIdAsync
+    name: GetProjectIdAsync
+    nameWithType: MetadataServiceExtensions.GetProjectIdAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetProjectIdAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetKubernetesClusterNameAsync
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetKubernetesClusterNameAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  parent: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+  definition: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetKubernetesClusterNameAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  name: GetKubernetesClusterNameAsync()
+  nameWithType: MetadataServiceExtensions.GetKubernetesClusterNameAsync()
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetKubernetesClusterNameAsync()
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetKubernetesClusterNameAsync
+    name: GetKubernetesClusterNameAsync
+    nameWithType: MetadataServiceExtensions.GetKubernetesClusterNameAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetKubernetesClusterNameAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetKubernetesClusterNameAsync
+    name: GetKubernetesClusterNameAsync
+    nameWithType: MetadataServiceExtensions.GetKubernetesClusterNameAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetKubernetesClusterNameAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsOnKubernetesClusterAsync
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsOnKubernetesClusterAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  parent: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+  definition: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsOnKubernetesClusterAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  name: IsOnKubernetesClusterAsync()
+  nameWithType: MetadataServiceExtensions.IsOnKubernetesClusterAsync()
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsOnKubernetesClusterAsync()
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsOnKubernetesClusterAsync
+    name: IsOnKubernetesClusterAsync
+    nameWithType: MetadataServiceExtensions.IsOnKubernetesClusterAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsOnKubernetesClusterAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsOnKubernetesClusterAsync
+    name: IsOnKubernetesClusterAsync
+    nameWithType: MetadataServiceExtensions.IsOnKubernetesClusterAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsOnKubernetesClusterAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceZoneAsync
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceZoneAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  parent: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+  definition: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceZoneAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  name: GetInstanceZoneAsync()
+  nameWithType: MetadataServiceExtensions.GetInstanceZoneAsync()
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceZoneAsync()
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceZoneAsync
+    name: GetInstanceZoneAsync
+    nameWithType: MetadataServiceExtensions.GetInstanceZoneAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceZoneAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceZoneAsync
+    name: GetInstanceZoneAsync
+    nameWithType: MetadataServiceExtensions.GetInstanceZoneAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceZoneAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.IMetadataService.Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceIdAsync
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceIdAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  parent: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+  definition: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceIdAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  name: GetInstanceIdAsync()
+  nameWithType: MetadataServiceExtensions.GetInstanceIdAsync()
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceIdAsync()
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceIdAsync
+    name: GetInstanceIdAsync
+    nameWithType: MetadataServiceExtensions.GetInstanceIdAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceIdAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceIdAsync
+    name: GetInstanceIdAsync
+    nameWithType: MetadataServiceExtensions.GetInstanceIdAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceIdAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsAvailableAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsAvailableAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  name: IsAvailableAsync(IMetadataService)
+  nameWithType: MetadataServiceExtensions.IsAvailableAsync(IMetadataService)
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsAvailableAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsAvailableAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+    name: IsAvailableAsync
+    nameWithType: MetadataServiceExtensions.IsAvailableAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsAvailableAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsAvailableAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+    name: IsAvailableAsync
+    nameWithType: MetadataServiceExtensions.IsAvailableAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsAvailableAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+  commentId: T:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+  parent: Mcma.GoogleCloud.Metadata
+  name: MetadataServiceExtensions
+  nameWithType: MetadataServiceExtensions
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions
+- uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  isExternal: true
+  name: GetSingleAsync(IMetadataService, String)
+  nameWithType: MetadataServiceExtensions.GetSingleAsync(IMetadataService, String)
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleAsync(Mcma.GoogleCloud.Metadata.IMetadataService, System.String)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+    name: GetSingleAsync
+    nameWithType: MetadataServiceExtensions.GetSingleAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+    name: GetSingleAsync
+    nameWithType: MetadataServiceExtensions.GetSingleAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForInstanceAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForInstanceAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  isExternal: true
+  name: GetSingleForInstanceAsync(IMetadataService, String)
+  nameWithType: MetadataServiceExtensions.GetSingleForInstanceAsync(IMetadataService, String)
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForInstanceAsync(Mcma.GoogleCloud.Metadata.IMetadataService, System.String)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForInstanceAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+    name: GetSingleForInstanceAsync
+    nameWithType: MetadataServiceExtensions.GetSingleForInstanceAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForInstanceAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForInstanceAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+    name: GetSingleForInstanceAsync
+    nameWithType: MetadataServiceExtensions.GetSingleForInstanceAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForInstanceAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForProjectAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForProjectAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  isExternal: true
+  name: GetSingleForProjectAsync(IMetadataService, String)
+  nameWithType: MetadataServiceExtensions.GetSingleForProjectAsync(IMetadataService, String)
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForProjectAsync(Mcma.GoogleCloud.Metadata.IMetadataService, System.String)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForProjectAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+    name: GetSingleForProjectAsync
+    nameWithType: MetadataServiceExtensions.GetSingleForProjectAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForProjectAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForProjectAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+    name: GetSingleForProjectAsync
+    nameWithType: MetadataServiceExtensions.GetSingleForProjectAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetSingleForProjectAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForInstanceAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForInstanceAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  isExternal: true
+  name: GetForInstanceAsync(IMetadataService, String)
+  nameWithType: MetadataServiceExtensions.GetForInstanceAsync(IMetadataService, String)
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForInstanceAsync(Mcma.GoogleCloud.Metadata.IMetadataService, System.String)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForInstanceAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+    name: GetForInstanceAsync
+    nameWithType: MetadataServiceExtensions.GetForInstanceAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForInstanceAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForInstanceAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+    name: GetForInstanceAsync
+    nameWithType: MetadataServiceExtensions.GetForInstanceAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForInstanceAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForProjectAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForProjectAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+  isExternal: true
+  name: GetForProjectAsync(IMetadataService, String)
+  nameWithType: MetadataServiceExtensions.GetForProjectAsync(IMetadataService, String)
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForProjectAsync(Mcma.GoogleCloud.Metadata.IMetadataService, System.String)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForProjectAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+    name: GetForProjectAsync
+    nameWithType: MetadataServiceExtensions.GetForProjectAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForProjectAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForProjectAsync(Mcma.GoogleCloud.Metadata.IMetadataService,System.String)
+    name: GetForProjectAsync
+    nameWithType: MetadataServiceExtensions.GetForProjectAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetForProjectAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetProjectIdAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetProjectIdAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  name: GetProjectIdAsync(IMetadataService)
+  nameWithType: MetadataServiceExtensions.GetProjectIdAsync(IMetadataService)
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetProjectIdAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetProjectIdAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+    name: GetProjectIdAsync
+    nameWithType: MetadataServiceExtensions.GetProjectIdAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetProjectIdAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetProjectIdAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+    name: GetProjectIdAsync
+    nameWithType: MetadataServiceExtensions.GetProjectIdAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetProjectIdAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetKubernetesClusterNameAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetKubernetesClusterNameAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  name: GetKubernetesClusterNameAsync(IMetadataService)
+  nameWithType: MetadataServiceExtensions.GetKubernetesClusterNameAsync(IMetadataService)
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetKubernetesClusterNameAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetKubernetesClusterNameAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+    name: GetKubernetesClusterNameAsync
+    nameWithType: MetadataServiceExtensions.GetKubernetesClusterNameAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetKubernetesClusterNameAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetKubernetesClusterNameAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+    name: GetKubernetesClusterNameAsync
+    nameWithType: MetadataServiceExtensions.GetKubernetesClusterNameAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetKubernetesClusterNameAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsOnKubernetesClusterAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsOnKubernetesClusterAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  name: IsOnKubernetesClusterAsync(IMetadataService)
+  nameWithType: MetadataServiceExtensions.IsOnKubernetesClusterAsync(IMetadataService)
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsOnKubernetesClusterAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsOnKubernetesClusterAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+    name: IsOnKubernetesClusterAsync
+    nameWithType: MetadataServiceExtensions.IsOnKubernetesClusterAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsOnKubernetesClusterAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsOnKubernetesClusterAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+    name: IsOnKubernetesClusterAsync
+    nameWithType: MetadataServiceExtensions.IsOnKubernetesClusterAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.IsOnKubernetesClusterAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceZoneAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceZoneAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  name: GetInstanceZoneAsync(IMetadataService)
+  nameWithType: MetadataServiceExtensions.GetInstanceZoneAsync(IMetadataService)
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceZoneAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceZoneAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+    name: GetInstanceZoneAsync
+    nameWithType: MetadataServiceExtensions.GetInstanceZoneAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceZoneAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceZoneAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+    name: GetInstanceZoneAsync
+    nameWithType: MetadataServiceExtensions.GetInstanceZoneAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceZoneAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceIdAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  commentId: M:Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceIdAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  name: GetInstanceIdAsync(IMetadataService)
+  nameWithType: MetadataServiceExtensions.GetInstanceIdAsync(IMetadataService)
+  fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceIdAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+  spec.csharp:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceIdAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+    name: GetInstanceIdAsync
+    nameWithType: MetadataServiceExtensions.GetInstanceIdAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceIdAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceIdAsync(Mcma.GoogleCloud.Metadata.IMetadataService)
+    name: GetInstanceIdAsync
+    nameWithType: MetadataServiceExtensions.GetInstanceIdAsync
+    fullName: Mcma.GoogleCloud.Metadata.MetadataServiceExtensions.GetInstanceIdAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.GoogleCloud.Metadata.IMetadataService
+    name: IMetadataService
+    nameWithType: IMetadataService
+    fullName: Mcma.GoogleCloud.Metadata.IMetadataService
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.GoogleCloud.Metadata.IMetadataService.GetAsync*
+  commentId: Overload:Mcma.GoogleCloud.Metadata.IMetadataService.GetAsync
+  name: GetAsync
+  nameWithType: IMetadataService.GetAsync
+  fullName: Mcma.GoogleCloud.Metadata.IMetadataService.GetAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: T:System.Threading.Tasks.Task{System.String[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String[]>
+  nameWithType: Task<String[]>
+  fullName: System.Threading.Tasks.Task<System.String[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of System.String())
+  name.vb: Task(Of String())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

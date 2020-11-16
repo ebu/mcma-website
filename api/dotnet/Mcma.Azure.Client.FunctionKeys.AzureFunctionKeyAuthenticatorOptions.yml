@@ -1,0 +1,212 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  commentId: T:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  id: AzureFunctionKeyAuthenticatorOptions
+  parent: Mcma.Azure.Client.FunctionKeys
+  children:
+  - Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions.DecryptionKey
+  langs:
+  - csharp
+  - vb
+  name: AzureFunctionKeyAuthenticatorOptions
+  nameWithType: AzureFunctionKeyAuthenticatorOptions
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  type: Class
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticatorOptions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AzureFunctionKeyAuthenticatorOptions
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticatorOptions.cs
+    startLine: 4
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.FunctionKeys
+  syntax:
+    content: 'public class AzureFunctionKeyAuthenticatorOptions : object'
+    content.vb: >-
+      Public Class AzureFunctionKeyAuthenticatorOptions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions.DecryptionKey
+  commentId: P:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions.DecryptionKey
+  id: DecryptionKey
+  parent: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  langs:
+  - csharp
+  - vb
+  name: DecryptionKey
+  nameWithType: AzureFunctionKeyAuthenticatorOptions.DecryptionKey
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions.DecryptionKey
+  type: Property
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticatorOptions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: DecryptionKey
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticatorOptions.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.FunctionKeys
+  syntax:
+    content: public string DecryptionKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DecryptionKey As String
+  overload: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions.DecryptionKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Azure.Client.FunctionKeys
+  commentId: N:Mcma.Azure.Client.FunctionKeys
+  name: Mcma.Azure.Client.FunctionKeys
+  nameWithType: Mcma.Azure.Client.FunctionKeys
+  fullName: Mcma.Azure.Client.FunctionKeys
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions.DecryptionKey*
+  commentId: Overload:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions.DecryptionKey
+  name: DecryptionKey
+  nameWithType: AzureFunctionKeyAuthenticatorOptions.DecryptionKey
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions.DecryptionKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

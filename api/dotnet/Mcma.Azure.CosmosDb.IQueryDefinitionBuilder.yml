@@ -1,0 +1,296 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.CosmosDb.IQueryDefinitionBuilder
+  commentId: T:Mcma.Azure.CosmosDb.IQueryDefinitionBuilder
+  id: IQueryDefinitionBuilder
+  parent: Mcma.Azure.CosmosDb
+  children:
+  - Mcma.Azure.CosmosDb.IQueryDefinitionBuilder.Build``1(Mcma.Data.DocumentDatabase.Queries.Query{``0},System.String)
+  langs:
+  - csharp
+  - vb
+  name: IQueryDefinitionBuilder
+  nameWithType: IQueryDefinitionBuilder
+  fullName: Mcma.Azure.CosmosDb.IQueryDefinitionBuilder
+  type: Interface
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/IQueryDefinitionBuilder.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IQueryDefinitionBuilder
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/IQueryDefinitionBuilder.cs
+    startLine: 5
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: public interface IQueryDefinitionBuilder
+    content.vb: Public Interface IQueryDefinitionBuilder
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Azure.CosmosDb.IQueryDefinitionBuilder.Build``1(Mcma.Data.DocumentDatabase.Queries.Query{``0},System.String)
+  commentId: M:Mcma.Azure.CosmosDb.IQueryDefinitionBuilder.Build``1(Mcma.Data.DocumentDatabase.Queries.Query{``0},System.String)
+  id: Build``1(Mcma.Data.DocumentDatabase.Queries.Query{``0},System.String)
+  parent: Mcma.Azure.CosmosDb.IQueryDefinitionBuilder
+  langs:
+  - csharp
+  - vb
+  name: Build<T>(Query<T>, String)
+  nameWithType: IQueryDefinitionBuilder.Build<T>(Query<T>, String)
+  fullName: Mcma.Azure.CosmosDb.IQueryDefinitionBuilder.Build<T>(Mcma.Data.DocumentDatabase.Queries.Query<T>, System.String)
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/IQueryDefinitionBuilder.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Build
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/IQueryDefinitionBuilder.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: QueryDefinition Build<T>(Query<T> query, string partitionKeyName)
+    parameters:
+    - id: query
+      type: Mcma.Data.DocumentDatabase.Queries.Query{{T}}
+    - id: partitionKeyName
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: Microsoft.Azure.Cosmos.QueryDefinition
+    content.vb: Function Build(Of T)(query As Query(Of T), partitionKeyName As String) As QueryDefinition
+  overload: Mcma.Azure.CosmosDb.IQueryDefinitionBuilder.Build*
+  nameWithType.vb: IQueryDefinitionBuilder.Build(Of T)(Query(Of T), String)
+  fullName.vb: Mcma.Azure.CosmosDb.IQueryDefinitionBuilder.Build(Of T)(Mcma.Data.DocumentDatabase.Queries.Query(Of T), System.String)
+  name.vb: Build(Of T)(Query(Of T), String)
+references:
+- uid: Mcma.Azure.CosmosDb
+  commentId: N:Mcma.Azure.CosmosDb
+  name: Mcma.Azure.CosmosDb
+  nameWithType: Mcma.Azure.CosmosDb
+  fullName: Mcma.Azure.CosmosDb
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Azure.CosmosDb.IQueryDefinitionBuilder.Build*
+  commentId: Overload:Mcma.Azure.CosmosDb.IQueryDefinitionBuilder.Build
+  name: Build
+  nameWithType: IQueryDefinitionBuilder.Build
+  fullName: Mcma.Azure.CosmosDb.IQueryDefinitionBuilder.Build
+- uid: Mcma.Data.DocumentDatabase.Queries.Query{{T}}
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.Query{``0}
+  parent: Mcma.Data.DocumentDatabase.Queries
+  definition: Mcma.Data.DocumentDatabase.Queries.Query`1
+  name: Query<T>
+  nameWithType: Query<T>
+  fullName: Mcma.Data.DocumentDatabase.Queries.Query<T>
+  nameWithType.vb: Query(Of T)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.Query(Of T)
+  name.vb: Query(Of T)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.Azure.Cosmos.QueryDefinition
+  commentId: T:Microsoft.Azure.Cosmos.QueryDefinition
+  parent: Microsoft.Azure.Cosmos
+  isExternal: true
+  name: QueryDefinition
+  nameWithType: QueryDefinition
+  fullName: Microsoft.Azure.Cosmos.QueryDefinition
+- uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.Query`1
+  parent: Mcma.Data.DocumentDatabase.Queries
+  name: Query<T>
+  nameWithType: Query<T>
+  fullName: Mcma.Data.DocumentDatabase.Queries.Query<T>
+  nameWithType.vb: Query(Of T)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.Query(Of T)
+  name.vb: Query(Of T)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries
+  commentId: N:Mcma.Data.DocumentDatabase.Queries
+  name: Mcma.Data.DocumentDatabase.Queries
+  nameWithType: Mcma.Data.DocumentDatabase.Queries
+  fullName: Mcma.Data.DocumentDatabase.Queries
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Azure.Cosmos
+  commentId: N:Microsoft.Azure.Cosmos
+  isExternal: true
+  name: Microsoft.Azure.Cosmos
+  nameWithType: Microsoft.Azure.Cosmos
+  fullName: Microsoft.Azure.Cosmos

@@ -1,0 +1,101 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-cosmos-db.CosmosDbMutex
+    name: CosmosDbMutex
+    fullName: CosmosDbMutex
+    children:
+      - azure-cosmos-db.CosmosDbMutex.constructor
+      - azure-cosmos-db.CosmosDbMutex.lock
+      - azure-cosmos-db.CosmosDbMutex.mutexName
+      - azure-cosmos-db.CosmosDbMutex.unlock
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: DocumentDatabaseMutex
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbMutex.constructor
+    name: 'CosmosDbMutex(Container, string, string, string, number, Logger)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CosmosDbMutex(container: Container, partitionKeyName: string,
+        mutexName: string, mutexHolder: string, lockTimeout: number, logger?:
+        Logger)
+      parameters:
+        - id: container
+          type:
+            - Container
+          description: ''
+        - id: partitionKeyName
+          type:
+            - string
+          description: ''
+        - id: mutexName
+          type:
+            - string
+          description: ''
+        - id: mutexHolder
+          type:
+            - string
+          description: ''
+        - id: lockTimeout
+          type:
+            - number
+          description: ''
+        - id: logger
+          type:
+            - Logger
+          description: ''
+          optional: true
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbMutex.lock
+    name: lock()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function lock()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbMutex.mutexName
+    name: mutexName
+    fullName: mutexName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mutexName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbMutex.unlock
+    name: unlock()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unlock()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: azure-cosmos-db

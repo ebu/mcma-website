@@ -1,0 +1,681 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Api.McmaApiOptions
+  commentId: T:Mcma.Api.McmaApiOptions
+  id: McmaApiOptions
+  parent: Mcma.Api
+  children:
+  - Mcma.Api.McmaApiOptions.PublicUrl
+  langs:
+  - csharp
+  - vb
+  name: McmaApiOptions
+  nameWithType: McmaApiOptions
+  fullName: Mcma.Api.McmaApiOptions
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiOptions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaApiOptions
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiOptions.cs
+    startLine: 2
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public class McmaApiOptions
+    content.vb: Public Class McmaApiOptions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Mcma.Api.McmaApiOptions.Mcma.Api.McmaApiOptionsExtensions.PublicUrlForCurrentRequest(Mcma.Api.McmaApiRequestContext)
+  - Mcma.Api.McmaApiOptions.Mcma.Api.McmaApiOptionsExtensions.PublicUrlForPath(System.String)
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Api.McmaApiOptions.PublicUrl
+  commentId: P:Mcma.Api.McmaApiOptions.PublicUrl
+  id: PublicUrl
+  parent: Mcma.Api.McmaApiOptions
+  langs:
+  - csharp
+  - vb
+  name: PublicUrl
+  nameWithType: McmaApiOptions.PublicUrl
+  fullName: Mcma.Api.McmaApiOptions.PublicUrl
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Api/Http/McmaApiOptions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: PublicUrl
+    path: ../mcma-libraries-dotnet/Base/Mcma.Api/Http/McmaApiOptions.cs
+    startLine: 4
+  assemblies:
+  - Mcma.Api
+  namespace: Mcma.Api
+  syntax:
+    content: public string PublicUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PublicUrl As String
+  overload: Mcma.Api.McmaApiOptions.PublicUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Api
+  commentId: N:Mcma.Api
+  name: Mcma.Api
+  nameWithType: Mcma.Api
+  fullName: Mcma.Api
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.McmaApiOptions.Mcma.Api.McmaApiOptionsExtensions.PublicUrlForCurrentRequest(Mcma.Api.McmaApiRequestContext)
+  commentId: M:Mcma.Api.McmaApiOptionsExtensions.PublicUrlForCurrentRequest(Mcma.Api.McmaApiOptions,Mcma.Api.McmaApiRequestContext)
+  parent: Mcma.Api.McmaApiOptionsExtensions
+  definition: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForCurrentRequest(Mcma.Api.McmaApiOptions,Mcma.Api.McmaApiRequestContext)
+  name: PublicUrlForCurrentRequest(McmaApiRequestContext)
+  nameWithType: McmaApiOptionsExtensions.PublicUrlForCurrentRequest(McmaApiRequestContext)
+  fullName: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForCurrentRequest(Mcma.Api.McmaApiRequestContext)
+  spec.csharp:
+  - uid: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForCurrentRequest(Mcma.Api.McmaApiRequestContext)
+    name: PublicUrlForCurrentRequest
+    nameWithType: McmaApiOptionsExtensions.PublicUrlForCurrentRequest
+    fullName: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForCurrentRequest
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForCurrentRequest(Mcma.Api.McmaApiRequestContext)
+    name: PublicUrlForCurrentRequest
+    nameWithType: McmaApiOptionsExtensions.PublicUrlForCurrentRequest
+    fullName: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForCurrentRequest
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.McmaApiOptions.Mcma.Api.McmaApiOptionsExtensions.PublicUrlForPath(System.String)
+  commentId: M:Mcma.Api.McmaApiOptionsExtensions.PublicUrlForPath(Mcma.Api.McmaApiOptions,System.String)
+  parent: Mcma.Api.McmaApiOptionsExtensions
+  definition: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForPath(Mcma.Api.McmaApiOptions,System.String)
+  name: PublicUrlForPath(String)
+  nameWithType: McmaApiOptionsExtensions.PublicUrlForPath(String)
+  fullName: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForPath(System.String)
+  spec.csharp:
+  - uid: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForPath(System.String)
+    name: PublicUrlForPath
+    nameWithType: McmaApiOptionsExtensions.PublicUrlForPath
+    fullName: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForPath
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForPath(System.String)
+    name: PublicUrlForPath
+    nameWithType: McmaApiOptionsExtensions.PublicUrlForPath
+    fullName: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForPath
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForCurrentRequest(Mcma.Api.McmaApiOptions,Mcma.Api.McmaApiRequestContext)
+  commentId: M:Mcma.Api.McmaApiOptionsExtensions.PublicUrlForCurrentRequest(Mcma.Api.McmaApiOptions,Mcma.Api.McmaApiRequestContext)
+  name: PublicUrlForCurrentRequest(McmaApiOptions, McmaApiRequestContext)
+  nameWithType: McmaApiOptionsExtensions.PublicUrlForCurrentRequest(McmaApiOptions, McmaApiRequestContext)
+  fullName: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForCurrentRequest(Mcma.Api.McmaApiOptions, Mcma.Api.McmaApiRequestContext)
+  spec.csharp:
+  - uid: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForCurrentRequest(Mcma.Api.McmaApiOptions,Mcma.Api.McmaApiRequestContext)
+    name: PublicUrlForCurrentRequest
+    nameWithType: McmaApiOptionsExtensions.PublicUrlForCurrentRequest
+    fullName: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForCurrentRequest
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiOptions
+    name: McmaApiOptions
+    nameWithType: McmaApiOptions
+    fullName: Mcma.Api.McmaApiOptions
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForCurrentRequest(Mcma.Api.McmaApiOptions,Mcma.Api.McmaApiRequestContext)
+    name: PublicUrlForCurrentRequest
+    nameWithType: McmaApiOptionsExtensions.PublicUrlForCurrentRequest
+    fullName: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForCurrentRequest
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiOptions
+    name: McmaApiOptions
+    nameWithType: McmaApiOptions
+    fullName: Mcma.Api.McmaApiOptions
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.Api.McmaApiRequestContext
+    name: McmaApiRequestContext
+    nameWithType: McmaApiRequestContext
+    fullName: Mcma.Api.McmaApiRequestContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Api.McmaApiOptionsExtensions
+  commentId: T:Mcma.Api.McmaApiOptionsExtensions
+  parent: Mcma.Api
+  name: McmaApiOptionsExtensions
+  nameWithType: McmaApiOptionsExtensions
+  fullName: Mcma.Api.McmaApiOptionsExtensions
+- uid: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForPath(Mcma.Api.McmaApiOptions,System.String)
+  commentId: M:Mcma.Api.McmaApiOptionsExtensions.PublicUrlForPath(Mcma.Api.McmaApiOptions,System.String)
+  isExternal: true
+  name: PublicUrlForPath(McmaApiOptions, String)
+  nameWithType: McmaApiOptionsExtensions.PublicUrlForPath(McmaApiOptions, String)
+  fullName: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForPath(Mcma.Api.McmaApiOptions, System.String)
+  spec.csharp:
+  - uid: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForPath(Mcma.Api.McmaApiOptions,System.String)
+    name: PublicUrlForPath
+    nameWithType: McmaApiOptionsExtensions.PublicUrlForPath
+    fullName: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForPath
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiOptions
+    name: McmaApiOptions
+    nameWithType: McmaApiOptions
+    fullName: Mcma.Api.McmaApiOptions
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForPath(Mcma.Api.McmaApiOptions,System.String)
+    name: PublicUrlForPath
+    nameWithType: McmaApiOptionsExtensions.PublicUrlForPath
+    fullName: Mcma.Api.McmaApiOptionsExtensions.PublicUrlForPath
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Api.McmaApiOptions
+    name: McmaApiOptions
+    nameWithType: McmaApiOptions
+    fullName: Mcma.Api.McmaApiOptions
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Api.McmaApiOptions.PublicUrl*
+  commentId: Overload:Mcma.Api.McmaApiOptions.PublicUrl
+  name: PublicUrl
+  nameWithType: McmaApiOptions.PublicUrl
+  fullName: Mcma.Api.McmaApiOptions.PublicUrl
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

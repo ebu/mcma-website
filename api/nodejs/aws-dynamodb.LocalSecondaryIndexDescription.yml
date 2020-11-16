@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-dynamodb.LocalSecondaryIndexDescription
+    name: LocalSecondaryIndexDescription
+    fullName: LocalSecondaryIndexDescription
+    children:
+      - aws-dynamodb.LocalSecondaryIndexDescription.name
+      - aws-dynamodb.LocalSecondaryIndexDescription.sortKeyName
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.LocalSecondaryIndexDescription.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.LocalSecondaryIndexDescription.sortKeyName
+    name: sortKeyName
+    fullName: sortKeyName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'sortKeyName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-dynamodb

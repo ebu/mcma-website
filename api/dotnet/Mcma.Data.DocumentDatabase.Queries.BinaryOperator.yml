@@ -1,0 +1,869 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  id: BinaryOperator
+  parent: Mcma.Data.DocumentDatabase.Queries
+  children:
+  - Mcma.Data.DocumentDatabase.Queries.BinaryOperator.EqualTo
+  - Mcma.Data.DocumentDatabase.Queries.BinaryOperator.GreaterThan
+  - Mcma.Data.DocumentDatabase.Queries.BinaryOperator.GreaterThanOrEqualTo
+  - Mcma.Data.DocumentDatabase.Queries.BinaryOperator.LessThan
+  - Mcma.Data.DocumentDatabase.Queries.BinaryOperator.LessThanOrEqualTo
+  - Mcma.Data.DocumentDatabase.Queries.BinaryOperator.NotEqualTo
+  - Mcma.Data.DocumentDatabase.Queries.BinaryOperator.op_Implicit(Mcma.Data.DocumentDatabase.Queries.BinaryOperator)~System.String
+  - Mcma.Data.DocumentDatabase.Queries.BinaryOperator.op_Implicit(System.String)~Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  - Mcma.Data.DocumentDatabase.Queries.BinaryOperator.Operators
+  - Mcma.Data.DocumentDatabase.Queries.BinaryOperator.ToString
+  langs:
+  - csharp
+  - vb
+  name: BinaryOperator
+  nameWithType: BinaryOperator
+  fullName: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: BinaryOperator
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+    startLine: 4
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public class BinaryOperator
+    content.vb: Public Class BinaryOperator
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.EqualTo
+  commentId: F:Mcma.Data.DocumentDatabase.Queries.BinaryOperator.EqualTo
+  id: EqualTo
+  parent: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  langs:
+  - csharp
+  - vb
+  name: EqualTo
+  nameWithType: BinaryOperator.EqualTo
+  fullName: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.EqualTo
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: EqualTo
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public static readonly BinaryOperator EqualTo
+    return:
+      type: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+    content.vb: Public Shared ReadOnly EqualTo As BinaryOperator
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.NotEqualTo
+  commentId: F:Mcma.Data.DocumentDatabase.Queries.BinaryOperator.NotEqualTo
+  id: NotEqualTo
+  parent: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  langs:
+  - csharp
+  - vb
+  name: NotEqualTo
+  nameWithType: BinaryOperator.NotEqualTo
+  fullName: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.NotEqualTo
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: NotEqualTo
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public static readonly BinaryOperator NotEqualTo
+    return:
+      type: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+    content.vb: Public Shared ReadOnly NotEqualTo As BinaryOperator
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.LessThan
+  commentId: F:Mcma.Data.DocumentDatabase.Queries.BinaryOperator.LessThan
+  id: LessThan
+  parent: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  langs:
+  - csharp
+  - vb
+  name: LessThan
+  nameWithType: BinaryOperator.LessThan
+  fullName: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.LessThan
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: LessThan
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public static readonly BinaryOperator LessThan
+    return:
+      type: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+    content.vb: Public Shared ReadOnly LessThan As BinaryOperator
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.LessThanOrEqualTo
+  commentId: F:Mcma.Data.DocumentDatabase.Queries.BinaryOperator.LessThanOrEqualTo
+  id: LessThanOrEqualTo
+  parent: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  langs:
+  - csharp
+  - vb
+  name: LessThanOrEqualTo
+  nameWithType: BinaryOperator.LessThanOrEqualTo
+  fullName: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.LessThanOrEqualTo
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: LessThanOrEqualTo
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+    startLine: 9
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public static readonly BinaryOperator LessThanOrEqualTo
+    return:
+      type: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+    content.vb: Public Shared ReadOnly LessThanOrEqualTo As BinaryOperator
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.GreaterThan
+  commentId: F:Mcma.Data.DocumentDatabase.Queries.BinaryOperator.GreaterThan
+  id: GreaterThan
+  parent: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  langs:
+  - csharp
+  - vb
+  name: GreaterThan
+  nameWithType: BinaryOperator.GreaterThan
+  fullName: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.GreaterThan
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GreaterThan
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public static readonly BinaryOperator GreaterThan
+    return:
+      type: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+    content.vb: Public Shared ReadOnly GreaterThan As BinaryOperator
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.GreaterThanOrEqualTo
+  commentId: F:Mcma.Data.DocumentDatabase.Queries.BinaryOperator.GreaterThanOrEqualTo
+  id: GreaterThanOrEqualTo
+  parent: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  langs:
+  - csharp
+  - vb
+  name: GreaterThanOrEqualTo
+  nameWithType: BinaryOperator.GreaterThanOrEqualTo
+  fullName: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.GreaterThanOrEqualTo
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GreaterThanOrEqualTo
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+    startLine: 11
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public static readonly BinaryOperator GreaterThanOrEqualTo
+    return:
+      type: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+    content.vb: Public Shared ReadOnly GreaterThanOrEqualTo As BinaryOperator
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.Operators
+  commentId: F:Mcma.Data.DocumentDatabase.Queries.BinaryOperator.Operators
+  id: Operators
+  parent: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  langs:
+  - csharp
+  - vb
+  name: Operators
+  nameWithType: BinaryOperator.Operators
+  fullName: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.Operators
+  type: Field
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Operators
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+    startLine: 13
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public static readonly string[] Operators
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly Operators As String()
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.op_Implicit(System.String)~Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  commentId: M:Mcma.Data.DocumentDatabase.Queries.BinaryOperator.op_Implicit(System.String)~Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  id: op_Implicit(System.String)~Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  parent: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  langs:
+  - csharp
+  - vb
+  name: Implicit(String to BinaryOperator)
+  nameWithType: BinaryOperator.Implicit(String to BinaryOperator)
+  fullName: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.Implicit(System.String to Mcma.Data.DocumentDatabase.Queries.BinaryOperator)
+  type: Operator
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: op_Implicit
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+    startLine: 25
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public static implicit operator BinaryOperator(string operator)
+    parameters:
+    - id: operator
+      type: System.String
+    return:
+      type: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+    content.vb: Public Shared Widening Operator CType(operator As String) As BinaryOperator
+  overload: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.op_Implicit*
+  nameWithType.vb: BinaryOperator.Widening(String to BinaryOperator)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.Widening(System.String to Mcma.Data.DocumentDatabase.Queries.BinaryOperator)
+  name.vb: Widening(String to BinaryOperator)
+- uid: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.op_Implicit(Mcma.Data.DocumentDatabase.Queries.BinaryOperator)~System.String
+  commentId: M:Mcma.Data.DocumentDatabase.Queries.BinaryOperator.op_Implicit(Mcma.Data.DocumentDatabase.Queries.BinaryOperator)~System.String
+  id: op_Implicit(Mcma.Data.DocumentDatabase.Queries.BinaryOperator)~System.String
+  parent: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  langs:
+  - csharp
+  - vb
+  name: Implicit(BinaryOperator to String)
+  nameWithType: BinaryOperator.Implicit(BinaryOperator to String)
+  fullName: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.Implicit(Mcma.Data.DocumentDatabase.Queries.BinaryOperator to System.String)
+  type: Operator
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: op_Implicit
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+    startLine: 27
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public static implicit operator string (BinaryOperator operator)
+    parameters:
+    - id: operator
+      type: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+    return:
+      type: System.String
+    content.vb: Public Shared Widening Operator CType(operator As BinaryOperator) As String
+  overload: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.op_Implicit*
+  nameWithType.vb: BinaryOperator.Widening(BinaryOperator to String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.Widening(Mcma.Data.DocumentDatabase.Queries.BinaryOperator to System.String)
+  name.vb: Widening(BinaryOperator to String)
+- uid: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.ToString
+  commentId: M:Mcma.Data.DocumentDatabase.Queries.BinaryOperator.ToString
+  id: ToString
+  parent: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: BinaryOperator.ToString()
+  fullName: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.ToString()
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ToString
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/BinaryOperator.cs
+    startLine: 29
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Mcma.Data.DocumentDatabase.Queries
+  commentId: N:Mcma.Data.DocumentDatabase.Queries
+  name: Mcma.Data.DocumentDatabase.Queries
+  nameWithType: Mcma.Data.DocumentDatabase.Queries
+  fullName: Mcma.Data.DocumentDatabase.Queries
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  parent: Mcma.Data.DocumentDatabase.Queries
+  name: BinaryOperator
+  nameWithType: BinaryOperator
+  fullName: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.op_Implicit*
+  commentId: Overload:Mcma.Data.DocumentDatabase.Queries.BinaryOperator.op_Implicit
+  name: Implicit
+  nameWithType: BinaryOperator.Implicit
+  fullName: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.Implicit
+  nameWithType.vb: BinaryOperator.Widening
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.Widening
+  name.vb: Widening
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.ToString*
+  commentId: Overload:Mcma.Data.DocumentDatabase.Queries.BinaryOperator.ToString
+  name: ToString
+  nameWithType: BinaryOperator.ToString
+  fullName: Mcma.Data.DocumentDatabase.Queries.BinaryOperator.ToString

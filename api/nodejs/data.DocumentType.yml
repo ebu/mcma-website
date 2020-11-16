@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: data.DocumentType
+    name: DocumentType
+    fullName: DocumentType<T>
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: 'type DocumentType<T> = string | '
+    package: data

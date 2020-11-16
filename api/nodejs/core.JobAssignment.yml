@@ -1,0 +1,313 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.JobAssignment
+    name: JobAssignment
+    fullName: JobAssignment
+    children:
+      - core.JobAssignment.@type
+      - core.JobAssignment.custom
+      - core.JobAssignment.dateCreated
+      - core.JobAssignment.dateModified
+      - core.JobAssignment.error
+      - core.JobAssignment.id
+      - core.JobAssignment.constructor
+      - core.JobAssignment.jobId
+      - core.JobAssignment.jobOutput
+      - core.JobAssignment.notificationEndpoint
+      - core.JobAssignment.onCreate
+      - core.JobAssignment.onUpsert
+      - core.JobAssignment.progress
+      - core.JobAssignment.status
+      - core.JobAssignment.tracker
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: core.JobBase<core.JobAssignmentProperties>
+    package: core
+  - uid: core.JobAssignment.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobAssignment.custom
+    name: custom
+    fullName: custom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'custom?: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: core
+  - uid: core.JobAssignment.dateCreated
+    name: dateCreated
+    fullName: dateCreated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateCreated?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.JobAssignment.dateModified
+    name: dateModified
+    fullName: dateModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateModified?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.JobAssignment.error
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'error?: ProblemDetail'
+      return:
+        type:
+          - core.ProblemDetail
+        description: ''
+    package: core
+  - uid: core.JobAssignment.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobAssignment.constructor
+    name: JobAssignment(JobAssignmentProperties)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new JobAssignment(properties: JobAssignmentProperties)'
+      parameters:
+        - id: properties
+          type:
+            - core.JobAssignmentProperties
+          description: ''
+    package: core
+  - uid: core.JobAssignment.jobId
+    name: jobId
+    fullName: jobId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'jobId: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobAssignment.jobOutput
+    name: jobOutput
+    fullName: jobOutput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'jobOutput?: JobParameterBag'
+      return:
+        type:
+          - core.JobParameterBag
+        description: ''
+    package: core
+  - uid: core.JobAssignment.notificationEndpoint
+    name: notificationEndpoint
+    fullName: notificationEndpoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'notificationEndpoint?: NotificationEndpointProperties'
+      return:
+        type:
+          - core.NotificationEndpointProperties
+        description: ''
+    package: core
+  - uid: core.JobAssignment.onCreate
+    name: onCreate(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onCreate(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+    package: core
+  - uid: core.JobAssignment.onUpsert
+    name: onUpsert(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onUpsert(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+    package: core
+  - uid: core.JobAssignment.progress
+    name: progress
+    fullName: progress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'progress?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: core
+  - uid: core.JobAssignment.status
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'status?: JobStatus'
+      return:
+        type:
+          - core.JobStatus
+        description: ''
+    package: core
+  - uid: core.JobAssignment.tracker
+    name: tracker
+    fullName: tracker
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'tracker?: McmaTrackerProperties'
+      return:
+        type:
+          - core.McmaTrackerProperties
+        description: ''
+    package: core
+references:
+  - uid: core.JobBase<core.JobAssignmentProperties>
+    name: JobAssignmentProperties>
+    spec.typeScript:
+      - name: JobBase
+        fullName: JobBase
+        uid: core.JobBase
+      - name: <
+        fullName: <
+      - name: JobAssignmentProperties
+        fullName: JobAssignmentProperties
+        uid: core.JobAssignmentProperties
+      - name: '>'
+        fullName: '>'
+  - uid: core.JobAssignmentProperties
+    name: JobAssignmentProperties
+    spec.typeScript:
+      - name: JobAssignmentProperties
+        fullName: JobAssignmentProperties
+        uid: core.JobAssignmentProperties
+  - uid: core.ProblemDetail
+    name: ProblemDetail
+    spec.typeScript:
+      - name: ProblemDetail
+        fullName: ProblemDetail
+        uid: core.ProblemDetail
+  - uid: core.JobParameterBag
+    name: JobParameterBag
+    spec.typeScript:
+      - name: JobParameterBag
+        fullName: JobParameterBag
+        uid: core.JobParameterBag
+  - uid: core.NotificationEndpointProperties
+    name: NotificationEndpointProperties
+    spec.typeScript:
+      - name: NotificationEndpointProperties
+        fullName: NotificationEndpointProperties
+        uid: core.NotificationEndpointProperties
+  - uid: core.JobStatus
+    name: JobStatus
+    spec.typeScript:
+      - name: JobStatus
+        fullName: JobStatus
+        uid: core.JobStatus
+  - uid: core.McmaTrackerProperties
+    name: McmaTrackerProperties
+    spec.typeScript:
+      - name: McmaTrackerProperties
+        fullName: McmaTrackerProperties
+        uid: core.McmaTrackerProperties

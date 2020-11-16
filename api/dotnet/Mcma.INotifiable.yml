@@ -1,0 +1,195 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.INotifiable
+  commentId: T:Mcma.INotifiable
+  id: INotifiable
+  parent: Mcma
+  children:
+  - Mcma.INotifiable.NotificationEndpoint
+  langs:
+  - csharp
+  - vb
+  name: INotifiable
+  nameWithType: INotifiable
+  fullName: Mcma.INotifiable
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.Core/Model/INotifiable.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: INotifiable
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Model/INotifiable.cs
+    startLine: 5
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma
+  summary: "\nImplemented by objects that might have notifications associated to them, e.g jobs and job assignments\n"
+  example: []
+  syntax:
+    content: public interface INotifiable
+    content.vb: Public Interface INotifiable
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.INotifiable.NotificationEndpoint
+  commentId: P:Mcma.INotifiable.NotificationEndpoint
+  id: NotificationEndpoint
+  parent: Mcma.INotifiable
+  langs:
+  - csharp
+  - vb
+  name: NotificationEndpoint
+  nameWithType: INotifiable.NotificationEndpoint
+  fullName: Mcma.INotifiable.NotificationEndpoint
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Core/Model/INotifiable.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: NotificationEndpoint
+    path: ../mcma-libraries-dotnet/Base/Mcma.Core/Model/INotifiable.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Core
+  namespace: Mcma
+  summary: "\nGets the notification endpoint to which notifications related to this resource should be sent\n"
+  example: []
+  syntax:
+    content: NotificationEndpoint NotificationEndpoint { get; }
+    parameters: []
+    return:
+      type: Mcma.NotificationEndpoint
+    content.vb: ReadOnly Property NotificationEndpoint As NotificationEndpoint
+  overload: Mcma.INotifiable.NotificationEndpoint*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Mcma
+  commentId: N:Mcma
+  name: Mcma
+  nameWithType: Mcma
+  fullName: Mcma
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.INotifiable.NotificationEndpoint*
+  commentId: Overload:Mcma.INotifiable.NotificationEndpoint
+  name: NotificationEndpoint
+  nameWithType: INotifiable.NotificationEndpoint
+  fullName: Mcma.INotifiable.NotificationEndpoint
+- uid: Mcma.NotificationEndpoint
+  commentId: T:Mcma.NotificationEndpoint
+  parent: Mcma
+  name: NotificationEndpoint
+  nameWithType: NotificationEndpoint
+  fullName: Mcma.NotificationEndpoint

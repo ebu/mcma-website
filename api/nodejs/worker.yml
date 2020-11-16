@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: worker
+    name: "@mcma/worker"
+    summary: ""
+    children:
+      - worker.JobProfileHandler
+      - worker.ProcessJobAssignmentHelper
+      - worker.ProcessJobAssignmentOperation
+      - worker.ProcessJobProfile
+      - worker.OperationFilter
+      - worker.OperationHandler
+      - worker.ProviderCollection
+      - worker.Providers
+      - worker.Worker
+      - worker.WorkerOperation
+      - worker.WorkerRequest
+      - worker.WorkerRequestProperties
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: worker.JobProfileHandler
+    name: JobProfileHandler
+  - uid: worker.ProcessJobAssignmentHelper
+    name: ProcessJobAssignmentHelper
+  - uid: worker.ProcessJobAssignmentOperation
+    name: ProcessJobAssignmentOperation
+  - uid: worker.ProcessJobProfile
+    name: ProcessJobProfile
+  - uid: worker.OperationFilter
+    name: OperationFilter
+  - uid: worker.OperationHandler
+    name: OperationHandler
+  - uid: worker.ProviderCollection
+    name: ProviderCollection
+  - uid: worker.Providers
+    name: Providers
+  - uid: worker.Worker
+    name: Worker
+  - uid: worker.WorkerOperation
+    name: WorkerOperation
+  - uid: worker.WorkerRequest
+    name: WorkerRequest
+  - uid: worker.WorkerRequestProperties
+    name: WorkerRequestProperties

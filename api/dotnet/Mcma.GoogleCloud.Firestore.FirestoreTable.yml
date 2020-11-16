@@ -1,0 +1,2054 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Firestore.FirestoreTable
+  commentId: T:Mcma.GoogleCloud.Firestore.FirestoreTable
+  id: FirestoreTable
+  parent: Mcma.GoogleCloud.Firestore
+  children:
+  - Mcma.GoogleCloud.Firestore.FirestoreTable.#ctor(Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry{System.ValueTuple{Google.Cloud.Firestore.Query,System.String}},Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder,Google.Cloud.Firestore.FirestoreDb,Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.Firestore.FirestoreTableOptions})
+  - Mcma.GoogleCloud.Firestore.FirestoreTable.CreateMutexAsync(System.String,System.String,System.Nullable{System.TimeSpan})
+  - Mcma.GoogleCloud.Firestore.FirestoreTable.CustomQueryAsync``2(Mcma.Data.DocumentDatabase.Queries.CustomQuery{``1})
+  - Mcma.GoogleCloud.Firestore.FirestoreTable.DeleteAsync(System.String)
+  - Mcma.GoogleCloud.Firestore.FirestoreTable.GetAsync``1(System.String)
+  - Mcma.GoogleCloud.Firestore.FirestoreTable.PutAsync``1(System.String,``0)
+  - Mcma.GoogleCloud.Firestore.FirestoreTable.QueryAsync``1(Mcma.Data.DocumentDatabase.Queries.Query{``0})
+  langs:
+  - csharp
+  - vb
+  name: FirestoreTable
+  nameWithType: FirestoreTable
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreTable
+  type: Class
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreTable.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: FirestoreTable
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreTable.cs
+    startLine: 11
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: 'public class FirestoreTable : IDocumentDatabaseTable'
+    content.vb: >-
+      Public Class FirestoreTable
+
+          Implements IDocumentDatabaseTable
+  inheritance:
+  - System.Object
+  implements:
+  - Mcma.Data.IDocumentDatabaseTable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.GoogleCloud.Firestore.FirestoreTable.#ctor(Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry{System.ValueTuple{Google.Cloud.Firestore.Query,System.String}},Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder,Google.Cloud.Firestore.FirestoreDb,Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.Firestore.FirestoreTableOptions})
+  commentId: M:Mcma.GoogleCloud.Firestore.FirestoreTable.#ctor(Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry{System.ValueTuple{Google.Cloud.Firestore.Query,System.String}},Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder,Google.Cloud.Firestore.FirestoreDb,Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.Firestore.FirestoreTableOptions})
+  id: '#ctor(Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry{System.ValueTuple{Google.Cloud.Firestore.Query,System.String}},Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder,Google.Cloud.Firestore.FirestoreDb,Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.Firestore.FirestoreTableOptions})'
+  parent: Mcma.GoogleCloud.Firestore.FirestoreTable
+  langs:
+  - csharp
+  - vb
+  name: FirestoreTable(ICustomQueryBuilderRegistry<(Query, String)>, IFirestoreQueryBuilder, FirestoreDb, IOptions<FirestoreTableOptions>)
+  nameWithType: FirestoreTable.FirestoreTable(ICustomQueryBuilderRegistry<(Query, String)>, IFirestoreQueryBuilder, FirestoreDb, IOptions<FirestoreTableOptions>)
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreTable.FirestoreTable(Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry<System.ValueTuple<Google.Cloud.Firestore.Query, System.String>>, Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder, Google.Cloud.Firestore.FirestoreDb, Microsoft.Extensions.Options.IOptions<Mcma.GoogleCloud.Firestore.FirestoreTableOptions>)
+  type: Constructor
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreTable.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreTable.cs
+    startLine: 13
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: public FirestoreTable(ICustomQueryBuilderRegistry<(Query, string)> customQueryBuilderRegistry, IFirestoreQueryBuilder queryBuilder, FirestoreDb firestore, IOptions<FirestoreTableOptions> options)
+    parameters:
+    - id: customQueryBuilderRegistry
+      type: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry{System.ValueTuple{Google.Cloud.Firestore.Query,System.String}}
+    - id: queryBuilder
+      type: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder
+    - id: firestore
+      type: Google.Cloud.Firestore.FirestoreDb
+    - id: options
+      type: Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.Firestore.FirestoreTableOptions}
+    content.vb: Public Sub New(customQueryBuilderRegistry As ICustomQueryBuilderRegistry(Of(Query, String)), queryBuilder As IFirestoreQueryBuilder, firestore As FirestoreDb, options As IOptions(Of FirestoreTableOptions))
+  overload: Mcma.GoogleCloud.Firestore.FirestoreTable.#ctor*
+  nameWithType.vb: FirestoreTable.FirestoreTable(ICustomQueryBuilderRegistry(Of (Query, String)), IFirestoreQueryBuilder, FirestoreDb, IOptions(Of FirestoreTableOptions))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.GoogleCloud.Firestore.FirestoreTable.FirestoreTable(Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry(Of System.ValueTuple(Of Google.Cloud.Firestore.Query, System.String)), Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder, Google.Cloud.Firestore.FirestoreDb, Microsoft.Extensions.Options.IOptions(Of Mcma.GoogleCloud.Firestore.FirestoreTableOptions))
+  name.vb: FirestoreTable(ICustomQueryBuilderRegistry(Of (Query, String)), IFirestoreQueryBuilder, FirestoreDb, IOptions(Of FirestoreTableOptions))
+- uid: Mcma.GoogleCloud.Firestore.FirestoreTable.QueryAsync``1(Mcma.Data.DocumentDatabase.Queries.Query{``0})
+  commentId: M:Mcma.GoogleCloud.Firestore.FirestoreTable.QueryAsync``1(Mcma.Data.DocumentDatabase.Queries.Query{``0})
+  id: QueryAsync``1(Mcma.Data.DocumentDatabase.Queries.Query{``0})
+  parent: Mcma.GoogleCloud.Firestore.FirestoreTable
+  langs:
+  - csharp
+  - vb
+  name: QueryAsync<T>(Query<T>)
+  nameWithType: FirestoreTable.QueryAsync<T>(Query<T>)
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreTable.QueryAsync<T>(Mcma.Data.DocumentDatabase.Queries.Query<T>)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreTable.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: QueryAsync
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreTable.cs
+    startLine: 35
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: >-
+      public Task<QueryResults<T>> QueryAsync<T>(Query<T> query)
+
+          where T : class
+    parameters:
+    - id: query
+      type: Mcma.Data.DocumentDatabase.Queries.Query{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Threading.Tasks.Task{Mcma.QueryResults{{T}}}
+    content.vb: Public Function QueryAsync(Of T As Class)(query As Query(Of T)) As Task(Of QueryResults(Of T))
+  overload: Mcma.GoogleCloud.Firestore.FirestoreTable.QueryAsync*
+  implements:
+  - Mcma.Data.IDocumentDatabaseTable.QueryAsync``1(Mcma.Data.DocumentDatabase.Queries.Query{{T}})
+  nameWithType.vb: FirestoreTable.QueryAsync(Of T)(Query(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.GoogleCloud.Firestore.FirestoreTable.QueryAsync(Of T)(Mcma.Data.DocumentDatabase.Queries.Query(Of T))
+  name.vb: QueryAsync(Of T)(Query(Of T))
+- uid: Mcma.GoogleCloud.Firestore.FirestoreTable.CustomQueryAsync``2(Mcma.Data.DocumentDatabase.Queries.CustomQuery{``1})
+  commentId: M:Mcma.GoogleCloud.Firestore.FirestoreTable.CustomQueryAsync``2(Mcma.Data.DocumentDatabase.Queries.CustomQuery{``1})
+  id: CustomQueryAsync``2(Mcma.Data.DocumentDatabase.Queries.CustomQuery{``1})
+  parent: Mcma.GoogleCloud.Firestore.FirestoreTable
+  langs:
+  - csharp
+  - vb
+  name: CustomQueryAsync<TResource, TParameters>(CustomQuery<TParameters>)
+  nameWithType: FirestoreTable.CustomQueryAsync<TResource, TParameters>(CustomQuery<TParameters>)
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreTable.CustomQueryAsync<TResource, TParameters>(Mcma.Data.DocumentDatabase.Queries.CustomQuery<TParameters>)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreTable.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: CustomQueryAsync
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreTable.cs
+    startLine: 48
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: >-
+      public Task<QueryResults<TResource>> CustomQueryAsync<TResource, TParameters>(CustomQuery<TParameters> customQuery)
+
+          where TResource : class
+    parameters:
+    - id: customQuery
+      type: Mcma.Data.DocumentDatabase.Queries.CustomQuery{{TParameters}}
+    typeParameters:
+    - id: TResource
+    - id: TParameters
+    return:
+      type: System.Threading.Tasks.Task{Mcma.QueryResults{{TResource}}}
+    content.vb: Public Function CustomQueryAsync(Of TResource As Class, TParameters)(customQuery As CustomQuery(Of TParameters)) As Task(Of QueryResults(Of TResource))
+  overload: Mcma.GoogleCloud.Firestore.FirestoreTable.CustomQueryAsync*
+  implements:
+  - Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync``2(Mcma.Data.DocumentDatabase.Queries.CustomQuery{{TParameters}})
+  nameWithType.vb: FirestoreTable.CustomQueryAsync(Of TResource, TParameters)(CustomQuery(Of TParameters))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.GoogleCloud.Firestore.FirestoreTable.CustomQueryAsync(Of TResource, TParameters)(Mcma.Data.DocumentDatabase.Queries.CustomQuery(Of TParameters))
+  name.vb: CustomQueryAsync(Of TResource, TParameters)(CustomQuery(Of TParameters))
+- uid: Mcma.GoogleCloud.Firestore.FirestoreTable.GetAsync``1(System.String)
+  commentId: M:Mcma.GoogleCloud.Firestore.FirestoreTable.GetAsync``1(System.String)
+  id: GetAsync``1(System.String)
+  parent: Mcma.GoogleCloud.Firestore.FirestoreTable
+  langs:
+  - csharp
+  - vb
+  name: GetAsync<T>(String)
+  nameWithType: FirestoreTable.GetAsync<T>(String)
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreTable.GetAsync<T>(System.String)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreTable.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetAsync
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreTable.cs
+    startLine: 66
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: >-
+      public Task<T> GetAsync<T>(string id)
+
+          where T : class
+    parameters:
+    - id: id
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+    content.vb: Public Function GetAsync(Of T As Class)(id As String) As Task(Of T)
+  overload: Mcma.GoogleCloud.Firestore.FirestoreTable.GetAsync*
+  implements:
+  - Mcma.Data.IDocumentDatabaseTable.GetAsync``1(System.String)
+  nameWithType.vb: FirestoreTable.GetAsync(Of T)(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.GoogleCloud.Firestore.FirestoreTable.GetAsync(Of T)(System.String)
+  name.vb: GetAsync(Of T)(String)
+- uid: Mcma.GoogleCloud.Firestore.FirestoreTable.PutAsync``1(System.String,``0)
+  commentId: M:Mcma.GoogleCloud.Firestore.FirestoreTable.PutAsync``1(System.String,``0)
+  id: PutAsync``1(System.String,``0)
+  parent: Mcma.GoogleCloud.Firestore.FirestoreTable
+  langs:
+  - csharp
+  - vb
+  name: PutAsync<T>(String, T)
+  nameWithType: FirestoreTable.PutAsync<T>(String, T)
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreTable.PutAsync<T>(System.String, T)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreTable.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: PutAsync
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreTable.cs
+    startLine: 72
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: >-
+      public Task<T> PutAsync<T>(string id, T resource)
+
+          where T : class
+    parameters:
+    - id: id
+      type: System.String
+    - id: resource
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+    content.vb: Public Function PutAsync(Of T As Class)(id As String, resource As T) As Task(Of T)
+  overload: Mcma.GoogleCloud.Firestore.FirestoreTable.PutAsync*
+  implements:
+  - Mcma.Data.IDocumentDatabaseTable.PutAsync``1(System.String,{T})
+  nameWithType.vb: FirestoreTable.PutAsync(Of T)(String, T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.GoogleCloud.Firestore.FirestoreTable.PutAsync(Of T)(System.String, T)
+  name.vb: PutAsync(Of T)(String, T)
+- uid: Mcma.GoogleCloud.Firestore.FirestoreTable.DeleteAsync(System.String)
+  commentId: M:Mcma.GoogleCloud.Firestore.FirestoreTable.DeleteAsync(System.String)
+  id: DeleteAsync(System.String)
+  parent: Mcma.GoogleCloud.Firestore.FirestoreTable
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync(String)
+  nameWithType: FirestoreTable.DeleteAsync(String)
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreTable.DeleteAsync(System.String)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreTable.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: DeleteAsync
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreTable.cs
+    startLine: 78
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: public Task DeleteAsync(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteAsync(id As String) As Task
+  overload: Mcma.GoogleCloud.Firestore.FirestoreTable.DeleteAsync*
+  implements:
+  - Mcma.Data.IDocumentDatabaseTable.DeleteAsync(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.GoogleCloud.Firestore.FirestoreTable.CreateMutexAsync(System.String,System.String,System.Nullable{System.TimeSpan})
+  commentId: M:Mcma.GoogleCloud.Firestore.FirestoreTable.CreateMutexAsync(System.String,System.String,System.Nullable{System.TimeSpan})
+  id: CreateMutexAsync(System.String,System.String,System.Nullable{System.TimeSpan})
+  parent: Mcma.GoogleCloud.Firestore.FirestoreTable
+  langs:
+  - csharp
+  - vb
+  name: CreateMutexAsync(String, String, Nullable<TimeSpan>)
+  nameWithType: FirestoreTable.CreateMutexAsync(String, String, Nullable<TimeSpan>)
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreTable.CreateMutexAsync(System.String, System.String, System.Nullable<System.TimeSpan>)
+  type: Method
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreTable.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: CreateMutexAsync
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud.Firestore/FirestoreTable.cs
+    startLine: 83
+  assemblies:
+  - Mcma.GoogleCloud.Firestore
+  namespace: Mcma.GoogleCloud.Firestore
+  syntax:
+    content: public Task<IDocumentDatabaseMutex> CreateMutexAsync(string mutexName, string mutexHolder, TimeSpan? lockTimeout = default(TimeSpan? ))
+    parameters:
+    - id: mutexName
+      type: System.String
+    - id: mutexHolder
+      type: System.String
+    - id: lockTimeout
+      type: System.Nullable{System.TimeSpan}
+    return:
+      type: System.Threading.Tasks.Task{Mcma.Data.IDocumentDatabaseMutex}
+    content.vb: Public Function CreateMutexAsync(mutexName As String, mutexHolder As String, lockTimeout As TimeSpan? = Nothing) As Task(Of IDocumentDatabaseMutex)
+  overload: Mcma.GoogleCloud.Firestore.FirestoreTable.CreateMutexAsync*
+  implements:
+  - Mcma.Data.IDocumentDatabaseTable.CreateMutexAsync(System.String,System.String,System.Nullable{System.TimeSpan})
+  nameWithType.vb: FirestoreTable.CreateMutexAsync(String, String, Nullable(Of TimeSpan))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.GoogleCloud.Firestore.FirestoreTable.CreateMutexAsync(System.String, System.String, System.Nullable(Of System.TimeSpan))
+  name.vb: CreateMutexAsync(String, String, Nullable(Of TimeSpan))
+references:
+- uid: Mcma.GoogleCloud.Firestore
+  commentId: N:Mcma.GoogleCloud.Firestore
+  name: Mcma.GoogleCloud.Firestore
+  nameWithType: Mcma.GoogleCloud.Firestore
+  fullName: Mcma.GoogleCloud.Firestore
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Data.IDocumentDatabaseTable
+  commentId: T:Mcma.Data.IDocumentDatabaseTable
+  parent: Mcma.Data
+  name: IDocumentDatabaseTable
+  nameWithType: IDocumentDatabaseTable
+  fullName: Mcma.Data.IDocumentDatabaseTable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Data
+  commentId: N:Mcma.Data
+  name: Mcma.Data
+  nameWithType: Mcma.Data
+  fullName: Mcma.Data
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.GoogleCloud.Firestore.FirestoreTable.#ctor*
+  commentId: Overload:Mcma.GoogleCloud.Firestore.FirestoreTable.#ctor
+  name: FirestoreTable
+  nameWithType: FirestoreTable.FirestoreTable
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreTable.FirestoreTable
+- uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry{System.ValueTuple{Google.Cloud.Firestore.Query,System.String}}
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry{System.ValueTuple{Google.Cloud.Firestore.Query,System.String}}
+  parent: Mcma.Data.DocumentDatabase.Queries
+  definition: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+  name: ICustomQueryBuilderRegistry<ValueTuple<Query, String>>
+  nameWithType: ICustomQueryBuilderRegistry<ValueTuple<Query, String>>
+  fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry<System.ValueTuple<Google.Cloud.Firestore.Query, System.String>>
+  nameWithType.vb: ICustomQueryBuilderRegistry(Of ValueTuple(Of Query, String))
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry(Of System.ValueTuple(Of Google.Cloud.Firestore.Query, System.String))
+  name.vb: ICustomQueryBuilderRegistry(Of ValueTuple(Of Query, String))
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+    name: ICustomQueryBuilderRegistry
+    nameWithType: ICustomQueryBuilderRegistry
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Google.Cloud.Firestore.Query
+    name: Query
+    nameWithType: Query
+    fullName: Google.Cloud.Firestore.Query
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+    name: ICustomQueryBuilderRegistry
+    nameWithType: ICustomQueryBuilderRegistry
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Google.Cloud.Firestore.Query
+    name: Query
+    nameWithType: Query
+    fullName: Google.Cloud.Firestore.Query
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder
+  commentId: T:Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder
+  parent: Mcma.GoogleCloud.Firestore
+  name: IFirestoreQueryBuilder
+  nameWithType: IFirestoreQueryBuilder
+  fullName: Mcma.GoogleCloud.Firestore.IFirestoreQueryBuilder
+- uid: Google.Cloud.Firestore.FirestoreDb
+  commentId: T:Google.Cloud.Firestore.FirestoreDb
+  parent: Google.Cloud.Firestore
+  isExternal: true
+  name: FirestoreDb
+  nameWithType: FirestoreDb
+  fullName: Google.Cloud.Firestore.FirestoreDb
+- uid: Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.Firestore.FirestoreTableOptions}
+  commentId: T:Microsoft.Extensions.Options.IOptions{Mcma.GoogleCloud.Firestore.FirestoreTableOptions}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IOptions`1
+  name: IOptions<FirestoreTableOptions>
+  nameWithType: IOptions<FirestoreTableOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<Mcma.GoogleCloud.Firestore.FirestoreTableOptions>
+  nameWithType.vb: IOptions(Of FirestoreTableOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of Mcma.GoogleCloud.Firestore.FirestoreTableOptions)
+  name.vb: IOptions(Of FirestoreTableOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.GoogleCloud.Firestore.FirestoreTableOptions
+    name: FirestoreTableOptions
+    nameWithType: FirestoreTableOptions
+    fullName: Mcma.GoogleCloud.Firestore.FirestoreTableOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.GoogleCloud.Firestore.FirestoreTableOptions
+    name: FirestoreTableOptions
+    nameWithType: FirestoreTableOptions
+    fullName: Mcma.GoogleCloud.Firestore.FirestoreTableOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+  name: ICustomQueryBuilderRegistry<TProviderQuery>
+  nameWithType: ICustomQueryBuilderRegistry<TProviderQuery>
+  fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry<TProviderQuery>
+  nameWithType.vb: ICustomQueryBuilderRegistry(Of TProviderQuery)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry(Of TProviderQuery)
+  name.vb: ICustomQueryBuilderRegistry(Of TProviderQuery)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+    name: ICustomQueryBuilderRegistry
+    nameWithType: ICustomQueryBuilderRegistry
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TProviderQuery
+    nameWithType: TProviderQuery
+    fullName: TProviderQuery
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry`1
+    name: ICustomQueryBuilderRegistry
+    nameWithType: ICustomQueryBuilderRegistry
+    fullName: Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilderRegistry
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TProviderQuery
+    nameWithType: TProviderQuery
+    fullName: TProviderQuery
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries
+  commentId: N:Mcma.Data.DocumentDatabase.Queries
+  name: Mcma.Data.DocumentDatabase.Queries
+  nameWithType: Mcma.Data.DocumentDatabase.Queries
+  fullName: Mcma.Data.DocumentDatabase.Queries
+- uid: Google.Cloud.Firestore
+  commentId: N:Google.Cloud.Firestore
+  isExternal: true
+  name: Google.Cloud.Firestore
+  nameWithType: Google.Cloud.Firestore
+  fullName: Google.Cloud.Firestore
+- uid: Microsoft.Extensions.Options.IOptions`1
+  commentId: T:Microsoft.Extensions.Options.IOptions`1
+  isExternal: true
+  name: IOptions<TOptions>
+  nameWithType: IOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<TOptions>
+  nameWithType.vb: IOptions(Of TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of TOptions)
+  name.vb: IOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: true
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+- uid: Mcma.GoogleCloud.Firestore.FirestoreTable.QueryAsync*
+  commentId: Overload:Mcma.GoogleCloud.Firestore.FirestoreTable.QueryAsync
+  name: QueryAsync
+  nameWithType: FirestoreTable.QueryAsync
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreTable.QueryAsync
+- uid: Mcma.Data.IDocumentDatabaseTable.QueryAsync``1(Mcma.Data.DocumentDatabase.Queries.Query{{T}})
+  commentId: M:Mcma.Data.IDocumentDatabaseTable.QueryAsync``1(Mcma.Data.DocumentDatabase.Queries.Query{``0})
+  parent: Mcma.Data.IDocumentDatabaseTable
+  definition: Mcma.Data.IDocumentDatabaseTable.QueryAsync``1(Mcma.Data.DocumentDatabase.Queries.Query{``0})
+  name: QueryAsync<T>(Query<T>)
+  nameWithType: IDocumentDatabaseTable.QueryAsync<T>(Query<T>)
+  fullName: Mcma.Data.IDocumentDatabaseTable.QueryAsync<T>(Mcma.Data.DocumentDatabase.Queries.Query<T>)
+  nameWithType.vb: IDocumentDatabaseTable.QueryAsync(Of T)(Query(Of T))
+  fullName.vb: Mcma.Data.IDocumentDatabaseTable.QueryAsync(Of T)(Mcma.Data.DocumentDatabase.Queries.Query(Of T))
+  name.vb: QueryAsync(Of T)(Query(Of T))
+  spec.csharp:
+  - uid: Mcma.Data.IDocumentDatabaseTable.QueryAsync``1(Mcma.Data.DocumentDatabase.Queries.Query{``0})
+    name: QueryAsync<T>
+    nameWithType: IDocumentDatabaseTable.QueryAsync<T>
+    fullName: Mcma.Data.IDocumentDatabaseTable.QueryAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.IDocumentDatabaseTable.QueryAsync``1(Mcma.Data.DocumentDatabase.Queries.Query{``0})
+    name: QueryAsync(Of T)
+    nameWithType: IDocumentDatabaseTable.QueryAsync(Of T)
+    fullName: Mcma.Data.IDocumentDatabaseTable.QueryAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.Query{{T}}
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.Query{``0}
+  parent: Mcma.Data.DocumentDatabase.Queries
+  definition: Mcma.Data.DocumentDatabase.Queries.Query`1
+  name: Query<T>
+  nameWithType: Query<T>
+  fullName: Mcma.Data.DocumentDatabase.Queries.Query<T>
+  nameWithType.vb: Query(Of T)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.Query(Of T)
+  name.vb: Query(Of T)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{Mcma.QueryResults{{T}}}
+  commentId: T:System.Threading.Tasks.Task{Mcma.QueryResults{``0}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<QueryResults<T>>
+  nameWithType: Task<QueryResults<T>>
+  fullName: System.Threading.Tasks.Task<Mcma.QueryResults<T>>
+  nameWithType.vb: Task(Of QueryResults(Of T))
+  fullName.vb: System.Threading.Tasks.Task(Of Mcma.QueryResults(Of T))
+  name.vb: Task(Of QueryResults(Of T))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.QueryResults`1
+    name: QueryResults
+    nameWithType: QueryResults
+    fullName: Mcma.QueryResults
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.QueryResults`1
+    name: QueryResults
+    nameWithType: QueryResults
+    fullName: Mcma.QueryResults
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.IDocumentDatabaseTable.QueryAsync``1(Mcma.Data.DocumentDatabase.Queries.Query{``0})
+  commentId: M:Mcma.Data.IDocumentDatabaseTable.QueryAsync``1(Mcma.Data.DocumentDatabase.Queries.Query{``0})
+  name: QueryAsync<T>(Query<T>)
+  nameWithType: IDocumentDatabaseTable.QueryAsync<T>(Query<T>)
+  fullName: Mcma.Data.IDocumentDatabaseTable.QueryAsync<T>(Mcma.Data.DocumentDatabase.Queries.Query<T>)
+  nameWithType.vb: IDocumentDatabaseTable.QueryAsync(Of T)(Query(Of T))
+  fullName.vb: Mcma.Data.IDocumentDatabaseTable.QueryAsync(Of T)(Mcma.Data.DocumentDatabase.Queries.Query(Of T))
+  name.vb: QueryAsync(Of T)(Query(Of T))
+  spec.csharp:
+  - uid: Mcma.Data.IDocumentDatabaseTable.QueryAsync``1(Mcma.Data.DocumentDatabase.Queries.Query{``0})
+    name: QueryAsync<T>
+    nameWithType: IDocumentDatabaseTable.QueryAsync<T>
+    fullName: Mcma.Data.IDocumentDatabaseTable.QueryAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.IDocumentDatabaseTable.QueryAsync``1(Mcma.Data.DocumentDatabase.Queries.Query{``0})
+    name: QueryAsync(Of T)
+    nameWithType: IDocumentDatabaseTable.QueryAsync(Of T)
+    fullName: Mcma.Data.IDocumentDatabaseTable.QueryAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.Query`1
+  parent: Mcma.Data.DocumentDatabase.Queries
+  name: Query<T>
+  nameWithType: Query<T>
+  fullName: Mcma.Data.DocumentDatabase.Queries.Query<T>
+  nameWithType.vb: Query(Of T)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.Query(Of T)
+  name.vb: Query(Of T)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.Query`1
+    name: Query
+    nameWithType: Query
+    fullName: Mcma.Data.DocumentDatabase.Queries.Query
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Mcma.GoogleCloud.Firestore.FirestoreTable.CustomQueryAsync*
+  commentId: Overload:Mcma.GoogleCloud.Firestore.FirestoreTable.CustomQueryAsync
+  name: CustomQueryAsync
+  nameWithType: FirestoreTable.CustomQueryAsync
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreTable.CustomQueryAsync
+- uid: Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync``2(Mcma.Data.DocumentDatabase.Queries.CustomQuery{{TParameters}})
+  commentId: M:Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync``2(Mcma.Data.DocumentDatabase.Queries.CustomQuery{``1})
+  parent: Mcma.Data.IDocumentDatabaseTable
+  definition: Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync``2(Mcma.Data.DocumentDatabase.Queries.CustomQuery{``1})
+  name: CustomQueryAsync<TResource, TParameters>(CustomQuery<TParameters>)
+  nameWithType: IDocumentDatabaseTable.CustomQueryAsync<TResource, TParameters>(CustomQuery<TParameters>)
+  fullName: Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync<TResource, TParameters>(Mcma.Data.DocumentDatabase.Queries.CustomQuery<TParameters>)
+  nameWithType.vb: IDocumentDatabaseTable.CustomQueryAsync(Of TResource, TParameters)(CustomQuery(Of TParameters))
+  fullName.vb: Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync(Of TResource, TParameters)(Mcma.Data.DocumentDatabase.Queries.CustomQuery(Of TParameters))
+  name.vb: CustomQueryAsync(Of TResource, TParameters)(CustomQuery(Of TParameters))
+  spec.csharp:
+  - uid: Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync``2(Mcma.Data.DocumentDatabase.Queries.CustomQuery{``1})
+    name: CustomQueryAsync<TResource, TParameters>
+    nameWithType: IDocumentDatabaseTable.CustomQueryAsync<TResource, TParameters>
+    fullName: Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync<TResource, TParameters>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+    name: CustomQuery
+    nameWithType: CustomQuery
+    fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync``2(Mcma.Data.DocumentDatabase.Queries.CustomQuery{``1})
+    name: CustomQueryAsync(Of TResource, TParameters)
+    nameWithType: IDocumentDatabaseTable.CustomQueryAsync(Of TResource, TParameters)
+    fullName: Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync(Of TResource, TParameters)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+    name: CustomQuery
+    nameWithType: CustomQuery
+    fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery{{TParameters}}
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.CustomQuery{``1}
+  parent: Mcma.Data.DocumentDatabase.Queries
+  definition: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+  name: CustomQuery<TParameters>
+  nameWithType: CustomQuery<TParameters>
+  fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery<TParameters>
+  nameWithType.vb: CustomQuery(Of TParameters)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.CustomQuery(Of TParameters)
+  name.vb: CustomQuery(Of TParameters)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+    name: CustomQuery
+    nameWithType: CustomQuery
+    fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+    name: CustomQuery
+    nameWithType: CustomQuery
+    fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{Mcma.QueryResults{{TResource}}}
+  commentId: T:System.Threading.Tasks.Task{Mcma.QueryResults{``0}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<QueryResults<TResource>>
+  nameWithType: Task<QueryResults<TResource>>
+  fullName: System.Threading.Tasks.Task<Mcma.QueryResults<TResource>>
+  nameWithType.vb: Task(Of QueryResults(Of TResource))
+  fullName.vb: System.Threading.Tasks.Task(Of Mcma.QueryResults(Of TResource))
+  name.vb: Task(Of QueryResults(Of TResource))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.QueryResults`1
+    name: QueryResults
+    nameWithType: QueryResults
+    fullName: Mcma.QueryResults
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.QueryResults`1
+    name: QueryResults
+    nameWithType: QueryResults
+    fullName: Mcma.QueryResults
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResource
+    nameWithType: TResource
+    fullName: TResource
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync``2(Mcma.Data.DocumentDatabase.Queries.CustomQuery{``1})
+  commentId: M:Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync``2(Mcma.Data.DocumentDatabase.Queries.CustomQuery{``1})
+  name: CustomQueryAsync<TResource, TParameters>(CustomQuery<TParameters>)
+  nameWithType: IDocumentDatabaseTable.CustomQueryAsync<TResource, TParameters>(CustomQuery<TParameters>)
+  fullName: Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync<TResource, TParameters>(Mcma.Data.DocumentDatabase.Queries.CustomQuery<TParameters>)
+  nameWithType.vb: IDocumentDatabaseTable.CustomQueryAsync(Of TResource, TParameters)(CustomQuery(Of TParameters))
+  fullName.vb: Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync(Of TResource, TParameters)(Mcma.Data.DocumentDatabase.Queries.CustomQuery(Of TParameters))
+  name.vb: CustomQueryAsync(Of TResource, TParameters)(CustomQuery(Of TParameters))
+  spec.csharp:
+  - uid: Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync``2(Mcma.Data.DocumentDatabase.Queries.CustomQuery{``1})
+    name: CustomQueryAsync<TResource, TParameters>
+    nameWithType: IDocumentDatabaseTable.CustomQueryAsync<TResource, TParameters>
+    fullName: Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync<TResource, TParameters>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+    name: CustomQuery
+    nameWithType: CustomQuery
+    fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync``2(Mcma.Data.DocumentDatabase.Queries.CustomQuery{``1})
+    name: CustomQueryAsync(Of TResource, TParameters)
+    nameWithType: IDocumentDatabaseTable.CustomQueryAsync(Of TResource, TParameters)
+    fullName: Mcma.Data.IDocumentDatabaseTable.CustomQueryAsync(Of TResource, TParameters)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+    name: CustomQuery
+    nameWithType: CustomQuery
+    fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+  name: CustomQuery<TParameters>
+  nameWithType: CustomQuery<TParameters>
+  fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery<TParameters>
+  nameWithType.vb: CustomQuery(Of TParameters)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.CustomQuery(Of TParameters)
+  name.vb: CustomQuery(Of TParameters)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+    name: CustomQuery
+    nameWithType: CustomQuery
+    fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.CustomQuery`1
+    name: CustomQuery
+    nameWithType: CustomQuery
+    fullName: Mcma.Data.DocumentDatabase.Queries.CustomQuery
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParameters
+    nameWithType: TParameters
+    fullName: TParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Firestore.FirestoreTable.GetAsync*
+  commentId: Overload:Mcma.GoogleCloud.Firestore.FirestoreTable.GetAsync
+  name: GetAsync
+  nameWithType: FirestoreTable.GetAsync
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreTable.GetAsync
+- uid: Mcma.Data.IDocumentDatabaseTable.GetAsync``1(System.String)
+  commentId: M:Mcma.Data.IDocumentDatabaseTable.GetAsync``1(System.String)
+  parent: Mcma.Data.IDocumentDatabaseTable
+  isExternal: true
+  name: GetAsync<T>(String)
+  nameWithType: IDocumentDatabaseTable.GetAsync<T>(String)
+  fullName: Mcma.Data.IDocumentDatabaseTable.GetAsync<T>(System.String)
+  nameWithType.vb: IDocumentDatabaseTable.GetAsync(Of T)(String)
+  fullName.vb: Mcma.Data.IDocumentDatabaseTable.GetAsync(Of T)(System.String)
+  name.vb: GetAsync(Of T)(String)
+  spec.csharp:
+  - uid: Mcma.Data.IDocumentDatabaseTable.GetAsync``1(System.String)
+    name: GetAsync<T>
+    nameWithType: IDocumentDatabaseTable.GetAsync<T>
+    fullName: Mcma.Data.IDocumentDatabaseTable.GetAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.IDocumentDatabaseTable.GetAsync``1(System.String)
+    name: GetAsync(Of T)
+    nameWithType: IDocumentDatabaseTable.GetAsync(Of T)
+    fullName: Mcma.Data.IDocumentDatabaseTable.GetAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{{T}}
+  commentId: T:System.Threading.Tasks.Task{``0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<T>
+  nameWithType: Task<T>
+  fullName: System.Threading.Tasks.Task<T>
+  nameWithType.vb: Task(Of T)
+  fullName.vb: System.Threading.Tasks.Task(Of T)
+  name.vb: Task(Of T)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.GoogleCloud.Firestore.FirestoreTable.PutAsync*
+  commentId: Overload:Mcma.GoogleCloud.Firestore.FirestoreTable.PutAsync
+  name: PutAsync
+  nameWithType: FirestoreTable.PutAsync
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreTable.PutAsync
+- uid: Mcma.Data.IDocumentDatabaseTable.PutAsync``1(System.String,{T})
+  commentId: M:Mcma.Data.IDocumentDatabaseTable.PutAsync``1(System.String,``0)
+  parent: Mcma.Data.IDocumentDatabaseTable
+  definition: Mcma.Data.IDocumentDatabaseTable.PutAsync``1(System.String,``0)
+  name: PutAsync<T>(String, T)
+  nameWithType: IDocumentDatabaseTable.PutAsync<T>(String, T)
+  fullName: Mcma.Data.IDocumentDatabaseTable.PutAsync<T>(System.String, T)
+  nameWithType.vb: IDocumentDatabaseTable.PutAsync(Of T)(String, T)
+  fullName.vb: Mcma.Data.IDocumentDatabaseTable.PutAsync(Of T)(System.String, T)
+  name.vb: PutAsync(Of T)(String, T)
+  spec.csharp:
+  - uid: Mcma.Data.IDocumentDatabaseTable.PutAsync``1(System.String,``0)
+    name: PutAsync<T>
+    nameWithType: IDocumentDatabaseTable.PutAsync<T>
+    fullName: Mcma.Data.IDocumentDatabaseTable.PutAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.IDocumentDatabaseTable.PutAsync``1(System.String,``0)
+    name: PutAsync(Of T)
+    nameWithType: IDocumentDatabaseTable.PutAsync(Of T)
+    fullName: Mcma.Data.IDocumentDatabaseTable.PutAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Mcma.Data.IDocumentDatabaseTable.PutAsync``1(System.String,``0)
+  commentId: M:Mcma.Data.IDocumentDatabaseTable.PutAsync``1(System.String,``0)
+  isExternal: true
+  name: PutAsync<T>(String, T)
+  nameWithType: IDocumentDatabaseTable.PutAsync<T>(String, T)
+  fullName: Mcma.Data.IDocumentDatabaseTable.PutAsync<T>(System.String, T)
+  nameWithType.vb: IDocumentDatabaseTable.PutAsync(Of T)(String, T)
+  fullName.vb: Mcma.Data.IDocumentDatabaseTable.PutAsync(Of T)(System.String, T)
+  name.vb: PutAsync(Of T)(String, T)
+  spec.csharp:
+  - uid: Mcma.Data.IDocumentDatabaseTable.PutAsync``1(System.String,``0)
+    name: PutAsync<T>
+    nameWithType: IDocumentDatabaseTable.PutAsync<T>
+    fullName: Mcma.Data.IDocumentDatabaseTable.PutAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.IDocumentDatabaseTable.PutAsync``1(System.String,``0)
+    name: PutAsync(Of T)
+    nameWithType: IDocumentDatabaseTable.PutAsync(Of T)
+    fullName: Mcma.Data.IDocumentDatabaseTable.PutAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Mcma.GoogleCloud.Firestore.FirestoreTable.DeleteAsync*
+  commentId: Overload:Mcma.GoogleCloud.Firestore.FirestoreTable.DeleteAsync
+  name: DeleteAsync
+  nameWithType: FirestoreTable.DeleteAsync
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreTable.DeleteAsync
+- uid: Mcma.Data.IDocumentDatabaseTable.DeleteAsync(System.String)
+  commentId: M:Mcma.Data.IDocumentDatabaseTable.DeleteAsync(System.String)
+  parent: Mcma.Data.IDocumentDatabaseTable
+  isExternal: true
+  name: DeleteAsync(String)
+  nameWithType: IDocumentDatabaseTable.DeleteAsync(String)
+  fullName: Mcma.Data.IDocumentDatabaseTable.DeleteAsync(System.String)
+  spec.csharp:
+  - uid: Mcma.Data.IDocumentDatabaseTable.DeleteAsync(System.String)
+    name: DeleteAsync
+    nameWithType: IDocumentDatabaseTable.DeleteAsync
+    fullName: Mcma.Data.IDocumentDatabaseTable.DeleteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.IDocumentDatabaseTable.DeleteAsync(System.String)
+    name: DeleteAsync
+    nameWithType: IDocumentDatabaseTable.DeleteAsync
+    fullName: Mcma.Data.IDocumentDatabaseTable.DeleteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Mcma.GoogleCloud.Firestore.FirestoreTable.CreateMutexAsync*
+  commentId: Overload:Mcma.GoogleCloud.Firestore.FirestoreTable.CreateMutexAsync
+  name: CreateMutexAsync
+  nameWithType: FirestoreTable.CreateMutexAsync
+  fullName: Mcma.GoogleCloud.Firestore.FirestoreTable.CreateMutexAsync
+- uid: Mcma.Data.IDocumentDatabaseTable.CreateMutexAsync(System.String,System.String,System.Nullable{System.TimeSpan})
+  commentId: M:Mcma.Data.IDocumentDatabaseTable.CreateMutexAsync(System.String,System.String,System.Nullable{System.TimeSpan})
+  parent: Mcma.Data.IDocumentDatabaseTable
+  isExternal: true
+  name: CreateMutexAsync(String, String, Nullable<TimeSpan>)
+  nameWithType: IDocumentDatabaseTable.CreateMutexAsync(String, String, Nullable<TimeSpan>)
+  fullName: Mcma.Data.IDocumentDatabaseTable.CreateMutexAsync(System.String, System.String, System.Nullable<System.TimeSpan>)
+  nameWithType.vb: IDocumentDatabaseTable.CreateMutexAsync(String, String, Nullable(Of TimeSpan))
+  fullName.vb: Mcma.Data.IDocumentDatabaseTable.CreateMutexAsync(System.String, System.String, System.Nullable(Of System.TimeSpan))
+  name.vb: CreateMutexAsync(String, String, Nullable(Of TimeSpan))
+  spec.csharp:
+  - uid: Mcma.Data.IDocumentDatabaseTable.CreateMutexAsync(System.String,System.String,System.Nullable{System.TimeSpan})
+    name: CreateMutexAsync
+    nameWithType: IDocumentDatabaseTable.CreateMutexAsync
+    fullName: Mcma.Data.IDocumentDatabaseTable.CreateMutexAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Data.IDocumentDatabaseTable.CreateMutexAsync(System.String,System.String,System.Nullable{System.TimeSpan})
+    name: CreateMutexAsync
+    nameWithType: IDocumentDatabaseTable.CreateMutexAsync
+    fullName: Mcma.Data.IDocumentDatabaseTable.CreateMutexAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{System.TimeSpan}
+  commentId: T:System.Nullable{System.TimeSpan}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<TimeSpan>
+  nameWithType: Nullable<TimeSpan>
+  fullName: System.Nullable<System.TimeSpan>
+  nameWithType.vb: Nullable(Of TimeSpan)
+  fullName.vb: System.Nullable(Of System.TimeSpan)
+  name.vb: Nullable(Of TimeSpan)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{Mcma.Data.IDocumentDatabaseMutex}
+  commentId: T:System.Threading.Tasks.Task{Mcma.Data.IDocumentDatabaseMutex}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IDocumentDatabaseMutex>
+  nameWithType: Task<IDocumentDatabaseMutex>
+  fullName: System.Threading.Tasks.Task<Mcma.Data.IDocumentDatabaseMutex>
+  nameWithType.vb: Task(Of IDocumentDatabaseMutex)
+  fullName.vb: System.Threading.Tasks.Task(Of Mcma.Data.IDocumentDatabaseMutex)
+  name.vb: Task(Of IDocumentDatabaseMutex)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Data.IDocumentDatabaseMutex
+    name: IDocumentDatabaseMutex
+    nameWithType: IDocumentDatabaseMutex
+    fullName: Mcma.Data.IDocumentDatabaseMutex
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Data.IDocumentDatabaseMutex
+    name: IDocumentDatabaseMutex
+    nameWithType: IDocumentDatabaseMutex
+    fullName: Mcma.Data.IDocumentDatabaseMutex
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

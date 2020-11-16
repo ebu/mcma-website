@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-storage.CloudStorageProxy
+    name: CloudStorageProxy
+    fullName: CloudStorageProxy<T>
+    children: []
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: google-cloud-storage

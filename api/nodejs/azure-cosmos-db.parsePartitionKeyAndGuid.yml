@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-cosmos-db.parsePartitionKeyAndGuid
+    name: parsePartitionKeyAndGuid(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function parsePartitionKeyAndGuid(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Object
+        description: ''
+    package: azure-cosmos-db

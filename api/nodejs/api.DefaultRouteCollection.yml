@@ -1,0 +1,291 @@
+### YamlMime:UniversalReference
+items:
+  - uid: api.DefaultRouteCollection
+    name: DefaultRouteCollection
+    fullName: DefaultRouteCollection<T>
+    children:
+      - api.DefaultRouteCollection.addRoute
+      - api.DefaultRouteCollection.addRoutes
+      - api.DefaultRouteCollection.create
+      - api.DefaultRouteCollection.constructor
+      - api.DefaultRouteCollection.delete
+      - api.DefaultRouteCollection.get
+      - api.DefaultRouteCollection.query
+      - api.DefaultRouteCollection.remove
+      - api.DefaultRouteCollection.update
+      - 'api.DefaultRouteCollection.[Symbol.iterator]'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: api.McmaApiRouteCollection
+    package: api
+  - uid: api.DefaultRouteCollection.addRoute
+    name: 'addRoute(string | McmaApiRoute, string, McmaApiRouteHandler)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addRoute(methodOrRoute: string | McmaApiRoute, path?: string,
+        handler?: McmaApiRouteHandler)
+      parameters:
+        - id: methodOrRoute
+          type:
+            - string | api.McmaApiRoute
+          description: ''
+        - id: path
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: handler
+          type:
+            - api.McmaApiRouteHandler
+          description: ''
+          optional: true
+      return:
+        type:
+          - api.McmaApiRouteCollection
+        description: ''
+    package: api
+  - uid: api.DefaultRouteCollection.addRoutes
+    name: 'addRoutes(McmaApiRouteCollection | McmaApiRoute[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addRoutes(routes: McmaApiRouteCollection | McmaApiRoute[])'
+      parameters:
+        - id: routes
+          type:
+            - 'api.McmaApiRouteCollection | api.McmaApiRoute[]'
+          description: ''
+      return:
+        type:
+          - api.McmaApiRouteCollection
+        description: ''
+    package: api
+  - uid: api.DefaultRouteCollection.create
+    name: create
+    fullName: create
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public create: DefaultCreateRoute<T>'
+      return:
+        type:
+          - api.DefaultCreateRoute<T>
+        description: ''
+    package: api
+  - uid: api.DefaultRouteCollection.constructor
+    name: >-
+      DefaultRouteCollection(DocumentDatabaseTableProvider, McmaResourceType<T>,
+      string)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new DefaultRouteCollection(dbTableProvider:
+        DocumentDatabaseTableProvider, resourceType: McmaResourceType<T>, root?:
+        string)
+      parameters:
+        - id: dbTableProvider
+          type:
+            - DocumentDatabaseTableProvider
+          description: ''
+        - id: resourceType
+          type:
+            - McmaResourceType<T>
+          description: ''
+        - id: root
+          type:
+            - string
+          description: ''
+          optional: true
+    package: api
+  - uid: api.DefaultRouteCollection.delete
+    name: delete
+    fullName: delete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public delete: DefaultDeleteRoute<T>'
+      return:
+        type:
+          - api.DefaultDeleteRoute<T>
+        description: ''
+    package: api
+  - uid: api.DefaultRouteCollection.get
+    name: get
+    fullName: get
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public get: DefaultGetRoute<T>'
+      return:
+        type:
+          - api.DefaultGetRoute<T>
+        description: ''
+    package: api
+  - uid: api.DefaultRouteCollection.query
+    name: query
+    fullName: query
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public query: DefaultQueryRoute<T>'
+      return:
+        type:
+          - api.DefaultQueryRoute<T>
+        description: ''
+    package: api
+  - uid: api.DefaultRouteCollection.remove
+    name: remove("query" | "create" | "get" | "update" | "delete")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function remove(key: "query" | "create" | "get" | "update" | "delete")'
+      parameters:
+        - id: key
+          type:
+            - '"query" | "create" | "get" | "update" | "delete"'
+          description: ''
+    package: api
+  - uid: api.DefaultRouteCollection.update
+    name: update
+    fullName: update
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public update: DefaultUpdateRoute<T>'
+      return:
+        type:
+          - api.DefaultUpdateRoute<T>
+        description: ''
+    package: api
+  - uid: 'api.DefaultRouteCollection.[Symbol.iterator]'
+    name: '[Symbol.iterator]()'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function [Symbol.iterator]()'
+      parameters: []
+      return:
+        type:
+          - IterableIterator<api.McmaApiRoute>
+        description: ''
+    package: api
+references:
+  - uid: api.McmaApiRouteCollection
+    name: McmaApiRouteCollection
+    spec.typeScript:
+      - name: McmaApiRouteCollection
+        fullName: McmaApiRouteCollection
+        uid: api.McmaApiRouteCollection
+  - uid: api.DefaultCreateRoute<T>
+    name: DefaultCreateRoute<T>
+    spec.typeScript:
+      - name: DefaultCreateRoute
+        fullName: DefaultCreateRoute
+        uid: api.DefaultCreateRoute
+      - name: <T>
+        fullName: <T>
+  - uid: api.DefaultDeleteRoute<T>
+    name: DefaultDeleteRoute<T>
+    spec.typeScript:
+      - name: DefaultDeleteRoute
+        fullName: DefaultDeleteRoute
+        uid: api.DefaultDeleteRoute
+      - name: <T>
+        fullName: <T>
+  - uid: api.DefaultGetRoute<T>
+    name: DefaultGetRoute<T>
+    spec.typeScript:
+      - name: DefaultGetRoute
+        fullName: DefaultGetRoute
+        uid: api.DefaultGetRoute
+      - name: <T>
+        fullName: <T>
+  - uid: api.DefaultQueryRoute<T>
+    name: DefaultQueryRoute<T>
+    spec.typeScript:
+      - name: DefaultQueryRoute
+        fullName: DefaultQueryRoute
+        uid: api.DefaultQueryRoute
+      - name: <T>
+        fullName: <T>
+  - uid: api.DefaultUpdateRoute<T>
+    name: DefaultUpdateRoute<T>
+    spec.typeScript:
+      - name: DefaultUpdateRoute
+        fullName: DefaultUpdateRoute
+        uid: api.DefaultUpdateRoute
+      - name: <T>
+        fullName: <T>
+  - uid: IterableIterator<api.McmaApiRoute>
+    name: McmaApiRoute>
+    spec.typeScript:
+      - name: IterableIterator<
+        fullName: IterableIterator<
+      - name: McmaApiRoute
+        fullName: McmaApiRoute
+        uid: api.McmaApiRoute
+      - name: '>'
+        fullName: '>'
+  - uid: string | api.McmaApiRoute
+    name: McmaApiRoute
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: McmaApiRoute
+        fullName: McmaApiRoute
+        uid: api.McmaApiRoute
+  - uid: api.McmaApiRouteHandler
+    name: McmaApiRouteHandler
+    spec.typeScript:
+      - name: McmaApiRouteHandler
+        fullName: McmaApiRouteHandler
+        uid: api.McmaApiRouteHandler
+  - uid: 'api.McmaApiRouteCollection | api.McmaApiRoute[]'
+    name: 'McmaApiRoute[]'
+    spec.typeScript:
+      - name: McmaApiRouteCollection
+        fullName: McmaApiRouteCollection
+        uid: api.McmaApiRouteCollection
+      - name: ' | '
+        fullName: ' | '
+      - name: McmaApiRoute
+        fullName: McmaApiRoute
+        uid: api.McmaApiRoute
+      - name: '[]'
+        fullName: '[]'

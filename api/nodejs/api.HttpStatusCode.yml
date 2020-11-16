@@ -1,0 +1,621 @@
+### YamlMime:UniversalReference
+items:
+  - uid: api.HttpStatusCode
+    name: HttpStatusCode
+    fullName: HttpStatusCode
+    children:
+      - api.HttpStatusCode.Continue
+      - api.HttpStatusCode.SwitchingProtocols
+      - api.HttpStatusCode.Processing
+      - api.HttpStatusCode.Checkpoint
+      - api.HttpStatusCode.OK
+      - api.HttpStatusCode.Created
+      - api.HttpStatusCode.Accepted
+      - api.HttpStatusCode.NonAuthoritativeInformation
+      - api.HttpStatusCode.NoContent
+      - api.HttpStatusCode.ResetContent
+      - api.HttpStatusCode.PartialContent
+      - api.HttpStatusCode.MultiStatus
+      - api.HttpStatusCode.AlreadyReported
+      - api.HttpStatusCode.ImUsed
+      - api.HttpStatusCode.MultipleChoices
+      - api.HttpStatusCode.MovedPermanently
+      - api.HttpStatusCode.Found
+      - api.HttpStatusCode.SeeOther
+      - api.HttpStatusCode.NotModified
+      - api.HttpStatusCode.TemporaryRedirect
+      - api.HttpStatusCode.PermanentRedirect
+      - api.HttpStatusCode.BadRequest
+      - api.HttpStatusCode.Unauthorized
+      - api.HttpStatusCode.PaymentRequired
+      - api.HttpStatusCode.Forbidden
+      - api.HttpStatusCode.NotFound
+      - api.HttpStatusCode.MethodNotAllowed
+      - api.HttpStatusCode.NotAcceptable
+      - api.HttpStatusCode.ProxyAuthenticationRequired
+      - api.HttpStatusCode.RequestTimeout
+      - api.HttpStatusCode.Conflict
+      - api.HttpStatusCode.Gone
+      - api.HttpStatusCode.LengthRequired
+      - api.HttpStatusCode.PreconditionFailed
+      - api.HttpStatusCode.PayloadTooLarge
+      - api.HttpStatusCode.UriTooLong
+      - api.HttpStatusCode.UnsupportedMediaType
+      - api.HttpStatusCode.RequestedRangeNotSatisfiable
+      - api.HttpStatusCode.ExpectationFailed
+      - api.HttpStatusCode.IAmATeapot
+      - api.HttpStatusCode.UnprocessableEntity
+      - api.HttpStatusCode.Locked
+      - api.HttpStatusCode.FailedDependency
+      - api.HttpStatusCode.TooEarly
+      - api.HttpStatusCode.UpgradeRequired
+      - api.HttpStatusCode.PreconditionRequired
+      - api.HttpStatusCode.TooManyRequests
+      - api.HttpStatusCode.RequestHeaderFieldsTooLarge
+      - api.HttpStatusCode.UnavailableForLegalReasons
+      - api.HttpStatusCode.InternalServerError
+      - api.HttpStatusCode.NotImplemented
+      - api.HttpStatusCode.BadGateway
+      - api.HttpStatusCode.ServiceUnavailable
+      - api.HttpStatusCode.GatewayTimeout
+      - api.HttpStatusCode.HttpVersionNotSupported
+      - api.HttpStatusCode.VariantAlsoNegotiates
+      - api.HttpStatusCode.InsufficientStorage
+      - api.HttpStatusCode.LoopDetected
+      - api.HttpStatusCode.BandwidthLimitExceeded
+      - api.HttpStatusCode.NotExtended
+      - api.HttpStatusCode.NetworkAuthenticationRequired
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: api
+  - uid: api.HttpStatusCode.Continue
+    name: Continue
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 100
+    package: api
+  - uid: api.HttpStatusCode.SwitchingProtocols
+    name: SwitchingProtocols
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 101
+    package: api
+  - uid: api.HttpStatusCode.Processing
+    name: Processing
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 102
+    package: api
+  - uid: api.HttpStatusCode.Checkpoint
+    name: Checkpoint
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 103
+    package: api
+  - uid: api.HttpStatusCode.OK
+    name: OK
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 200
+    package: api
+  - uid: api.HttpStatusCode.Created
+    name: Created
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 201
+    package: api
+  - uid: api.HttpStatusCode.Accepted
+    name: Accepted
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 202
+    package: api
+  - uid: api.HttpStatusCode.NonAuthoritativeInformation
+    name: NonAuthoritativeInformation
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 203
+    package: api
+  - uid: api.HttpStatusCode.NoContent
+    name: NoContent
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 204
+    package: api
+  - uid: api.HttpStatusCode.ResetContent
+    name: ResetContent
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 205
+    package: api
+  - uid: api.HttpStatusCode.PartialContent
+    name: PartialContent
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 206
+    package: api
+  - uid: api.HttpStatusCode.MultiStatus
+    name: MultiStatus
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 207
+    package: api
+  - uid: api.HttpStatusCode.AlreadyReported
+    name: AlreadyReported
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 208
+    package: api
+  - uid: api.HttpStatusCode.ImUsed
+    name: ImUsed
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 226
+    package: api
+  - uid: api.HttpStatusCode.MultipleChoices
+    name: MultipleChoices
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 300
+    package: api
+  - uid: api.HttpStatusCode.MovedPermanently
+    name: MovedPermanently
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 301
+    package: api
+  - uid: api.HttpStatusCode.Found
+    name: Found
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 302
+    package: api
+  - uid: api.HttpStatusCode.SeeOther
+    name: SeeOther
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 303
+    package: api
+  - uid: api.HttpStatusCode.NotModified
+    name: NotModified
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 304
+    package: api
+  - uid: api.HttpStatusCode.TemporaryRedirect
+    name: TemporaryRedirect
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 307
+    package: api
+  - uid: api.HttpStatusCode.PermanentRedirect
+    name: PermanentRedirect
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 308
+    package: api
+  - uid: api.HttpStatusCode.BadRequest
+    name: BadRequest
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 400
+    package: api
+  - uid: api.HttpStatusCode.Unauthorized
+    name: Unauthorized
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 401
+    package: api
+  - uid: api.HttpStatusCode.PaymentRequired
+    name: PaymentRequired
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 402
+    package: api
+  - uid: api.HttpStatusCode.Forbidden
+    name: Forbidden
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 403
+    package: api
+  - uid: api.HttpStatusCode.NotFound
+    name: NotFound
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 404
+    package: api
+  - uid: api.HttpStatusCode.MethodNotAllowed
+    name: MethodNotAllowed
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 405
+    package: api
+  - uid: api.HttpStatusCode.NotAcceptable
+    name: NotAcceptable
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 406
+    package: api
+  - uid: api.HttpStatusCode.ProxyAuthenticationRequired
+    name: ProxyAuthenticationRequired
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 407
+    package: api
+  - uid: api.HttpStatusCode.RequestTimeout
+    name: RequestTimeout
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 408
+    package: api
+  - uid: api.HttpStatusCode.Conflict
+    name: Conflict
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 409
+    package: api
+  - uid: api.HttpStatusCode.Gone
+    name: Gone
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 410
+    package: api
+  - uid: api.HttpStatusCode.LengthRequired
+    name: LengthRequired
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 411
+    package: api
+  - uid: api.HttpStatusCode.PreconditionFailed
+    name: PreconditionFailed
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 412
+    package: api
+  - uid: api.HttpStatusCode.PayloadTooLarge
+    name: PayloadTooLarge
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 413
+    package: api
+  - uid: api.HttpStatusCode.UriTooLong
+    name: UriTooLong
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 414
+    package: api
+  - uid: api.HttpStatusCode.UnsupportedMediaType
+    name: UnsupportedMediaType
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 415
+    package: api
+  - uid: api.HttpStatusCode.RequestedRangeNotSatisfiable
+    name: RequestedRangeNotSatisfiable
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 416
+    package: api
+  - uid: api.HttpStatusCode.ExpectationFailed
+    name: ExpectationFailed
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 417
+    package: api
+  - uid: api.HttpStatusCode.IAmATeapot
+    name: IAmATeapot
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 418
+    package: api
+  - uid: api.HttpStatusCode.UnprocessableEntity
+    name: UnprocessableEntity
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 422
+    package: api
+  - uid: api.HttpStatusCode.Locked
+    name: Locked
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 423
+    package: api
+  - uid: api.HttpStatusCode.FailedDependency
+    name: FailedDependency
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 424
+    package: api
+  - uid: api.HttpStatusCode.TooEarly
+    name: TooEarly
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 425
+    package: api
+  - uid: api.HttpStatusCode.UpgradeRequired
+    name: UpgradeRequired
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 426
+    package: api
+  - uid: api.HttpStatusCode.PreconditionRequired
+    name: PreconditionRequired
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 428
+    package: api
+  - uid: api.HttpStatusCode.TooManyRequests
+    name: TooManyRequests
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 429
+    package: api
+  - uid: api.HttpStatusCode.RequestHeaderFieldsTooLarge
+    name: RequestHeaderFieldsTooLarge
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 431
+    package: api
+  - uid: api.HttpStatusCode.UnavailableForLegalReasons
+    name: UnavailableForLegalReasons
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 451
+    package: api
+  - uid: api.HttpStatusCode.InternalServerError
+    name: InternalServerError
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 500
+    package: api
+  - uid: api.HttpStatusCode.NotImplemented
+    name: NotImplemented
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 501
+    package: api
+  - uid: api.HttpStatusCode.BadGateway
+    name: BadGateway
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 502
+    package: api
+  - uid: api.HttpStatusCode.ServiceUnavailable
+    name: ServiceUnavailable
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 503
+    package: api
+  - uid: api.HttpStatusCode.GatewayTimeout
+    name: GatewayTimeout
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 504
+    package: api
+  - uid: api.HttpStatusCode.HttpVersionNotSupported
+    name: HttpVersionNotSupported
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 505
+    package: api
+  - uid: api.HttpStatusCode.VariantAlsoNegotiates
+    name: VariantAlsoNegotiates
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 506
+    package: api
+  - uid: api.HttpStatusCode.InsufficientStorage
+    name: InsufficientStorage
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 507
+    package: api
+  - uid: api.HttpStatusCode.LoopDetected
+    name: LoopDetected
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 508
+    package: api
+  - uid: api.HttpStatusCode.BandwidthLimitExceeded
+    name: BandwidthLimitExceeded
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 509
+    package: api
+  - uid: api.HttpStatusCode.NotExtended
+    name: NotExtended
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 510
+    package: api
+  - uid: api.HttpStatusCode.NetworkAuthenticationRequired
+    name: NetworkAuthenticationRequired
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 511
+    package: api

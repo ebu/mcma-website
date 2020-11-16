@@ -1,0 +1,1159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory
+  commentId: T:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory
+  id: AzureFunctionKeyAuthenticatorFactory
+  parent: Mcma.Azure.Client.FunctionKeys
+  children:
+  - Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.#ctor(Microsoft.Extensions.Options.IOptionsMonitor{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  - Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.Dispose
+  - Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.GetAsync(Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext)
+  langs:
+  - csharp
+  - vb
+  name: AzureFunctionKeyAuthenticatorFactory
+  nameWithType: AzureFunctionKeyAuthenticatorFactory
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory
+  type: Class
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticatorFactory.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AzureFunctionKeyAuthenticatorFactory
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticatorFactory.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.FunctionKeys
+  syntax:
+    content: 'public class AzureFunctionKeyAuthenticatorFactory : AuthenticatorFactory<AzureFunctionKeyAuthContext>, IAuthenticatorFactory, IDisposable'
+    content.vb: >-
+      Public Class AzureFunctionKeyAuthenticatorFactory
+
+          Inherits AuthenticatorFactory(Of AzureFunctionKeyAuthContext)
+
+          Implements IAuthenticatorFactory, IDisposable
+  inheritance:
+  - System.Object
+  - Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}.DefaultAuthContext
+  - Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}.TryParseContext(System.String,Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext@)
+  - Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}.GetAsync(System.Object)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.Finalize
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.#ctor(Microsoft.Extensions.Options.IOptionsMonitor{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  commentId: M:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.#ctor(Microsoft.Extensions.Options.IOptionsMonitor{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  id: '#ctor(Microsoft.Extensions.Options.IOptionsMonitor{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})'
+  parent: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory
+  langs:
+  - csharp
+  - vb
+  name: AzureFunctionKeyAuthenticatorFactory(IOptionsMonitor<AzureFunctionKeyAuthenticatorOptions>)
+  nameWithType: AzureFunctionKeyAuthenticatorFactory.AzureFunctionKeyAuthenticatorFactory(IOptionsMonitor<AzureFunctionKeyAuthenticatorOptions>)
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.AzureFunctionKeyAuthenticatorFactory(Microsoft.Extensions.Options.IOptionsMonitor<Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions>)
+  type: Constructor
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticatorFactory.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticatorFactory.cs
+    startLine: 9
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.FunctionKeys
+  syntax:
+    content: public AzureFunctionKeyAuthenticatorFactory(IOptionsMonitor<AzureFunctionKeyAuthenticatorOptions> optionsMonitor)
+    parameters:
+    - id: optionsMonitor
+      type: Microsoft.Extensions.Options.IOptionsMonitor{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions}
+    content.vb: Public Sub New(optionsMonitor As IOptionsMonitor(Of AzureFunctionKeyAuthenticatorOptions))
+  overload: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.#ctor*
+  nameWithType.vb: AzureFunctionKeyAuthenticatorFactory.AzureFunctionKeyAuthenticatorFactory(IOptionsMonitor(Of AzureFunctionKeyAuthenticatorOptions))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.AzureFunctionKeyAuthenticatorFactory(Microsoft.Extensions.Options.IOptionsMonitor(Of Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions))
+  name.vb: AzureFunctionKeyAuthenticatorFactory(IOptionsMonitor(Of AzureFunctionKeyAuthenticatorOptions))
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.GetAsync(Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext)
+  commentId: M:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.GetAsync(Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext)
+  id: GetAsync(Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext)
+  parent: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory
+  langs:
+  - csharp
+  - vb
+  name: GetAsync(AzureFunctionKeyAuthContext)
+  nameWithType: AzureFunctionKeyAuthenticatorFactory.GetAsync(AzureFunctionKeyAuthContext)
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.GetAsync(Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext)
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticatorFactory.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetAsync
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticatorFactory.cs
+    startLine: 19
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.FunctionKeys
+  syntax:
+    content: protected override Task<IAuthenticator> GetAsync(AzureFunctionKeyAuthContext authContext)
+    parameters:
+    - id: authContext
+      type: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+    return:
+      type: System.Threading.Tasks.Task{Mcma.Client.IAuthenticator}
+    content.vb: Protected Overrides Function GetAsync(authContext As AzureFunctionKeyAuthContext) As Task(Of IAuthenticator)
+  overridden: Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}.GetAsync(Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext)
+  overload: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.GetAsync*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.Dispose
+  commentId: M:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.Dispose
+  id: Dispose
+  parent: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: AzureFunctionKeyAuthenticatorFactory.Dispose()
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticatorFactory.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Dispose
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthenticatorFactory.cs
+    startLine: 24
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.FunctionKeys
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Azure.Client.FunctionKeys
+  commentId: N:Mcma.Azure.Client.FunctionKeys
+  name: Mcma.Azure.Client.FunctionKeys
+  nameWithType: Mcma.Azure.Client.FunctionKeys
+  fullName: Mcma.Azure.Client.FunctionKeys
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}
+  commentId: T:Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}
+  parent: Mcma.Client
+  definition: Mcma.Client.AuthenticatorFactory`1
+  name: AuthenticatorFactory<AzureFunctionKeyAuthContext>
+  nameWithType: AuthenticatorFactory<AzureFunctionKeyAuthContext>
+  fullName: Mcma.Client.AuthenticatorFactory<Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext>
+  nameWithType.vb: AuthenticatorFactory(Of AzureFunctionKeyAuthContext)
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext)
+  name.vb: AuthenticatorFactory(Of AzureFunctionKeyAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AuthenticatorFactory`1
+    name: AuthenticatorFactory
+    nameWithType: AuthenticatorFactory
+    fullName: Mcma.Client.AuthenticatorFactory
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+    name: AzureFunctionKeyAuthContext
+    nameWithType: AzureFunctionKeyAuthContext
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Client.AuthenticatorFactory`1
+    name: AuthenticatorFactory
+    nameWithType: AuthenticatorFactory
+    fullName: Mcma.Client.AuthenticatorFactory
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+    name: AzureFunctionKeyAuthContext
+    nameWithType: AzureFunctionKeyAuthContext
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}.DefaultAuthContext
+  commentId: P:Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}.DefaultAuthContext
+  parent: Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}
+  definition: Mcma.Client.AuthenticatorFactory`1.DefaultAuthContext
+  name: DefaultAuthContext
+  nameWithType: AuthenticatorFactory<AzureFunctionKeyAuthContext>.DefaultAuthContext
+  fullName: Mcma.Client.AuthenticatorFactory<Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext>.DefaultAuthContext
+  nameWithType.vb: AuthenticatorFactory(Of AzureFunctionKeyAuthContext).DefaultAuthContext
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext).DefaultAuthContext
+- uid: Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}.TryParseContext(System.String,Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext@)
+  commentId: M:Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}.TryParseContext(System.String,Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext@)
+  parent: Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}
+  definition: Mcma.Client.AuthenticatorFactory`1.TryParseContext(System.String,`0@)
+  name: TryParseContext(String, AzureFunctionKeyAuthContext)
+  nameWithType: AuthenticatorFactory<AzureFunctionKeyAuthContext>.TryParseContext(String, AzureFunctionKeyAuthContext)
+  fullName: Mcma.Client.AuthenticatorFactory<Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext>.TryParseContext(System.String, Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext)
+  nameWithType.vb: AuthenticatorFactory(Of AzureFunctionKeyAuthContext).TryParseContext(String, AzureFunctionKeyAuthContext)
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext).TryParseContext(System.String, Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AuthenticatorFactory`1.TryParseContext(System.String,`0@)
+    name: TryParseContext
+    nameWithType: AuthenticatorFactory<AzureFunctionKeyAuthContext>.TryParseContext
+    fullName: Mcma.Client.AuthenticatorFactory<Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext>.TryParseContext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+    name: AzureFunctionKeyAuthContext
+    nameWithType: AzureFunctionKeyAuthContext
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.AuthenticatorFactory`1.TryParseContext(System.String,`0@)
+    name: TryParseContext
+    nameWithType: AuthenticatorFactory(Of AzureFunctionKeyAuthContext).TryParseContext
+    fullName: Mcma.Client.AuthenticatorFactory(Of Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext).TryParseContext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+    name: AzureFunctionKeyAuthContext
+    nameWithType: AzureFunctionKeyAuthContext
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}.GetAsync(System.Object)
+  commentId: M:Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}.GetAsync(System.Object)
+  parent: Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}
+  definition: Mcma.Client.AuthenticatorFactory`1.GetAsync(System.Object)
+  name: GetAsync(Object)
+  nameWithType: AuthenticatorFactory<AzureFunctionKeyAuthContext>.GetAsync(Object)
+  fullName: Mcma.Client.AuthenticatorFactory<Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext>.GetAsync(System.Object)
+  nameWithType.vb: AuthenticatorFactory(Of AzureFunctionKeyAuthContext).GetAsync(Object)
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext).GetAsync(System.Object)
+  spec.csharp:
+  - uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(System.Object)
+    name: GetAsync
+    nameWithType: AuthenticatorFactory<AzureFunctionKeyAuthContext>.GetAsync
+    fullName: Mcma.Client.AuthenticatorFactory<Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext>.GetAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(System.Object)
+    name: GetAsync
+    nameWithType: AuthenticatorFactory(Of AzureFunctionKeyAuthContext).GetAsync
+    fullName: Mcma.Client.AuthenticatorFactory(Of Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext).GetAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Finalize
+  commentId: M:System.Object.Finalize
+  parent: System.Object
+  isExternal: true
+  name: Finalize()
+  nameWithType: Object.Finalize()
+  fullName: System.Object.Finalize()
+  spec.csharp:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Client.AuthenticatorFactory`1
+  commentId: T:Mcma.Client.AuthenticatorFactory`1
+  name: AuthenticatorFactory<TAuthContext>
+  nameWithType: AuthenticatorFactory<TAuthContext>
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext)
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext)
+  name.vb: AuthenticatorFactory(Of TAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AuthenticatorFactory`1
+    name: AuthenticatorFactory
+    nameWithType: AuthenticatorFactory
+    fullName: Mcma.Client.AuthenticatorFactory
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Client.AuthenticatorFactory`1
+    name: AuthenticatorFactory
+    nameWithType: AuthenticatorFactory
+    fullName: Mcma.Client.AuthenticatorFactory
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client
+  commentId: N:Mcma.Client
+  name: Mcma.Client
+  nameWithType: Mcma.Client
+  fullName: Mcma.Client
+- uid: Mcma.Client.AuthenticatorFactory`1.DefaultAuthContext
+  commentId: P:Mcma.Client.AuthenticatorFactory`1.DefaultAuthContext
+  name: DefaultAuthContext
+  nameWithType: AuthenticatorFactory<TAuthContext>.DefaultAuthContext
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.DefaultAuthContext
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext).DefaultAuthContext
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext).DefaultAuthContext
+- uid: Mcma.Client.AuthenticatorFactory`1.TryParseContext(System.String,`0@)
+  commentId: M:Mcma.Client.AuthenticatorFactory`1.TryParseContext(System.String,`0@)
+  isExternal: true
+  name: TryParseContext(String, TAuthContext)
+  nameWithType: AuthenticatorFactory<TAuthContext>.TryParseContext(String, TAuthContext)
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.TryParseContext(System.String, TAuthContext)
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext).TryParseContext(String, TAuthContext)
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext).TryParseContext(System.String, TAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AuthenticatorFactory`1.TryParseContext(System.String,`0@)
+    name: TryParseContext
+    nameWithType: AuthenticatorFactory<TAuthContext>.TryParseContext
+    fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.TryParseContext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.AuthenticatorFactory`1.TryParseContext(System.String,`0@)
+    name: TryParseContext
+    nameWithType: AuthenticatorFactory(Of TAuthContext).TryParseContext
+    fullName: Mcma.Client.AuthenticatorFactory(Of TAuthContext).TryParseContext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(System.Object)
+  commentId: M:Mcma.Client.AuthenticatorFactory`1.GetAsync(System.Object)
+  isExternal: true
+  name: GetAsync(Object)
+  nameWithType: AuthenticatorFactory<TAuthContext>.GetAsync(Object)
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.GetAsync(System.Object)
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext).GetAsync(Object)
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext).GetAsync(System.Object)
+  spec.csharp:
+  - uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(System.Object)
+    name: GetAsync
+    nameWithType: AuthenticatorFactory<TAuthContext>.GetAsync
+    fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.GetAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(System.Object)
+    name: GetAsync
+    nameWithType: AuthenticatorFactory(Of TAuthContext).GetAsync
+    fullName: Mcma.Client.AuthenticatorFactory(Of TAuthContext).GetAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.#ctor*
+  commentId: Overload:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.#ctor
+  name: AzureFunctionKeyAuthenticatorFactory
+  nameWithType: AzureFunctionKeyAuthenticatorFactory.AzureFunctionKeyAuthenticatorFactory
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.AzureFunctionKeyAuthenticatorFactory
+- uid: Microsoft.Extensions.Options.IOptionsMonitor{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions}
+  commentId: T:Microsoft.Extensions.Options.IOptionsMonitor{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IOptionsMonitor`1
+  name: IOptionsMonitor<AzureFunctionKeyAuthenticatorOptions>
+  nameWithType: IOptionsMonitor<AzureFunctionKeyAuthenticatorOptions>
+  fullName: Microsoft.Extensions.Options.IOptionsMonitor<Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions>
+  nameWithType.vb: IOptionsMonitor(Of AzureFunctionKeyAuthenticatorOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptionsMonitor(Of Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions)
+  name.vb: IOptionsMonitor(Of AzureFunctionKeyAuthenticatorOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptionsMonitor`1
+    name: IOptionsMonitor
+    nameWithType: IOptionsMonitor
+    fullName: Microsoft.Extensions.Options.IOptionsMonitor
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+    name: AzureFunctionKeyAuthenticatorOptions
+    nameWithType: AzureFunctionKeyAuthenticatorOptions
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptionsMonitor`1
+    name: IOptionsMonitor
+    nameWithType: IOptionsMonitor
+    fullName: Microsoft.Extensions.Options.IOptionsMonitor
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+    name: AzureFunctionKeyAuthenticatorOptions
+    nameWithType: AzureFunctionKeyAuthenticatorOptions
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options.IOptionsMonitor`1
+  commentId: T:Microsoft.Extensions.Options.IOptionsMonitor`1
+  isExternal: true
+  name: IOptionsMonitor<TOptions>
+  nameWithType: IOptionsMonitor<TOptions>
+  fullName: Microsoft.Extensions.Options.IOptionsMonitor<TOptions>
+  nameWithType.vb: IOptionsMonitor(Of TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptionsMonitor(Of TOptions)
+  name.vb: IOptionsMonitor(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptionsMonitor`1
+    name: IOptionsMonitor
+    nameWithType: IOptionsMonitor
+    fullName: Microsoft.Extensions.Options.IOptionsMonitor
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptionsMonitor`1
+    name: IOptionsMonitor
+    nameWithType: IOptionsMonitor
+    fullName: Microsoft.Extensions.Options.IOptionsMonitor
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: true
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+- uid: Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}.GetAsync(Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext)
+  commentId: M:Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}.GetAsync(Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext)
+  parent: Mcma.Client.AuthenticatorFactory{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext}
+  definition: Mcma.Client.AuthenticatorFactory`1.GetAsync(`0)
+  name: GetAsync(AzureFunctionKeyAuthContext)
+  nameWithType: AuthenticatorFactory<AzureFunctionKeyAuthContext>.GetAsync(AzureFunctionKeyAuthContext)
+  fullName: Mcma.Client.AuthenticatorFactory<Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext>.GetAsync(Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext)
+  nameWithType.vb: AuthenticatorFactory(Of AzureFunctionKeyAuthContext).GetAsync(AzureFunctionKeyAuthContext)
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext).GetAsync(Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(`0)
+    name: GetAsync
+    nameWithType: AuthenticatorFactory<AzureFunctionKeyAuthContext>.GetAsync
+    fullName: Mcma.Client.AuthenticatorFactory<Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext>.GetAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+    name: AzureFunctionKeyAuthContext
+    nameWithType: AzureFunctionKeyAuthContext
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(`0)
+    name: GetAsync
+    nameWithType: AuthenticatorFactory(Of AzureFunctionKeyAuthContext).GetAsync
+    fullName: Mcma.Client.AuthenticatorFactory(Of Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext).GetAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+    name: AzureFunctionKeyAuthContext
+    nameWithType: AzureFunctionKeyAuthContext
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.GetAsync*
+  commentId: Overload:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.GetAsync
+  name: GetAsync
+  nameWithType: AzureFunctionKeyAuthenticatorFactory.GetAsync
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.GetAsync
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+  commentId: T:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+  parent: Mcma.Azure.Client.FunctionKeys
+  name: AzureFunctionKeyAuthContext
+  nameWithType: AzureFunctionKeyAuthContext
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthContext
+- uid: System.Threading.Tasks.Task{Mcma.Client.IAuthenticator}
+  commentId: T:System.Threading.Tasks.Task{Mcma.Client.IAuthenticator}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IAuthenticator>
+  nameWithType: Task<IAuthenticator>
+  fullName: System.Threading.Tasks.Task<Mcma.Client.IAuthenticator>
+  nameWithType.vb: Task(Of IAuthenticator)
+  fullName.vb: System.Threading.Tasks.Task(Of Mcma.Client.IAuthenticator)
+  name.vb: Task(Of IAuthenticator)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Client.IAuthenticator
+    name: IAuthenticator
+    nameWithType: IAuthenticator
+    fullName: Mcma.Client.IAuthenticator
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Client.IAuthenticator
+    name: IAuthenticator
+    nameWithType: IAuthenticator
+    fullName: Mcma.Client.IAuthenticator
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(`0)
+  commentId: M:Mcma.Client.AuthenticatorFactory`1.GetAsync(`0)
+  name: GetAsync(TAuthContext)
+  nameWithType: AuthenticatorFactory<TAuthContext>.GetAsync(TAuthContext)
+  fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.GetAsync(TAuthContext)
+  nameWithType.vb: AuthenticatorFactory(Of TAuthContext).GetAsync(TAuthContext)
+  fullName.vb: Mcma.Client.AuthenticatorFactory(Of TAuthContext).GetAsync(TAuthContext)
+  spec.csharp:
+  - uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(`0)
+    name: GetAsync
+    nameWithType: AuthenticatorFactory<TAuthContext>.GetAsync
+    fullName: Mcma.Client.AuthenticatorFactory<TAuthContext>.GetAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Client.AuthenticatorFactory`1.GetAsync(`0)
+    name: GetAsync
+    nameWithType: AuthenticatorFactory(Of TAuthContext).GetAsync
+    fullName: Mcma.Client.AuthenticatorFactory(Of TAuthContext).GetAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TAuthContext
+    nameWithType: TAuthContext
+    fullName: TAuthContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.Dispose*
+  commentId: Overload:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.Dispose
+  name: Dispose
+  nameWithType: AzureFunctionKeyAuthenticatorFactory.Dispose
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorFactory.Dispose

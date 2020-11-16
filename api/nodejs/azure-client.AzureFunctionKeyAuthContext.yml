@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-client.AzureFunctionKeyAuthContext
+    name: AzureFunctionKeyAuthContext
+    fullName: AzureFunctionKeyAuthContext
+    children:
+      - azure-client.AzureFunctionKeyAuthContext.functionKey
+      - azure-client.AzureFunctionKeyAuthContext.isEncrypted
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: azure-client
+  - uid: azure-client.AzureFunctionKeyAuthContext.functionKey
+    name: functionKey
+    fullName: functionKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'functionKey: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-client
+  - uid: azure-client.AzureFunctionKeyAuthContext.isEncrypted
+    name: isEncrypted
+    fullName: isEncrypted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isEncrypted?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: azure-client

@@ -1,0 +1,280 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.DynamoDb.IFilterExpressionBuilder
+  commentId: T:Mcma.Aws.DynamoDb.IFilterExpressionBuilder
+  id: IFilterExpressionBuilder
+  parent: Mcma.Aws.DynamoDb
+  children:
+  - Mcma.Aws.DynamoDb.IFilterExpressionBuilder.Build``1(Mcma.Data.DocumentDatabase.Queries.IFilterExpression{``0})
+  langs:
+  - csharp
+  - vb
+  name: IFilterExpressionBuilder
+  nameWithType: IFilterExpressionBuilder
+  fullName: Mcma.Aws.DynamoDb.IFilterExpressionBuilder
+  type: Interface
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/Filters/IFilterExpressionBuilder.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IFilterExpressionBuilder
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/Filters/IFilterExpressionBuilder.cs
+    startLine: 5
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: public interface IFilterExpressionBuilder
+    content.vb: Public Interface IFilterExpressionBuilder
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.Aws.DynamoDb.IFilterExpressionBuilder.Build``1(Mcma.Data.DocumentDatabase.Queries.IFilterExpression{``0})
+  commentId: M:Mcma.Aws.DynamoDb.IFilterExpressionBuilder.Build``1(Mcma.Data.DocumentDatabase.Queries.IFilterExpression{``0})
+  id: Build``1(Mcma.Data.DocumentDatabase.Queries.IFilterExpression{``0})
+  parent: Mcma.Aws.DynamoDb.IFilterExpressionBuilder
+  langs:
+  - csharp
+  - vb
+  name: Build<T>(IFilterExpression<T>)
+  nameWithType: IFilterExpressionBuilder.Build<T>(IFilterExpression<T>)
+  fullName: Mcma.Aws.DynamoDb.IFilterExpressionBuilder.Build<T>(Mcma.Data.DocumentDatabase.Queries.IFilterExpression<T>)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/Filters/IFilterExpressionBuilder.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Build
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/Filters/IFilterExpressionBuilder.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: Expression Build<T>(IFilterExpression<T> filterExpression)
+    parameters:
+    - id: filterExpression
+      type: Mcma.Data.DocumentDatabase.Queries.IFilterExpression{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: Amazon.DynamoDBv2.DocumentModel.Expression
+    content.vb: Function Build(Of T)(filterExpression As IFilterExpression(Of T)) As Expression
+  overload: Mcma.Aws.DynamoDb.IFilterExpressionBuilder.Build*
+  nameWithType.vb: IFilterExpressionBuilder.Build(Of T)(IFilterExpression(Of T))
+  fullName.vb: Mcma.Aws.DynamoDb.IFilterExpressionBuilder.Build(Of T)(Mcma.Data.DocumentDatabase.Queries.IFilterExpression(Of T))
+  name.vb: Build(Of T)(IFilterExpression(Of T))
+references:
+- uid: Mcma.Aws.DynamoDb
+  commentId: N:Mcma.Aws.DynamoDb
+  name: Mcma.Aws.DynamoDb
+  nameWithType: Mcma.Aws.DynamoDb
+  fullName: Mcma.Aws.DynamoDb
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Aws.DynamoDb.IFilterExpressionBuilder.Build*
+  commentId: Overload:Mcma.Aws.DynamoDb.IFilterExpressionBuilder.Build
+  name: Build
+  nameWithType: IFilterExpressionBuilder.Build
+  fullName: Mcma.Aws.DynamoDb.IFilterExpressionBuilder.Build
+- uid: Mcma.Data.DocumentDatabase.Queries.IFilterExpression{{T}}
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.IFilterExpression{``0}
+  parent: Mcma.Data.DocumentDatabase.Queries
+  definition: Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+  name: IFilterExpression<T>
+  nameWithType: IFilterExpression<T>
+  fullName: Mcma.Data.DocumentDatabase.Queries.IFilterExpression<T>
+  nameWithType.vb: IFilterExpression(Of T)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.IFilterExpression(Of T)
+  name.vb: IFilterExpression(Of T)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+    name: IFilterExpression
+    nameWithType: IFilterExpression
+    fullName: Mcma.Data.DocumentDatabase.Queries.IFilterExpression
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+    name: IFilterExpression
+    nameWithType: IFilterExpression
+    fullName: Mcma.Data.DocumentDatabase.Queries.IFilterExpression
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Amazon.DynamoDBv2.DocumentModel.Expression
+  commentId: T:Amazon.DynamoDBv2.DocumentModel.Expression
+  parent: Amazon.DynamoDBv2.DocumentModel
+  isExternal: true
+  name: Expression
+  nameWithType: Expression
+  fullName: Amazon.DynamoDBv2.DocumentModel.Expression
+- uid: Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+  name: IFilterExpression<TDoc>
+  nameWithType: IFilterExpression<TDoc>
+  fullName: Mcma.Data.DocumentDatabase.Queries.IFilterExpression<TDoc>
+  nameWithType.vb: IFilterExpression(Of TDoc)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.IFilterExpression(Of TDoc)
+  name.vb: IFilterExpression(Of TDoc)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+    name: IFilterExpression
+    nameWithType: IFilterExpression
+    fullName: Mcma.Data.DocumentDatabase.Queries.IFilterExpression
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TDoc
+    nameWithType: TDoc
+    fullName: TDoc
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+    name: IFilterExpression
+    nameWithType: IFilterExpression
+    fullName: Mcma.Data.DocumentDatabase.Queries.IFilterExpression
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TDoc
+    nameWithType: TDoc
+    fullName: TDoc
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries
+  commentId: N:Mcma.Data.DocumentDatabase.Queries
+  name: Mcma.Data.DocumentDatabase.Queries
+  nameWithType: Mcma.Data.DocumentDatabase.Queries
+  fullName: Mcma.Data.DocumentDatabase.Queries
+- uid: Amazon.DynamoDBv2.DocumentModel
+  commentId: N:Amazon.DynamoDBv2.DocumentModel
+  isExternal: true
+  name: Amazon.DynamoDBv2.DocumentModel
+  nameWithType: Amazon.DynamoDBv2.DocumentModel
+  fullName: Amazon.DynamoDBv2.DocumentModel

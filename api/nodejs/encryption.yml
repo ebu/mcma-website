@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: encryption
+    name: "@mcma/encryption"
+    summary: ""
+    children:
+      - encryption.RSAPrivateParams
+      - encryption.RSAPublicParams
+      - encryption.BigInteger
+      - encryption.SecureRandom
+      - encryption.RSAKey
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: encryption.RSAPrivateParams
+    name: RSAPrivateParams
+  - uid: encryption.RSAPublicParams
+    name: RSAPublicParams
+  - uid: encryption.BigInteger
+    name: BigInteger(any, any, any)
+  - uid: encryption.SecureRandom
+    name: SecureRandom()
+  - uid: encryption.RSAKey
+    name: RSAKey

@@ -1,0 +1,493 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler
+  commentId: T:Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler
+  id: McmaLambdaApiHandler
+  parent: Mcma.Aws.Functions.ApiHandler
+  children:
+  - Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler.#ctor(Mcma.Logging.ILoggerProvider,Mcma.Aws.ApiGateway.IApiGatewayApiController)
+  - Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler.ExecuteAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  langs:
+  - csharp
+  - vb
+  name: McmaLambdaApiHandler
+  nameWithType: McmaLambdaApiHandler
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler
+  type: Class
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Functions.ApiHandler/McmaLambdaApiHandler.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaLambdaApiHandler
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Functions.ApiHandler/McmaLambdaApiHandler.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Aws.Functions.ApiHandler
+  namespace: Mcma.Aws.Functions.ApiHandler
+  syntax:
+    content: 'public class McmaLambdaApiHandler : object, IMcmaLambdaFunctionHandler<APIGatewayProxyRequest, APIGatewayProxyResponse>'
+    content.vb: >-
+      Public Class McmaLambdaApiHandler
+
+          Inherits Object
+
+          Implements IMcmaLambdaFunctionHandler(Of APIGatewayProxyRequest, APIGatewayProxyResponse)
+  inheritance:
+  - System.Object
+  implements:
+  - Mcma.Aws.Functions.IMcmaLambdaFunctionHandler{Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest,Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse}
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler.#ctor(Mcma.Logging.ILoggerProvider,Mcma.Aws.ApiGateway.IApiGatewayApiController)
+  commentId: M:Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler.#ctor(Mcma.Logging.ILoggerProvider,Mcma.Aws.ApiGateway.IApiGatewayApiController)
+  id: '#ctor(Mcma.Logging.ILoggerProvider,Mcma.Aws.ApiGateway.IApiGatewayApiController)'
+  parent: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler
+  langs:
+  - csharp
+  - vb
+  name: McmaLambdaApiHandler(ILoggerProvider, IApiGatewayApiController)
+  nameWithType: McmaLambdaApiHandler.McmaLambdaApiHandler(ILoggerProvider, IApiGatewayApiController)
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler.McmaLambdaApiHandler(Mcma.Logging.ILoggerProvider, Mcma.Aws.ApiGateway.IApiGatewayApiController)
+  type: Constructor
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Functions.ApiHandler/McmaLambdaApiHandler.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Functions.ApiHandler/McmaLambdaApiHandler.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Aws.Functions.ApiHandler
+  namespace: Mcma.Aws.Functions.ApiHandler
+  syntax:
+    content: public McmaLambdaApiHandler(ILoggerProvider loggerProvider, IApiGatewayApiController apiGatewayApiController)
+    parameters:
+    - id: loggerProvider
+      type: Mcma.Logging.ILoggerProvider
+    - id: apiGatewayApiController
+      type: Mcma.Aws.ApiGateway.IApiGatewayApiController
+    content.vb: Public Sub New(loggerProvider As ILoggerProvider, apiGatewayApiController As IApiGatewayApiController)
+  overload: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler.ExecuteAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  commentId: M:Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler.ExecuteAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  id: ExecuteAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest,Amazon.Lambda.Core.ILambdaContext)
+  parent: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler
+  langs:
+  - csharp
+  - vb
+  name: ExecuteAsync(APIGatewayProxyRequest, ILambdaContext)
+  nameWithType: McmaLambdaApiHandler.ExecuteAsync(APIGatewayProxyRequest, ILambdaContext)
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler.ExecuteAsync(Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest, Amazon.Lambda.Core.ILambdaContext)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.Functions.ApiHandler/McmaLambdaApiHandler.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: ExecuteAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.Functions.ApiHandler/McmaLambdaApiHandler.cs
+    startLine: 20
+  assemblies:
+  - Mcma.Aws.Functions.ApiHandler
+  namespace: Mcma.Aws.Functions.ApiHandler
+  syntax:
+    content: public Task<APIGatewayProxyResponse> ExecuteAsync(APIGatewayProxyRequest request, ILambdaContext context)
+    parameters:
+    - id: request
+      type: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest
+    - id: context
+      type: Amazon.Lambda.Core.ILambdaContext
+    return:
+      type: Task{Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse}
+    content.vb: Public Function ExecuteAsync(request As APIGatewayProxyRequest, context As ILambdaContext) As Task(Of APIGatewayProxyResponse)
+  overload: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler.ExecuteAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Aws.Functions.ApiHandler
+  commentId: N:Mcma.Aws.Functions.ApiHandler
+  name: Mcma.Aws.Functions.ApiHandler
+  nameWithType: Mcma.Aws.Functions.ApiHandler
+  fullName: Mcma.Aws.Functions.ApiHandler
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler{Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest,Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse}
+  commentId: T:Mcma.Aws.Functions.IMcmaLambdaFunctionHandler{Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest,Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse}
+  parent: Mcma.Aws.Functions
+  definition: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`2
+  name: IMcmaLambdaFunctionHandler<APIGatewayProxyRequest, APIGatewayProxyResponse>
+  nameWithType: IMcmaLambdaFunctionHandler<APIGatewayProxyRequest, APIGatewayProxyResponse>
+  fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler<Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest, Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse>
+  nameWithType.vb: IMcmaLambdaFunctionHandler(Of APIGatewayProxyRequest, APIGatewayProxyResponse)
+  fullName.vb: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler(Of Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest, Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse)
+  name.vb: IMcmaLambdaFunctionHandler(Of APIGatewayProxyRequest, APIGatewayProxyResponse)
+  spec.csharp:
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`2
+    name: IMcmaLambdaFunctionHandler
+    nameWithType: IMcmaLambdaFunctionHandler
+    fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest
+    name: APIGatewayProxyRequest
+    nameWithType: APIGatewayProxyRequest
+    fullName: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse
+    name: APIGatewayProxyResponse
+    nameWithType: APIGatewayProxyResponse
+    fullName: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`2
+    name: IMcmaLambdaFunctionHandler
+    nameWithType: IMcmaLambdaFunctionHandler
+    fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest
+    name: APIGatewayProxyRequest
+    nameWithType: APIGatewayProxyRequest
+    fullName: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse
+    name: APIGatewayProxyResponse
+    nameWithType: APIGatewayProxyResponse
+    fullName: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`2
+  commentId: T:Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`2
+  name: IMcmaLambdaFunctionHandler<TInput, TOutput>
+  nameWithType: IMcmaLambdaFunctionHandler<TInput, TOutput>
+  fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler<TInput, TOutput>
+  nameWithType.vb: IMcmaLambdaFunctionHandler(Of TInput, TOutput)
+  fullName.vb: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler(Of TInput, TOutput)
+  name.vb: IMcmaLambdaFunctionHandler(Of TInput, TOutput)
+  spec.csharp:
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`2
+    name: IMcmaLambdaFunctionHandler
+    nameWithType: IMcmaLambdaFunctionHandler
+    fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TInput
+    nameWithType: TInput
+    fullName: TInput
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TOutput
+    nameWithType: TOutput
+    fullName: TOutput
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler`2
+    name: IMcmaLambdaFunctionHandler
+    nameWithType: IMcmaLambdaFunctionHandler
+    fullName: Mcma.Aws.Functions.IMcmaLambdaFunctionHandler
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TInput
+    nameWithType: TInput
+    fullName: TInput
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TOutput
+    nameWithType: TOutput
+    fullName: TOutput
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Aws.Functions
+  commentId: N:Mcma.Aws.Functions
+  name: Mcma.Aws.Functions
+  nameWithType: Mcma.Aws.Functions
+  fullName: Mcma.Aws.Functions
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler.#ctor*
+  commentId: Overload:Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler.#ctor
+  name: McmaLambdaApiHandler
+  nameWithType: McmaLambdaApiHandler.McmaLambdaApiHandler
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler.McmaLambdaApiHandler
+- uid: Mcma.Logging.ILoggerProvider
+  commentId: T:Mcma.Logging.ILoggerProvider
+  parent: Mcma.Logging
+  name: ILoggerProvider
+  nameWithType: ILoggerProvider
+  fullName: Mcma.Logging.ILoggerProvider
+- uid: Mcma.Aws.ApiGateway.IApiGatewayApiController
+  commentId: T:Mcma.Aws.ApiGateway.IApiGatewayApiController
+  parent: Mcma.Aws.ApiGateway
+  name: IApiGatewayApiController
+  nameWithType: IApiGatewayApiController
+  fullName: Mcma.Aws.ApiGateway.IApiGatewayApiController
+- uid: Mcma.Logging
+  commentId: N:Mcma.Logging
+  name: Mcma.Logging
+  nameWithType: Mcma.Logging
+  fullName: Mcma.Logging
+- uid: Mcma.Aws.ApiGateway
+  commentId: N:Mcma.Aws.ApiGateway
+  name: Mcma.Aws.ApiGateway
+  nameWithType: Mcma.Aws.ApiGateway
+  fullName: Mcma.Aws.ApiGateway
+- uid: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler.ExecuteAsync*
+  commentId: Overload:Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler.ExecuteAsync
+  name: ExecuteAsync
+  nameWithType: McmaLambdaApiHandler.ExecuteAsync
+  fullName: Mcma.Aws.Functions.ApiHandler.McmaLambdaApiHandler.ExecuteAsync
+- uid: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest
+  commentId: T:Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest
+  parent: Amazon.Lambda.APIGatewayEvents
+  isExternal: true
+  name: APIGatewayProxyRequest
+  nameWithType: APIGatewayProxyRequest
+  fullName: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyRequest
+- uid: Amazon.Lambda.Core.ILambdaContext
+  commentId: T:Amazon.Lambda.Core.ILambdaContext
+  parent: Amazon.Lambda.Core
+  isExternal: true
+  name: ILambdaContext
+  nameWithType: ILambdaContext
+  fullName: Amazon.Lambda.Core.ILambdaContext
+- uid: Task{Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse}
+  commentId: '!:Task{Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse}'
+  definition: Task`1
+  name: Task<APIGatewayProxyResponse>
+  nameWithType: Task<APIGatewayProxyResponse>
+  fullName: Task<Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse>
+  nameWithType.vb: Task(Of APIGatewayProxyResponse)
+  fullName.vb: Task(Of Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse)
+  name.vb: Task(Of APIGatewayProxyResponse)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse
+    name: APIGatewayProxyResponse
+    nameWithType: APIGatewayProxyResponse
+    fullName: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse
+    name: APIGatewayProxyResponse
+    nameWithType: APIGatewayProxyResponse
+    fullName: Amazon.Lambda.APIGatewayEvents.APIGatewayProxyResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Amazon.Lambda.APIGatewayEvents
+  commentId: N:Amazon.Lambda.APIGatewayEvents
+  isExternal: true
+  name: Amazon.Lambda.APIGatewayEvents
+  nameWithType: Amazon.Lambda.APIGatewayEvents
+  fullName: Amazon.Lambda.APIGatewayEvents
+- uid: Amazon.Lambda.Core
+  commentId: N:Amazon.Lambda.Core
+  isExternal: true
+  name: Amazon.Lambda.Core
+  nameWithType: Amazon.Lambda.Core
+  fullName: Amazon.Lambda.Core
+- uid: Task`1
+  commentId: '!:Task`1'
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

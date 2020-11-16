@@ -1,0 +1,93 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-storage.CloudStorageFolderLocator
+    name: CloudStorageFolderLocator
+    fullName: CloudStorageFolderLocator
+    children:
+      - google-cloud-storage.CloudStorageFolderLocator.@type
+      - google-cloud-storage.CloudStorageFolderLocator.bucket
+      - google-cloud-storage.CloudStorageFolderLocator.constructor
+      - google-cloud-storage.CloudStorageFolderLocator.folderPath
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: google-cloud-storage.CloudStorageLocator
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFolderLocator.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFolderLocator.bucket
+    name: bucket
+    fullName: bucket
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bucket: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFolderLocator.constructor
+    name: CloudStorageFolderLocator(CloudStorageFolderLocatorProperties)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CloudStorageFolderLocator(properties:
+        CloudStorageFolderLocatorProperties)
+      parameters:
+        - id: properties
+          type:
+            - google-cloud-storage.CloudStorageFolderLocatorProperties
+          description: ''
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFolderLocator.folderPath
+    name: folderPath
+    fullName: folderPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'public folderPath?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: google-cloud-storage
+references:
+  - uid: google-cloud-storage.CloudStorageLocator
+    name: CloudStorageLocator
+    spec.typeScript:
+      - name: CloudStorageLocator
+        fullName: CloudStorageLocator
+        uid: google-cloud-storage.CloudStorageLocator
+  - uid: google-cloud-storage.CloudStorageFolderLocatorProperties
+    name: CloudStorageFolderLocatorProperties
+    spec.typeScript:
+      - name: CloudStorageFolderLocatorProperties
+        fullName: CloudStorageFolderLocatorProperties
+        uid: google-cloud-storage.CloudStorageFolderLocatorProperties

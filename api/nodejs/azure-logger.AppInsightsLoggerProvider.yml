@@ -1,0 +1,72 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-logger.AppInsightsLoggerProvider
+    name: AppInsightsLoggerProvider
+    fullName: AppInsightsLoggerProvider
+    children:
+      - azure-logger.AppInsightsLoggerProvider.constructor
+      - azure-logger.AppInsightsLoggerProvider.flush
+      - azure-logger.AppInsightsLoggerProvider.get
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-logger
+  - uid: azure-logger.AppInsightsLoggerProvider.constructor
+    name: 'AppInsightsLoggerProvider(string, AppInsights.TelemetryClient)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new AppInsightsLoggerProvider(source: string, appInsightsClient?:
+        AppInsights.TelemetryClient)
+      parameters:
+        - id: source
+          type:
+            - string
+          description: ''
+        - id: appInsightsClient
+          type:
+            - AppInsights.TelemetryClient
+          description: ''
+          optional: true
+    package: azure-logger
+  - uid: azure-logger.AppInsightsLoggerProvider.flush
+    name: flush()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function flush()
+      parameters: []
+    package: azure-logger
+  - uid: azure-logger.AppInsightsLoggerProvider.get
+    name: 'get(string, McmaTrackerProperties)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get(requestId?: string, tracker?: McmaTrackerProperties)'
+      parameters:
+        - id: requestId
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: tracker
+          type:
+            - McmaTrackerProperties
+          description: ''
+          optional: true
+      return:
+        type:
+          - Logger
+        description: ''
+    package: azure-logger

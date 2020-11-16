@@ -1,0 +1,97 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-firestore.FirestoreMutex
+    name: FirestoreMutex
+    fullName: FirestoreMutex
+    children:
+      - google-cloud-firestore.FirestoreMutex.constructor
+      - google-cloud-firestore.FirestoreMutex.lock
+      - google-cloud-firestore.FirestoreMutex.mutexName
+      - google-cloud-firestore.FirestoreMutex.unlock
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: DocumentDatabaseMutex
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreMutex.constructor
+    name: 'FirestoreMutex(CollectionReference, string, string, number, Logger)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new FirestoreMutex(collectionRef: CollectionReference, mutexName:
+        string, mutexHolder: string, lockTimeout?: number, logger?: Logger)
+      parameters:
+        - id: collectionRef
+          type:
+            - CollectionReference
+          description: ''
+        - id: mutexName
+          type:
+            - string
+          description: ''
+        - id: mutexHolder
+          type:
+            - string
+          description: ''
+        - id: lockTimeout
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: logger
+          type:
+            - Logger
+          description: ''
+          optional: true
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreMutex.lock
+    name: lock()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function lock()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreMutex.mutexName
+    name: mutexName
+    fullName: mutexName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mutexName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreMutex.unlock
+    name: unlock()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unlock()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: google-cloud-firestore

@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.PubSubWorkerInvoker
+  commentId: N:Mcma.GoogleCloud.PubSubWorkerInvoker
+  id: Mcma.GoogleCloud.PubSubWorkerInvoker
+  children:
+  - Mcma.GoogleCloud.PubSubWorkerInvoker.McmaPubSubWorkerInvokerEnvironmentVariables
+  - Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker
+  - Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions
+  - Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mcma.GoogleCloud.PubSubWorkerInvoker
+  nameWithType: Mcma.GoogleCloud.PubSubWorkerInvoker
+  fullName: Mcma.GoogleCloud.PubSubWorkerInvoker
+  type: Namespace
+  assemblies:
+  - Mcma.GoogleCloud.PubSubWorkerInvoker
+references:
+- uid: Mcma.GoogleCloud.PubSubWorkerInvoker.McmaPubSubWorkerInvokerEnvironmentVariables
+  commentId: T:Mcma.GoogleCloud.PubSubWorkerInvoker.McmaPubSubWorkerInvokerEnvironmentVariables
+  name: McmaPubSubWorkerInvokerEnvironmentVariables
+  nameWithType: McmaPubSubWorkerInvokerEnvironmentVariables
+  fullName: Mcma.GoogleCloud.PubSubWorkerInvoker.McmaPubSubWorkerInvokerEnvironmentVariables
+- uid: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker
+  commentId: T:Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker
+  name: PubSubWorkerInvoker
+  nameWithType: PubSubWorkerInvoker
+  fullName: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvoker
+- uid: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions
+  commentId: T:Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions
+  name: PubSubWorkerInvokerOptions
+  nameWithType: PubSubWorkerInvokerOptions
+  fullName: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerOptions
+- uid: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerServiceCollectionExtensions
+  commentId: T:Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerServiceCollectionExtensions
+  name: PubSubWorkerInvokerServiceCollectionExtensions
+  nameWithType: PubSubWorkerInvokerServiceCollectionExtensions
+  fullName: Mcma.GoogleCloud.PubSubWorkerInvoker.PubSubWorkerInvokerServiceCollectionExtensions

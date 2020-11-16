@@ -1,0 +1,233 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.JobProfile
+    name: JobProfile
+    fullName: JobProfile
+    children:
+      - core.JobProfile.@type
+      - core.JobProfile.custom
+      - core.JobProfile.dateCreated
+      - core.JobProfile.dateModified
+      - core.JobProfile.id
+      - core.JobProfile.inputParameters
+      - core.JobProfile.constructor
+      - core.JobProfile.name
+      - core.JobProfile.onCreate
+      - core.JobProfile.onUpsert
+      - core.JobProfile.optionalInputParameters
+      - core.JobProfile.outputParameters
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: core.McmaResource
+    package: core
+  - uid: core.JobProfile.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobProfile.custom
+    name: custom
+    fullName: custom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'custom?: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: core
+  - uid: core.JobProfile.dateCreated
+    name: dateCreated
+    fullName: dateCreated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateCreated?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.JobProfile.dateModified
+    name: dateModified
+    fullName: dateModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateModified?: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: core
+  - uid: core.JobProfile.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobProfile.inputParameters
+    name: inputParameters
+    fullName: inputParameters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'inputParameters?: JobParameter[]'
+      return:
+        type:
+          - 'core.JobParameter[]'
+        description: ''
+    package: core
+  - uid: core.JobProfile.constructor
+    name: JobProfile(JobProfileProperties)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new JobProfile(properties: JobProfileProperties)'
+      parameters:
+        - id: properties
+          type:
+            - core.JobProfileProperties
+          description: ''
+    package: core
+  - uid: core.JobProfile.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobProfile.onCreate
+    name: onCreate(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onCreate(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+    package: core
+  - uid: core.JobProfile.onUpsert
+    name: onUpsert(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onUpsert(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+    package: core
+  - uid: core.JobProfile.optionalInputParameters
+    name: optionalInputParameters
+    fullName: optionalInputParameters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'optionalInputParameters?: JobParameter[]'
+      return:
+        type:
+          - 'core.JobParameter[]'
+        description: ''
+    package: core
+  - uid: core.JobProfile.outputParameters
+    name: outputParameters
+    fullName: outputParameters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'outputParameters?: JobParameter[]'
+      return:
+        type:
+          - 'core.JobParameter[]'
+        description: ''
+    package: core
+references:
+  - uid: core.McmaResource
+    name: McmaResource
+    spec.typeScript:
+      - name: McmaResource
+        fullName: McmaResource
+        uid: core.McmaResource
+  - uid: core.JobProfileProperties
+    name: JobProfileProperties
+    spec.typeScript:
+      - name: JobProfileProperties
+        fullName: JobProfileProperties
+        uid: core.JobProfileProperties
+  - uid: 'core.JobParameter[]'
+    name: 'JobParameter[]'
+    spec.typeScript:
+      - name: JobParameter
+        fullName: JobParameter
+        uid: core.JobParameter
+      - name: '[]'
+        fullName: '[]'

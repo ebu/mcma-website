@@ -1,0 +1,133 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-storage.CloudStorageFolderProxy
+    name: CloudStorageFolderProxy
+    fullName: CloudStorageFolderProxy
+    children:
+      - google-cloud-storage.CloudStorageFolderProxy.constructor
+      - google-cloud-storage.CloudStorageFolderProxy.upload
+      - google-cloud-storage.CloudStorageFolderProxy.uploadAsText
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        google-cloud-storage.CloudStorageProxy<google-cloud-storage.CloudStorageFolderLocatorProperties>
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFolderProxy.constructor
+    name: >-
+      CloudStorageFolderProxy(CloudStorageFolderLocatorProperties,
+      StorageOptions | Storage)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CloudStorageFolderProxy(locator:
+        CloudStorageFolderLocatorProperties, storageOrOptions?: StorageOptions |
+        Storage)
+      parameters:
+        - id: locator
+          type:
+            - google-cloud-storage.CloudStorageFolderLocatorProperties
+          description: ''
+        - id: storageOrOptions
+          type:
+            - StorageOptions | Storage
+          description: ''
+          optional: true
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFolderProxy.upload
+    name: 'upload(string, ReadableStream, CreateWriteStreamOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function upload(fileName: string, readFrom: ReadableStream, options?:
+        CreateWriteStreamOptions)
+      parameters:
+        - id: fileName
+          type:
+            - string
+          description: ''
+        - id: readFrom
+          type:
+            - ReadableStream
+          description: ''
+        - id: options
+          type:
+            - CreateWriteStreamOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<google-cloud-storage.CloudStorageFileLocator>
+        description: ''
+    package: google-cloud-storage
+  - uid: google-cloud-storage.CloudStorageFolderProxy.uploadAsText
+    name: 'uploadAsText(string, string, CreateWriteStreamOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function uploadAsText(fileName: string, content: string, options?:
+        CreateWriteStreamOptions)
+      parameters:
+        - id: fileName
+          type:
+            - string
+          description: ''
+        - id: content
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - CreateWriteStreamOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<google-cloud-storage.CloudStorageFileLocator>
+        description: ''
+    package: google-cloud-storage
+references:
+  - uid: >-
+      google-cloud-storage.CloudStorageProxy<google-cloud-storage.CloudStorageFolderLocatorProperties>
+    name: CloudStorageFolderLocatorProperties>
+    spec.typeScript:
+      - name: CloudStorageProxy
+        fullName: CloudStorageProxy
+        uid: google-cloud-storage.CloudStorageProxy
+      - name: <
+        fullName: <
+      - name: CloudStorageFolderLocatorProperties
+        fullName: CloudStorageFolderLocatorProperties
+        uid: google-cloud-storage.CloudStorageFolderLocatorProperties
+      - name: '>'
+        fullName: '>'
+  - uid: google-cloud-storage.CloudStorageFolderLocatorProperties
+    name: CloudStorageFolderLocatorProperties
+    spec.typeScript:
+      - name: CloudStorageFolderLocatorProperties
+        fullName: CloudStorageFolderLocatorProperties
+        uid: google-cloud-storage.CloudStorageFolderLocatorProperties
+  - uid: Promise<google-cloud-storage.CloudStorageFileLocator>
+    name: CloudStorageFileLocator>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: CloudStorageFileLocator
+        fullName: CloudStorageFileLocator
+        uid: google-cloud-storage.CloudStorageFileLocator
+      - name: '>'
+        fullName: '>'

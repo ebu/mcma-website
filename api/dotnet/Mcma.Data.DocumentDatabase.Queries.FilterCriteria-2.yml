@@ -1,0 +1,851 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2
+  id: FilterCriteria`2
+  parent: Mcma.Data.DocumentDatabase.Queries
+  children:
+  - Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.#ctor(System.Linq.Expressions.Expression{System.Func{`0,`1}},Mcma.Data.DocumentDatabase.Queries.BinaryOperator,`1)
+  - Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.Operator
+  - Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.Property
+  - Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.PropertyValue
+  langs:
+  - csharp
+  - vb
+  name: FilterCriteria<TDoc, TProp>
+  nameWithType: FilterCriteria<TDoc, TProp>
+  fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteria<TDoc, TProp>
+  type: Class
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/FilterCriteria.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: FilterCriteria
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/FilterCriteria.cs
+    startLine: 25
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: 'public class FilterCriteria<TDoc, TProp> : IFilterExpression<TDoc>'
+    typeParameters:
+    - id: TDoc
+    - id: TProp
+    content.vb: >-
+      Public Class FilterCriteria(Of TDoc, TProp)
+
+          Implements IFilterExpression(Of TDoc)
+  inheritance:
+  - System.Object
+  implements:
+  - Mcma.Data.DocumentDatabase.Queries.IFilterExpression{{TDoc}}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  nameWithType.vb: FilterCriteria(Of TDoc, TProp)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.FilterCriteria(Of TDoc, TProp)
+  name.vb: FilterCriteria(Of TDoc, TProp)
+- uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.#ctor(System.Linq.Expressions.Expression{System.Func{`0,`1}},Mcma.Data.DocumentDatabase.Queries.BinaryOperator,`1)
+  commentId: M:Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.#ctor(System.Linq.Expressions.Expression{System.Func{`0,`1}},Mcma.Data.DocumentDatabase.Queries.BinaryOperator,`1)
+  id: '#ctor(System.Linq.Expressions.Expression{System.Func{`0,`1}},Mcma.Data.DocumentDatabase.Queries.BinaryOperator,`1)'
+  parent: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2
+  langs:
+  - csharp
+  - vb
+  name: FilterCriteria(Expression<Func<TDoc, TProp>>, BinaryOperator, TProp)
+  nameWithType: FilterCriteria<TDoc, TProp>.FilterCriteria(Expression<Func<TDoc, TProp>>, BinaryOperator, TProp)
+  fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteria<TDoc, TProp>.FilterCriteria(System.Linq.Expressions.Expression<System.Func<TDoc, TProp>>, Mcma.Data.DocumentDatabase.Queries.BinaryOperator, TProp)
+  type: Constructor
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/FilterCriteria.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: .ctor
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/FilterCriteria.cs
+    startLine: 27
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public FilterCriteria(Expression<Func<TDoc, TProp>> property, BinaryOperator operator, TProp propertyValue)
+    parameters:
+    - id: property
+      type: System.Linq.Expressions.Expression{System.Func{{TDoc},{TProp}}}
+    - id: operator
+      type: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+    - id: propertyValue
+      type: '{TProp}'
+    content.vb: Public Sub New(property As Expression(Of Func(Of TDoc, TProp)), operator As BinaryOperator, propertyValue As TProp)
+  overload: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.#ctor*
+  nameWithType.vb: FilterCriteria(Of TDoc, TProp).FilterCriteria(Expression(Of Func(Of TDoc, TProp)), BinaryOperator, TProp)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.FilterCriteria(Of TDoc, TProp).FilterCriteria(System.Linq.Expressions.Expression(Of System.Func(Of TDoc, TProp)), Mcma.Data.DocumentDatabase.Queries.BinaryOperator, TProp)
+  name.vb: FilterCriteria(Expression(Of Func(Of TDoc, TProp)), BinaryOperator, TProp)
+- uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.Property
+  commentId: P:Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.Property
+  id: Property
+  parent: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2
+  langs:
+  - csharp
+  - vb
+  name: Property
+  nameWithType: FilterCriteria<TDoc, TProp>.Property
+  fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteria<TDoc, TProp>.Property
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/FilterCriteria.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Property
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/FilterCriteria.cs
+    startLine: 34
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public Expression<Func<TDoc, TProp>> Property { get; }
+    parameters: []
+    return:
+      type: System.Linq.Expressions.Expression{System.Func{{TDoc},{TProp}}}
+    content.vb: Public ReadOnly Property Property As Expression(Of Func(Of TDoc, TProp))
+  overload: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.Property*
+  nameWithType.vb: FilterCriteria(Of TDoc, TProp).Property
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.FilterCriteria(Of TDoc, TProp).Property
+- uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.Operator
+  commentId: P:Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.Operator
+  id: Operator
+  parent: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2
+  langs:
+  - csharp
+  - vb
+  name: Operator
+  nameWithType: FilterCriteria<TDoc, TProp>.Operator
+  fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteria<TDoc, TProp>.Operator
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/FilterCriteria.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Operator
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/FilterCriteria.cs
+    startLine: 35
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public BinaryOperator Operator { get; }
+    parameters: []
+    return:
+      type: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+    content.vb: Public ReadOnly Property Operator As BinaryOperator
+  overload: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.Operator*
+  nameWithType.vb: FilterCriteria(Of TDoc, TProp).Operator
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.FilterCriteria(Of TDoc, TProp).Operator
+- uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.PropertyValue
+  commentId: P:Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.PropertyValue
+  id: PropertyValue
+  parent: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2
+  langs:
+  - csharp
+  - vb
+  name: PropertyValue
+  nameWithType: FilterCriteria<TDoc, TProp>.PropertyValue
+  fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteria<TDoc, TProp>.PropertyValue
+  type: Property
+  source:
+    remote:
+      path: Base/Mcma.Data/DocumentDatabase/Queries/FilterCriteria.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: PropertyValue
+    path: ../mcma-libraries-dotnet/Base/Mcma.Data/DocumentDatabase/Queries/FilterCriteria.cs
+    startLine: 36
+  assemblies:
+  - Mcma.Data
+  namespace: Mcma.Data.DocumentDatabase.Queries
+  syntax:
+    content: public TProp PropertyValue { get; }
+    parameters: []
+    return:
+      type: '{TProp}'
+    content.vb: Public ReadOnly Property PropertyValue As TProp
+  overload: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.PropertyValue*
+  nameWithType.vb: FilterCriteria(Of TDoc, TProp).PropertyValue
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.FilterCriteria(Of TDoc, TProp).PropertyValue
+references:
+- uid: Mcma.Data.DocumentDatabase.Queries
+  commentId: N:Mcma.Data.DocumentDatabase.Queries
+  name: Mcma.Data.DocumentDatabase.Queries
+  nameWithType: Mcma.Data.DocumentDatabase.Queries
+  fullName: Mcma.Data.DocumentDatabase.Queries
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Data.DocumentDatabase.Queries.IFilterExpression{{TDoc}}
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.IFilterExpression{`0}
+  parent: Mcma.Data.DocumentDatabase.Queries
+  definition: Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+  name: IFilterExpression<TDoc>
+  nameWithType: IFilterExpression<TDoc>
+  fullName: Mcma.Data.DocumentDatabase.Queries.IFilterExpression<TDoc>
+  nameWithType.vb: IFilterExpression(Of TDoc)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.IFilterExpression(Of TDoc)
+  name.vb: IFilterExpression(Of TDoc)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+    name: IFilterExpression
+    nameWithType: IFilterExpression
+    fullName: Mcma.Data.DocumentDatabase.Queries.IFilterExpression
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TDoc
+    nameWithType: TDoc
+    fullName: TDoc
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+    name: IFilterExpression
+    nameWithType: IFilterExpression
+    fullName: Mcma.Data.DocumentDatabase.Queries.IFilterExpression
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TDoc
+    nameWithType: TDoc
+    fullName: TDoc
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+  name: IFilterExpression<TDoc>
+  nameWithType: IFilterExpression<TDoc>
+  fullName: Mcma.Data.DocumentDatabase.Queries.IFilterExpression<TDoc>
+  nameWithType.vb: IFilterExpression(Of TDoc)
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.IFilterExpression(Of TDoc)
+  name.vb: IFilterExpression(Of TDoc)
+  spec.csharp:
+  - uid: Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+    name: IFilterExpression
+    nameWithType: IFilterExpression
+    fullName: Mcma.Data.DocumentDatabase.Queries.IFilterExpression
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TDoc
+    nameWithType: TDoc
+    fullName: TDoc
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mcma.Data.DocumentDatabase.Queries.IFilterExpression`1
+    name: IFilterExpression
+    nameWithType: IFilterExpression
+    fullName: Mcma.Data.DocumentDatabase.Queries.IFilterExpression
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TDoc
+    nameWithType: TDoc
+    fullName: TDoc
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.#ctor*
+  commentId: Overload:Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.#ctor
+  name: FilterCriteria
+  nameWithType: FilterCriteria<TDoc, TProp>.FilterCriteria
+  fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteria<TDoc, TProp>.FilterCriteria
+  nameWithType.vb: FilterCriteria(Of TDoc, TProp).FilterCriteria
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.FilterCriteria(Of TDoc, TProp).FilterCriteria
+- uid: System.Linq.Expressions.Expression{System.Func{{TDoc},{TProp}}}
+  commentId: T:System.Linq.Expressions.Expression{System.Func{`0,`1}}
+  parent: System.Linq.Expressions
+  definition: System.Linq.Expressions.Expression`1
+  name: Expression<Func<TDoc, TProp>>
+  nameWithType: Expression<Func<TDoc, TProp>>
+  fullName: System.Linq.Expressions.Expression<System.Func<TDoc, TProp>>
+  nameWithType.vb: Expression(Of Func(Of TDoc, TProp))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of TDoc, TProp))
+  name.vb: Expression(Of Func(Of TDoc, TProp))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TDoc
+    nameWithType: TDoc
+    fullName: TDoc
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TProp
+    nameWithType: TProp
+    fullName: TProp
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TDoc
+    nameWithType: TDoc
+    fullName: TDoc
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TProp
+    nameWithType: TProp
+    fullName: TProp
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  commentId: T:Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+  parent: Mcma.Data.DocumentDatabase.Queries
+  name: BinaryOperator
+  nameWithType: BinaryOperator
+  fullName: Mcma.Data.DocumentDatabase.Queries.BinaryOperator
+- uid: '{TProp}'
+  commentId: '!:TProp'
+  definition: TProp
+  name: TProp
+  nameWithType: TProp
+  fullName: TProp
+- uid: System.Linq.Expressions.Expression`1
+  commentId: T:System.Linq.Expressions.Expression`1
+  isExternal: true
+  name: Expression<TDelegate>
+  nameWithType: Expression<TDelegate>
+  fullName: System.Linq.Expressions.Expression<TDelegate>
+  nameWithType.vb: Expression(Of TDelegate)
+  fullName.vb: System.Linq.Expressions.Expression(Of TDelegate)
+  name.vb: Expression(Of TDelegate)
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TDelegate
+    nameWithType: TDelegate
+    fullName: TDelegate
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TDelegate
+    nameWithType: TDelegate
+    fullName: TDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Linq.Expressions
+  commentId: N:System.Linq.Expressions
+  isExternal: true
+  name: System.Linq.Expressions
+  nameWithType: System.Linq.Expressions
+  fullName: System.Linq.Expressions
+- uid: TProp
+  name: TProp
+  nameWithType: TProp
+  fullName: TProp
+- uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.Property*
+  commentId: Overload:Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.Property
+  name: Property
+  nameWithType: FilterCriteria<TDoc, TProp>.Property
+  fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteria<TDoc, TProp>.Property
+  nameWithType.vb: FilterCriteria(Of TDoc, TProp).Property
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.FilterCriteria(Of TDoc, TProp).Property
+- uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.Operator*
+  commentId: Overload:Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.Operator
+  name: Operator
+  nameWithType: FilterCriteria<TDoc, TProp>.Operator
+  fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteria<TDoc, TProp>.Operator
+  nameWithType.vb: FilterCriteria(Of TDoc, TProp).Operator
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.FilterCriteria(Of TDoc, TProp).Operator
+- uid: Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.PropertyValue*
+  commentId: Overload:Mcma.Data.DocumentDatabase.Queries.FilterCriteria`2.PropertyValue
+  name: PropertyValue
+  nameWithType: FilterCriteria<TDoc, TProp>.PropertyValue
+  fullName: Mcma.Data.DocumentDatabase.Queries.FilterCriteria<TDoc, TProp>.PropertyValue
+  nameWithType.vb: FilterCriteria(Of TDoc, TProp).PropertyValue
+  fullName.vb: Mcma.Data.DocumentDatabase.Queries.FilterCriteria(Of TDoc, TProp).PropertyValue

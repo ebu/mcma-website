@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-s3.getS3Url
+    name: 'getS3Url(AwsS3LocatorProperties, S3, boolean)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getS3Url(s3Locator: AwsS3LocatorProperties, s3: S3, force?:
+        boolean)
+      parameters:
+        - id: s3Locator
+          type:
+            - aws-s3.AwsS3LocatorProperties
+          description: ''
+        - id: s3
+          type:
+            - S3
+          description: ''
+        - id: force
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<string>
+        description: ''
+    package: aws-s3
+references:
+  - uid: aws-s3.AwsS3LocatorProperties
+    name: AwsS3LocatorProperties
+    spec.typeScript:
+      - name: AwsS3LocatorProperties
+        fullName: AwsS3LocatorProperties
+        uid: aws-s3.AwsS3LocatorProperties

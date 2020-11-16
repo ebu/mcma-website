@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-s3
+    name: "@mcma/aws-s3"
+    summary: ""
+    children:
+      - aws-s3.getS3Url
+      - aws-s3.getS3Url_1
+      - aws-s3.isAwsS3FileLocator
+      - aws-s3.isAwsS3FolderLocator
+      - aws-s3.AwsS3FileLocator
+      - aws-s3.AwsS3FileLocatorProperties
+      - aws-s3.AwsS3FolderLocator
+      - aws-s3.AwsS3FolderLocatorProperties
+      - aws-s3.AwsS3Locator
+      - aws-s3.AwsS3LocatorProperties
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: aws-s3.getS3Url
+    name: getS3Url(AwsS3LocatorProperties, S3, boolean)
+  - uid: aws-s3.getS3Url_1
+    name: getS3Url(AwsS3LocatorProperties, string, boolean)
+  - uid: aws-s3.isAwsS3FileLocator
+    name: isAwsS3FileLocator(any)
+  - uid: aws-s3.isAwsS3FolderLocator
+    name: isAwsS3FolderLocator(any)
+  - uid: aws-s3.AwsS3FileLocator
+    name: AwsS3FileLocator
+  - uid: aws-s3.AwsS3FileLocatorProperties
+    name: AwsS3FileLocatorProperties
+  - uid: aws-s3.AwsS3FolderLocator
+    name: AwsS3FolderLocator
+  - uid: aws-s3.AwsS3FolderLocatorProperties
+    name: AwsS3FolderLocatorProperties
+  - uid: aws-s3.AwsS3Locator
+    name: AwsS3Locator
+  - uid: aws-s3.AwsS3LocatorProperties
+    name: AwsS3LocatorProperties

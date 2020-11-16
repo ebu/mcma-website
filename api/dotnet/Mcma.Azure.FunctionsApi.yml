@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.FunctionsApi
+  commentId: N:Mcma.Azure.FunctionsApi
+  id: Mcma.Azure.FunctionsApi
+  children:
+  - Mcma.Azure.FunctionsApi.AzureFunctionApiController
+  - Mcma.Azure.FunctionsApi.AzureFunctionsApiServiceCollectionExtensions
+  - Mcma.Azure.FunctionsApi.HttpExtensions
+  - Mcma.Azure.FunctionsApi.IAzureFunctionApiController
+  - Mcma.Azure.FunctionsApi.McmaApiActionResult
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Azure.FunctionsApi
+  nameWithType: Mcma.Azure.FunctionsApi
+  fullName: Mcma.Azure.FunctionsApi
+  type: Namespace
+  assemblies:
+  - Mcma.Azure.FunctionsApi
+references:
+- uid: Mcma.Azure.FunctionsApi.AzureFunctionApiController
+  commentId: T:Mcma.Azure.FunctionsApi.AzureFunctionApiController
+  name: AzureFunctionApiController
+  nameWithType: AzureFunctionApiController
+  fullName: Mcma.Azure.FunctionsApi.AzureFunctionApiController
+- uid: Mcma.Azure.FunctionsApi.AzureFunctionsApiServiceCollectionExtensions
+  commentId: T:Mcma.Azure.FunctionsApi.AzureFunctionsApiServiceCollectionExtensions
+  name: AzureFunctionsApiServiceCollectionExtensions
+  nameWithType: AzureFunctionsApiServiceCollectionExtensions
+  fullName: Mcma.Azure.FunctionsApi.AzureFunctionsApiServiceCollectionExtensions
+- uid: Mcma.Azure.FunctionsApi.HttpExtensions
+  commentId: T:Mcma.Azure.FunctionsApi.HttpExtensions
+  parent: Mcma.Azure.FunctionsApi
+  name: HttpExtensions
+  nameWithType: HttpExtensions
+  fullName: Mcma.Azure.FunctionsApi.HttpExtensions
+- uid: Mcma.Azure.FunctionsApi.IAzureFunctionApiController
+  commentId: T:Mcma.Azure.FunctionsApi.IAzureFunctionApiController
+  parent: Mcma.Azure.FunctionsApi
+  name: IAzureFunctionApiController
+  nameWithType: IAzureFunctionApiController
+  fullName: Mcma.Azure.FunctionsApi.IAzureFunctionApiController
+- uid: Mcma.Azure.FunctionsApi.McmaApiActionResult
+  commentId: T:Mcma.Azure.FunctionsApi.McmaApiActionResult
+  name: McmaApiActionResult
+  nameWithType: McmaApiActionResult
+  fullName: Mcma.Azure.FunctionsApi.McmaApiActionResult
+- uid: Mcma.Azure.FunctionsApi
+  commentId: N:Mcma.Azure.FunctionsApi
+  name: Mcma.Azure.FunctionsApi
+  nameWithType: Mcma.Azure.FunctionsApi
+  fullName: Mcma.Azure.FunctionsApi

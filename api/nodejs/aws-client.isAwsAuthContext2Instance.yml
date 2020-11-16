@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-client.isAwsAuthContext2Instance
+    name: isAwsAuthContext2Instance(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isAwsAuthContext2Instance(x: any)'
+      parameters:
+        - id: x
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - x
+        description: ''
+    package: aws-client

@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: encryption.RSAPublicParams
+    name: RSAPublicParams
+    fullName: RSAPublicParams
+    children:
+      - encryption.RSAPublicParams.e
+      - encryption.RSAPublicParams.n
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: encryption
+  - uid: encryption.RSAPublicParams.e
+    name: e
+    fullName: e
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'e: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: encryption
+  - uid: encryption.RSAPublicParams.n
+    name: 'n'
+    fullName: 'n'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'n: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: encryption

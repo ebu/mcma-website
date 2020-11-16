@@ -1,0 +1,615 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.CloudEnvironmentVariableHelper
+  commentId: T:Mcma.GoogleCloud.CloudEnvironmentVariableHelper
+  id: CloudEnvironmentVariableHelper
+  parent: Mcma.GoogleCloud
+  children:
+  - Mcma.GoogleCloud.CloudEnvironmentVariableHelper.AppEngineModuleId
+  - Mcma.GoogleCloud.CloudEnvironmentVariableHelper.AppEngineVersionId
+  - Mcma.GoogleCloud.CloudEnvironmentVariableHelper.CloudFunctionName
+  - Mcma.GoogleCloud.CloudEnvironmentVariableHelper.CloudFunctionRegion
+  - Mcma.GoogleCloud.CloudEnvironmentVariableHelper.IsAppEngine
+  - Mcma.GoogleCloud.CloudEnvironmentVariableHelper.IsCloudFunction
+  langs:
+  - csharp
+  - vb
+  name: CloudEnvironmentVariableHelper
+  nameWithType: CloudEnvironmentVariableHelper
+  fullName: Mcma.GoogleCloud.CloudEnvironmentVariableHelper
+  type: Class
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud/CloudEnvironmentVariableHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: CloudEnvironmentVariableHelper
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud/CloudEnvironmentVariableHelper.cs
+    startLine: 4
+  assemblies:
+  - Mcma.GoogleCloud
+  namespace: Mcma.GoogleCloud
+  syntax:
+    content: public static class CloudEnvironmentVariableHelper
+    content.vb: Public Module CloudEnvironmentVariableHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.IsAppEngine
+  commentId: P:Mcma.GoogleCloud.CloudEnvironmentVariableHelper.IsAppEngine
+  id: IsAppEngine
+  parent: Mcma.GoogleCloud.CloudEnvironmentVariableHelper
+  langs:
+  - csharp
+  - vb
+  name: IsAppEngine
+  nameWithType: CloudEnvironmentVariableHelper.IsAppEngine
+  fullName: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.IsAppEngine
+  type: Property
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud/CloudEnvironmentVariableHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IsAppEngine
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud/CloudEnvironmentVariableHelper.cs
+    startLine: 6
+  assemblies:
+  - Mcma.GoogleCloud
+  namespace: Mcma.GoogleCloud
+  syntax:
+    content: public static bool IsAppEngine { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsAppEngine As Boolean
+  overload: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.IsAppEngine*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.AppEngineModuleId
+  commentId: P:Mcma.GoogleCloud.CloudEnvironmentVariableHelper.AppEngineModuleId
+  id: AppEngineModuleId
+  parent: Mcma.GoogleCloud.CloudEnvironmentVariableHelper
+  langs:
+  - csharp
+  - vb
+  name: AppEngineModuleId
+  nameWithType: CloudEnvironmentVariableHelper.AppEngineModuleId
+  fullName: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.AppEngineModuleId
+  type: Property
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud/CloudEnvironmentVariableHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AppEngineModuleId
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud/CloudEnvironmentVariableHelper.cs
+    startLine: 9
+  assemblies:
+  - Mcma.GoogleCloud
+  namespace: Mcma.GoogleCloud
+  syntax:
+    content: public static string AppEngineModuleId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AppEngineModuleId As String
+  overload: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.AppEngineModuleId*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.AppEngineVersionId
+  commentId: P:Mcma.GoogleCloud.CloudEnvironmentVariableHelper.AppEngineVersionId
+  id: AppEngineVersionId
+  parent: Mcma.GoogleCloud.CloudEnvironmentVariableHelper
+  langs:
+  - csharp
+  - vb
+  name: AppEngineVersionId
+  nameWithType: CloudEnvironmentVariableHelper.AppEngineVersionId
+  fullName: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.AppEngineVersionId
+  type: Property
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud/CloudEnvironmentVariableHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AppEngineVersionId
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud/CloudEnvironmentVariableHelper.cs
+    startLine: 11
+  assemblies:
+  - Mcma.GoogleCloud
+  namespace: Mcma.GoogleCloud
+  syntax:
+    content: public static string AppEngineVersionId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AppEngineVersionId As String
+  overload: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.AppEngineVersionId*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.IsCloudFunction
+  commentId: P:Mcma.GoogleCloud.CloudEnvironmentVariableHelper.IsCloudFunction
+  id: IsCloudFunction
+  parent: Mcma.GoogleCloud.CloudEnvironmentVariableHelper
+  langs:
+  - csharp
+  - vb
+  name: IsCloudFunction
+  nameWithType: CloudEnvironmentVariableHelper.IsCloudFunction
+  fullName: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.IsCloudFunction
+  type: Property
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud/CloudEnvironmentVariableHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IsCloudFunction
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud/CloudEnvironmentVariableHelper.cs
+    startLine: 13
+  assemblies:
+  - Mcma.GoogleCloud
+  namespace: Mcma.GoogleCloud
+  syntax:
+    content: public static bool IsCloudFunction { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsCloudFunction As Boolean
+  overload: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.IsCloudFunction*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.CloudFunctionName
+  commentId: P:Mcma.GoogleCloud.CloudEnvironmentVariableHelper.CloudFunctionName
+  id: CloudFunctionName
+  parent: Mcma.GoogleCloud.CloudEnvironmentVariableHelper
+  langs:
+  - csharp
+  - vb
+  name: CloudFunctionName
+  nameWithType: CloudEnvironmentVariableHelper.CloudFunctionName
+  fullName: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.CloudFunctionName
+  type: Property
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud/CloudEnvironmentVariableHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: CloudFunctionName
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud/CloudEnvironmentVariableHelper.cs
+    startLine: 16
+  assemblies:
+  - Mcma.GoogleCloud
+  namespace: Mcma.GoogleCloud
+  syntax:
+    content: public static string CloudFunctionName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property CloudFunctionName As String
+  overload: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.CloudFunctionName*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.CloudFunctionRegion
+  commentId: P:Mcma.GoogleCloud.CloudEnvironmentVariableHelper.CloudFunctionRegion
+  id: CloudFunctionRegion
+  parent: Mcma.GoogleCloud.CloudEnvironmentVariableHelper
+  langs:
+  - csharp
+  - vb
+  name: CloudFunctionRegion
+  nameWithType: CloudEnvironmentVariableHelper.CloudFunctionRegion
+  fullName: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.CloudFunctionRegion
+  type: Property
+  source:
+    remote:
+      path: GoogleCloud/Mcma.GoogleCloud/CloudEnvironmentVariableHelper.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: CloudFunctionRegion
+    path: ../mcma-libraries-dotnet/GoogleCloud/Mcma.GoogleCloud/CloudEnvironmentVariableHelper.cs
+    startLine: 19
+  assemblies:
+  - Mcma.GoogleCloud
+  namespace: Mcma.GoogleCloud
+  syntax:
+    content: public static string CloudFunctionRegion { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property CloudFunctionRegion As String
+  overload: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.CloudFunctionRegion*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: Mcma.GoogleCloud
+  commentId: N:Mcma.GoogleCloud
+  name: Mcma.GoogleCloud
+  nameWithType: Mcma.GoogleCloud
+  fullName: Mcma.GoogleCloud
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.IsAppEngine*
+  commentId: Overload:Mcma.GoogleCloud.CloudEnvironmentVariableHelper.IsAppEngine
+  name: IsAppEngine
+  nameWithType: CloudEnvironmentVariableHelper.IsAppEngine
+  fullName: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.IsAppEngine
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.AppEngineModuleId*
+  commentId: Overload:Mcma.GoogleCloud.CloudEnvironmentVariableHelper.AppEngineModuleId
+  name: AppEngineModuleId
+  nameWithType: CloudEnvironmentVariableHelper.AppEngineModuleId
+  fullName: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.AppEngineModuleId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.AppEngineVersionId*
+  commentId: Overload:Mcma.GoogleCloud.CloudEnvironmentVariableHelper.AppEngineVersionId
+  name: AppEngineVersionId
+  nameWithType: CloudEnvironmentVariableHelper.AppEngineVersionId
+  fullName: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.AppEngineVersionId
+- uid: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.IsCloudFunction*
+  commentId: Overload:Mcma.GoogleCloud.CloudEnvironmentVariableHelper.IsCloudFunction
+  name: IsCloudFunction
+  nameWithType: CloudEnvironmentVariableHelper.IsCloudFunction
+  fullName: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.IsCloudFunction
+- uid: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.CloudFunctionName*
+  commentId: Overload:Mcma.GoogleCloud.CloudEnvironmentVariableHelper.CloudFunctionName
+  name: CloudFunctionName
+  nameWithType: CloudEnvironmentVariableHelper.CloudFunctionName
+  fullName: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.CloudFunctionName
+- uid: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.CloudFunctionRegion*
+  commentId: Overload:Mcma.GoogleCloud.CloudEnvironmentVariableHelper.CloudFunctionRegion
+  name: CloudFunctionRegion
+  nameWithType: CloudEnvironmentVariableHelper.CloudFunctionRegion
+  fullName: Mcma.GoogleCloud.CloudEnvironmentVariableHelper.CloudFunctionRegion

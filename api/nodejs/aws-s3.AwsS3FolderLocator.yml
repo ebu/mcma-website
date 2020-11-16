@@ -1,0 +1,124 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-s3.AwsS3FolderLocator
+    name: AwsS3FolderLocator
+    fullName: AwsS3FolderLocator
+    children:
+      - aws-s3.AwsS3FolderLocator.@type
+      - aws-s3.AwsS3FolderLocator.constructor
+      - aws-s3.AwsS3FolderLocator.bucket
+      - aws-s3.AwsS3FolderLocator.keyPrefix
+      - aws-s3.AwsS3FolderLocator.path
+      - aws-s3.AwsS3FolderLocator.url
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: aws-s3.AwsS3Locator
+    package: aws-s3
+  - uid: aws-s3.AwsS3FolderLocator.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-s3
+  - uid: aws-s3.AwsS3FolderLocator.constructor
+    name: AwsS3FolderLocator(AwsS3FolderLocatorProperties)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new AwsS3FolderLocator(properties: AwsS3FolderLocatorProperties)'
+      parameters:
+        - id: properties
+          type:
+            - aws-s3.AwsS3FolderLocatorProperties
+          description: ''
+    package: aws-s3
+  - uid: aws-s3.AwsS3FolderLocator.bucket
+    name: bucket
+    fullName: bucket
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public bucket: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-s3
+  - uid: aws-s3.AwsS3FolderLocator.keyPrefix
+    name: keyPrefix
+    fullName: keyPrefix
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'public keyPrefix?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-s3
+  - uid: aws-s3.AwsS3FolderLocator.path
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string path
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-s3
+  - uid: aws-s3.AwsS3FolderLocator.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'public url?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-s3
+references:
+  - uid: aws-s3.AwsS3Locator
+    name: AwsS3Locator
+    spec.typeScript:
+      - name: AwsS3Locator
+        fullName: AwsS3Locator
+        uid: aws-s3.AwsS3Locator
+  - uid: aws-s3.AwsS3FolderLocatorProperties
+    name: AwsS3FolderLocatorProperties
+    spec.typeScript:
+      - name: AwsS3FolderLocatorProperties
+        fullName: AwsS3FolderLocatorProperties
+        uid: aws-s3.AwsS3FolderLocatorProperties

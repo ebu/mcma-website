@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Resources
+  commentId: N:Mcma.GoogleCloud.Resources
+  id: Mcma.GoogleCloud.Resources
+  children:
+  - Mcma.GoogleCloud.Resources.IMonitoredResourceProvider
+  langs:
+  - csharp
+  - vb
+  name: Mcma.GoogleCloud.Resources
+  nameWithType: Mcma.GoogleCloud.Resources
+  fullName: Mcma.GoogleCloud.Resources
+  type: Namespace
+  assemblies:
+  - Mcma.GoogleCloud
+references:
+- uid: Mcma.GoogleCloud.Resources.IMonitoredResourceProvider
+  commentId: T:Mcma.GoogleCloud.Resources.IMonitoredResourceProvider
+  parent: Mcma.GoogleCloud.Resources
+  name: IMonitoredResourceProvider
+  nameWithType: IMonitoredResourceProvider
+  fullName: Mcma.GoogleCloud.Resources.IMonitoredResourceProvider
+- uid: Mcma.GoogleCloud.Resources
+  commentId: N:Mcma.GoogleCloud.Resources
+  name: Mcma.GoogleCloud.Resources
+  nameWithType: Mcma.GoogleCloud.Resources
+  fullName: Mcma.GoogleCloud.Resources

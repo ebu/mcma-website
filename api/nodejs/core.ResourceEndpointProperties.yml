@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.ResourceEndpointProperties
+    name: ResourceEndpointProperties
+    fullName: ResourceEndpointProperties
+    children:
+      - core.ResourceEndpointProperties.@type
+      - core.ResourceEndpointProperties.authContext
+      - core.ResourceEndpointProperties.authType
+      - core.ResourceEndpointProperties.httpEndpoint
+      - core.ResourceEndpointProperties.resourceType
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: core.McmaObjectProperties
+    package: core
+  - uid: core.ResourceEndpointProperties.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: '@type?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.ResourceEndpointProperties.authContext
+    name: authContext
+    fullName: authContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'authContext?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: core
+  - uid: core.ResourceEndpointProperties.authType
+    name: authType
+    fullName: authType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'authType?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.ResourceEndpointProperties.httpEndpoint
+    name: httpEndpoint
+    fullName: httpEndpoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'httpEndpoint: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.ResourceEndpointProperties.resourceType
+    name: resourceType
+    fullName: resourceType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'resourceType: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+references:
+  - uid: core.McmaObjectProperties
+    name: McmaObjectProperties
+    spec.typeScript:
+      - name: McmaObjectProperties
+        fullName: McmaObjectProperties
+        uid: core.McmaObjectProperties

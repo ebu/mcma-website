@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-blob-storage.getFolderProxy_1
+    name: 'getFolderProxy(BlobStorageFolderLocator, ConfigVariables)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getFolderProxy(locator: BlobStorageFolderLocator,
+        configVariables: ConfigVariables)
+      parameters:
+        - id: locator
+          type:
+            - azure-blob-storage.BlobStorageFolderLocator
+          description: ''
+        - id: configVariables
+          type:
+            - ConfigVariables
+          description: ''
+      return:
+        type:
+          - azure-blob-storage.BlobStorageFolderProxy
+        description: ''
+    package: azure-blob-storage
+references:
+  - uid: azure-blob-storage.BlobStorageFolderLocator
+    name: BlobStorageFolderLocator
+    spec.typeScript:
+      - name: BlobStorageFolderLocator
+        fullName: BlobStorageFolderLocator
+        uid: azure-blob-storage.BlobStorageFolderLocator
+  - uid: azure-blob-storage.BlobStorageFolderProxy
+    name: BlobStorageFolderProxy
+    spec.typeScript:
+      - name: BlobStorageFolderProxy
+        fullName: BlobStorageFolderProxy
+        uid: azure-blob-storage.BlobStorageFolderProxy

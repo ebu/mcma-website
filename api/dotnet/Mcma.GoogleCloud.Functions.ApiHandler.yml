@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.GoogleCloud.Functions.ApiHandler
+  commentId: N:Mcma.GoogleCloud.Functions.ApiHandler
+  id: Mcma.GoogleCloud.Functions.ApiHandler
+  children:
+  - Mcma.GoogleCloud.Functions.ApiHandler.McmaApiHandlerStartup
+  - Mcma.GoogleCloud.Functions.ApiHandler.McmaJobAssignmentApiHandlerStartup
+  langs:
+  - csharp
+  - vb
+  name: Mcma.GoogleCloud.Functions.ApiHandler
+  nameWithType: Mcma.GoogleCloud.Functions.ApiHandler
+  fullName: Mcma.GoogleCloud.Functions.ApiHandler
+  type: Namespace
+  assemblies:
+  - Mcma.GoogleCloud.Functions.ApiHandler
+references:
+- uid: Mcma.GoogleCloud.Functions.ApiHandler.McmaApiHandlerStartup
+  commentId: T:Mcma.GoogleCloud.Functions.ApiHandler.McmaApiHandlerStartup
+  name: McmaApiHandlerStartup
+  nameWithType: McmaApiHandlerStartup
+  fullName: Mcma.GoogleCloud.Functions.ApiHandler.McmaApiHandlerStartup
+- uid: Mcma.GoogleCloud.Functions.ApiHandler.McmaJobAssignmentApiHandlerStartup
+  commentId: T:Mcma.GoogleCloud.Functions.ApiHandler.McmaJobAssignmentApiHandlerStartup
+  name: McmaJobAssignmentApiHandlerStartup
+  nameWithType: McmaJobAssignmentApiHandlerStartup
+  fullName: Mcma.GoogleCloud.Functions.ApiHandler.McmaJobAssignmentApiHandlerStartup

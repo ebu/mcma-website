@@ -1,0 +1,666 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Aws.DynamoDb.TableDescriptionProvider
+  commentId: T:Mcma.Aws.DynamoDb.TableDescriptionProvider
+  id: TableDescriptionProvider
+  parent: Mcma.Aws.DynamoDb
+  children:
+  - Mcma.Aws.DynamoDb.TableDescriptionProvider.GetTableDescriptionAsync(Amazon.DynamoDBv2.IAmazonDynamoDB,System.String)
+  langs:
+  - csharp
+  - vb
+  name: TableDescriptionProvider
+  nameWithType: TableDescriptionProvider
+  fullName: Mcma.Aws.DynamoDb.TableDescriptionProvider
+  type: Class
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/TableDescription/TableDescriptionProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: TableDescriptionProvider
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/TableDescription/TableDescriptionProvider.cs
+    startLine: 9
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: 'public class TableDescriptionProvider : ITableDescriptionProvider'
+    content.vb: >-
+      Public Class TableDescriptionProvider
+
+          Implements ITableDescriptionProvider
+  inheritance:
+  - System.Object
+  implements:
+  - Mcma.Aws.DynamoDb.ITableDescriptionProvider
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mcma.Aws.DynamoDb.TableDescriptionProvider.GetTableDescriptionAsync(Amazon.DynamoDBv2.IAmazonDynamoDB,System.String)
+  commentId: M:Mcma.Aws.DynamoDb.TableDescriptionProvider.GetTableDescriptionAsync(Amazon.DynamoDBv2.IAmazonDynamoDB,System.String)
+  id: GetTableDescriptionAsync(Amazon.DynamoDBv2.IAmazonDynamoDB,System.String)
+  parent: Mcma.Aws.DynamoDb.TableDescriptionProvider
+  langs:
+  - csharp
+  - vb
+  name: GetTableDescriptionAsync(IAmazonDynamoDB, String)
+  nameWithType: TableDescriptionProvider.GetTableDescriptionAsync(IAmazonDynamoDB, String)
+  fullName: Mcma.Aws.DynamoDb.TableDescriptionProvider.GetTableDescriptionAsync(Amazon.DynamoDBv2.IAmazonDynamoDB, System.String)
+  type: Method
+  source:
+    remote:
+      path: AWS/Mcma.Aws.DynamoDb/TableDescription/TableDescriptionProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetTableDescriptionAsync
+    path: ../mcma-libraries-dotnet/AWS/Mcma.Aws.DynamoDb/TableDescription/TableDescriptionProvider.cs
+    startLine: 16
+  assemblies:
+  - Mcma.Aws.DynamoDb
+  namespace: Mcma.Aws.DynamoDb
+  syntax:
+    content: public Task<DynamoDbTableDescription> GetTableDescriptionAsync(IAmazonDynamoDB dynamoDb, string tableName)
+    parameters:
+    - id: dynamoDb
+      type: Amazon.DynamoDBv2.IAmazonDynamoDB
+    - id: tableName
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Mcma.Aws.DynamoDb.DynamoDbTableDescription}
+    content.vb: Public Function GetTableDescriptionAsync(dynamoDb As IAmazonDynamoDB, tableName As String) As Task(Of DynamoDbTableDescription)
+  overload: Mcma.Aws.DynamoDb.TableDescriptionProvider.GetTableDescriptionAsync*
+  implements:
+  - Mcma.Aws.DynamoDb.ITableDescriptionProvider.GetTableDescriptionAsync(Amazon.DynamoDBv2.IAmazonDynamoDB,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mcma.Aws.DynamoDb
+  commentId: N:Mcma.Aws.DynamoDb
+  name: Mcma.Aws.DynamoDb
+  nameWithType: Mcma.Aws.DynamoDb
+  fullName: Mcma.Aws.DynamoDb
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.Aws.DynamoDb.ITableDescriptionProvider
+  commentId: T:Mcma.Aws.DynamoDb.ITableDescriptionProvider
+  parent: Mcma.Aws.DynamoDb
+  name: ITableDescriptionProvider
+  nameWithType: ITableDescriptionProvider
+  fullName: Mcma.Aws.DynamoDb.ITableDescriptionProvider
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Aws.DynamoDb.TableDescriptionProvider.GetTableDescriptionAsync*
+  commentId: Overload:Mcma.Aws.DynamoDb.TableDescriptionProvider.GetTableDescriptionAsync
+  name: GetTableDescriptionAsync
+  nameWithType: TableDescriptionProvider.GetTableDescriptionAsync
+  fullName: Mcma.Aws.DynamoDb.TableDescriptionProvider.GetTableDescriptionAsync
+- uid: Mcma.Aws.DynamoDb.ITableDescriptionProvider.GetTableDescriptionAsync(Amazon.DynamoDBv2.IAmazonDynamoDB,System.String)
+  commentId: M:Mcma.Aws.DynamoDb.ITableDescriptionProvider.GetTableDescriptionAsync(Amazon.DynamoDBv2.IAmazonDynamoDB,System.String)
+  parent: Mcma.Aws.DynamoDb.ITableDescriptionProvider
+  isExternal: true
+  name: GetTableDescriptionAsync(IAmazonDynamoDB, String)
+  nameWithType: ITableDescriptionProvider.GetTableDescriptionAsync(IAmazonDynamoDB, String)
+  fullName: Mcma.Aws.DynamoDb.ITableDescriptionProvider.GetTableDescriptionAsync(Amazon.DynamoDBv2.IAmazonDynamoDB, System.String)
+  spec.csharp:
+  - uid: Mcma.Aws.DynamoDb.ITableDescriptionProvider.GetTableDescriptionAsync(Amazon.DynamoDBv2.IAmazonDynamoDB,System.String)
+    name: GetTableDescriptionAsync
+    nameWithType: ITableDescriptionProvider.GetTableDescriptionAsync
+    fullName: Mcma.Aws.DynamoDb.ITableDescriptionProvider.GetTableDescriptionAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Amazon.DynamoDBv2.IAmazonDynamoDB
+    name: IAmazonDynamoDB
+    nameWithType: IAmazonDynamoDB
+    fullName: Amazon.DynamoDBv2.IAmazonDynamoDB
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Aws.DynamoDb.ITableDescriptionProvider.GetTableDescriptionAsync(Amazon.DynamoDBv2.IAmazonDynamoDB,System.String)
+    name: GetTableDescriptionAsync
+    nameWithType: ITableDescriptionProvider.GetTableDescriptionAsync
+    fullName: Mcma.Aws.DynamoDb.ITableDescriptionProvider.GetTableDescriptionAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Amazon.DynamoDBv2.IAmazonDynamoDB
+    name: IAmazonDynamoDB
+    nameWithType: IAmazonDynamoDB
+    fullName: Amazon.DynamoDBv2.IAmazonDynamoDB
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Amazon.DynamoDBv2.IAmazonDynamoDB
+  commentId: T:Amazon.DynamoDBv2.IAmazonDynamoDB
+  parent: Amazon.DynamoDBv2
+  isExternal: true
+  name: IAmazonDynamoDB
+  nameWithType: IAmazonDynamoDB
+  fullName: Amazon.DynamoDBv2.IAmazonDynamoDB
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{Mcma.Aws.DynamoDb.DynamoDbTableDescription}
+  commentId: T:System.Threading.Tasks.Task{Mcma.Aws.DynamoDb.DynamoDbTableDescription}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<DynamoDbTableDescription>
+  nameWithType: Task<DynamoDbTableDescription>
+  fullName: System.Threading.Tasks.Task<Mcma.Aws.DynamoDb.DynamoDbTableDescription>
+  nameWithType.vb: Task(Of DynamoDbTableDescription)
+  fullName.vb: System.Threading.Tasks.Task(Of Mcma.Aws.DynamoDb.DynamoDbTableDescription)
+  name.vb: Task(Of DynamoDbTableDescription)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Aws.DynamoDb.DynamoDbTableDescription
+    name: DynamoDbTableDescription
+    nameWithType: DynamoDbTableDescription
+    fullName: Mcma.Aws.DynamoDb.DynamoDbTableDescription
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Aws.DynamoDb.DynamoDbTableDescription
+    name: DynamoDbTableDescription
+    nameWithType: DynamoDbTableDescription
+    fullName: Mcma.Aws.DynamoDb.DynamoDbTableDescription
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Amazon.DynamoDBv2
+  commentId: N:Amazon.DynamoDBv2
+  isExternal: true
+  name: Amazon.DynamoDBv2
+  nameWithType: Amazon.DynamoDBv2
+  fullName: Amazon.DynamoDBv2
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

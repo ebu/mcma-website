@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.WorkerInvoker.IWorkerInvoker
+  commentId: T:Mcma.WorkerInvoker.IWorkerInvoker
+  id: IWorkerInvoker
+  parent: Mcma.WorkerInvoker
+  children:
+  - Mcma.WorkerInvoker.IWorkerInvoker.InvokeAsync(System.String,System.Object,Mcma.McmaTracker)
+  langs:
+  - csharp
+  - vb
+  name: IWorkerInvoker
+  nameWithType: IWorkerInvoker
+  fullName: Mcma.WorkerInvoker.IWorkerInvoker
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.WorkerInvoker/IWorkerInvoker.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IWorkerInvoker
+    path: ../mcma-libraries-dotnet/Base/Mcma.WorkerInvoker/IWorkerInvoker.cs
+    startLine: 4
+  assemblies:
+  - Mcma.WorkerInvoker
+  namespace: Mcma.WorkerInvoker
+  syntax:
+    content: public interface IWorkerInvoker
+    content.vb: Public Interface IWorkerInvoker
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mcma.WorkerInvoker.IWorkerInvoker.InvokeAsync(System.String,System.Object,Mcma.McmaTracker)
+  commentId: M:Mcma.WorkerInvoker.IWorkerInvoker.InvokeAsync(System.String,System.Object,Mcma.McmaTracker)
+  id: InvokeAsync(System.String,System.Object,Mcma.McmaTracker)
+  parent: Mcma.WorkerInvoker.IWorkerInvoker
+  langs:
+  - csharp
+  - vb
+  name: InvokeAsync(String, Object, McmaTracker)
+  nameWithType: IWorkerInvoker.InvokeAsync(String, Object, McmaTracker)
+  fullName: Mcma.WorkerInvoker.IWorkerInvoker.InvokeAsync(System.String, System.Object, Mcma.McmaTracker)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.WorkerInvoker/IWorkerInvoker.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: InvokeAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.WorkerInvoker/IWorkerInvoker.cs
+    startLine: 6
+  assemblies:
+  - Mcma.WorkerInvoker
+  namespace: Mcma.WorkerInvoker
+  syntax:
+    content: Task InvokeAsync(string operationName, object input, McmaTracker tracker = null)
+    parameters:
+    - id: operationName
+      type: System.String
+    - id: input
+      type: System.Object
+    - id: tracker
+      type: Mcma.McmaTracker
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function InvokeAsync(operationName As String, input As Object, tracker As McmaTracker = Nothing) As Task
+  overload: Mcma.WorkerInvoker.IWorkerInvoker.InvokeAsync*
+references:
+- uid: Mcma.WorkerInvoker
+  commentId: N:Mcma.WorkerInvoker
+  name: Mcma.WorkerInvoker
+  nameWithType: Mcma.WorkerInvoker
+  fullName: Mcma.WorkerInvoker
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.WorkerInvoker.IWorkerInvoker.InvokeAsync*
+  commentId: Overload:Mcma.WorkerInvoker.IWorkerInvoker.InvokeAsync
+  name: InvokeAsync
+  nameWithType: IWorkerInvoker.InvokeAsync
+  fullName: Mcma.WorkerInvoker.IWorkerInvoker.InvokeAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mcma.McmaTracker
+  commentId: T:Mcma.McmaTracker
+  parent: Mcma
+  name: McmaTracker
+  nameWithType: McmaTracker
+  fullName: Mcma.McmaTracker
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma
+  commentId: N:Mcma
+  name: Mcma
+  nameWithType: Mcma
+  fullName: Mcma
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

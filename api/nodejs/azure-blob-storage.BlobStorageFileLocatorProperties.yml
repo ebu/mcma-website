@@ -1,0 +1,85 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-blob-storage.BlobStorageFileLocatorProperties
+    name: BlobStorageFileLocatorProperties
+    fullName: BlobStorageFileLocatorProperties
+    children:
+      - azure-blob-storage.BlobStorageFileLocatorProperties.@type
+      - azure-blob-storage.BlobStorageFileLocatorProperties.container
+      - azure-blob-storage.BlobStorageFileLocatorProperties.filePath
+      - azure-blob-storage.BlobStorageFileLocatorProperties.storageAccountName
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: azure-blob-storage.BlobStorageLocatorProperties
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageFileLocatorProperties.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: '@type?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageFileLocatorProperties.container
+    name: container
+    fullName: container
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'container: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageFileLocatorProperties.filePath
+    name: filePath
+    fullName: filePath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'filePath: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageFileLocatorProperties.storageAccountName
+    name: storageAccountName
+    fullName: storageAccountName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'storageAccountName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-blob-storage
+references:
+  - uid: azure-blob-storage.BlobStorageLocatorProperties
+    name: BlobStorageLocatorProperties
+    spec.typeScript:
+      - name: BlobStorageLocatorProperties
+        fullName: BlobStorageLocatorProperties
+        uid: azure-blob-storage.BlobStorageLocatorProperties

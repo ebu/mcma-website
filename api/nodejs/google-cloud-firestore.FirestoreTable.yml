@@ -1,0 +1,177 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-firestore.FirestoreTable
+    name: FirestoreTable
+    fullName: FirestoreTable
+    children:
+      - google-cloud-firestore.FirestoreTable.createMutex
+      - google-cloud-firestore.FirestoreTable.customQuery
+      - google-cloud-firestore.FirestoreTable.delete
+      - google-cloud-firestore.FirestoreTable.constructor
+      - google-cloud-firestore.FirestoreTable.get
+      - google-cloud-firestore.FirestoreTable.put
+      - google-cloud-firestore.FirestoreTable.query
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreTable.createMutex
+    name: 'createMutex(string, string, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createMutex(mutexName: string, mutexHolder: string,
+        lockTimeout?: number)
+      parameters:
+        - id: mutexName
+          type:
+            - string
+          description: ''
+        - id: mutexHolder
+          type:
+            - string
+          description: ''
+        - id: lockTimeout
+          type:
+            - number
+          description: ''
+          optional: true
+      return:
+        type:
+          - DocumentDatabaseMutex
+        description: ''
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreTable.customQuery
+    name: 'customQuery(CustomQuery<TDocument, TParameters>)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function customQuery<TDocument>(query: CustomQuery<TDocument,
+        TParameters>)
+      parameters:
+        - id: query
+          type:
+            - 'CustomQuery<TDocument, TParameters>'
+          description: ''
+      return:
+        type:
+          - Promise<QueryResults<TDocument>>
+        description: ''
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreTable.delete
+    name: delete(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function delete(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreTable.constructor
+    name: 'FirestoreTable(CollectionReference, CustomQueryRegistry)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new FirestoreTable(rootCollection: CollectionReference,
+        customQueryRegistry: CustomQueryRegistry)
+      parameters:
+        - id: rootCollection
+          type:
+            - CollectionReference
+          description: ''
+        - id: customQueryRegistry
+          type:
+            - google-cloud-firestore.CustomQueryRegistry
+          description: ''
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreTable.get
+    name: get(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get<TDocument>(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<TDocument>
+        description: ''
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreTable.put
+    name: 'put(string, TDocument)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function put<TDocument>(id: string, resource: TDocument)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: resource
+          type:
+            - TDocument
+          description: ''
+      return:
+        type:
+          - Promise<TDocument>
+        description: ''
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreTable.query
+    name: query(Query<TDocument>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function query<TDocument>(query: Query<TDocument>)'
+      parameters:
+        - id: query
+          type:
+            - Query<TDocument>
+          description: ''
+      return:
+        type:
+          - Promise<QueryResults<TDocument>>
+        description: ''
+    package: google-cloud-firestore
+references:
+  - uid: google-cloud-firestore.CustomQueryRegistry
+    name: CustomQueryRegistry
+    spec.typeScript:
+      - name: CustomQueryRegistry
+        fullName: CustomQueryRegistry
+        uid: google-cloud-firestore.CustomQueryRegistry

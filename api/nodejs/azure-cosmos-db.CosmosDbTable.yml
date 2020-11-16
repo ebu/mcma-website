@@ -1,0 +1,180 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-cosmos-db.CosmosDbTable
+    name: CosmosDbTable
+    fullName: CosmosDbTable
+    children:
+      - azure-cosmos-db.CosmosDbTable.constructor
+      - azure-cosmos-db.CosmosDbTable.createMutex
+      - azure-cosmos-db.CosmosDbTable.customQuery
+      - azure-cosmos-db.CosmosDbTable.delete
+      - azure-cosmos-db.CosmosDbTable.get
+      - azure-cosmos-db.CosmosDbTable.put
+      - azure-cosmos-db.CosmosDbTable.query
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbTable.constructor
+    name: 'CosmosDbTable(Container, ContainerDefinition, CustomQueryRegistry)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CosmosDbTable(container: Container, containerDefinition:
+        ContainerDefinition, customQueryRegistry: CustomQueryRegistry)
+      parameters:
+        - id: container
+          type:
+            - Container
+          description: ''
+        - id: containerDefinition
+          type:
+            - ContainerDefinition
+          description: ''
+        - id: customQueryRegistry
+          type:
+            - azure-cosmos-db.CustomQueryRegistry
+          description: ''
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbTable.createMutex
+    name: 'createMutex(string, string, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createMutex(mutexName: string, mutexHolder: string,
+        lockTimeout: number)
+      parameters:
+        - id: mutexName
+          type:
+            - string
+          description: ''
+        - id: mutexHolder
+          type:
+            - string
+          description: ''
+        - id: lockTimeout
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - DocumentDatabaseMutex
+        description: ''
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbTable.customQuery
+    name: 'customQuery(CustomQuery<TDocument, TParameters>)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function customQuery<TDocument>(query: CustomQuery<TDocument,
+        TParameters>)
+      parameters:
+        - id: query
+          type:
+            - 'CustomQuery<TDocument, TParameters>'
+          description: ''
+      return:
+        type:
+          - Promise<QueryResults<TDocument>>
+        description: ''
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbTable.delete
+    name: delete(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function delete(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbTable.get
+    name: get(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get<TDocument>(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Promise<TDocument>
+        description: ''
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbTable.put
+    name: 'put(string, TDocument)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function put<TDocument>(id: string, resource: TDocument)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: resource
+          type:
+            - TDocument
+          description: ''
+      return:
+        type:
+          - Promise<TDocument>
+        description: ''
+    package: azure-cosmos-db
+  - uid: azure-cosmos-db.CosmosDbTable.query
+    name: query(Query<TDocument>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function query<TDocument>(query: Query<TDocument>)'
+      parameters:
+        - id: query
+          type:
+            - Query<TDocument>
+          description: ''
+      return:
+        type:
+          - Promise<QueryResults<TDocument>>
+        description: ''
+    package: azure-cosmos-db
+references:
+  - uid: azure-cosmos-db.CustomQueryRegistry
+    name: CustomQueryRegistry
+    spec.typeScript:
+      - name: CustomQueryRegistry
+        fullName: CustomQueryRegistry
+        uid: azure-cosmos-db.CustomQueryRegistry

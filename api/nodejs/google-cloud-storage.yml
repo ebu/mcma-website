@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-storage
+    name: "@mcma/google-cloud-storage"
+    summary: ""
+    children:
+      - google-cloud-storage.CloudStorageFileLocator
+      - google-cloud-storage.CloudStorageFileLocatorProperties
+      - google-cloud-storage.CloudStorageFolderLocator
+      - google-cloud-storage.CloudStorageFolderLocatorProperties
+      - google-cloud-storage.CloudStorageLocator
+      - google-cloud-storage.CloudStorageLocatorProperties
+      - google-cloud-storage.getFileLocator
+      - google-cloud-storage.getFilePath
+      - google-cloud-storage.CloudStorageFileProxy
+      - google-cloud-storage.CloudStorageFolderProxy
+      - google-cloud-storage.CloudStorageProxy
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: google-cloud-storage.CloudStorageFileLocator
+    name: CloudStorageFileLocator
+  - uid: google-cloud-storage.CloudStorageFileLocatorProperties
+    name: CloudStorageFileLocatorProperties
+  - uid: google-cloud-storage.CloudStorageFolderLocator
+    name: CloudStorageFolderLocator
+  - uid: google-cloud-storage.CloudStorageFolderLocatorProperties
+    name: CloudStorageFolderLocatorProperties
+  - uid: google-cloud-storage.CloudStorageLocator
+    name: CloudStorageLocator
+  - uid: google-cloud-storage.CloudStorageLocatorProperties
+    name: CloudStorageLocatorProperties
+  - uid: google-cloud-storage.getFileLocator
+    name: getFileLocator(CloudStorageFolderLocatorProperties, string)
+  - uid: google-cloud-storage.getFilePath
+    name: getFilePath(CloudStorageFolderLocatorProperties, string)
+  - uid: google-cloud-storage.CloudStorageFileProxy
+    name: CloudStorageFileProxy
+  - uid: google-cloud-storage.CloudStorageFolderProxy
+    name: CloudStorageFolderProxy
+  - uid: google-cloud-storage.CloudStorageProxy
+    name: CloudStorageProxy

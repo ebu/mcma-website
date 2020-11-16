@@ -1,0 +1,369 @@
+### YamlMime:UniversalReference
+items:
+  - uid: worker.ProcessJobAssignmentHelper
+    name: ProcessJobAssignmentHelper
+    fullName: ProcessJobAssignmentHelper<T>
+    children:
+      - worker.ProcessJobAssignmentHelper.cancel
+      - worker.ProcessJobAssignmentHelper.complete
+      - worker.ProcessJobAssignmentHelper.dbTable
+      - worker.ProcessJobAssignmentHelper.fail
+      - worker.ProcessJobAssignmentHelper.initialize
+      - worker.ProcessJobAssignmentHelper.job
+      - worker.ProcessJobAssignmentHelper.jobAssignment
+      - worker.ProcessJobAssignmentHelper.jobAssignmentDatabaseId
+      - worker.ProcessJobAssignmentHelper.jobInput
+      - worker.ProcessJobAssignmentHelper.jobOutput
+      - worker.ProcessJobAssignmentHelper.logger
+      - worker.ProcessJobAssignmentHelper.constructor
+      - worker.ProcessJobAssignmentHelper.profile
+      - worker.ProcessJobAssignmentHelper.resourceManager
+      - worker.ProcessJobAssignmentHelper.sendNotification
+      - worker.ProcessJobAssignmentHelper.updateJobAssignment
+      - worker.ProcessJobAssignmentHelper.updateJobAssignmentOutput
+      - worker.ProcessJobAssignmentHelper.updateJobAssignmentStatus
+      - worker.ProcessJobAssignmentHelper.validateJob
+      - worker.ProcessJobAssignmentHelper.workerRequest
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.cancel
+    name: cancel()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function cancel()
+      parameters: []
+      return:
+        type:
+          - Promise<JobAssignment>
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.complete
+    name: complete()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function complete()
+      parameters: []
+      return:
+        type:
+          - Promise<JobAssignment>
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.dbTable
+    name: dbTable
+    fullName: dbTable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public dbTable: DocumentDatabaseTable'
+      return:
+        type:
+          - DocumentDatabaseTable
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.fail
+    name: fail(ProblemDetailProperties)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fail(error: ProblemDetailProperties)'
+      parameters:
+        - id: error
+          type:
+            - ProblemDetailProperties
+          description: ''
+      return:
+        type:
+          - Promise<JobAssignment>
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.initialize
+    name: initialize(JobStatus)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function initialize(initialStatus?: JobStatus)'
+      parameters:
+        - id: initialStatus
+          type:
+            - JobStatus
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.job
+    name: job
+    fullName: job
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: T job
+      return:
+        type:
+          - T
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.jobAssignment
+    name: jobAssignment
+    fullName: jobAssignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: JobAssignment jobAssignment
+      return:
+        type:
+          - JobAssignment
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.jobAssignmentDatabaseId
+    name: jobAssignmentDatabaseId
+    fullName: jobAssignmentDatabaseId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public jobAssignmentDatabaseId: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.jobInput
+    name: jobInput
+    fullName: jobInput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: JobParameterBag jobInput
+      return:
+        type:
+          - JobParameterBag
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.jobOutput
+    name: jobOutput
+    fullName: jobOutput
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: JobParameterBag jobOutput
+      return:
+        type:
+          - JobParameterBag
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.logger
+    name: logger
+    fullName: logger
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Logger | undefined logger
+      return:
+        type:
+          - Logger | undefined
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.constructor
+    name: >-
+      ProcessJobAssignmentHelper(DocumentDatabaseTable, ResourceManager,
+      WorkerRequest)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ProcessJobAssignmentHelper(dbTable: DocumentDatabaseTable,
+        resourceManager: ResourceManager, workerRequest: WorkerRequest)
+      parameters:
+        - id: dbTable
+          type:
+            - DocumentDatabaseTable
+          description: ''
+        - id: resourceManager
+          type:
+            - ResourceManager
+          description: ''
+        - id: workerRequest
+          type:
+            - worker.WorkerRequest
+          description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.profile
+    name: profile
+    fullName: profile
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: JobProfile profile
+      return:
+        type:
+          - JobProfile
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.resourceManager
+    name: resourceManager
+    fullName: resourceManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public resourceManager: ResourceManager'
+      return:
+        type:
+          - ResourceManager
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.sendNotification
+    name: sendNotification()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function sendNotification()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.updateJobAssignment
+    name: 'updateJobAssignment((jobAssigment: JobAssignment) => void, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function updateJobAssignment(update: (jobAssigment: JobAssignment) =>
+        void, sendNotification: boolean)
+      parameters:
+        - id: update
+          type:
+            - '(jobAssigment: JobAssignment) => void'
+          description: ''
+        - id: sendNotification
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - Promise<JobAssignment>
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.updateJobAssignmentOutput
+    name: updateJobAssignmentOutput()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function updateJobAssignmentOutput()
+      parameters: []
+      return:
+        type:
+          - Promise<JobAssignment>
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.updateJobAssignmentStatus
+    name: updateJobAssignmentStatus(JobStatus)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function updateJobAssignmentStatus(status: JobStatus)'
+      parameters:
+        - id: status
+          type:
+            - JobStatus
+          description: ''
+      return:
+        type:
+          - Promise<JobAssignment>
+        description: ''
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.validateJob
+    name: validateJob()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function validateJob()
+      parameters: []
+    package: worker
+  - uid: worker.ProcessJobAssignmentHelper.workerRequest
+    name: workerRequest
+    fullName: workerRequest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public workerRequest: WorkerRequest'
+      return:
+        type:
+          - worker.WorkerRequest
+        description: ''
+    package: worker
+references:
+  - uid: worker.WorkerRequest
+    name: WorkerRequest
+    spec.typeScript:
+      - name: WorkerRequest
+        fullName: WorkerRequest
+        uid: worker.WorkerRequest

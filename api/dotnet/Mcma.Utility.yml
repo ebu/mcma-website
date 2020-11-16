@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Utility
+  commentId: N:Mcma.Utility
+  id: Mcma.Utility
+  children:
+  - Mcma.Utility.EncryptionHelper
+  - Mcma.Utility.ExpressionExtensions
+  - Mcma.Utility.McmaEnvironmentVariables
+  - Mcma.Utility.ReflectionExtensions
+  - Mcma.Utility.ServiceCollectionExtensions
+  - Mcma.Utility.StreamExtensions
+  - Mcma.Utility.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mcma.Utility
+  nameWithType: Mcma.Utility
+  fullName: Mcma.Utility
+  type: Namespace
+  assemblies:
+  - Mcma.Core
+references:
+- uid: Mcma.Utility.EncryptionHelper
+  commentId: T:Mcma.Utility.EncryptionHelper
+  name: EncryptionHelper
+  nameWithType: EncryptionHelper
+  fullName: Mcma.Utility.EncryptionHelper
+- uid: Mcma.Utility.ExpressionExtensions
+  commentId: T:Mcma.Utility.ExpressionExtensions
+  name: ExpressionExtensions
+  nameWithType: ExpressionExtensions
+  fullName: Mcma.Utility.ExpressionExtensions
+- uid: Mcma.Utility.McmaEnvironmentVariables
+  commentId: T:Mcma.Utility.McmaEnvironmentVariables
+  name: McmaEnvironmentVariables
+  nameWithType: McmaEnvironmentVariables
+  fullName: Mcma.Utility.McmaEnvironmentVariables
+- uid: Mcma.Utility.ReflectionExtensions
+  commentId: T:Mcma.Utility.ReflectionExtensions
+  name: ReflectionExtensions
+  nameWithType: ReflectionExtensions
+  fullName: Mcma.Utility.ReflectionExtensions
+- uid: Mcma.Utility.ServiceCollectionExtensions
+  commentId: T:Mcma.Utility.ServiceCollectionExtensions
+  name: ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+  fullName: Mcma.Utility.ServiceCollectionExtensions
+- uid: Mcma.Utility.StreamExtensions
+  commentId: T:Mcma.Utility.StreamExtensions
+  name: StreamExtensions
+  nameWithType: StreamExtensions
+  fullName: Mcma.Utility.StreamExtensions
+- uid: Mcma.Utility.StringExtensions
+  commentId: T:Mcma.Utility.StringExtensions
+  name: StringExtensions
+  nameWithType: StringExtensions
+  fullName: Mcma.Utility.StringExtensions

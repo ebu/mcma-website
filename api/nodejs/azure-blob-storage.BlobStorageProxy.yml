@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-blob-storage.BlobStorageProxy
+    name: BlobStorageProxy
+    fullName: BlobStorageProxy<T>
+    children:
+      - azure-blob-storage.BlobStorageProxy.client
+      - azure-blob-storage.BlobStorageProxy.container
+      - azure-blob-storage.BlobStorageProxy.locator
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageProxy.client
+    name: client
+    fullName: client
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'client: BlobServiceClient'
+      return:
+        type:
+          - BlobServiceClient
+        description: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageProxy.container
+    name: container
+    fullName: container
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'container: ContainerClient'
+      return:
+        type:
+          - ContainerClient
+        description: ''
+    package: azure-blob-storage
+  - uid: azure-blob-storage.BlobStorageProxy.locator
+    name: locator
+    fullName: locator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'locator: T'
+      return:
+        type:
+          - T
+        description: ''
+    package: azure-blob-storage

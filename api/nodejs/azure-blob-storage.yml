@@ -1,0 +1,70 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-blob-storage
+    name: "@mcma/azure-blob-storage"
+    summary: ""
+    children:
+      - azure-blob-storage.BlobStorageFileLocator
+      - azure-blob-storage.BlobStorageFileLocatorProperties
+      - azure-blob-storage.BlobStorageFolderLocator
+      - azure-blob-storage.BlobStorageFolderLocatorProperties
+      - azure-blob-storage.BlobStorageLocator
+      - azure-blob-storage.BlobStorageLocatorProperties
+      - azure-blob-storage.getFileLocator
+      - azure-blob-storage.getFilePath
+      - azure-blob-storage.BlobStorageFileProxy
+      - azure-blob-storage.BlobStorageFolderProxy
+      - azure-blob-storage.BlobStorageProxy
+      - azure-blob-storage.BlobStorageFileProxy
+      - azure-blob-storage.BlobStorageFolderProxy
+      - azure-blob-storage.BlobStorageProxy
+      - azure-blob-storage.getBlobClient
+      - azure-blob-storage.getBlobClient_1
+      - azure-blob-storage.getFileProxy
+      - azure-blob-storage.getFileProxy_1
+      - azure-blob-storage.getFolderProxy
+      - azure-blob-storage.getFolderProxy_1
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: azure-blob-storage.BlobStorageFileLocator
+    name: BlobStorageFileLocator
+  - uid: azure-blob-storage.BlobStorageFileLocatorProperties
+    name: BlobStorageFileLocatorProperties
+  - uid: azure-blob-storage.BlobStorageFolderLocator
+    name: BlobStorageFolderLocator
+  - uid: azure-blob-storage.BlobStorageFolderLocatorProperties
+    name: BlobStorageFolderLocatorProperties
+  - uid: azure-blob-storage.BlobStorageLocator
+    name: BlobStorageLocator
+  - uid: azure-blob-storage.BlobStorageLocatorProperties
+    name: BlobStorageLocatorProperties
+  - uid: azure-blob-storage.getFileLocator
+    name: getFileLocator(BlobStorageFolderLocator, string)
+  - uid: azure-blob-storage.getFilePath
+    name: getFilePath(BlobStorageFolderLocator, string)
+  - uid: azure-blob-storage.BlobStorageFileProxy
+    name: BlobStorageFileProxy
+  - uid: azure-blob-storage.BlobStorageFolderProxy
+    name: BlobStorageFolderProxy
+  - uid: azure-blob-storage.BlobStorageProxy
+    name: BlobStorageProxy
+  - uid: azure-blob-storage.BlobStorageFileProxy
+    name: BlobStorageFileProxy
+  - uid: azure-blob-storage.BlobStorageFolderProxy
+    name: BlobStorageFolderProxy
+  - uid: azure-blob-storage.BlobStorageProxy
+    name: BlobStorageProxy
+  - uid: azure-blob-storage.getBlobClient
+    name: getBlobClient(string)
+  - uid: azure-blob-storage.getBlobClient_1
+    name: getBlobClient(ConfigVariables, string)
+  - uid: azure-blob-storage.getFileProxy
+    name: getFileProxy(BlobStorageFileLocator, string)
+  - uid: azure-blob-storage.getFileProxy_1
+    name: getFileProxy(BlobStorageFileLocator, ConfigVariables)
+  - uid: azure-blob-storage.getFolderProxy
+    name: getFolderProxy(BlobStorageFolderLocator, string)
+  - uid: azure-blob-storage.getFolderProxy_1
+    name: getFolderProxy(BlobStorageFolderLocator, ConfigVariables)

@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: google-cloud-firestore.FirestoreMcmaDataConverter
+    name: FirestoreMcmaDataConverter
+    fullName: FirestoreMcmaDataConverter<TDocument>
+    children:
+      - google-cloud-firestore.FirestoreMcmaDataConverter.fromFirestore
+      - google-cloud-firestore.FirestoreMcmaDataConverter.toFirestore
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreMcmaDataConverter.fromFirestore
+    name: fromFirestore(DocumentData)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fromFirestore(documentData: DocumentData)'
+      parameters:
+        - id: documentData
+          type:
+            - DocumentData
+          description: ''
+      return:
+        type:
+          - TDocument
+        description: ''
+    package: google-cloud-firestore
+  - uid: google-cloud-firestore.FirestoreMcmaDataConverter.toFirestore
+    name: toFirestore(TDocument)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toFirestore(document: TDocument)'
+      parameters:
+        - id: document
+          type:
+            - TDocument
+          description: ''
+      return:
+        type:
+          - DocumentData
+        description: ''
+    package: google-cloud-firestore

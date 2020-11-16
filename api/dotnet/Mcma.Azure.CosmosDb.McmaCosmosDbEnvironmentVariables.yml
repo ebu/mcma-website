@@ -1,0 +1,522 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables
+  commentId: T:Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables
+  id: McmaCosmosDbEnvironmentVariables
+  parent: Mcma.Azure.CosmosDb
+  children:
+  - Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.DatabaseId
+  - Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Endpoint
+  - Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Key
+  - Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Region
+  langs:
+  - csharp
+  - vb
+  name: McmaCosmosDbEnvironmentVariables
+  nameWithType: McmaCosmosDbEnvironmentVariables
+  fullName: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables
+  type: Class
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/McmaCosmosDbEnvironmentVariables.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: McmaCosmosDbEnvironmentVariables
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/McmaCosmosDbEnvironmentVariables.cs
+    startLine: 4
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: public static class McmaCosmosDbEnvironmentVariables
+    content.vb: Public Module McmaCosmosDbEnvironmentVariables
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Endpoint
+  commentId: P:Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Endpoint
+  id: Endpoint
+  parent: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables
+  langs:
+  - csharp
+  - vb
+  name: Endpoint
+  nameWithType: McmaCosmosDbEnvironmentVariables.Endpoint
+  fullName: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Endpoint
+  type: Property
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/McmaCosmosDbEnvironmentVariables.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Endpoint
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/McmaCosmosDbEnvironmentVariables.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: public static string Endpoint { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Endpoint As String
+  overload: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Endpoint*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Key
+  commentId: P:Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Key
+  id: Key
+  parent: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: McmaCosmosDbEnvironmentVariables.Key
+  fullName: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Key
+  type: Property
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/McmaCosmosDbEnvironmentVariables.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Key
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/McmaCosmosDbEnvironmentVariables.cs
+    startLine: 9
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: public static string Key { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Key As String
+  overload: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Key*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.DatabaseId
+  commentId: P:Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.DatabaseId
+  id: DatabaseId
+  parent: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables
+  langs:
+  - csharp
+  - vb
+  name: DatabaseId
+  nameWithType: McmaCosmosDbEnvironmentVariables.DatabaseId
+  fullName: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.DatabaseId
+  type: Property
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/McmaCosmosDbEnvironmentVariables.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: DatabaseId
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/McmaCosmosDbEnvironmentVariables.cs
+    startLine: 10
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: public static string DatabaseId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DatabaseId As String
+  overload: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.DatabaseId*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Region
+  commentId: P:Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Region
+  id: Region
+  parent: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables
+  langs:
+  - csharp
+  - vb
+  name: Region
+  nameWithType: McmaCosmosDbEnvironmentVariables.Region
+  fullName: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Region
+  type: Property
+  source:
+    remote:
+      path: Azure/Mcma.Azure.CosmosDb/McmaCosmosDbEnvironmentVariables.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: Region
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.CosmosDb/McmaCosmosDbEnvironmentVariables.cs
+    startLine: 11
+  assemblies:
+  - Mcma.Azure.CosmosDb
+  namespace: Mcma.Azure.CosmosDb
+  syntax:
+    content: public static string Region { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Region As String
+  overload: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Region*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: Mcma.Azure.CosmosDb
+  commentId: N:Mcma.Azure.CosmosDb
+  name: Mcma.Azure.CosmosDb
+  nameWithType: Mcma.Azure.CosmosDb
+  fullName: Mcma.Azure.CosmosDb
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Endpoint*
+  commentId: Overload:Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Endpoint
+  name: Endpoint
+  nameWithType: McmaCosmosDbEnvironmentVariables.Endpoint
+  fullName: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Endpoint
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Key*
+  commentId: Overload:Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Key
+  name: Key
+  nameWithType: McmaCosmosDbEnvironmentVariables.Key
+  fullName: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Key
+- uid: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.DatabaseId*
+  commentId: Overload:Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.DatabaseId
+  name: DatabaseId
+  nameWithType: McmaCosmosDbEnvironmentVariables.DatabaseId
+  fullName: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.DatabaseId
+- uid: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Region*
+  commentId: Overload:Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Region
+  name: Region
+  nameWithType: McmaCosmosDbEnvironmentVariables.Region
+  fullName: Mcma.Azure.CosmosDb.McmaCosmosDbEnvironmentVariables.Region

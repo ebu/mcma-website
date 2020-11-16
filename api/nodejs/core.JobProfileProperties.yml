@@ -1,0 +1,180 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.JobProfileProperties
+    name: JobProfileProperties
+    fullName: JobProfileProperties
+    children:
+      - core.JobProfileProperties.@type
+      - core.JobProfileProperties.custom
+      - core.JobProfileProperties.dateCreated
+      - core.JobProfileProperties.dateModified
+      - core.JobProfileProperties.id
+      - core.JobProfileProperties.inputParameters
+      - core.JobProfileProperties.name
+      - core.JobProfileProperties.optionalInputParameters
+      - core.JobProfileProperties.outputParameters
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: core.McmaResourceProperties
+    package: core
+  - uid: core.JobProfileProperties.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: '@type?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobProfileProperties.custom
+    name: custom
+    fullName: custom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'custom?: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: core
+  - uid: core.JobProfileProperties.dateCreated
+    name: dateCreated
+    fullName: dateCreated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateCreated?: Date | string'
+      return:
+        type:
+          - Date | string
+        description: ''
+    package: core
+  - uid: core.JobProfileProperties.dateModified
+    name: dateModified
+    fullName: dateModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dateModified?: Date | string'
+      return:
+        type:
+          - Date | string
+        description: ''
+    package: core
+  - uid: core.JobProfileProperties.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobProfileProperties.inputParameters
+    name: inputParameters
+    fullName: inputParameters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'inputParameters?: JobParameter[]'
+      return:
+        type:
+          - 'core.JobParameter[]'
+        description: ''
+    package: core
+  - uid: core.JobProfileProperties.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobProfileProperties.optionalInputParameters
+    name: optionalInputParameters
+    fullName: optionalInputParameters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'optionalInputParameters?: JobParameter[]'
+      return:
+        type:
+          - 'core.JobParameter[]'
+        description: ''
+    package: core
+  - uid: core.JobProfileProperties.outputParameters
+    name: outputParameters
+    fullName: outputParameters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'outputParameters?: JobParameter[]'
+      return:
+        type:
+          - 'core.JobParameter[]'
+        description: ''
+    package: core
+references:
+  - uid: core.McmaResourceProperties
+    name: McmaResourceProperties
+    spec.typeScript:
+      - name: McmaResourceProperties
+        fullName: McmaResourceProperties
+        uid: core.McmaResourceProperties
+  - uid: 'core.JobParameter[]'
+    name: 'JobParameter[]'
+    spec.typeScript:
+      - name: JobParameter
+        fullName: JobParameter
+        uid: core.JobParameter
+      - name: '[]'
+        fullName: '[]'

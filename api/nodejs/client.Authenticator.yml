@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: client.Authenticator
+    name: Authenticator
+    fullName: Authenticator
+    children:
+      - client.Authenticator.sign
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: client
+  - uid: client.Authenticator.sign
+    name: sign(HttpRequestConfig)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function sign(config: HttpRequestConfig)'
+      parameters:
+        - id: config
+          type:
+            - client.HttpRequestConfig
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: client
+references:
+  - uid: client.HttpRequestConfig
+    name: HttpRequestConfig
+    spec.typeScript:
+      - name: HttpRequestConfig
+        fullName: HttpRequestConfig
+        uid: client.HttpRequestConfig

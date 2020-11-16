@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions
+  commentId: T:Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions
+  id: AppInsightsLoggerProviderServiceCollectionExtensions
+  parent: Mcma.Azure.Logger
+  children:
+  - Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Mcma.Azure.Logger.AppInsightsLoggerProviderOptions})
+  - Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)
+  langs:
+  - csharp
+  - vb
+  name: AppInsightsLoggerProviderServiceCollectionExtensions
+  nameWithType: AppInsightsLoggerProviderServiceCollectionExtensions
+  fullName: Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions
+  type: Class
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Logger/AppInsightsLoggerProviderServiceCollectionExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AppInsightsLoggerProviderServiceCollectionExtensions
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Logger/AppInsightsLoggerProviderServiceCollectionExtensions.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Azure.Logger
+  namespace: Mcma.Azure.Logger
+  syntax:
+    content: 'public static class AppInsightsLoggerProviderServiceCollectionExtensions : object'
+    content.vb: >-
+      Public Module AppInsightsLoggerProviderServiceCollectionExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Mcma.Azure.Logger.AppInsightsLoggerProviderOptions})
+  commentId: M:Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Mcma.Azure.Logger.AppInsightsLoggerProviderOptions})
+  id: AddMcmaAppInsightsLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Mcma.Azure.Logger.AppInsightsLoggerProviderOptions})
+  isExtensionMethod: true
+  parent: Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddMcmaAppInsightsLogging(IServiceCollection, Action<AppInsightsLoggerProviderOptions>)
+  nameWithType: AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging(IServiceCollection, Action<AppInsightsLoggerProviderOptions>)
+  fullName: Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Mcma.Azure.Logger.AppInsightsLoggerProviderOptions>)
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Logger/AppInsightsLoggerProviderServiceCollectionExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AddMcmaAppInsightsLogging
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Logger/AppInsightsLoggerProviderServiceCollectionExtensions.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Azure.Logger
+  namespace: Mcma.Azure.Logger
+  syntax:
+    content: public static IServiceCollection AddMcmaAppInsightsLogging(this IServiceCollection services, Action<AppInsightsLoggerProviderOptions> configureOptions)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: configureOptions
+      type: System.Action{Mcma.Azure.Logger.AppInsightsLoggerProviderOptions}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddMcmaAppInsightsLogging(services As IServiceCollection, configureOptions As Action(Of AppInsightsLoggerProviderOptions)) As IServiceCollection
+  overload: Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging*
+  nameWithType.vb: AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging(IServiceCollection, Action(Of AppInsightsLoggerProviderOptions))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of Mcma.Azure.Logger.AppInsightsLoggerProviderOptions))
+  name.vb: AddMcmaAppInsightsLogging(IServiceCollection, Action(Of AppInsightsLoggerProviderOptions))
+- uid: Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)
+  commentId: M:Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)
+  id: AddMcmaAppInsightsLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)
+  isExtensionMethod: true
+  parent: Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddMcmaAppInsightsLogging(IServiceCollection, String)
+  nameWithType: AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging(IServiceCollection, String)
+  fullName: Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.String)
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Logger/AppInsightsLoggerProviderServiceCollectionExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AddMcmaAppInsightsLogging
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Logger/AppInsightsLoggerProviderServiceCollectionExtensions.cs
+    startLine: 14
+  assemblies:
+  - Mcma.Azure.Logger
+  namespace: Mcma.Azure.Logger
+  syntax:
+    content: public static IServiceCollection AddMcmaAppInsightsLogging(this IServiceCollection services, string source)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: source
+      type: System.String
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddMcmaAppInsightsLogging(services As IServiceCollection, source As String) As IServiceCollection
+  overload: Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Mcma.Azure.Logger
+  commentId: N:Mcma.Azure.Logger
+  name: Mcma.Azure.Logger
+  nameWithType: Mcma.Azure.Logger
+  fullName: Mcma.Azure.Logger
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging*
+  commentId: Overload:Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging
+  name: AddMcmaAppInsightsLogging
+  nameWithType: AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging
+  fullName: Mcma.Azure.Logger.AppInsightsLoggerProviderServiceCollectionExtensions.AddMcmaAppInsightsLogging
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: System.Action{Mcma.Azure.Logger.AppInsightsLoggerProviderOptions}
+  commentId: '!:System.Action{Mcma.Azure.Logger.AppInsightsLoggerProviderOptions}'
+  definition: System.Action`1
+  name: Action<AppInsightsLoggerProviderOptions>
+  nameWithType: Action<AppInsightsLoggerProviderOptions>
+  fullName: System.Action<Mcma.Azure.Logger.AppInsightsLoggerProviderOptions>
+  nameWithType.vb: Action(Of AppInsightsLoggerProviderOptions)
+  fullName.vb: System.Action(Of Mcma.Azure.Logger.AppInsightsLoggerProviderOptions)
+  name.vb: Action(Of AppInsightsLoggerProviderOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Azure.Logger.AppInsightsLoggerProviderOptions
+    name: AppInsightsLoggerProviderOptions
+    nameWithType: AppInsightsLoggerProviderOptions
+    fullName: Mcma.Azure.Logger.AppInsightsLoggerProviderOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Azure.Logger.AppInsightsLoggerProviderOptions
+    name: AppInsightsLoggerProviderOptions
+    nameWithType: AppInsightsLoggerProviderOptions
+    fullName: Mcma.Azure.Logger.AppInsightsLoggerProviderOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

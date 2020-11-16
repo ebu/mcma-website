@@ -1,0 +1,77 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-client.AzureFunctionKeyAuthenticator
+    name: AzureFunctionKeyAuthenticator
+    fullName: AzureFunctionKeyAuthenticator
+    children:
+      - azure-client.AzureFunctionKeyAuthenticator.constructor
+      - azure-client.AzureFunctionKeyAuthenticator.functionKey
+      - azure-client.AzureFunctionKeyAuthenticator.sign
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: azure-client
+  - uid: azure-client.AzureFunctionKeyAuthenticator.constructor
+    name: 'AzureFunctionKeyAuthenticator(AzureFunctionKeyAuthContext, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new AzureFunctionKeyAuthenticator(authContext:
+        AzureFunctionKeyAuthContext, decryptionKey?: string)
+      parameters:
+        - id: authContext
+          type:
+            - azure-client.AzureFunctionKeyAuthContext
+          description: ''
+        - id: decryptionKey
+          type:
+            - string
+          description: ''
+          optional: true
+    package: azure-client
+  - uid: azure-client.AzureFunctionKeyAuthenticator.functionKey
+    name: functionKey
+    fullName: functionKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string functionKey
+      return:
+        type:
+          - string
+        description: ''
+    package: azure-client
+  - uid: azure-client.AzureFunctionKeyAuthenticator.sign
+    name: sign(HttpRequestConfig)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function sign(config: HttpRequestConfig)'
+      parameters:
+        - id: config
+          type:
+            - HttpRequestConfig
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: azure-client
+references:
+  - uid: azure-client.AzureFunctionKeyAuthContext
+    name: AzureFunctionKeyAuthContext
+    spec.typeScript:
+      - name: AzureFunctionKeyAuthContext
+        fullName: AzureFunctionKeyAuthContext
+        uid: azure-client.AzureFunctionKeyAuthContext

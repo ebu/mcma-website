@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-lambda-worker-invoker
+    name: "@mcma/aws-lambda-worker-invoker"
+    summary: ""
+    children:
+      - aws-lambda-worker-invoker.LambdaWorkerInvoker
+      - aws-lambda-worker-invoker.invokeLambdaWorker
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: aws-lambda-worker-invoker.LambdaWorkerInvoker
+    name: LambdaWorkerInvoker
+  - uid: aws-lambda-worker-invoker.invokeLambdaWorker
+    name: invokeLambdaWorker(string, WorkerRequestProperties)

@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions
+  commentId: T:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions
+  id: AzureFunctionKeyAuthRegistryExtensions
+  parent: Mcma.Azure.Client.FunctionKeys
+  children:
+  - Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  - Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  langs:
+  - csharp
+  - vb
+  name: AzureFunctionKeyAuthRegistryExtensions
+  nameWithType: AzureFunctionKeyAuthRegistryExtensions
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions
+  type: Class
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthRegistryExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AzureFunctionKeyAuthRegistryExtensions
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthRegistryExtensions.cs
+    startLine: 6
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.FunctionKeys
+  syntax:
+    content: 'public static class AzureFunctionKeyAuthRegistryExtensions : object'
+    content.vb: >-
+      Public Module AzureFunctionKeyAuthRegistryExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  commentId: M:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  id: AddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  isExtensionMethod: true
+  parent: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddAzureFunctionKeyAuth(AuthenticatorRegistry, Action<AzureFunctionKeyAuthenticatorOptions>)
+  nameWithType: AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(AuthenticatorRegistry, Action<AzureFunctionKeyAuthenticatorOptions>)
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry, System.Action<Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions>)
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthRegistryExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: AddAzureFunctionKeyAuth
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthRegistryExtensions.cs
+    startLine: 8
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.FunctionKeys
+  syntax:
+    content: public static AuthenticatorRegistry AddAzureFunctionKeyAuth(this AuthenticatorRegistry authenticatorRegistry, Action<AzureFunctionKeyAuthenticatorOptions> configureOptions = null)
+    parameters:
+    - id: authenticatorRegistry
+      type: Mcma.Client.AuthenticatorRegistry
+    - id: configureOptions
+      type: System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions}
+    return:
+      type: Mcma.Client.AuthenticatorRegistry
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddAzureFunctionKeyAuth(authenticatorRegistry As AuthenticatorRegistry, configureOptions As Action(Of AzureFunctionKeyAuthenticatorOptions) = Nothing) As AuthenticatorRegistry
+  overload: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth*
+  nameWithType.vb: AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(AuthenticatorRegistry, Action(Of AzureFunctionKeyAuthenticatorOptions))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry, System.Action(Of Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions))
+  name.vb: AddAzureFunctionKeyAuth(AuthenticatorRegistry, Action(Of AzureFunctionKeyAuthenticatorOptions))
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  commentId: M:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  id: TryAddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry,System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions})
+  isExtensionMethod: true
+  parent: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryAddAzureFunctionKeyAuth(AuthenticatorRegistry, Action<AzureFunctionKeyAuthenticatorOptions>)
+  nameWithType: AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(AuthenticatorRegistry, Action<AzureFunctionKeyAuthenticatorOptions>)
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry, System.Action<Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions>)
+  type: Method
+  source:
+    remote:
+      path: Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthRegistryExtensions.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: TryAddAzureFunctionKeyAuth
+    path: ../mcma-libraries-dotnet/Azure/Mcma.Azure.Client/FunctionKeys/AzureFunctionKeyAuthRegistryExtensions.cs
+    startLine: 17
+  assemblies:
+  - Mcma.Azure.Client
+  namespace: Mcma.Azure.Client.FunctionKeys
+  syntax:
+    content: public static AuthenticatorRegistry TryAddAzureFunctionKeyAuth(this AuthenticatorRegistry authenticatorRegistry, Action<AzureFunctionKeyAuthenticatorOptions> configureOptions = null)
+    parameters:
+    - id: authenticatorRegistry
+      type: Mcma.Client.AuthenticatorRegistry
+    - id: configureOptions
+      type: System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions}
+    return:
+      type: Mcma.Client.AuthenticatorRegistry
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryAddAzureFunctionKeyAuth(authenticatorRegistry As AuthenticatorRegistry, configureOptions As Action(Of AzureFunctionKeyAuthenticatorOptions) = Nothing) As AuthenticatorRegistry
+  overload: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth*
+  nameWithType.vb: AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(AuthenticatorRegistry, Action(Of AzureFunctionKeyAuthenticatorOptions))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth(Mcma.Client.AuthenticatorRegistry, System.Action(Of Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions))
+  name.vb: TryAddAzureFunctionKeyAuth(AuthenticatorRegistry, Action(Of AzureFunctionKeyAuthenticatorOptions))
+references:
+- uid: Mcma.Azure.Client.FunctionKeys
+  commentId: N:Mcma.Azure.Client.FunctionKeys
+  name: Mcma.Azure.Client.FunctionKeys
+  nameWithType: Mcma.Azure.Client.FunctionKeys
+  fullName: Mcma.Azure.Client.FunctionKeys
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth*
+  commentId: Overload:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth
+  name: AddAzureFunctionKeyAuth
+  nameWithType: AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.AddAzureFunctionKeyAuth
+- uid: Mcma.Client.AuthenticatorRegistry
+  commentId: T:Mcma.Client.AuthenticatorRegistry
+  parent: Mcma.Client
+  name: AuthenticatorRegistry
+  nameWithType: AuthenticatorRegistry
+  fullName: Mcma.Client.AuthenticatorRegistry
+- uid: System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions}
+  commentId: '!:System.Action{Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions}'
+  definition: System.Action`1
+  name: Action<AzureFunctionKeyAuthenticatorOptions>
+  nameWithType: Action<AzureFunctionKeyAuthenticatorOptions>
+  fullName: System.Action<Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions>
+  nameWithType.vb: Action(Of AzureFunctionKeyAuthenticatorOptions)
+  fullName.vb: System.Action(Of Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions)
+  name.vb: Action(Of AzureFunctionKeyAuthenticatorOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+    name: AzureFunctionKeyAuthenticatorOptions
+    nameWithType: AzureFunctionKeyAuthenticatorOptions
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+    name: AzureFunctionKeyAuthenticatorOptions
+    nameWithType: AzureFunctionKeyAuthenticatorOptions
+    fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthenticatorOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Client
+  commentId: N:Mcma.Client
+  name: Mcma.Client
+  nameWithType: Mcma.Client
+  fullName: Mcma.Client
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth*
+  commentId: Overload:Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth
+  name: TryAddAzureFunctionKeyAuth
+  nameWithType: AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth
+  fullName: Mcma.Azure.Client.FunctionKeys.AzureFunctionKeyAuthRegistryExtensions.TryAddAzureFunctionKeyAuth

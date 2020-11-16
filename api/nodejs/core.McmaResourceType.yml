@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.McmaResourceType
+    name: McmaResourceType
+    fullName: McmaResourceType<T>
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type McmaResourceType<T> = string | McmaResourceConstructor<T>
+    package: core

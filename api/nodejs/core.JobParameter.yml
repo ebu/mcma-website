@@ -1,0 +1,90 @@
+### YamlMime:UniversalReference
+items:
+  - uid: core.JobParameter
+    name: JobParameter
+    fullName: JobParameter
+    children:
+      - core.JobParameter.@type
+      - core.JobParameter.constructor
+      - core.JobParameter.parameterName
+      - core.JobParameter.parameterType
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: core.McmaObject
+    package: core
+  - uid: core.JobParameter.@type
+    name: '@type'
+    fullName: '@type'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '@type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobParameter.constructor
+    name: JobParameter(JobParameterProperties)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new JobParameter(properties: JobParameterProperties)'
+      parameters:
+        - id: properties
+          type:
+            - core.JobParameterProperties
+          description: ''
+    package: core
+  - uid: core.JobParameter.parameterName
+    name: parameterName
+    fullName: parameterName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'parameterName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+  - uid: core.JobParameter.parameterType
+    name: parameterType
+    fullName: parameterType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'parameterType: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: core
+references:
+  - uid: core.McmaObject
+    name: McmaObject
+    spec.typeScript:
+      - name: McmaObject
+        fullName: McmaObject
+        uid: core.McmaObject
+  - uid: core.JobParameterProperties
+    name: JobParameterProperties
+    spec.typeScript:
+      - name: JobParameterProperties
+        fullName: JobParameterProperties
+        uid: core.JobParameterProperties

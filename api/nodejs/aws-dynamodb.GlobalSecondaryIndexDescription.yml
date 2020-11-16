@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: aws-dynamodb.GlobalSecondaryIndexDescription
+    name: GlobalSecondaryIndexDescription
+    fullName: GlobalSecondaryIndexDescription
+    children:
+      - aws-dynamodb.GlobalSecondaryIndexDescription.keyNames
+      - aws-dynamodb.GlobalSecondaryIndexDescription.name
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.GlobalSecondaryIndexDescription.keyNames
+    name: keyNames
+    fullName: keyNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'keyNames: KeyNames'
+      return:
+        type:
+          - aws-dynamodb.KeyNames
+        description: ''
+    package: aws-dynamodb
+  - uid: aws-dynamodb.GlobalSecondaryIndexDescription.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: aws-dynamodb
+references:
+  - uid: aws-dynamodb.KeyNames
+    name: KeyNames
+    spec.typeScript:
+      - name: KeyNames
+        fullName: KeyNames
+        uid: aws-dynamodb.KeyNames

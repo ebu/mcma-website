@@ -1,0 +1,304 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+  commentId: T:Mcma.Client.AccessTokens.IBearerTokenProvider`1
+  id: IBearerTokenProvider`1
+  parent: Mcma.Client.AccessTokens
+  children:
+  - Mcma.Client.AccessTokens.IBearerTokenProvider`1.GetAsync(`0,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IBearerTokenProvider<TAuthContext>
+  nameWithType: IBearerTokenProvider<TAuthContext>
+  fullName: Mcma.Client.AccessTokens.IBearerTokenProvider<TAuthContext>
+  type: Interface
+  source:
+    remote:
+      path: Base/Mcma.Client/Auth/AccessTokens/IBearerTokenProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: IBearerTokenProvider
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Auth/AccessTokens/IBearerTokenProvider.cs
+    startLine: 5
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client.AccessTokens
+  syntax:
+    content: public interface IBearerTokenProvider<in TAuthContext>
+    typeParameters:
+    - id: TAuthContext
+    content.vb: Public Interface IBearerTokenProvider(Of In TAuthContext)
+  extensionMethods:
+  - System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  nameWithType.vb: IBearerTokenProvider(Of TAuthContext)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: Mcma.Client.AccessTokens.IBearerTokenProvider(Of TAuthContext)
+  name.vb: IBearerTokenProvider(Of TAuthContext)
+- uid: Mcma.Client.AccessTokens.IBearerTokenProvider`1.GetAsync(`0,System.Threading.CancellationToken)
+  commentId: M:Mcma.Client.AccessTokens.IBearerTokenProvider`1.GetAsync(`0,System.Threading.CancellationToken)
+  id: GetAsync(`0,System.Threading.CancellationToken)
+  parent: Mcma.Client.AccessTokens.IBearerTokenProvider`1
+  langs:
+  - csharp
+  - vb
+  name: GetAsync(TAuthContext, CancellationToken)
+  nameWithType: IBearerTokenProvider<TAuthContext>.GetAsync(TAuthContext, CancellationToken)
+  fullName: Mcma.Client.AccessTokens.IBearerTokenProvider<TAuthContext>.GetAsync(TAuthContext, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: Base/Mcma.Client/Auth/AccessTokens/IBearerTokenProvider.cs
+      branch: documentation
+      repo: https://github.com/ebu/mcma-libraries-dotnet.git
+    id: GetAsync
+    path: ../mcma-libraries-dotnet/Base/Mcma.Client/Auth/AccessTokens/IBearerTokenProvider.cs
+    startLine: 7
+  assemblies:
+  - Mcma.Client
+  namespace: Mcma.Client.AccessTokens
+  syntax:
+    content: Task<BearerToken> GetAsync(TAuthContext authContext, CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: authContext
+      type: '{TAuthContext}'
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{Mcma.Client.AccessTokens.BearerToken}
+    content.vb: Function GetAsync(authContext As TAuthContext, cancellationToken As CancellationToken = Nothing) As Task(Of BearerToken)
+  overload: Mcma.Client.AccessTokens.IBearerTokenProvider`1.GetAsync*
+  nameWithType.vb: IBearerTokenProvider(Of TAuthContext).GetAsync(TAuthContext, CancellationToken)
+  fullName.vb: Mcma.Client.AccessTokens.IBearerTokenProvider(Of TAuthContext).GetAsync(TAuthContext, System.Threading.CancellationToken)
+references:
+- uid: Mcma.Client.AccessTokens
+  commentId: N:Mcma.Client.AccessTokens
+  name: Mcma.Client.AccessTokens
+  nameWithType: Mcma.Client.AccessTokens
+  fullName: Mcma.Client.AccessTokens
+- uid: System.Object.Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  parent: Mcma.Serialization.McmaJson
+  definition: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  name: ToMcmaJson(Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  commentId: M:Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+  isExternal: true
+  name: ToMcmaJson(Object, Boolean)
+  nameWithType: McmaJson.ToMcmaJson(Object, Boolean)
+  fullName: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object, System.Boolean)
+  spec.csharp:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mcma.Serialization.McmaJson.ToMcmaJson(System.Object,System.Boolean)
+    name: ToMcmaJson
+    nameWithType: McmaJson.ToMcmaJson
+    fullName: Mcma.Serialization.McmaJson.ToMcmaJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mcma.Serialization.McmaJson
+  commentId: T:Mcma.Serialization.McmaJson
+  parent: Mcma.Serialization
+  name: McmaJson
+  nameWithType: McmaJson
+  fullName: Mcma.Serialization.McmaJson
+- uid: Mcma.Serialization
+  commentId: N:Mcma.Serialization
+  name: Mcma.Serialization
+  nameWithType: Mcma.Serialization
+  fullName: Mcma.Serialization
+- uid: Mcma.Client.AccessTokens.IBearerTokenProvider`1.GetAsync*
+  commentId: Overload:Mcma.Client.AccessTokens.IBearerTokenProvider`1.GetAsync
+  name: GetAsync
+  nameWithType: IBearerTokenProvider<TAuthContext>.GetAsync
+  fullName: Mcma.Client.AccessTokens.IBearerTokenProvider<TAuthContext>.GetAsync
+  nameWithType.vb: IBearerTokenProvider(Of TAuthContext).GetAsync
+  fullName.vb: Mcma.Client.AccessTokens.IBearerTokenProvider(Of TAuthContext).GetAsync
+- uid: '{TAuthContext}'
+  commentId: '!:TAuthContext'
+  definition: TAuthContext
+  name: TAuthContext
+  nameWithType: TAuthContext
+  fullName: TAuthContext
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{Mcma.Client.AccessTokens.BearerToken}
+  commentId: T:System.Threading.Tasks.Task{Mcma.Client.AccessTokens.BearerToken}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<BearerToken>
+  nameWithType: Task<BearerToken>
+  fullName: System.Threading.Tasks.Task<Mcma.Client.AccessTokens.BearerToken>
+  nameWithType.vb: Task(Of BearerToken)
+  fullName.vb: System.Threading.Tasks.Task(Of Mcma.Client.AccessTokens.BearerToken)
+  name.vb: Task(Of BearerToken)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mcma.Client.AccessTokens.BearerToken
+    name: BearerToken
+    nameWithType: BearerToken
+    fullName: Mcma.Client.AccessTokens.BearerToken
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mcma.Client.AccessTokens.BearerToken
+    name: BearerToken
+    nameWithType: BearerToken
+    fullName: Mcma.Client.AccessTokens.BearerToken
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TAuthContext
+  name: TAuthContext
+  nameWithType: TAuthContext
+  fullName: TAuthContext
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
