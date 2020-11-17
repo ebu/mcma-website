@@ -31,7 +31,6 @@ items:
     - id: TDoc
     content.vb: >-
       Public Class FilterCriteriaGroup(Of TDoc)
-
           Implements IFilterExpression(Of TDoc)
   inheritance:
   - System.Object

@@ -153,7 +153,6 @@ items:
   syntax:
     content: >-
       public McmaApiBuilder AddRoute<T>()
-
           where T : class, IMcmaApiRoute
     typeParameters:
     - id: T
@@ -308,7 +307,6 @@ items:
   syntax:
     content: >-
       public McmaApiBuilder AddRouteCollection<T>()
-
           where T : class, IMcmaApiRouteCollection
     typeParameters:
     - id: T

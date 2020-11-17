@@ -176,7 +176,6 @@ items:
   syntax:
     content: >-
       public FirestoreTableBuilder AddCustomQueryBuilder<TParameters, TCustomQueryBuilder>()
-
           where TCustomQueryBuilder : class, ICustomQueryBuilder<TParameters, Query>
     typeParameters:
     - id: TParameters

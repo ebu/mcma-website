@@ -30,9 +30,7 @@ items:
     content: 'public class AzureManagedIdentityBearerTokenProvider : object, IBearerTokenProvider<AzureADAuthContext>, IDisposable'
     content.vb: >-
       Public Class AzureManagedIdentityBearerTokenProvider
-
           Inherits Object
-
           Implements IBearerTokenProvider(Of AzureADAuthContext), IDisposable
   inheritance:
   - System.Object

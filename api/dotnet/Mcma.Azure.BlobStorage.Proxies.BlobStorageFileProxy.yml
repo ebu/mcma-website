@@ -31,7 +31,6 @@ items:
     content: 'public class BlobStorageFileProxy : BlobStorageProxy<BlobStorageFileLocator>'
     content.vb: >-
       Public Class BlobStorageFileProxy
-
           Inherits BlobStorageProxy(Of BlobStorageFileLocator)
   inheritance:
   - System.Object

@@ -29,7 +29,6 @@ items:
     - id: TResource
     content.vb: >-
       Public Interface IDefaultDeleteRoute(Of TResource As McmaResource)
-
           Inherits IMcmaApiRoute
   inheritedMembers:
   - Mcma.Api.Routes.IMcmaApiRoute.HttpMethod

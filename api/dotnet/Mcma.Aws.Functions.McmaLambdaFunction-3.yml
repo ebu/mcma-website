@@ -29,7 +29,6 @@ items:
   syntax:
     content: >-
       public abstract class McmaLambdaFunction<TFunctionHandler, TInput, TOutput>
-
           where TFunctionHandler : class, IMcmaLambdaFunctionHandler<TInput, TOutput>
     typeParameters:
     - id: TFunctionHandler

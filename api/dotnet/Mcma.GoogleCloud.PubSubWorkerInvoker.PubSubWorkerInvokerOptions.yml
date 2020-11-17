@@ -30,7 +30,6 @@ items:
     content: 'public class PubSubWorkerInvokerOptions : WorkerInvokerOptions'
     content.vb: >-
       Public Class PubSubWorkerInvokerOptions
-
           Inherits WorkerInvokerOptions
   inheritance:
   - System.Object

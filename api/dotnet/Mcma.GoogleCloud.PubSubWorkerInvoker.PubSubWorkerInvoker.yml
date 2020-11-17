@@ -29,9 +29,7 @@ items:
     content: 'public class PubSubWorkerInvoker : WorkerInvoker, IWorkerInvoker'
     content.vb: >-
       Public Class PubSubWorkerInvoker
-
           Inherits WorkerInvoker
-
           Implements IWorkerInvoker
   inheritance:
   - System.Object

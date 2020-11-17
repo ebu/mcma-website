@@ -28,7 +28,6 @@ items:
     content: 'public static class AzureFunctionsApiServiceCollectionExtensions : object'
     content.vb: >-
       Public Module AzureFunctionsApiServiceCollectionExtensions
-
           Inherits Object
   inheritance:
   - System.Object

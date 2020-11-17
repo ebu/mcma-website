@@ -29,9 +29,7 @@ items:
     content: 'public class McmaApiActionResult : ActionResult, IActionResult'
     content.vb: >-
       Public Class McmaApiActionResult
-
           Inherits ActionResult
-
           Implements IActionResult
   inheritance:
   - System.Object

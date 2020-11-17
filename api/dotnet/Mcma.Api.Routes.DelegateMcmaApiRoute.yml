@@ -29,9 +29,7 @@ items:
     content: 'public class DelegateMcmaApiRoute : McmaApiRoute, IMcmaApiRoute'
     content.vb: >-
       Public Class DelegateMcmaApiRoute
-
           Inherits McmaApiRoute
-
           Implements IMcmaApiRoute
   inheritance:
   - System.Object

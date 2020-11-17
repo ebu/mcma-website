@@ -32,7 +32,6 @@ items:
     content: 'public class McmaObjectConverter : JsonConverter'
     content.vb: >-
       Public Class McmaObjectConverter
-
           Inherits JsonConverter
   inheritance:
   - System.Object

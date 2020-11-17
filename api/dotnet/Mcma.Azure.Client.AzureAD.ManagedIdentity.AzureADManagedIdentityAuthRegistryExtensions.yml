@@ -29,7 +29,6 @@ items:
     content: 'public static class AzureADManagedIdentityAuthRegistryExtensions : object'
     content.vb: >-
       Public Module AzureADManagedIdentityAuthRegistryExtensions
-
           Inherits Object
   inheritance:
   - System.Object

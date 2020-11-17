@@ -28,7 +28,6 @@ items:
     content: 'public class AzureFunctionKeyAuthenticatorOptions : object'
     content.vb: >-
       Public Class AzureFunctionKeyAuthenticatorOptions
-
           Inherits Object
   inheritance:
   - System.Object

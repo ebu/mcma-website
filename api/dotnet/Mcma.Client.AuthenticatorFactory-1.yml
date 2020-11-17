@@ -33,7 +33,6 @@ items:
     - id: TAuthContext
     content.vb: >-
       Public MustInherit Class AuthenticatorFactory(Of TAuthContext)
-
           Implements IAuthenticatorFactory
   inheritance:
   - System.Object

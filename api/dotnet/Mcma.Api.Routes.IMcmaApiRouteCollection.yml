@@ -27,7 +27,6 @@ items:
     content: 'public interface IMcmaApiRouteCollection : IEnumerable<IMcmaApiRoute>, IEnumerable'
     content.vb: >-
       Public Interface IMcmaApiRouteCollection
-
           Inherits IEnumerable(Of IMcmaApiRoute)
   inheritedMembers:
   - System.Collections.Generic.IEnumerable{Mcma.Api.Routes.IMcmaApiRoute}.GetEnumerator

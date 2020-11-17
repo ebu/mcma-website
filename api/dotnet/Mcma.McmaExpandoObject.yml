@@ -52,7 +52,6 @@ items:
     content: 'public class McmaExpandoObject : IDictionary<string, object>, ICollection<KeyValuePair<string, object>>, IEnumerable<KeyValuePair<string, object>>, IEnumerable, IDynamicMetaObjectProvider'
     content.vb: >-
       Public Class McmaExpandoObject
-
           Implements IDictionary(Of String, Object), ICollection(Of KeyValuePair(Of String, Object)), IEnumerable(Of KeyValuePair(Of String, Object)), IEnumerable, IDynamicMetaObjectProvider
   inheritance:
   - System.Object
@@ -247,7 +246,6 @@ items:
   syntax:
     content: >-
       public T GetOrAdd<T>(string key, bool caseSensitive = true)
-
           where T : new()
     parameters:
     - id: key

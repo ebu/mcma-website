@@ -119,7 +119,6 @@ items:
   syntax:
     content: >-
       public AuthenticatorRegistry Add<TAuthContext, TAuthHandlerFactory>(string authType)
-
           where TAuthHandlerFactory : AuthenticatorFactory<TAuthContext>
     parameters:
     - id: authType
@@ -163,7 +162,6 @@ items:
   syntax:
     content: >-
       public AuthenticatorRegistry TryAdd<TAuthContext, TAuthHandlerFactory>(string authType)
-
           where TAuthHandlerFactory : AuthenticatorFactory<TAuthContext>
     parameters:
     - id: authType

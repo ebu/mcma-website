@@ -32,9 +32,7 @@ items:
     content: 'public class DynamoDbMutex : DocumentDatabaseMutex, IDocumentDatabaseMutex'
     content.vb: >-
       Public Class DynamoDbMutex
-
           Inherits DocumentDatabaseMutex
-
           Implements IDocumentDatabaseMutex
   inheritance:
   - System.Object

@@ -29,7 +29,6 @@ items:
     content: 'public class CosmosDbCustomQueryBuilderRegistry : ICustomQueryBuilderRegistry<(QueryDefinition, QueryRequestOptions)>'
     content.vb: >-
       Public Class CosmosDbCustomQueryBuilderRegistry
-
           Implements ICustomQueryBuilderRegistry(Of(QueryDefinition, QueryRequestOptions))
   inheritance:
   - System.Object

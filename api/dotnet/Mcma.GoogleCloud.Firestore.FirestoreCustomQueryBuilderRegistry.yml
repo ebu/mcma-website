@@ -29,7 +29,6 @@ items:
     content: 'public class FirestoreCustomQueryBuilderRegistry : ICustomQueryBuilderRegistry<(Query, string)>'
     content.vb: >-
       Public Class FirestoreCustomQueryBuilderRegistry
-
           Implements ICustomQueryBuilderRegistry(Of(Query, String))
   inheritance:
   - System.Object

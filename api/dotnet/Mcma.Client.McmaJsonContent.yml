@@ -28,9 +28,7 @@ items:
     content: 'public class McmaJsonContent : StringContent, IDisposable'
     content.vb: >-
       Public Class McmaJsonContent
-
           Inherits StringContent
-
           Implements IDisposable
   inheritance:
   - System.Object

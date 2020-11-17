@@ -29,9 +29,7 @@ items:
     content: 'public class AzureFunctionApiController : object, IAzureFunctionApiController'
     content.vb: >-
       Public Class AzureFunctionApiController
-
           Inherits Object
-
           Implements IAzureFunctionApiController
   inheritance:
   - System.Object

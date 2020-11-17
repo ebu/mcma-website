@@ -30,9 +30,7 @@ items:
     content: 'public abstract class AwsS3Locator : Locator, IDictionary<string, object>, ICollection<KeyValuePair<string, object>>, IEnumerable<KeyValuePair<string, object>>, IEnumerable, IDynamicMetaObjectProvider, IUrlLocator'
     content.vb: >-
       Public MustInherit Class AwsS3Locator
-
           Inherits Locator
-
           Implements IDictionary(Of String, Object), ICollection(Of KeyValuePair(Of String, Object)), IEnumerable(Of KeyValuePair(Of String, Object)), IEnumerable, IDynamicMetaObjectProvider, IUrlLocator
   inheritance:
   - System.Object

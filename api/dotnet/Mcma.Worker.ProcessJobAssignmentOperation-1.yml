@@ -33,9 +33,7 @@ items:
     - id: TJob
     content.vb: >-
       Public Class ProcessJobAssignmentOperation(Of TJob As Job)
-
           Inherits McmaWorkerOperation(Of ProcessJobAssignmentRequest)
-
           Implements IMcmaWorkerOperation
   inheritance:
   - System.Object

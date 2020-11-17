@@ -33,7 +33,6 @@ items:
     - id: TResource
     content.vb: >-
       Public Class AttributeMapping(Of TResource)
-
           Implements IAttributeMapping
   inheritance:
   - System.Object

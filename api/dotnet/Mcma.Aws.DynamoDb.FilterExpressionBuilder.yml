@@ -28,7 +28,6 @@ items:
     content: 'public class FilterExpressionBuilder : IFilterExpressionBuilder'
     content.vb: >-
       Public Class FilterExpressionBuilder
-
           Implements IFilterExpressionBuilder
   inheritance:
   - System.Object

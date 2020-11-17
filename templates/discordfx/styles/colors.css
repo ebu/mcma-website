@@ -19,7 +19,7 @@
     --h5-color: #ffffffd1;
     
     /* Topbar */
-    --topbar-bg-color: #18191c;
+    --topbar-bg-color: #282a2f;
     
     /* Button */
     --button-color: #747f8d;
@@ -72,4 +72,6 @@
     
     /* Text Input */
     --text-input-bg-color: #434851;
+
+    --sidebar-width: 410px;
 }

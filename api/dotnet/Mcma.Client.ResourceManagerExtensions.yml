@@ -73,7 +73,6 @@ items:
   syntax:
     content: >-
       public static Task<T> ResolveResourceFromFullUrl<T>(this IResourceManager resourceManager, string url)
-
           where T : McmaResource
     parameters:
     - id: resourceManager
@@ -124,7 +123,6 @@ items:
   syntax:
     content: >-
       public static Task<T> UpdateAsync<T>(this IResourceManager resourceManager, T resource, CancellationToken cancellationToken = default(CancellationToken))
-
           where T : McmaResource
     parameters:
     - id: resourceManager
@@ -177,7 +175,6 @@ items:
   syntax:
     content: >-
       public static Task SendNotificationAsync<T>(this IResourceManager resourceManager, T resource, NotificationEndpoint notificationEndpoint, CancellationToken cancellationToken = default(CancellationToken))
-
           where T : McmaResource
     parameters:
     - id: resourceManager
@@ -232,7 +229,6 @@ items:
   syntax:
     content: >-
       public static Task SendJobNotificationAsync<T>(this IResourceManager resourceManager, T resource, NotificationEndpoint notificationEndpoint, CancellationToken cancellationToken = default(CancellationToken))
-
           where T : McmaResource, INotifiable
     parameters:
     - id: resourceManager

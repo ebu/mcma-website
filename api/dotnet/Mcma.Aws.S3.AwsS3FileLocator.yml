@@ -29,9 +29,7 @@ items:
     content: 'public class AwsS3FileLocator : AwsS3Locator, IDictionary<string, object>, ICollection<KeyValuePair<string, object>>, IEnumerable<KeyValuePair<string, object>>, IEnumerable, IDynamicMetaObjectProvider, IUrlLocator'
     content.vb: >-
       Public Class AwsS3FileLocator
-
           Inherits AwsS3Locator
-
           Implements IDictionary(Of String, Object), ICollection(Of KeyValuePair(Of String, Object)), IEnumerable(Of KeyValuePair(Of String, Object)), IEnumerable, IDynamicMetaObjectProvider, IUrlLocator
   inheritance:
   - System.Object

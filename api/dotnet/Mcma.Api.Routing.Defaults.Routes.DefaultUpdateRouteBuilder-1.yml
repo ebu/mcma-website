@@ -30,7 +30,6 @@ items:
   syntax:
     content: >-
       public class DefaultUpdateRouteBuilder<TResource>
-
           where TResource : McmaResource
     typeParameters:
     - id: TResource
@@ -81,7 +80,6 @@ items:
   syntax:
     content: >-
       public void HandleWith<TOverride>()
-
           where TOverride : class, IDefaultUpdateRoute<TResource>
     typeParameters:
     - id: TOverride
@@ -119,7 +117,6 @@ items:
   syntax:
     content: >-
       public DefaultUpdateRouteBuilder<TResource> AddRouteStartedHandler<TRouteStartedHandler>()
-
           where TRouteStartedHandler : class, IDefaultUpdateRouteStartedHandler<TResource>
     typeParameters:
     - id: TRouteStartedHandler
@@ -159,7 +156,6 @@ items:
   syntax:
     content: >-
       public DefaultUpdateRouteBuilder<TResource> AddRouteCompletedHandler<TRouteCompletedHandler>()
-
           where TRouteCompletedHandler : class, IDefaultUpdateRouteCompletedHandler<TResource>
     typeParameters:
     - id: TRouteCompletedHandler

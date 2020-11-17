@@ -28,7 +28,6 @@ items:
     content: 'public class MetadataService : IMetadataService'
     content.vb: >-
       Public Class MetadataService
-
           Implements IMetadataService
   inheritance:
   - System.Object

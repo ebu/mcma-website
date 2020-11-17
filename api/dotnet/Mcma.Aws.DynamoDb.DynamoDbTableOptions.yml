@@ -31,7 +31,6 @@ items:
     content: 'public class DynamoDbTableOptions : DocumentDatabaseTableOptions'
     content.vb: >-
       Public Class DynamoDbTableOptions
-
           Inherits DocumentDatabaseTableOptions
   inheritance:
   - System.Object

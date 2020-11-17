@@ -29,7 +29,6 @@ items:
     content: 'public class InvokeWorkerOnCreationCompleted : IDefaultCreateRouteCompletedHandler<JobAssignment>'
     content.vb: >-
       Public Class InvokeWorkerOnCreationCompleted
-
           Implements IDefaultCreateRouteCompletedHandler(Of JobAssignment)
   inheritance:
   - System.Object

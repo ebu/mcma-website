@@ -28,7 +28,6 @@ items:
     content: 'public class AppInsightsLoggerProviderOptions : LoggerProviderOptions'
     content.vb: >-
       Public Class AppInsightsLoggerProviderOptions
-
           Inherits LoggerProviderOptions
   inheritance:
   - System.Object

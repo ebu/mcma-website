@@ -30,9 +30,7 @@ items:
     content: 'public class CloudLoggingLoggerProvider : LoggerProvider<CloudLoggingLogger>, ILoggerProvider'
     content.vb: >-
       Public Class CloudLoggingLoggerProvider
-
           Inherits LoggerProvider(Of CloudLoggingLogger)
-
           Implements ILoggerProvider
   inheritance:
   - System.Object

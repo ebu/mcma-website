@@ -29,9 +29,7 @@ items:
     content: 'public class AzureADConfidentialClientBearerTokenProvider : object, IBearerTokenProvider<AzureADAuthContext>'
     content.vb: >-
       Public Class AzureADConfidentialClientBearerTokenProvider
-
           Inherits Object
-
           Implements IBearerTokenProvider(Of AzureADAuthContext)
   inheritance:
   - System.Object

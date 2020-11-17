@@ -30,7 +30,6 @@ items:
     content: 'public class LambdaWorkerInvokerOptions : WorkerInvokerOptions'
     content.vb: >-
       Public Class LambdaWorkerInvokerOptions
-
           Inherits WorkerInvokerOptions
   inheritance:
   - System.Object

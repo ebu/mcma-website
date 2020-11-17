@@ -30,7 +30,6 @@ items:
     content: 'public class CloudWatchLoggerProviderOptions : LoggerProviderOptions'
     content.vb: >-
       Public Class CloudWatchLoggerProviderOptions
-
           Inherits LoggerProviderOptions
   inheritance:
   - System.Object

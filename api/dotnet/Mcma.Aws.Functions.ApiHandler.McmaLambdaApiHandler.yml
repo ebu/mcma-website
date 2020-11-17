@@ -29,9 +29,7 @@ items:
     content: 'public class McmaLambdaApiHandler : object, IMcmaLambdaFunctionHandler<APIGatewayProxyRequest, APIGatewayProxyResponse>'
     content.vb: >-
       Public Class McmaLambdaApiHandler
-
           Inherits Object
-
           Implements IMcmaLambdaFunctionHandler(Of APIGatewayProxyRequest, APIGatewayProxyResponse)
   inheritance:
   - System.Object

@@ -29,9 +29,7 @@ items:
     content: 'public class LambdaWorkerInvoker : WorkerInvoker, IWorkerInvoker'
     content.vb: >-
       Public Class LambdaWorkerInvoker
-
           Inherits WorkerInvoker
-
           Implements IWorkerInvoker
   inheritance:
   - System.Object

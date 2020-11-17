@@ -30,7 +30,6 @@ items:
     content: 'public class ApiGatewayApiController : IApiGatewayApiController'
     content.vb: >-
       Public Class ApiGatewayApiController
-
           Implements IApiGatewayApiController
   inheritance:
   - System.Object

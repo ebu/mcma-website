@@ -29,9 +29,7 @@ items:
     content: 'public abstract class Locator : McmaObject, IDictionary<string, object>, ICollection<KeyValuePair<string, object>>, IEnumerable<KeyValuePair<string, object>>, IEnumerable, IDynamicMetaObjectProvider'
     content.vb: >-
       Public MustInherit Class Locator
-
           Inherits McmaObject
-
           Implements IDictionary(Of String, Object), ICollection(Of KeyValuePair(Of String, Object)), IEnumerable(Of KeyValuePair(Of String, Object)), IEnumerable, IDynamicMetaObjectProvider
   inheritance:
   - System.Object

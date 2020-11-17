@@ -45,7 +45,6 @@ items:
   syntax:
     content: >-
       public class ProcessJobAssignmentHelper<T>
-
           where T : Job
     typeParameters:
     - id: T

@@ -28,7 +28,6 @@ items:
     content: 'public class TableDescriptionProvider : ITableDescriptionProvider'
     content.vb: >-
       Public Class TableDescriptionProvider
-
           Implements ITableDescriptionProvider
   inheritance:
   - System.Object

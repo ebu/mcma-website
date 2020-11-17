@@ -65,7 +65,6 @@ items:
   syntax:
     content: >-
       Task<QueryResults<T>> QueryAsync<T>(Query<T> query)
-
           where T : class
     parameters:
     - id: query
@@ -104,7 +103,6 @@ items:
   syntax:
     content: >-
       Task<QueryResults<TResource>> CustomQueryAsync<TResource, TParameters>(CustomQuery<TParameters> customQuery)
-
           where TResource : class
     parameters:
     - id: customQuery
@@ -144,7 +142,6 @@ items:
   syntax:
     content: >-
       Task<T> GetAsync<T>(string id)
-
           where T : class
     parameters:
     - id: id
@@ -183,7 +180,6 @@ items:
   syntax:
     content: >-
       Task<T> PutAsync<T>(string id, T resource)
-
           where T : class
     parameters:
     - id: id

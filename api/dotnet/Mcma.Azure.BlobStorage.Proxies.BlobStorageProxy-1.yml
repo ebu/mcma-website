@@ -31,7 +31,6 @@ items:
   syntax:
     content: >-
       public abstract class BlobStorageProxy<T>
-
           where T : BlobStorageLocator
     typeParameters:
     - id: T

@@ -33,9 +33,7 @@ items:
     - id: TResource
     content.vb: >-
       Public Class DefaultCreateRoute(Of TResource As McmaResource)
-
           Inherits McmaApiRoute
-
           Implements IDefaultCreateRoute(Of TResource), IMcmaApiRoute
   inheritance:
   - System.Object

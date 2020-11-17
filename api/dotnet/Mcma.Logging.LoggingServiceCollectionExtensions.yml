@@ -73,7 +73,6 @@ items:
   syntax:
     content: >-
       public static IServiceCollection AddMcmaLogging<T>(this IServiceCollection services)
-
           where T : class, ILoggerProvider
     parameters:
     - id: services

@@ -32,7 +32,6 @@ items:
     content: 'public abstract class McmaApiHandlerStartup : FunctionsStartup'
     content.vb: >-
       Public MustInherit Class McmaApiHandlerStartup
-
           Inherits FunctionsStartup
   inheritance:
   - System.Object

@@ -29,7 +29,6 @@ items:
     content: 'public class AzureADAuthContext : object'
     content.vb: >-
       Public Class AzureADAuthContext
-
           Inherits Object
   inheritance:
   - System.Object

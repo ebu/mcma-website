@@ -29,9 +29,7 @@ items:
     content: 'public class QueueWorkerInvoker : WorkerInvoker, IWorkerInvoker'
     content.vb: >-
       Public Class QueueWorkerInvoker
-
           Inherits WorkerInvoker
-
           Implements IWorkerInvoker
   inheritance:
   - System.Object

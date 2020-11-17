@@ -31,9 +31,7 @@ items:
     content: 'public class ConsoleLogger : Logger, ILogger'
     content.vb: >-
       Public Class ConsoleLogger
-
           Inherits Logger
-
           Implements ILogger
   inheritance:
   - System.Object

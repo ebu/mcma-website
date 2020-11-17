@@ -32,9 +32,7 @@ items:
     content: 'public class FirestoreMutex : DocumentDatabaseMutex, IDocumentDatabaseMutex'
     content.vb: >-
       Public Class FirestoreMutex
-
           Inherits DocumentDatabaseMutex
-
           Implements IDocumentDatabaseMutex
   inheritance:
   - System.Object
