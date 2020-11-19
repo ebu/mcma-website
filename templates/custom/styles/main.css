@@ -1,0 +1,278 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--scrollbar-bg-color); 
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb-bg-color); 
+    border-color: var(--scrollbar-thumb-border-color);
+    border-radius: 5px;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    font: 15px/150% 'Segoe UI', sans-serif;
+    overflow: hidden;
+    color: var(--text-color);
+    background-color: var(--main-bg-color);
+}
+
+main {
+    width: 100%;
+    margin-top: 50px;
+    overflow: auto;
+}
+
+h1,h2,h3,h4,h5 {
+    color: var(--link-active-color);
+}
+
+h1, h2 {
+    margin-block-start: 2em;
+}
+
+h3 {
+    margin-block-start: 1em;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: var(--h3-color);
+    margin-block-start: 3em;
+}
+
+h4 {
+    opacity: 1;
+    color: var(--h4-color);
+    font-size: large;
+    border-bottom: 2px solid var(--separator-color);
+    margin: 20px 0 0 0;
+}
+
+
+h5 {
+    margin-block-end: .8em;
+    margin-block-start: 1em;
+    font-size: .85em;
+    font-weight: 500;
+    color: var(--h5-color);
+}
+
+h6 {
+    font-size: .75em;
+    margin: 0;
+}
+
+p {
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 1em;
+    position: relative;
+}
+
+ul.nav {
+    margin-left: 15px;
+}
+
+ul.level1 {
+    padding-inline-start: 0;
+}
+
+ul.level2, ul.level3 {
+    font-size: .9em;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color .25s;
+}
+
+a:focus, a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+a.active, a:active {
+    color: var(--link-active-color);
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn.btn-primary {
+    background-color: var(--btn-primary-color);
+    border-color: var(--btn-primary-border-color);
+}
+
+.btn.btn-primary:active:hover {
+    background-color: var(--btn-primary-active-color);
+}
+
+.btn.btn-secondary {
+    background-color: var(--btn-secondary-color);
+    border-color: var(--btn-secondary-border-color);
+}
+
+.btn.btn-secondary:active:hover {
+    background-color: var(--btn-secondary-active-color);
+}
+
+input[type=text] {
+    background-color: var(--text-input-bg-color);
+    color: var(--text-color);
+    padding: 8px;
+    border: solid 1px var(--separator-color);
+    border-radius: 3px;
+}
+
+nav.navbar {
+    display: flex;
+    background-color: var(--topbar-bg-color);
+    width: 100%;
+    height: 50px;
+}
+
+.navbar-brand img#logo {
+    height: 45px;
+}
+
+#autocollapse .navbar-header {
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    #autocollapse .navbar-header {
+        margin-left: 15%;
+    }
+}
+
+#navbar {
+    margin-left: 1%;
+}
+
+.navbar-inverse {
+    border-color: var(--topbar-border-color);
+}
+
+.navbar-header svg {
+    display: none;
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.navbar-search input[type=text] {
+    width: 200px;
+}
+
+.subnav {
+    background-color: var(--sidebar-bg-color);
+    border-color: var(--separator-color);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    text-transform: uppercase;
+    color: #dfdfdf;
+}
+
+.sidefilter, .sidetoc {
+    background-color: var(--sidebar-bg-color);
+    border-color: var(--sidebar-bg-color);
+}
+
+.hero {
+    position: relative;
+    height: 350px;
+}
+
+.hero > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+}
+
+.hero-background {
+    opacity: .2;
+    background-image: url(/images/hero.jpg);
+    background-size: cover;
+}
+
+.hero-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-logo {
+    height: 150px;
+    margin-left: -20px;
+}
+
+.hero-actions .btn {
+    margin: 25px 10px;
+    padding: 10px 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 200px;
+}
+
+.hero-actions .btn-secondary {
+    background: transparent;
+    color: var(--btn-primary-active-color);
+    border-color: var(--btn-primary-active-color);
+}
+
+.summary-bullets {
+    margin: 50px 30%;
+}
+
+.summary-bullet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.summary-bullet img {
+    width: 350px;
+}
+
+.summary-bullet section.left {
+    margin-right: 25px;
+}
+
+.summary-bullet section.right {
+    margin-left: 25px;
+}
+
+.summary-bullet p {
+    font-size: 18px;
+}
+
+.summary-bullet h2 {
+    margin-block-start: 0;
+}
+
+.summary-bullet.media-workflows .glyphicon {
+    font-size: 80px;
+}

@@ -1,4 +1,6 @@
+- name: About
+  href: about/
 - name: Tutorials
   href: tutorials/
 - name: API Reference
-  href: api/index.html
+  href: api/

@@ -1,0 +1,33 @@
+{{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
+{{!include(/^styles/.*/)}}
+{{!include(/^fonts/.*/)}}
+{{!include(favicon.ico)}}
+{{!include(logo.svg)}}
+{{!include(search-stopwords.json)}}
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  {{>partials/head}}
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        {{>partials/navbar}}
+        {{>partials/breadcrumb}}
+      </header>
+      <div class="container body-content">
+        {{>partials/searchResults}}
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        {{>partials/toc}}
+        <div class="article main-content">
+          <article class="content wrap" id="_content" data-uid="{{uid}}">
+            {{!body}}
+          </article>
+          {{>partials/affix}}
+        </div>
+      </div>
+      {{>partials/footer}}
+    </div>
+    {{>partials/scripts}}
+  </body>
+</html>

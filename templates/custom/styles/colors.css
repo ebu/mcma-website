@@ -1,7 +1,7 @@
 /* Color schemes */
 :root {
     /* General */
-    --main-bg-color: #36393f;
+    --main-bg-color:#2a2e37;
     --footer-bg-color: rgba(0,0,0,.2);
     --table-strip-bg-color: #121315;
     --table-header-bg-color: #202225;;
@@ -19,7 +19,8 @@
     --h5-color: #ffffffd1;
     
     /* Topbar */
-    --topbar-bg-color: #282a2f;
+    --topbar-bg-color: #222631;
+    --topbar-border-color: #1a1e26;
     
     /* Button */
     --button-color: #747f8d;
@@ -73,5 +74,11 @@
     /* Text Input */
     --text-input-bg-color: #434851;
 
-    --sidebar-width: 410px;
+    /* Buttons */
+    --btn-primary-color: #7289da;
+    --btn-primary-active-color: #849fff;
+    --btn-primary-border-color: rgba(114,137,218,.5);
+    --btn-secondary-color: #45aca3;
+    --btn-secondary-active-color: #50c7bd;
+    --btn-secondary-border-color: rgba(114, 218, 201, 0.5);
 }
