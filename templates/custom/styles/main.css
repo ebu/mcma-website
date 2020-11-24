@@ -12,6 +12,10 @@
     border-radius: 5px;
 }
 
+input::placeholder {
+    font-style: italic;
+}
+
 * {
   scrollbar-color: var(--scrollbar-thumb-bg-color) var(--scrollbar-bg-color);
   scrollbar-width: thin;
@@ -181,6 +185,12 @@ nav.navbar {
 
 .navbar-inverse .navbar-nav > .active > a:hover {
     background-color: var(--topbar-active-item-color);
+}
+
+@media (min-width: 992px) {
+    #autocollapse .form-control {
+        width: 250px;
+    }
 }
 
 .sidenav {
@@ -383,4 +393,47 @@ td .version-number {
 
 .environment-arch, .service-arch {
     margin: 10px 0 20px 0;
+}
+
+.mark, mark {
+    background-color: var(--search-mark-bg-color);
+}
+
+.pagination > li > a,
+.pagination > li.disabled > a {
+    background-color: var(--pagination-button-bg-color);
+    border-color: var(--pagination-button-border-color);
+}
+
+.pagination > li > a {
+    color: var(--link-color);
+}
+.pagination > li.active > a,
+.pagination > li.active > a:hover {
+    background-color: #47A7A0;
+    border-color: #47A7A0
+}
+
+.pagination > li > a:hover {
+    background-color: var(--pagination-button-bg-hover-color);
+    color: var(--link-color);
+    border-color: transparent;
+}
+
+.pagination > li.disabled > a {
+    cursor: default !important;
+}
+
+.pagination > li.disabled > a:hover,
+.pagination > li.disabled > a:focus {
+    background-color: var(--pagination-button-bg-color);
+    border-color: var(--pagination-button-border-color);
+}
+
+.sr-item > .item-title > a {
+    color: var(--search-result-item-color);
+}
+
+.sr-item > .item-href {
+    color: var(--search-result-href-color);
 }

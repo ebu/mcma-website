@@ -69,9 +69,17 @@
 
     /* Buttons */
     --btn-primary-color: #7289da;
-    --btn-primary-active-color: #849fff;
+    --btn-primary-active-color: #8fa8ff;
     --btn-primary-border-color: rgba(114,137,218,.5);
     --btn-secondary-color: transparent;
     --btn-secondary-active-color: rgba(187, 201, 251, 0.2);
     --btn-secondary-border-color: var(--btn-primary-active-color);
+
+    --search-mark-bg-color: #9fbcff;
+    --search-result-item-color: var(--btn-primary-active-color);
+    --search-result-href-color: var(--link-hover-color);
+
+    --pagination-button-bg-color: #394559;
+    --pagination-button-border-color: #3a4350;
+    --pagination-button-bg-hover-color: #596c8a;
 }

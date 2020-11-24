@@ -8,8 +8,8 @@ documentType: index
     <div class="hero-overlay">
       <img class="hero-logo" src="images/mcma_logo_large.png">
       <div class="hero-actions">
-        <button type="button" class="btn btn-primary">Get Started</button>
-        <button type="button" class="btn btn-secondary">Learn More</button>
+        <a type="button" class="btn btn-primary" href="/tutorials/intro.html">Get Started</a>
+        <a type="button" class="btn btn-secondary" href="/concepts/intro.html">Learn More</a>
       </div>
     </div>
   </div>
