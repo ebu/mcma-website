@@ -33,6 +33,14 @@
           "toc.yml",
           "*.md"
         ]
+      },
+      {
+        "files": [
+          "concepts/**.md",
+          "concepts/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
       }
     ],
     "resource": [

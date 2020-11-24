@@ -2,39 +2,42 @@
 :root {
     /* General */
     --main-bg-color:#2a2e37;
-    --footer-bg-color: rgba(0,0,0,.2);
-    --table-strip-bg-color: #121315;
-    --table-header-bg-color: #202225;;
-    --table-header-color: hsla(0,0%,100%,.8);
-    --table-header-border-color: #040405;
+    --footer-bg-color:#222631;
+    --table-header-bg-color: #222631;
+    --table-cell-bg-color: #292d39;
+    --table-border-color: #353946;
 
     /* Text */
     --text-color: #dcddde;
-    --link-color: #00b0f4;
-    --link-hover-color: #4bd5ff;
+    --link-color: #5eddd3;
+    --link-hover-color: #79f1e7;
     --link-active-color: #fff;
     --link-active-bg-color: #7289da;
-    --h3-color: #ffffff85;
+    --h3-color: #ffffffa4;
     --h4-color: #ffffffeb;
     --h5-color: #ffffffd1;
     
     /* Topbar */
     --topbar-bg-color: #222631;
     --topbar-border-color: #1a1e26;
+    --topbar-active-item-color: #161922;
+
+    /* Subnav */
+    --subnav-bg-color: #292d39;
     
     /* Button */
     --button-color: #747f8d;
 
     /* Sidebar */
-    --separator-color: #4f545c;
-    --sidebar-bg-color: #2f3136;
+    --separator-color: #3a4350;
+    --sidebar-bg-color:#222631;
     --sidebar-item-color: #b9bbbe;
     --sidebar-item-2nd-color: hsla(0,0%,100%,.35);
     --sidebar-item-3rd-color: hsla(0,0%,100%,.25);
 
     /* Scrollbar */
     --scrollbar-bg-color: transparent;
-    --scrollbar-thumb-bg-color: rgba(0,0,0,.4);
+    --scrollbar-thumb-bg-color: #5d647b;
     --scrollbar-thumb-border-color: transparent;
 
     /* Alerts and Blocks */
@@ -56,29 +59,19 @@
     --breadcrumb-bg-color: #2f3136;
 
     /* Code Higlighting */
-    --code-bg-color: #18191c;
-    --code-color: #8790A3;
-    --code-keyword-color: #569cd6;
-    --code-comment-color: #57a64a;
-    --code-macro-color: #beb7ff;
-    --code-string-color: #d69d85;
-    --code-string-escape-color: #ffd68f;
-    --code-field-color: #c8c8c8;
-    --code-function-color: #dcdcaa;
-    --code-control-color: #d8a0df;
-    --code-class-color: #4ec9b0;
-    --code-number-color: #b5cea8;
-    --code-params-color: #9a9a9a;
-    --code-breakpoint-color: #8c2f2f;
+    --code-bg-color: #1f2228;
+    --code-color: #b4c1df;
+    --code-keyword-color: #00ffea;
+    --code-title-color: #7c9aff;
     
     /* Text Input */
-    --text-input-bg-color: #434851;
+    --text-input-bg-color: #394559;
 
     /* Buttons */
     --btn-primary-color: #7289da;
     --btn-primary-active-color: #849fff;
     --btn-primary-border-color: rgba(114,137,218,.5);
-    --btn-secondary-color: #45aca3;
-    --btn-secondary-active-color: #50c7bd;
-    --btn-secondary-border-color: rgba(114, 218, 201, 0.5);
+    --btn-secondary-color: transparent;
+    --btn-secondary-active-color: rgba(187, 201, 251, 0.2);
+    --btn-secondary-border-color: var(--btn-primary-active-color);
 }

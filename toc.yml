@@ -1,5 +1,5 @@
-- name: About
-  href: about/
+- name: Concepts
+  href: concepts/
 - name: Tutorials
   href: tutorials/
 - name: API Reference
