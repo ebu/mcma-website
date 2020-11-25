@@ -13,8 +13,6 @@ items:
       - aws-dynamodb.LocalSecondaryIndexDescription
       - aws-dynamodb.getTableDescription
       - aws-dynamodb.DynamoDbTableOptions
-      - aws-dynamodb.CustomQueryFactory
-      - aws-dynamodb.CustomQueryRegistry
       - aws-dynamodb.DynamoDbTableProvider
     type: package
     langs:
@@ -38,9 +36,5 @@ references:
     name: getTableDescription(DynamoDB, string)
   - uid: aws-dynamodb.DynamoDbTableOptions
     name: DynamoDbTableOptions
-  - uid: aws-dynamodb.CustomQueryFactory
-    name: CustomQueryFactory
-  - uid: aws-dynamodb.CustomQueryRegistry
-    name: CustomQueryRegistry
   - uid: aws-dynamodb.DynamoDbTableProvider
     name: DynamoDbTableProvider

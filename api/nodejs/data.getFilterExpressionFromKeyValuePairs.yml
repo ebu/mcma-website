@@ -18,15 +18,6 @@ items:
           description: ''
       return:
         type:
-          - data.FilterExpression<T>
+          - FilterExpression<T>
         description: ''
     package: data
-references:
-  - uid: data.FilterExpression<T>
-    name: FilterExpression<T>
-    spec.typeScript:
-      - name: FilterExpression
-        fullName: FilterExpression
-        uid: data.FilterExpression
-      - name: <T>
-        fullName: <T>

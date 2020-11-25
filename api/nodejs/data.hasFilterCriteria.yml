@@ -12,19 +12,10 @@ items:
       parameters:
         - id: filterExpression
           type:
-            - data.FilterExpression<T>
+            - FilterExpression<T>
           description: ''
       return:
         type:
           - boolean
         description: ''
     package: data
-references:
-  - uid: data.FilterExpression<T>
-    name: FilterExpression<T>
-    spec.typeScript:
-      - name: FilterExpression
-        fullName: FilterExpression
-        uid: data.FilterExpression
-      - name: <T>
-        fullName: <T>

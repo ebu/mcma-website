@@ -9,9 +9,6 @@
     - uid: aws-client.Aws
       name: Aws
       items: []
-    - uid: aws-client.AwsAuthContext
-      name: AwsAuthContext
-      items: []
     - uid: aws-client.AwsAuthContext1
       name: AwsAuthContext1
       items: []
@@ -33,12 +30,6 @@
   uid: aws-client
 - name: "@mcma/aws-dynamodb"
   items:
-    - uid: aws-dynamodb.CustomQueryFactory
-      name: CustomQueryFactory
-      items: []
-    - uid: aws-dynamodb.CustomQueryRegistry
-      name: CustomQueryRegistry
-      items: []
     - uid: aws-dynamodb.DynamoDbMutex
       name: DynamoDbMutex
       items: []
@@ -153,9 +144,6 @@
     - uid: azure-browser-client.AzureAdPublicClientAccessTokenProvider
       name: AzureAdPublicClientAccessTokenProvider
       items: []
-    - uid: azure-browser-client.ConfigurationWithTenant
-      name: ConfigurationWithTenant
-      items: []
   uid: azure-browser-client
 - name: "@mcma/azure-client"
   items:
@@ -174,9 +162,6 @@
     - uid: azure-client.AzureManagedIdentityAccessTokenProvider
       name: AzureManagedIdentityAccessTokenProvider
       items: []
-    - uid: azure-client.ConfigurationWithTenant
-      name: ConfigurationWithTenant
-      items: []
   uid: azure-client
 - name: "@mcma/azure-cosmos-db"
   items:
@@ -191,12 +176,6 @@
       items: []
     - uid: azure-cosmos-db.CosmosDbTableProviderOptions
       name: CosmosDbTableProviderOptions
-      items: []
-    - uid: azure-cosmos-db.CustomQueryFactory
-      name: CustomQueryFactory
-      items: []
-    - uid: azure-cosmos-db.CustomQueryRegistry
-      name: CustomQueryRegistry
       items: []
   uid: azure-cosmos-db
 - name: "@mcma/azure-logger"
@@ -270,9 +249,6 @@
     - uid: api.McmaApiRouteCollection
       name: McmaApiRouteCollection
       items: []
-    - uid: api.McmaApiRouteHandler
-      name: McmaApiRouteHandler
-      items: []
     - uid: api.URITemplate
       name: URITemplate
       items: []
@@ -291,9 +267,6 @@
     - uid: client.Authenticator
       name: Authenticator
       items: []
-    - uid: client.AuthenticatorFactory
-      name: AuthenticatorFactory
-      items: []
     - uid: client.AuthProvider
       name: AuthProvider
       items: []
@@ -305,9 +278,6 @@
       items: []
     - uid: client.HttpClient
       name: HttpClient
-      items: []
-    - uid: client.HttpClientConfig
-      name: HttpClientConfig
       items: []
     - uid: client.HttpRequestConfig
       name: HttpRequestConfig
@@ -432,9 +402,6 @@
     - uid: core.McmaResourceProperties
       name: McmaResourceProperties
       items: []
-    - uid: core.McmaResourceType
-      name: McmaResourceType
-      items: []
     - uid: core.McmaTracker
       name: McmaTracker
       items: []
@@ -486,17 +453,8 @@
   uid: core
 - name: "@mcma/data"
   items:
-    - uid: data.BinaryOperator
-      name: BinaryOperator
-      items: []
     - uid: data.CustomQuery
       name: CustomQuery
-      items: []
-    - uid: data.CustomQueryParameters
-      name: CustomQueryParameters
-      items: []
-    - uid: data.Document
-      name: Document
       items: []
     - uid: data.DocumentDatabaseMutex
       name: DocumentDatabaseMutex
@@ -507,23 +465,14 @@
     - uid: data.DocumentDatabaseTableProvider
       name: DocumentDatabaseTableProvider
       items: []
-    - uid: data.DocumentType
-      name: DocumentType
-      items: []
     - uid: data.FilterCriteria
       name: FilterCriteria
       items: []
     - uid: data.FilterCriteriaGroup
       name: FilterCriteriaGroup
       items: []
-    - uid: data.FilterExpression
-      name: FilterExpression
-      items: []
     - uid: data.LockData
       name: LockData
-      items: []
-    - uid: data.LogicalOperator
-      name: LogicalOperator
       items: []
     - uid: data.Query
       name: Query
@@ -546,15 +495,6 @@
   uid: encryption
 - name: "@mcma/worker"
   items:
-    - uid: worker.JobProfileHandler
-      name: JobProfileHandler
-      items: []
-    - uid: worker.OperationFilter
-      name: OperationFilter
-      items: []
-    - uid: worker.OperationHandler
-      name: OperationHandler
-      items: []
     - uid: worker.ProcessJobAssignmentHelper
       name: ProcessJobAssignmentHelper
       items: []
@@ -585,9 +525,6 @@
   uid: worker
 - name: "@mcma/worker-invoker"
   items:
-    - uid: worker-invoker.InvokeWorker
-      name: InvokeWorker
-      items: []
     - uid: worker-invoker.WorkerInvoker
       name: WorkerInvoker
       items: []
@@ -603,12 +540,6 @@
   uid: google-cloud-client
 - name: "@mcma/google-cloud-firestore"
   items:
-    - uid: google-cloud-firestore.CustomQueryFactory
-      name: CustomQueryFactory
-      items: []
-    - uid: google-cloud-firestore.CustomQueryRegistry
-      name: CustomQueryRegistry
-      items: []
     - uid: google-cloud-firestore.FirestoreMcmaDataConverter
       name: FirestoreMcmaDataConverter
       items: []

@@ -33,6 +33,7 @@ items:
     content: 'public class CosmosDbTableOptions : DocumentDatabaseTableOptions'
     content.vb: >-
       Public Class CosmosDbTableOptions
+
           Inherits DocumentDatabaseTableOptions
   inheritance:
   - System.Object

@@ -11,10 +11,8 @@ items:
       - client.AuthProvider
       - client.AuthTypeRegistration
       - client.Authenticator
-      - client.AuthenticatorFactory
       - client.Http
       - client.HttpClient
-      - client.HttpClientConfig
       - client.HttpRequestConfig
       - client.getResourceManagerConfig
       - client.ResourceEndpointClient
@@ -40,14 +38,10 @@ references:
     name: AuthTypeRegistration
   - uid: client.Authenticator
     name: Authenticator
-  - uid: client.AuthenticatorFactory
-    name: AuthenticatorFactory
   - uid: client.Http
     name: Http
   - uid: client.HttpClient
     name: HttpClient
-  - uid: client.HttpClientConfig
-    name: HttpClientConfig
   - uid: client.HttpRequestConfig
     name: HttpRequestConfig
   - uid: client.getResourceManagerConfig

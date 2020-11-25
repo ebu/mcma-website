@@ -28,6 +28,7 @@ items:
     content: 'public class FirestoreQueryBuilder : IFirestoreQueryBuilder'
     content.vb: >-
       Public Class FirestoreQueryBuilder
+
           Implements IFirestoreQueryBuilder
   inheritance:
   - System.Object

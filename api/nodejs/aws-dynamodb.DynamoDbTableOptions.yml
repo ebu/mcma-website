@@ -58,7 +58,7 @@ items:
       content: 'customQueryRegistry?: CustomQueryRegistry'
       return:
         type:
-          - aws-dynamodb.CustomQueryRegistry
+          - CustomQueryRegistry
         description: ''
     package: aws-dynamodb
   - uid: aws-dynamodb.DynamoDbTableOptions.topLevelAttributeMappings
@@ -77,10 +77,3 @@ items:
           - '[key: string]: AttributeValueRetriever'
         description: ''
     package: aws-dynamodb
-references:
-  - uid: aws-dynamodb.CustomQueryRegistry
-    name: CustomQueryRegistry
-    spec.typeScript:
-      - name: CustomQueryRegistry
-        fullName: CustomQueryRegistry
-        uid: aws-dynamodb.CustomQueryRegistry

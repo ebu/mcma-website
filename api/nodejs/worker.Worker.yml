@@ -28,11 +28,11 @@ items:
       parameters:
         - id: operationFilter
           type:
-            - worker.OperationFilter
+            - OperationFilter
           description: ''
         - id: handler
           type:
-            - worker.OperationHandler
+            - OperationHandler
           description: ''
       return:
         type:
@@ -55,7 +55,7 @@ items:
           description: ''
         - id: handler
           type:
-            - worker.OperationHandler
+            - OperationHandler
           description: ''
       return:
         type:
@@ -127,18 +127,6 @@ references:
       - name: ProviderCollection
         fullName: ProviderCollection
         uid: worker.ProviderCollection
-  - uid: worker.OperationHandler
-    name: OperationHandler
-    spec.typeScript:
-      - name: OperationHandler
-        fullName: OperationHandler
-        uid: worker.OperationHandler
-  - uid: worker.OperationFilter
-    name: OperationFilter
-    spec.typeScript:
-      - name: OperationFilter
-        fullName: OperationFilter
-        uid: worker.OperationFilter
   - uid: worker.WorkerOperation
     name: WorkerOperation
     spec.typeScript:

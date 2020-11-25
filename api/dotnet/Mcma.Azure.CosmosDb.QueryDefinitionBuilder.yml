@@ -28,6 +28,7 @@ items:
     content: 'public class QueryDefinitionBuilder : IQueryDefinitionBuilder'
     content.vb: >-
       Public Class QueryDefinitionBuilder
+
           Implements IQueryDefinitionBuilder
   inheritance:
   - System.Object

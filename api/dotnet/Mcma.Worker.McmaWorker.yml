@@ -29,6 +29,7 @@ items:
     content: 'public class McmaWorker : IMcmaWorker'
     content.vb: >-
       Public Class McmaWorker
+
           Implements IMcmaWorker
   inheritance:
   - System.Object

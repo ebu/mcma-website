@@ -30,6 +30,7 @@ items:
   syntax:
     content: >-
       public class ProcessJobAssignmentOperationBuilder<TJob>
+
           where TJob : Job
     typeParameters:
     - id: TJob
@@ -152,6 +153,7 @@ items:
   syntax:
     content: >-
       public ProcessJobAssignmentOperationBuilder<TJob> AddProfile<TProfile>()
+
           where TProfile : class, IJobProfile<TJob>
     typeParameters:
     - id: TProfile

@@ -1,0 +1,17 @@
+@media (min-width: 1500px) {
+    .container {
+        width: 1475px;
+    }
+    
+    .sidetoc, .sidefilter {
+        width: 380px;
+    }
+
+    .article.grid-right {
+        margin-left: 400px;
+    }
+}
+
+.toc .level1 > li {
+    font-size: 14px;
+}

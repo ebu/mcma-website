@@ -29,6 +29,7 @@ items:
     content: 'public class AttributeMapper : IAttributeMapper'
     content.vb: >-
       Public Class AttributeMapper
+
           Implements IAttributeMapper
   inheritance:
   - System.Object

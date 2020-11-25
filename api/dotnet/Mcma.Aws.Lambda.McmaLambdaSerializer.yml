@@ -29,7 +29,9 @@ items:
     content: 'public class McmaLambdaSerializer : object, ILambdaSerializer'
     content.vb: >-
       Public Class McmaLambdaSerializer
+
           Inherits Object
+
           Implements ILambdaSerializer
   inheritance:
   - System.Object

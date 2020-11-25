@@ -35,6 +35,7 @@ items:
     - id: T
     content.vb: >-
       Public MustInherit Class McmaJobAssignmentWorkerStartup(Of T As Job)
+
           Inherits FunctionsStartup
   inheritance:
   - System.Object

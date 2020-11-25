@@ -27,6 +27,7 @@ items:
     content: 'public class FirestoreTableOptions : DocumentDatabaseTableOptions'
     content.vb: >-
       Public Class FirestoreTableOptions
+
           Inherits DocumentDatabaseTableOptions
   inheritance:
   - System.Object

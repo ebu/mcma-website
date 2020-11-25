@@ -34,6 +34,7 @@ items:
     - id: TProp
     content.vb: >-
       Public Class FilterCriteria(Of TDoc, TProp)
+
           Implements IFilterExpression(Of TDoc)
   inheritance:
   - System.Object

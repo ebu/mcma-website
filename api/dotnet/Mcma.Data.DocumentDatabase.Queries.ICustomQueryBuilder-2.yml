@@ -31,6 +31,7 @@ items:
     - id: TProviderQuery
     content.vb: >-
       Public Interface ICustomQueryBuilder(Of TParameters, Out TProviderQuery)
+
           Inherits ICustomQueryBuilder
   inheritedMembers:
   - Mcma.Data.DocumentDatabase.Queries.ICustomQueryBuilder.Name

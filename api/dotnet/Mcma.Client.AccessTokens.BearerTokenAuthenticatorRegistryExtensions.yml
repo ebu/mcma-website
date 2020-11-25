@@ -71,6 +71,7 @@ items:
   syntax:
     content: >-
       public static AuthenticatorRegistry AddBearerTokens<TAuthContext, TBearerTokenProvider>(this AuthenticatorRegistry handlerRegistry, string authType, ServiceLifetime lifetime = ServiceLifetime.Singleton)
+
           where TBearerTokenProvider : IBearerTokenProvider<TAuthContext>
     parameters:
     - id: handlerRegistry
@@ -124,6 +125,7 @@ items:
   syntax:
     content: >-
       public static AuthenticatorRegistry TryAddBearerTokens<TAuthContext, TBearerTokenProvider>(this AuthenticatorRegistry handlerRegistry, string authType, ServiceLifetime lifetime = ServiceLifetime.Singleton)
+
           where TBearerTokenProvider : IBearerTokenProvider<TAuthContext>
     parameters:
     - id: handlerRegistry

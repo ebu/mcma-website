@@ -104,6 +104,7 @@ items:
   syntax:
     content: >-
       public CosmosDbTableBuilder AddCustomQueryBuilder<TParameters, TCustomQueryBuilder>()
+
           where TCustomQueryBuilder : class, ICustomQueryBuilder<TParameters, (QueryDefinition, QueryRequestOptions)>
     typeParameters:
     - id: TParameters

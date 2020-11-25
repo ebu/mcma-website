@@ -29,6 +29,7 @@ items:
     content: 'public class HttpFunctionApiController : IHttpFunctionApiController'
     content.vb: >-
       Public Class HttpFunctionApiController
+
           Implements IHttpFunctionApiController
   inheritance:
   - System.Object

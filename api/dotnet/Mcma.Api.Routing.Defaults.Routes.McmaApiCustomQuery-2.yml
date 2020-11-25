@@ -32,6 +32,7 @@ items:
     - id: TParameters
     content.vb: >-
       Public Class McmaApiCustomQuery(Of TResource As Class, TParameters)
+
           Implements IMcmaApiCustomQuery(Of TResource)
   inheritance:
   - System.Object

@@ -31,7 +31,9 @@ items:
     content: 'public class ConsoleLoggerProvider : LoggerProvider<ConsoleLogger>, ILoggerProvider'
     content.vb: >-
       Public Class ConsoleLoggerProvider
+
           Inherits LoggerProvider(Of ConsoleLogger)
+
           Implements ILoggerProvider
   inheritance:
   - System.Object

@@ -29,7 +29,9 @@ items:
     content: 'public class CloudLoggingLogger : Logger, ILogger'
     content.vb: >-
       Public Class CloudLoggingLogger
+
           Inherits Logger
+
           Implements ILogger
   inheritance:
   - System.Object

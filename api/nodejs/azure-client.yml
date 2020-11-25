@@ -7,7 +7,6 @@ items:
       - azure-client.AzureAdAuthContext
       - azure-client.azureAdConfidentialClientAuth
       - azure-client.AzureAdConfidentialClientAccessTokenProvider
-      - azure-client.ConfigurationWithTenant
       - azure-client.AzureManagedIdentityAccessTokenProvider
       - azure-client.azureAdManagedIdentityAuth
       - azure-client.AzureFunctionKeyAuthContext
@@ -23,8 +22,6 @@ references:
     name: azureAdConfidentialClientAuth(ConfigurationWithTenant)
   - uid: azure-client.AzureAdConfidentialClientAccessTokenProvider
     name: AzureAdConfidentialClientAccessTokenProvider
-  - uid: azure-client.ConfigurationWithTenant
-    name: ConfigurationWithTenant
   - uid: azure-client.AzureManagedIdentityAccessTokenProvider
     name: AzureManagedIdentityAccessTokenProvider
   - uid: azure-client.azureAdManagedIdentityAuth

@@ -33,6 +33,7 @@ items:
     - id: TProviderQuery
     content.vb: >-
       Public MustInherit Class CustomQueryBuilder(Of TParameters, TProviderQuery)
+
           Implements ICustomQueryBuilder(Of TParameters, TProviderQuery), ICustomQueryBuilder
   inheritance:
   - System.Object

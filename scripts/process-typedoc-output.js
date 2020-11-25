@@ -1,6 +1,5 @@
 const fs = require("fs");
 const path = require("path");
-const dir = "api/nodejs";
 
 function flattenProject(project) {
     const children = [];
@@ -17,7 +16,7 @@ function addNonModules(children, node) {
         for (const child of node.children) {
             addNonModules(children, child);
         }
-    } else {
+    } else if (node.kindString !== "Type alias") {
         children.push(node);
     }
 }

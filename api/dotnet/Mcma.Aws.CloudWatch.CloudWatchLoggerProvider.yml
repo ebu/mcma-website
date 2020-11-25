@@ -30,7 +30,9 @@ items:
     content: 'public class CloudWatchLoggerProvider : LoggerProvider<CloudWatchLogger>, ILoggerProvider'
     content.vb: >-
       Public Class CloudWatchLoggerProvider
+
           Inherits LoggerProvider(Of CloudWatchLogger)
+
           Implements ILoggerProvider
   inheritance:
   - System.Object

@@ -25,7 +25,7 @@ items:
       content: 'customQueries?: CustomQueryRegistry'
       return:
         type:
-          - google-cloud-firestore.CustomQueryRegistry
+          - CustomQueryRegistry
         description: ''
     package: google-cloud-firestore
   - uid: google-cloud-firestore.FirestoreTableProviderOptions.firestore
@@ -60,10 +60,3 @@ items:
           - Settings
         description: ''
     package: google-cloud-firestore
-references:
-  - uid: google-cloud-firestore.CustomQueryRegistry
-    name: CustomQueryRegistry
-    spec.typeScript:
-      - name: CustomQueryRegistry
-        fullName: CustomQueryRegistry
-        uid: google-cloud-firestore.CustomQueryRegistry

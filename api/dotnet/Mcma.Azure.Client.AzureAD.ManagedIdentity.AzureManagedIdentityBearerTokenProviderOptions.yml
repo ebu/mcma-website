@@ -29,6 +29,7 @@ items:
     content: 'public class AzureManagedIdentityBearerTokenProviderOptions : object'
     content.vb: >-
       Public Class AzureManagedIdentityBearerTokenProviderOptions
+
           Inherits Object
   inheritance:
   - System.Object

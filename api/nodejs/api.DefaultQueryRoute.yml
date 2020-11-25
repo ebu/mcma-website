@@ -91,7 +91,7 @@ items:
       content: 'public handler: McmaApiRouteHandler'
       return:
         type:
-          - api.McmaApiRouteHandler
+          - McmaApiRouteHandler
         description: ''
     package: api
   - uid: api.DefaultQueryRoute.handleRequest
@@ -214,9 +214,3 @@ references:
       - name: McmaApiRoute
         fullName: McmaApiRoute
         uid: api.McmaApiRoute
-  - uid: api.McmaApiRouteHandler
-    name: McmaApiRouteHandler
-    spec.typeScript:
-      - name: McmaApiRouteHandler
-        fullName: McmaApiRouteHandler
-        uid: api.McmaApiRouteHandler

@@ -372,6 +372,7 @@ items:
   syntax:
     content: >-
       public T GetRequestBody<T>()
+
           where T : McmaObject
     typeParameters:
     - id: T

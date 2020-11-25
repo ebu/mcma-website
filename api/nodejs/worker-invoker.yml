@@ -5,7 +5,6 @@ items:
     summary: ""
     children:
       - worker-invoker.getWorkerFunctionId
-      - worker-invoker.InvokeWorker
       - worker-invoker.WorkerInvoker
       - worker-invoker.WorkerRequestProperties
     type: package
@@ -14,8 +13,6 @@ items:
 references:
   - uid: worker-invoker.getWorkerFunctionId
     name: getWorkerFunctionId(ConfigVariables)
-  - uid: worker-invoker.InvokeWorker
-    name: InvokeWorker
   - uid: worker-invoker.WorkerInvoker
     name: WorkerInvoker
   - uid: worker-invoker.WorkerRequestProperties

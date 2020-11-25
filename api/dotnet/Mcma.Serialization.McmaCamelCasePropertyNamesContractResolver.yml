@@ -30,7 +30,9 @@ items:
     content: 'public class McmaCamelCasePropertyNamesContractResolver : CamelCasePropertyNamesContractResolver, IContractResolver'
     content.vb: >-
       Public Class McmaCamelCasePropertyNamesContractResolver
+
           Inherits CamelCasePropertyNamesContractResolver
+
           Implements IContractResolver
   inheritance:
   - System.Object

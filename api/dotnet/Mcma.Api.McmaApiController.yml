@@ -30,6 +30,7 @@ items:
     content: 'public class McmaApiController : IMcmaApiController'
     content.vb: >-
       Public Class McmaApiController
+
           Implements IMcmaApiController
   inheritance:
   - System.Object

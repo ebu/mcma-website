@@ -44,7 +44,7 @@ items:
           optional: true
         - id: handler
           type:
-            - api.McmaApiRouteHandler
+            - McmaApiRouteHandler
           description: ''
           optional: true
       return:
@@ -270,12 +270,6 @@ references:
       - name: McmaApiRoute
         fullName: McmaApiRoute
         uid: api.McmaApiRoute
-  - uid: api.McmaApiRouteHandler
-    name: McmaApiRouteHandler
-    spec.typeScript:
-      - name: McmaApiRouteHandler
-        fullName: McmaApiRouteHandler
-        uid: api.McmaApiRouteHandler
   - uid: 'api.McmaApiRouteCollection | api.McmaApiRoute[]'
     name: 'McmaApiRoute[]'
     spec.typeScript:

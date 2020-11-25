@@ -27,6 +27,7 @@ items:
   syntax:
     content: >-
       public interface IDefaultCreateRouteStartedHandler<TResource>
+
           where TResource : McmaResource
     typeParameters:
     - id: TResource

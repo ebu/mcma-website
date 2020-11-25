@@ -25,7 +25,6 @@ items:
       - api.URITemplate
       - api.McmaApiRoute
       - api.McmaApiRouteCollection
-      - api.McmaApiRouteHandler
       - api.camelCaseToKebabCase
       - api.pluralizeKebabCase
     type: package
@@ -74,8 +73,6 @@ references:
     name: McmaApiRoute
   - uid: api.McmaApiRouteCollection
     name: McmaApiRouteCollection
-  - uid: api.McmaApiRouteHandler
-    name: McmaApiRouteHandler
   - uid: api.camelCaseToKebabCase
     name: camelCaseToKebabCase(string)
   - uid: api.pluralizeKebabCase

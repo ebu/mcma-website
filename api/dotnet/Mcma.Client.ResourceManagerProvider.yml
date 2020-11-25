@@ -29,6 +29,7 @@ items:
     content: 'public class ResourceManagerProvider : IResourceManagerProvider'
     content.vb: >-
       Public Class ResourceManagerProvider
+
           Implements IResourceManagerProvider
   inheritance:
   - System.Object

@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  {{>partials/head}}
+  {{>partials/apiHead}}
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
@@ -19,10 +19,12 @@
       </div>
       <div role="main" class="container body-content hide-when-search">
         {{>partials/toc}}
-        <div class="article main-content">
-          <article class="content wrap" id="_content" data-uid="{{uid}}">
-            {{!body}}
-          </article>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="{{uid}}">
+              {{!body}}
+            </article>
+          </div>
           {{>partials/affix}}
         </div>
       </div>

@@ -23,7 +23,7 @@ items:
       content: 'execute: JobProfileHandler<T>'
       return:
         type:
-          - worker.JobProfileHandler<T>
+          - JobProfileHandler<T>
         description: ''
     package: worker
   - uid: worker.ProcessJobProfile.name
@@ -41,12 +41,3 @@ items:
           - string
         description: ''
     package: worker
-references:
-  - uid: worker.JobProfileHandler<T>
-    name: JobProfileHandler<T>
-    spec.typeScript:
-      - name: JobProfileHandler
-        fullName: JobProfileHandler
-        uid: worker.JobProfileHandler
-      - name: <T>
-        fullName: <T>

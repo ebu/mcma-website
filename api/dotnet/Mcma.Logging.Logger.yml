@@ -54,6 +54,7 @@ items:
     content: 'public abstract class Logger : ILogger'
     content.vb: >-
       Public MustInherit Class Logger
+
           Implements ILogger
   inheritance:
   - System.Object
@@ -385,17 +386,14 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs a fatal message (level = 100)\n"
   example: []
   syntax:
     content: public void Fatal(string message, params object[] args)
     parameters:
     - id: message
       type: System.String
-      description: The message to be written
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub Fatal(message As String, ParamArray args As Object())
   overload: Mcma.Logging.Logger.Fatal*
   implements:
@@ -429,14 +427,12 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs a fatal message (level = 100)\n"
   example: []
   syntax:
     content: public void Fatal(params object[] args)
     parameters:
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub Fatal(ParamArray args As Object())
   overload: Mcma.Logging.Logger.Fatal*
   implements:
@@ -470,17 +466,14 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs an error message (level = 200)\n"
   example: []
   syntax:
     content: public void Error(string message, params object[] args)
     parameters:
     - id: message
       type: System.String
-      description: The message to be written
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub Error(message As String, ParamArray args As Object())
   overload: Mcma.Logging.Logger.Error*
   implements:
@@ -514,14 +507,12 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs an error message (level = 200)\n"
   example: []
   syntax:
     content: public void Error(params object[] args)
     parameters:
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub Error(ParamArray args As Object())
   overload: Mcma.Logging.Logger.Error*
   implements:
@@ -555,17 +546,14 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs an warning message (level = 300)\n"
   example: []
   syntax:
     content: public void Warn(string message, params object[] args)
     parameters:
     - id: message
       type: System.String
-      description: The message to be written
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub Warn(message As String, ParamArray args As Object())
   overload: Mcma.Logging.Logger.Warn*
   implements:
@@ -599,14 +587,12 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs an warning message (level = 300)\n"
   example: []
   syntax:
     content: public void Warn(params object[] args)
     parameters:
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub Warn(ParamArray args As Object())
   overload: Mcma.Logging.Logger.Warn*
   implements:
@@ -640,17 +626,14 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs an info message (level = 400)\n"
   example: []
   syntax:
     content: public void Info(string message, params object[] args)
     parameters:
     - id: message
       type: System.String
-      description: The message to be written
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub Info(message As String, ParamArray args As Object())
   overload: Mcma.Logging.Logger.Info*
   implements:
@@ -684,14 +667,12 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs an info message (level = 400)\n"
   example: []
   syntax:
     content: public void Info(params object[] args)
     parameters:
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub Info(ParamArray args As Object())
   overload: Mcma.Logging.Logger.Info*
   implements:
@@ -725,17 +706,14 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs a debug message (level = 500)\n"
   example: []
   syntax:
     content: public void Debug(string message, params object[] args)
     parameters:
     - id: message
       type: System.String
-      description: The message to be written
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub Debug(message As String, ParamArray args As Object())
   overload: Mcma.Logging.Logger.Debug*
   implements:
@@ -769,14 +747,12 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs a debug message (level = 500)\n"
   example: []
   syntax:
     content: public void Debug(params object[] args)
     parameters:
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub Debug(ParamArray args As Object())
   overload: Mcma.Logging.Logger.Debug*
   implements:
@@ -810,17 +786,14 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs the start of an MCMA function (level = 450)\n"
   example: []
   syntax:
     content: public void FunctionStart(string message, params object[] args)
     parameters:
     - id: message
       type: System.String
-      description: The message to be written
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub FunctionStart(message As String, ParamArray args As Object())
   overload: Mcma.Logging.Logger.FunctionStart*
   implements:
@@ -854,17 +827,14 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs the end of an MCMA function (level = 450)\n"
   example: []
   syntax:
     content: public void FunctionEnd(string message, params object[] args)
     parameters:
     - id: message
       type: System.String
-      description: The message to be written
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub FunctionEnd(message As String, ParamArray args As Object())
   overload: Mcma.Logging.Logger.FunctionEnd*
   implements:
@@ -898,14 +868,12 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs the start of an MCMA job (level = 400)\n"
   example: []
   syntax:
     content: public void JobStart(params object[] args)
     parameters:
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub JobStart(ParamArray args As Object())
   overload: Mcma.Logging.Logger.JobStart*
   implements:
@@ -939,17 +907,14 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs the start of an MCMA job (level = 400)\n"
   example: []
   syntax:
     content: public void JobStart(string message, params object[] args)
     parameters:
     - id: message
       type: System.String
-      description: The message to be written
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub JobStart(message As String, ParamArray args As Object())
   overload: Mcma.Logging.Logger.JobStart*
   implements:
@@ -983,14 +948,12 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs an update to an MCMA job (level = 400)\n"
   example: []
   syntax:
     content: public void JobUpdate(params object[] args)
     parameters:
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub JobUpdate(ParamArray args As Object())
   overload: Mcma.Logging.Logger.JobUpdate*
   implements:
@@ -1024,17 +987,14 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs an update to an MCMA job (level = 400)\n"
   example: []
   syntax:
     content: public void JobUpdate(string message, params object[] args)
     parameters:
     - id: message
       type: System.String
-      description: The message to be written
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub JobUpdate(message As String, ParamArray args As Object())
   overload: Mcma.Logging.Logger.JobUpdate*
   implements:
@@ -1068,14 +1028,12 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs the end of an MCMA job (level = 400)\n"
   example: []
   syntax:
     content: public void JobEnd(params object[] args)
     parameters:
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub JobEnd(ParamArray args As Object())
   overload: Mcma.Logging.Logger.JobEnd*
   implements:
@@ -1109,17 +1067,14 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nLogs the end of an MCMA job (level = 400)\n"
   example: []
   syntax:
     content: public void JobEnd(string message, params object[] args)
     parameters:
     - id: message
       type: System.String
-      description: The message to be written
     - id: args
       type: System.Object[]
-      description: A collection of arguments associated with the message
     content.vb: Public Sub JobEnd(message As String, ParamArray args As Object())
   overload: Mcma.Logging.Logger.JobEnd*
   implements:

@@ -29,6 +29,7 @@ items:
     content: 'public static class AzureFunctionKeyAuthRegistryExtensions : object'
     content.vb: >-
       Public Module AzureFunctionKeyAuthRegistryExtensions
+
           Inherits Object
   inheritance:
   - System.Object

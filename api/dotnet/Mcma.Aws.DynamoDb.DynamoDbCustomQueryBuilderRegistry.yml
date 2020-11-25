@@ -29,6 +29,7 @@ items:
     content: 'public class DynamoDbCustomQueryBuilderRegistry : ICustomQueryBuilderRegistry<QueryOperationConfig>'
     content.vb: >-
       Public Class DynamoDbCustomQueryBuilderRegistry
+
           Implements ICustomQueryBuilderRegistry(Of QueryOperationConfig)
   inheritance:
   - System.Object

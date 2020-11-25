@@ -104,7 +104,7 @@ items:
           description: ''
         - id: customQueryRegistry
           type:
-            - google-cloud-firestore.CustomQueryRegistry
+            - CustomQueryRegistry
           description: ''
     package: google-cloud-firestore
   - uid: google-cloud-firestore.FirestoreTable.get
@@ -168,10 +168,3 @@ items:
           - Promise<QueryResults<TDocument>>
         description: ''
     package: google-cloud-firestore
-references:
-  - uid: google-cloud-firestore.CustomQueryRegistry
-    name: CustomQueryRegistry
-    spec.typeScript:
-      - name: CustomQueryRegistry
-        fullName: CustomQueryRegistry
-        uid: google-cloud-firestore.CustomQueryRegistry

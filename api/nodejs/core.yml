@@ -44,7 +44,6 @@ items:
       - core.onResourceCreate
       - core.onResourceUpsert
       - core.McmaResourceConstructor
-      - core.McmaResourceType
       - core.McmaTracker
       - core.McmaTrackerProperties
       - core.Notification
@@ -141,8 +140,6 @@ references:
     name: onResourceUpsert(McmaResourceProperties, string)
   - uid: core.McmaResourceConstructor
     name: McmaResourceConstructor
-  - uid: core.McmaResourceType
-    name: McmaResourceType
   - uid: core.McmaTracker
     name: McmaTracker
   - uid: core.McmaTrackerProperties

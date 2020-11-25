@@ -31,6 +31,7 @@ items:
     content: 'public abstract class McmaApiRoute : IMcmaApiRoute'
     content.vb: >-
       Public MustInherit Class McmaApiRoute
+
           Implements IMcmaApiRoute
   inheritance:
   - System.Object

@@ -8,7 +8,6 @@ items:
       - aws-client.isAwsInstance
       - aws-client.AwsAuthContext1
       - aws-client.AwsAuthContext2
-      - aws-client.AwsAuthContext
       - aws-client.isAwsAuthContext1Instance
       - aws-client.isAwsAuthContext2Instance
       - aws-client.AwsConfig
@@ -29,8 +28,6 @@ references:
     name: AwsAuthContext1
   - uid: aws-client.AwsAuthContext2
     name: AwsAuthContext2
-  - uid: aws-client.AwsAuthContext
-    name: AwsAuthContext
   - uid: aws-client.isAwsAuthContext1Instance
     name: isAwsAuthContext1Instance(any)
   - uid: aws-client.isAwsAuthContext2Instance

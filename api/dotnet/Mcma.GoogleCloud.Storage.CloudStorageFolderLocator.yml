@@ -28,7 +28,9 @@ items:
     content: 'public class CloudStorageFolderLocator : CloudStorageLocator, IDictionary<string, object>, ICollection<KeyValuePair<string, object>>, IEnumerable<KeyValuePair<string, object>>, IEnumerable, IDynamicMetaObjectProvider'
     content.vb: >-
       Public Class CloudStorageFolderLocator
+
           Inherits CloudStorageLocator
+
           Implements IDictionary(Of String, Object), ICollection(Of KeyValuePair(Of String, Object)), IEnumerable(Of KeyValuePair(Of String, Object)), IEnumerable, IDynamicMetaObjectProvider
   inheritance:
   - System.Object

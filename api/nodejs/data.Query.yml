@@ -28,7 +28,7 @@ items:
       content: 'filterExpression?: FilterExpression<TDocument>'
       return:
         type:
-          - data.FilterExpression<TDocument>
+          - FilterExpression<TDocument>
         description: ''
     package: data
   - uid: data.Query.pageSize
@@ -110,12 +110,3 @@ items:
           - string
         description: ''
     package: data
-references:
-  - uid: data.FilterExpression<TDocument>
-    name: FilterExpression<TDocument>
-    spec.typeScript:
-      - name: FilterExpression
-        fullName: FilterExpression
-        uid: data.FilterExpression
-      - name: <TDocument>
-        fullName: <TDocument>

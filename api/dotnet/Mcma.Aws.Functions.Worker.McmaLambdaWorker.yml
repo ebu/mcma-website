@@ -29,6 +29,7 @@ items:
     content: 'public class McmaLambdaWorker : IMcmaLambdaFunctionHandler<McmaWorkerRequest>'
     content.vb: >-
       Public Class McmaLambdaWorker
+
           Implements IMcmaLambdaFunctionHandler(Of McmaWorkerRequest)
   inheritance:
   - System.Object

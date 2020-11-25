@@ -71,6 +71,7 @@ items:
   syntax:
     content: >-
       public static Task<T> UnwrapResourceAsync<T>(this ResponseMessage responseMessage)
+
           where T : class
     parameters:
     - id: responseMessage
@@ -119,6 +120,7 @@ items:
   syntax:
     content: >-
       public static Task<T> ToObjectAsync<T>(this ResponseMessage responseMessage)
+
           where T : class
     parameters:
     - id: responseMessage

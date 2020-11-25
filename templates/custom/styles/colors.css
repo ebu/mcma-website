@@ -20,10 +20,12 @@
     /* Topbar */
     --topbar-bg-color: #222631;
     --topbar-border-color: #1a1e26;
-    --topbar-active-item-color: #161922;
+    --topbar-active-item-color: #1b1e27;
+    --topbar-dropdown-border-color: #282e35;
 
-    /* Subnav */
+    /* Subnav & Breadcrumb */
     --subnav-bg-color: #292d39;
+    --breadcrumb-bg-color: #2f3136;
     
     /* Button */
     --button-color: #747f8d;
@@ -56,7 +58,6 @@
     --blockquote-border-color: rgba(255,255,255,.5);
     --blockquote-bg-color: rgba(255,255,255,.1);
 
-    --breadcrumb-bg-color: #2f3136;
 
     /* Code Higlighting */
     --code-bg-color: #1f2228;
@@ -75,11 +76,19 @@
     --btn-secondary-active-color: rgba(187, 201, 251, 0.2);
     --btn-secondary-border-color: var(--btn-primary-active-color);
 
+    /* Search Results */
     --search-mark-bg-color: #9fbcff;
     --search-result-item-color: var(--btn-primary-active-color);
     --search-result-href-color: var(--link-hover-color);
 
+    /* Pagination */
     --pagination-button-bg-color: #394559;
     --pagination-button-border-color: #3a4350;
     --pagination-button-bg-hover-color: #596c8a;
+
+    /* Table of Contents */
+    --toc-item-color: #c9cedb;
+    --toc-item-hover-color: white;
+    --toc-item-active-color: var(--btn-primary-color);
+    --toc-item-active-hover-color: var(--btn-primary-active-color);
 }

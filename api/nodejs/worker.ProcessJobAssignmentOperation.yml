@@ -74,7 +74,7 @@ items:
           description: ''
         - id: handler
           type:
-            - worker.JobProfileHandler<T>
+            - JobProfileHandler<T>
           description: ''
       return:
         type:
@@ -149,14 +149,6 @@ references:
       - name: WorkerRequest
         fullName: WorkerRequest
         uid: worker.WorkerRequest
-  - uid: worker.JobProfileHandler<T>
-    name: JobProfileHandler<T>
-    spec.typeScript:
-      - name: JobProfileHandler
-        fullName: JobProfileHandler
-        uid: worker.JobProfileHandler
-      - name: <T>
-        fullName: <T>
   - uid: worker.ProcessJobProfile<T>
     name: ProcessJobProfile<T>
     spec.typeScript:

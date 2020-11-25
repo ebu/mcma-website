@@ -70,6 +70,7 @@ items:
   syntax:
     content: >-
       public static McmaApiBuilder AddDefaultRoutes<TResource>(this McmaApiBuilder apiBuilder, string root = null, Action<DefaultRouteCollectionBuilder<TResource>> configureRoutes = null)
+
           where TResource : McmaResource
     parameters:
     - id: apiBuilder

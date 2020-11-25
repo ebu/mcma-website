@@ -28,6 +28,7 @@ items:
   syntax:
     content: >-
       public class DefaultRouteCollectionOptions<TResource>
+
           where TResource : McmaResource
     typeParameters:
     - id: TResource

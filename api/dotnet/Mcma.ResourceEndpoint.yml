@@ -33,7 +33,9 @@ items:
     content: 'public class ResourceEndpoint : McmaObject, IDictionary<string, object>, ICollection<KeyValuePair<string, object>>, IEnumerable<KeyValuePair<string, object>>, IEnumerable, IDynamicMetaObjectProvider'
     content.vb: >-
       Public Class ResourceEndpoint
+
           Inherits McmaObject
+
           Implements IDictionary(Of String, Object), ICollection(Of KeyValuePair(Of String, Object)), IEnumerable(Of KeyValuePair(Of String, Object)), IEnumerable, IDynamicMetaObjectProvider
   inheritance:
   - System.Object

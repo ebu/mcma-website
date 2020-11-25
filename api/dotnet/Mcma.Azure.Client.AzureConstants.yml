@@ -31,6 +31,7 @@ items:
     content: 'public class AzureConstants : object'
     content.vb: >-
       Public Class AzureConstants
+
           Inherits Object
   inheritance:
   - System.Object

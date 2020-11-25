@@ -67,18 +67,10 @@ items:
       content: 'registeredAuthTypes: [key: string]: AuthenticatorFactory'
       return:
         type:
-          - '[key: string]: client.AuthenticatorFactory'
+          - '[key: string]: AuthenticatorFactory'
         description: ''
     package: client
 references:
-  - uid: '[key: string]: client.AuthenticatorFactory'
-    name: AuthenticatorFactory
-    spec.typeScript:
-      - name: '[key: string]: '
-        fullName: '[key: string]: '
-      - name: AuthenticatorFactory
-        fullName: AuthenticatorFactory
-        uid: client.AuthenticatorFactory
   - uid: client.AuthTypeRegistration<T>
     name: AuthTypeRegistration<T>
     spec.typeScript:

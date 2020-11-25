@@ -32,7 +32,9 @@ items:
     content: 'public class CosmosDbMutex : DocumentDatabaseMutex, IDocumentDatabaseMutex'
     content.vb: >-
       Public Class CosmosDbMutex
+
           Inherits DocumentDatabaseMutex
+
           Implements IDocumentDatabaseMutex
   inheritance:
   - System.Object

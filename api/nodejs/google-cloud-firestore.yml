@@ -10,8 +10,6 @@ items:
       - google-cloud-firestore.FirestoreTable
       - google-cloud-firestore.FirestoreTableProvider
       - google-cloud-firestore.FirestoreTableProviderOptions
-      - google-cloud-firestore.CustomQueryFactory
-      - google-cloud-firestore.CustomQueryRegistry
       - google-cloud-firestore.parsePathAndGuid
     type: package
     langs:
@@ -29,9 +27,5 @@ references:
     name: FirestoreTableProvider
   - uid: google-cloud-firestore.FirestoreTableProviderOptions
     name: FirestoreTableProviderOptions
-  - uid: google-cloud-firestore.CustomQueryFactory
-    name: CustomQueryFactory
-  - uid: google-cloud-firestore.CustomQueryRegistry
-    name: CustomQueryRegistry
   - uid: google-cloud-firestore.parsePathAndGuid
     name: parsePathAndGuid(string)

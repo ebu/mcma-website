@@ -31,6 +31,7 @@ items:
     content: 'public abstract class WorkerInvoker : IWorkerInvoker'
     content.vb: >-
       Public MustInherit Class WorkerInvoker
+
           Implements IWorkerInvoker
   inheritance:
   - System.Object

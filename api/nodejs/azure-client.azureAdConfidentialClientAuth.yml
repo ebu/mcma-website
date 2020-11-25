@@ -12,7 +12,7 @@ items:
       parameters:
         - id: options
           type:
-            - azure-client.ConfigurationWithTenant
+            - ConfigurationWithTenant
           description: ''
       return:
         type:
@@ -20,12 +20,6 @@ items:
         description: ''
     package: azure-client
 references:
-  - uid: azure-client.ConfigurationWithTenant
-    name: ConfigurationWithTenant
-    spec.typeScript:
-      - name: ConfigurationWithTenant
-        fullName: ConfigurationWithTenant
-        uid: azure-client.ConfigurationWithTenant
   - uid: AuthTypeRegistration<azure-client.AzureAdAuthContext>
     name: AzureAdAuthContext>
     spec.typeScript:

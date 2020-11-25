@@ -108,6 +108,7 @@ items:
   syntax:
     content: >-
       public McmaWorkerBuilder AddOperation<TOperation>()
+
           where TOperation : class, IMcmaWorkerOperation
     typeParameters:
     - id: TOperation

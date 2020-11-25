@@ -31,7 +31,9 @@ items:
     - id: TResource
     content.vb: >-
       Public Class DefaultUpdateRoute(Of TResource As McmaResource)
+
           Inherits McmaApiRoute
+
           Implements IDefaultUpdateRoute(Of TResource), IMcmaApiRoute
   inheritance:
   - System.Object

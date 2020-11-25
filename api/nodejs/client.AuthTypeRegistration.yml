@@ -23,7 +23,7 @@ items:
       content: 'authenticatorFactory: AuthenticatorFactory<T>'
       return:
         type:
-          - client.AuthenticatorFactory<T>
+          - AuthenticatorFactory<T>
         description: ''
     package: client
   - uid: client.AuthTypeRegistration.authType
@@ -41,12 +41,3 @@ items:
           - string
         description: ''
     package: client
-references:
-  - uid: client.AuthenticatorFactory<T>
-    name: AuthenticatorFactory<T>
-    spec.typeScript:
-      - name: AuthenticatorFactory
-        fullName: AuthenticatorFactory
-        uid: client.AuthenticatorFactory
-      - name: <T>
-        fullName: <T>

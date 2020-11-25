@@ -48,16 +48,10 @@ items:
       parameters:
         - id: invokeWorker
           type:
-            - worker-invoker.InvokeWorker
+            - InvokeWorker
           description: ''
     package: worker-invoker
 references:
-  - uid: worker-invoker.InvokeWorker
-    name: InvokeWorker
-    spec.typeScript:
-      - name: InvokeWorker
-        fullName: InvokeWorker
-        uid: worker-invoker.InvokeWorker
   - uid: worker-invoker.WorkerRequestProperties
     name: WorkerRequestProperties
     spec.typeScript:

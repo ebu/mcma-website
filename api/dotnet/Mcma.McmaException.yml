@@ -35,7 +35,9 @@ items:
       <Serializable>
 
       Public NotInheritable Class McmaException
+
           Inherits Exception
+
           Implements ISerializable
   inheritance:
   - System.Object

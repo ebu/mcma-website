@@ -106,6 +106,7 @@ items:
   syntax:
     content: >-
       public DynamoDbTableBuilder AddCustomQueryBuilder<TParameters, TCustomQueryBuilder>()
+
           where TCustomQueryBuilder : class, ICustomQueryBuilder<TParameters, QueryOperationConfig>
     typeParameters:
     - id: TParameters
@@ -146,6 +147,7 @@ items:
   syntax:
     content: >-
       public DynamoDbTableBuilder AddAttributeMapping<TAttributeMapping>()
+
           where TAttributeMapping : class, IAttributeMapping
     typeParameters:
     - id: TAttributeMapping

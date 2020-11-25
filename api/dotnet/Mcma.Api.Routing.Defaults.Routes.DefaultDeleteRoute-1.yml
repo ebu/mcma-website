@@ -31,7 +31,9 @@ items:
     - id: TResource
     content.vb: >-
       Public Class DefaultDeleteRoute(Of TResource As McmaResource)
+
           Inherits McmaApiRoute
+
           Implements IDefaultDeleteRoute(Of TResource), IMcmaApiRoute
   inheritance:
   - System.Object

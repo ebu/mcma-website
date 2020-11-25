@@ -121,6 +121,7 @@ items:
   syntax:
     content: >-
       public static IServiceCollection AddMcmaAzureFunctionJobAssignmentWorker<TJob>(this IServiceCollection services, string applicationName, Action<ProcessJobAssignmentOperationBuilder<TJob>> addProfiles, Action<CosmosDbTableOptions> configureCosmosDb = null, Action<McmaWorkerBuilder> addAdditionalOperations = null)
+
           where TJob : Job
     parameters:
     - id: services

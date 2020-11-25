@@ -38,7 +38,7 @@ items:
           description: ''
         - id: customQueryRegistry
           type:
-            - azure-cosmos-db.CustomQueryRegistry
+            - CustomQueryRegistry
           description: ''
     package: azure-cosmos-db
   - uid: azure-cosmos-db.CosmosDbTable.createMutex
@@ -171,10 +171,3 @@ items:
           - Promise<QueryResults<TDocument>>
         description: ''
     package: azure-cosmos-db
-references:
-  - uid: azure-cosmos-db.CustomQueryRegistry
-    name: CustomQueryRegistry
-    spec.typeScript:
-      - name: CustomQueryRegistry
-        fullName: CustomQueryRegistry
-        uid: azure-cosmos-db.CustomQueryRegistry

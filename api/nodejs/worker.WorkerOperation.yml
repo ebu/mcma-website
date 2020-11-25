@@ -23,7 +23,7 @@ items:
       content: 'accepts: OperationFilter'
       return:
         type:
-          - worker.OperationFilter
+          - OperationFilter
         description: ''
     package: worker
   - uid: worker.WorkerOperation.execute
@@ -38,19 +38,6 @@ items:
       content: 'execute: OperationHandler'
       return:
         type:
-          - worker.OperationHandler
+          - OperationHandler
         description: ''
     package: worker
-references:
-  - uid: worker.OperationFilter
-    name: OperationFilter
-    spec.typeScript:
-      - name: OperationFilter
-        fullName: OperationFilter
-        uid: worker.OperationFilter
-  - uid: worker.OperationHandler
-    name: OperationHandler
-    spec.typeScript:
-      - name: OperationHandler
-        fullName: OperationHandler
-        uid: worker.OperationHandler

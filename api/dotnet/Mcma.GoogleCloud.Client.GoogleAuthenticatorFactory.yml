@@ -29,7 +29,9 @@ items:
     content: 'public class GoogleAuthenticatorFactory : AuthenticatorFactory<GoogleAuthContext>, IAuthenticatorFactory'
     content.vb: >-
       Public Class GoogleAuthenticatorFactory
+
           Inherits AuthenticatorFactory(Of GoogleAuthContext)
+
           Implements IAuthenticatorFactory
   inheritance:
   - System.Object

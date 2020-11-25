@@ -78,11 +78,6 @@ h5 {
     color: var(--h5-color);
 }
 
-h6 {
-    font-size: .75em;
-    margin: 0;
-}
-
 p {
     font-weight: 400;
 }
@@ -174,17 +169,49 @@ nav.navbar {
     display: none;
 }
 
-.navbar-inverse .navbar-nav > li > a {
+.navbar-nav > li {
+    height: 50px;
+    overflow: hidden;
+}
+
+.navbar-inverse .navbar-nav > li > .expand-stub {
+    top: 15px;
+    left: 10px;
+    z-index: 1;
+}
+
+.navbar-inverse .navbar-nav > li > .expand-stub::before {
+    content: "\e114";
+    font-family: "Glyphicons Halflings";
+}
+
+.navbar-inverse .navbar-nav > li > .expand-stub + a {
+    padding-left: 30px;
+}
+
+.navbar-inverse .navbar-nav li > a {
     text-transform: uppercase;
     color: #dfdfdf;
 }
 
-.navbar-inverse .navbar-nav > .active > a {
+.navbar-inverse .navbar-nav .active > a,
+.navbar-inverse .navbar-nav .active > a:focus {
     background-color: var(--topbar-active-item-color);
 }
+.navbar-inverse .navbar-nav .nav {
+    z-index: 1;
+    margin-left: 0;
+}
 
-.navbar-inverse .navbar-nav > .active > a:hover {
-    background-color: var(--topbar-active-item-color);
+.navbar-inverse .navbar-nav .nav li {
+    background-color: var(--topbar-bg-color);
+    border-width: 0 1px 1px 1px;
+    border-color: var(--topbar-dropdown-border-color);
+}
+
+.navbar-inverse .navbar-nav .nav a:hover {
+    background-color: var(--toc-item-active-color);
+    color: white;
 }
 
 @media (min-width: 992px) {
@@ -302,20 +329,20 @@ body .toc {
 }
 
 .toc .nav > li > a {
-    color: var(--h3-color);
+    color: var(--toc-item-color);
 }
 
 .toc .nav > li > a:hover, 
 .toc .nav > li > a:focus {
-    color: white;
+    color: var(--toc-item-hover-color);
 }
 
 .toc .nav > li.active > a {
-    color: var(--btn-primary-color);
+    color: var(--toc-item-active-color);
 }
 
 .toc .nav > li.active > a:hover {
-    color: var(--btn-primary-active-color);
+    color: var(--toc-item-active-hover-color);
 }
 
 .deemphasize {

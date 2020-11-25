@@ -163,6 +163,7 @@ items:
   syntax:
     content: >-
       Task<IEnumerable<T>> QueryAsync<T>(params (string, string)[] filter)
+
           where T : McmaObject
     parameters:
     - id: filter
@@ -201,6 +202,7 @@ items:
   syntax:
     content: >-
       Task<IEnumerable<T>> QueryAsync<T>(CancellationToken cancellationToken, params (string, string)[] filter)
+
           where T : McmaObject
     parameters:
     - id: cancellationToken
@@ -241,6 +243,7 @@ items:
   syntax:
     content: >-
       Task<T> GetAsync<T>(string resourceId, CancellationToken cancellationToken = default(CancellationToken))
+
           where T : McmaObject
     parameters:
     - id: resourceId
@@ -281,6 +284,7 @@ items:
   syntax:
     content: >-
       Task<T> CreateAsync<T>(T resource, CancellationToken cancellationToken = default(CancellationToken))
+
           where T : McmaObject
     parameters:
     - id: resource
@@ -321,6 +325,7 @@ items:
   syntax:
     content: >-
       Task<T> UpdateAsync<T>(string resourceId, T resource, CancellationToken cancellationToken = default(CancellationToken))
+
           where T : McmaObject
     parameters:
     - id: resourceId
@@ -363,6 +368,7 @@ items:
   syntax:
     content: >-
       Task DeleteAsync<T>(string resourceId, CancellationToken cancellationToken = default(CancellationToken))
+
           where T : McmaObject
     parameters:
     - id: resourceId
@@ -403,6 +409,7 @@ items:
   syntax:
     content: >-
       Task SendNotificationAsync<T>(string resourceId, T resource, NotificationEndpoint notificationEndpoint, CancellationToken cancellationToken = default(CancellationToken))
+
           where T : McmaObject
     parameters:
     - id: resourceId

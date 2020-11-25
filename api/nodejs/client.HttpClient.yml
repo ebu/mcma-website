@@ -86,7 +86,7 @@ items:
           optional: true
         - id: config
           type:
-            - client.HttpClientConfig
+            - HttpClientConfig
           description: ''
           optional: true
     package: client
@@ -190,12 +190,6 @@ references:
       - name: Authenticator
         fullName: Authenticator
         uid: client.Authenticator
-  - uid: client.HttpClientConfig
-    name: HttpClientConfig
-    spec.typeScript:
-      - name: HttpClientConfig
-        fullName: HttpClientConfig
-        uid: client.HttpClientConfig
   - uid: string | client.HttpRequestConfig
     name: HttpRequestConfig
     spec.typeScript:

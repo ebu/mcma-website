@@ -31,6 +31,7 @@ items:
   syntax:
     content: >-
       public class DefaultQueryRouteBuilder<TResource>
+
           where TResource : McmaResource
     typeParameters:
     - id: TResource
@@ -81,6 +82,7 @@ items:
   syntax:
     content: >-
       public void HandleWith<TOverride>()
+
           where TOverride : class, IDefaultQueryRoute<TResource>
     typeParameters:
     - id: TOverride
@@ -118,6 +120,7 @@ items:
   syntax:
     content: >-
       public DefaultQueryRouteBuilder<TResource> AddQueryExecutor<TQueryExecutor>()
+
           where TQueryExecutor : class, IDefaultRouteQueryExecutor<TResource>
     typeParameters:
     - id: TQueryExecutor
@@ -157,6 +160,7 @@ items:
   syntax:
     content: >-
       public DefaultQueryRouteBuilder<TResource> AddRouteStartedHandler<TRouteStartedHandler>()
+
           where TRouteStartedHandler : class, IDefaultQueryRouteStartedHandler<TResource>
     typeParameters:
     - id: TRouteStartedHandler
@@ -196,6 +200,7 @@ items:
   syntax:
     content: >-
       public DefaultQueryRouteBuilder<TResource> AddRouteCompletedHandler<TRouteCompletedHandler>()
+
           where TRouteCompletedHandler : class, IDefaultQueryRouteCompletedHandler<TResource>
     typeParameters:
     - id: TRouteCompletedHandler

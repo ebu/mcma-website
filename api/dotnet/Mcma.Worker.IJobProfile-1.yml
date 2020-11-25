@@ -28,6 +28,7 @@ items:
   syntax:
     content: >-
       public interface IJobProfile<TJob>
+
           where TJob : Job
     typeParameters:
     - id: TJob

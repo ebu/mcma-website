@@ -5,23 +5,17 @@ items:
     summary: ""
     children:
       - data.getTableName
-      - data.Document
       - data.DocumentDatabaseMutex
       - data.LockData
       - data.DocumentDatabaseTable
       - data.DocumentDatabaseTableProvider
-      - data.DocumentType
       - data.CustomQuery
-      - data.CustomQueryParameters
       - data.isCustomQuery
       - data.FilterCriteria
       - data.FilterCriteriaGroup
-      - data.FilterExpression
       - data.hasFilterCriteria
       - data.isFilterCriteriaGroup
       - data.getFilterExpressionFromKeyValuePairs
-      - data.BinaryOperator
-      - data.LogicalOperator
       - data.Query
       - data.QueryResults
     type: package
@@ -30,8 +24,6 @@ items:
 references:
   - uid: data.getTableName
     name: getTableName(ConfigVariables)
-  - uid: data.Document
-    name: Document
   - uid: data.DocumentDatabaseMutex
     name: DocumentDatabaseMutex
   - uid: data.LockData
@@ -40,30 +32,20 @@ references:
     name: DocumentDatabaseTable
   - uid: data.DocumentDatabaseTableProvider
     name: DocumentDatabaseTableProvider
-  - uid: data.DocumentType
-    name: DocumentType
   - uid: data.CustomQuery
     name: CustomQuery
-  - uid: data.CustomQueryParameters
-    name: CustomQueryParameters
   - uid: data.isCustomQuery
     name: isCustomQuery(any)
   - uid: data.FilterCriteria
     name: FilterCriteria
   - uid: data.FilterCriteriaGroup
     name: FilterCriteriaGroup
-  - uid: data.FilterExpression
-    name: FilterExpression
   - uid: data.hasFilterCriteria
     name: hasFilterCriteria(FilterExpression<T>)
   - uid: data.isFilterCriteriaGroup
     name: isFilterCriteriaGroup(any)
   - uid: data.getFilterExpressionFromKeyValuePairs
     name: "getFilterExpressionFromKeyValuePairs([key: string]: any)"
-  - uid: data.BinaryOperator
-    name: BinaryOperator
-  - uid: data.LogicalOperator
-    name: LogicalOperator
   - uid: data.Query
     name: Query
   - uid: data.QueryResults

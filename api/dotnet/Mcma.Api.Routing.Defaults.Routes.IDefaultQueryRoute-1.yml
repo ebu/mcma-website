@@ -29,6 +29,7 @@ items:
     - id: TResource
     content.vb: >-
       Public Interface IDefaultQueryRoute(Of TResource As McmaResource)
+
           Inherits IMcmaApiRoute
   inheritedMembers:
   - Mcma.Api.Routes.IMcmaApiRoute.HttpMethod

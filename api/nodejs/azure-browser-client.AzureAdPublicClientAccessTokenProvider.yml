@@ -28,7 +28,7 @@ items:
       parameters:
         - id: options
           type:
-            - azure-browser-client.ConfigurationWithTenant
+            - ConfigurationWithTenant
           description: ''
         - id: userAccount
           type:
@@ -56,12 +56,6 @@ items:
         description: ''
     package: azure-browser-client
 references:
-  - uid: azure-browser-client.ConfigurationWithTenant
-    name: ConfigurationWithTenant
-    spec.typeScript:
-      - name: ConfigurationWithTenant
-        fullName: ConfigurationWithTenant
-        uid: azure-browser-client.ConfigurationWithTenant
   - uid: azure-browser-client.AzureAdAuthContext
     name: AzureAdAuthContext
     spec.typeScript:

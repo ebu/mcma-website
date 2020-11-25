@@ -29,6 +29,7 @@ items:
     content: 'public static class AppInsightsLoggerProviderServiceCollectionExtensions : object'
     content.vb: >-
       Public Module AppInsightsLoggerProviderServiceCollectionExtensions
+
           Inherits Object
   inheritance:
   - System.Object

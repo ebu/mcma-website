@@ -4,12 +4,9 @@ items:
     name: "@mcma/worker"
     summary: ""
     children:
-      - worker.JobProfileHandler
       - worker.ProcessJobAssignmentHelper
       - worker.ProcessJobAssignmentOperation
       - worker.ProcessJobProfile
-      - worker.OperationFilter
-      - worker.OperationHandler
       - worker.ProviderCollection
       - worker.Providers
       - worker.Worker
@@ -20,18 +17,12 @@ items:
     langs:
       - typeScript
 references:
-  - uid: worker.JobProfileHandler
-    name: JobProfileHandler
   - uid: worker.ProcessJobAssignmentHelper
     name: ProcessJobAssignmentHelper
   - uid: worker.ProcessJobAssignmentOperation
     name: ProcessJobAssignmentOperation
   - uid: worker.ProcessJobProfile
     name: ProcessJobProfile
-  - uid: worker.OperationFilter
-    name: OperationFilter
-  - uid: worker.OperationHandler
-    name: OperationHandler
   - uid: worker.ProviderCollection
     name: ProviderCollection
   - uid: worker.Providers

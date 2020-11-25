@@ -28,6 +28,7 @@ items:
     content: 'public class SetTrackerOnCreationStarted : IDefaultCreateRouteStartedHandler<JobAssignment>'
     content.vb: >-
       Public Class SetTrackerOnCreationStarted
+
           Implements IDefaultCreateRouteStartedHandler(Of JobAssignment)
   inheritance:
   - System.Object

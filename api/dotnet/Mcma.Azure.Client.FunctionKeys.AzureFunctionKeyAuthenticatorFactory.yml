@@ -30,7 +30,9 @@ items:
     content: 'public class AzureFunctionKeyAuthenticatorFactory : AuthenticatorFactory<AzureFunctionKeyAuthContext>, IAuthenticatorFactory, IDisposable'
     content.vb: >-
       Public Class AzureFunctionKeyAuthenticatorFactory
+
           Inherits AuthenticatorFactory(Of AzureFunctionKeyAuthContext)
+
           Implements IAuthenticatorFactory, IDisposable
   inheritance:
   - System.Object

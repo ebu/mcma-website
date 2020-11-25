@@ -30,6 +30,7 @@ items:
     content: 'public class QueueWorkerInvokerOptions : WorkerInvokerOptions'
     content.vb: >-
       Public Class QueueWorkerInvokerOptions
+
           Inherits WorkerInvokerOptions
   inheritance:
   - System.Object

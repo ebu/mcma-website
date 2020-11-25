@@ -29,6 +29,7 @@ items:
     content: 'public class FirestoreMcmaConverter : IFirestoreConverter<McmaObject>'
     content.vb: >-
       Public Class FirestoreMcmaConverter
+
           Implements IFirestoreConverter(Of McmaObject)
   inheritance:
   - System.Object

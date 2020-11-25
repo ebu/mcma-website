@@ -7,7 +7,6 @@ items:
       - azure-browser-client.AzureAdAuthContext
       - azure-browser-client.azureAdPublicClientAuth
       - azure-browser-client.AzureAdPublicClientAccessTokenProvider
-      - azure-browser-client.ConfigurationWithTenant
     type: package
     langs:
       - typeScript
@@ -18,5 +17,3 @@ references:
     name: azureAdPublicClientAuth(ConfigurationWithTenant, AccountInfo)
   - uid: azure-browser-client.AzureAdPublicClientAccessTokenProvider
     name: AzureAdPublicClientAccessTokenProvider
-  - uid: azure-browser-client.ConfigurationWithTenant
-    name: ConfigurationWithTenant

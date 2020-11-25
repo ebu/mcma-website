@@ -39,6 +39,7 @@ items:
     content: 'public abstract class DocumentDatabaseMutex : IDocumentDatabaseMutex'
     content.vb: >-
       Public MustInherit Class DocumentDatabaseMutex
+
           Implements IDocumentDatabaseMutex
   inheritance:
   - System.Object

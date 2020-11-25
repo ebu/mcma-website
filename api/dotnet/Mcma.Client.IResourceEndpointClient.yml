@@ -102,6 +102,7 @@ items:
   syntax:
     content: >-
       Task<QueryResults<T>> QueryAsync<T>(string url = null, params (string Key, string Value)[] queryParameters)
+
           where T : McmaObject
     parameters:
     - id: url
@@ -142,6 +143,7 @@ items:
   syntax:
     content: >-
       Task<QueryResults<T>> QueryAsync<T>(CancellationToken cancellationToken, params (string Key, string Value)[] queryParameters)
+
           where T : McmaObject
     parameters:
     - id: cancellationToken
@@ -182,6 +184,7 @@ items:
   syntax:
     content: >-
       Task<QueryResults<T>> QueryAsync<T>(string url, CancellationToken cancellationToken, params (string Key, string Value)[] queryParameters)
+
           where T : McmaObject
     parameters:
     - id: url
@@ -224,6 +227,7 @@ items:
   syntax:
     content: >-
       Task<T> PostAsync<T>(object body, string url = null, CancellationToken cancellationToken = default(CancellationToken))
+
           where T : McmaObject
     parameters:
     - id: body
@@ -301,6 +305,7 @@ items:
   syntax:
     content: >-
       Task<T> GetAsync<T>(string url = null, CancellationToken cancellationToken = default(CancellationToken))
+
           where T : McmaObject
     parameters:
     - id: url
@@ -341,6 +346,7 @@ items:
   syntax:
     content: >-
       Task<T> PutAsync<T>(object body, string url = null, CancellationToken cancellationToken = default(CancellationToken))
+
           where T : McmaObject
     parameters:
     - id: body

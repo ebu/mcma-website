@@ -23,7 +23,7 @@ items:
       content: 'children: FilterExpression<T>[]'
       return:
         type:
-          - 'data.FilterExpression<T>[]'
+          - 'FilterExpression<T>[]'
         description: ''
     package: data
   - uid: data.FilterCriteriaGroup.logicalOperator
@@ -38,21 +38,6 @@ items:
       content: 'logicalOperator: LogicalOperator'
       return:
         type:
-          - data.LogicalOperator
+          - LogicalOperator
         description: ''
     package: data
-references:
-  - uid: 'data.FilterExpression<T>[]'
-    name: 'FilterExpression<T>[]'
-    spec.typeScript:
-      - name: FilterExpression
-        fullName: FilterExpression
-        uid: data.FilterExpression
-      - name: '<T>[]'
-        fullName: '<T>[]'
-  - uid: data.LogicalOperator
-    name: LogicalOperator
-    spec.typeScript:
-      - name: LogicalOperator
-        fullName: LogicalOperator
-        uid: data.LogicalOperator

@@ -29,6 +29,7 @@ items:
     content: 'public class Aws4Authenticator : IAuthenticator'
     content.vb: >-
       Public Class Aws4Authenticator
+
           Implements IAuthenticator
   inheritance:
   - System.Object

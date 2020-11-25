@@ -70,6 +70,7 @@ items:
   syntax:
     content: >-
       public static McmaWorkerBuilder AddProcessJobAssignmentOperation<TJob>(this McmaWorkerBuilder mcmaWorkerBuilder, Action<ProcessJobAssignmentOperationBuilder<TJob>> addProfiles)
+
           where TJob : Job
     parameters:
     - id: mcmaWorkerBuilder

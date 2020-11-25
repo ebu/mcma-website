@@ -34,6 +34,7 @@ items:
     content: 'public class McmaApiRouteCollection : IMcmaApiRouteCollection, IEnumerable<IMcmaApiRoute>, IEnumerable'
     content.vb: >-
       Public Class McmaApiRouteCollection
+
           Implements IMcmaApiRouteCollection, IEnumerable(Of IMcmaApiRoute), IEnumerable
   inheritance:
   - System.Object

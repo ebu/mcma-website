@@ -37,6 +37,7 @@ items:
       description: The type of logger this provides
     content.vb: >-
       Public MustInherit Class LoggerProvider(Of T As ILogger)
+
           Implements ILoggerProvider
   inheritance:
   - System.Object
@@ -168,20 +169,16 @@ items:
   assemblies:
   - Mcma.Core
   namespace: Mcma.Logging
-  summary: "\nGets an <xref href=\"Mcma.Logging.ILogger\" data-throw-if-not-resolved=\"false\"></xref>\n"
   example: []
   syntax:
     content: public ILogger Get(string requestId = null, McmaTracker tracker = null)
     parameters:
     - id: requestId
       type: System.String
-      description: The ID of the current request, if any. This is generally a unique ID provided by the platform on which the code is running.
     - id: tracker
       type: Mcma.McmaTracker
-      description: The tracker for the current MCMA operation, if any
     return:
       type: Mcma.Logging.ILogger
-      description: An <xref href="Mcma.Logging.ILogger" data-throw-if-not-resolved="false"></xref> for the current request and tracker
     content.vb: Public Function Get(requestId As String = Nothing, tracker As McmaTracker = Nothing) As ILogger
   overload: Mcma.Logging.LoggerProvider`1.Get*
   implements:

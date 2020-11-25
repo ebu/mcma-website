@@ -29,6 +29,7 @@ items:
     content: 'public class GoogleAuthenticator : IAuthenticator'
     content.vb: >-
       Public Class GoogleAuthenticator
+
           Implements IAuthenticator
   inheritance:
   - System.Object
