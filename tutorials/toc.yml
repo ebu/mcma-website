@@ -1,2 +1,42 @@
-- name: Introduction
+- name: Getting Started
   href: intro.md
+- name: Node.js
+  items:
+  - name: AWS
+    href: nodejs/aws/intro.md
+    items:
+    - name: Introduction
+      href: nodejs/aws/intro.md
+    - name: Writing a Worker Function
+      href: nodejs/aws/worker.md
+    - name: Writing an API Handler Function
+      href: nodejs/aws/api-handler.md
+    - name: Deploying with Terraform
+      href: nodejs/aws/terraform.md
+  - name: Azure
+    href: nodejs/azure/intro.md
+    items:
+    - name: Introduction
+      href: nodejs/azure/intro.md
+  - name: Google Cloud
+    href: nodejs/google-cloud/intro.md
+    items:
+    - name: Introduction
+      href: nodejs/google-cloud/intro.md
+- name: .NET
+  items:
+  - name: AWS
+    href: dotnet/aws/intro.md
+    items:
+    - name: Introduction
+      href: dotnet/aws/intro.md
+  - name: Azure
+    href: dotnet/azure/intro.md
+    items:
+    - name: Introduction
+      href: dotnet/azure/intro.md
+  - name: Google Cloud (beta)
+    href: dotnet/google-cloud/intro.md
+    items:
+    - name: Introduction
+      href: dotnet/google-cloud/intro.md

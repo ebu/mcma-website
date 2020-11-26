@@ -415,10 +415,10 @@ $(function () {
     }
 
     function toggleNavItem(e) {
-      if ($(e).parent().css("overflow-y") === "hidden") {
-        $(e).parent().css("overflow-y", "visible");
+      if ($(e).parent().css("overflow") === "hidden") {
+        $(e).parent().css("overflow", "visible");
       } else {
-        $(e).parent().css("overflow-y", "hidden");
+        $(e).parent().css("overflow", "hidden");
       }
     }
   }
