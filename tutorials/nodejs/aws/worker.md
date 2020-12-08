@@ -1,15 +1,51 @@
 # The Worker Function
 We'll write our worker function first, as this is where we will focus on what we actually want the service to do - transcoding.
-
-### Create a new Node.js project
+## Create a new Node.js project
 Let's start by creating a new folder for our function:
 ``` shell
 mkdir worker
 cd worker
 npm init ffmpeg-service-worker
 ```
-
-### Install MCMA for a worker function on AWS
+In the root of our project, we need a `tsconfig.json` for the TypeScript compiler:
+``` json
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "build/staging",
+        "target": "es2017",
+        "types": [
+            "node"
+        ],
+        "include": [
+            "src"
+        ],
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "es6",
+            "es7"
+        ],
+        "downlevelIteration": true
+    }
+}
+```
+We configure our output to go to `build/staging`, where we will pick it up and package it into a zip to be deployed to Lambda. Our code will go in a `src` folder:
+```
+mkdir src
+```
+And we'll put new TypeScript file `index.ts` as the entry point for our function. Our folder structure should now look like this:
+```
+.
+└── worker
+    ├── package.json
+    ├── package-lock.json
+    ├── src
+    │   └── index.ts
+    └── tsconfig.json
+```
+## Install MCMA for a worker function on AWS
 Then we'll install the base and AWS packages using npm:
 ``` shell
 npm i @mcma/aws-client @mcma/aws-dynamodb @mcma/aws-logger @mcma/aws-s3 @mcma/client @mcma/core @mcma/data @mcma/worker
@@ -17,7 +53,11 @@ npm i @mcma/aws-client @mcma/aws-dynamodb @mcma/aws-logger @mcma/aws-s3 @mcma/cl
 > [!NOTE]
 > MCMA packages reference one another as [peer dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/) so each package must be installed independently. 
 
-### Write the worker function
+## Write the code
+The worker scaffolding and initialization will go into the `index.ts`. This is also where we'll define our `handler` function to be invoked by Lambda.
+
+### Imports
+First we need to import modules that provide us with some basic AWS and MCMA functionality.
 
 #### Import AWS types
 We'll start by importing the types we need from AWS:
@@ -25,7 +65,6 @@ We'll start by importing the types we need from AWS:
 import * as AWS from "aws-sdk";
 import { Context } from "aws-lambda";
 ```
-
 #### Import MCMA core types
 We also need to import some core MCMA types. These classes are part of the base set of libraries upon which all of the provider-specific libraries are built.
 ``` typescript
@@ -64,7 +103,7 @@ import { awsV4Auth } from "@mcma/aws-client";
 ```
 
 #### Configure our providers
-
+Here we are registering AWS-specific providers with the ProviderCollection. This hooks up our worker with DynamoDB for data storage and CloudWatch for logging, as well as configuring AWS4 authentication for any calls it might make to other services through the [ResourceManager](~/api/nodejs/client.ResourceManager.yml).
 ``` typescript
 const authProvider = new AuthProvider().add(awsV4Auth(AWS));
 const dbTableProvider = new DynamoDbTableProvider();
@@ -78,21 +117,19 @@ const providerCollection = new ProviderCollection({
     resourceManagerProvider
 });
 ```
-Here we are registering AWS-specific providers with the ProviderCollection. This hooks up our worker with DynamoDB for data storage and CloudWatch for logging, as well as configuring AWS4 authentication for any calls it might make to other services (through the [ResourceManager](~/api/nodejs/client.ResourceManager.yml)).
 
-#### Register job processing and profiles
+#### Create a worker and register job processing
+We create a ProcessJobAssignmentOperation that handles TransformJobs and register it with a new Worker. We'll have to register at least one JobProfile for this to work, but we'll come back to that in a bit. 
 ``` typescript
 const processJobAssignmentOperation =
-    new ProcessJobAssignmentOperation(TransformJob)
-        .addProfile("ExtractThumbnail", extractThumbnail);
+    new ProcessJobAssignmentOperation(TransformJob);
 
 const worker =
     new Worker(providerCollection)
         .addOperation(processJobAssignmentOperation);
 ```
-We add the ProcessJobAssignmentOperation to the worker in order to give us job processing capabilites, and then add a handler for the "ExtractThumbnail" TransformJob profile.
 
-#### Add a Lambda handler function
+#### Create the handler function
 This is the function that we will configure Lambda to invoke. It is simply a lightweight wrapper around our worker that adds some logging and error handling.
 ``` typescript
 export async function handler(event: WorkerRequestProperties, context: Context) {
@@ -113,8 +150,9 @@ export async function handler(event: WorkerRequestProperties, context: Context) 
     }
 }
 ```
+We now have a worker function that we can deploy to AWS Lambda, but it doesn't actually do anything yet. Before we can start adding functionality, though, we'll need to wrap FFmpeg into something we can use in our code.
 
 <div class="article-footer-nav">
     <a class="prev" href="intro.md"><i class="glyphicon glyphicon-chevron-left"></i> Introduction</a>
-    <a class="next" href="api-handler.md">Writing an API Handler <i class="glyphicon glyphicon-chevron-right"></i></a>
+    <a class="next" href="ffmpeg.md">Wrapping FFmpeg <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>

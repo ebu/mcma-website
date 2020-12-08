@@ -385,7 +385,10 @@ $(function () {
           var href = $(e).attr("href");
           if (!href) {
             $(e).attr("href", "#");
-            $(e).on("click", () => toggleNavItem(e));
+            $(e).on("click", evt => {
+              evt.stopPropagation();
+              $(e).parent().toggleClass("show");
+            });
           } else if (util.isRelativePath(href)) {
             href = navrel + href;
             $(e).attr("href", href);
@@ -412,14 +415,6 @@ $(function () {
         });
         renderNavbar();
       });
-    }
-
-    function toggleNavItem(e) {
-      if ($(e).parent().css("overflow") === "hidden") {
-        $(e).parent().css("overflow", "visible");
-      } else {
-        $(e).parent().css("overflow", "hidden");
-      }
     }
   }
 

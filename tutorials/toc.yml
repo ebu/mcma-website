@@ -7,9 +7,13 @@
     items:
     - name: Introduction
       href: nodejs/aws/intro.md
-    - name: Writing a Worker Function
+    - name: Scaffolding a Worker Function
       href: nodejs/aws/worker.md
-    - name: Writing an API Handler Function
+    - name: Wrapping FFmpeg
+      href: nodejs/aws/ffmpeg.md
+    - name: Adding a Job Profile
+      href: nodejs/aws/profile.md
+    - name: Writing the API Handler Function
       href: nodejs/aws/api-handler.md
     - name: Deploying with Terraform
       href: nodejs/aws/terraform.md

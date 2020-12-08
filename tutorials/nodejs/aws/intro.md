@@ -5,7 +5,7 @@ In this example, we will be implementing a basic transcoding service using [FFmp
 * An MCMA worker function that imports FFmpeg as an AWS Lambda Layer and runs on AWS Lambda
 * An MCMA API handler function that runs on AWS Lambda and is invoked through AWS API Gateway.
 
-All of the sample code on the next few apges can be found on GitHub in the [MCMA Node.js AWS sample project](https://github.com/ebu/mcma-projects/tree/master/simple-aws).
+All of the sample code on the next few pages can be found on GitHub in the [MCMA Node.js AWS sample project](https://github.com/ebu/mcma-projects/tree/master/simple-aws).
 
 ## Getting Started
 We'll start by creating a directory for the service:
@@ -17,5 +17,5 @@ This gives us a home for all the pieces of our MCMA service. We'll add subdirect
 
 <div class="article-footer-nav">
     <div class="spacer"></div>
-    <a class="next" href="worker.md">Writing a Worker Function <i class="glyphicon glyphicon-chevron-right"></i></a>
+    <a class="next" href="worker.md">Scaffolding a Worker Function <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>

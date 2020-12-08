@@ -183,6 +183,10 @@ nav.navbar {
     overflow: hidden;
 }
 
+.navbar-nav > li.show {
+    overflow: visible;
+}
+
 .navbar-inverse .navbar-nav > li > .expand-stub {
     top: 15px;
     left: 10px;
@@ -207,6 +211,7 @@ nav.navbar {
 .navbar-inverse .navbar-nav .active > a:focus {
     background-color: var(--topbar-active-item-color);
 }
+
 .navbar-inverse .navbar-nav .nav {
     z-index: 1;
     margin-left: 0;
@@ -221,6 +226,28 @@ nav.navbar {
 .navbar-inverse .navbar-nav .nav a:hover {
     background-color: var(--toc-item-active-color);
     color: white;
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        margin-left: 0;
+    }
+
+    .navbar-inverse .navbar-collapse.in {
+        overflow-y: auto
+    }
+
+    .navbar-inverse .navbar-collapse {
+        background-color: var(--subnav-bg-color);
+    }
+    
+    .navbar-nav > li {
+        height: 40px;
+    }
+    
+    .navbar-inverse .navbar-nav > li > .expand-stub {
+        top: 10px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -245,88 +272,6 @@ nav.navbar {
 
 .sidetoc.shiftup {
     bottom: 53px;
-}
-
-.hero {
-    position: relative;
-    height: 350px;
-}
-
-.hero > div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 350px;
-}
-
-.hero-background {
-    opacity: .2;
-    background-image: url(/images/hero.jpg);
-    background-size: cover;
-}
-
-.hero-overlay {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero-logo {
-    height: 150px;
-    margin-left: -20px;
-}
-
-.hero-actions .btn {
-    margin: 25px 10px;
-    padding: 10px 25px;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: bold;
-    width: 200px;
-}
-
-.hero-actions .btn-secondary {
-    background: transparent;
-    color: var(--btn-primary-active-color);
-    border-color: var(--btn-primary-active-color);
-}
-
-.summary-bullets {
-    margin: 50px 30%;
-}
-
-.summary-bullet {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 70px 0;
-}
-
-.summary-bullet img {
-    width: 250px;
-}
-
-.summary-bullet section.left {
-    margin-right: 25px;
-}
-
-.summary-bullet section.right {
-    margin-left: 25px;
-}
-
-.summary-bullet p {
-    font-size: 18px;
-}
-
-.summary-bullet h2 {
-    margin-block-start: 0;
-}
-
-.summary-bullet.media-workflows .glyphicon {
-    font-size: 80px;
-    margin: 30px;
 }
 
 body .toc {
@@ -367,20 +312,12 @@ body .toc {
     background-color: rgba(255, 255, 255, 0.05);
 }
 
-.codewrapper pre {
+.codewrapper pre, .hljs, code {
     background-color: var(--code-bg-color);
 }
 
-.hljs {
+code {
     color: var(--code-color);
-}
-
-.hljs-keyword {
-    color: var(--code-keyword-color);
-}
-
-.hljs-title {
-    color: var(--code-title-color);
 }
 
 .table-bordered {

@@ -14,6 +14,18 @@ documentType: index
     </div>
   </div>
   <div class="summary-bullets">
+    <div class="summary-bullet sponsors">
+      <div class="ebu-project-label">
+          <span>An open source project by the</span>
+      </div>
+      <div class="ebu-logo">
+          <img src="/images/ebu-logo.png">
+      </div>
+      <div class="ebu-links">
+          <a class="ebu-github" href="https://github.com/ebu/?q=mcma" target="_blank">View on GitHub</a>
+          <a class="ebu-group" href="https://tech.ebu.ch/groups/mcma" target="_blank">Join the EBU group</a>
+      </div>
+    </div>
     <div class="summary-bullet media-workflows">
       <i class="glyphicon glyphicon-film"></i>
       <section class="right">

@@ -12,9 +12,9 @@
   <link rel="stylesheet" href="{{_rel}}styles/colors.css">
   <link rel="stylesheet" href="{{_rel}}styles/docfx.vendor.css">
   <link rel="stylesheet" href="{{_rel}}styles/docfx.css">
-  <link rel="stylesheet" href="{{_rel}}styles/night-owl.css">`
+  <link rel="stylesheet" href="{{_rel}}styles/night-owl.css">
   <link rel="stylesheet" href="{{_rel}}styles/main.css">
-  <link rel="stylesheet" href="{{_rel}}styles/api.css">
+  <link rel="stylesheet" href="{{_rel}}styles/index.css">
   <meta property="docfx:navrel" content="{{_navRel}}">
   <meta property="docfx:tocrel" content="{{_tocRel}}">
   {{#_noindex}}<meta name="searchOption" content="noindex">{{/_noindex}}
