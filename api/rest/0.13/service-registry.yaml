@@ -1,0 +1,345 @@
+openapi: 3.0.3
+info:
+    title: MCMA Service Registry
+    license:
+        name: Apache 2.0
+        url: https://www.apache.org/licenses/LICENSE-2.0.html
+    version: '0.13'
+paths:
+    /services:
+        get:
+            operationId: listServices
+            parameters:
+                - name: pageSize
+                  in: query
+                  schema:
+                      type: integer
+                - name: pageStartToken
+                  in: query
+                  schema:
+                      type: string
+                - name: sortBy
+                  in: query
+                  schema:
+                      type: string
+                - name: sortAscending
+                  in: query
+                  schema:
+                      type: boolean
+            responses:
+                200:
+                    description: 200 OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/ServiceQueryResults'
+                default:
+                    $ref: '#/components/responses/ApiError'
+        post:
+            operationId: createService
+            requestBody:
+                required: true
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/Service'
+            responses:
+                201:
+                    description: 201 Created
+                    headers:
+                        Location:
+                            schema:
+                                type: string
+                                format: uri
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/Service'
+                default:
+                    $ref: '#/components/responses/ApiError'
+    /services/{serviceId}:
+        parameters:
+            - name: serviceId
+              in: path
+              required: true
+              schema:
+                  type: string
+        get:
+            operationId: getService
+            responses:
+                200:
+                    description: 200 OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/Service'
+                default:
+                    $ref: '#/components/responses/ApiError'
+        put:
+            operationId: putService
+            requestBody:
+                required: true
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/Service'
+            responses:
+                200:
+                    description: 200 OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/Service'
+                default:
+                    $ref: '#/components/responses/ApiError'
+        delete:
+            operationId: deleteService
+            responses:
+                200:
+                    description: 200 OK
+                default:
+                    $ref: '#/components/responses/ApiError'
+    /job-profiles:
+        get:
+            operationId: listJobProfiles
+            parameters:
+                - name: pageSize
+                  in: query
+                  schema:
+                      type: integer
+                - name: pageStartToken
+                  in: query
+                  schema:
+                      type: string
+                - name: sortBy
+                  in: query
+                  schema:
+                      type: string
+                - name: sortAscending
+                  in: query
+                  schema:
+                      type: boolean
+            responses:
+                200:
+                    description: 200 OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/JobProfileQueryResults'
+                default:
+                    $ref: '#/components/responses/ApiError'
+        post:
+            operationId: createJobProfile
+            requestBody:
+                required: true
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/JobProfile'
+            responses:
+                201:
+                    description: 201 Created
+                    headers:
+                        Location:
+                            schema:
+                                type: string
+                                format: uri
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/JobProfile'
+                default:
+                    $ref: '#/components/responses/ApiError'
+    /job-profiles/{jobProfileId}:
+        parameters:
+            - name: jobProfileId
+              in: path
+              required: true
+              schema:
+                  type: string
+        get:
+            operationId: getJobProfile
+            responses:
+                200:
+                    description: 200 OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/JobProfile'
+                default:
+                    $ref: '#/components/responses/ApiError'
+        put:
+            operationId: putJobProfile
+            requestBody:
+                required: true
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/JobProfile'
+            responses:
+                200:
+                    description: 200 OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/JobProfile'
+                default:
+                    $ref: '#/components/responses/ApiError'
+        delete:
+            operationId: deleteJobProfile
+            responses:
+                200:
+                    description: 200 OK
+                default:
+                    $ref: '#/components/responses/ApiError'
+components:
+    responses:
+        ApiError:
+            description: API Error
+            content:
+                application/json:
+                    schema:
+                        $ref: '#/components/schemas/McmaApiError'
+    schemas:
+        AnyValue:
+            nullable: true
+        McmaObject:
+            type: object
+            properties:
+                '@type':
+                    type: string
+        McmaResource:
+            allOf:
+                - $ref: '#/components/schemas/McmaObject'
+                - type: object
+                  properties:
+                      id:
+                          type: string
+                          format: uri
+                      dateCreated:
+                          type: string
+                          format: date-time
+                      dateModified:
+                          type: string
+                          format: date-time
+                      custom:
+                          type: object
+                          additionalProperties: true
+        ResourceEndpoint:
+            allOf:
+                - $ref: '#/components/schemas/McmaObject'
+                - type: object
+                  properties:
+                      resourceType:
+                          type: string
+                      httpEndpoint:
+                          type: string
+                      authType:
+                          type: string
+                      authContext:
+                          $ref: '#/components/schemas/AnyValue'
+                  required:
+                      - resourceType
+                      - httpEndpoint
+        Service:
+            allOf:
+                - $ref: '#/components/schemas/McmaResource'
+                - type: object
+                  properties:
+                      name:
+                          type: string
+                      resources:
+                          type: array
+                          items:
+                              $ref: '#/components/schemas/ResourceEndpoint'
+                      authType:
+                          type: string
+                      authContext:
+                          $ref: '#/components/schemas/AnyValue'
+                      jobType:
+                          type: string
+                      jobProfileIds:
+                          type: array
+                          items:
+                              type: string
+                              format: uri
+                  required:
+                      - name
+                      - resources
+        JobParameter:
+            allOf:
+                - $ref: '#/components/schemas/McmaObject'
+                - type: object
+                  properties:
+                      parameterName:
+                          type: string
+                      parameterType:
+                          type: string
+                  required:
+                      - parameterName
+                      - parameterType
+        JobProfile:
+            allOf:
+                - $ref: '#/components/schemas/McmaResource'
+                - type: object
+                  properties:
+                      name:
+                          type: string
+                      inputParameters:
+                          type: array
+                          items:
+                              $ref: '#/components/schemas/JobParameter'
+                      outputParameters:
+                          type: array
+                          items:
+                              $ref: '#/components/schemas/JobParameter'
+                      optionalInputParameters:
+                          type: array
+                          items:
+                              $ref: '#/components/schemas/JobParameter'
+                  required:
+                      - name
+        ServiceQueryResults:
+            allOf:
+                - $ref: '#/components/schemas/McmaObject'
+                - type: object
+                  properties:
+                      nextPageStartToken:
+                          type: string
+                      results:
+                          type: array
+                          items:
+                              $ref: '#/components/schemas/Service'
+        JobProfileQueryResults:
+            allOf:
+                - $ref: '#/components/schemas/McmaObject'
+                - type: object
+                  properties:
+                      nextPageStartToken:
+                          type: string
+                      results:
+                          type: array
+                          items:
+                              $ref: '#/components/schemas/JobProfile'
+        McmaApiError:
+            allOf:
+                - $ref: '#/components/schemas/McmaObject'
+                - type: object
+                  properties:
+                      status:
+                          type: integer
+                      error:
+                          type: string
+                      message:
+                          type: string
+                      timestamp:
+                          type: string
+                          format: date-time
+                      path:
+                          type: string
+                  required:
+                      - status
+                      - error
+                      - message
+                      - timestamp
+                      - path

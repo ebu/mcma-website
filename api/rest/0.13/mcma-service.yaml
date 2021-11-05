@@ -1,0 +1,248 @@
+openapi: 3.0.3
+info:
+  title: MCMA Service
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+  version: '0.13'
+paths:
+  /job-assignments:
+    get:
+      operationId: listJobAssignments
+      parameters:
+        - name: pageSize
+          in: query
+          schema:
+            type: integer
+        - name: pageStartToken
+          in: query
+          schema:
+            type: string
+        - name: sortBy
+          in: query
+          schema:
+            type: string
+        - name: sortAscending
+          in: query
+          schema:
+            type: boolean
+      responses:
+        200:
+          description: 200 OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobAssignmentQueryResults'
+        default:
+          $ref: '#/components/responses/ApiError'
+    post:
+      operationId: createJobAssignment
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/JobAssignment'
+      responses:
+        201:
+          description: 201 Created
+          headers:
+            Location:
+              schema:
+                type: string
+                format: uri
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobAssignment'
+        default:
+          $ref: '#/components/responses/ApiError'
+  /job-assignments/{jobAssignmentId}:
+    parameters:
+      - name: jobAssignmentId
+        in: path
+        required: true
+        schema:
+          type: string
+    get:
+      operationId: getJobAssignment
+      responses:
+        200:
+          description: 200 OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobAssignment'
+        default:
+          $ref: '#/components/responses/ApiError'
+    delete:
+      operationId: deleteJobAssignment
+      responses:
+        200:
+          description: 200 OK
+        default:
+          $ref: '#/components/responses/ApiError'
+  /job-assignments/{jobAssignmentId}/cancel:
+    parameters:
+      - name: jobAssignmentId
+        in: path
+        required: true
+        schema:
+          type: string
+    post:
+      operationId: cancelJobAssignment
+      responses:
+        200:
+          description: 200 OK
+        default:
+          $ref: '#/components/responses/ApiError'
+components:
+  responses:
+    ApiError:
+      description: API Error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/McmaApiError'
+  schemas:
+    McmaObject:
+      type: object
+      properties:
+        '@type':
+          type: string
+    McmaResource:
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            id:
+              type: string
+              format: uri
+            dateCreated:
+              type: string
+              format: date-time
+            dateModified:
+              type: string
+              format: date-time
+            custom:
+              type: object
+              additionalProperties: true
+    McmaTracker:
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            id:
+              type: string
+            label:
+              type: string
+            custom:
+              type: object
+              additionalProperties: true
+          required:
+            - id
+            - label
+    NotificationEndpoint:
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            httpEndpoint:
+              type: string
+              format: uri
+          required:
+            - httpEndpoint
+    ProblemDetail:
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            type:
+              type: string
+              format: uri
+            title:
+              type: string
+            detail:
+              type: string
+            instance:
+              type: string
+              format: uri
+          required:
+            - type
+            - title
+          additionalProperties: true
+    JobParameterBag:
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          additionalProperties: true
+    JobBase:
+      allOf:
+        - $ref: '#/components/schemas/McmaResource'
+        - type: object
+          properties:
+            status:
+              type: string
+              enum:
+                - New
+                - Pending
+                - Assigned
+                - Queued
+                - Scheduled
+                - Running
+                - Completed
+                - Failed
+                - Canceled
+            error:
+              $ref: '#/components/schemas/ProblemDetail'
+            jobOutput:
+              $ref: '#/components/schemas/JobParameterBag'
+            progress:
+              type: number
+    JobAssignment:
+      allOf:
+        - $ref: '#/components/schemas/JobBase'
+        - type: object
+          properties:
+            jobId:
+              type: string
+              format: uri
+            tracker:
+              $ref: '#/components/schemas/McmaTracker'
+            notificationEndpoint:
+              $ref: '#/components/schemas/NotificationEndpoint'
+          required:
+            - jobId
+    JobAssignmentQueryResults:
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            nextPageStartToken:
+              type: string
+            results:
+              type: array
+              items:
+                $ref: '#/components/schemas/JobAssignment'
+    McmaApiError:
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            status:
+              type: integer
+            error:
+              type: string
+            message:
+              type: string
+            timestamp:
+              type: string
+              format: date-time
+            path:
+              type: string
+          required:
+            - status
+            - error
+            - message
+            - timestamp
+            - path
