@@ -8,9 +8,11 @@ info:
 paths:
   /jobs:
     get:
+      description: List or query all jobs.
       operationId: listJobs
       parameters:
         - name: status
+          description: Filter results by job status.
           in: query
           schema:
             type: string
@@ -25,16 +27,19 @@ paths:
               - Failed
               - Canceled
         - name: from
+          description: Filter results by job created date bigger than or equal to indicated value.
           in: query
           schema:
             type: string
             format: date-time
         - name: to
+          description: Filter results by job created date smaller than indicated value.
           in: query
           schema:
             type: string
             format: date-time
         - name: order
+          description: Indicates whether the results should be sorted ascending or descending.
           in: query
           schema:
             type: string
@@ -42,13 +47,14 @@ paths:
               - asc
               - desc
         - name: limit
+          description: Indicates the maximum number of results being returned from the API.
           in: query
           schema:
             type: integer
             format: int32
       responses:
         200:
-          description: 200 OK
+          description: 200 OK.
           content:
             application/json:
               schema:
@@ -56,6 +62,7 @@ paths:
         default:
           $ref: '#/components/responses/ApiError'
     post:
+      description: Create a new job.
       operationId: createJob
       requestBody:
         required: true
@@ -65,7 +72,7 @@ paths:
               $ref: '#/components/schemas/Job'
       responses:
         201:
-          description: 201 Created
+          description: 201 Created.
           headers:
             Location:
               schema:
@@ -80,15 +87,17 @@ paths:
   /jobs/{jobId}:
     parameters:
       - name: jobId
+        description: Unique ID identifying a specific job.
         in: path
         required: true
         schema:
           type: string
     get:
+      description: Get a specific job.
       operationId: getJob
       responses:
         200:
-          description: 200 OK
+          description: 200 OK.
           content:
             application/json:
               schema:
@@ -96,48 +105,73 @@ paths:
         default:
           $ref: '#/components/responses/ApiError'
     delete:
+      description: Delete a specific job.
       operationId: deleteJob
       responses:
-        200:
-          description: 200 OK
+        202:
+          description: 202 Accepted.
+        409:
+          description: 409 Conflict. Job is not in a deletable state. A Job can only be deleted if it in a final state (Completed, Failed, Canceled).
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/McmaApiError'
         default:
           $ref: '#/components/responses/ApiError'
   /jobs/{jobId}/cancel:
     parameters:
       - name: jobId
+        description: Unique ID identifying a specific job.
         in: path
         required: true
         schema:
           type: string
     post:
+      description: Cancel a specific job.
       operationId: cancelJob
       responses:
-        200:
-          description: 200 OK
+        202:
+          description: 202 Accepted.
+        409:
+          description: 409 Conflict. Job is not in cancellable state. A Job can only be canceled if it’s not in a final state (Completed, Failed, Canceled).
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/McmaApiError'
         default:
           $ref: '#/components/responses/ApiError'
   /jobs/{jobId}/restart:
     parameters:
       - name: jobId
+        description: Unique ID identifying a specific job.
         in: path
         required: true
         schema:
           type: string
     post:
+      description: Restart a specific job. It will cancel the existing execution in case it hasn't completed yet.
       operationId: restartJob
       responses:
-        200:
-          description: 200 OK
+        202:
+          description: 202 Accepted.
+        409:
+          description: 409 Conflict. Job is not restartable because the job deadline is in the past.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/McmaApiError'
         default:
           $ref: '#/components/responses/ApiError'
   /jobs/{jobId}/executions:
     parameters:
       - name: jobId
+        description: Unique ID identifying a specific job.
         in: path
         required: true
         schema:
           type: string
       - name: status
+        description: Filter results by job execution status.
         in: query
         schema:
           type: string
@@ -152,16 +186,19 @@ paths:
             - Failed
             - Canceled
       - name: from
+        description: Filter results by job execution created date bigger than or equal to indicated value.
         in: query
         schema:
           type: string
           format: date-time
       - name: to
+        description: Filter results by job execution created date smaller than indicated value.
         in: query
         schema:
           type: string
           format: date-time
       - name: order
+        description: Indicates whether the results should be sorted ascending or descending.
         in: query
         schema:
           type: string
@@ -169,15 +206,17 @@ paths:
             - asc
             - desc
       - name: limit
+        description: Indicates the maximum number of results being returned from the API.
         in: query
         schema:
           type: integer
           format: int32
     get:
+      description: List or query all job executions for a specific job.
       operationId: listJobExecutions
       responses:
         200:
-          description: 200 OK
+          description: 200 OK.
           content:
             application/json:
               schema:
@@ -187,20 +226,23 @@ paths:
   /jobs/{jobId}/executions/{executionId}:
     parameters:
       - name: jobId
+        description: Unique ID identifying a specific job.
         in: path
         required: true
         schema:
           type: string
       - name: executionId
+        description: ID identifying a specific execution for a specific job.
         in: path
         required: true
         schema:
           type: string
     get:
+      description: Get a specific job execution.
       operationId: getJobExecution
       responses:
         200:
-          description: 200 OK
+          description: 200 OK.
           content:
             application/json:
               schema:
@@ -210,91 +252,129 @@ paths:
   /jobs/{jobId}/executions/${executionId}/notifications:
     parameters:
       - name: jobId
+        description: Unique ID identifying a specific job.
         in: path
         required: true
         schema:
           type: string
       - name: executionId
+        description: ID identifying a specific execution for a specific job.
         in: path
         required: true
         schema:
           type: string
     post:
+      description: Endpoint for MCMA services to submit job assignment update notifications.
       operationId: postNotification
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Notification'
       responses:
         200:
-          description: 200 OK
+          description: 202 Accepted.
         default:
           $ref: '#/components/responses/ApiError'
 components:
   responses:
     ApiError:
-      description: API Error
+      description: Response from an endpoint if an error occurs during the invocation.
       content:
         application/json:
           schema:
             $ref: '#/components/schemas/McmaApiError'
   schemas:
     McmaObject:
+      description: An MCMA object that's strongly-typed, i.e it specifies a "@type" property.
       type: object
       properties:
         '@type':
+          description: The type of object.
           type: string
     McmaResource:
+      description: An MCMA resource, defining an ID and properties for tracking date created and modified.
       allOf:
         - $ref: '#/components/schemas/McmaObject'
         - type: object
           properties:
             id:
+              description: The ID of the resource.
               type: string
               format: uri
             dateCreated:
+              description: The date and time at which the resource was created.
               type: string
               format: date-time
             dateModified:
+              description: The date and time at which the resource was last modified.
               type: string
               format: date-time
             custom:
+              description: Collection of custom properties for the resource.
               type: object
               additionalProperties: true
     McmaTracker:
+      description: Used for tracking calls across multiple operations in an MCMA environment, particularly for the purpose of logging. Typically this will be stored on job-like objects that support it. It will also be serialized to json and converted to base-64 to be passed in the headers of calls made from a resource manager.
       allOf:
         - $ref: '#/components/schemas/McmaObject'
         - type: object
           properties:
             id:
+              description: The tracker's ID.
               type: string
             label:
+              description: A human-readable label for the tracker.
               type: string
             custom:
+              description: Custom properties that might also be useful for tracking purposes.
               type: object
               additionalProperties: true
           required:
             - id
             - label
+    Notification:
+      description: Represents a job assignment update notification sent by an MCMA Service and received by the Job Processor.
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            content:
+              $ref: '#/components/schemas/JobAssignment'
+            source:
+              description: The source from which the notification was sent.
+              type: string
     NotificationEndpoint:
+      description: Represents an endpoint that receives notifications about MCMA resources.
       allOf:
         - $ref: '#/components/schemas/McmaObject'
         - type: object
           properties:
             httpEndpoint:
+              description: The HTTP url at which notifications are expected.
               type: string
               format: uri
           required:
             - httpEndpoint
     ProblemDetail:
+      description: Represents an error as defined by RFC 7807 (https://tools.ietf.org/html/rfc7807).
       allOf:
         - $ref: '#/components/schemas/McmaObject'
         - type: object
           properties:
             type:
+              description: A URI reference [RFC3986] that identifies the problem type.
               type: string
               format: uri
             title:
+              description: A short, human-readable summary of the problem type.
               type: string
             detail:
+              description: A human-readable explanation specific to this occurrence of the problem.
               type: string
             instance:
+              description: A URI reference that identifies the specific occurrence of the problem. It may or may not yield further information if dereferenced.
               type: string
               format: uri
           required:
@@ -302,16 +382,19 @@ components:
             - title
           additionalProperties: true
     JobParameterBag:
+      description: Collection of job input or output parameter values.
       allOf:
         - $ref: '#/components/schemas/McmaObject'
         - type: object
           additionalProperties: true
     JobBase:
+      description: Represents a job-like object (Job, JobAssignment, or JobExecution).
       allOf:
         - $ref: '#/components/schemas/McmaResource'
         - type: object
           properties:
             status:
+              description: The status of the job-like object.
               type: string
               enum:
                 - New
@@ -328,23 +411,29 @@ components:
             jobOutput:
               $ref: '#/components/schemas/JobParameterBag'
             progress:
+              description: Indicting the progress of job completion (used when the service is able to provide such information).
               type: number
     Job:
+      description: Represents a unit of work that needs to be processed.
       allOf:
         - $ref: '#/components/schemas/JobBase'
         - type: object
           properties:
             parentId:
+              description: An ID that identifies who created this job. This can be anything that might make sense in your MCMA environmente.g. a user, a system, or another job.
               type: string
               format: uri
             jobProfileId:
+              description: The job profile ID. This indicates which operation needs to be performed.
               type: string
               format: uri
             jobInput:
               $ref: '#/components/schemas/JobParameterBag'
             timeout:
+              description: Time in minutes indicating the maximum time the execution of the job may take. In case duration takes longer than this, the job will change to the Failed state.
               type: number
             deadline:
+              description: Date time in ISO 8601 format indicating before which the job must have been completed. In case the job does not achieve this, it’ll change to the Failed state.
               type: string
               format: date-time
             tracker:
@@ -354,59 +443,92 @@ components:
           required:
             - jobProfileId
     JobQueryResults:
+      description: Represents the results of running a query for MCMA resources against an MCMA service.
       allOf:
         - $ref: '#/components/schemas/McmaObject'
         - type: object
           properties:
             nextPageStartToken:
+              description: A string that can be passed back to the MCMA service that executed this query in order to get the next page of results. If no more results are available for the query, this will be null.
               type: string
             results:
+              description: The collection of results returned by the query.
               type: array
               items:
                 $ref: '#/components/schemas/Job'
     JobExecution:
+      description: Represents an attempt by the job processor to execute a job. Differs from a job assignment in that it is not necessarily associated with a service for processing and will exist even if no service is found to process a job.
       allOf:
         - $ref: '#/components/schemas/JobBase'
         - type: object
           properties:
             jobAssignmentId:
+              description: The job assignment ID, if any. If a job has not been assigned to a service for processing, this will not be set.
               type: string
               format: uri
             actualStartDate:
+              description: The date and time that processing of the job actually began at the assigned MCMA service (as opposed to when it was created or assigned to the MCMA Service).
               type: string
               format: date-time
             actualEndDate:
+              description: The date and time that processing of the job finished.
               type: string
               format: date-time
             actualDuration:
+              description: The time (in milliseconds) it took to process the job. This is typically calculated as the difference between ActualEndDate and ActualStartDate
               type: number
               format: int64
     JobExecutionQueryResults:
+      description: Represents the results of running a query for MCMA resources against an MCMA service.
       allOf:
         - $ref: '#/components/schemas/McmaObject'
         - type: object
           properties:
             nextPageStartToken:
+              description: A string that can be passed back to the MCMA service that executed this query in order to get the next page of results. If no more results are available for the query, this will be null.
               type: string
             results:
+              description: The collection of results returned by the query.
               type: array
               items:
                 $ref: '#/components/schemas/JobExecution'
+    JobAssignment:
+      description: Represents an assignment of a job to a service for processing.
+      allOf:
+        - $ref: '#/components/schemas/JobBase'
+        - type: object
+          properties:
+            jobId:
+              description: The ID of the job that's been assigned.
+              type: string
+              format: uri
+            tracker:
+              $ref: '#/components/schemas/McmaTracker'
+            notificationEndpoint:
+              $ref: '#/components/schemas/NotificationEndpoint'
+          required:
+            - jobId
     McmaApiError:
+      description: Represents an API error when an endpoint of an MCMA service is unable to fulfill the request.
       allOf:
         - $ref: '#/components/schemas/McmaObject'
         - type: object
           properties:
             status:
+              description: The HTTP response status code return by the API.
               type: integer
             error:
+              description: The description of the HTTP response status code.
               type: string
             message:
+              description: A message explaining the reason for the error.
               type: string
             timestamp:
+              description: A timestamp indicating when the API error was thrown.
               type: string
               format: date-time
             path:
+              description: The path on the API endpoint that was invoked.
               type: string
           required:
             - status
