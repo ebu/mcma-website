@@ -26,13 +26,16 @@ paths:
           in: query
           schema:
             type: string
-        - name: sortAscending
+        - name: sortOrder
           description: Indicates whether the results should be sorted ascending or descending.
           in: query
           schema:
-            type: boolean
+            type: string
+            enum:
+              - asc
+              - desc
       responses:
-        200:
+        '200':
           description: 200 OK.
           content:
             application/json:
@@ -50,7 +53,7 @@ paths:
             schema:
               $ref: '#/components/schemas/JobAssignment'
       responses:
-        201:
+        '201':
           description: 201 Created.
           headers:
             Location:
@@ -75,7 +78,7 @@ paths:
       description: Get a specific job assignment.
       operationId: getJobAssignment
       responses:
-        200:
+        '200':
           description: 200 OK.
           content:
             application/json:
@@ -87,7 +90,7 @@ paths:
       description: Delete a specific job assignment.
       operationId: deleteJobAssignment
       responses:
-        200:
+        '200':
           description: 200 OK.
         default:
           $ref: '#/components/responses/ApiError'
@@ -103,7 +106,7 @@ paths:
       description: Cancel a specific running job assignment.
       operationId: cancelJobAssignment
       responses:
-        200:
+        '200':
           description: 200 OK.
         default:
           $ref: '#/components/responses/ApiError'
