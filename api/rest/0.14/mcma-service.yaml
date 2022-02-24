@@ -1,0 +1,295 @@
+openapi: 3.0.3
+info:
+  title: MCMA Service
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+  version: '0.14'
+paths:
+  /job-assignments:
+    get:
+      description: List or query all job assignments.
+      operationId: listJobAssignments
+      parameters:
+        - name: pageSize
+          description: Indicates the maximum number of results being returned from the API.
+          in: query
+          schema:
+            type: integer
+        - name: pageStartToken
+          description: Indicates the token used for getting subsequent page results.
+          in: query
+          schema:
+            type: string
+        - name: sortBy
+          description: Indicates the property on which the results should be sorted.
+          in: query
+          schema:
+            type: string
+        - name: sortOrder
+          description: Indicates whether the results should be sorted ascending or descending.
+          in: query
+          schema:
+            type: string
+            enum:
+              - asc
+              - desc
+      responses:
+        '200':
+          description: 200 OK.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobAssignmentQueryResults'
+        default:
+          $ref: '#/components/responses/ApiError'
+    post:
+      description: Create a new job assignment.
+      operationId: createJobAssignment
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/JobAssignment'
+      responses:
+        '201':
+          description: 201 Created.
+          headers:
+            Location:
+              schema:
+                type: string
+                format: uri
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobAssignment'
+        default:
+          $ref: '#/components/responses/ApiError'
+  /job-assignments/{jobAssignmentId}:
+    parameters:
+      - name: jobAssignmentId
+        description: Unique ID identifying a specific job assignment.
+        in: path
+        required: true
+        schema:
+          type: string
+    get:
+      description: Get a specific job assignment.
+      operationId: getJobAssignment
+      responses:
+        '200':
+          description: 200 OK.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobAssignment'
+        default:
+          $ref: '#/components/responses/ApiError'
+    delete:
+      description: Delete a specific job assignment.
+      operationId: deleteJobAssignment
+      responses:
+        '200':
+          description: 200 OK.
+        default:
+          $ref: '#/components/responses/ApiError'
+  /job-assignments/{jobAssignmentId}/cancel:
+    parameters:
+      - name: jobAssignmentId
+        description: Unique ID identifying a specific job assignment.
+        in: path
+        required: true
+        schema:
+          type: string
+    post:
+      description: Cancel a specific running job assignment.
+      operationId: cancelJobAssignment
+      responses:
+        '200':
+          description: 200 OK.
+        default:
+          $ref: '#/components/responses/ApiError'
+components:
+  responses:
+    ApiError:
+      description: Response from an endpoint if an error occurs during the invocation.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/McmaApiError'
+  schemas:
+    McmaObject:
+      description: An MCMA object that's strongly-typed, i.e it specifies a "@type" property.
+      type: object
+      properties:
+        '@type':
+          description: The type of object.
+          type: string
+    McmaResource:
+      description: An MCMA resource, defining an ID and properties for tracking date created and modified.
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            id:
+              description: The ID of the resource.
+              type: string
+              format: uri
+            dateCreated:
+              description: The date and time at which the resource was created.
+              type: string
+              format: date-time
+            dateModified:
+              description: The date and time at which the resource was last modified.
+              type: string
+              format: date-time
+            custom:
+              description: Collection of custom properties for the resource.
+              type: object
+              additionalProperties: true
+    McmaTracker:
+      description: Used for tracking calls across multiple operations in an MCMA environment, particularly for the purpose of logging. Typically this will be stored on job-like objects that support it. It will also be serialized to json and converted to base-64 to be passed in the headers of calls made from a resource manager.
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            id:
+              description: The tracker's ID.
+              type: string
+            label:
+              description: A human-readable label for the tracker.
+              type: string
+            custom:
+              description: Custom properties that might also be useful for tracking purposes.
+              type: object
+              additionalProperties: true
+          required:
+            - id
+            - label
+    NotificationEndpoint:
+      description: Represents an endpoint that receives notifications about MCMA resources.
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            httpEndpoint:
+              description: The HTTP url at which notifications are expected.
+              type: string
+              format: uri
+          required:
+            - httpEndpoint
+    ProblemDetail:
+      description: Represents an error as defined by RFC 7807 (https://tools.ietf.org/html/rfc7807).
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            type:
+              description: A URI reference [RFC3986] that identifies the problem type.
+              type: string
+              format: uri
+            title:
+              description: A short, human-readable summary of the problem type.
+              type: string
+            detail:
+              description: A human-readable explanation specific to this occurrence of the problem.
+              type: string
+            instance:
+              description: A URI reference that identifies the specific occurrence of the problem. It may or may not yield further information if dereferenced.
+              type: string
+              format: uri
+          required:
+            - type
+            - title
+          additionalProperties: true
+    JobParameterBag:
+      description: Collection of job input or output parameter values.
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          additionalProperties: true
+    JobBase:
+      description: Represents a job-like object (Job, JobAssignment, or JobExecution).
+      allOf:
+        - $ref: '#/components/schemas/McmaResource'
+        - type: object
+          properties:
+            status:
+              description: The status of the job-like object.
+              type: string
+              enum:
+                - New
+                - Pending
+                - Assigned
+                - Queued
+                - Scheduled
+                - Running
+                - Completed
+                - Failed
+                - Canceled
+            error:
+              $ref: '#/components/schemas/ProblemDetail'
+            jobOutput:
+              $ref: '#/components/schemas/JobParameterBag'
+            progress:
+              description: Indicting the progress of job completion (used when the service is able to provide such information).
+              type: number
+    JobAssignment:
+      description: Represents an assignment of a job to a service for processing.
+      allOf:
+        - $ref: '#/components/schemas/JobBase'
+        - type: object
+          properties:
+            jobId:
+              description: The ID of the job that's been assigned.
+              type: string
+              format: uri
+            tracker:
+              $ref: '#/components/schemas/McmaTracker'
+            notificationEndpoint:
+              $ref: '#/components/schemas/NotificationEndpoint'
+          required:
+            - jobId
+    JobAssignmentQueryResults:
+      description: Represents the results of running a query for MCMA resources against an MCMA service.
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            nextPageStartToken:
+              description: A string that can be passed back to the MCMA service that executed this query in order to get the next page of results. If no more results are available for the query, this will be null.
+              type: string
+            results:
+              description: The collection of results returned by the query.
+              type: array
+              items:
+                $ref: '#/components/schemas/JobAssignment'
+    McmaApiError:
+      description: Represents an API error when an endpoint of an MCMA service is unable to fulfill the request.
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            status:
+              description: The HTTP response status code return by the API.
+              type: integer
+            error:
+              description: The description of the HTTP response status code.
+              type: string
+            message:
+              description: A message explaining the reason for the error.
+              type: string
+            timestamp:
+              description: A timestamp indicating when the API error was thrown.
+              type: string
+              format: date-time
+            path:
+              description: The path on the API endpoint that was invoked.
+              type: string
+          required:
+            - status
+            - error
+            - message
+            - timestamp
+            - path

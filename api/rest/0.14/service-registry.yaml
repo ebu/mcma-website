@@ -1,0 +1,397 @@
+openapi: 3.0.3
+info:
+  title: MCMA Service Registry
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+  version: '0.14'
+paths:
+  /services:
+    get:
+      description: List or query all services.
+      operationId: listServices
+      parameters:
+        - name: pageSize
+          description: Indicates the maximum number of results being returned from the API.
+          in: query
+          schema:
+            type: integer
+        - name: pageStartToken
+          description: Indicates the token used for getting subsequent page results.
+          in: query
+          schema:
+            type: string
+        - name: sortBy
+          description: Indicates the property on which the results should be sorted.
+          in: query
+          schema:
+            type: string
+        - name: sortOrder
+          description: Indicates whether the results should be sorted ascending or descending.
+          in: query
+          schema:
+            type: string
+            enum:
+              - asc
+              - desc
+      responses:
+        '200':
+          description: 200 OK.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServiceQueryResults'
+        default:
+          $ref: '#/components/responses/ApiError'
+    post:
+      description: Create a new service.
+      operationId: createService
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Service'
+      responses:
+        '201':
+          description: 201 Created.
+          headers:
+            Location:
+              schema:
+                type: string
+                format: uri
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Service'
+        default:
+          $ref: '#/components/responses/ApiError'
+  /services/{serviceId}:
+    parameters:
+      - name: serviceId
+        description: Unique ID identifying a specific service.
+        in: path
+        required: true
+        schema:
+          type: string
+    get:
+      description: Get a specific service.
+      operationId: getService
+      responses:
+        '200':
+          description: 200 OK.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Service'
+        default:
+          $ref: '#/components/responses/ApiError'
+    put:
+      description: Create or update a specific service.
+      operationId: putService
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Service'
+      responses:
+        '200':
+          description: 200 OK.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Service'
+        default:
+          $ref: '#/components/responses/ApiError'
+    delete:
+      description: Delete a specific service.
+      operationId: deleteService
+      responses:
+        '200':
+          description: 200 OK
+        default:
+          $ref: '#/components/responses/ApiError'
+  /job-profiles:
+    get:
+      description: List or query all job profiles.
+      operationId: listJobProfiles
+      parameters:
+        - name: pageSize
+          description: Indicates the maximum number of results being returned from the API.
+          in: query
+          schema:
+            type: integer
+        - name: pageStartToken
+          description: Indicates the token used for getting subsequent page results.
+          in: query
+          schema:
+            type: string
+        - name: sortBy
+          description: Indicates the property on which the results should be sorted.
+          in: query
+          schema:
+            type: string
+        - name: sortAscending
+          description: Indicates whether the results should be sorted ascending or descending.
+          in: query
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: 200 OK.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobProfileQueryResults'
+        default:
+          $ref: '#/components/responses/ApiError'
+    post:
+      description: Create a new job profile.
+      operationId: createJobProfile
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/JobProfile'
+      responses:
+        '201':
+          description: 201 Created.
+          headers:
+            Location:
+              schema:
+                type: string
+                format: uri
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobProfile'
+        default:
+          $ref: '#/components/responses/ApiError'
+  /job-profiles/{jobProfileId}:
+    parameters:
+      - name: jobProfileId
+        description: Unique ID identifying a specific job profile.
+        in: path
+        required: true
+        schema:
+          type: string
+    get:
+      description: Get a specific job profile.
+      operationId: getJobProfile
+      responses:
+        '200':
+          description: 200 OK.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobProfile'
+        default:
+          $ref: '#/components/responses/ApiError'
+    put:
+      description: Create or update a specific job profile.
+      operationId: putJobProfile
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/JobProfile'
+      responses:
+        '200':
+          description: 200 OK.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobProfile'
+        default:
+          $ref: '#/components/responses/ApiError'
+    delete:
+      description: Delete a specific job profile.
+      operationId: deleteJobProfile
+      responses:
+        '200':
+          description: 200 OK.
+        default:
+          $ref: '#/components/responses/ApiError'
+components:
+  responses:
+    ApiError:
+      description: Response from an endpoint if an error occurs during the invocation.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/McmaApiError'
+  schemas:
+    McmaObject:
+      description: An MCMA object that's strongly-typed, i.e it specifies a "@type" property.
+      type: object
+      properties:
+        '@type':
+          description: The type of object.
+          type: string
+    McmaResource:
+      description: An MCMA resource, defining an ID and properties for tracking date created and modified.
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            id:
+              description: The ID of the resource.
+              type: string
+              format: uri
+            dateCreated:
+              description: The date and time at which the resource was created.
+              type: string
+              format: date-time
+            dateModified:
+              description: The date and time at which the resource was last modified.
+              type: string
+              format: date-time
+            custom:
+              description: Collection of custom properties for the resource.
+              type: object
+              additionalProperties: true
+    ResourceEndpoint:
+      description: Represents an endpoint exposed by an MCMA service for performing operations against a specific type of resource.
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            resourceType:
+              description: The type of resource this endpoint handles.
+              type: string
+            httpEndpoint:
+              description: The HTTP url for invoking this endpoint.
+              type: string
+            authType:
+              description: The type of authentication required to communicate with this endpoint. This is optional at this level and will override the auth type defined at the Service level.
+              type: string
+          required:
+            - resourceType
+            - httpEndpoint
+    Service:
+      description: Represents a service in an MCMA environment.
+      allOf:
+        - $ref: '#/components/schemas/McmaResource'
+        - type: object
+          properties:
+            name:
+              description: The name of the service.
+              type: string
+            resources:
+              description: The collection of endpoints exposed by this service.
+              type: array
+              items:
+                $ref: '#/components/schemas/ResourceEndpoint'
+            authType:
+              description: The type of authentication required to communicate with the endpoints exposed by this service. This may be overridden at the ResourceEndpoint level.
+              type: string
+            jobType:
+              description: The type of jobs expected by this service (if any).
+              type: string
+            jobProfileIds:
+              description: The collection of IDs for job profiles that this service supports.
+              type: array
+              items:
+                type: string
+                format: uri
+          required:
+            - name
+            - resources
+    JobParameter:
+      description: Represents a defined parameter on a job profile.
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            parameterName:
+              type: string
+            parameterType:
+              type: string
+          required:
+            - parameterName
+            - parameterType
+    JobProfile:
+      description: Represents a type of job processing a service can do.
+      allOf:
+        - $ref: '#/components/schemas/McmaResource'
+        - type: object
+          properties:
+            name:
+              description: The name of the profile.
+              type: string
+            inputParameters:
+              description: The collection of input parameters required by the caller when running a job with this profile.
+              type: array
+              items:
+                $ref: '#/components/schemas/JobParameter'
+            outputParameters:
+              description: The collection of output parameters that will be returned when this profile is used in a job.
+              type: array
+              items:
+                $ref: '#/components/schemas/JobParameter'
+            optionalInputParameters:
+              description: A collection of optional input parameters for the profile. The caller may or may not provide these, depending on their needs.
+              type: array
+              items:
+                $ref: '#/components/schemas/JobParameter'
+          required:
+            - name
+    ServiceQueryResults:
+      description: Represents the results of running a query for MCMA resources against an MCMA service.
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            nextPageStartToken:
+              description: A string that can be passed back to the MCMA service that executed this query in order to get the next page of results. If no more results are available for the query, this will be null.
+              type: string
+            results:
+              description: The collection of results returned by the query.
+              type: array
+              items:
+                $ref: '#/components/schemas/Service'
+    JobProfileQueryResults:
+      description: Represents the results of running a query for MCMA resources against an MCMA service.
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            nextPageStartToken:
+              description: A string that can be passed back to the MCMA service that executed this query in order to get the next page of results. If no more results are available for the query, this will be null.
+              type: string
+            results:
+              description: The collection of results returned by the query.
+              type: array
+              items:
+                $ref: '#/components/schemas/JobProfile'
+    McmaApiError:
+      description: Represents an API error when an endpoint of an MCMA service is unable to fulfill the request.
+      allOf:
+        - $ref: '#/components/schemas/McmaObject'
+        - type: object
+          properties:
+            status:
+              description: The HTTP response status code return by the API.
+              type: integer
+            error:
+              description: The description of the HTTP response status code.
+              type: string
+            message:
+              description: A message explaining the reason for the error.
+              type: string
+            timestamp:
+              description: A timestamp indicating when the API error was thrown.
+              type: string
+              format: date-time
+            path:
+              description: The path on the API endpoint that was invoked.
+              type: string
+          required:
+            - status
+            - error
+            - message
+            - timestamp
+            - path
