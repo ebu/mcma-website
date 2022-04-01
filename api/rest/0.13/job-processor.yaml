@@ -257,7 +257,7 @@ paths:
                 $ref: '#/components/schemas/JobExecution'
         default:
           $ref: '#/components/responses/ApiError'
-  /jobs/{jobId}/executions/${executionId}/notifications:
+  /jobs/{jobId}/executions/{executionId}/notifications:
     parameters:
       - name: jobId
         description: Unique ID identifying a specific job.
